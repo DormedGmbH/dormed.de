@@ -171,11 +171,11 @@ Google.
    `:canonical`, ggf. ein benannter Slot `head` für JSON-LD, Default-Slot für den
    Seiteninhalt. Globale Assets (zentrales Stylesheet aus Phase 1.4, später das
    Cookie-Consent-Script aus Phase 5) werden hier zentral eingebunden statt pro Seite.
-3. Alle Seiten aus Phase 2 auf `<x-layout>` umstellen. Dabei weitere Fragmente, die
-   wirklich 1:1 auf vielen Seiten wiederverwendet werden (z. B. das
-   Dropdown-Positionierungs-Snippet im Nav, Badge-/Button-Widgets), in eigene Components
-   auslagern — aber nur was tatsächlich dupliziert vorliegt, keine vorzeitige Abstraktion
-   für Dinge, die nur einmal vorkommen.
+3. Alle Seiten aus Phase 2 auf `<x-layout>` umstellen. **Scope bewusst eng:** in dieser
+   Phase wird ausschließlich Header/Footer/Layout-Scaffold komponentisiert — keine weiteren
+   Fragmente (Nav-Dropdowns, Badges, Buttons o. ä.) extrahieren, auch wenn sie mehrfach
+   vorkommen. Das ist explizit nicht Teil von Phase 3 und wird erst später, falls
+   gewünscht, als eigener Schritt angegangen.
 
 ### Phase-3-Abschlusskriterium
 
