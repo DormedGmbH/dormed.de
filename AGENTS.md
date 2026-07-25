@@ -15,6 +15,20 @@ vollständigen Phasenplan.
 **Vor jeder Aufgabe: `ROADMAP.md` lesen.** Phasen werden der Reihe nach abgearbeitet, ein
 Abschlusskriterium (DoD) muss erfüllt sein, bevor die nächste Phase beginnt.
 
+Seit Phase 2 gibt es zusätzlich zwei weitere Kontext-Quellen, die zusammen mit diesem
+Dokument den vollständigen Einstiegspunkt bilden:
+
+- **`CLAUDE.md`** — von `laravel/boost` generierte, Laravel/Pest/Pint-spezifische
+  Coding-Guidelines (PHP-Codestil, Testing-Konventionen, wie Boost-MCP-Tools zu nutzen
+  sind usw.). Technischer Coding-Standard, kein Projektkontext — ergänzt dieses Dokument,
+  überschneidet sich nicht damit.
+- **Laravel Boost** (`laravel/boost`, als Dev-Dependency installiert) — stellt einen
+  MCP-Server mit Laravel-spezifischen Tools bereit (u. a. `search-docs` für
+  versionsgenaue Doku, `database-query`/`database-schema`, `get-absolute-url`,
+  `browser-logs`) sowie zwei Skills (`laravel-best-practices`, `pest-testing`) unter
+  `.claude/skills/`. Bei Laravel-/Pest-Aufgaben diese Tools/Skills bevorzugen statt
+  manueller Shell-Kommandos, siehe `CLAUDE.md` für Details.
+
 ## Nicht verhandelbare Leitplanken
 
 (Vollständig in `ROADMAP.md` unter "Core Rules" — hier die Kurzfassung:)

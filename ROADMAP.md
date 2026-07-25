@@ -16,7 +16,11 @@ wenn nichts anderes vom Auftraggeber (Lukas) kommuniziert wurde, gilt der Defaul
    1:1 die aktuelle Datei) — damit sie später ohne URL-Änderung dynamisch generiert werden
    kann.
 3. Styling wird 1:1 optisch übernommen. Keine Redesigns, keine "Verbesserungen" nebenbei.
-4. Keine Datenbank. Persistenz, falls nötig, über Cookies/Cache/Dateisystem.
+4. Keine Business-/Content-Datenbank (keine Produktdaten, keine Formular-Einträge o. ä.
+   dauerhaft in einer DB). **Ausnahme (Phase 2 präzisiert):** SQLite als reiner,
+   serverloser Zwischenspeicher für Framework-internen Zustand (Cache, Sessions) ist
+   erlaubt — kein DB-Server-Prozess, keine Zugangsdaten, keine Backup-Pflicht, die Datei
+   ist ephemer und wird bei Bedarf per `migrate:fresh` neu aufgebaut.
 5. Kein dauerhaft laufender Node/Server-Prozess. Klassisches PHP-FPM-Hosting.
 6. **Das an den Browser ausgelieferte HTML darf sich in keinem Punkt inhaltlich vom
    aktuellen Stand unterscheiden** — mit genau diesen Ausnahmen: zentraler
@@ -165,32 +169,70 @@ Produktkatalog, bereinigtem Markup und aufgeräumter Bilderstruktur je Produkt.
 
 ## Phase 2 – Laravel-Setup
 
-1. Aktuellen Stand (= Ergebnis von Phase 1) nach `.old/` verschieben, ab hier unangetastet
-   als Referenz für den gesamten weiteren Weg.
-2. Laravel frisch initialisieren. ⚠️ Neueste stabile Version, sofern kein Hosting-Limit bei
-   der PHP-Version dagegenspricht (bitte bestätigen).
-3. `laravel/boost` als Dev-Dependency installieren (`composer require laravel/boost --dev`)
-   und initialisieren (`php artisan boost:install`).
-4. Aufräumen: SQLite-Datei und `users`/`cache`/`jobs`-Migrationen löschen (nicht gebraucht),
-   `.env`: `SESSION_DRIVER=file`, `CACHE_STORE=file`, `QUEUE_CONNECTION=sync`,
-   `DB_CONNECTION` entfernen. Default-Scaffolding (`welcome.blade.php`, Default-Routen)
-   löschen.
-   - Standard-Laravel-Vite-Pipeline wird verwendet (`npm run build` für gebündelte Assets
-     beim Deploy, wie in frischen Laravel-Projekten üblich) — kein Runtime-Prozess, nur
-     ein Build-Schritt.
-5. Ordnerstruktur unter `resources/views/` 1:1 zur aktuellen Struktur nachbauen (z. B.
-   `resources/views/ultraschallgeraete/standgeraete/index.blade.php`), pro Ordner eine
-   `index.blade.php`. Für diese Phase: reines 1:1-Copy-Paste des bereinigten Phase-1-HTML
-   in die Blade-Dateien — noch keine Componentisierung, noch keine Blade-Direktiven, noch
-   keine Layouts.
-6. `routes/web.php`: pro Seite eine explizite Route (Laravel hat kein natives
-   File-Based-Routing wie Next.js — muss enumeriert werden), URL-Pfade exakt identisch zu
-   jetzt. Die bisherigen "schönen URLs ohne .html" ergeben sich mit Laravel-Routing
-   automatisch — die aktuell nötige nginx-Rewrite-Regel entfällt.
-7. `public/`: `robots.txt`, `assets/img/`, `assets/pdf/`, `assets/widgets.css` unverändert
-   nach `public/...` (identische URL-Pfade). **`sitemap.xml` und
-   `sitemap-system-pages.xml` NICHT nach `public/`**, sondern als Route in `web.php`
-   registrieren, die den aktuellen (statischen) Inhalt zurückgibt — siehe Core Rule 2.
+**Wichtig, gilt ab dieser Phase:** alles, was hier nicht explizit als Schritt ausformuliert
+ist, wird vor der Umsetzung mit dem Auftraggeber (Lukas) abgestimmt — keine impliziten
+Architektur-/Setup-Entscheidungen mehr treffen. Bereits abgestimmte Zusatzentscheidungen
+stehen direkt bei den jeweiligen Schritten.
+
+1. ✅ Aktuellen Stand (= Ergebnis von Phase 1) nach `.old/` verschoben, ab hier unangetastet
+   als Referenz für den gesamten weiteren Weg. Laravel-Projekt lebt im Repo-Root (nicht in
+   einem Unterordner).
+2. ✅ Laravel frisch initialisiert: PHP 8.4, Laravel 13, **kein Starter-Kit** (reines
+   Blade, kein React/Vue/Livewire-Scaffolding), **Pest** statt PHPUnit als Test-Framework
+   (Composer-Skeleton bringt standardmäßig PHPUnit mit, wurde manuell auf Pest + Pest
+   Laravel-Plugin umgestellt).
+3. ✅ `laravel/boost` als Dev-Dependency installiert und initialisiert
+   (`php artisan boost:install`) — legt u. a. `CLAUDE.md`/`.claude/` mit
+   Laravel/Pest/Pint-Konventionen an, ergänzt `AGENTS.md` (Projektkontext), ersetzt es
+   nicht.
+4. ✅ Aufgeräumt, mit folgenden abgestimmten Zusatzentscheidungen:
+   - `users`/`jobs`-Migration und `App\Models\User` inkl. Factory **dauerhaft entfernt**
+     (kein Auth-System geplant). `DatabaseSeeder` entsprechend geleert.
+   - **Korrektur zu Core Rule 4:** "Keine Datenbank" bezieht sich auf **Business-/
+     Content-Daten** (Produkte, Formular-Einträge etc.) — nicht auf SQLite als reinen,
+     serverlosen Zwischenspeicher für Framework-internen Zustand. Cache und Sessions
+     laufen über SQLite (`DB_CONNECTION=sqlite`, `SESSION_DRIVER=database`,
+     `CACHE_STORE=database`, `cache`- und `sessions`-Migration vorhanden). Begründung:
+     auf klassischem PHP-FPM-Hosting (Core Rule 5) sammeln sich bei dateibasierten
+     Sessions/Cache sehr viele Einzeldateien an; SQLite bündelt das in einer Datei, ohne
+     einen eigenen DB-Server-Prozess zu brauchen. Die SQLite-Datei selbst ist **ephemer**
+     (gitignored, wird bei jedem Deploy per `migrate:fresh` neu angelegt, keine
+     Produktivdaten drin).
+   - `QUEUE_CONNECTION=sync` bleibt wie ursprünglich geplant (DB-Queue erst, wenn
+     tatsächlich asynchrone Jobs gebraucht werden).
+   - `welcome.blade.php` + Default-Route gelöscht, Default-Feature-Test (testete die
+     gelöschte Welcome-Seite) mit entfernt, Default-Unit-Test auf Pest-Syntax umgestellt.
+   - Laravels eigenes `README.md` behalten (überschreibt unser bisheriges minimales).
+   - Default-CI-Workflow (`.github/workflows/`) entfernt.
+   - Laravel Pint (Code-Formatter) mit Standard-Konfiguration behalten.
+   - **Vite:** Standard-Pipeline wird verwendet (`npm run build` beim Deploy, kein
+     Runtime-Prozess). Tailwind CSS und die default Bunny-Fonts-Integration (beide seit
+     Laravel 13 auch im "kein Starter-Kit"-Skeleton dabei) **entfernt** — nicht gebraucht,
+     wir migrieren bestehendes CSS 1:1, keine Utility-Klassen geplant, keine neuen
+     Web-Fonts. Default-Entry-Points `resources/css/app.css`/`resources/js/app.js`
+     entfernt; stattdessen `style.css` und `widgets.css` unverändert nach
+     `resources/css/` verschoben und als Vite-Entry-Points registriert (`vite.config.js`).
+     Einbindung vorerst per `@vite()` einzeln pro Seite (noch keine Layout-Komponente,
+     kommt erst Phase 3).
+5. ✅ Ordnerstruktur unter `resources/views/` 1:1 zur aktuellen Struktur nachgebaut (77
+   Seiten), reines 1:1-Copy-Paste des bereinigten Phase-1-HTML in die Blade-Dateien — noch
+   keine Componentisierung, noch keine Blade-Direktiven, noch keine Layouts. Zwei
+   mechanische Anpassungen waren dabei nötig (direkte Konsequenz bereits getroffener
+   Entscheidungen, keine neuen): die beiden `<link rel="stylesheet">`-Tags wurden durch
+   `@vite([...])` ersetzt (Punkt 4), und jedes literale `"@context"` im JSON-LD (67 von 77
+   Seiten) musste zu `"@@context"` escaped werden — Laravel 13 hat mittlerweile eine echte
+   `@context`/`@endcontext`-Blade-Direktive, die sonst mit dem JSON-LD-Key kollidiert und
+   die Seite zum Compile-Fehler bringt. Alle anderen Blade-Direktivnamen wurden vorab
+   gegen den gesamten Content-Bestand geprüft, keine weiteren Kollisionen gefunden.
+6. ✅ `routes/web.php`: eine `Route::view()` pro Seite (77 Stück, alle benannt), URL-Pfade
+   exakt identisch zu jetzt. `sitemap.xml`/`sitemap-system-pages.xml` als eigene Routen
+   registriert, lesen aus `resources/sitemap/` (Inhalt 1:1 aus `.old/`), **nicht** aus
+   `public/` — siehe Core Rule 2.
+7. ✅ `public/assets/img/` und `public/assets/pdf/` unverändert aus `.old/assets/`
+   übernommen (identische URL-Pfade), `public/robots.txt` aus `.old/robots.txt` ersetzt
+   Laravels Default-`robots.txt`. `assets/widgets.css` geht **nicht** mehr nach `public/`
+   (siehe Punkt 4, Vite) — Korrektur gegenüber der ursprünglichen Formulierung dieses
+   Schritts.
 8. **Infra außerhalb des Repos:** nginx muss von "statisches Fileserving + Rewrite" auf
    einen Laravel-Standard-Serverblock (PHP-FPM, `public/index.php` als Front Controller)
    umgestellt werden. Referenz-Config liegt im Repo-Root als `nginx.conf.example`.
@@ -199,11 +241,26 @@ Produktkatalog, bereinigtem Markup und aufgeräumter Bilderstruktur je Produkt.
    Übertragung auf ein klassisches nginx/PHP-FPM/www-user-Setup auf dem Live-Server wird
    sie tatsächlich verwendet und muss dann mit echten Pfaden/Domain/Socket bestückt werden.
 
-### Phase-2-Abschlusskriterium
+### Phase-2-Abschlusskriterium — ✅ erreicht (Repo-Anteil; Punkt 8 bleibt Infra-Aufgabe)
 
 Identisches Ergebnis zu Phase 1 (URLs, Optik, Verhalten), jetzt aber ausgeliefert durch
 Laravel/PHP-FPM statt statischem Fileserver. Kein sichtbarer Unterschied für Besucher oder
 Google.
+
+Verifiziert: alle 79 Routen (77 Seiten + 2 Sitemaps) liefern HTTP 200, 0 fehlgeschlagene
+Requests/JS-Fehler (Playwright-Sweep). Byte-Vergleich aller 77 Seiten gegen die alte
+statische Ausgabe — nach Herausrechnen der beiden erlaubten Unterschiede (Stylesheet-Import
+statt Inline-Link, s. o.) — zu 100 % identisch. `sitemap.xml`, `sitemap-system-pages.xml`
+und `robots.txt` ebenfalls byte-identisch. Nav-Mega-Menü und Mobile-Burger-Menü funktional
+geprüft.
+
+Hinweis für künftige Vorher/Nachher-Vergleiche: `laravel/boost` (Dev-Dependency) injiziert
+in `local`/`debug`-Umgebungen ein Browser-Log-Capture-Script in jede Response
+(`InjectBoost`-Middleware) — das erzeugt in Screenshot-Diffs sichtbares Pixel-Rauschen
+(Text-Antialiasing), obwohl der eigentliche Seiteninhalt unverändert ist. Bei
+`composer install --no-dev` bzw. außerhalb von `local`/`debug` taucht das Script gar nicht
+erst auf. Für zuverlässige Vergleiche den Byte-Diff-Ansatz (Script rausfiltern) nutzen,
+nicht blind auf Pixel-Diff verlassen.
 
 ---
 
@@ -246,19 +303,47 @@ werden.
    (keine neue Route, Core Rule bleibt unangetastet), im 1:1-Stil der restlichen Seite
    gestaltet und leicht austauschbar, falls Original-Content nachgeliefert wird. Mail-Body:
    ruhiges, modernes Template, das nur die eingegebenen Daten strukturiert darstellt.
-2. Zusätzliche zweite Mail als Eingangsbestätigung an den Kunden.
-3. Versand zunächst synchron (`QUEUE_CONNECTION=sync`). Erst nach Validierung im
-   Produktivbetrieb Umstellung auf Queue diskutieren.
-4. Mail-Views unter `resources/views/mail/contact-form/customer.blade.php` und
+2. **Firmen-Empfänger-Adresse wird nicht separat konfiguriert**, sondern aus der
+   SMTP-Absenderadresse (`MAIL_FROM_ADDRESS`) abgeleitet — in diesem Setup sind Sender- und
+   Empfänger-Postfach der Firmen-Mail identisch (dieselbe Firmen-Mailbox verschickt die Mail
+   an sich selbst). Ein eigener `CONTACT_COMPANY_EMAIL`-Env-Var wäre reine Redundanz zu
+   `MAIL_FROM_ADDRESS` und entfällt entsprechend. Alle übrigen Angaben (Name, Nachricht,
+   Kunden-E-Mail) kommen dynamisch aus dem Formular.
+3. **Reply-To der Firmen-Mail** wird auf die vom Kunden im Formular angegebene E-Mail-Adresse
+   gesetzt — Mitarbeiter können also direkt aus dem Postfach auf die Anfrage antworten, ohne
+   die Adresse manuell rauszusuchen. Konsequenz: die Firmen-Mail landet dadurch faktisch im
+   Konversationsverlauf mit dem Kunden (sobald jemand antwortet, sieht der Kunde die
+   ursprüngliche Mail ggf. mit in der Historie) — das Template muss entsprechend
+   präsentabel/professionell aussehen, nicht wie ein reiner Debug-/Rohdaten-Dump.
+4. Zusätzliche zweite Mail als Eingangsbestätigung an den Kunden.
+5. Versand zunächst synchron (`QUEUE_CONNECTION=sync`). Erst nach Validierung im
+   Produktivbetrieb Umstellung auf Queue diskutieren. Aktuell würde ein Versandfehler (egal
+   welche der beiden Mails) dem Kunden synchron als Fehlerseite angezeigt — das wird hier
+   noch nicht gelöst, siehe Logging-Punkt unten als Zwischenschritt/Beobachtungsinstrument.
+6. Mail-Views unter `resources/views/mail/contact-form/customer.blade.php` und
    `resources/views/mail/contact-form/company.blade.php` (Laravel-Konvention ist
    `resources/views/mail/...`, nicht `resources/mail/...` — entsprechend korrigiert).
-5. Feature-Tests für die komplette Formular-Logik: Validierungsfehler, Erfolgsfall,
-   beide Mails werden verschickt (`Mail::fake()` + Assertions).
+7. **Eigenes Log `storage/logs/contact-form.log`**, das **jede** Formular-Einreichung
+   protokolliert (nicht nur Fehler) — ein eigener Log-Channel, getrennt vom normalen
+   Laravel-Log. Eine Zeile pro Einreichung, Format:
+   ```
+   [TT.MM.JJJJ HH:MM:SS] Anfrage von {NAME} | Mailversand an {Kunden-E-Mail} {✓|✗}
+   ```
+   Zeitstempel deutsch/menschenlesbar (nicht ISO), Status-Zeichen (✓/✗, UTF-8) bezieht sich
+   **nur auf den Mailversand an den Kunden** (Eingangsbestätigung aus Punkt 4) — für den
+   Versand an die Firma wird erstmal angenommen, dass er funktioniert bzw. sich über das
+   Firmen-Postfach selbst abgleichen lässt, daher kein separater Status dafür nötig. Zweck
+   ist langfristige Beobachtung/Abgleich, nicht das synchrone Fehlerproblem aus Punkt 5 zu
+   lösen — das bleibt ein offener Punkt für später (z. B. wenn auf Queue umgestellt wird).
+8. Feature-Tests für die komplette Formular-Logik: Validierungsfehler, Erfolgsfall,
+   beide Mails werden verschickt (`Mail::fake()` + Assertions), inkl. Log-Eintrag pro
+   Einreichung (Erfolgs- und Fehlerfall für den Kunden-Mailversand).
 
 ### Phase-4-Abschlusskriterium
 
-Kontaktformular versendet echte E-Mails (Firma + Kunde), TODO-Marker ist entfernt, Tests
-grün.
+Kontaktformular versendet echte E-Mails (Firma + Kunde) mit Reply-To auf die Kunden-Adresse
+bei der Firmen-Mail, TODO-Marker ist entfernt, jede Einreichung landet als eine Zeile in
+`contact-form.log` im vereinbarten Format, Tests grün.
 
 ---
 
@@ -276,6 +361,12 @@ grün.
 4. Optional, SSR-Vorteil gegenüber reinem Client-Ansatz: Helper/Blade-Directive, um
    eingebettete Drittanbieter-Inhalte (z. B. Maps-Embed) serverseitig erst nach
    vorhandenem Consent-Cookie zu rendern, statt sie client-seitig nachträglich zu blocken.
+5. Die Consent-Entscheidung wird **ausschließlich in einem eigenen, langlebigen
+   Browser-Cookie** gespeichert (nicht in der Laravel-DB-Session aus Core Rule 4). Grund:
+   Laravel-Sessions sind kurzlebig und leben in der `sessions`-Tabelle der SQLite-DB, die bei
+   einem `php artisan migrate:fresh` (z. B. automatisiert bei Redeploys) komplett geleert
+   wird — Consent müsste sonst bei jedem Deploy erneut eingeholt werden. Ein eigener Cookie
+   ist davon unabhängig und bleibt über Deploys hinweg gültig.
 
 ### Phase-5-Abschlusskriterium
 
@@ -285,7 +376,38 @@ Drittanbieter-Dienste aktiv sind.
 
 ---
 
-## Phase 6 – Backlog / noch nicht spezifiziert
+## Phase 6 – Launch (Produktivbetrieb & Analytics)
+
+1. Umzug auf den finalen Server, DNS-Einträge werden auf diesen umgestellt.
+2. CI/CD: GitHub-Actions-Workflow einrichten, der **ausschließlich auf Pushes auf `main`**
+   reagiert. Muss vor der DNS-Umstellung stehen. Ablauf: Lint + Tests laufen zuerst, der
+   Deploy-Job hängt per `needs:` (Job-Dependency) davon ab und läuft nur bei grünem
+   Lint/Test-Durchlauf. Der Auftraggeber liefert dafür ein nahezu fertiges Workflow-Template
+   mit 1–2 noch offenen Anpassungen. Coolify bleibt parallel als **Dev-Umgebung** bestehen
+   und hört weiterhin auf die `claude`-Branch (Webhook/Coolify-Setup dafür macht der
+   Auftraggeber selbst, ohne GitHub Actions); dort laufen Linting/Testing eigenständig,
+   nicht über den `main`-Workflow.
+3. `APP_ENV`/`APP_DEBUG` auf Produktionswerte umstellen, sobald auf dem finalen Server
+   (kein Boost-/Dev-Tooling mehr aktiv) — macht der Auftraggeber selbst zum Umstellungszeitpunkt.
+4. Consent-Management aus Phase 5 muss stehen und aktiv sein, bevor Analytics angebunden
+   wird — bis zur DNS-Umstellung funktional vorhanden, aber ohne aktive
+   Analytics-Anbindung dahinter.
+5. Google Analytics und Google Search Console werden **erst unmittelbar nach der
+   DNS-Umstellung** angebunden (bestehender Account wird mit der dann unter dormed.de
+   laufenden Seite verknüpft — kein Account-Wechsel nötig). Geht technisch erst zu diesem
+   Zeitpunkt, da die Seite vorher nicht unter der echten Domain live ist. Eine Datenlücke
+   von 2–3 Tagen durch DNS-Propagation ist akzeptiert.
+
+### Phase-6-Abschlusskriterium
+
+Seite läuft produktiv unter dormed.de auf dem finalen Server. CI/CD-Workflow deployt
+automatisiert bei Pushes auf `main`, ausschließlich nach erfolgreichem Lint/Test-Lauf.
+Coolify/`claude`-Branch bleibt als Dev-Umgebung parallel bestehen. Consent-Banner aktiv,
+Analytics/Search Console an den bestehenden Account angebunden.
+
+---
+
+## Phase 7 – Backlog / noch nicht spezifiziert
 
 Aus den bisherigen Gesprächen relevant, aber noch nicht konkret genug für eine eigene
 Phase — wird nachgezogen, sobald die offenen Fragen geklärt sind:
@@ -303,4 +425,4 @@ Phase — wird nachgezogen, sobald die offenen Fragen geklärt sind:
   Livewire (falls serverseitige Logik/Daten nötig sind).
 
 Diese Punkte werden zu eigenen, konkreten Phasen, sobald sie spezifiziert sind — bewusst
-nicht in Phase 1–5 hineingezwungen.
+nicht in Phase 1–6 hineingezwungen.

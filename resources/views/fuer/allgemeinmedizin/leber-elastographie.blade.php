@@ -1,0 +1,4716 @@
+<!DOCTYPE html>
+<html lang="de-DE" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="/assets/img/9166be6b-46c0-4068-8b57-2b414dd62000.png">
+    <link rel="apple-touch-icon" href="/assets/img/9166be6b-46c0-4068-8b57-2b414dd62000.png">
+    
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/fuer/allgemeinmedizin/leber-elastographie">
+    <link rel="alternate" hreflang="x-default" href="https://dormed.de/fuer/allgemeinmedizin/leber-elastographie">
+
+    <title>Leber-Elastographie (SWE): passende Geräte | DORMED</title>
+    <meta name="description" content="Leber-Elastographie statt Biopsie: kPa-Werte, Fibrose-Stadien, NAFLD. Welche Ultraschallsysteme integrierte Scherwellen-Elastographie bieten.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dormed.de/fuer/allgemeinmedizin/leber-elastographie">
+
+    
+
+    <meta property="og:title" content="Leber-Elastographie (SWE): passende Geräte | DORMED">
+    <meta property="og:description" content="Leber-Elastographie statt Biopsie: kPa-Werte, Fibrose-Stadien, NAFLD. Welche Ultraschallsysteme integrierte Scherwellen-Elastographie bieten.">
+    <meta property="og:url" content="https://dormed.de/fuer/allgemeinmedizin/leber-elastographie">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Leber-Elastographie (SWE): passende Geräte | DORMED">
+    <meta name="twitter:description" content="Leber-Elastographie statt Biopsie: kPa-Werte, Fibrose-Stadien, NAFLD. Welche Ultraschallsysteme integrierte Scherwellen-Elastographie bieten.">
+
+    @vite(['resources/css/style.css', 'resources/css/widgets.css'])
+
+    <style id="yuuble-theme-style">
+    :root{
+
+}
+
+    </style>
+
+    
+    
+    <!-- Google Tag Manager -->
+<!-- End Google Tag Manager -->
+  
+
+  </head>
+  <body>
+
+<header id="header-b346cc60-762d-497f-9c88-f211d52671b2" class="region header" style="z-index: 999; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); box-sizing: border-box; padding-top: 0px; padding-bottom: 0px; margin: 0; background-color:#ffffff; background-image:none; border-radius:0px; border:none; top: 0; left: 0; right: 0; width: auto; position: fixed">
+  <div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-98c8c3d9-460e-4139-a41b-abc1afd930e8" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-wid-23er5hyi5" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container">
+
+<!-- BACKDROP -->
+<div class="nav__backdrop" id="nav-backdrop"></div>
+
+<nav class="nav__wrap" id="nav" role="navigation" aria-label="Hauptnavigation">
+
+  <div class="nav__bar">
+    <div class="nav__inner">
+
+      <a href="/" class="nav__logo" aria-label="SONORING DORMED – Startseite">
+        <img src="/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png" alt="SONORING DORMED Logo" class="nav__logo-img"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <span class="nav__logo-text" style="display:none">
+          <span class="nav__logo-brand"><em>SONORING</em> DORMED</span>
+          <span class="nav__logo-sub">med. Systeme</span>
+        </span>
+      </a>
+
+      <div class="nav__links" role="menubar">
+        <div class="nav__item" data-panel="geraete" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Ultraschallgeräte
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <!-- NEU: Hersteller Tab -->
+        <div class="nav__item" data-panel="hersteller" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Hersteller
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <div class="nav__item" data-panel="leistungen" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Leistungen
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <div class="nav__item" role="none">
+          <a href="/veranstaltungen" class="nav__link" role="menuitem">Veranstaltungen</a>
+        </div>
+        <div class="nav__item" data-panel="standorte" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Standorte
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <div class="nav__item" data-panel="ueber" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Über uns
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <a href="/kontakt" class="nav__cta"> Unverbindlich anfragen</a>
+
+      <button class="nav__burger" id="nav-burger" aria-label="Menü öffnen" aria-expanded="false">
+        <span class="nav__burger-line"></span>
+        <span class="nav__burger-line"></span>
+        <span class="nav__burger-line"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: ULTRASCHALLGERÄTE ══ -->
+  <div class="nav__panel" id="panel-geraete" role="region" aria-label="Ultraschallgeräte">
+    <div class="nav__panel-inner">
+      <div class="nav__mega">
+        <div class="nav__mega-cats" role="tablist" aria-label="Gerätekategorien">
+          <div class="nav__mega-cat nav__mega-cat--active" data-cat="stationaer" role="tab" tabindex="0" aria-selected="true">Standgeräte</div>
+          <div class="nav__mega-cat" data-cat="mobil" role="tab" tabindex="-1" aria-selected="false">Tragbare Geräte</div>
+          <div class="nav__mega-cat" data-cat="handheld" role="tab" tabindex="-1" aria-selected="false">Handheld &amp; POCUS</div>
+        </div>
+        <div>
+
+          <!-- ── STANDGERÄTE ── -->
+          <div class="nav__mega-content nav__mega-content--active" data-cat="stationaer" role="tabpanel">
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — Premium</div>
+              <div class="nav__mega-grid">
+                <!-- NEU: Nuewa I10 als 1. Karte -->
+                <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i10" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Nuewa i10</span>
+                  <span class="nav__mega-card-type">Flaggschiff · Neu</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Nuewa i9</span>
+                  <span class="nav__mega-card-type">Flaggschiff</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Resona i9</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-resona-i8" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Resona i8</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — Consona &amp; DC Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N9</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n8" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N8</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n6" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N6</span>
+                  <span class="nav__mega-card-type">Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n5" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N5</span>
+                  <span class="nav__mega-card-type">Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-dc-60" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DC 60</span>
+                  <span class="nav__mega-card-type">Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-dc-30" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DC 30</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Esaote — Neu</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a50" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; A50</span>
+                  <span class="nav__mega-card-type">Mittelklasse · Neu</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a70" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; A70</span>
+                  <span class="nav__mega-card-type">Oberklasse · Neu</span>
+                </a>
+              </div>
+            </div>
+            <div class="nav__mega-footer">
+              <a href="/ultraschallgeraete/standgeraete" class="nav__mega-all">
+                Alle Standgeräte ansehen
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+              <span class="nav__mega-hint" aria-hidden="true">25 Geräte verfügbar</span>
+            </div>
+          </div>
+
+          <!-- ── TRAGBARE GERÄTE ── REIHENFOLGE: MINDRAY → ESAOTE → CHISON -->
+          <div class="nav__mega-content" data-cat="mobil" role="tabpanel">
+            <!-- 1. Mindray TE Serie -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — TE Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-te-9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE 9</span>
+                  <span class="nav__mega-card-type">Mobil · Kardio</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-te-7-ace" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE 7</span>
+                  <span class="nav__mega-card-type">Laptop · Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-te-5" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE 5</span>
+                  <span class="nav__mega-card-type">Laptop · Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <!-- 2. Mindray MX, MU & Z Serie -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — MX, MU &amp; Z Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mu7" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MU7</span>
+                  <span class="nav__mega-card-type">Mobil · Neu</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mx7" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MX7</span>
+                  <span class="nav__mega-card-type">Mobil · Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mx5" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MX5</span>
+                  <span class="nav__mega-card-type">Mobil · Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mx3" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MX3</span>
+                  <span class="nav__mega-card-type">Mobil · Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-z60" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Z60</span>
+                  <span class="nav__mega-card-type">Mobil · Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-z50" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Z50</span>
+                  <span class="nav__mega-card-type">Mobil · Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <!-- 3. Mindray DP Serie -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — DP Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-60" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 60</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-50" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 50</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-30" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 30</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-10" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 10</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <!-- 4. Esaote (X1 Go + C25) -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Esaote — Tragbar · Neu</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-x1-go" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; X1 Go</span>
+                  <span class="nav__mega-card-type">Ultra-Slim · 1,2 kg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-c25" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; C25</span>
+                  <span class="nav__mega-card-type">Kompakt-Portable</span>
+                </a>
+              </div>
+            </div>
+            <!-- 5. Chison -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Chison — Neu</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/chison-sonoair-70/" class="nav__mega-card" style="border-color:rgba(30,100,180,0.15)">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--chison">Chison</span>
+                  <span class="nav__mega-card-name">SonoAir 70</span>
+                  <span class="nav__mega-card-type">Tragbar · AIR-Plattform</span>
+                </a>
+              </div>
+            </div>
+            <div class="nav__mega-footer">
+              <a href="/ultraschallgeraete/mobile-geraete" class="nav__mega-all">
+                Alle mobilen Geräte ansehen
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- ── HANDHELD & POCUS ── -->
+          <div class="nav__mega-content" data-cat="handheld" role="tabpanel">
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — TE Air Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/handheld/mindray-te-air-e5m" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE Air e5M</span>
+                  <span class="nav__mega-card-type">Handheld · WLAN · POCUS</span>
+                </a>
+                <a href="/ultraschallgeraete/handheld/mindray-te-air-i3m" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE Air i3M</span>
+                  <span class="nav__mega-card-type">Handheld · WLAN · Pocket</span>
+                </a>
+              </div>
+            </div>
+            <div class="nav__mega-footer">
+              <a href="/ultraschallgeraete/handheld" class="nav__mega-all">
+                Alle Handheld-Geräte ansehen
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+              <span class="nav__mega-hint" aria-hidden="true">25 Geräte verfügbar</span>
+            </div>
+          </div>
+
+        <!-- ALLE GERÄTE LINK — unten rechts unter der Inhalts-Spalte -->
+        <div style="padding: 0.8rem 0 1.4rem; border-top: 1px solid rgba(9,58,126,0.07); margin-top: 0.5rem; display: flex; justify-content: flex-end;">
+          <a href="/ultraschallgeraete" style="font-family: 'JetBrains Mono', monospace; font-size: 0.50rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #fff; background: rgb(9,58,126); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.65rem 1.2rem; transition: background 0.2s;" onmouseover="this.style.background='rgb(7,46,102)'" onmouseout="this.style.background='rgb(9,58,126)'">
+            Alle Ultraschallgeräte
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:11px;height:11px"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: HERSTELLER ══ -->
+  <div class="nav__panel" id="panel-hersteller" role="region" aria-label="Hersteller">
+    <div class="nav__panel-inner">
+      <div class="nav__hers-wrap">
+        <div class="nav__hers-grid">
+
+          <!-- Mindray -->
+          <a href="/hersteller/mindray" class="nav__hers-card nav__hers-card--mindray">
+            <span class="nav__hers-card-name nav__hers-card-name--mindray">mindray</span>
+            <p class="nav__hers-card-desc">Weltmarktführer · Vollständiges Portfolio von Einstieg bis Flaggschiff — stationär, mobil und Handheld.</p>
+            <div class="nav__hers-card-cta nav__hers-card-cta--mindray">
+              Mindray entdecken
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+
+          <!-- Esaote -->
+          <a href="/hersteller/esaote" class="nav__hers-card nav__hers-card--esaote">
+            <span class="nav__hers-card-name nav__hers-card-name--esaote">esaote</span>
+            <p class="nav__hers-card-desc">Italian Design · MyLab A-Serie für Standgeräte, X1 Go und C25 für tragbare Anwendungen — KI-gestützter Workflow mit Augmented Insight&#8482;.</p>
+            <div class="nav__hers-card-cta nav__hers-card-cta--esaote">
+              Esaote entdecken
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+
+          <!-- Chison -->
+          <a href="/hersteller/chison" class="nav__hers-card nav__hers-card--chison">
+            <span class="nav__hers-card-name nav__hers-card-name--chison">Chison</span>
+            <p class="nav__hers-card-desc">AIR-Plattform · SonoAir 70 — weltweit dünnster Laptop-Scanner mit 4 Ports, 2,1 kg und 180 Min. Akku.</p>
+            <div class="nav__hers-card-cta nav__hers-card-cta--chison">
+              Chison entdecken
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: LEISTUNGEN ══ -->
+  <div class="nav__panel" id="panel-leistungen" role="region" aria-label="Leistungen">
+    <div class="nav__panel-inner">
+      <div class="nav__leis-wrap">
+        <div class="nav__leis-grid">
+          <a href="/leistungen/beratung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Beratung</span></div>
+            <span class="nav__leis-card-desc">Persönlich, unverbindlich, herstellerunabhängig — wir finden das richtige Gerät für Ihre Praxis.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/finanzierung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Finanzierung</span></div>
+            <span class="nav__leis-card-desc">Kauf, Leasing oder Ratenzahlung — flexible Modelle für jede Praxisgröße.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/lieferung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Lieferung &amp; Installation</span></div>
+            <span class="nav__leis-card-desc">Bundesweit, termingerecht, kostenlos — inklusive Einweisung direkt in Ihrer Praxis.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/wartung-reparatur" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Wartung &amp; Reparatur</span></div>
+            <span class="nav__leis-card-desc">1.700 aktive Wartungskunden — eigene Techniker, schnelle Reaktionszeiten, faire Preise.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/netzwerkanbindung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Netzwerkanbindung</span></div>
+            <span class="nav__leis-card-desc">PACS-Anbindung, DICOM-Integration und Praxissoftware-Kopplung aus einer Hand.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/garantie-versicherung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Garantie &amp; Versicherung</span></div>
+            <span class="nav__leis-card-desc">Garantieverlängerung und Geräteversicherung — Ihre Investition langfristig abgesichert.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/schulung-einweisung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Schulung &amp; Einweisung</span></div>
+            <span class="nav__leis-card-desc">MPBetreibV-konforme Einweisung mit schriftlichem Nachweis — direkt in Ihrer Praxis.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/inzahlungnahme" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Inzahlungnahme</span></div>
+            <span class="nav__leis-card-desc">Altes Ultraschallgerät in Zahlung geben — direkt beim Neukauf verrechnet.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: STANDORTE ══ -->
+  <div class="nav__panel" id="panel-standorte" role="region" aria-label="Standorte">
+    <div class="nav__panel-inner">
+      <div class="nav__small">
+        <a href="/standorte/dortmund" class="nav__small-item">
+          <span class="nav__small-label">Hauptsitz</span>
+          <span class="nav__small-title">Dortmund</span>
+          <span class="nav__small-desc">Wilhelm-Röntgen-Str. 4<br>59439 Holzwickede</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <a href="/standorte/duesseldorf" class="nav__small-item">
+          <span class="nav__small-label">Filiale</span>
+          <span class="nav__small-title">Düsseldorf</span>
+          <span class="nav__small-desc">Borsigstraße 5<br>40880 Ratingen</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <a href="/standorte/hamburg" class="nav__small-item">
+          <span class="nav__small-label">Filiale</span>
+          <span class="nav__small-title">Hamburg</span>
+          <span class="nav__small-desc">Bremer Straße 6<br>21244 Buchholz</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <a href="/standorte/kiel" class="nav__small-item" style="border-right:none">
+          <span class="nav__small-label">Filiale</span>
+          <span class="nav__small-title">Kiel</span>
+          <span class="nav__small-desc">Maria-Merian-Straße 9<br>24145 Kiel</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+      </div>
+    </div>
+    <!-- DIGITALE SONOTHEK — Full-Width-Streifen -->
+    <a href="/standorte/digitale-sonothek" class="nav__sono">
+      <div class="nav__sono-bg" aria-hidden="true">
+        <img src="/assets/img/8f02d462-e2b4-4289-2e5c-d35e6dffa700.jpg" alt="" loading="lazy">
+      </div>
+      <div class="nav__panel-inner">
+        <div class="nav__sono-inner">
+          <div class="nav__sono-text">
+            <div class="nav__sono-title">Digitale Sonothek</div>
+            <div class="nav__sono-desc">Geräte live im Video-Meeting kennenlernen — bequem aus Ihrer Praxis, ohne Anfahrt.</div>
+          </div>
+          <div class="nav__sono-arrow" aria-hidden="true">
+            Mehr erfahren
+            <svg viewBox="0 0 16 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <!-- ══ PANEL: ÜBER UNS ══ -->
+  <div class="nav__panel" id="panel-ueber" role="region" aria-label="Über uns">
+    <div class="nav__panel-inner">
+      <div class="nav__ueber-wrap">
+        <a href="/ueber/dormed" class="nav__ueber-identity">
+          <div class="nav__ueber-tag">Unternehmen seit 1989</div>
+          <div class="nav__ueber-headline">Über<br><em>Dormed</em></div>
+          <div class="nav__ueber-stats">
+            <div class="nav__ueber-stat">
+              <span class="nav__ueber-stat-num">35+</span>
+              <span class="nav__ueber-stat-lbl">Jahre Erfahrung</span>
+            </div>
+            <div class="nav__ueber-stat">
+              <span class="nav__ueber-stat-num">4</span>
+              <span class="nav__ueber-stat-lbl">Standorte</span>
+            </div>
+            <div class="nav__ueber-stat">
+              <span class="nav__ueber-stat-num">1.700</span>
+              <span class="nav__ueber-stat-lbl">Wartungskunden</span>
+            </div>
+          </div>
+          <div class="nav__ueber-link">
+            Mehr erfahren
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </div>
+        </a>
+        <div class="nav__ueber-stack">
+          <a href="/ueber/sonoring" class="nav__ueber-card">
+            <div class="nav__ueber-card-inner">
+              <div>
+                <div class="nav__ueber-card-tag">Verbund</div>
+                <div class="nav__ueber-card-title">Sonoring</div>
+                <div class="nav__ueber-card-desc">Deutschlands größte Sono-Fachhändlerorganisation — ~40% Marktanteil, ~23 Partner bundesweit.</div>
+              </div>
+            </div>
+            <div class="nav__ueber-card-cta" aria-hidden="true">
+              Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+          <a href="/karriere" class="nav__ueber-card">
+            <div class="nav__ueber-card-inner">
+              <div>
+                <div class="nav__ueber-card-tag">Jobs</div>
+                <div class="nav__ueber-card-title">Karriere</div>
+                <div class="nav__ueber-card-desc">Werden Sie Teil unseres Teams — wachsendes Unternehmen mit Sinn für Präzision.</div>
+              </div>
+              <div class="nav__ueber-card-badge">
+                <span class="nav__ueber-card-badge-dot"></span>
+                Jetzt bewerben
+              </div>
+            </div>
+            <div class="nav__ueber-card-cta" aria-hidden="true">
+              Stellen ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ MOBILE DRAWER ══ -->
+  <div class="nav__mobile" id="nav-mobile" role="dialog" aria-label="Mobile Navigation" aria-modal="true">
+
+    <div class="nav__mob-section" id="mob-geraete">
+      <button class="nav__mob-toggle" data-mob="geraete">Ultraschallgeräte <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <!-- STANDGERÄTE: Mindray → Esaote -->
+          <div class="nav__mob-sub-label">Standgeräte — Mindray</div>
+          <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i10" class="nav__mob-sub-link">Nuewa i10 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i9" class="nav__mob-sub-link">Nuewa i9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9" class="nav__mob-sub-link">Resona i9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-resona-i8" class="nav__mob-sub-link">Resona i8 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n9" class="nav__mob-sub-link">Consona N9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n8" class="nav__mob-sub-link">Consona N8 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n6" class="nav__mob-sub-link">Consona N6 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n5" class="nav__mob-sub-link">Consona N5 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-dc-60" class="nav__mob-sub-link">DC 60 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-dc-30" class="nav__mob-sub-link">DC 30 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Standgeräte — Esaote</div>
+          <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a50" class="nav__mob-sub-link">MyLab&#8482; A50 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a70" class="nav__mob-sub-link">MyLab&#8482; A70 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+
+          <!-- TRAGBARE GERÄTE: Mindray → Esaote → Chison -->
+          <div class="nav__mob-sub-label">Tragbare Geräte — Mindray</div>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-te-9" class="nav__mob-sub-link">TE 9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-te-7" class="nav__mob-sub-link">TE 7 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-te-5" class="nav__mob-sub-link">TE 5 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mu7" class="nav__mob-sub-link">MU7 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mx7" class="nav__mob-sub-link">MX7 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mx5" class="nav__mob-sub-link">MX5 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mx3" class="nav__mob-sub-link">MX3 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-z60" class="nav__mob-sub-link">Z60 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-z50" class="nav__mob-sub-link">Z50 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-60" class="nav__mob-sub-link">DP 60 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-50" class="nav__mob-sub-link">DP 50 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-30" class="nav__mob-sub-link">DP 30 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-10" class="nav__mob-sub-link">DP 10 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Tragbare Geräte — Esaote</div>
+          <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-x1-go" class="nav__mob-sub-link">MyLab&#8482; X1 Go <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-c25" class="nav__mob-sub-link">MyLab&#8482; C25 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Tragbare Geräte — Chison</div>
+          <a href="/ultraschallgeraete/mobile-geraete/chison-sonoair-70/" class="nav__mob-sub-link">SonoAir 70 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Handheld &amp; POCUS</div>
+          <a href="/ultraschallgeraete/handheld/mindray-te-air-e5m" class="nav__mob-sub-link">TE Air e5M <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/handheld/mindray-te-air-i3m" class="nav__mob-sub-link">TE Air i3M <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete" class="nav__mob-sub-link" style="color:var(--blue-d);font-weight:600;margin-top:0.5rem">Alle Geräte ansehen <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hersteller im Mobile Drawer -->
+    <div class="nav__mob-section" id="mob-hersteller">
+      <button class="nav__mob-toggle" data-mob="hersteller">Hersteller <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/hersteller/mindray/" class="nav__mob-sub-link">Mindray <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/hersteller/esaote/" class="nav__mob-sub-link">Esaote <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/hersteller/chison/" class="nav__mob-sub-link">Chison <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav__mob-section" id="mob-leistungen">
+      <button class="nav__mob-toggle" data-mob="leistungen">Leistungen <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/leistungen/beratung" class="nav__mob-sub-link">Beratung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/finanzierung" class="nav__mob-sub-link">Finanzierung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/lieferung" class="nav__mob-sub-link">Lieferung &amp; Installation <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/wartung-reparatur" class="nav__mob-sub-link">Wartung &amp; Reparatur <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/netzwerkanbindung" class="nav__mob-sub-link">Netzwerkanbindung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/garantie-versicherung" class="nav__mob-sub-link">Garantie &amp; Versicherung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/schulung-einweisung" class="nav__mob-sub-link">Schulung &amp; Einweisung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/inzahlungnahme" class="nav__mob-sub-link">Inzahlungnahme <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav__mob-section">
+      <a href="/veranstaltungen" class="nav__mob-toggle" style="text-decoration:none">Veranstaltungen <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+    </div>
+
+    <div class="nav__mob-section" id="mob-standorte">
+      <button class="nav__mob-toggle" data-mob="standorte">Standorte <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/standorte/dortmund" class="nav__mob-sub-link">Dortmund (Hauptsitz) <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/duesseldorf" class="nav__mob-sub-link">Düsseldorf <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/hamburg" class="nav__mob-sub-link">Hamburg <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/kiel" class="nav__mob-sub-link">Kiel <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/digitale-sonothek" class="nav__mob-sub-link" style="color:var(--blue-d);font-weight:600;margin-top:0.5rem;display:flex;align-items:center;gap:0.5rem">
+            <span style="display:inline-flex;align-items:center;gap:0.4rem">
+              <span style="width:6px;height:6px;background:#22c55e;border-radius:50%;display:inline-block;flex-shrink:0"></span>
+              Digitale Sonothek
+            </span>
+            <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:auto"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav__mob-section" id="mob-ueber">
+      <button class="nav__mob-toggle" data-mob="ueber">Über uns <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/ueber/dormed" class="nav__mob-sub-link">Über Dormed <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ueber/sonoring" class="nav__mob-sub-link">Sonoring <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/karriere" class="nav__mob-sub-link">Karriere <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <a href="/kontakt" class="nav__mob-cta"> Unverbindlich anfragen</a>
+  </div>
+
+</nav>
+
+<script>
+(function(){
+  var nav      = document.getElementById('nav');
+  var backdrop = document.getElementById('nav-backdrop');
+  var burger   = document.getElementById('nav-burger');
+  var currentPanel = null;
+  var closeTimer   = null;
+
+  function openPanel(id) {
+    if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; }
+    if (currentPanel === id) return;
+    _hidePanels();
+    var panel = document.getElementById('panel-' + id);
+    var item  = nav.querySelector('[data-panel="' + id + '"]');
+    if (!panel || !item) return;
+    panel.classList.add('nav__panel--visible');
+    item.classList.add('nav__item--open');
+    item.querySelector('button').setAttribute('aria-expanded', 'true');
+    nav.classList.add('nav__wrap--active');
+    currentPanel = id;
+  }
+
+  function _hidePanels() {
+    document.querySelectorAll('.nav__panel--visible').forEach(function(p) { p.classList.remove('nav__panel--visible'); });
+    nav.querySelectorAll('.nav__item--open').forEach(function(i) {
+      i.classList.remove('nav__item--open');
+      var btn = i.querySelector('button');
+      if (btn) btn.setAttribute('aria-expanded', 'false');
+    });
+    currentPanel = null;
+  }
+
+  function closePanel() { _hidePanels(); nav.classList.remove('nav__wrap--active'); }
+
+  function scheduledClose() {
+    closeTimer = setTimeout(function() { closePanel(); closeTimer = null; }, 120);
+  }
+
+  nav.querySelectorAll('[data-panel]').forEach(function(item) {
+    var id = item.dataset.panel;
+    item.addEventListener('mouseenter', function() { if (window.innerWidth <= 1060) return; openPanel(id); });
+    item.addEventListener('mouseleave', function() { if (window.innerWidth <= 1060) return; scheduledClose(); });
+    item.querySelector('button').addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (currentPanel === id) { closePanel(); } else { openPanel(id); }
+    });
+  });
+
+  nav.querySelectorAll('.nav__panel').forEach(function(panel) {
+    panel.addEventListener('mouseenter', function() { if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; } });
+    panel.addEventListener('mouseleave', function() { scheduledClose(); });
+  });
+
+  backdrop.addEventListener('click', closePanel);
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') { closePanel(); closeMobile(); } });
+
+  function activateMegaCat(cat) {
+    var catId = cat.dataset.cat;
+    var panel = cat.closest('.nav__mega');
+    panel.querySelectorAll('.nav__mega-cat').forEach(function(c) {
+      c.classList.remove('nav__mega-cat--active');
+      c.setAttribute('aria-selected', 'false');
+      c.setAttribute('tabindex', '-1');
+    });
+    panel.querySelectorAll('.nav__mega-content').forEach(function(c) { c.classList.remove('nav__mega-content--active'); });
+    cat.classList.add('nav__mega-cat--active');
+    cat.setAttribute('aria-selected', 'true');
+    cat.setAttribute('tabindex', '0');
+    var content = panel.querySelector('.nav__mega-content[data-cat="' + catId + '"]');
+    if (content) content.classList.add('nav__mega-content--active');
+  }
+
+  nav.querySelectorAll('.nav__mega-cat').forEach(function(cat) {
+    cat.addEventListener('mouseenter', function() { activateMegaCat(cat); });
+    cat.addEventListener('click', function() { activateMegaCat(cat); });
+    cat.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activateMegaCat(cat); }
+      if (e.key === 'ArrowDown') { e.preventDefault(); var next = cat.nextElementSibling; if (next && next.classList.contains('nav__mega-cat')) next.focus(); }
+      if (e.key === 'ArrowUp')   { e.preventDefault(); var prev = cat.previousElementSibling; if (prev && prev.classList.contains('nav__mega-cat')) prev.focus(); }
+    });
+  });
+
+  function closeMobile() {
+    nav.classList.remove('nav__wrap--mob-open');
+    burger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  burger.addEventListener('click', function(e) {
+    e.stopPropagation();
+    closePanel();
+    var isOpen = nav.classList.toggle('nav__wrap--mob-open');
+    burger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  nav.querySelectorAll('[data-mob]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var id      = btn.dataset.mob;
+      var section = document.getElementById('mob-' + id);
+      var isOpen  = section.classList.contains('nav__mob-section--open');
+      nav.querySelectorAll('.nav__mob-section--open').forEach(function(s) { s.classList.remove('nav__mob-section--open'); });
+      if (!isOpen) section.classList.add('nav__mob-section--open');
+    });
+  });
+
+  window.addEventListener('resize', function() { if (window.innerWidth > 1060) { closeMobile(); } });
+})();
+</script></div></div></div></div></div></div></div>
+</header>
+<script>
+      (function() {
+        const el = document.getElementById('header-b346cc60-762d-497f-9c88-f211d52671b2');
+        if (!el) return;
+        const trigger = 50;
+        let lastY = window.scrollY;
+
+        function update() {
+          const currY = window.scrollY;
+          const isDesktop = window.innerWidth > 800;
+
+          if (isDesktop && currY > trigger) {
+            el.classList.add('is-scrolled'); 
+          } else {
+            el.classList.remove('is-scrolled');
+          }
+          
+          if (el.classList.contains('sticky-reveal')) {
+            if (currY > lastY && currY > trigger + 100) {
+              el.style.transform = 'translateY(-120%)';
+            } else {
+              el.style.transform = 'translateY(0)';
+            }
+          }
+          lastY = currY;
+        }
+
+        window.addEventListener('scroll', update, { passive: true });
+        window.addEventListener('resize', update);
+        update();
+      })();
+
+      // --- DROPDOWN TELEPORT ---
+      // Problem: Header hat transform:translateY() => neuer Stacking Context =>
+      // position:absolute Dropdowns werden innerhalb des Headers geclippt.
+      // Fix: .popup-bridge Elemente aus dem Header-DOM herausreißen,
+      // direkt an <body> hängen, und per position:fixed + getBoundingClientRect positionieren.
+      (function() {
+        if (window.__teleport_init) return;
+        window.__teleport_init = true;
+
+        function teleportDropdowns() {
+          var items = document.querySelectorAll('.menu-item');
+          items.forEach(function(item) {
+            var bridge = item.querySelector('.popup-bridge');
+            if (!bridge || bridge.getAttribute('data-teleported')) return;
+
+            // Bridge aus Header herauslösen und an <body> hängen
+            bridge.setAttribute('data-teleported', 'true');
+            document.body.appendChild(bridge);
+
+            function openBridge() {
+              var rect = item.getBoundingClientRect();
+              bridge.style.position = 'fixed';
+              bridge.style.top = rect.bottom + 'px';
+              bridge.style.left = rect.left + 'px';
+              bridge.style.minWidth = Math.max(rect.width, 220) + 'px';
+              bridge.style.opacity = '1';
+              bridge.style.visibility = 'visible';
+              bridge.style.transform = 'translateY(0)';
+              bridge.style.pointerEvents = 'auto';
+              bridge.style.zIndex = '999999';
+            }
+
+            function closeBridge() {
+              bridge.style.opacity = '0';
+              bridge.style.visibility = 'hidden';
+              bridge.style.pointerEvents = 'none';
+              bridge.style.transform = 'translateY(-8px)';
+            }
+
+            item.addEventListener('mouseenter', openBridge);
+
+            item.addEventListener('mouseleave', function(e) {
+              // Nicht schließen wenn Maus direkt auf Bridge wechselt
+              if (bridge.contains(e.relatedTarget)) return;
+              closeBridge();
+            });
+
+            bridge.addEventListener('mouseleave', function(e) {
+              // Nicht schließen wenn Maus zurück auf Item wechselt
+              if (item.contains(e.relatedTarget)) return;
+              closeBridge();
+            });
+          });
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', teleportDropdowns);
+        } else {
+          teleportDropdowns();
+        }
+      })();
+    </script>
+    <main id="yuuble-main" class="main">
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-alygbu88w" style="position:relative;width:100%;min-height:auto;background-color:#F7F5F0;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:96px;padding-bottom:96px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-moczvg2y5" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-bbt942y1o" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-bbt942y1o { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.blog-hero__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.blog-hero__wrap *,
+.blog-hero__wrap *::before,
+.blog-hero__wrap *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-hero__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+/* LEFT */
+.blog-hero__left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Breadcrumb */
+.blog-hero__breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgb(72,87,112);
+}
+.blog-hero__breadcrumb a {
+  color: rgb(72,87,112);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.blog-hero__breadcrumb a:hover { color: rgb(9,58,126); }
+.blog-hero__breadcrumb-sep { color: rgb(90,110,140); }
+
+/* Kategorie-Label */
+.blog-hero__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgb(9,58,126);
+}
+.blog-hero__label::before {
+  content: '';
+  width: 24px;
+  height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  flex-shrink: 0;
+}
+
+/* Titel */
+.blog-hero__title {
+  font-size: clamp(1.75rem, 3vw, 2.6rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: #0B1A2E;
+}
+.blog-hero__title span {
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Intro */
+.blog-hero__intro {
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: rgb(72,87,112);
+  max-width: 540px;
+}
+
+/* Meta */
+.blog-hero__meta {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(11,26,46,0.08);
+}
+.blog-hero__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgb(72,87,112);
+}
+.blog-hero__meta-icon {
+  width: 14px;
+  height: 14px;
+  opacity: 0.5;
+}
+.blog-hero__meta-dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: rgba(11,26,46,0.2);
+}
+
+/* RIGHT — Bild */
+.blog-hero__right { position: relative; }
+.blog-hero__img-wrap {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  box-shadow:
+    0 2px 8px rgba(11,26,46,0.06),
+    0 12px 40px rgba(11,26,46,0.10);
+}
+.blog-hero__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.blog-hero__img-accent {
+  position: absolute;
+  left: -12px;
+  top: 10%;
+  bottom: 10%;
+  width: 3px;
+  background: linear-gradient(180deg, #0B5FB7, #3EB2F0);
+  border-radius: 2px;
+}
+
+/* ANIMATIONEN */
+.blog-hero__anim {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.blog-hero__anim.blog-hero__vis { opacity: 1; transform: none; }
+.blog-hero__anim--d1 { transition-delay: 0.05s; }
+.blog-hero__anim--d2 { transition-delay: 0.15s; }
+.blog-hero__anim--d3 { transition-delay: 0.25s; }
+.blog-hero__anim--d4 { transition-delay: 0.35s; }
+.blog-hero__anim--d5 { transition-delay: 0.20s; }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .blog-hero__inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .blog-hero__right { order: -1; }
+  .blog-hero__img-wrap { aspect-ratio: 16/7; }
+  .blog-hero__img-accent { display: none; }
+  .blog-hero__title { font-size: clamp(1.5rem, 5vw, 2rem); }
+}
+@media (max-width: 480px) {
+  .blog-hero__meta { flex-wrap: wrap; gap: 0.8rem; }
+  .blog-hero__meta-dot { display: none; }
+}
+
+.blog-hero__wrap a:focus-visible,
+.blog-hero__wrap button:focus-visible {
+  outline: 2px solid #0B5FB7;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+</style>
+
+<div class="blog-hero__wrap">
+  <div class="blog-hero__inner">
+    <div class="blog-hero__left">
+      <div class="blog-hero__breadcrumb blog-hero__anim blog-hero__anim--d1">
+        <a href="/">Home</a>
+        <span class="blog-hero__breadcrumb-sep">›</span>
+        <a href="/fuer/">Für</a>
+        <span class="blog-hero__breadcrumb-sep">›</span>
+        <a href="/fuer/allgemeinmedizin/">Allgemeinmedizin</a>
+        <span class="blog-hero__breadcrumb-sep">›</span>
+        <span>Leber-Elastographie</span>
+      </div>
+      <div class="blog-hero__label blog-hero__anim blog-hero__anim--d2">
+        Allgemeinmedizin · Gastroenterologie
+      </div>
+      <h1 class="blog-hero__title blog-hero__anim blog-hero__anim--d3">
+        Leber-Elastographie — <span>Lebersteifigkeit messen</span>
+      </h1>
+      <p class="blog-hero__intro blog-hero__anim blog-hero__anim--d4">
+        Die Leber-Elastographie misst die Lebersteifigkeit nicht-invasiv in Kilopascal (kPa) und ersetzt in vielen Fällen die Leberbiopsie zur Beurteilung von Leberfibrose und -zirrhose. Dieser Leitfaden zeigt Scherwellen- und transiente Elastographie, die Werte-Interpretation nach Fibrosestadien, die Steatose-Quantifizierung (CAP) — und die entscheidenden Kriterien, worauf Sie bei einem Ultraschallsystem mit integrierter Elastographie achten sollten.
+      </p>
+      <div class="blog-hero__meta blog-hero__anim blog-hero__anim--d4">
+        <div class="blog-hero__meta-item">
+          <svg aria-hidden="true" class="blog-hero__meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>
+          </svg>
+          Aktualisiert 2026
+        </div>
+        <div class="blog-hero__meta-dot" aria-hidden="true"></div>
+        <div class="blog-hero__meta-item">
+          <svg aria-hidden="true" class="blog-hero__meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/>
+          </svg>
+          13 Min. Lesezeit
+        </div>
+        <div class="blog-hero__meta-dot" aria-hidden="true"></div>
+        <div class="blog-hero__meta-item">
+          <svg aria-hidden="true" class="blog-hero__meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+          </svg>
+          SONORING DORMED Redaktion
+        </div>
+      </div>
+    </div>
+    <div class="blog-hero__right blog-hero__anim blog-hero__anim--d5">
+      <div class="blog-hero__img-wrap">
+        <img class="blog-hero__img" src="/assets/img/97f2026e-abe5-42d9-b184-73099987aa00.jpg" alt="Leber-Elastographie — Lebersteifigkeitsmessung mit farbcodiertem Scherwellen-Elastogramm und kPa-Wert auf dem Ultraschallmonitor" loading="lazy"/>
+      </div>
+      <div class="blog-hero__img-accent" aria-hidden="true"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('blog-hero__vis');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.05, rootMargin: '0px 0px -20px 0px' });
+  document.querySelectorAll('.blog-hero__anim').forEach(function(el) {
+    obs.observe(el);
+  });
+})();
+</script>
+
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-v6eiaawsf" style="position:relative;width:100%;min-height:auto;background-color:#F4F6F9;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-abbrqlfk9" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-of2w87uuc" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-of2w87uuc { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.blog-toc__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.blog-toc__wrap *,
+.blog-toc__wrap *::before,
+.blog-toc__wrap *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-toc__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.blog-toc__box {
+  background: #FFFFFF;
+  border: 1px solid rgba(11,26,46,0.08);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Kopfzeile */
+.blog-toc__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem 1.6rem;
+  border-bottom: 1px solid rgba(11,26,46,0.06);
+  cursor: pointer;
+  user-select: none;
+  gap: 1rem;
+}
+.blog-toc__head-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.blog-toc__head-icon {
+  width: 28px;
+  height: 28px;
+  background: rgba(11,95,183,0.07);
+  border: 1px solid rgba(11,95,183,0.12);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #0B5FB7;
+}
+.blog-toc__head-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #0B1A2E;
+}
+.blog-toc__head-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.56rem;
+  letter-spacing: 0.1em;
+  color: rgb(150,165,190);
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-left: auto;
+}
+.blog-toc__head-meta-sep {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: rgba(11,26,46,0.15);
+}
+.blog-toc__chevron {
+  color: rgb(150,165,190);
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+.blog-toc__chevron--open { transform: rotate(180deg); }
+
+/* Body */
+.blog-toc__body {
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 0.35s ease;
+}
+.blog-toc__body--closed { grid-template-rows: 0fr; }
+.blog-toc__body-inner { overflow: hidden; }
+
+/* Liste — 2 Spalten */
+.blog-toc__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.5rem 0;
+}
+
+.blog-toc__item {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.7rem 1.6rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(11,26,46,0.04);
+  transition: background 0.18s;
+}
+.blog-toc__item:hover { background: rgba(62,178,240,0.04); }
+.blog-toc__item:hover .blog-toc__item-num {
+  color: #0B5FB7;
+  border-color: rgba(11,95,183,0.25);
+}
+.blog-toc__item:hover .blog-toc__item-label { color: #0B1A2E; }
+.blog-toc__item:nth-child(odd) { border-right: 1px solid rgba(11,26,46,0.04); }
+.blog-toc__item:nth-last-child(-n+2) { border-bottom: none; }
+.blog-toc__item:focus-visible {
+  outline: 2px solid #0B5FB7;
+  outline-offset: -2px;
+}
+
+.blog-toc__item-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: rgb(180,195,215);
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(11,26,46,0.08);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: color 0.18s, border-color 0.18s;
+}
+.blog-toc__item-label {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: rgb(55,70,95);
+  line-height: 1.35;
+  transition: color 0.18s;
+  flex: 1;
+}
+.blog-toc__item-arrow {
+  color: rgba(62,178,240,0);
+  transition: color 0.18s, transform 0.18s;
+  flex-shrink: 0;
+}
+.blog-toc__item:hover .blog-toc__item-arrow {
+  color: #3EB2F0;
+  transform: translateX(3px);
+}
+
+/* Lesefortschritt */
+.blog-toc__progress {
+  height: 2px;
+  background: rgba(11,26,46,0.06);
+  position: relative;
+  overflow: hidden;
+}
+.blog-toc__progress-bar {
+  position: absolute;
+  left: 0; top: 0;
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  transition: width 0.1s linear;
+}
+
+/* Animation */
+.blog-toc__anim {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.blog-toc__anim.blog-toc__vis { opacity: 1; transform: none; }
+
+/* Responsive */
+@media (max-width: 680px) {
+  .blog-toc__list { grid-template-columns: 1fr; }
+  .blog-toc__item:nth-child(odd) { border-right: none; }
+  .blog-toc__item:nth-last-child(-n+2) { border-bottom: 1px solid rgba(11,26,46,0.04); }
+  .blog-toc__item:last-child { border-bottom: none; }
+  .blog-toc__head-meta { display: none; }
+}
+</style>
+
+<div class="blog-toc__wrap">
+  <div class="blog-toc__inner">
+    <div class="blog-toc__box blog-toc__anim">
+      <div class="blog-toc__head" id="toc-leb-toggle">
+        <div class="blog-toc__head-left">
+          <div class="blog-toc__head-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+          </div>
+          <span class="blog-toc__head-title">Inhaltsverzeichnis</span>
+        </div>
+        <div class="blog-toc__head-meta">
+          <span>6 Kapitel</span>
+          <span class="blog-toc__head-meta-sep" aria-hidden="true"></span>
+          <span>13 Min. Lesezeit</span>
+        </div>
+        <svg class="blog-toc__chevron" id="toc-leb-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+      <div class="blog-toc__body" id="toc-leb-body">
+        <div class="blog-toc__body-inner">
+          <div class="blog-toc__list">
+            <a href="#was-ist-elastographie" class="blog-toc__item">
+              <span class="blog-toc__item-num">01</span>
+              <span class="blog-toc__item-label">Was ist Leber-Elastographie?</span>
+              <svg class="blog-toc__item-arrow" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#verfahren" class="blog-toc__item">
+              <span class="blog-toc__item-num">02</span>
+              <span class="blog-toc__item-label">Verfahren — SWE, transiente Elastographie &amp; CAP</span>
+              <svg class="blog-toc__item-arrow" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#indikationen" class="blog-toc__item">
+              <span class="blog-toc__item-num">03</span>
+              <span class="blog-toc__item-label">Indikationen — Fibrose, MASLD &amp; Verlauf</span>
+              <svg class="blog-toc__item-arrow" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#werte" class="blog-toc__item">
+              <span class="blog-toc__item-num">04</span>
+              <span class="blog-toc__item-label">Werte-Interpretation — kPa &amp; Fibrosestadien</span>
+              <svg class="blog-toc__item-arrow" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#vs-biopsie" class="blog-toc__item">
+              <span class="blog-toc__item-num">05</span>
+              <span class="blog-toc__item-label">Elastographie vs. Leberbiopsie</span>
+              <svg class="blog-toc__item-arrow" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#geraetewahl" class="blog-toc__item">
+              <span class="blog-toc__item-num">06</span>
+              <span class="blog-toc__item-label">Gerätewahl, Schallkopf &amp; Abrechnung</span>
+              <svg class="blog-toc__item-arrow" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="blog-toc__progress" aria-hidden="true">
+        <div class="blog-toc__progress-bar" id="toc-leb-progress"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  /* Scroll-Animation */
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('blog-toc__vis');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.blog-toc__anim').forEach(function(el) { obs.observe(el); });
+
+  /* Auf-/Zuklappen */
+  var toggle = document.getElementById('toc-leb-toggle');
+  var body   = document.getElementById('toc-leb-body');
+  var chev   = document.getElementById('toc-leb-chevron');
+  var isOpen = true;
+  if (toggle && body && chev) {
+    chev.classList.add('blog-toc__chevron--open');
+    toggle.addEventListener('click', function() {
+      isOpen = !isOpen;
+      body.classList.toggle('blog-toc__body--closed', !isOpen);
+      chev.classList.toggle('blog-toc__chevron--open', isOpen);
+    });
+  }
+
+  /* Smooth Scroll */
+  document.querySelectorAll('.blog-toc__item').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      var href = link.getAttribute('href');
+      if (!href || href.charAt(0) !== '#') return;
+      var target = document.querySelector(href);
+      if (!target) return;
+      e.preventDefault();
+      window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 90, behavior: 'smooth' });
+    });
+  });
+
+  /* Lesefortschritt */
+  var bar = document.getElementById('toc-leb-progress');
+  if (bar) {
+    window.addEventListener('scroll', function() {
+      var docH = document.documentElement.scrollHeight - window.innerHeight;
+      bar.style.width = (docH > 0 ? Math.min((window.scrollY / docH) * 100, 100) : 0) + '%';
+    }, { passive: true });
+  }
+})();
+</script></div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-fllvivv1c" style="position:relative;width:100%;min-height:900px;background-color:#FFFF;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:center;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-lpm6oh7em" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-bxysi22kf" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-bxysi22kf { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.leb-b1__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.leb-b1__wrap *,
+.leb-b1__wrap *::before,
+.leb-b1__wrap *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+
+.leb-b1__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: minmax(0, 720px) 1fr;
+  gap: 0 5rem;
+  align-items: start;
+  position: relative;
+}
+
+.leb-b1__main { display: flex; flex-direction: column; gap: 3.5rem; }
+
+/* ASIDE */
+.leb-b1__aside {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.leb-b1__aside--fixed { position: fixed; z-index: 10; }
+.leb-b1__aside-placeholder { display: none; }
+.leb-b1__aside-placeholder--active { display: block; }
+
+.leb-b1__section { display: flex; flex-direction: column; gap: 1.5rem; }
+.leb-b1__anchor { display: block; position: relative; top: -90px; visibility: hidden; }
+
+/* KAPITEL-LABEL */
+.leb-b1__chapter {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-b1__chapter::before {
+  content: ''; width: 18px; height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+/* ÜBERSCHRIFTEN */
+.leb-b1__h2 {
+  font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+  font-weight: 700; letter-spacing: -0.03em; line-height: 1.2; color: #0B1A2E;
+}
+.leb-b1__h3 {
+  font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em;
+  line-height: 1.35; color: #0B1A2E;
+  display: flex; align-items: center; gap: 0.65rem;
+}
+.leb-b1__h3-marker {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+/* FLIESSTEXT */
+.leb-b1__p {
+  font-size: 1rem; font-weight: 400; line-height: 1.85; color: rgb(55,70,95);
+}
+.leb-b1__p a {
+  color: rgb(9,58,126); text-decoration: underline;
+  text-decoration-color: rgba(62,178,240,0.4); text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+.leb-b1__p a:hover { color: #0B5FB7; text-decoration-color: #3EB2F0; }
+.leb-b1__p a:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 2px; border-radius: 1px; }
+
+/* KEYBOX */
+.leb-b1__keybox {
+  background: rgba(11,95,183,0.04);
+  border: 1px solid rgba(11,95,183,0.12);
+  border-left: 3px solid #0B5FB7;
+  border-radius: 0 4px 4px 0;
+  padding: 1.5rem 1.75rem;
+  display: flex; flex-direction: column; gap: 0.6rem;
+}
+.leb-b1__keybox-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.56rem; letter-spacing: 0.2em; text-transform: uppercase;
+  color: rgb(9,58,126);
+}
+.leb-b1__keybox-text {
+  font-size: 0.95rem; font-weight: 400; line-height: 1.75; color: rgb(40,60,90);
+}
+.leb-b1__keybox-text strong { font-weight: 700; color: #0B1A2E; }
+
+/* STATS-CARDS (3er Grid) */
+.leb-b1__sv-cards {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px; background: rgba(11,26,46,0.07);
+  border: 1px solid rgba(11,26,46,0.07); border-radius: 4px; overflow: hidden;
+}
+.leb-b1__sv-card {
+  background: #FFFFFF; padding: 1.3rem 1.25rem;
+  display: flex; flex-direction: column; gap: 0.5rem;
+  transition: background 0.2s;
+}
+.leb-b1__sv-card:hover { background: rgba(62,178,240,0.04); }
+.leb-b1__sv-num {
+  font-family: 'JetBrains Mono', monospace; font-size: 1.4rem; font-weight: 700;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  line-height: 1;
+}
+.leb-b1__sv-label { font-size: 0.78rem; font-weight: 600; color: #0B1A2E; line-height: 1.3; }
+.leb-b1__sv-sub { font-size: 0.76rem; font-weight: 400; line-height: 1.55; color: rgb(72,87,112); }
+
+/* BILD */
+.leb-b1__img-block { display: flex; flex-direction: column; gap: 0.75rem; }
+.leb-b1__img-wrap { border-radius: 4px; overflow: hidden; border: 1px solid rgba(11,26,46,0.07); }
+.leb-b1__img { width: 100%; height: auto; display: block; }
+.leb-b1__img-caption {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.58rem;
+  letter-spacing: 0.1em; color: rgb(90,110,140); text-align: center;
+}
+
+/* KRISTALL-SCHEMA — visuelle Erklärung 2 Kristalle */
+.leb-b1__crystal-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+}
+.leb-b1__crystal-card {
+  background: #FFFFFF; border: 1px solid rgba(11,26,46,0.07);
+  border-radius: 4px; overflow: hidden;
+}
+.leb-b1__crystal-head {
+  padding: 0.85rem 1.1rem 0.75rem;
+  border-bottom: 1px solid rgba(11,26,46,0.06);
+  display: flex; align-items: center; gap: 0.65rem;
+}
+.leb-b1__crystal-icon {
+  width: 30px; height: 30px;
+  background: rgba(11,95,183,0.07); border: 1px solid rgba(11,95,183,0.12);
+  border-radius: 2px; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; font-size: 0.9rem;
+}
+.leb-b1__crystal-name {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.14em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-b1__crystal-title {
+  font-size: 0.9rem; font-weight: 600; color: #0B1A2E; line-height: 1.3;
+  margin-top: 0.1rem;
+}
+.leb-b1__crystal-body { padding: 0.9rem 1.1rem; }
+.leb-b1__crystal-text {
+  font-size: 0.83rem; font-weight: 400; line-height: 1.65; color: rgb(72,87,112);
+}
+.leb-b1__crystal-text strong { font-weight: 600; color: rgb(40,60,90); }
+
+/* SPEKTRUM-INFOBOX */
+.leb-b1__spektrum {
+  background: rgba(11,95,183,0.04); border: 1px solid rgba(11,95,183,0.12);
+  border-left: 3px solid #0B5FB7; border-radius: 0 4px 4px 0;
+  padding: 1.4rem 1.6rem; display: flex; flex-direction: column; gap: 0.75rem;
+}
+.leb-b1__spektrum-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(9,58,126);
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.leb-b1__spektrum-rows { display: flex; flex-direction: column; gap: 0.55rem; }
+.leb-b1__spektrum-row {
+  display: flex; align-items: flex-start; gap: 0.75rem;
+  font-size: 0.88rem; line-height: 1.6; color: rgb(55,70,95);
+}
+.leb-b1__spektrum-row strong { font-weight: 600; color: #0B1A2E; }
+.leb-b1__spektrum-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0);
+  flex-shrink: 0; margin-top: 7px;
+}
+
+/* INFOBOX (cyan) */
+.leb-b1__infobox {
+  background: rgba(62,178,240,0.05); border: 1px solid rgba(62,178,240,0.15);
+  border-left: 3px solid #3EB2F0; border-radius: 0 4px 4px 0;
+  padding: 1.4rem 1.6rem; display: flex; flex-direction: column; gap: 0.6rem;
+}
+.leb-b1__infobox-label {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-b1__infobox-text {
+  font-size: 0.9rem; font-weight: 400; line-height: 1.75;
+  color: rgb(55,70,95); font-style: italic;
+}
+.leb-b1__infobox-text strong { font-weight: 600; color: #0B1A2E; }
+
+/* ASIDE CARDS */
+.leb-b1__aside-card {
+  background: rgba(11,26,46,0.02); border: 1px solid rgba(11,26,46,0.07);
+  border-radius: 4px; padding: 1.4rem;
+  display: flex; flex-direction: column; gap: 0.75rem;
+}
+.leb-b1__aside-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.55rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(90,110,140);
+}
+.leb-b1__aside-title { font-size: 0.88rem; font-weight: 600; color: #0B1A2E; line-height: 1.35; }
+.leb-b1__aside-text { font-size: 0.82rem; font-weight: 400; line-height: 1.65; color: rgb(80,100,130); }
+.leb-b1__aside-link {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-size: 0.8rem; font-weight: 600; color: rgb(9,58,126);
+  text-decoration: none; transition: gap 0.2s;
+}
+.leb-b1__aside-link:hover { gap: 0.65rem; }
+.leb-b1__aside-link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* ANIMATIONEN */
+.leb-b1__anim {
+  opacity: 0; transform: translateY(14px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.leb-b1__anim.leb-b1__vis { opacity: 1; transform: none; }
+.leb-b1__anim--d1 { transition-delay: 0.05s; }
+.leb-b1__anim--d2 { transition-delay: 0.12s; }
+.leb-b1__anim--d3 { transition-delay: 0.20s; }
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .leb-b1__inner { grid-template-columns: 1fr; gap: 3rem 0; }
+  .leb-b1__aside {
+    position: static !important;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;
+  }
+  .leb-b1__aside--fixed { position: static !important; }
+  .leb-b1__aside-placeholder { display: none !important; }
+}
+@media (max-width: 640px) {
+  .leb-b1__aside { grid-template-columns: 1fr; }
+  .leb-b1__sv-cards { grid-template-columns: 1fr; }
+  .leb-b1__crystal-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="leb-b1__wrap" id="leb-b1-wrap">
+  <div class="leb-b1__inner" id="leb-b1-inner">
+    <div class="leb-b1__main">
+
+      <div class="leb-b1__section">
+        <span id="was-ist-elastographie" class="leb-b1__anchor"></span>
+        <div class="leb-b1__chapter leb-b1__anim leb-b1__anim--d1">01 — Definition</div>
+        <h2 class="leb-b1__h2 leb-b1__anim leb-b1__anim--d1">Was ist Leber-Elastographie?</h2>
+
+        <div class="leb-b1__keybox leb-b1__anim leb-b1__anim--d2">
+          <div class="leb-b1__keybox-label">Kurzdefinition</div>
+          <p class="leb-b1__keybox-text">
+            Die <strong>Leber-Elastographie</strong> (Lebersteifigkeitsmessung, Elastographie der Leber) misst nicht-invasiv die <strong>Steifigkeit des Lebergewebes</strong> und gibt sie als Zahlenwert in <strong>Kilopascal (kPa)</strong> aus. Steiferes Gewebe spricht für einen höheren Fibrosegrad: Je weiter eine <strong>Leberfibrose</strong> fortgeschritten ist, desto höher die gemessene Lebersteifigkeit. Die Untersuchung ist schmerzfrei, ohne Strahlung, in wenigen Minuten am Ultraschallgerät durchführbar und beliebig oft wiederholbar — die ideale Methode zur Erst- und Verlaufsbeurteilung chronischer Lebererkrankungen.
+          </p>
+        </div>
+
+        <p class="leb-b1__p leb-b1__anim leb-b1__anim--d2">
+          Physikalisch beruht die Elastographie auf der Ausbreitung von <strong>Scherwellen</strong> im Gewebe: Ein akustischer Push-Impuls des Schallkopfs erzeugt im Leberparenchym transversale Wellen, deren Ausbreitungsgeschwindigkeit gemessen wird. Aus dieser Geschwindigkeit (in m/s) berechnet das System nach dem Young-Modul direkt die Gewebesteifigkeit in <strong>kPa</strong>. Weiches, gesundes Lebergewebe leitet die Scherwelle langsam — fibrotisch umgebautes, steifes Gewebe schnell.
+        </p>
+
+        <p class="leb-b1__p leb-b1__anim leb-b1__anim--d2">
+          Anders als bei einer Leberbiopsie wird kein Gewebe entnommen, und anders als bei CT oder MRT entsteht keine Strahlenbelastung. Genau das macht die Elastographie für Gastroenterologen, Internisten und Hausärzte zum bevorzugten Werkzeug, um eine Leberfibrose früh zu erkennen, ihren Schweregrad einzuordnen und den Verlauf unter Therapie zu überwachen — direkt am Untersuchungsplatz, im gleichen Arbeitsgang wie der abdominelle Ultraschall.
+        </p>
+
+        <div class="leb-b1__sv-cards leb-b1__anim leb-b1__anim--d2">
+          <div class="leb-b1__sv-card">
+            <div class="leb-b1__sv-num">kPa</div>
+            <div class="leb-b1__sv-label">Steifigkeit</div>
+            <div class="leb-b1__sv-sub">Lebersteifigkeit als Zahlenwert — der Leitparameter der Fibrosebeurteilung</div>
+          </div>
+          <div class="leb-b1__sv-card">
+            <div class="leb-b1__sv-num">SWE</div>
+            <div class="leb-b1__sv-label">Scherwellen</div>
+            <div class="leb-b1__sv-sub">Geschwindigkeit der Scherwelle im Gewebe → Young-Modul → kPa</div>
+          </div>
+          <div class="leb-b1__sv-card">
+            <div class="leb-b1__sv-num">0</div>
+            <div class="leb-b1__sv-label">Strahlung</div>
+            <div class="leb-b1__sv-sub">Nicht-invasiv, schmerzfrei, beliebig oft wiederholbar</div>
+          </div>
+        </div>
+
+        <div class="leb-b1__img-block leb-b1__anim leb-b1__anim--d2">
+          <div class="leb-b1__img-wrap">
+            <img class="leb-b1__img" src="/assets/img/fd96d4b0-e6e7-4e4b-b043-10269ee04800.jpg" alt="Leber-Elastographie — Scherwellen-Elastogramm mit farbcodierter ROI-Box und Lebersteifigkeit in kPa" loading="lazy"/>
+          </div>
+          <p class="leb-b1__img-caption">Scherwellen-Elastographie (Scherwellenelastographie) der Leber — farbcodierte Steifigkeitskarte (ROI-Box) im B-Bild mit Messwert in kPa</p>
+        </div>
+      </div>
+
+      <div class="leb-b1__section">
+        <span id="verfahren" class="leb-b1__anchor"></span>
+        <div class="leb-b1__chapter leb-b1__anim leb-b1__anim--d1">02 — Verfahren</div>
+        <h2 class="leb-b1__h2 leb-b1__anim leb-b1__anim--d1">Verfahren — Scherwellen-Elastographie, transiente Elastographie und CAP</h2>
+
+        <p class="leb-b1__p leb-b1__anim leb-b1__anim--d2">
+          Für die Lebersteifigkeitsmessung gibt es zwei technische Hauptansätze. Beide messen kPa, unterscheiden sich aber in der Bildführung und in der Frage, ob die Messung in das normale Ultraschallsystem integriert ist.
+        </p>
+
+        <div class="leb-b1__crystal-grid leb-b1__anim leb-b1__anim--d2">
+          <div class="leb-b1__crystal-card">
+            <div class="leb-b1__crystal-head">
+              <div class="leb-b1__crystal-icon" aria-hidden="true">🎯</div>
+              <div>
+                <div class="leb-b1__crystal-name">SWE</div>
+                <div class="leb-b1__crystal-title">Scherwellen-Elastographie — bildgeführt</div>
+              </div>
+            </div>
+            <div class="leb-b1__crystal-body">
+              <p class="leb-b1__crystal-text">
+                Die <strong>2D-Scherwellen-Elastographie (SWE)</strong> ist direkt in das Ultraschallsystem integriert. Im B-Bild platzieren Sie eine farbcodierte Mess-Box (ROI) gezielt im Leberparenchym — unter Sicht, fern von Gefäßen und Gallengängen. Das System misst die Scherwellengeschwindigkeit flächig und gibt die Steifigkeit in kPa aus. Vorteil: Sie sehen die Leber, wählen die Messstelle bewusst und erhalten Bild und Wert in einem Gerät.
+              </p>
+            </div>
+          </div>
+          <div class="leb-b1__crystal-card">
+            <div class="leb-b1__crystal-head">
+              <div class="leb-b1__crystal-icon" aria-hidden="true">📍</div>
+              <div>
+                <div class="leb-b1__crystal-name">TE</div>
+                <div class="leb-b1__crystal-title">Transiente Elastographie — punktuell</div>
+              </div>
+            </div>
+            <div class="leb-b1__crystal-body">
+              <p class="leb-b1__crystal-text">
+                Die <strong>transiente Elastographie</strong> (bekannt durch das Gerät „FibroScan", ein Markenname) nutzt einen mechanischen Impuls und misst die Steifigkeit eindimensional, ohne begleitendes B-Bild. Sie ist etabliert und gut validiert, erfordert aber ein dediziertes Zusatzgerät. Moderne Ultraschallsysteme bilden diese Funktion heute mit integrierter SWE ab — ein Gerät statt zwei.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="leb-b1__h3 leb-b1__anim leb-b1__anim--d2">
+          <span class="leb-b1__h3-marker" aria-hidden="true"></span>
+          CAP / Steatose — den Fettgehalt zusätzlich quantifizieren
+        </h3>
+
+        <p class="leb-b1__p leb-b1__anim leb-b1__anim--d2">
+          Parallel zur Steifigkeit lässt sich der <strong>Fettgehalt der Leber (Steatose)</strong> quantifizieren. Der <strong>CAP-Wert (Controlled Attenuation Parameter, in dB/m)</strong> bzw. die ultraschallbasierte Fettquantifizierung beschreiben die Schalldämpfung durch Leberfett und ermöglichen eine objektive Einordnung der <strong>Steatose</strong>. Bei der nicht-alkoholischen / metabolischen Fettlebererkrankung (NAFLD/MASLD) liefern Steifigkeit (Fibrose) und Fettgehalt (Steatose) gemeinsam das vollständige Bild.
+        </p>
+
+        <div class="leb-b1__spektrum leb-b1__anim leb-b1__anim--d2">
+          <div class="leb-b1__spektrum-label"><span aria-hidden="true">📋</span> Verfahren auf einen Blick</div>
+          <div class="leb-b1__spektrum-rows">
+            <div class="leb-b1__spektrum-row">
+              <span class="leb-b1__spektrum-dot" aria-hidden="true"></span>
+              <span><strong>SWE (Scherwellen):</strong> in das Ultraschallsystem integriert, bildgeführte ROI-Platzierung — ein Gerät für B-Bild und Steifigkeit</span>
+            </div>
+            <div class="leb-b1__spektrum-row">
+              <span class="leb-b1__spektrum-dot" aria-hidden="true"></span>
+              <span><strong>Transiente Elastographie:</strong> punktuell, ohne B-Bild — bewährtes Dedikatgerät (Markenbegriff „FibroScan")</span>
+            </div>
+            <div class="leb-b1__spektrum-row">
+              <span class="leb-b1__spektrum-dot" aria-hidden="true"></span>
+              <span><strong>CAP / Fettquantifizierung:</strong> ergänzt die Steifigkeit um den Steatose-Grad — zentral bei NAFLD/MASLD</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="leb-b1__infobox leb-b1__anim leb-b1__anim--d3">
+          <div class="leb-b1__infobox-label"><span aria-hidden="true">💡</span> „FibroScan" ist ein Markenname</div>
+          <p class="leb-b1__infobox-text">
+            <strong>FibroScan</strong> bezeichnet kein Verfahren, sondern ein konkretes Gerät für die <strong>transiente Elastographie</strong> (Hersteller Echosens). Das eigentliche Prinzip — Steifigkeit aus der Scherwellengeschwindigkeit — ist herstellerübergreifend. Moderne Ultraschallsysteme haben die <strong>Scherwellen-Elastographie (SWE) direkt integriert</strong>: Sie messen Lebersteifigkeit in kPa im selben Gerät, mit dem Sie ohnehin den Abdomen-Ultraschall durchführen — ohne separates Elastographiegerät. (<a href="https://de.wikipedia.org/wiki/Elastographie" target="_blank" rel="noopener noreferrer" style="color:rgb(9,58,126);font-style:normal">Quelle: Wikipedia — Elastographie</a>)
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="leb-b1__aside-placeholder" id="leb-b1-placeholder" aria-hidden="true"></div>
+    <div class="leb-b1__aside" id="leb-b1-aside">
+      <div class="leb-b1__aside-card">
+        <div class="leb-b1__aside-label">Grundlagen</div>
+        <div class="leb-b1__aside-title">SWE vs. transiente Elastographie</div>
+        <p class="leb-b1__aside-text">Bildgeführte Scherwellen-Messung im Ultraschallsystem oder punktuelles Dedikatgerät? Die beiden Verfahren im direkten Vergleich.</p>
+        <a href="#verfahren" class="leb-b1__aside-link">
+          Verfahren vergleichen
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="leb-b1__aside-card">
+        <div class="leb-b1__aside-label">Geräteauswahl</div>
+        <div class="leb-b1__aside-title">Systeme mit integrierter SWE</div>
+        <p class="leb-b1__aside-text">Konvexer Schallkopf, integrierte Scherwellen-Elastographie und Qualitätsindikatoren — die passenden Geräte für die Leber-Elastographie.</p>
+        <a href="/fuer/allgemeinmedizin/" class="leb-b1__aside-link">
+          Geräte für die Allgemeinmedizin
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var aside       = document.getElementById('leb-b1-aside');
+  var placeholder = document.getElementById('leb-b1-placeholder');
+  var inner       = document.getElementById('leb-b1-inner');
+  if (!aside || !placeholder || !inner) return;
+
+  var stickyStartY = null;
+  var asideLeft    = null;
+  var asideWidth   = null;
+  var bottomPad    = 40;
+
+  function getNavHeight() {
+    var nav = document.querySelector('.nav__wrap');
+    if (nav) return nav.getBoundingClientRect().height;
+    var bar = document.querySelector('.nav__bar');
+    if (bar) return bar.getBoundingClientRect().height;
+    var anyNav = document.querySelector('nav');
+    if (anyNav) return anyNav.getBoundingClientRect().height;
+    return 68;
+  }
+  function isMobile() { return window.innerWidth <= 1100; }
+
+  function measureStickyStartY() {
+    if (isMobile()) {
+      aside.classList.remove('leb-b1__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('leb-b1__aside-placeholder--active');
+      placeholder.style.height = '';
+      stickyStartY = null;
+      return;
+    }
+    aside.classList.remove('leb-b1__aside--fixed');
+    aside.style.position = aside.style.top = aside.style.left = aside.style.width = '';
+    placeholder.classList.remove('leb-b1__aside-placeholder--active');
+    placeholder.style.height = '';
+    var navH = getNavHeight();
+    var rect = aside.getBoundingClientRect();
+    asideLeft    = rect.left;
+    asideWidth   = rect.width;
+    stickyStartY = rect.top + window.scrollY - navH - 20;
+    if (window.scrollY >= stickyStartY) {
+      placeholder.classList.add('leb-b1__aside-placeholder--active');
+      placeholder.style.height = aside.offsetHeight + 'px';
+      aside.classList.add('leb-b1__aside--fixed');
+      aside.style.top    = (navH + 20) + 'px';
+      aside.style.bottom = '';
+      aside.style.left   = asideLeft + 'px';
+      aside.style.right  = '';
+      aside.style.width  = asideWidth + 'px';
+    }
+  }
+
+  function updateSidebarPos() {
+    if (!aside || !inner) return;
+    if (isMobile()) {
+      aside.classList.remove('leb-b1__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('leb-b1__aside-placeholder--active');
+      placeholder.style.height = '';
+      return;
+    }
+    if (stickyStartY === null) { measureStickyStartY(); return; }
+
+    var navH      = getNavHeight();
+    var scrollY   = window.scrollY;
+    var asideH    = aside.offsetHeight;
+    var innerH    = inner.offsetHeight;
+    var maxAbsTop = innerH - asideH - bottomPad;
+
+    if (scrollY < stickyStartY) {
+      placeholder.classList.remove('leb-b1__aside-placeholder--active');
+      placeholder.style.height = '';
+      aside.classList.remove('leb-b1__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      return;
+    }
+
+    placeholder.classList.add('leb-b1__aside-placeholder--active');
+    placeholder.style.height = asideH + 'px';
+
+    var innerRect       = inner.getBoundingClientRect();
+    var sidebarWouldEnd = (navH + 20) + asideH;
+
+    if (innerRect.bottom - bottomPad <= sidebarWouldEnd) {
+      var innerPadRight = parseInt(window.getComputedStyle(inner).paddingRight, 10) || 0;
+      aside.classList.remove('leb-b1__aside--fixed');
+      aside.style.position = 'absolute';
+      aside.style.top      = 'auto';
+      aside.style.bottom   = bottomPad + 'px';
+      aside.style.right    = innerPadRight + 'px';
+      aside.style.left     = 'auto';
+      aside.style.width    = asideWidth + 'px';
+    } else {
+      aside.style.position = '';
+      aside.classList.add('leb-b1__aside--fixed');
+      aside.style.top      = (navH + 20) + 'px';
+      aside.style.bottom   = '';
+      aside.style.left     = asideLeft + 'px';
+      aside.style.right    = '';
+      aside.style.width    = asideWidth + 'px';
+    }
+  }
+
+  window.addEventListener('scroll', updateSidebarPos, { passive: true });
+  window.addEventListener('resize', function () {
+    stickyStartY = null; asideLeft = null; asideWidth = null;
+    setTimeout(updateSidebarPos, 60);
+  }, { passive: true });
+  setTimeout(function () { measureStickyStartY(); updateSidebarPos(); }, 200);/*SLF*/window.addEventListener("load",function(){measureStickyStartY();updateSidebarPos();setTimeout(function(){measureStickyStartY();updateSidebarPos();},200);});[700,1500,2500].forEach(function(d){setTimeout(function(){measureStickyStartY();updateSidebarPos();},d);});
+  updateSidebarPos();
+
+  function measure() { measureStickyStartY(); }
+  function update() { updateSidebarPos(); }
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('leb-b1__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.leb-b1__anim').forEach(function (el) { obs.observe(el); });
+
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-c7sww7asl" style="position:relative;width:100%;min-height:900px;background-color:#F4F6F9;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:center;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-mz0x3xc0q" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-l57nxfhbw" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-l57nxfhbw { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.leb-b2__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.leb-b2__wrap *,
+.leb-b2__wrap *::before,
+.leb-b2__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.leb-b2__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: minmax(0, 720px) 1fr;
+  gap: 0 5rem;
+  align-items: start;
+  position: relative;
+}
+
+.leb-b2__main { display: flex; flex-direction: column; gap: 3.5rem; }
+
+/* ASIDE */
+.leb-b2__aside { position: relative; display: flex; flex-direction: column; gap: 1.5rem; }
+.leb-b2__aside--fixed { position: fixed; z-index: 10; }
+.leb-b2__aside-placeholder { display: none; }
+.leb-b2__aside-placeholder--active { display: block; }
+
+.leb-b2__section { display: flex; flex-direction: column; gap: 1.5rem; }
+.leb-b2__anchor { display: block; position: relative; top: -90px; visibility: hidden; }
+
+.leb-b2__chapter {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-b2__chapter::before {
+  content: ''; width: 18px; height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+.leb-b2__h2 {
+  font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+  font-weight: 700; letter-spacing: -0.03em; line-height: 1.2; color: #0B1A2E;
+}
+.leb-b2__h3 {
+  font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em;
+  line-height: 1.35; color: #0B1A2E;
+  display: flex; align-items: center; gap: 0.65rem;
+}
+.leb-b2__h3-marker {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+.leb-b2__p {
+  font-size: 1rem; font-weight: 400; line-height: 1.85; color: rgb(55,70,95);
+}
+.leb-b2__p a {
+  color: rgb(9,58,126); text-decoration: underline;
+  text-decoration-color: rgba(62,178,240,0.4); text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+.leb-b2__p a:hover { color: #0B5FB7; text-decoration-color: #3EB2F0; }
+.leb-b2__p a:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 2px; border-radius: 1px; }
+
+/* ── VERGLEICHS-GRID PW vs CW ── */
+.leb-b2__compare {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 1px; background: rgba(11,26,46,0.07);
+  border: 1px solid rgba(11,26,46,0.07); border-radius: 4px; overflow: hidden;
+}
+.leb-b2__compare-card { background: #FFFFFF; padding: 1.6rem 1.5rem; display: flex; flex-direction: column; gap: 0.9rem; }
+.leb-b2__compare-head { display: flex; flex-direction: column; gap: 0.4rem; }
+.leb-b2__compare-badge {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.54rem;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  padding: 0.25rem 0.65rem; border-radius: 2px; width: fit-content;
+}
+.leb-b2__compare-badge--cw { color: #0B5FB7; background: rgba(11,95,183,0.07); border: 1px solid rgba(11,95,183,0.15); }
+.leb-b2__compare-badge--pw { color: rgb(80,60,180); background: rgba(80,60,180,0.06); border: 1px solid rgba(80,60,180,0.14); }
+.leb-b2__compare-title { font-size: 0.95rem; font-weight: 700; color: #0B1A2E; line-height: 1.2; }
+.leb-b2__compare-items { display: flex; flex-direction: column; gap: 0.6rem; list-style: none; }
+.leb-b2__compare-item { display: flex; gap: 0.65rem; align-items: flex-start; font-size: 0.84rem; line-height: 1.6; color: rgb(72,87,112); }
+.leb-b2__compare-item strong { font-weight: 600; color: rgb(40,60,90); }
+.leb-b2__compare-dot { width: 5px; height: 5px; border-radius: 50%; background: rgba(62,178,240,0.5); flex-shrink: 0; margin-top: 7px; }
+.leb-b2__compare-dot--pro { background: rgba(16,185,129,0.55); }
+.leb-b2__compare-dot--limit { background: rgba(255,80,80,0.4); }
+
+/* ── TABELLE ── */
+.leb-b2__table-wrap {
+  width: 100%; overflow: hidden; border-radius: 4px;
+  border: 1px solid rgba(11,26,46,0.08); background: #FFFFFF;
+}
+.leb-b2__table { width: 100%; border-collapse: collapse; font-size: 0.85rem; table-layout: fixed; }
+.leb-b2__table thead tr { background: rgba(11,26,46,0.03); border-bottom: 2px solid rgba(62,178,240,0.2); }
+.leb-b2__table th { padding: 0.75rem 0.9rem; font-weight: 600; font-size: 0.75rem; color: #0B1A2E; text-align: left; word-break: break-word; }
+.leb-b2__table th:first-child { font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(72,87,112); width: 30%; }
+.leb-b2__table td { padding: 0.75rem 0.9rem; color: rgb(55,70,95); border-bottom: 1px solid rgba(11,26,46,0.05); line-height: 1.5; vertical-align: top; word-break: break-word; }
+.leb-b2__table tr:last-child td { border-bottom: none; }
+.leb-b2__table tr:hover td { background: rgba(62,178,240,0.03); }
+.leb-b2__table-hl { background: rgba(11,95,183,0.04); font-weight: 600; color: rgb(9,58,126); }
+.leb-b2__table-check { color: #3EB2F0; font-weight: 700; }
+.leb-b2__table-no { color: rgb(180,195,220); }
+
+@media (max-width: 600px) {
+  .leb-b2__table thead { display: none; }
+  .leb-b2__table, .leb-b2__table tbody, .leb-b2__table tr, .leb-b2__table td { display: block; width: 100%; }
+  .leb-b2__table tr { border-bottom: 1px solid rgba(11,26,46,0.07); padding: 0.75rem 0; }
+  .leb-b2__table tr:last-child { border-bottom: none; }
+  .leb-b2__table td { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; padding: 0.3rem 1rem; border-bottom: none; font-size: 0.82rem; }
+  .leb-b2__table td::before { content: attr(data-label); font-family: 'JetBrains Mono', monospace; font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(90,110,140); white-space: nowrap; flex-shrink: 0; min-width: 80px; }
+}
+
+/* ── BERNOULLI-FORMEL-BOX ── */
+.leb-b2__formula-box {
+  background: rgba(11,95,183,0.04); border: 1px solid rgba(11,95,183,0.14);
+  border-radius: 4px; overflow: hidden;
+}
+.leb-b2__formula-head {
+  padding: 0.9rem 1.5rem; background: rgba(11,95,183,0.07);
+  border-bottom: 1px solid rgba(11,95,183,0.12);
+  display: flex; align-items: center; gap: 0.75rem;
+}
+.leb-b2__formula-head-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-b2__formula-body { padding: 1.5rem; display: flex; flex-direction: column; gap: 1.25rem; }
+.leb-b2__formula-eq {
+  display: flex; align-items: center; justify-content: center;
+  gap: 0.75rem; flex-wrap: wrap;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(1.15rem, 2.5vw, 1.6rem);
+  font-weight: 700; color: #0B1A2E;
+  padding: 1rem;
+  background: #FFFFFF; border-radius: 4px;
+  border: 1px solid rgba(11,26,46,0.08);
+}
+.leb-b2__formula-eq .eq-hl {
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.leb-b2__formula-legend { display: flex; flex-direction: column; gap: 0.45rem; }
+.leb-b2__formula-legend-item {
+  display: flex; gap: 0.75rem; align-items: baseline;
+  font-size: 0.85rem; color: rgb(55,70,95); line-height: 1.55;
+}
+.leb-b2__formula-legend-key {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;
+  font-weight: 700; color: #0B5FB7; flex-shrink: 0; min-width: 40px;
+}
+
+/* ── RECHENBEISPIEL ── */
+.leb-b2__rechenbsp {
+  background: #FFFFFF; border: 1px solid rgba(11,26,46,0.08);
+  border-radius: 4px; overflow: hidden;
+}
+.leb-b2__rechenbsp-head {
+  padding: 0.85rem 1.4rem; background: rgba(11,26,46,0.02);
+  border-bottom: 1px solid rgba(11,26,46,0.06);
+  display: flex; align-items: center; gap: 0.6rem;
+}
+.leb-b2__rechenbsp-tag {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.54rem;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: #fff; background: rgb(9,58,126);
+  padding: 0.2rem 0.55rem; border-radius: 2px;
+}
+.leb-b2__rechenbsp-title { font-size: 0.88rem; font-weight: 600; color: #0B1A2E; }
+.leb-b2__rechenbsp-body { padding: 1.25rem 1.4rem; display: flex; flex-direction: column; gap: 0.75rem; }
+.leb-b2__rechenbsp-row {
+  display: grid; grid-template-columns: 1fr auto;
+  align-items: center; gap: 1rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 2px;
+}
+.leb-b2__rechenbsp-row--input { background: rgba(62,178,240,0.05); border: 1px solid rgba(62,178,240,0.12); }
+.leb-b2__rechenbsp-row--calc  { background: rgba(11,26,46,0.02); border: 1px solid rgba(11,26,46,0.06); }
+.leb-b2__rechenbsp-row--result { background: rgba(11,95,183,0.06); border: 1px solid rgba(11,95,183,0.18); }
+.leb-b2__rechenbsp-desc { font-size: 0.84rem; color: rgb(55,70,95); line-height: 1.5; }
+.leb-b2__rechenbsp-desc strong { font-weight: 600; color: #0B1A2E; }
+.leb-b2__rechenbsp-val {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.9rem;
+  font-weight: 700; white-space: nowrap;
+}
+.leb-b2__rechenbsp-val--blue { color: #0B5FB7; }
+.leb-b2__rechenbsp-val--result {
+  font-size: 1.05rem; color: #0B1A2E;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.leb-b2__rechenbsp-hint {
+  font-size: 0.8rem; font-style: italic; color: rgb(90,110,140);
+  padding-top: 0.25rem; line-height: 1.6;
+}
+
+/* ── SCHWEREGRAD-TABELLE ── */
+.leb-b2__severity {
+  width: 100%; overflow: hidden; border-radius: 4px;
+  border: 1px solid rgba(11,26,46,0.08); background: #FFFFFF;
+}
+.leb-b2__severity table { width: 100%; border-collapse: collapse; font-size: 0.84rem; table-layout: fixed; }
+.leb-b2__severity thead tr { background: rgba(11,26,46,0.03); border-bottom: 2px solid rgba(62,178,240,0.18); }
+.leb-b2__severity th { padding: 0.7rem 0.9rem; font-weight: 600; font-size: 0.73rem; color: #0B1A2E; text-align: left; word-break: break-word; }
+.leb-b2__severity th:first-child { font-family: 'JetBrains Mono', monospace; font-size: 0.56rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(72,87,112); width: 30%; }
+.leb-b2__severity td { padding: 0.7rem 0.9rem; color: rgb(55,70,95); border-bottom: 1px solid rgba(11,26,46,0.05); line-height: 1.5; vertical-align: middle; word-break: break-word; }
+.leb-b2__severity tr:last-child td { border-bottom: none; }
+.leb-b2__severity tr:hover td { background: rgba(62,178,240,0.03); }
+.leb-b2__sev-dot {
+  display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+  margin-right: 0.4rem; vertical-align: middle;
+}
+.leb-b2__sev-dot--leicht { background: #22c55e; }
+.leb-b2__sev-dot--mittel { background: #f59e0b; }
+.leb-b2__sev-dot--schwer { background: #ef4444; }
+
+@media (max-width: 600px) {
+  .leb-b2__severity thead { display: none; }
+  .leb-b2__severity table, .leb-b2__severity tbody, .leb-b2__severity tr, .leb-b2__severity td { display: block; width: 100%; }
+  .leb-b2__severity tr { border-bottom: 1px solid rgba(11,26,46,0.07); padding: 0.6rem 0; }
+  .leb-b2__severity tr:last-child { border-bottom: none; }
+  .leb-b2__severity td { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; padding: 0.3rem 1rem; border-bottom: none; font-size: 0.8rem; }
+  .leb-b2__severity td::before { content: attr(data-label); font-family: 'JetBrains Mono', monospace; font-size: 0.54rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(90,110,140); white-space: nowrap; flex-shrink: 0; min-width: 80px; }
+}
+
+/* ── INFOBOX ── */
+.leb-b2__infobox {
+  background: rgba(62,178,240,0.05); border: 1px solid rgba(62,178,240,0.15);
+  border-left: 3px solid #3EB2F0; border-radius: 0 4px 4px 0;
+  padding: 1.4rem 1.6rem; display: flex; flex-direction: column; gap: 0.6rem;
+}
+.leb-b2__infobox-label {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-b2__infobox-text {
+  font-size: 0.9rem; font-weight: 400; line-height: 1.75;
+  color: rgb(55,70,95); font-style: italic;
+}
+.leb-b2__infobox-text strong { font-weight: 600; color: #0B1A2E; }
+
+/* ── BILD ── */
+.leb-b2__img-block { display: flex; flex-direction: column; gap: 0.75rem; }
+.leb-b2__img-wrap { border-radius: 4px; overflow: hidden; border: 1px solid rgba(11,26,46,0.07); }
+.leb-b2__img { width: 100%; height: auto; display: block; }
+.leb-b2__img-caption { font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; letter-spacing: 0.1em; color: rgb(90,110,140); text-align: center; }
+
+/* ── ASIDE CARDS ── */
+.leb-b2__aside-card { background: #FFFFFF; border: 1px solid rgba(11,26,46,0.07); border-radius: 4px; padding: 1.4rem; display: flex; flex-direction: column; gap: 0.75rem; }
+.leb-b2__aside-label { font-family: 'JetBrains Mono', monospace; font-size: 0.55rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgb(90,110,140); }
+.leb-b2__aside-title { font-size: 0.88rem; font-weight: 600; color: #0B1A2E; line-height: 1.35; }
+.leb-b2__aside-text { font-size: 0.82rem; font-weight: 400; line-height: 1.65; color: rgb(80,100,130); }
+.leb-b2__aside-link { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 600; color: rgb(9,58,126); text-decoration: none; transition: gap 0.2s; }
+.leb-b2__aside-link:hover { gap: 0.65rem; }
+.leb-b2__aside-link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* ANIMATIONEN */
+.leb-b2__anim { opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.leb-b2__anim.leb-b2__vis { opacity: 1; transform: none; }
+.leb-b2__anim--d1 { transition-delay: 0.05s; }
+.leb-b2__anim--d2 { transition-delay: 0.12s; }
+.leb-b2__anim--d3 { transition-delay: 0.20s; }
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .leb-b2__inner { grid-template-columns: 1fr; gap: 3rem 0; }
+  .leb-b2__aside { position: static !important; display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .leb-b2__aside--fixed { position: static !important; }
+  .leb-b2__aside-placeholder { display: none !important; }
+}
+@media (max-width: 640px) {
+  .leb-b2__aside { grid-template-columns: 1fr; }
+  .leb-b2__compare { grid-template-columns: 1fr; }
+  .leb-b2__rechenbsp-row { grid-template-columns: 1fr; gap: 0.25rem; }
+}
+</style>
+
+<div class="leb-b2__wrap" id="leb-b2-wrap">
+  <div class="leb-b2__inner" id="leb-b2-inner">
+    <div class="leb-b2__main">
+
+      <div class="leb-b2__section">
+        <span id="indikationen" class="leb-b2__anchor"></span>
+        <div class="leb-b2__chapter leb-b2__anim leb-b2__anim--d1">03 — Indikationen</div>
+        <h2 class="leb-b2__h2 leb-b2__anim leb-b2__anim--d1">Indikationen — Leberfibrose, MASLD und Verlaufskontrolle</h2>
+
+        <p class="leb-b2__p leb-b2__anim leb-b2__anim--d2">
+          Die Leber-Elastographie ist überall dort indiziert, wo eine chronische Lebererkrankung beurteilt oder im Verlauf überwacht werden soll. Sie beantwortet die klinisch entscheidende Frage: Wie weit ist die <strong>Leberfibrose</strong> fortgeschritten — und entwickelt sie sich unter Therapie zurück?
+        </p>
+
+        <div class="leb-b2__compare leb-b2__anim leb-b2__anim--d2">
+          <div class="leb-b2__compare-card">
+            <div class="leb-b2__compare-head">
+              <span class="leb-b2__compare-badge leb-b2__compare-badge--cw">Diagnose</span>
+              <div class="leb-b2__compare-title">Fibrose &amp; Zirrhose erkennen</div>
+            </div>
+            <ul class="leb-b2__compare-items">
+              <li class="leb-b2__compare-item">
+                <span class="leb-b2__compare-dot leb-b2__compare-dot--pro"></span>
+                <span><strong>Leberfibrose</strong> — Schweregrad der Vernarbung (Stadium F0–F4) nicht-invasiv einordnen</span>
+              </li>
+              <li class="leb-b2__compare-item">
+                <span class="leb-b2__compare-dot leb-b2__compare-dot--pro"></span>
+                <span><strong>Leberzirrhose</strong> — fortgeschrittenes Endstadium (F4) früh erkennen, vor klinischen Komplikationen</span>
+              </li>
+              <li class="leb-b2__compare-item">
+                <span class="leb-b2__compare-dot leb-b2__compare-dot--pro"></span>
+                <span>Risikostratifizierung für portale Hypertonie und hepatozelluläres Karzinom (Vorsorge)</span>
+              </li>
+            </ul>
+          </div>
+          <div class="leb-b2__compare-card">
+            <div class="leb-b2__compare-head">
+              <span class="leb-b2__compare-badge leb-b2__compare-badge--pw">Ursachen</span>
+              <div class="leb-b2__compare-title">NAFLD/MASLD, Hepatitis &amp; mehr</div>
+            </div>
+            <ul class="leb-b2__compare-items">
+              <li class="leb-b2__compare-item">
+                <span class="leb-b2__compare-dot leb-b2__compare-dot--pro"></span>
+                <span><strong>NAFLD/MASLD</strong> — metabolische Fettleber: Steatose (CAP) und Fibrose (kPa) gemeinsam beurteilen</span>
+              </li>
+              <li class="leb-b2__compare-item">
+                <span class="leb-b2__compare-dot leb-b2__compare-dot--pro"></span>
+                <span><strong>Virushepatitis B/C</strong> und alkoholische Lebererkrankung — Fibrosegrad ohne Biopsie</span>
+              </li>
+              <li class="leb-b2__compare-item">
+                <span class="leb-b2__compare-dot leb-b2__compare-dot--limit"></span>
+                <span><strong>Steatose-Quantifizierung</strong> — objektiver Fettgehalt statt subjektiver „helle Leber" im B-Bild</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="leb-b2__infobox leb-b2__anim leb-b2__anim--d3">
+          <div class="leb-b2__infobox-label"><span aria-hidden="true">💡</span> Verlaufskontrolle — die eigentliche Stärke</div>
+          <p class="leb-b2__infobox-text">
+            Weil die Lebersteifigkeitsmessung schmerzfrei, strahlungsfrei und beliebig wiederholbar ist, eignet sie sich ideal zur <strong>Verlaufskontrolle</strong>: Spricht eine Hepatitis-Therapie an, geht der CAP unter Gewichtsreduktion bei MASLD zurück, stabilisiert sich die Fibrose? Eine Leberbiopsie könnte man dafür nicht alle paar Monate wiederholen — eine Elastographie schon. Voraussetzung für vergleichbare Verlaufswerte: gleiche Messmethode, gleiches Gerät, standardisierte Bedingungen (nüchtern, Ruhe).
+          </p>
+        </div>
+      </div>
+
+      <div class="leb-b2__section">
+        <span id="werte" class="leb-b2__anchor"></span>
+        <div class="leb-b2__chapter leb-b2__anim leb-b2__anim--d1">04 — Werte-Interpretation</div>
+        <h2 class="leb-b2__h2 leb-b2__anim leb-b2__anim--d1">Werte-Interpretation — kPa-Bereiche und Fibrosestadien</h2>
+
+        <p class="leb-b2__p leb-b2__anim leb-b2__anim--d2">
+          Der <strong>kPa-Wert</strong> ist der Leitparameter: Je höher die Lebersteifigkeit, desto fortgeschrittener die Fibrose. Die genauen Schwellenwerte hängen von Methode, Gerät und Grunderkrankung ab — die folgenden Bereiche dienen der Orientierung und ersetzen nicht die methodenspezifischen Cut-offs des jeweiligen Systems.
+        </p>
+
+        <div class="leb-b2__formula-box leb-b2__anim leb-b2__anim--d2">
+          <div class="leb-b2__formula-head">
+            <div class="leb-b2__formula-head-label">Lebersteifigkeit</div>
+          </div>
+          <div class="leb-b2__formula-body">
+            <div class="leb-b2__formula-eq" role="img" aria-label="E gleich 3 mal rho mal c Scherwelle zum Quadrat">
+              <span class="eq-hl">E</span>
+              <span style="color:rgb(90,110,140); font-weight:400">=</span>
+              <span>3 · ρ · c²</span>
+              <span style="color:rgb(90,110,140); font-weight:400">→</span>
+              <span class="eq-hl">kPa</span>
+            </div>
+            <div class="leb-b2__formula-legend">
+              <div class="leb-b2__formula-legend-item">
+                <span class="leb-b2__formula-legend-key">c</span>
+                <span>Scherwellengeschwindigkeit im Gewebe (in m/s) — die eigentliche Messgröße</span>
+              </div>
+              <div class="leb-b2__formula-legend-item">
+                <span class="leb-b2__formula-legend-key">ρ</span>
+                <span>Gewebedichte (als konstant angenommen)</span>
+              </div>
+              <div class="leb-b2__formula-legend-item">
+                <span class="leb-b2__formula-legend-key">E</span>
+                <span>Young-Modul = Lebersteifigkeit in <strong>kPa</strong> — der ausgegebene Wert</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="leb-b2__h3 leb-b2__anim leb-b2__anim--d2">
+          <span class="leb-b2__h3-marker" aria-hidden="true"></span>
+          Orientierende Einteilung der Fibrosestadien (SWE)
+        </h3>
+
+        <div class="leb-b2__severity leb-b2__anim leb-b2__anim--d2">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Stadium</th>
+                <th scope="col">Steifigkeit</th>
+                <th scope="col">Klinische Zuordnung</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Stadium"><span class="leb-b2__sev-dot leb-b2__sev-dot--leicht" aria-hidden="true"></span>F0–F1</td>
+                <td data-label="Steifigkeit">&lt; ~7 kPa</td>
+                <td data-label="Zuordnung">Keine bis geringe Fibrose — weiches Lebergewebe</td>
+              </tr>
+              <tr>
+                <td data-label="Stadium"><span class="leb-b2__sev-dot leb-b2__sev-dot--mittel" aria-hidden="true"></span>F2</td>
+                <td data-label="Steifigkeit">~7–9 kPa</td>
+                <td data-label="Zuordnung">Signifikante Fibrose — Abklärung und Verlauf</td>
+              </tr>
+              <tr>
+                <td data-label="Stadium"><span class="leb-b2__sev-dot leb-b2__sev-dot--mittel" aria-hidden="true"></span>F3</td>
+                <td data-label="Steifigkeit">~9–12 kPa</td>
+                <td data-label="Zuordnung">Fortgeschrittene Fibrose — engmaschige Kontrolle</td>
+              </tr>
+              <tr>
+                <td data-label="Stadium"><span class="leb-b2__sev-dot leb-b2__sev-dot--schwer" aria-hidden="true"></span>F4</td>
+                <td data-label="Steifigkeit">&gt; ~12–15 kPa</td>
+                <td data-label="Zuordnung">Zirrhose wahrscheinlich — Komplikations-Screening</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="leb-b2__p leb-b2__anim leb-b2__anim--d2">
+          <strong>Wichtig:</strong> Die genannten Cut-offs sind methoden- und ätiologieabhängig und variieren zwischen transienter Elastographie und SWE sowie zwischen den Herstellern. Verbindlich sind stets die für das eingesetzte System und die Grunderkrankung validierten Schwellenwerte — etwa nach den <a href="https://www.degum.de/" target="_blank" rel="noopener noreferrer" style="color:rgb(9,58,126)">DEGUM</a>- und EFSUMB-Empfehlungen. Ergänzend grenzt der <strong>CAP- bzw. Fettquantifizierungswert</strong> die Steatose ab.
+        </p>
+
+        <div class="leb-b2__rechenbsp leb-b2__anim leb-b2__anim--d2">
+          <div class="leb-b2__rechenbsp-head">
+            <span class="leb-b2__rechenbsp-tag">Qualität sichern</span>
+            <span class="leb-b2__rechenbsp-title">IQR/Median — wann ist eine Messung verwertbar?</span>
+          </div>
+          <div class="leb-b2__rechenbsp-body">
+            <div class="leb-b2__rechenbsp-row leb-b2__rechenbsp-row--input">
+              <div class="leb-b2__rechenbsp-desc">
+                <strong>Mehrere Einzelmessungen</strong> — typischerweise 10 gültige Messungen im selben Areal
+              </div>
+              <div class="leb-b2__rechenbsp-val leb-b2__rechenbsp-val--blue">n = 10</div>
+            </div>
+            <div class="leb-b2__rechenbsp-row leb-b2__rechenbsp-row--calc">
+              <div class="leb-b2__rechenbsp-desc">
+                <strong>Streuung</strong> — Interquartilsabstand relativ zum Median (IQR/Median)
+              </div>
+              <div class="leb-b2__rechenbsp-val leb-b2__rechenbsp-val--blue">IQR/M &lt; 30 %</div>
+            </div>
+            <div class="leb-b2__rechenbsp-row leb-b2__rechenbsp-row--result">
+              <div class="leb-b2__rechenbsp-desc">
+                <strong>Verwertbarer Median</strong> — erst bei geringer Streuung ist der kPa-Wert belastbar
+              </div>
+              <div class="leb-b2__rechenbsp-val leb-b2__rechenbsp-val--result">6,2 kPa</div>
+            </div>
+            <p class="leb-b2__rechenbsp-hint">
+              Qualitätsindikatoren sind entscheidend: Ein Median ist nur verwertbar, wenn die Streuung (IQR/Median) niedrig ist — ein gutes Gerät zeigt diese Kennzahlen automatisch an und markiert ungültige Messungen. Standardisiert wird nüchtern, in Rückenlage, im rechten Leberlappen über die Interkostalräume gemessen.
+            </p>
+          </div>
+        </div>
+
+        <div class="leb-b2__img-block leb-b2__anim leb-b2__anim--d2">
+          <div class="leb-b2__img-wrap">
+            <img class="leb-b2__img" src="/assets/img/97f2026e-abe5-42d9-b184-73099987aa00.jpg" alt="Leber-Elastographie — kPa-Messung der Lebersteifigkeit mit farbcodiertem Elastogramm am Ultraschallsystem" loading="lazy"/>
+          </div>
+          <p class="leb-b2__img-caption">Lebersteifigkeitsmessung am Ultraschallsystem — farbcodiertes Elastogramm im B-Bild mit kPa-Readout und Qualitätsindikatoren</p>
+        </div>
+
+        <div class="leb-b2__infobox leb-b2__anim leb-b2__anim--d3">
+          <div class="leb-b2__infobox-label"><span aria-hidden="true">⚠️</span> Störfaktoren beachten</div>
+          <p class="leb-b2__infobox-text">
+            Mehrere Faktoren erhöhen die gemessene Lebersteifigkeit unabhängig von der Fibrose und können falsch-hohe kPa-Werte verursachen: akute Hepatitis (Transaminasen↑), Cholestase, Rechtsherzinsuffizienz mit Leberstauung sowie eine nicht-nüchterne Messung. Standardisierte Bedingungen (nüchtern, Ruhe, korrekte Anlotung) und die Qualitätsindikatoren des Geräts sind deshalb unverzichtbar für belastbare Werte.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="leb-b2__aside-placeholder" id="leb-b2-placeholder" aria-hidden="true"></div>
+    <div class="leb-b2__aside" id="leb-b2-aside">
+      <div class="leb-b2__aside-card">
+        <div class="leb-b2__aside-label">MASLD / NAFLD</div>
+        <div class="leb-b2__aside-title">Fibrose und Steatose gemeinsam</div>
+        <p class="leb-b2__aside-text">Warum bei der Fettleber Steifigkeit (kPa) und Fettgehalt (CAP) zusammen beurteilt werden müssen.</p>
+        <a href="#indikationen" class="leb-b2__aside-link">
+          Zu den Indikationen
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="leb-b2__aside-card">
+        <div class="leb-b2__aside-label">Beratung</div>
+        <div class="leb-b2__aside-title">SWE &amp; Fettquantifizierung im Gerät</div>
+        <p class="leb-b2__aside-text">Welche Systeme bieten integrierte Scherwellen-Elastographie samt Steatose-Quantifizierung? Wir beraten Sie persönlich.</p>
+        <a href="/kontakt" class="leb-b2__aside-link">
+          Kostenlos beraten lassen
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var aside       = document.getElementById('leb-b2-aside');
+  var placeholder = document.getElementById('leb-b2-placeholder');
+  var inner       = document.getElementById('leb-b2-inner');
+  if (!aside || !placeholder || !inner) return;
+
+  var stickyStartY = null;
+  var asideLeft    = null;
+  var asideWidth   = null;
+  var bottomPad    = 40;
+
+  function getNavHeight() {
+    var nav = document.querySelector('.nav__wrap');
+    if (nav) return nav.getBoundingClientRect().height;
+    var bar = document.querySelector('.nav__bar');
+    if (bar) return bar.getBoundingClientRect().height;
+    var anyNav = document.querySelector('nav');
+    if (anyNav) return anyNav.getBoundingClientRect().height;
+    return 68;
+  }
+  function isMobile() { return window.innerWidth <= 1100; }
+
+  function measureStickyStartY() {
+    if (isMobile()) {
+      aside.classList.remove('leb-b2__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('leb-b2__aside-placeholder--active');
+      placeholder.style.height = '';
+      stickyStartY = null;
+      return;
+    }
+    aside.classList.remove('leb-b2__aside--fixed');
+    aside.style.position = aside.style.top = aside.style.left = aside.style.width = '';
+    placeholder.classList.remove('leb-b2__aside-placeholder--active');
+    placeholder.style.height = '';
+    var navH = getNavHeight();
+    var rect = aside.getBoundingClientRect();
+    asideLeft    = rect.left;
+    asideWidth   = rect.width;
+    stickyStartY = rect.top + window.scrollY - navH - 20;
+    if (window.scrollY >= stickyStartY) {
+      placeholder.classList.add('leb-b2__aside-placeholder--active');
+      placeholder.style.height = aside.offsetHeight + 'px';
+      aside.classList.add('leb-b2__aside--fixed');
+      aside.style.top    = (navH + 20) + 'px';
+      aside.style.bottom = '';
+      aside.style.left   = asideLeft + 'px';
+      aside.style.right  = '';
+      aside.style.width  = asideWidth + 'px';
+    }
+  }
+
+  function updateSidebarPos() {
+    if (!aside || !inner) return;
+    if (isMobile()) {
+      aside.classList.remove('leb-b2__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('leb-b2__aside-placeholder--active');
+      placeholder.style.height = '';
+      return;
+    }
+    if (stickyStartY === null) { measureStickyStartY(); return; }
+
+    var navH      = getNavHeight();
+    var scrollY   = window.scrollY;
+    var asideH    = aside.offsetHeight;
+    var innerH    = inner.offsetHeight;
+    var maxAbsTop = innerH - asideH - bottomPad;
+
+    if (scrollY < stickyStartY) {
+      placeholder.classList.remove('leb-b2__aside-placeholder--active');
+      placeholder.style.height = '';
+      aside.classList.remove('leb-b2__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      return;
+    }
+
+    placeholder.classList.add('leb-b2__aside-placeholder--active');
+    placeholder.style.height = asideH + 'px';
+
+    var innerRect       = inner.getBoundingClientRect();
+    var sidebarWouldEnd = (navH + 20) + asideH;
+
+    if (innerRect.bottom - bottomPad <= sidebarWouldEnd) {
+      var innerPadRight = parseInt(window.getComputedStyle(inner).paddingRight, 10) || 0;
+      aside.classList.remove('leb-b2__aside--fixed');
+      aside.style.position = 'absolute';
+      aside.style.top      = 'auto';
+      aside.style.bottom   = bottomPad + 'px';
+      aside.style.right    = innerPadRight + 'px';
+      aside.style.left     = 'auto';
+      aside.style.width    = asideWidth + 'px';
+    } else {
+      aside.style.position = '';
+      aside.classList.add('leb-b2__aside--fixed');
+      aside.style.top      = (navH + 20) + 'px';
+      aside.style.bottom   = '';
+      aside.style.left     = asideLeft + 'px';
+      aside.style.right    = '';
+      aside.style.width    = asideWidth + 'px';
+    }
+  }
+
+  window.addEventListener('scroll', updateSidebarPos, { passive: true });
+  window.addEventListener('resize', function () {
+    stickyStartY = null; asideLeft = null; asideWidth = null;
+    setTimeout(updateSidebarPos, 60);
+  }, { passive: true });
+  setTimeout(function () { measureStickyStartY(); updateSidebarPos(); }, 200);/*SLF*/window.addEventListener("load",function(){measureStickyStartY();updateSidebarPos();setTimeout(function(){measureStickyStartY();updateSidebarPos();},200);});[700,1500,2500].forEach(function(d){setTimeout(function(){measureStickyStartY();updateSidebarPos();},d);});
+  updateSidebarPos();
+
+  function measure() { measureStickyStartY(); }
+  function update() { updateSidebarPos(); }
+
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('leb-b2__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.leb-b2__anim').forEach(function (el) { obs.observe(el); });
+
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-6gmczlmvm" style="position:relative;width:100%;min-height:auto;background-color:#FFFF;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-ttvf993dm" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-rg56dqcxu" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-rg56dqcxu { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.leb-prod__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.leb-prod__wrap *,
+.leb-prod__wrap *::before,
+.leb-prod__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.leb-prod__inner { max-width: 1160px; margin: 0 auto; padding: 0 2rem; }
+
+/* Einleitungszeile */
+.leb-prod__intro {
+  display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;
+}
+.leb-prod__intro-line {
+  flex: 1; height: 1px;
+  background: linear-gradient(90deg, rgba(11,95,183,0.15), transparent);
+}
+.leb-prod__intro-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: rgb(9,58,126); white-space: nowrap;
+}
+.leb-prod__intro-line--r {
+  background: linear-gradient(90deg, transparent, rgba(11,95,183,0.15));
+}
+
+/* Card */
+.leb-prod__card {
+  background: #FFFFFF; border: 1px solid rgba(11,26,46,0.08); border-radius: 4px;
+  display: grid; grid-template-columns: 340px 1fr; overflow: hidden;
+  box-shadow: 0 4px 24px rgba(11,26,46,0.06), 0 1px 4px rgba(11,26,46,0.04);
+  transition: box-shadow 0.3s ease;
+}
+.leb-prod__card:hover {
+  box-shadow: 0 8px 40px rgba(11,26,46,0.10), 0 2px 8px rgba(11,26,46,0.06);
+}
+
+/* Bild-Spalte */
+.leb-prod__img-col {
+  position: relative; background: #F7F5F0;
+  display: flex; align-items: center; justify-content: center;
+  padding: 2.5rem; overflow: hidden;
+}
+.leb-prod__img-grid {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(11,95,183,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(11,95,183,0.04) 1px, transparent 1px);
+  background-size: 32px 32px; pointer-events: none;
+}
+.leb-prod__img {
+  width: 100%; max-width: 280px; height: auto; display: block;
+  position: relative; z-index: 1; transition: transform 0.4s ease;
+}
+.leb-prod__card:hover .leb-prod__img { transform: scale(1.03) translateY(-3px); }
+.leb-prod__badge {
+  position: absolute; top: 1.2rem; left: 1.2rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.54rem; letter-spacing: 0.16em;
+  text-transform: uppercase; color: rgb(9,58,126); background: rgba(255,255,255,0.9);
+  border: 1px solid rgba(11,95,183,0.15); border-radius: 2px;
+  padding: 0.3rem 0.65rem; z-index: 2;
+}
+.leb-prod__cw-badge {
+  position: absolute; bottom: 1.2rem; right: 1.2rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.52rem; letter-spacing: 0.12em;
+  text-transform: uppercase; color: #fff;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  border-radius: 2px; padding: 0.28rem 0.6rem; z-index: 2;
+}
+
+/* Content-Spalte */
+.leb-prod__content {
+  padding: 2.5rem 2.75rem; display: flex; flex-direction: column;
+  gap: 1.4rem; justify-content: center;
+}
+.leb-prod__context {
+  display: inline-flex; align-items: center; gap: 0.55rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.2em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-prod__context::before {
+  content: ''; width: 16px; height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+.leb-prod__name {
+  font-size: clamp(1.3rem, 2vw, 1.65rem); font-weight: 700;
+  letter-spacing: -0.03em; line-height: 1.2; color: #0B1A2E;
+}
+.leb-prod__sub {
+  font-size: 0.92rem; font-weight: 400; line-height: 1.7; color: rgb(72,87,112);
+}
+
+/* CW-Highlight Box */
+.leb-prod__highlight {
+  background: rgba(11,95,183,0.04); border: 1px solid rgba(11,95,183,0.12);
+  border-left: 3px solid #0B5FB7; border-radius: 0 4px 4px 0;
+  padding: 0.9rem 1.1rem; display: flex; flex-direction: column; gap: 0.35rem;
+}
+.leb-prod__highlight-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.52rem;
+  letter-spacing: 0.16em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-prod__highlight-text {
+  font-size: 0.85rem; font-weight: 400; line-height: 1.6; color: rgb(40,60,90);
+}
+.leb-prod__highlight-text strong { font-weight: 600; color: #0B1A2E; }
+
+.leb-prod__bullets { display: flex; flex-direction: column; gap: 0.7rem; list-style: none; }
+.leb-prod__bullet { display: flex; align-items: flex-start; gap: 0.75rem; }
+.leb-prod__bullet-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0); flex-shrink: 0; margin-top: 7px;
+}
+.leb-prod__bullet-text {
+  font-size: 0.9rem; font-weight: 400; line-height: 1.6; color: rgb(55,70,95);
+}
+.leb-prod__bullet-text strong { font-weight: 600; color: #0B1A2E; }
+
+.leb-prod__divider { height: 1px; background: rgba(11,26,46,0.07); }
+
+.leb-prod__actions {
+  display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+}
+.leb-prod__btn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  font-family: 'Space Grotesk', sans-serif; font-size: 0.85rem; font-weight: 600;
+  color: #fff; background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  border: none; border-radius: 2px; padding: 0.75rem 1.5rem; cursor: pointer;
+  text-decoration: none; transition: opacity 0.2s, transform 0.15s;
+  box-shadow: 0 4px 16px rgba(11,95,183,0.22);
+}
+.leb-prod__btn:hover { opacity: 0.88; transform: translateY(-1px); }
+.leb-prod__btn:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+.leb-prod__link {
+  font-size: 0.82rem; font-weight: 500; color: rgb(9,58,126); text-decoration: none;
+  display: inline-flex; align-items: center; gap: 0.4rem; transition: gap 0.2s;
+}
+.leb-prod__link:hover { gap: 0.65rem; }
+.leb-prod__link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* ANIMATIONEN */
+.leb-prod__anim { opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.leb-prod__anim.leb-prod__vis { opacity: 1; transform: none; }
+.leb-prod__anim--d1 { transition-delay: 0.05s; }
+.leb-prod__anim--d2 { transition-delay: 0.15s; }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .leb-prod__card { grid-template-columns: 1fr; }
+  .leb-prod__img-col { padding: 2rem; min-height: 220px; }
+  .leb-prod__img { max-width: 200px; }
+  .leb-prod__content { padding: 2rem; }
+}
+@media (max-width: 480px) {
+  .leb-prod__actions { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  .leb-prod__btn { width: 100%; justify-content: center; }
+}
+</style>
+
+<div class="leb-prod__wrap">
+  <div class="leb-prod__inner">
+    <div class="leb-prod__intro leb-prod__anim leb-prod__anim--d1">
+      <div class="leb-prod__intro-line" aria-hidden="true"></div>
+      <span class="leb-prod__intro-label">Empfehlung für die Leber-Elastographie</span>
+      <div class="leb-prod__intro-line leb-prod__intro-line--r" aria-hidden="true"></div>
+    </div>
+
+    <div class="leb-prod__card leb-prod__anim leb-prod__anim--d2">
+      <div class="leb-prod__img-col">
+        <div class="leb-prod__img-grid" aria-hidden="true"></div>
+        <span class="leb-prod__badge">Mindray</span>
+        <span class="leb-prod__cw-badge">SWE ✓</span>
+        <img class="leb-prod__img" src="/assets/img/6717cbc3-663b-4b47-b4cf-38c36750d400.jpg" alt="Mindray Resona I9 — Premium-Ultraschallgerät mit integrierter Scherwellen-Elastographie für die Leber" loading="lazy"/>
+      </div>
+      <div class="leb-prod__content">
+        <div class="leb-prod__context">Premium — Allgemeinmedizin / Gastroenterologie</div>
+        <h3 class="leb-prod__name">Mindray Resona I9</h3>
+        <p class="leb-prod__sub">
+          Das Resona I9 ist ein Premium-System mit vollständig integrierter <strong>Scherwellen-Elastographie</strong>: Sie messen die Lebersteifigkeit in kPa und quantifizieren die Steatose im selben Gerät, mit dem Sie den abdominellen Ultraschall durchführen — ein Gerät statt zweier. Für Gastroenterologen und Internisten, die Leberfibrose und MASLD auf höchstem Niveau beurteilen und im Verlauf überwachen.
+        </p>
+
+        <div class="leb-prod__highlight">
+          <div class="leb-prod__highlight-label">Elastographie-Highlight</div>
+          <p class="leb-prod__highlight-text">
+            Mit <strong>integrierter 2D-Scherwellen-Elastographie</strong> und <strong>Fettquantifizierung</strong> liefert das Resona I9 Steifigkeit (kPa) und Steatose in einem Workflow — inklusive automatischer <strong>Qualitätsindikatoren</strong> (Median, IQR), die ungültige Messungen markieren. Der konvexe Schallkopf sorgt für die nötige Eindringtiefe in den rechten Leberlappen.
+          </p>
+        </div>
+
+        <ul class="leb-prod__bullets">
+          <li class="leb-prod__bullet">
+            <span class="leb-prod__bullet-dot" aria-hidden="true"></span>
+            <span class="leb-prod__bullet-text"><strong>Integrierte 2D-SWE:</strong> bildgeführte ROI-Platzierung, Lebersteifigkeit in kPa direkt im B-Bild</span>
+          </li>
+          <li class="leb-prod__bullet">
+            <span class="leb-prod__bullet-dot" aria-hidden="true"></span>
+            <span class="leb-prod__bullet-text"><strong>Steatose-Quantifizierung:</strong> objektiver Fettgehalt der Leber — bei NAFLD/MASLD ergänzend zur Fibrose</span>
+          </li>
+          <li class="leb-prod__bullet">
+            <span class="leb-prod__bullet-dot" aria-hidden="true"></span>
+            <span class="leb-prod__bullet-text"><strong>Konvexer Schallkopf:</strong> hohe Eindringtiefe für die interkostale Lebermessung</span>
+          </li>
+          <li class="leb-prod__bullet">
+            <span class="leb-prod__bullet-dot" aria-hidden="true"></span>
+            <span class="leb-prod__bullet-text"><strong>Qualitätsindikatoren:</strong> Median, IQR/Median und gültig/ungültig-Markierung für belastbare Verlaufswerte</span>
+          </li>
+        </ul>
+
+        <div class="leb-prod__divider" aria-hidden="true"></div>
+
+        <div class="leb-prod__actions">
+          <a href="/kontakt" class="leb-prod__btn">
+            Unverbindlich anfragen
+            <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9" class="leb-prod__link">
+            Resona I9 im Detail
+            <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) { e.target.classList.add('leb-prod__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.leb-prod__anim').forEach(function(el) { obs.observe(el); });
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-m8bb3q8lv" style="position:relative;width:100%;min-height:auto;background-color:#F4F6F9;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-xb0omf9e9" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-05yz297bp" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-05yz297bp { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.leb-b3__wrap { font-family: 'Space Grotesk', sans-serif; -webkit-font-smoothing: antialiased; width: 100%; overflow-x: clip; }
+.leb-b3__wrap *, .leb-b3__wrap *::before, .leb-b3__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.leb-b3__inner {
+  max-width: 1160px; margin: 0 auto; padding: 0 2rem;
+  display: grid; grid-template-columns: minmax(0, 720px) 1fr;
+  gap: 0 5rem; align-items: start;
+  position: relative;
+}
+.leb-b3__main { display: flex; flex-direction: column; gap: 3.5rem; }
+
+/* ASIDE */
+.leb-b3__aside { position: relative; display: flex; flex-direction: column; gap: 1.5rem; }
+.leb-b3__aside--fixed { position: fixed; z-index: 10; }
+.leb-b3__aside-placeholder { display: none; }
+.leb-b3__aside-placeholder--active { display: block; }
+
+.leb-b3__section { display: flex; flex-direction: column; gap: 1.5rem; }
+.leb-b3__anchor { display: block; position: relative; top: -90px; visibility: hidden; }
+
+.leb-b3__chapter {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-b3__chapter::before {
+  content: ''; width: 18px; height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+.leb-b3__h2 {
+  font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+  font-weight: 700; letter-spacing: -0.03em; line-height: 1.2; color: #0B1A2E;
+}
+
+.leb-b3__p {
+  font-size: 1rem; font-weight: 400; line-height: 1.85; color: rgb(55,70,95);
+}
+.leb-b3__p a {
+  color: rgb(9,58,126); text-decoration: underline;
+  text-decoration-color: rgba(62,178,240,0.4); text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+.leb-b3__p a:hover { color: #0B5FB7; text-decoration-color: #3EB2F0; }
+.leb-b3__p a:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 2px; border-radius: 1px; }
+
+/* ── ACCORDION ── */
+.leb-b3__fach-tabs {
+  display: flex; flex-direction: column; gap: 0;
+  border: 1px solid rgba(11,26,46,0.08); border-radius: 4px;
+  overflow: hidden; background: #FFFFFF;
+}
+.leb-b3__fach-tab { border-bottom: 1px solid rgba(11,26,46,0.06); }
+.leb-b3__fach-tab:last-child { border-bottom: none; }
+
+.leb-b3__fach-head {
+  display: flex; align-items: center; gap: 1rem;
+  padding: 1rem 1.4rem; cursor: pointer; user-select: none;
+  transition: background 0.2s; background: transparent; border: none; width: 100%; text-align: left;
+}
+.leb-b3__fach-head:hover { background: rgba(62,178,240,0.03); }
+.leb-b3__fach-head:focus-visible { outline: 2px solid #0B5FB7; outline-offset: -2px; }
+
+.leb-b3__fach-icon {
+  width: 36px; height: 36px; border-radius: 2px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center; font-size: 1.05rem;
+  background: rgba(11,95,183,0.06); border: 1px solid rgba(11,95,183,0.10);
+}
+.leb-b3__fach-title { font-size: 0.93rem; font-weight: 600; color: #0B1A2E; flex: 1; line-height: 1.3; }
+.leb-b3__fach-chev { color: rgb(150,165,190); transition: transform 0.3s ease; flex-shrink: 0; }
+.leb-b3__fach-chev--open { transform: rotate(180deg); }
+
+.leb-b3__fach-body { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.32s ease; }
+.leb-b3__fach-body--open { grid-template-rows: 1fr; }
+.leb-b3__fach-inner { overflow: hidden; }
+.leb-b3__fach-content { padding: 0 1.4rem 1.5rem 4rem; display: flex; flex-direction: column; gap: 1.1rem; }
+
+/* ── TABELLE (innerhalb Accordion) ── */
+.leb-b3__table-wrap { width: 100%; overflow: hidden; border-radius: 4px; border: 1px solid rgba(11,26,46,0.08); }
+.leb-b3__table { width: 100%; border-collapse: collapse; font-size: 0.84rem; table-layout: fixed; }
+.leb-b3__table thead tr { background: rgba(11,26,46,0.03); border-bottom: 2px solid rgba(62,178,240,0.18); }
+.leb-b3__table th { padding: 0.7rem 0.9rem; font-weight: 600; font-size: 0.73rem; color: #0B1A2E; text-align: left; word-break: break-word; }
+.leb-b3__table th:first-child { font-family: 'JetBrains Mono', monospace; font-size: 0.56rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(72,87,112); width: 30%; }
+.leb-b3__table td { padding: 0.7rem 0.9rem; color: rgb(55,70,95); border-bottom: 1px solid rgba(11,26,46,0.05); line-height: 1.55; vertical-align: top; word-break: break-word; }
+.leb-b3__table tr:last-child td { border-bottom: none; }
+.leb-b3__table tr:hover td { background: rgba(62,178,240,0.03); }
+
+@media (max-width: 600px) {
+  .leb-b3__table thead { display: none; }
+  .leb-b3__table, .leb-b3__table tbody, .leb-b3__table tr, .leb-b3__table td { display: block; width: 100%; }
+  .leb-b3__table tr { border-bottom: 1px solid rgba(11,26,46,0.07); padding: 0.6rem 0; }
+  .leb-b3__table tr:last-child { border-bottom: none; }
+  .leb-b3__table td { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; padding: 0.3rem 1rem; border-bottom: none; font-size: 0.8rem; }
+  .leb-b3__table td::before { content: attr(data-label); font-family: 'JetBrains Mono', monospace; font-size: 0.54rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(90,110,140); white-space: nowrap; flex-shrink: 0; min-width: 80px; }
+}
+
+/* ── BILD ── */
+.leb-b3__img-block { display: flex; flex-direction: column; gap: 0.65rem; }
+.leb-b3__img-wrap { border-radius: 4px; overflow: hidden; border: 1px solid rgba(11,26,46,0.07); }
+.leb-b3__img { width: 100%; height: auto; display: block; }
+.leb-b3__img-caption { font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; letter-spacing: 0.1em; color: rgb(90,110,140); text-align: center; }
+
+/* ── INFOBOX cyan ── */
+.leb-b3__infobox {
+  background: rgba(62,178,240,0.05); border: 1px solid rgba(62,178,240,0.15);
+  border-left: 3px solid #3EB2F0; border-radius: 0 4px 4px 0;
+  padding: 1.2rem 1.4rem; display: flex; flex-direction: column; gap: 0.5rem;
+}
+.leb-b3__infobox-label {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-b3__infobox-text { font-size: 0.88rem; font-weight: 400; line-height: 1.7; color: rgb(55,70,95); font-style: italic; }
+.leb-b3__infobox-text strong { font-weight: 600; color: #0B1A2E; font-style: normal; }
+.leb-b3__infobox-text a { color: rgb(9,58,126); text-decoration: underline; text-decoration-color: rgba(62,178,240,0.4); text-underline-offset: 2px; }
+
+/* ── TR-VELOCITY FORMEL ── */
+.leb-b3__tr-box {
+  background: rgba(11,95,183,0.04); border: 1px solid rgba(11,95,183,0.12);
+  border-left: 3px solid #0B5FB7; border-radius: 0 4px 4px 0;
+  padding: 1.2rem 1.4rem; display: flex; flex-direction: column; gap: 0.75rem;
+}
+.leb-b3__tr-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-b3__tr-eq {
+  font-family: 'JetBrains Mono', monospace; font-size: 1.05rem; font-weight: 700;
+  color: #0B1A2E; background: #FFFFFF; border-radius: 4px;
+  border: 1px solid rgba(11,26,46,0.07); padding: 0.65rem 1rem;
+  display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;
+}
+.leb-b3__tr-eq .eq-hl {
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.leb-b3__tr-text { font-size: 0.85rem; font-weight: 400; line-height: 1.65; color: rgb(55,70,95); }
+.leb-b3__tr-text strong { font-weight: 600; color: #0B1A2E; }
+
+/* ── ABI MINI-BLOCK ── */
+.leb-b3__abi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: rgba(11,26,46,0.07); border: 1px solid rgba(11,26,46,0.07); border-radius: 4px; overflow: hidden; }
+.leb-b3__abi-card { background: #FFFFFF; padding: 1.1rem 1.25rem; display: flex; flex-direction: column; gap: 0.3rem; }
+.leb-b3__abi-val { font-family: 'JetBrains Mono', monospace; font-size: 1.2rem; font-weight: 700; background: linear-gradient(90deg, #0B5FB7, #3EB2F0); -webkit-background-clip: text; background-clip: text; color: transparent; line-height: 1; }
+.leb-b3__abi-label { font-size: 0.78rem; font-weight: 600; color: #0B1A2E; }
+.leb-b3__abi-sub { font-size: 0.75rem; color: rgb(72,87,112); line-height: 1.45; }
+
+/* ── ASIDE CARDS ── */
+.leb-b3__aside-card { background: #FFFFFF; border: 1px solid rgba(11,26,46,0.07); border-radius: 4px; padding: 1.4rem; display: flex; flex-direction: column; gap: 0.75rem; }
+.leb-b3__aside-label { font-family: 'JetBrains Mono', monospace; font-size: 0.55rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgb(90,110,140); }
+.leb-b3__aside-title { font-size: 0.88rem; font-weight: 600; color: #0B1A2E; line-height: 1.35; }
+.leb-b3__aside-text { font-size: 0.82rem; font-weight: 400; line-height: 1.65; color: rgb(80,100,130); }
+.leb-b3__aside-link { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 600; color: rgb(9,58,126); text-decoration: none; transition: gap 0.2s; }
+.leb-b3__aside-link:hover { gap: 0.65rem; }
+.leb-b3__aside-link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* ANIMATIONEN */
+.leb-b3__anim { opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.leb-b3__anim.leb-b3__vis { opacity: 1; transform: none; }
+.leb-b3__anim--d1 { transition-delay: 0.05s; }
+.leb-b3__anim--d2 { transition-delay: 0.12s; }
+.leb-b3__anim--d3 { transition-delay: 0.20s; }
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .leb-b3__inner { grid-template-columns: 1fr; gap: 3rem 0; }
+  .leb-b3__aside { position: static !important; display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .leb-b3__aside--fixed { position: static !important; }
+  .leb-b3__aside-placeholder { display: none !important; }
+}
+@media (max-width: 640px) {
+  .leb-b3__aside { grid-template-columns: 1fr; }
+  .leb-b3__fach-content { padding-left: 1.4rem; }
+  .leb-b3__abi-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="leb-b3__wrap" id="leb-b3-wrap">
+  <div class="leb-b3__inner" id="leb-b3-inner">
+    <div class="leb-b3__main">
+      <div class="leb-b3__section">
+        <span id="vs-biopsie" class="leb-b3__anchor"></span>
+        <div class="leb-b3__chapter leb-b3__anim leb-b3__anim--d1">05 — Methodenvergleich</div>
+        <h2 class="leb-b3__h2 leb-b3__anim leb-b3__anim--d1">Elastographie vs. Leberbiopsie</h2>
+
+        <p class="leb-b3__p leb-b3__anim leb-b3__anim--d2">
+          Die Leberbiopsie galt lange als Referenzmethode der Fibrosebeurteilung — die Elastographie hat sie für viele Fragestellungen abgelöst. Wann welche Methode sinnvoll ist, im praxisnahen Überblick.
+        </p>
+
+        <div class="leb-b3__fach-tabs leb-b3__anim leb-b3__anim--d2">
+
+          <div class="leb-b3__fach-tab">
+            <button class="leb-b3__fach-head" data-tab="leb-elasto" aria-expanded="true" aria-controls="leb-tab-elasto">
+              <div class="leb-b3__fach-icon" aria-hidden="true">🎯</div>
+              <span class="leb-b3__fach-title">Elastographie — nicht-invasiv &amp; wiederholbar</span>
+              <svg class="leb-b3__fach-chev leb-b3__fach-chev--open" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="leb-b3__fach-body leb-b3__fach-body--open" id="leb-tab-elasto" role="region">
+              <div class="leb-b3__fach-inner">
+                <div class="leb-b3__fach-content">
+                  <p class="leb-b3__p" style="font-size:0.92rem">
+                    Die <strong>Leber-Elastographie</strong> misst die Steifigkeit schmerzfrei in Minuten, ohne Eingriff und ohne Strahlung. Sie erfasst ein deutlich größeres Lebervolumen als eine Biopsie und ist beliebig oft wiederholbar — ideal für Screening und Verlauf. Sie liefert einen kontinuierlichen kPa-Wert statt einer kategorialen Histologie.
+                  </p>
+                  <div class="leb-b3__img-block">
+                    <div class="leb-b3__img-wrap">
+                      <img class="leb-b3__img" src="/assets/img/fd96d4b0-e6e7-4e4b-b043-10269ee04800.jpg" alt="Leber-Elastographie — nicht-invasive Lebersteifigkeitsmessung mit Scherwellen-Elastogramm" loading="lazy"/>
+                    </div>
+                    <p class="leb-b3__img-caption">Nicht-invasive Lebersteifigkeitsmessung — farbcodiertes Scherwellen-Elastogramm mit kPa-Wert im Leberparenchym</p>
+                  </div>
+                  <div class="leb-b3__table-wrap">
+                    <table class="leb-b3__table">
+                      <thead>
+                        <tr><th scope="col">Eigenschaft</th><th scope="col">Klinische Bedeutung</th></tr>
+                      </thead>
+                      <tbody>
+                        <tr><td data-label="Eigenschaft"><strong>Nicht-invasiv</strong></td><td data-label="Bedeutung">Keine Gewebeentnahme, kein Blutungs- oder Infektionsrisiko — ambulant durchführbar.</td></tr>
+                        <tr><td data-label="Eigenschaft"><strong>Wiederholbar</strong></td><td data-label="Bedeutung">Beliebig oft für Verlauf und Therapiekontrolle — eine Biopsie nicht.</td></tr>
+                        <tr><td data-label="Eigenschaft"><strong>Großes Messvolumen</strong></td><td data-label="Bedeutung">Erfasst mehr Lebergewebe als ein Biopsiezylinder — weniger Sampling-Fehler.</td></tr>
+                        <tr><td data-label="Eigenschaft"><strong>kPa-Wert</strong></td><td data-label="Bedeutung">Kontinuierlicher, objektiver Zahlenwert — gut für Verlaufsvergleiche geeignet.</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="leb-b3__fach-tab">
+            <button class="leb-b3__fach-head" data-tab="leb-biopsie" aria-expanded="false" aria-controls="leb-tab-biopsie">
+              <div class="leb-b3__fach-icon" aria-hidden="true">🔬</div>
+              <span class="leb-b3__fach-title">Leberbiopsie — wann noch nötig?</span>
+              <svg class="leb-b3__fach-chev" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="leb-b3__fach-body" id="leb-tab-biopsie" role="region">
+              <div class="leb-b3__fach-inner">
+                <div class="leb-b3__fach-content">
+                  <p class="leb-b3__p" style="font-size:0.92rem">
+                    Die <strong>Leberbiopsie</strong> bleibt unverzichtbar, wenn es nicht nur um den Fibrosegrad geht, sondern um die <strong>Ätiologie und Aktivität</strong> einer Lebererkrankung — etwa bei unklarer Genese, Verdacht auf Autoimmunhepatitis, Overlap-Syndrome oder zur Beurteilung der entzündlichen Aktivität (Grading). Sie liefert histologische Information, die kein kPa-Wert ersetzt.
+                  </p>
+                  <div class="leb-b3__table-wrap">
+                    <table class="leb-b3__table">
+                      <thead>
+                        <tr><th scope="col">Aspekt</th><th scope="col">Bewertung der Biopsie</th></tr>
+                      </thead>
+                      <tbody>
+                        <tr><td data-label="Aspekt"><strong>Ätiologie</strong></td><td data-label="Bewertung">Histologie klärt die Ursache (Autoimmun, Speicher, Overlap) — Elastographie nicht.</td></tr>
+                        <tr><td data-label="Aspekt"><strong>Aktivität (Grading)</strong></td><td data-label="Bewertung">Entzündungsaktivität nur histologisch beurteilbar.</td></tr>
+                        <tr><td data-label="Aspekt"><strong>Invasivität</strong></td><td data-label="Bewertung">Eingriff mit Blutungs-/Schmerzrisiko, meist stationär — nicht beliebig wiederholbar.</td></tr>
+                        <tr><td data-label="Aspekt"><strong>Sampling-Fehler</strong></td><td data-label="Bewertung">Kleiner Gewebezylinder kann fokale Fibrose über-/unterschätzen.</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="leb-b3__infobox">
+                    <div class="leb-b3__infobox-label"><span aria-hidden="true">💡</span> Stufendiagnostik in der Praxis</div>
+                    <p class="leb-b3__infobox-text">
+                      In der Praxis ist die Elastographie meist der erste Schritt: Sie stratifiziert das Risiko und identifiziert Patienten mit fortgeschrittener Fibrose. Eine Biopsie wird nur noch gezielt eingesetzt, wenn die Ätiologie unklar bleibt oder eine histologische Aktivitätsbeurteilung therapierelevant ist. Für die meisten MASLD- und Hepatitis-Verläufe genügt die nicht-invasive Messung.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="leb-b3__fach-tab">
+            <button class="leb-b3__fach-head" data-tab="leb-direkt" aria-expanded="false" aria-controls="leb-tab-direkt">
+              <div class="leb-b3__fach-icon" aria-hidden="true">⚖️</div>
+              <span class="leb-b3__fach-title">Direktvergleich auf einen Blick</span>
+              <svg class="leb-b3__fach-chev" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="leb-b3__fach-body" id="leb-tab-direkt" role="region">
+              <div class="leb-b3__fach-inner">
+                <div class="leb-b3__fach-content">
+                  <p class="leb-b3__p" style="font-size:0.92rem">
+                    Beide Methoden ergänzen sich — die Elastographie für Screening und Verlauf, die Biopsie für die histologische Detailfrage.
+                  </p>
+                  <div class="leb-b3__abi-grid">
+                    <div class="leb-b3__abi-card">
+                      <div class="leb-b3__abi-val">kPa</div>
+                      <div class="leb-b3__abi-label">Elastographie</div>
+                      <div class="leb-b3__abi-sub">Fibrosegrad, Verlauf, Screening — nicht-invasiv und wiederholbar.</div>
+                    </div>
+                    <div class="leb-b3__abi-card">
+                      <div class="leb-b3__abi-val">Histo</div>
+                      <div class="leb-b3__abi-label">Biopsie</div>
+                      <div class="leb-b3__abi-sub">Ätiologie und Aktivität — wenn die Ursachenklärung therapierelevant ist.</div>
+                    </div>
+                  </div>
+                  <div class="leb-b3__table-wrap">
+                    <table class="leb-b3__table">
+                      <thead>
+                        <tr><th scope="col">Kriterium</th><th scope="col">Elastographie vs. Biopsie</th></tr>
+                      </thead>
+                      <tbody>
+                        <tr><td data-label="Kriterium"><strong>Belastung</strong></td><td data-label="Vergleich">Elastographie schmerzfrei und ambulant — Biopsie invasiv mit Risiken.</td></tr>
+                        <tr><td data-label="Kriterium"><strong>Verlauf</strong></td><td data-label="Vergleich">Elastographie beliebig wiederholbar — Biopsie nicht.</td></tr>
+                        <tr><td data-label="Kriterium"><strong>Ätiologie</strong></td><td data-label="Vergleich">Nur die Biopsie liefert die histologische Ursachenklärung.</td></tr>
+                        <tr><td data-label="Kriterium"><strong>Erststrategie</strong></td><td data-label="Vergleich">Elastographie als nicht-invasiver Einstieg, Biopsie gezielt bei offenen Fragen.</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="leb-b3__aside-placeholder" id="leb-b3-placeholder" aria-hidden="true"></div>
+    <div class="leb-b3__aside leb-b3__anim leb-b3__anim--d3" id="leb-b3-aside">
+      <div class="leb-b3__aside-card">
+        <div class="leb-b3__aside-label">Geräte</div>
+        <div class="leb-b3__aside-title">Systeme mit integrierter SWE</div>
+        <p class="leb-b3__aside-text">Premium- und Mittelklasse-Geräte mit Scherwellen-Elastographie und Steatose-Quantifizierung für die Leberdiagnostik.</p>
+        <a href="/fuer/allgemeinmedizin/" class="leb-b3__aside-link">
+          Geräte ansehen
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="leb-b3__aside-card">
+        <div class="leb-b3__aside-label">Werte</div>
+        <div class="leb-b3__aside-title">kPa richtig interpretieren</div>
+        <p class="leb-b3__aside-text">Welche Steifigkeit welchem Fibrosestadium entspricht und warum Qualitätsindikatoren zählen.</p>
+        <a href="#werte" class="leb-b3__aside-link">
+          Zur Werte-Interpretation
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ── Sticky Aside ── */
+  var aside       = document.getElementById('leb-b3-aside');
+  var placeholder = document.getElementById('leb-b3-placeholder');
+  var inner       = document.getElementById('leb-b3-inner');
+  if (!aside || !placeholder || !inner) return;
+
+  var stickyStartY = null;
+  var asideLeft    = null;
+  var asideWidth   = null;
+  var bottomPad    = 40;
+
+  function getNavHeight() {
+    var nav = document.querySelector('.nav__wrap');
+    if (nav) return nav.getBoundingClientRect().height;
+    var bar = document.querySelector('.nav__bar');
+    if (bar) return bar.getBoundingClientRect().height;
+    var anyNav = document.querySelector('nav');
+    if (anyNav) return anyNav.getBoundingClientRect().height;
+    return 68;
+  }
+  function isMobile() { return window.innerWidth <= 1100; }
+
+  function measureStickyStartY() {
+    if (isMobile()) {
+      aside.classList.remove('leb-b3__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('leb-b3__aside-placeholder--active');
+      placeholder.style.height = '';
+      stickyStartY = null;
+      return;
+    }
+    aside.classList.remove('leb-b3__aside--fixed');
+    aside.style.position = aside.style.top = aside.style.left = aside.style.width = '';
+    placeholder.classList.remove('leb-b3__aside-placeholder--active');
+    placeholder.style.height = '';
+    var navH = getNavHeight();
+    var rect = aside.getBoundingClientRect();
+    asideLeft    = rect.left;
+    asideWidth   = rect.width;
+    stickyStartY = rect.top + window.scrollY - navH - 20;
+    if (window.scrollY >= stickyStartY) {
+      placeholder.classList.add('leb-b3__aside-placeholder--active');
+      placeholder.style.height = aside.offsetHeight + 'px';
+      aside.classList.add('leb-b3__aside--fixed');
+      aside.style.top    = (navH + 20) + 'px';
+      aside.style.bottom = '';
+      aside.style.left   = asideLeft + 'px';
+      aside.style.right  = '';
+      aside.style.width  = asideWidth + 'px';
+    }
+  }
+
+  function updateSidebarPos() {
+    if (!aside || !inner) return;
+    if (isMobile()) {
+      aside.classList.remove('leb-b3__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('leb-b3__aside-placeholder--active');
+      placeholder.style.height = '';
+      return;
+    }
+    if (stickyStartY === null) { measureStickyStartY(); return; }
+
+    var navH      = getNavHeight();
+    var scrollY   = window.scrollY;
+    var asideH    = aside.offsetHeight;
+    var innerH    = inner.offsetHeight;
+    var maxAbsTop = innerH - asideH - bottomPad;
+
+    if (scrollY < stickyStartY) {
+      placeholder.classList.remove('leb-b3__aside-placeholder--active');
+      placeholder.style.height = '';
+      aside.classList.remove('leb-b3__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      return;
+    }
+
+    placeholder.classList.add('leb-b3__aside-placeholder--active');
+    placeholder.style.height = asideH + 'px';
+
+    var innerRect       = inner.getBoundingClientRect();
+    var sidebarWouldEnd = (navH + 20) + asideH;
+
+    if (innerRect.bottom - bottomPad <= sidebarWouldEnd) {
+      var innerPadRight = parseInt(window.getComputedStyle(inner).paddingRight, 10) || 0;
+      aside.classList.remove('leb-b3__aside--fixed');
+      aside.style.position = 'absolute';
+      aside.style.top      = 'auto';
+      aside.style.bottom   = bottomPad + 'px';
+      aside.style.right    = innerPadRight + 'px';
+      aside.style.left     = 'auto';
+      aside.style.width    = asideWidth + 'px';
+    } else {
+      aside.style.position = '';
+      aside.classList.add('leb-b3__aside--fixed');
+      aside.style.top      = (navH + 20) + 'px';
+      aside.style.bottom   = '';
+      aside.style.left     = asideLeft + 'px';
+      aside.style.right    = '';
+      aside.style.width    = asideWidth + 'px';
+    }
+  }
+
+  window.addEventListener('scroll', updateSidebarPos, { passive: true });
+  window.addEventListener('resize', function () {
+    stickyStartY = null; asideLeft = null; asideWidth = null;
+    setTimeout(updateSidebarPos, 60);
+  }, { passive: true });
+  setTimeout(function () { measureStickyStartY(); updateSidebarPos(); }, 200);/*SLF*/window.addEventListener("load",function(){measureStickyStartY();updateSidebarPos();setTimeout(function(){measureStickyStartY();updateSidebarPos();},200);});[700,1500,2500].forEach(function(d){setTimeout(function(){measureStickyStartY();updateSidebarPos();},d);});
+  updateSidebarPos();
+
+  function measure() { measureStickyStartY(); }
+  function update() { updateSidebarPos(); }
+  function toggleTab(btn) {
+    var tabId = btn.getAttribute('data-tab');
+    var body  = document.getElementById('leb-tab-' + tabId.replace('leb-', ''));
+    var chev  = btn.querySelector('.leb-b3__fach-chev');
+    if (!body) return;
+    var isOpen = body.classList.contains('leb-b3__fach-body--open');
+    body.classList.toggle('leb-b3__fach-body--open', !isOpen);
+    btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+    if (chev) chev.classList.toggle('leb-b3__fach-chev--open', !isOpen);
+    /* Sticky remeasure nach Höhenänderung */
+    stickyStartY = null; asideLeft = null;
+    setTimeout(update, 360);
+  }
+
+  document.querySelectorAll('.leb-b3__fach-head').forEach(function (btn) {
+    btn.addEventListener('click', function () { toggleTab(btn); });
+    btn.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleTab(btn); }
+    });
+  });
+
+  /* ── Scroll-Animationen ── */
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('leb-b3__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.leb-b3__anim').forEach(function (el) { obs.observe(el); });
+
+})();
+</script></div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-helkfr3jb" style="position:relative;width:100%;min-height:auto;background-color:#FFFF;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-l272g6147" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-zeaeua4cz" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-zeaeua4cz { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.leb-b4__wrap { font-family: 'Space Grotesk', sans-serif; -webkit-font-smoothing: antialiased; width: 100%; overflow-x: clip; }
+.leb-b4__wrap *, .leb-b4__wrap *::before, .leb-b4__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.leb-b4__inner {
+  max-width: 1160px; margin: 0 auto; padding: 0 2rem;
+  display: grid; grid-template-columns: minmax(0, 720px) 1fr;
+  gap: 0 5rem; align-items: start;
+  position: relative;
+}
+.leb-b4__main { display: flex; flex-direction: column; gap: 3.5rem; }
+
+/* ASIDE */
+.leb-b4__aside { position: relative; display: flex; flex-direction: column; gap: 1.5rem; }
+.leb-b4__aside--fixed { position: fixed; z-index: 10; }
+.leb-b4__aside-placeholder { display: none; }
+.leb-b4__aside-placeholder--active { display: block; }
+
+.leb-b4__section { display: flex; flex-direction: column; gap: 1.5rem; }
+.leb-b4__anchor { display: block; position: relative; top: -90px; visibility: hidden; }
+
+.leb-b4__chapter {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-b4__chapter::before {
+  content: ''; width: 18px; height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+.leb-b4__h2 {
+  font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+  font-weight: 700; letter-spacing: -0.03em; line-height: 1.2; color: #0B1A2E;
+}
+.leb-b4__h3 {
+  font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em;
+  line-height: 1.35; color: #0B1A2E;
+  display: flex; align-items: center; gap: 0.65rem;
+}
+.leb-b4__h3-marker {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+.leb-b4__p {
+  font-size: 1rem; font-weight: 400; line-height: 1.85; color: rgb(55,70,95);
+}
+.leb-b4__p a {
+  color: rgb(9,58,126); text-decoration: underline;
+  text-decoration-color: rgba(62,178,240,0.4); text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+.leb-b4__p a:hover { color: #0B5FB7; text-decoration-color: #3EB2F0; }
+.leb-b4__p a:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 2px; border-radius: 1px; }
+
+/* ── STIFTSONDE CARD ── */
+.leb-b4__pedof {
+  background: #FFFFFF; border: 1px solid rgba(11,26,46,0.08);
+  border-radius: 4px; overflow: hidden;
+}
+.leb-b4__pedof-head {
+  padding: 1rem 1.5rem; background: rgba(11,95,183,0.05);
+  border-bottom: 1px solid rgba(11,26,46,0.07);
+  display: flex; align-items: center; gap: 0.75rem;
+}
+.leb-b4__pedof-icon {
+  font-size: 1.3rem; width: 38px; height: 38px;
+  background: rgba(11,95,183,0.08); border: 1px solid rgba(11,95,183,0.14);
+  border-radius: 2px; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.leb-b4__pedof-meta { display: flex; flex-direction: column; gap: 0.15rem; }
+.leb-b4__pedof-tag {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.54rem;
+  letter-spacing: 0.14em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-b4__pedof-title { font-size: 1rem; font-weight: 700; color: #0B1A2E; line-height: 1.2; }
+.leb-b4__pedof-body {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 1px; background: rgba(11,26,46,0.06);
+}
+.leb-b4__pedof-col { background: #FFFFFF; padding: 1.2rem 1.4rem; display: flex; flex-direction: column; gap: 0.6rem; }
+.leb-b4__pedof-col-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.54rem;
+  letter-spacing: 0.14em; text-transform: uppercase; color: rgb(90,110,140);
+}
+.leb-b4__pedof-items { display: flex; flex-direction: column; gap: 0.5rem; list-style: none; }
+.leb-b4__pedof-item { display: flex; gap: 0.6rem; align-items: flex-start; font-size: 0.84rem; line-height: 1.6; color: rgb(55,70,95); }
+.leb-b4__pedof-item strong { font-weight: 600; color: #0B1A2E; }
+.leb-b4__pedof-dot-pro { width: 5px; height: 5px; border-radius: 50%; background: rgba(16,185,129,0.6); flex-shrink: 0; margin-top: 7px; }
+.leb-b4__pedof-dot-con { width: 5px; height: 5px; border-radius: 50%; background: rgba(239,68,68,0.45); flex-shrink: 0; margin-top: 7px; }
+.leb-b4__pedof-hint {
+  padding: 0.85rem 1.4rem; background: rgba(62,178,240,0.04);
+  border-top: 1px solid rgba(11,26,46,0.06);
+  font-size: 0.83rem; font-style: italic; line-height: 1.65; color: rgb(72,87,112);
+}
+.leb-b4__pedof-hint strong { font-weight: 600; color: #0B1A2E; font-style: normal; }
+
+/* ── VORTEILE TABELLE ── */
+.leb-b4__table-wrap { width: 100%; overflow: hidden; border-radius: 4px; border: 1px solid rgba(11,26,46,0.08); background: #FFFFFF; }
+.leb-b4__table { width: 100%; border-collapse: collapse; font-size: 0.85rem; table-layout: fixed; }
+.leb-b4__table thead tr { background: rgba(11,26,46,0.03); border-bottom: 2px solid rgba(62,178,240,0.2); }
+.leb-b4__table th { padding: 0.75rem 0.9rem; font-weight: 600; font-size: 0.75rem; color: #0B1A2E; text-align: left; word-break: break-word; }
+.leb-b4__table th:first-child { font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(72,87,112); width: 28%; }
+.leb-b4__table td { padding: 0.75rem 0.9rem; color: rgb(55,70,95); border-bottom: 1px solid rgba(11,26,46,0.05); line-height: 1.55; vertical-align: top; word-break: break-word; }
+.leb-b4__table tr:last-child td { border-bottom: none; }
+.leb-b4__table tr:hover td { background: rgba(62,178,240,0.03); }
+
+@media (max-width: 600px) {
+  .leb-b4__table thead { display: none; }
+  .leb-b4__table, .leb-b4__table tbody, .leb-b4__table tr, .leb-b4__table td { display: block; width: 100%; }
+  .leb-b4__table tr { border-bottom: 1px solid rgba(11,26,46,0.07); padding: 0.75rem 0; }
+  .leb-b4__table tr:last-child { border-bottom: none; }
+  .leb-b4__table td { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; padding: 0.3rem 1rem; border-bottom: none; font-size: 0.82rem; }
+  .leb-b4__table td::before { content: attr(data-label); font-family: 'JetBrains Mono', monospace; font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(90,110,140); white-space: nowrap; flex-shrink: 0; min-width: 75px; }
+}
+
+/* ── GRENZEN BOX ── */
+.leb-b4__limits {
+  background: rgba(251,191,36,0.06); border: 1px solid rgba(251,191,36,0.22);
+  border-left: 3px solid rgba(251,191,36,0.7); border-radius: 0 4px 4px 0;
+  padding: 1.4rem 1.6rem; display: flex; flex-direction: column; gap: 0.75rem;
+}
+.leb-b4__limits-label {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(140,100,0);
+}
+.leb-b4__limits-list { display: flex; flex-direction: column; gap: 0.6rem; list-style: none; }
+.leb-b4__limits-item { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.88rem; line-height: 1.65; color: rgb(80,60,20); }
+.leb-b4__limits-item strong { font-weight: 600; }
+.leb-b4__limits-dash { width: 10px; height: 2px; background: rgba(140,100,0,0.45); flex-shrink: 0; margin-top: 10px; }
+
+/* ── GOÄ/EBM TABELLEN ── */
+.leb-b4__abr-grid { display: flex; flex-direction: column; gap: 1.25rem; }
+.leb-b4__abr-block {
+  background: #FFFFFF; border: 1px solid rgba(11,26,46,0.08);
+  border-radius: 4px; overflow: hidden;
+}
+.leb-b4__abr-head {
+  padding: 0.8rem 1.2rem; background: rgba(11,26,46,0.02);
+  border-bottom: 1px solid rgba(11,26,46,0.07);
+  display: flex; align-items: center; gap: 0.6rem;
+}
+.leb-b4__abr-system {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.58rem;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: #fff; padding: 0.2rem 0.6rem; border-radius: 2px;
+}
+.leb-b4__abr-system--ebm { background: rgb(9,58,126); }
+.leb-b4__abr-system--goa { background: rgb(55,70,95); }
+.leb-b4__abr-head-title { font-size: 0.88rem; font-weight: 600; color: #0B1A2E; }
+.leb-b4__abr-table { width: 100%; border-collapse: collapse; font-size: 0.83rem; table-layout: fixed; }
+.leb-b4__abr-table th { padding: 0.6rem 1rem; font-weight: 600; font-size: 0.7rem; color: rgb(72,87,112); text-align: left; background: rgba(11,26,46,0.02); border-bottom: 1px solid rgba(11,26,46,0.07); word-break: break-word; }
+.leb-b4__abr-table th:first-child { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; width: 22%; }
+.leb-b4__abr-table td { padding: 0.65rem 1rem; color: rgb(55,70,95); border-bottom: 1px solid rgba(11,26,46,0.05); line-height: 1.5; vertical-align: top; word-break: break-word; }
+.leb-b4__abr-table tr:last-child td { border-bottom: none; }
+.leb-b4__abr-table tr:hover td { background: rgba(62,178,240,0.02); }
+.leb-b4__abr-table .ziffer {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;
+  font-weight: 700; color: #0B5FB7; white-space: nowrap;
+}
+.leb-b4__abr-hint {
+  padding: 0.75rem 1rem; background: rgba(251,191,36,0.05);
+  border-top: 1px solid rgba(251,191,36,0.18);
+  font-size: 0.8rem; line-height: 1.6; color: rgb(100,75,10);
+  font-style: italic;
+}
+.leb-b4__abr-hint strong { font-weight: 600; font-style: normal; }
+
+@media (max-width: 600px) {
+  .leb-b4__abr-table thead { display: none; }
+  .leb-b4__abr-table, .leb-b4__abr-table tbody, .leb-b4__abr-table tr, .leb-b4__abr-table td { display: block; width: 100%; }
+  .leb-b4__abr-table tr { border-bottom: 1px solid rgba(11,26,46,0.07); padding: 0.6rem 0; }
+  .leb-b4__abr-table tr:last-child { border-bottom: none; }
+  .leb-b4__abr-table td { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; padding: 0.3rem 1rem; border-bottom: none; font-size: 0.8rem; }
+  .leb-b4__abr-table td::before { content: attr(data-label); font-family: 'JetBrains Mono', monospace; font-size: 0.54rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(90,110,140); white-space: nowrap; flex-shrink: 0; min-width: 65px; }
+}
+
+/* ── FAZIT BOX ── */
+.leb-b4__summary {
+  background: rgba(11,95,183,0.04); border: 1px solid rgba(11,95,183,0.14);
+  border-left: 3px solid #0B5FB7; border-radius: 0 4px 4px 0;
+  padding: 1.5rem 1.75rem; display: flex; flex-direction: column; gap: 0.65rem;
+}
+.leb-b4__summary-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.2em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-b4__summary-text {
+  font-size: 0.95rem; font-weight: 400; line-height: 1.8; color: rgb(40,60,90);
+}
+.leb-b4__summary-text strong { font-weight: 700; color: #0B1A2E; }
+
+/* ── BILD ── */
+.leb-b4__img-block { display: flex; flex-direction: column; gap: 0.75rem; }
+.leb-b4__img-wrap { border-radius: 4px; overflow: hidden; border: 1px solid rgba(11,26,46,0.07); }
+.leb-b4__img { width: 100%; height: auto; display: block; }
+.leb-b4__img-caption { font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; letter-spacing: 0.1em; color: rgb(90,110,140); text-align: center; }
+
+/* ── ASIDE CARDS ── */
+.leb-b4__aside-card { background: rgba(11,26,46,0.02); border: 1px solid rgba(11,26,46,0.07); border-radius: 4px; padding: 1.4rem; display: flex; flex-direction: column; gap: 0.75rem; }
+.leb-b4__aside-label { font-family: 'JetBrains Mono', monospace; font-size: 0.55rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgb(90,110,140); }
+.leb-b4__aside-title { font-size: 0.88rem; font-weight: 600; color: #0B1A2E; line-height: 1.35; }
+.leb-b4__aside-text { font-size: 0.82rem; font-weight: 400; line-height: 1.65; color: rgb(80,100,130); }
+.leb-b4__aside-link { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 600; color: rgb(9,58,126); text-decoration: none; transition: gap 0.2s; }
+.leb-b4__aside-link:hover { gap: 0.65rem; }
+.leb-b4__aside-link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* ANIMATIONEN */
+.leb-b4__anim { opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.leb-b4__anim.leb-b4__vis { opacity: 1; transform: none; }
+.leb-b4__anim--d1 { transition-delay: 0.05s; }
+.leb-b4__anim--d2 { transition-delay: 0.12s; }
+.leb-b4__anim--d3 { transition-delay: 0.20s; }
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .leb-b4__inner { grid-template-columns: 1fr; gap: 3rem 0; }
+  .leb-b4__aside { position: static !important; display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .leb-b4__aside--fixed { position: static !important; }
+  .leb-b4__aside-placeholder { display: none !important; }
+}
+@media (max-width: 640px) {
+  .leb-b4__aside { grid-template-columns: 1fr; }
+  .leb-b4__pedof-body { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="leb-b4__wrap" id="leb-b4-wrap">
+  <div class="leb-b4__inner" id="leb-b4-inner">
+    <div class="leb-b4__main">
+
+      <div class="leb-b4__section">
+        <span id="geraetewahl" class="leb-b4__anchor"></span>
+        <div class="leb-b4__chapter leb-b4__anim leb-b4__anim--d1">06 — Gerätewahl &amp; Abrechnung</div>
+        <h2 class="leb-b4__h2 leb-b4__anim leb-b4__anim--d1">Kriterien für die Gerätewahl bei der Leber-Elastographie</h2>
+
+        <p class="leb-b4__p leb-b4__anim leb-b4__anim--d2">
+          Wer Lebersteifigkeit messen will, muss heute kein separates Elastographiegerät anschaffen. Entscheidend ist ein Ultraschallsystem mit <strong>integrierter Scherwellen-Elastographie</strong> — dann erledigen Sie Abdomen-Ultraschall, Steifigkeit und Steatose in einem Arbeitsgang, mit einem Gerät.
+        </p>
+
+        <div class="leb-b4__pedof leb-b4__anim leb-b4__anim--d2">
+          <div class="leb-b4__pedof-head">
+            <div class="leb-b4__pedof-icon" aria-hidden="true">🎛️</div>
+            <div class="leb-b4__pedof-meta">
+              <div class="leb-b4__pedof-tag">Worauf es ankommt</div>
+              <div class="leb-b4__pedof-title">Die entscheidenden Auswahlkriterien</div>
+            </div>
+          </div>
+          <div class="leb-b4__pedof-body">
+            <div class="leb-b4__pedof-col">
+              <div class="leb-b4__pedof-col-label">Muss-Kriterien</div>
+              <ul class="leb-b4__pedof-items">
+                <li class="leb-b4__pedof-item"><span class="leb-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Integrierte 2D-Scherwellen-Elastographie</strong> — Lebersteifigkeit in kPa im selben Ultraschallsystem, bildgeführt</span></li>
+                <li class="leb-b4__pedof-item"><span class="leb-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Konvexer Schallkopf</strong> — ausreichende Eindringtiefe für die interkostale Messung im rechten Leberlappen</span></li>
+                <li class="leb-b4__pedof-item"><span class="leb-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Qualitätsindikatoren</strong> — Anzeige von Median, IQR/Median und gültig/ungültig je Messung</span></li>
+                <li class="leb-b4__pedof-item"><span class="leb-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Gute B-Bild-Qualität</strong> — saubere Anlotung und ROI-Platzierung fern von Gefäßen sind Voraussetzung für belastbare Werte</span></li>
+              </ul>
+            </div>
+            <div class="leb-b4__pedof-col">
+              <div class="leb-b4__pedof-col-label">Kür — je nach Schwerpunkt</div>
+              <ul class="leb-b4__pedof-items">
+                <li class="leb-b4__pedof-item"><span class="leb-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Steatose-/Fettquantifizierung</strong> — objektiver Fettgehalt (CAP-Äquivalent) für die MASLD-Diagnostik</span></li>
+                <li class="leb-b4__pedof-item"><span class="leb-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Geführter Elastographie-Workflow</strong> — automatische Sammlung mehrerer Messungen und Statistik</span></li>
+                <li class="leb-b4__pedof-item"><span class="leb-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Verlaufsdokumentation</strong> — Trendanzeige der kPa-Werte über die Zeit</span></li>
+                <li class="leb-b4__pedof-item"><span class="leb-b4__pedof-dot-con" aria-hidden="true"></span><span><strong>Mehrzweck-Schallköpfe</strong> — wenn das Gerät auch Schilddrüse, Gefäße und Abdomen abdecken soll</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="leb-b4__pedof-hint">
+            <strong>Praxistipp:</strong> Eine hausärztliche oder internistische Praxis mit gelegentlicher Lebersteifigkeitsmessung ist mit einem soliden Mittelklasse-System mit integrierter SWE bestens bedient — eine gastroenterologische Schwerpunktpraxis mit hohem Leberaufkommen profitiert von einem Premium-Gerät mit Steatose-Quantifizierung und geführtem Workflow. Lassen Sie immer eine Demo mit eigenen Patienten durchführen.
+          </div>
+        </div>
+
+        <div class="leb-b4__img-block leb-b4__anim leb-b4__anim--d2">
+          <div class="leb-b4__img-wrap">
+            <img class="leb-b4__img" src="/assets/img/6717cbc3-663b-4b47-b4cf-38c36750d400.jpg" alt="Ultraschall-Standgerät mit integrierter Scherwellen-Elastographie für die Leber-Elastographie" loading="lazy"/>
+          </div>
+          <p class="leb-b4__img-caption">Ultraschall-Standgerät mit integrierter Scherwellen-Elastographie — ein Gerät für Abdomen-Ultraschall, Lebersteifigkeit und Steatose</p>
+        </div>
+
+        <h3 class="leb-b4__h3 leb-b4__anim leb-b4__anim--d2">
+          <span class="leb-b4__h3-marker" aria-hidden="true"></span>
+          Vorteile der Leber-Elastographie im Überblick
+        </h3>
+
+        <div class="leb-b4__table-wrap leb-b4__anim leb-b4__anim--d2">
+          <table class="leb-b4__table">
+            <thead>
+              <tr><th scope="col">Vorteil</th><th scope="col">Klinische Bedeutung</th></tr>
+            </thead>
+            <tbody>
+              <tr><td data-label="Vorteil"><strong>Nicht-invasiv</strong></td><td data-label="Bedeutung">Keine Gewebeentnahme, kein Eingriffsrisiko — ambulant in Minuten durchführbar.</td></tr>
+              <tr><td data-label="Vorteil"><strong>Keine Strahlung</strong></td><td data-label="Bedeutung">Beliebig oft wiederholbar — ideal für Screening und Verlaufskontrolle.</td></tr>
+              <tr><td data-label="Vorteil"><strong>Integriert</strong></td><td data-label="Bedeutung">Im normalen Ultraschall-Workflow — kein separates Elastographiegerät nötig.</td></tr>
+              <tr><td data-label="Vorteil"><strong>Quantitativ</strong></td><td data-label="Bedeutung">Objektiver kPa-Wert plus Steatose-Quantifizierung statt subjektivem Bildeindruck.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="leb-b4__limits leb-b4__anim leb-b4__anim--d2">
+          <div class="leb-b4__limits-label"><span aria-hidden="true">⚠️</span> Grenzen &amp; Herausforderungen</div>
+          <ul class="leb-b4__limits-list">
+            <li class="leb-b4__limits-item"><span class="leb-b4__limits-dash" aria-hidden="true"></span><span><strong>Störfaktoren:</strong> Akute Hepatitis, Cholestase, Leberstauung und nicht-nüchterne Messung können die Steifigkeit falsch erhöhen.</span></li>
+            <li class="leb-b4__limits-item"><span class="leb-b4__limits-dash" aria-hidden="true"></span><span><strong>Adipositas &amp; Aszites:</strong> Ungünstige Schallbedingungen können die Messung erschweren — auf Eindringtiefe und Schallkopf achten.</span></li>
+            <li class="leb-b4__limits-item"><span class="leb-b4__limits-dash" aria-hidden="true"></span><span><strong>Methodenabhängige Cut-offs:</strong> Schwellenwerte unterscheiden sich zwischen transienter Elastographie und SWE sowie zwischen Herstellern.</span></li>
+            <li class="leb-b4__limits-item"><span class="leb-b4__limits-dash" aria-hidden="true"></span><span><strong>Keine Ätiologie:</strong> Die Elastographie misst Steifigkeit, nicht die Ursache — bei unklarer Genese bleibt die Biopsie nötig.</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="leb-b4__section">
+        <h3 class="leb-b4__h3 leb-b4__anim leb-b4__anim--d1">
+          <span class="leb-b4__h3-marker" aria-hidden="true"></span>
+          Leber-Elastographie abrechnen — GOÄ-Hinweis
+        </h3>
+
+        <p class="leb-b4__p leb-b4__anim leb-b4__anim--d2">
+          Die Abrechnung der Sonographie und ihrer Zusatzleistungen hängt vom Versicherungsstatus, der Fachgruppe und den konkreten Voraussetzungen ab. Die folgenden Angaben dienen ausschließlich der Orientierung — verbindliche Auskunft erteilen die zuständige Kassenärztliche Vereinigung bzw. ein Abrechnungsspezialist.
+        </p>
+
+        <div class="leb-b4__abr-grid leb-b4__anim leb-b4__anim--d2">
+
+          <div class="leb-b4__abr-block">
+            <div class="leb-b4__abr-head">
+              <span class="leb-b4__abr-system leb-b4__abr-system--goa">GOÄ</span>
+              <span class="leb-b4__abr-head-title">Privatpatienten &amp; Selbstzahler</span>
+            </div>
+            <table class="leb-b4__abr-table">
+              <thead>
+                <tr><th scope="col">Ziffer</th><th scope="col">Leistung</th><th scope="col">Hinweis</th></tr>
+              </thead>
+              <tbody>
+                <tr><td data-label="Ziffer"><span class="ziffer">410</span></td><td data-label="Leistung">Ultraschalluntersuchung eines Organs (z. B. Leber)</td><td data-label="Hinweis">Basisziffer der Abdomen-Sonographie</td></tr>
+                <tr><td data-label="Ziffer"><span class="ziffer">420</span></td><td data-label="Leistung">Zuschlag für jedes weitere Organ</td><td data-label="Hinweis">Ergänzend bei mehreren Organen</td></tr>
+                <tr><td data-label="Ziffer"><span class="ziffer">401</span></td><td data-label="Leistung">Ergänzende Doppler-/Duplex-Untersuchung</td><td data-label="Hinweis">Sofern duplexsonographisch ergänzt</td></tr>
+              </tbody>
+            </table>
+            <div class="leb-b4__abr-hint">
+              <strong>Hinweis:</strong> Für die Elastographie selbst existiert keine eigene, allgemein etablierte GOÄ-Ziffer; sie wird je nach Konstellation über Sonographieziffern bzw. analog abgebildet. Steigerungsfaktor und kombinierbare Ziffern richten sich nach Aufwand und Begründung. (<a href="https://www.virchowbund.de/praxisaerzte-blog/goae-sonographie-abrechnung-ultraschall" target="_blank" rel="noopener noreferrer" style="color:rgb(100,75,10)">Quelle: Virchow Bund — GOÄ Sonographie Abrechnung</a>)
+            </div>
+          </div>
+
+          <div class="leb-b4__abr-block">
+            <div class="leb-b4__abr-head">
+              <span class="leb-b4__abr-system leb-b4__abr-system--ebm">Info</span>
+              <span class="leb-b4__abr-head-title">Gesetzlich Versicherte (GKV)</span>
+            </div>
+            <table class="leb-b4__abr-table">
+              <thead>
+                <tr><th scope="col">Aspekt</th><th scope="col">Praxis-Hinweis</th></tr>
+              </thead>
+              <tbody>
+                <tr><td data-label="Aspekt"><strong>Sono-Genehmigung</strong></td><td data-label="Hinweis">Abdomen-Sonographie nach EBM setzt die KV-Genehmigung gemäß Ultraschall-Vereinbarung voraus.</td></tr>
+                <tr><td data-label="Aspekt"><strong>Elastographie</strong></td><td data-label="Hinweis">Erstattungsfähigkeit und Voraussetzungen sind indikations- und KV-abhängig — vorab klären.</td></tr>
+                <tr><td data-label="Aspekt"><strong>Indikation</strong></td><td data-label="Hinweis">Häufig an chronische Lebererkrankungen (Hepatitis, MASLD) und Verlaufskontrolle gebunden.</td></tr>
+              </tbody>
+            </table>
+            <div class="leb-b4__abr-hint">
+              <strong>Wichtig:</strong> Diese Angaben sind reine Information und ersetzen keine verbindliche Abrechnungsberatung. Maßgeblich sind die aktuellen Vorgaben Ihrer Kassenärztlichen Vereinigung und der jeweils gültige Leistungskatalog.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="leb-b4__section">
+        <div class="leb-b4__summary leb-b4__anim leb-b4__anim--d2">
+          <div class="leb-b4__summary-label">Fazit</div>
+          <p class="leb-b4__summary-text">
+            Die <strong>Leber-Elastographie</strong> ist die nicht-invasive Standardmethode zur Beurteilung von Leberfibrose und -zirrhose: Sie misst die <strong>Lebersteifigkeit</strong> in kPa, ergänzt durch die Steatose-Quantifizierung (CAP), und ersetzt in vielen Fällen die Leberbiopsie — schmerzfrei, ohne Strahlung, beliebig oft wiederholbar. Wer ein Gerät beschafft, sollte auf <strong>integrierte Scherwellen-Elastographie</strong>, einen leistungsfähigen <strong>konvexen Schallkopf</strong> und aussagekräftige <strong>Qualitätsindikatoren</strong> achten. So messen Sie Steifigkeit und Steatose im gleichen System wie den Abdomen-Ultraschall. Welches System zu Ihrer Praxis passt, klären wir herstellerunabhängig in einer persönlichen Beratung — einen Überblick über das passende Portfolio finden Sie auf der <a href="/fuer/allgemeinmedizin/">Seite Ultraschall für die Allgemeinmedizin</a>.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="leb-b4__aside-placeholder" id="leb-b4-placeholder" aria-hidden="true"></div>
+    <div class="leb-b4__aside leb-b4__anim leb-b4__anim--d3" id="leb-b4-aside">
+      <div class="leb-b4__aside-card">
+        <div class="leb-b4__aside-label">Beratung</div>
+        <div class="leb-b4__aside-title">Welches System für die Leber-Elastographie?</div>
+        <p class="leb-b4__aside-text">Mittelklasse oder Premium, mit oder ohne Steatose-Quantifizierung — wir beraten Sie herstellerunabhängig und ehrlich.</p>
+        <a href="/kontakt" class="leb-b4__aside-link">
+          Kostenlos beraten lassen
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="leb-b4__aside-card">
+        <div class="leb-b4__aside-label">Allgemeinmedizin-Portfolio</div>
+        <div class="leb-b4__aside-title">Alle Geräte für die Allgemeinmedizin</div>
+        <p class="leb-b4__aside-text">Vom mobilen System bis zum Premium-Standgerät mit Scherwellen-Elastographie — das DORMED-Portfolio.</p>
+        <a href="/fuer/allgemeinmedizin/" class="leb-b4__aside-link">
+          Zur Allgemeinmedizin-Übersicht
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var aside       = document.getElementById('leb-b4-aside');
+  var placeholder = document.getElementById('leb-b4-placeholder');
+  var inner       = document.getElementById('leb-b4-inner');
+  if (!aside || !placeholder || !inner) return;
+
+  var stickyStartY = null;
+  var asideLeft    = null;
+  var asideWidth   = null;
+  var bottomPad    = 40;
+
+  function getNavHeight() {
+    var nav = document.querySelector('.nav__wrap');
+    if (nav) return nav.getBoundingClientRect().height;
+    var bar = document.querySelector('.nav__bar');
+    if (bar) return bar.getBoundingClientRect().height;
+    var anyNav = document.querySelector('nav');
+    if (anyNav) return anyNav.getBoundingClientRect().height;
+    return 68;
+  }
+  function isMobile() { return window.innerWidth <= 1100; }
+
+  function measureStickyStartY() {
+    if (isMobile()) {
+      aside.classList.remove('leb-b4__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('leb-b4__aside-placeholder--active');
+      placeholder.style.height = '';
+      stickyStartY = null;
+      return;
+    }
+    aside.classList.remove('leb-b4__aside--fixed');
+    aside.style.position = aside.style.top = aside.style.left = aside.style.width = '';
+    placeholder.classList.remove('leb-b4__aside-placeholder--active');
+    placeholder.style.height = '';
+    var navH = getNavHeight();
+    var rect = aside.getBoundingClientRect();
+    asideLeft    = rect.left;
+    asideWidth   = rect.width;
+    stickyStartY = rect.top + window.scrollY - navH - 20;
+    if (window.scrollY >= stickyStartY) {
+      placeholder.classList.add('leb-b4__aside-placeholder--active');
+      placeholder.style.height = aside.offsetHeight + 'px';
+      aside.classList.add('leb-b4__aside--fixed');
+      aside.style.top    = (navH + 20) + 'px';
+      aside.style.bottom = '';
+      aside.style.left   = asideLeft + 'px';
+      aside.style.right  = '';
+      aside.style.width  = asideWidth + 'px';
+    }
+  }
+
+  function updateSidebarPos() {
+    if (!aside || !inner) return;
+    if (isMobile()) {
+      aside.classList.remove('leb-b4__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('leb-b4__aside-placeholder--active');
+      placeholder.style.height = '';
+      return;
+    }
+    if (stickyStartY === null) { measureStickyStartY(); return; }
+
+    var navH      = getNavHeight();
+    var scrollY   = window.scrollY;
+    var asideH    = aside.offsetHeight;
+    var innerH    = inner.offsetHeight;
+    var maxAbsTop = innerH - asideH - bottomPad;
+
+    if (scrollY < stickyStartY) {
+      placeholder.classList.remove('leb-b4__aside-placeholder--active');
+      placeholder.style.height = '';
+      aside.classList.remove('leb-b4__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      return;
+    }
+
+    placeholder.classList.add('leb-b4__aside-placeholder--active');
+    placeholder.style.height = asideH + 'px';
+
+    var innerRect       = inner.getBoundingClientRect();
+    var sidebarWouldEnd = (navH + 20) + asideH;
+
+    if (innerRect.bottom - bottomPad <= sidebarWouldEnd) {
+      var innerPadRight = parseInt(window.getComputedStyle(inner).paddingRight, 10) || 0;
+      aside.classList.remove('leb-b4__aside--fixed');
+      aside.style.position = 'absolute';
+      aside.style.top      = 'auto';
+      aside.style.bottom   = bottomPad + 'px';
+      aside.style.right    = innerPadRight + 'px';
+      aside.style.left     = 'auto';
+      aside.style.width    = asideWidth + 'px';
+    } else {
+      aside.style.position = '';
+      aside.classList.add('leb-b4__aside--fixed');
+      aside.style.top      = (navH + 20) + 'px';
+      aside.style.bottom   = '';
+      aside.style.left     = asideLeft + 'px';
+      aside.style.right    = '';
+      aside.style.width    = asideWidth + 'px';
+    }
+  }
+
+  window.addEventListener('scroll', updateSidebarPos, { passive: true });
+  window.addEventListener('resize', function () {
+    stickyStartY = null; asideLeft = null; asideWidth = null;
+    setTimeout(updateSidebarPos, 60);
+  }, { passive: true });
+  setTimeout(function () { measureStickyStartY(); updateSidebarPos(); }, 200);/*SLF*/window.addEventListener("load",function(){measureStickyStartY();updateSidebarPos();setTimeout(function(){measureStickyStartY();updateSidebarPos();},200);});[700,1500,2500].forEach(function(d){setTimeout(function(){measureStickyStartY();updateSidebarPos();},d);});
+  updateSidebarPos();
+
+  function measure() { measureStickyStartY(); }
+  function update() { updateSidebarPos(); }
+
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('leb-b4__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.leb-b4__anim').forEach(function (el) { obs.observe(el); });
+
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-8j7d3dssb" style="position:relative;width:100%;min-height:auto;background-color:#F4F6F9;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-uvyuoflwm" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-zzuqo0c8n" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-zzuqo0c8n { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.blog-faq__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.blog-faq__wrap *,
+.blog-faq__wrap *::before,
+.blog-faq__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.blog-faq__inner {position:relative;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: minmax(0, 400px) 1fr;
+  gap: 0 6rem;
+  align-items: start;
+}
+
+/* LINKE SPALTE */
+.blog-faq__head{position:relative;align-self:start;}
+.blog-faq__eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.56rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: rgba(62,178,240,0.7);
+  display: flex; align-items: center; gap: 0.7rem;
+  margin-bottom: 1.2rem;
+}
+.blog-faq__eyebrow::before {
+  content: ''; width: 22px; height: 1px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+.blog-faq__h2 {
+  font-size: clamp(1.6rem, 2.8vw, 2.2rem);
+  font-weight: 700; letter-spacing: -0.035em; line-height: 1.05;
+  color: #0B1A2E; margin-bottom: 1rem;
+}
+.blog-faq__h2 span {
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.blog-faq__sub {
+  font-size: 0.92rem; font-weight: 400; line-height: 1.75; color: rgb(72,87,112);
+}
+
+/* RECHTE SPALTE: Accordion */
+.blog-faq__list {
+  display: flex; flex-direction: column; gap: 0;
+  border: 1px solid rgba(11,26,46,0.08); border-radius: 4px;
+  overflow: hidden; background: #FFFFFF;
+}
+
+.blog-faq__item { border-bottom: 1px solid rgba(11,26,46,0.06); }
+.blog-faq__item:last-child { border-bottom: none; }
+
+.blog-faq__q {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 1rem; padding: 1.25rem 1.5rem;
+  cursor: pointer; user-select: none;
+  background: transparent; border: none; width: 100%; text-align: left;
+  transition: background 0.2s; -webkit-tap-highlight-color: transparent;
+}
+.blog-faq__q:hover { background: rgba(62,178,240,0.03); }
+.blog-faq__q:focus-visible { outline: 2px solid #0B5FB7; outline-offset: -2px; }
+
+.blog-faq__q-text {margin:0;
+  font-size: 0.95rem; font-weight: 600; color: #0B1A2E; line-height: 1.45;
+}
+.blog-faq__q-icon {
+  width: 22px; height: 22px; border-radius: 50%;
+  background: rgba(11,95,183,0.07); border: 1px solid rgba(11,95,183,0.14);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; margin-top: 1px;
+  transition: background 0.2s, transform 0.3s ease;
+  color: rgb(9,58,126);
+}
+.blog-faq__q-icon svg { width: 10px; height: 10px; }
+.blog-faq__item--open .blog-faq__q-icon {
+  background: rgb(9,58,126); color: #fff; transform: rotate(45deg);
+}
+
+.blog-faq__body {
+  display: grid; grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+.blog-faq__item--open .blog-faq__body { grid-template-rows: 1fr; }
+.blog-faq__body-inner { overflow: hidden; }
+
+.blog-faq__a {
+  padding: 0 1.5rem 1.4rem 1.5rem;
+  font-size: 0.9rem; font-weight: 400; line-height: 1.8; color: rgb(55,70,95);
+}
+.blog-faq__a strong { font-weight: 600; color: #0B1A2E; }
+.blog-faq__a a {
+  color: rgb(9,58,126); text-decoration: underline;
+  text-decoration-color: rgba(62,178,240,0.4); text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s;
+}
+.blog-faq__a a:hover { text-decoration-color: #3EB2F0; }
+.blog-faq__a a:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 2px; border-radius: 1px; }
+
+/* ANIMATIONEN */
+.blog-faq__anim { opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.blog-faq__anim.blog-faq__vis { opacity: 1; transform: none; }
+.blog-faq__anim--d1 { transition-delay: 0.08s; }
+.blog-faq__anim--d2 { transition-delay: 0.16s; }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .blog-faq__inner { grid-template-columns: 1fr; gap: 2.5rem 0; }
+  .blog-faq__head { position: static; }
+}
+
+.blog-faq__head--fixed{position:fixed;z-index:50;}
+.blog-faq__head-placeholder{display:none;flex-shrink:0;}
+.blog-faq__head-placeholder--active{display:block;}
+@media(max-width:1100px){.blog-faq__head{position:relative!important;top:auto!important;bottom:auto!important;left:auto!important;right:auto!important;width:auto!important;}.blog-faq__head-placeholder{display:none!important;}}
+</style>
+
+<div class="blog-faq__wrap">
+  <div class="blog-faq__inner" id="blog-faq-inner">
+    <div class="blog-faq__head-placeholder" id="blog-faq-placeholder" aria-hidden="true"></div>
+    <div class="blog-faq__head blog-faq__anim" id="blog-faq-aside">
+      <div class="blog-faq__eyebrow">Häufige Fragen</div>
+      <h2 class="blog-faq__h2">
+        Die häufigsten Fragen<br>
+        <span>zur Leber-Elastographie</span>
+      </h2>
+      <p class="blog-faq__sub">
+        Aus der Praxis — für Gastroenterologen, Internisten und Hausärzte, die die Lebersteifigkeit messen und ein passendes Gerät suchen.
+      </p>
+    </div>
+    <div class="blog-faq__list blog-faq__anim blog-faq__anim--d1" role="list">
+
+      <div class="blog-faq__item" role="listitem">
+        <button class="blog-faq__q" aria-expanded="true" aria-controls="faq-leb-1" id="faq-leb-1-btn">
+          <h3 class="blog-faq__q-text">Was ist eine Leber-Elastographie?</h3>
+          <span class="blog-faq__q-icon" aria-hidden="true">
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 1v8M1 5h8"/></svg>
+          </span>
+        </button>
+        <div class="blog-faq__body" id="faq-leb-1" role="region" aria-labelledby="faq-leb-1-btn">
+          <div class="blog-faq__body-inner">
+            <div class="blog-faq__a">Die Leber-Elastographie (Lebersteifigkeitsmessung) ist eine Ultraschalluntersuchung, die die Steifigkeit des Lebergewebes nicht-invasiv misst und als Wert in Kilopascal (kPa) ausgibt. Je steifer das Gewebe, desto fortgeschrittener die Leberfibrose. Die Untersuchung ist schmerzfrei, ohne Strahlung, in wenigen Minuten am Ultraschallgerät durchführbar und beliebig oft wiederholbar. Sie wird zur Beurteilung von Leberfibrose und -zirrhose sowie zur Verlaufskontrolle chronischer Lebererkrankungen wie NAFLD/MASLD oder Hepatitis eingesetzt und ersetzt in vielen Fällen die Leberbiopsie.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-faq__item" role="listitem">
+        <button class="blog-faq__q" aria-expanded="false" aria-controls="faq-leb-2" id="faq-leb-2-btn">
+          <h3 class="blog-faq__q-text">Was ist der Unterschied zwischen Scherwellen-Elastographie (SWE) und FibroScan?</h3>
+          <span class="blog-faq__q-icon" aria-hidden="true">
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 1v8M1 5h8"/></svg>
+          </span>
+        </button>
+        <div class="blog-faq__body" id="faq-leb-2" role="region" aria-labelledby="faq-leb-2-btn" hidden>
+          <div class="blog-faq__body-inner">
+            <div class="blog-faq__a">Die <strong>Scherwellen-Elastographie (SWE)</strong> ist direkt in das Ultraschallsystem integriert: Sie platzieren eine farbcodierte Mess-Box bildgeführt im Leber-B-Bild und erhalten Bild und kPa-Wert in einem Gerät. <strong>„FibroScan"</strong> ist dagegen ein Markenname für ein dediziertes Gerät der transienten Elastographie (Hersteller Echosens), das die Steifigkeit punktuell und ohne begleitendes B-Bild misst. Beide messen Lebersteifigkeit in kPa, die Schwellenwerte unterscheiden sich jedoch methodenabhängig. Moderne Ultraschallsysteme haben die SWE integriert — ein Gerät statt eines separaten Elastographiegeräts.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-faq__item" role="listitem">
+        <button class="blog-faq__q" aria-expanded="false" aria-controls="faq-leb-3" id="faq-leb-3-btn">
+          <h3 class="blog-faq__q-text">Welcher kPa-Wert entspricht welchem Fibrosestadium?</h3>
+          <span class="blog-faq__q-icon" aria-hidden="true">
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 1v8M1 5h8"/></svg>
+          </span>
+        </button>
+        <div class="blog-faq__body" id="faq-leb-3" role="region" aria-labelledby="faq-leb-3-btn" hidden>
+          <div class="blog-faq__body-inner">
+            <div class="blog-faq__a">Orientierend (für die Scherwellen-Elastographie) gilt: Werte unter etwa 7 kPa sprechen für keine bis geringe Fibrose (F0–F1), etwa 7–9 kPa für eine signifikante Fibrose (F2), etwa 9–12 kPa für eine fortgeschrittene Fibrose (F3) und Werte über etwa 12–15 kPa machen eine Zirrhose (F4) wahrscheinlich. <strong>Wichtig:</strong> Diese Cut-offs sind methoden- und ätiologieabhängig und variieren zwischen transienter Elastographie und SWE sowie zwischen Herstellern. Verbindlich sind stets die für das eingesetzte System und die Grunderkrankung validierten Schwellenwerte (z. B. nach DEGUM/EFSUMB). Ergänzend grenzt der CAP- bzw. Fettquantifizierungswert die Steatose ab.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-faq__item" role="listitem">
+        <button class="blog-faq__q" aria-expanded="false" aria-controls="faq-leb-4" id="faq-leb-4-btn">
+          <h3 class="blog-faq__q-text">Ersetzt die Leber-Elastographie die Leberbiopsie?</h3>
+          <span class="blog-faq__q-icon" aria-hidden="true">
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 1v8M1 5h8"/></svg>
+          </span>
+        </button>
+        <div class="blog-faq__body" id="faq-leb-4" role="region" aria-labelledby="faq-leb-4-btn" hidden>
+          <div class="blog-faq__body-inner">
+            <div class="blog-faq__a">Für die Beurteilung des <strong>Fibrosegrads</strong> und vor allem für die <strong>Verlaufskontrolle</strong> hat die Elastographie die Biopsie weitgehend ersetzt — sie ist nicht-invasiv, schmerzfrei, ohne Strahlung und beliebig oft wiederholbar und erfasst ein größeres Lebervolumen als ein Biopsiezylinder. Die <strong>Leberbiopsie</strong> bleibt jedoch nötig, wenn die Ätiologie unklar ist (z. B. Verdacht auf Autoimmunhepatitis oder Speichererkrankungen) oder die entzündliche Aktivität histologisch beurteilt werden muss. In der Praxis ist die Elastographie meist der erste Schritt, die Biopsie wird gezielt bei offenen Fragen eingesetzt.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-faq__item" role="listitem">
+        <button class="blog-faq__q" aria-expanded="false" aria-controls="faq-leb-5" id="faq-leb-5-btn">
+          <h3 class="blog-faq__q-text">Worauf sollte ich bei der Gerätewahl für die Leber-Elastographie achten?</h3>
+          <span class="blog-faq__q-icon" aria-hidden="true">
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 1v8M1 5h8"/></svg>
+          </span>
+        </button>
+        <div class="blog-faq__body" id="faq-leb-5" role="region" aria-labelledby="faq-leb-5-btn" hidden>
+          <div class="blog-faq__body-inner">
+            <div class="blog-faq__a">Pflicht sind eine <strong>integrierte 2D-Scherwellen-Elastographie</strong> (Steifigkeit in kPa im selben Ultraschallsystem), ein leistungsfähiger <strong>konvexer Schallkopf</strong> für die nötige Eindringtiefe im rechten Leberlappen und aussagekräftige <strong>Qualitätsindikatoren</strong> (Median, IQR/Median, gültig/ungültig). Je nach Schwerpunkt kommen die <strong>Steatose-/Fettquantifizierung</strong> (CAP-Äquivalent für MASLD), ein geführter Elastographie-Workflow und eine Verlaufsdokumentation hinzu. Entscheidend ist die Bildqualität an Ihrem Patientengut — testen Sie ein System immer in einer Demo mit eigenen Patienten. So messen Sie Steifigkeit und Steatose im gleichen Gerät wie den Abdomen-Ultraschall, ohne separates Elastographiegerät.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-faq__item" role="listitem">
+        <button class="blog-faq__q" aria-expanded="false" aria-controls="faq-leb-6" id="faq-leb-6-btn">
+          <h3 class="blog-faq__q-text">Welches Ultraschallgerät eignet sich für die Leber-Elastographie in meiner Praxis?</h3>
+          <span class="blog-faq__q-icon" aria-hidden="true">
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 1v8M1 5h8"/></svg>
+          </span>
+        </button>
+        <div class="blog-faq__body" id="faq-leb-6" role="region" aria-labelledby="faq-leb-6-btn" hidden>
+          <div class="blog-faq__body-inner">
+            <div class="blog-faq__a">Für eine gastroenterologische Schwerpunktpraxis mit hohem Leberaufkommen empfehlen sich Premium-Standgeräte mit integrierter Scherwellen-Elastographie wie der <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9">Mindray Resona I9</a> oder die <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i9">Mindray Nuewa I9</a> sowie der <a href="/ultraschallgeraete/standgeraete/mindray-consona-n9">Mindray Consona N9</a> — alle mit SWE, Steatose-Quantifizierung und Qualitätsindikatoren. Der <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a70">Esaote MyLab A70</a> ergänzt mit QElaXto-Elastographie. Für Hausärzte und Internisten mit gelegentlicher Lebersteifigkeitsmessung genügt oft ein Mittelklasse-System wie der <a href="/ultraschallgeraete/standgeraete/mindray-consona-n6">Mindray Consona N6</a>. Welches Gerät zu Ihrem Patientengut passt, klären wir herstellerunabhängig — einen Überblick über das gesamte Portfolio finden Sie auf der <a href="/fuer/allgemeinmedizin/">Seite Ultraschall für die Allgemeinmedizin</a>.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="application/ld+json">{"@@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Was ist eine Leber-Elastographie?","acceptedAnswer":{"@type":"Answer","text":"Die Leber-Elastographie (Lebersteifigkeitsmessung) ist eine Ultraschalluntersuchung, die die Steifigkeit des Lebergewebes nicht-invasiv misst und als Wert in Kilopascal (kPa) ausgibt. Je steifer das Gewebe, desto fortgeschrittener die Leberfibrose. Die Untersuchung ist schmerzfrei, ohne Strahlung, in wenigen Minuten am Ultraschallgerät durchführbar und beliebig oft wiederholbar. Sie wird zur Beurteilung von Leberfibrose und -zirrhose sowie zur Verlaufskontrolle chronischer Lebererkrankungen wie NAFLD/MASLD oder Hepatitis eingesetzt und ersetzt in vielen Fällen die Leberbiopsie."}},{"@type":"Question","name":"Was ist der Unterschied zwischen Scherwellen-Elastographie (SWE) und FibroScan?","acceptedAnswer":{"@type":"Answer","text":"Die Scherwellen-Elastographie (SWE) ist direkt in das Ultraschallsystem integriert: Sie platzieren eine farbcodierte Mess-Box bildgeführt im Leber-B-Bild und erhalten Bild und kPa-Wert in einem Gerät. FibroScan ist dagegen ein Markenname für ein dediziertes Gerät der transienten Elastographie (Hersteller Echosens), das die Steifigkeit punktuell und ohne begleitendes B-Bild misst. Beide messen Lebersteifigkeit in kPa, die Schwellenwerte unterscheiden sich jedoch methodenabhängig. Moderne Ultraschallsysteme haben die SWE integriert — ein Gerät statt eines separaten Elastographiegeräts."}},{"@type":"Question","name":"Welcher kPa-Wert entspricht welchem Fibrosestadium?","acceptedAnswer":{"@type":"Answer","text":"Orientierend (für die Scherwellen-Elastographie) gilt: Werte unter etwa 7 kPa sprechen für keine bis geringe Fibrose (F0–F1), etwa 7–9 kPa für eine signifikante Fibrose (F2), etwa 9–12 kPa für eine fortgeschrittene Fibrose (F3) und Werte über etwa 12–15 kPa machen eine Zirrhose (F4) wahrscheinlich. Wichtig: Diese Cut-offs sind methoden- und ätiologieabhängig und variieren zwischen transienter Elastographie und SWE sowie zwischen Herstellern. Verbindlich sind stets die für das eingesetzte System und die Grunderkrankung validierten Schwellenwerte (z. B. nach DEGUM/EFSUMB). Ergänzend grenzt der CAP- bzw. Fettquantifizierungswert die Steatose ab."}},{"@type":"Question","name":"Ersetzt die Leber-Elastographie die Leberbiopsie?","acceptedAnswer":{"@type":"Answer","text":"Für die Beurteilung des Fibrosegrads und vor allem für die Verlaufskontrolle hat die Elastographie die Biopsie weitgehend ersetzt — sie ist nicht-invasiv, schmerzfrei, ohne Strahlung und beliebig oft wiederholbar und erfasst ein größeres Lebervolumen als ein Biopsiezylinder. Die Leberbiopsie bleibt jedoch nötig, wenn die Ätiologie unklar ist (z. B. Verdacht auf Autoimmunhepatitis oder Speichererkrankungen) oder die entzündliche Aktivität histologisch beurteilt werden muss. In der Praxis ist die Elastographie meist der erste Schritt, die Biopsie wird gezielt bei offenen Fragen eingesetzt."}},{"@type":"Question","name":"Worauf sollte ich bei der Gerätewahl für die Leber-Elastographie achten?","acceptedAnswer":{"@type":"Answer","text":"Pflicht sind eine integrierte 2D-Scherwellen-Elastographie (Steifigkeit in kPa im selben Ultraschallsystem), ein leistungsfähiger konvexer Schallkopf für die nötige Eindringtiefe im rechten Leberlappen und aussagekräftige Qualitätsindikatoren (Median, IQR/Median, gültig/ungültig). Je nach Schwerpunkt kommen die Steatose-/Fettquantifizierung (CAP-Äquivalent für MASLD), ein geführter Elastographie-Workflow und eine Verlaufsdokumentation hinzu. Entscheidend ist die Bildqualität an Ihrem Patientengut — testen Sie ein System immer in einer Demo mit eigenen Patienten. So messen Sie Steifigkeit und Steatose im gleichen Gerät wie den Abdomen-Ultraschall, ohne separates Elastographiegerät."}},{"@type":"Question","name":"Welches Ultraschallgerät eignet sich für die Leber-Elastographie in meiner Praxis?","acceptedAnswer":{"@type":"Answer","text":"Für eine gastroenterologische Schwerpunktpraxis mit hohem Leberaufkommen empfehlen sich Premium-Standgeräte mit integrierter Scherwellen-Elastographie wie der Mindray Resona I9, die Mindray Nuewa I9 oder der Mindray Consona N9 — alle mit SWE, Steatose-Quantifizierung und Qualitätsindikatoren. Der Esaote MyLab A70 ergänzt mit QElaXto-Elastographie. Für Hausärzte und Internisten mit gelegentlicher Lebersteifigkeitsmessung genügt oft ein Mittelklasse-System wie der Mindray Consona N6. Welches Gerät zu Ihrem Patientengut passt, klären wir herstellerunabhängig — einen Überblick über das gesamte Portfolio finden Sie auf der Seite Ultraschall für die Allgemeinmedizin."}}]}</script>
+
+
+
+<script>
+(function () {
+  'use strict';
+
+  var items = document.querySelectorAll('.blog-faq__item');
+
+  /* Erstes Item standardmäßig offen */
+  var first = items[0];
+  if (first) {
+    first.classList.add('blog-faq__item--open');
+    var firstBtn  = first.querySelector('.blog-faq__q');
+    var firstBody = first.querySelector('.blog-faq__body');
+    if (firstBtn)  firstBtn.setAttribute('aria-expanded', 'true');
+    if (firstBody) firstBody.removeAttribute('hidden');
+  }
+
+  function openItem(item) {
+    item.classList.add('blog-faq__item--open');
+    var btn  = item.querySelector('.blog-faq__q');
+    var body = item.querySelector('.blog-faq__body');
+    if (btn)  btn.setAttribute('aria-expanded', 'true');
+    if (body) body.removeAttribute('hidden');
+  }
+
+  function closeItem(item) {
+    item.classList.remove('blog-faq__item--open');
+    var btn  = item.querySelector('.blog-faq__q');
+    var body = item.querySelector('.blog-faq__body');
+    if (btn)  btn.setAttribute('aria-expanded', 'false');
+    if (body) body.setAttribute('hidden', '');
+  }
+
+  items.forEach(function (item) {
+    var btn = item.querySelector('.blog-faq__q');
+    if (!btn) return;
+
+    btn.addEventListener('click', function () {
+      var isOpen = item.classList.contains('blog-faq__item--open');
+      items.forEach(function (i) { closeItem(i); });
+      if (!isOpen) { openItem(item); }
+    });
+
+    btn.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); btn.click(); }
+    });
+  });
+
+  /* Scroll-Animationen */
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('blog-faq__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.blog-faq__anim').forEach(function (el) { obs.observe(el); });
+
+})();
+</script>
+<script>(function(){
+  var aside=document.getElementById('blog-faq-aside');
+  var placeholder=document.getElementById('blog-faq-placeholder');
+  var inner=document.getElementById('blog-faq-inner');
+  if(!aside||!placeholder||!inner)return;
+  var startY=null,aLeft=null,aWidth=null,bottomPad=40;
+  function navH(){var n=document.querySelector('.nav__wrap');if(n)return n.getBoundingClientRect().height;var b=document.querySelector('.nav__bar');if(b)return b.getBoundingClientRect().height;return 68;}
+  function isMobile(){return window.innerWidth<=1100;}
+  function reset(){aside.classList.remove('blog-faq__head--fixed');aside.style.position=aside.style.top=aside.style.bottom=aside.style.left=aside.style.right=aside.style.width='';placeholder.classList.remove('blog-faq__head-placeholder--active');placeholder.style.height='';placeholder.style.width='';}
+  function measure(){
+    reset();
+    if(isMobile()){startY=null;return;}
+    var nh=navH();var r=aside.getBoundingClientRect();aLeft=r.left;aWidth=r.width;startY=r.top+window.scrollY-nh-20;
+    if(window.scrollY>=startY){
+      placeholder.classList.add('blog-faq__head-placeholder--active');placeholder.style.height=aside.offsetHeight+'px';placeholder.style.width=aWidth+'px';
+      aside.classList.add('blog-faq__head--fixed');aside.style.top=(nh+20)+'px';aside.style.left=aLeft+'px';aside.style.width=aWidth+'px';
+    }
+  }
+  function update(){
+    if(isMobile()){reset();return;}
+    if(startY===null){measure();return;}
+    var nh=navH(),sy=window.scrollY,aH=aside.offsetHeight;
+    if(sy<startY){
+      placeholder.classList.remove('blog-faq__head-placeholder--active');placeholder.style.height='';
+      aside.classList.remove('blog-faq__head--fixed');aside.style.position=aside.style.top=aside.style.bottom=aside.style.left=aside.style.right=aside.style.width='';
+      return;
+    }
+    placeholder.classList.add('blog-faq__head-placeholder--active');placeholder.style.height=aH+'px';placeholder.style.width=aWidth+'px';
+    var ir=inner.getBoundingClientRect();var wouldEnd=(nh+20)+aH;
+    if(ir.bottom-bottomPad<=wouldEnd){
+      var padL=parseInt(window.getComputedStyle(inner).paddingLeft,10)||0;
+      aside.classList.remove('blog-faq__head--fixed');
+      aside.style.position='absolute';aside.style.top='auto';aside.style.bottom=bottomPad+'px';aside.style.left=padL+'px';aside.style.right='auto';aside.style.width=aWidth+'px';
+    }else{
+      aside.style.position='';aside.classList.add('blog-faq__head--fixed');aside.style.top=(nh+20)+'px';aside.style.bottom='';aside.style.left=aLeft+'px';aside.style.right='';aside.style.width=aWidth+'px';
+    }
+  }
+  window.addEventListener('scroll',update,{passive:true});
+  window.addEventListener('resize',function(){startY=null;aLeft=null;aWidth=null;setTimeout(update,60);},{passive:true});
+  setTimeout(function(){measure();update();},200);/*SLF*/window.addEventListener("load",function(){measure();update();setTimeout(function(){measure();update();},200);});[700,1500,2500].forEach(function(d){setTimeout(function(){measure();update();},d);});update();
+})();</script></div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-ljdqi7vqj" style="position:relative;width:100%;min-height:auto;background-color:#FFFF;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-n83hct301" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-ynz3z8dj6" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-ynz3z8dj6 { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.leb-dev__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.leb-dev__wrap *,
+.leb-dev__wrap *::before,
+.leb-dev__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.leb-dev__inner {
+  max-width: 1160px; margin: 0 auto; padding: 0 2rem;
+  display: flex; flex-direction: column; gap: 3rem;
+}
+
+/* Header */
+.leb-dev__header { display: flex; flex-direction: column; gap: 0.75rem; max-width: 640px; }
+.leb-dev__label {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.leb-dev__label::before {
+  content: ''; width: 20px; height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+.leb-dev__title {
+  font-size: clamp(1.3rem, 2.2vw, 1.65rem); font-weight: 700;
+  letter-spacing: -0.03em; line-height: 1.2; color: #0B1A2E;
+}
+.leb-dev__title span {
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.leb-dev__sub {
+  font-size: 0.95rem; font-weight: 400; line-height: 1.7; color: rgb(72,87,112);
+}
+
+/* Grid */
+.leb-dev__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+
+/* Karte */
+.leb-dev__card {
+  background: #FFFFFF; border: 1px solid rgba(11,26,46,0.08); border-radius: 4px;
+  overflow: hidden; display: flex; flex-direction: column;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s;
+}
+.leb-dev__card:hover {
+  box-shadow: 0 8px 36px rgba(11,26,46,0.10), 0 2px 8px rgba(11,26,46,0.05);
+  transform: translateY(-3px); border-color: rgba(62,178,240,0.2);
+}
+
+/* Bild */
+.leb-dev__img-col {
+  position: relative; background: #F7F5F0;
+  display: flex; align-items: center; justify-content: center;
+  padding: 2rem 1.5rem 1.75rem; overflow: hidden; min-height: 200px;
+}
+.leb-dev__img-grid {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(11,95,183,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(11,95,183,0.035) 1px, transparent 1px);
+  background-size: 28px 28px; pointer-events: none;
+}
+.leb-dev__img {
+  width: 100%; max-width: 200px; height: auto; display: block;
+  position: relative; z-index: 1; transition: transform 0.4s ease;
+}
+.leb-dev__card:hover .leb-dev__img { transform: scale(1.04) translateY(-4px); }
+.leb-dev__hersteller {
+  position: absolute; top: 1rem; left: 1rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.52rem; letter-spacing: 0.14em;
+  text-transform: uppercase; color: rgb(9,58,126); background: rgba(255,255,255,0.9);
+  border: 1px solid rgba(11,95,183,0.15); border-radius: 2px; padding: 0.25rem 0.55rem; z-index: 2;
+}
+.leb-dev__klasse {
+  position: absolute; bottom: 1rem; right: 1rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.5rem; letter-spacing: 0.12em;
+  text-transform: uppercase; color: rgb(72,87,112); background: rgba(255,255,255,0.85);
+  border: 1px solid rgba(11,26,46,0.1); border-radius: 2px; padding: 0.2rem 0.5rem; z-index: 2;
+}
+/* CW-Badge auf Gerätekarte */
+.leb-dev__cw-tag {
+  position: absolute; top: 1rem; right: 1rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.48rem; letter-spacing: 0.1em;
+  text-transform: uppercase; color: #fff;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  border-radius: 2px; padding: 0.2rem 0.5rem; z-index: 2;
+}
+
+/* Content */
+.leb-dev__content {
+  padding: 1.5rem 1.6rem 1.75rem; display: flex; flex-direction: column; gap: 0.9rem; flex: 1;
+}
+.leb-dev__name { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.02em; color: #0B1A2E; line-height: 1.2; }
+.leb-dev__pos { font-size: 0.84rem; font-weight: 400; line-height: 1.65; color: rgb(72,87,112); }
+.leb-dev__divider { height: 1px; background: rgba(11,26,46,0.07); }
+
+.leb-dev__specs { display: flex; flex-direction: column; gap: 0.45rem; list-style: none; }
+.leb-dev__spec { display: flex; align-items: flex-start; gap: 0.6rem; }
+.leb-dev__spec-dot {
+  width: 5px; height: 5px; border-radius: 50%;
+  background: rgba(62,178,240,0.5); flex-shrink: 0; margin-top: 7px;
+}
+.leb-dev__spec-text {
+  font-size: 0.8rem; font-weight: 400; line-height: 1.55; color: rgb(80,100,130);
+}
+.leb-dev__spec-text strong { font-weight: 600; color: rgb(40,60,90); }
+
+.leb-dev__footer {
+  margin-top: auto; padding-top: 0.75rem;
+  display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;
+}
+.leb-dev__btn {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  font-family: 'Space Grotesk', sans-serif; font-size: 0.8rem; font-weight: 600;
+  color: #fff; background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  border: none; border-radius: 2px; padding: 0.6rem 1.1rem; text-decoration: none;
+  transition: opacity 0.2s, transform 0.15s; box-shadow: 0 3px 12px rgba(11,95,183,0.2);
+  white-space: nowrap;
+}
+.leb-dev__btn:hover { opacity: 0.88; transform: translateY(-1px); }
+.leb-dev__btn:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+.leb-dev__link {
+  font-size: 0.76rem; font-weight: 500; color: rgb(9,58,126); text-decoration: none;
+  display: inline-flex; align-items: center; gap: 0.35rem; transition: gap 0.2s; white-space: nowrap;
+}
+.leb-dev__link:hover { gap: 0.55rem; }
+.leb-dev__link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* Unterzeile */
+.leb-dev__all {
+  display: flex; align-items: center; justify-content: center; gap: 1rem;
+  padding-top: 0.5rem; border-top: 1px solid rgba(11,26,46,0.07);
+}
+.leb-dev__all-text { font-size: 0.85rem; font-weight: 400; color: rgb(72,87,112); }
+.leb-dev__all-link {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-size: 0.85rem; font-weight: 600; color: rgb(9,58,126);
+  text-decoration: none; transition: gap 0.2s;
+}
+.leb-dev__all-link:hover { gap: 0.65rem; }
+.leb-dev__all-link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* ANIMATIONEN */
+.leb-dev__anim { opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.leb-dev__anim.leb-dev__vis { opacity: 1; transform: none; }
+.leb-dev__anim--d1 { transition-delay: 0.05s; }
+.leb-dev__anim--d2 { transition-delay: 0.12s; }
+.leb-dev__anim--d3 { transition-delay: 0.20s; }
+.leb-dev__anim--d4 { transition-delay: 0.28s; }
+.leb-dev__anim--d5 { transition-delay: 0.15s; }
+
+/* RESPONSIVE */
+@media (max-width: 960px) {
+  .leb-dev__grid { grid-template-columns: repeat(2, 1fr); }
+  .leb-dev__card:last-child { grid-column: 1 / -1; max-width: 480px; margin: 0 auto; width: 100%; }
+}
+@media (max-width: 580px) {
+  .leb-dev__grid { grid-template-columns: 1fr; }
+  .leb-dev__card:last-child { grid-column: auto; max-width: none; }
+  .leb-dev__footer { flex-direction: column; align-items: flex-start; }
+  .leb-dev__btn { width: 100%; justify-content: center; }
+  .leb-dev__all { flex-direction: column; text-align: center; gap: 0.5rem; }
+}
+</style>
+
+<div class="leb-dev__wrap">
+  <div class="leb-dev__inner">
+    <div class="leb-dev__header">
+      <div class="leb-dev__label leb-dev__anim leb-dev__anim--d1">Passend zu diesem Beitrag</div>
+      <h2 class="leb-dev__title leb-dev__anim leb-dev__anim--d2">
+        Ultraschallgeräte für die<br><span>Leber-Elastographie</span>
+      </h2>
+      <p class="leb-dev__sub leb-dev__anim leb-dev__anim--d2">
+        Drei Systeme mit integrierter Scherwellen-Elastographie, Steatose-Quantifizierung und Qualitätsindikatoren — für die Lebersteifigkeitsmessung im normalen Ultraschall-Workflow. Persönliche Beratung und Demo inklusive.
+      </p>
+    </div>
+
+    <div class="leb-dev__grid">
+
+      <div class="leb-dev__card leb-dev__anim leb-dev__anim--d2">
+        <div class="leb-dev__img-col">
+          <div class="leb-dev__img-grid" aria-hidden="true"></div>
+          <span class="leb-dev__hersteller">Mindray</span>
+          <span class="leb-dev__cw-tag">SWE ✓</span>
+          <span class="leb-dev__klasse">Premium</span>
+          <img class="leb-dev__img" src="/assets/img/6717cbc3-663b-4b47-b4cf-38c36750d400.jpg" alt="Mindray Resona I9 Ultraschallgerät mit Scherwellen-Elastographie für die Leber-Elastographie" loading="lazy"/>
+        </div>
+        <div class="leb-dev__content">
+          <div class="leb-dev__name">Mindray Resona I9</div>
+          <p class="leb-dev__pos">Premium-Standgerät mit integrierter 2D-Scherwellen-Elastographie — Lebersteifigkeit (kPa) und Steatose in einem Workflow.</p>
+          <div class="leb-dev__divider" aria-hidden="true"></div>
+          <ul class="leb-dev__specs">
+            <li class="leb-dev__spec"><span class="leb-dev__spec-dot" aria-hidden="true"></span><span class="leb-dev__spec-text"><strong>Integrierte 2D-SWE</strong> — bildgeführte Lebersteifigkeitsmessung in kPa</span></li>
+            <li class="leb-dev__spec"><span class="leb-dev__spec-dot" aria-hidden="true"></span><span class="leb-dev__spec-text"><strong>Steatose-Quantifizierung</strong> — objektiver Fettgehalt der Leber für die MASLD-Diagnostik</span></li>
+            <li class="leb-dev__spec"><span class="leb-dev__spec-dot" aria-hidden="true"></span><span class="leb-dev__spec-text"><strong>Konvexer Schallkopf + Qualitätsindikatoren</strong> — hohe Eindringtiefe, Median/IQR-Anzeige</span></li>
+          </ul>
+          <div class="leb-dev__footer">
+            <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9" class="leb-dev__btn">
+              Zum Gerät
+              <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="/kontakt" class="leb-dev__link">
+              Beraten lassen
+              <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="leb-dev__card leb-dev__anim leb-dev__anim--d3">
+        <div class="leb-dev__img-col">
+          <div class="leb-dev__img-grid" aria-hidden="true"></div>
+          <span class="leb-dev__hersteller">Mindray</span>
+          <span class="leb-dev__cw-tag">SWE ✓</span>
+          <span class="leb-dev__klasse">Premium</span>
+          <img class="leb-dev__img" src="/assets/img/97f2026e-abe5-42d9-b184-73099987aa00.jpg" alt="Mindray Nuewa I9 Ultraschallgerät mit Scherwellen-Elastographie für die Leber-Elastographie" loading="lazy"/>
+        </div>
+        <div class="leb-dev__content">
+          <div class="leb-dev__name">Mindray Nuewa I9</div>
+          <p class="leb-dev__pos">Premium-System der neuen Generation — integrierte SWE und exzellente Bildqualität für die anspruchsvolle Leberdiagnostik.</p>
+          <div class="leb-dev__divider" aria-hidden="true"></div>
+          <ul class="leb-dev__specs">
+            <li class="leb-dev__spec"><span class="leb-dev__spec-dot" aria-hidden="true"></span><span class="leb-dev__spec-text"><strong>Integrierte Scherwellen-Elastographie</strong> — Lebersteifigkeit in kPa, bildgeführt</span></li>
+            <li class="leb-dev__spec"><span class="leb-dev__spec-dot" aria-hidden="true"></span><span class="leb-dev__spec-text"><strong>Steatose-Quantifizierung &amp; Qualitätsindikatoren</strong> — Fettgehalt und IQR/Median je Messung</span></li>
+            <li class="leb-dev__spec"><span class="leb-dev__spec-dot" aria-hidden="true"></span><span class="leb-dev__spec-text"><strong>Hohe Penetration</strong> — stabile Messung auch bei schwierigem Schallfenster</span></li>
+          </ul>
+          <div class="leb-dev__footer">
+            <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i9" class="leb-dev__btn">
+              Zum Gerät
+              <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="/kontakt" class="leb-dev__link">
+              Beraten lassen
+              <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="leb-dev__card leb-dev__anim leb-dev__anim--d4">
+        <div class="leb-dev__img-col">
+          <div class="leb-dev__img-grid" aria-hidden="true"></div>
+          <span class="leb-dev__hersteller">Esaote</span>
+          <span class="leb-dev__cw-tag">QElaXto ✓</span>
+          <span class="leb-dev__klasse">Premium</span>
+          <img class="leb-dev__img" src="/assets/img/fd96d4b0-e6e7-4e4b-b043-10269ee04800.jpg" alt="Esaote MyLab A70 Ultraschallgerät mit Elastographie für die Leber-Elastographie" loading="lazy"/>
+        </div>
+        <div class="leb-dev__content">
+          <div class="leb-dev__name">Esaote MyLab™ A70</div>
+          <p class="leb-dev__pos">Premium-System mit KI-gestütztem Workflow und QElaXto-Elastographie — für komplexe Leber- und Abdomendiagnostik.</p>
+          <div class="leb-dev__divider" aria-hidden="true"></div>
+          <ul class="leb-dev__specs">
+            <li class="leb-dev__spec"><span class="leb-dev__spec-dot" aria-hidden="true"></span><span class="leb-dev__spec-text"><strong>QElaXto™ Scherwellen-Elastographie</strong> — quantitative Lebersteifigkeit in kPa</span></li>
+            <li class="leb-dev__spec"><span class="leb-dev__spec-dot" aria-hidden="true"></span><span class="leb-dev__spec-text"><strong>Augmented Insight</strong> — KI-gestützter Workflow für reproduzierbare Messungen</span></li>
+            <li class="leb-dev__spec"><span class="leb-dev__spec-dot" aria-hidden="true"></span><span class="leb-dev__spec-text"><strong>Konvexer Multifrequenz-Schallkopf</strong> — Abdomen-Sonographie und Elastographie in einem Gerät</span></li>
+          </ul>
+          <div class="leb-dev__footer">
+            <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a70" class="leb-dev__btn">
+              Zum Gerät
+              <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="/kontakt" class="leb-dev__link">
+              Beraten lassen
+              <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="leb-dev__all leb-dev__anim leb-dev__anim--d5">
+      <span class="leb-dev__all-text">Weitere Systeme für die Allgemeinmedizin im Sortiment —</span>
+      <a href="/fuer/allgemeinmedizin/" class="leb-dev__all-link">
+        Alle Geräte für die Allgemeinmedizin
+        <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function() {
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) { e.target.classList.add('leb-dev__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.leb-dev__anim').forEach(function(el) { obs.observe(el); });
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+</main>
+    <footer id="footer-a3d3bfb9-6fa3-4a84-91c0-180364037cd1" class="region footer" style="z-index: 10; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); box-sizing: border-box; padding-top: 0px; padding-bottom: 0px; margin: 0; background-color:#060C1C; background-image:none; border-radius:0px; border:none; position: relative; width: 100%">
+  <div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-de41c6a2-5c82-4cb0-a730-c675ed876f74" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-wid-ezrxxi9be" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container">
+
+<footer class="footer__wrap" itemscope itemtype="https://schema.org/Organization">
+
+  <div class="footer__stripe"></div>
+
+  <!-- ══ CTA BAND ══ -->
+  <div class="footer__cta-band">
+    <div class="footer__cta-inner">
+      <div class="footer__cta-text">
+        <span class="footer__cta-eyebrow">Persönliche Beratung</span>
+        <span class="footer__cta-title">Jetzt beraten lassen — kostenlos & unverbindlich</span>
+      </div>
+      <div class="footer__cta-actions">
+        <a href="/kontakt" class="footer__cta-btn">
+          Unverbindlich anfragen
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a href="tel:+492301188600" class="footer__cta-btn footer__cta-btn--ghost">
+          +49 (0) 2301 / 188 600
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MAIN GRID ── -->
+  <div class="footer__main">
+    <div class="footer__main-inner">
+
+      <!-- BRAND -->
+      <div class="footer__brand">
+        <a href="/" class="footer__logo" aria-label="SONORING DORMED Startseite" itemprop="url">
+          <img src="/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png" alt="SONORING DORMED Logo" class="footer__logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="footer__logo-text" style="display:none">
+            <span class="footer__logo-brand"><em>SONORING</em> DORMED</span>
+            <span class="footer__logo-sub">med. Systeme</span>
+          </span>
+        </a>
+        <p class="footer__tagline" itemprop="description">Deutschlands führender Ultraschall-Fachhändler. Gegründet 1989 — über 35 Jahre Erfahrung, 1.700 aktive Wartungskunden, 4 Standorte bundesweit.</p>
+        <div class="footer__contact">
+          <a href="tel:+4923011886000" class="footer__contact-item" itemprop="telephone">
+            <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 10.5c-1 .5-2 1-3 .5-1.5-.7-2.8-2-3.5-3.5-.5-1 0-2 .5-3L5.5 2 2 4c0 7 7 14 14 14l2-3.5-2.5-1.5z"/></svg>
+            +49 (0) 2301 / 188-600
+          </a>
+          <a href="mailto:mail@dormed.de" class="footer__contact-item" itemprop="email">
+            <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="14" height="10" rx="1"/><path d="M1 3l7 6 7-6"/></svg>
+            mail@dormed.de
+          </a>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.youtube.com/@SonoringDormed" class="footer__social-link" aria-label="YouTube" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="rgb(13,31,60)" stroke="none"/></svg>
+          </a>
+          <a href="https://de.linkedin.com/company/sonoringdormed" class="footer__social-link" aria-label="LinkedIn" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://www.facebook.com/SonoringDormed/" class="footer__social-link" aria-label="Facebook" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://www.xing.com/pages/sonoringdormed" class="footer__social-link" aria-label="Xing" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l3.5 6L3 18h4l4.5-8L8 4H4zM17 2l-7 12.5L14.5 22H19l-4.5-7.5L21 2h-4z"/></svg>
+          </a>
+        </div>
+
+        <!-- TeamViewer Quick Support Button -->
+        <a href="https://get.teamviewer.com/677uhcc" class="footer__tv-btn" target="_blank" rel="noopener noreferrer" aria-label="TeamViewer Quick Support – Fernwartung starten">
+          <span class="footer__tv-brand">
+            <img src="/assets/img/4f0f1b6d-fe34-4ffe-e2c0-2171ee260b00.png" alt="TeamViewer" class="footer__tv-logo-img" loading="lazy" decoding="async">
+            <span class="footer__tv-wordmark"><em>Team</em>Viewer</span>
+          </span>
+          <span class="footer__tv-cta">
+            <span class="footer__tv-cta-label">Quick Support</span>
+            <span class="footer__tv-cta-sub">Fernwartung starten</span>
+          </span>
+        </a>
+      </div>
+
+      <!-- ULTRASCHALLGERÄTE — Kategorien statt Einzelgeräten -->
+      <div class="footer__col">
+        <div class="footer__col-label">Ultraschallgeräte</div>
+        <a href="/ultraschallgeraete/standgeraete" class="footer__link">Standgeräte</a>
+        <a href="/ultraschallgeraete/mobile-geraete" class="footer__link">Mobile Geräte</a>
+        <a href="/ultraschallgeraete/handheld" class="footer__link">Handheld</a>
+        <a href="/ultraschallgeraete/sono-finder" class="footer__link">Sono Finder</a>
+        <a href="/standorte/digitale-sonothek" class="footer__link">Digitale Sonothek</a>
+        <a href="/ultraschallgeraete" class="footer__link footer__link--highlight" style="margin-top:0.4rem">→ Alle Geräte</a>
+      </div>
+
+      <!-- LEISTUNGEN + FACHGEBIETE -->
+      <div class="footer__col">
+        <div class="footer__col-label">Leistungen</div>
+        <a href="/leistungen/beratung" class="footer__link">Beratung</a>
+        <a href="/leistungen/finanzierung" class="footer__link">Finanzierung & Leasing</a>
+        <a href="/leistungen/lieferung" class="footer__link">Lieferung & Installation</a>
+        <a href="/leistungen/wartung-reparatur" class="footer__link">Wartung & Reparatur</a>
+        <a href="/leistungen/netzwerkanbindung" class="footer__link">Netzwerkanbindung</a>
+        <a href="/leistungen/schulung-einweisung" class="footer__link">Schulung & Einweisung</a>
+        <a href="/leistungen/garantie-versicherung" class="footer__link">Garantie & Versicherung</a>
+        <a href="/leistungen/inzahlungnahme" class="footer__link">Inzahlungnahme</a>
+        <div class="footer__col-label" style="margin-top:1.4rem">Für Fachgebiete</div>
+        <a href="/fuer/allgemeinmedizin" class="footer__link">Allgemeinmedizin</a>
+        <a href="/fuer/kardiologie" class="footer__link">Kardiologie</a>
+        <a href="/fuer/gynaekologie" class="footer__link">Gynäkologie</a>
+        <a href="/fuer/orthopaedie" class="footer__link">Orthopädie & MSK</a>
+      </div>
+
+      <!-- UNTERNEHMEN -->
+      <div class="footer__col">
+        <div class="footer__col-label">Unternehmen</div>
+        <a href="/ueber/dormed" class="footer__link">Über Dormed</a>
+        <a href="/ueber/sonoring" class="footer__link">Sonoring</a>
+        <a href="/hersteller/mindray" class="footer__link">Mindray</a>
+        <a href="/hersteller/esaote" class="footer__link">Esaote</a>
+        <a href="/hersteller/chison" class="footer__link">Chison</a>
+        <a href="/karriere" class="footer__link">Karriere</a>
+        <a href="/veranstaltungen" class="footer__link">Veranstaltungen</a>
+        <a href="/blog" class="footer__link">Blog</a>
+        <div class="footer__col-label" style="margin-top:1.4rem">Standorte</div>
+        <a href="/standorte/dortmund" class="footer__location">
+          <span class="footer__location-city">Dortmund</span>
+          <span class="footer__location-addr">Wilhelm-Röntgen-Str. 4<br>59439 Holzwickede</span>
+        </a>
+        <a href="/standorte/duesseldorf" class="footer__location">
+          <span class="footer__location-city">Düsseldorf</span>
+          <span class="footer__location-addr">Borsigstraße 5<br>40880 Ratingen</span>
+        </a>
+        <a href="/standorte/hamburg" class="footer__location">
+          <span class="footer__location-city">Hamburg</span>
+          <span class="footer__location-addr">Bremer Straße 6<br>21244 Buchholz</span>
+        </a>
+        <a href="/standorte/kiel" class="footer__location">
+          <span class="footer__location-city">Kiel</span>
+          <span class="footer__location-addr">Maria-Merian-Str. 9<br>24145 Kiel</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── BOTTOM BAR ── -->
+  <div class="footer__bottom">
+    <div class="footer__bottom-inner">
+      <span class="footer__copy">© 2026 DORMED medizinische Systeme GmbH · Alle Rechte vorbehalten</span>
+      <div class="footer__legal">
+        <a href="/impressum" class="footer__legal-link">Impressum</a>
+        <a href="/datenschutz" class="footer__legal-link">Datenschutz</a>
+        <a href="/agb" class="footer__legal-link">AGB</a>
+      </div>
+
+    </div>
+  </div>
+
+</footer></div></div></div></div></div></div></div>
+</footer>
+    
+    
+<script>
+(function() {
+  function easeInOutCubic(t) {
+    return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  }
+
+  function smoothScrollTo(targetSelector) {
+    const targetElement = document.querySelector(targetSelector);
+    if (!targetElement) return;
+
+    const header = document.getElementById('yuuble-header');
+    const offset = header ? header.offsetHeight : 0;
+
+    const startPosition = window.pageYOffset;
+    const targetPosition = targetElement.getBoundingClientRect().top + startPosition - offset;
+    const distance = targetPosition - startPosition;
+    
+    const duration = Math.min(Math.max(Math.abs(distance) * 0.6, 800), 1400);
+    let startTime = null;
+
+    function animation(currentTime) {
+      if (startTime === null) startTime = currentTime;
+      const timeElapsed = currentTime - startTime;
+      const progress = Math.min(timeElapsed / duration, 1);
+      
+      const ease = easeInOutCubic(progress);
+      window.scrollTo(0, startPosition + distance * ease);
+
+      if (timeElapsed < duration) {
+        requestAnimationFrame(animation);
+      }
+    }
+    requestAnimationFrame(animation);
+  }
+
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a[href^="#"]');
+    if (!link) return;
+
+    const href = link.getAttribute('href');
+    if (href === '#' || href.length < 2) return;
+
+    const targetEl = document.querySelector(href);
+    if (!targetEl) return; 
+
+    e.preventDefault();
+    smoothScrollTo(href);
+    
+    if (history.pushState) {
+      history.pushState(null, null, href);
+    }
+  });
+  
+  console.log("🚀 Smooth Scrolling via Factory Injection aktiv.");
+})();
+</script>
+
+    
+  </body>
+</html>
