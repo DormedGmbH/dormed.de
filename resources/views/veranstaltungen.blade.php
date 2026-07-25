@@ -1,84 +1,109 @@
-@php
-    $title = "Veranstaltungen & Messen – Ultraschall live erleben | SONORING DORMED";
-    $canonical = "https://dormed.de/veranstaltungen";
-    $description = "Erleben Sie Mindray und Esaote Ultraschallgeräte live. Demos, Fachveranstaltungen und Messen – aktuelle Termine von SONORING DORMED bundesweit.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/veranstaltungen">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/veranstaltungen">
+
+        <title>Veranstaltungen &amp; Messen – Ultraschall live erleben | SONORING DORMED</title>
+        <meta name="description" content="Erleben Sie Mindray und Esaote Ultraschallgeräte live. Demos, Fachveranstaltungen und Messen – aktuelle Termine von SONORING DORMED bundesweit.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/veranstaltungen">
+
+    
+
+        <meta property="og:title" content="Veranstaltungen &amp;amp; Messen – Ultraschall live erleben | SONORING DORMED">
+        <meta property="og:description" content="Erleben Sie Mindray und Esaote Ultraschallgeräte live. Demos, Fachveranstaltungen und Messen – aktuelle Termine von SONORING DORMED bundesweit.">
+        <meta property="og:url" content="https://dormed.de/veranstaltungen">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Veranstaltungen &amp;amp; Messen – Ultraschall live erleben | SONORING DORMED">
+        <meta name="twitter:description" content="Erleben Sie Mindray und Esaote Ultraschallgeräte live. Demos, Fachveranstaltungen und Messen – aktuelle Termine von SONORING DORMED bundesweit.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://dormed.de/veranstaltungen/#webpage",
+          "name": "Veranstaltungen & Messen – Ultraschall live erleben | SONORING DORMED",
+          "description": "Erleben Sie Mindray und Esaote Ultraschallgeräte live. Demos, Fachveranstaltungen und Messen – aktuelle Termine von SONORING DORMED bundesweit.",
+          "url": "https://dormed.de/veranstaltungen",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Veranstaltungen", "item": "https://dormed.de/veranstaltungen" }
+            ]
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
             {
-              "@type": "WebPage",
-              "@id": "https://dormed.de/veranstaltungen/#webpage",
-              "name": "Veranstaltungen & Messen – Ultraschall live erleben | SONORING DORMED",
-              "description": "Erleben Sie Mindray und Esaote Ultraschallgeräte live. Demos, Fachveranstaltungen und Messen – aktuelle Termine von SONORING DORMED bundesweit.",
-              "url": "https://dormed.de/veranstaltungen",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Veranstaltungen", "item": "https://dormed.de/veranstaltungen" }
-                ]
+              "@type": "Question",
+              "name": "Wie melde ich mich für eine Veranstaltung an?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ganz einfach über unser Kontaktformular oder telefonisch unter +49 (0) 2301 / 188-600. Nennen Sie uns die gewünschte Veranstaltung — wir kümmern uns um alles Weitere und bestätigen Ihre Teilnahme persönlich."
               }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Wie melde ich mich für eine Veranstaltung an?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ganz einfach über unser Kontaktformular oder telefonisch unter +49 (0) 2301 / 188-600. Nennen Sie uns die gewünschte Veranstaltung — wir kümmern uns um alles Weitere und bestätigen Ihre Teilnahme persönlich."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Sind die Sono-Tage in Dortmund kostenlos?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, vollständig. Die Sono-Tage sind kostenlos und unverbindlich — kein Kaufzwang, keine versteckten Bedingungen. Sie kommen, schauen, fragen, testen. Und gehen mit einem klaren Bild — ob Sie sich danach für ein Gerät entscheiden oder nicht."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich Geräte bei den Sono-Tagen wirklich testen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja. Bei unseren Sono-Tagen stehen Ihnen die aktuellen Mindray- und Esaote-Systeme live am Phantom zur Verfügung. Sie können Bildqualität, Bedienung und Funktionen direkt vergleichen — kein Hochglanz-Demo, sondern echtes Arbeiten am Gerät."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Bieten Sie auch Demo-Termine direkt in meiner Praxis an?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja. Wer konkret interessiert ist, kann einen kostenlosen Demo-Termin in der eigenen Praxis vereinbaren. Wir bringen das Gerät zu Ihnen — so können Sie es unter realen Bedingungen, mit Ihren Patienten und Ihrem Workflow testen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie erfahre ich von neuen Veranstaltungen und Terminen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Am einfachsten: nehmen Sie einmal Kontakt mit uns auf. Wir informieren Sie persönlich über kommende Veranstaltungen, Sono-Tage und Fachtagungen, die für Ihr Fachgebiet relevant sind — ohne Spam, ohne Massenversand."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Gibt es Sonderpreise nur auf der MEDICA oder auch bei den Sono-Tagen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Auch bei den Sono-Tagen. Exklusive Konditionen sind nicht an die MEDICA gebunden — wer zu uns nach Dortmund kommt und sich für ein Gerät entscheidet, profitiert von denselben Möglichkeiten wie auf der Messe."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Sind die Sono-Tage in Dortmund kostenlos?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, vollständig. Die Sono-Tage sind kostenlos und unverbindlich — kein Kaufzwang, keine versteckten Bedingungen. Sie kommen, schauen, fragen, testen. Und gehen mit einem klaren Bild — ob Sie sich danach für ein Gerät entscheiden oder nicht."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich Geräte bei den Sono-Tagen wirklich testen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Bei unseren Sono-Tagen stehen Ihnen die aktuellen Mindray- und Esaote-Systeme live am Phantom zur Verfügung. Sie können Bildqualität, Bedienung und Funktionen direkt vergleichen — kein Hochglanz-Demo, sondern echtes Arbeiten am Gerät."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Bieten Sie auch Demo-Termine direkt in meiner Praxis an?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Wer konkret interessiert ist, kann einen kostenlosen Demo-Termin in der eigenen Praxis vereinbaren. Wir bringen das Gerät zu Ihnen — so können Sie es unter realen Bedingungen, mit Ihren Patienten und Ihrem Workflow testen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie erfahre ich von neuen Veranstaltungen und Terminen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Am einfachsten: nehmen Sie einmal Kontakt mit uns auf. Wir informieren Sie persönlich über kommende Veranstaltungen, Sono-Tage und Fachtagungen, die für Ihr Fachgebiet relevant sind — ohne Spam, ohne Massenversand."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Gibt es Sonderpreise nur auf der MEDICA oder auch bei den Sono-Tagen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Auch bei den Sono-Tagen. Exklusive Konditionen sind nicht an die MEDICA gebunden — wer zu uns nach Dortmund kommt und sich für ein Gerät entscheidet, profitiert von denselben Möglichkeiten wie auf der Messe."
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

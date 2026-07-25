@@ -1,133 +1,158 @@
-@php
-    $title = "Gebrauchte Ultraschallgeräte kaufen | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/gebraucht";
-    $description = "Geprüfte Gebrauchtgeräte von Mindray und Esaote zu attraktiven Konditionen. Technisch gewartet, mit Service-Garantie – jetzt verfügbare Geräte anfragen.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/gebraucht">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/gebraucht">
+
+        <title>Gebrauchte Ultraschallgeräte kaufen | DORMED</title>
+        <meta name="description" content="Geprüfte Gebrauchtgeräte von Mindray und Esaote zu attraktiven Konditionen. Technisch gewartet, mit Service-Garantie – jetzt verfügbare Geräte anfragen.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/gebraucht">
+
+    
+
+        <meta property="og:title" content="Gebrauchte Ultraschallgeräte kaufen | DORMED">
+        <meta property="og:description" content="Geprüfte Gebrauchtgeräte von Mindray und Esaote zu attraktiven Konditionen. Technisch gewartet, mit Service-Garantie – jetzt verfügbare Geräte anfragen.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/gebraucht">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Gebrauchte Ultraschallgeräte kaufen | DORMED">
+        <meta name="twitter:description" content="Geprüfte Gebrauchtgeräte von Mindray und Esaote zu attraktiven Konditionen. Technisch gewartet, mit Service-Garantie – jetzt verfügbare Geräte anfragen.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://dormed.de/ultraschallgeraete/gebraucht/#webpage",
+          "name": "Gebrauchte Ultraschallgeräte kaufen | DORMED",
+          "description": "Geprüfte Gebrauchtgeräte von Mindray und Esaote zu attraktiven Konditionen. Technisch gewartet, mit Service-Garantie – jetzt verfügbare Geräte anfragen.",
+          "url": "https://dormed.de/ultraschallgeraete/gebraucht",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+              { "@type": "ListItem", "position": 3, "name": "Gebrauchte Geräte", "item": "https://dormed.de/ultraschallgeraete/gebraucht" }
+            ]
+          }
+        },
+        {
+          "@type": "HowTo",
+          "name": "Wie bereitet SONORING DORMED Gebrauchtgeräte auf?",
+          "description": "Jedes Gebrauchtgerät durchläuft vier definierte Prüfschritte bevor es verkauft wird.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "step": [
             {
-              "@type": "CollectionPage",
-              "@id": "https://dormed.de/ultraschallgeraete/gebraucht/#webpage",
-              "name": "Gebrauchte Ultraschallgeräte kaufen | DORMED",
-              "description": "Geprüfte Gebrauchtgeräte von Mindray und Esaote zu attraktiven Konditionen. Technisch gewartet, mit Service-Garantie – jetzt verfügbare Geräte anfragen.",
-              "url": "https://dormed.de/ultraschallgeraete/gebraucht",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                  { "@type": "ListItem", "position": 3, "name": "Gebrauchte Geräte", "item": "https://dormed.de/ultraschallgeraete/gebraucht" }
-                ]
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Annahme & Erstbewertung",
+              "text": "Jedes Gerät wird auf Vollständigkeit geprüft – Schallköpfe, Software, Zubehör. Geräte die unsere Qualitätsanforderungen nicht erfüllen nehmen wir nicht ins Sortiment auf."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Technische Vollprüfung",
+              "text": "Unsere Techniker prüfen systematisch alle Bildgebungsparameter, Schallkopfports, Softwarestand und Programmeinstellungen. Reparaturen werden vor dem Verkauf durchgeführt."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Konstanzprüfung & Protokoll",
+              "text": "Jedes Gebrauchtgerät erhält eine Konstanzprüfung nach DIN EN 62353. Das Prüfprotokoll ist sofort verwendbar für Ihre QM-Dokumentation und als KV-Nachweis."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 4,
+              "name": "Lieferung & Einweisung",
+              "text": "Kostenlose Lieferung und persönliche Einweisung direkt in Ihrer Praxis – auch bei Gebrauchtgeräten. Die Einweisung erfolgt gemäß §5 MPBetreibV und wird schriftlich dokumentiert."
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wie viel günstiger ist ein gebrauchtes Ultraschallgerät gegenüber einem Neugerät?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In der Regel sind gebrauchte Ultraschallgeräte vom zertifizierten Fachhändler 20 bis 50 Prozent günstiger als vergleichbare Neugeräte. Der genaue Preisnachlass hängt von Modell, Baujahr, Zustand und vorhandenem Schallkopf-Set ab. Ein professionell aufbereitetes Gerät der Mittelklasse ist dabei häufig wirtschaftlich attraktiver als ein Neueinsteiger-Gerät – bei deutlich höherem Funktionsumfang."
               }
             },
             {
-              "@type": "HowTo",
-              "name": "Wie bereitet SONORING DORMED Gebrauchtgeräte auf?",
-              "description": "Jedes Gebrauchtgerät durchläuft vier definierte Prüfschritte bevor es verkauft wird.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "step": [
-                {
-                  "@type": "HowToStep",
-                  "position": 1,
-                  "name": "Annahme & Erstbewertung",
-                  "text": "Jedes Gerät wird auf Vollständigkeit geprüft – Schallköpfe, Software, Zubehör. Geräte die unsere Qualitätsanforderungen nicht erfüllen nehmen wir nicht ins Sortiment auf."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 2,
-                  "name": "Technische Vollprüfung",
-                  "text": "Unsere Techniker prüfen systematisch alle Bildgebungsparameter, Schallkopfports, Softwarestand und Programmeinstellungen. Reparaturen werden vor dem Verkauf durchgeführt."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 3,
-                  "name": "Konstanzprüfung & Protokoll",
-                  "text": "Jedes Gebrauchtgerät erhält eine Konstanzprüfung nach DIN EN 62353. Das Prüfprotokoll ist sofort verwendbar für Ihre QM-Dokumentation und als KV-Nachweis."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 4,
-                  "name": "Lieferung & Einweisung",
-                  "text": "Kostenlose Lieferung und persönliche Einweisung direkt in Ihrer Praxis – auch bei Gebrauchtgeräten. Die Einweisung erfolgt gemäß §5 MPBetreibV und wird schriftlich dokumentiert."
-                }
-              ]
+              "@type": "Question",
+              "name": "Welche Prüfungen hat ein Gebrauchtgerät von SONORING DORMED durchlaufen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Jedes Gerät durchläuft vier definierte Schritte: Annahme und Erstbewertung mit Vollständigkeitsprüfung aller Schallköpfe und Zubehörteile. Technische Vollprüfung aller Bildgebungsparameter, Softwarestand und Messgenauigkeit. Elektrische Sicherheitsprüfung (STK) nach DIN EN 62353. Konstanzprüfung mit offiziellem Prüfprotokoll nach QM-Richtlinie – direkt verwendbar als KV-Nachweis."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Wie viel günstiger ist ein gebrauchtes Ultraschallgerät gegenüber einem Neugerät?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "In der Regel sind gebrauchte Ultraschallgeräte vom zertifizierten Fachhändler 20 bis 50 Prozent günstiger als vergleichbare Neugeräte. Der genaue Preisnachlass hängt von Modell, Baujahr, Zustand und vorhandenem Schallkopf-Set ab. Ein professionell aufbereitetes Gerät der Mittelklasse ist dabei häufig wirtschaftlich attraktiver als ein Neueinsteiger-Gerät – bei deutlich höherem Funktionsumfang."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Prüfungen hat ein Gebrauchtgerät von SONORING DORMED durchlaufen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Jedes Gerät durchläuft vier definierte Schritte: Annahme und Erstbewertung mit Vollständigkeitsprüfung aller Schallköpfe und Zubehörteile. Technische Vollprüfung aller Bildgebungsparameter, Softwarestand und Messgenauigkeit. Elektrische Sicherheitsprüfung (STK) nach DIN EN 62353. Konstanzprüfung mit offiziellem Prüfprotokoll nach QM-Richtlinie – direkt verwendbar als KV-Nachweis."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Gibt es Garantie auf gebrauchte Ultraschallgeräte?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja. Alle Gebrauchtgeräte bei SONORING DORMED werden mit Garantie geliefert – Laufzeit und Konditionen je nach Gerät und Vereinbarung. Zusätzlich empfehlen wir den Abschluss der Sono-Secur Elektronikversicherung, die auch für Gebrauchtgeräte verfügbar ist und vor externen Schäden wie Sturz, Feuchtigkeit oder Überspannung schützt."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich ein gebrauchtes Ultraschallgerät finanzieren oder leasen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, in vielen Fällen ist eine Finanzierung oder ein Leasing auch für Gebrauchtgeräte möglich. Voraussetzung sind ein geeignetes Gerätealter, ein ausreichender Restwert und Ihre Bonität als Praxisinhaber. Wir prüfen die Finanzierbarkeit individuell – sprechen Sie uns direkt an."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Sind gebrauchte Ultraschallgeräte noch an PACS und Praxissoftware anbindbar?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Das hängt vom Modell und Softwarestand ab. Alle aktuellen Mindray- und Esaote-Geräte unterstützen DICOM und können per sonoGDT an gängige Praxisverwaltungssysteme angebunden werden. Bei älteren Modellen prüfen wir im Vorfeld, ob die Schnittstellen vorhanden sind und ob ein Software-Update sinnvoll ist."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Ist die Einweisung in ein gebrauchtes Gerät gesetzlich vorgeschrieben?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, zwingend – unabhängig davon, ob das Gerät neu oder gebraucht ist. §5 MPBetreibV verpflichtet jeden Betreiber zur nachweisbaren Einweisung aller Anwender vor der ersten Nutzung. SONORING DORMED führt diese Einweisung bei jeder Lieferung kostenlos durch und stellt das entsprechende Dokument aus."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich mein altes Gerät beim Kauf eines Gebrauchten in Zahlung geben?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja. Wenn Sie ein gebrauchtes Gerät kaufen und gleichzeitig ein Mindray- oder Esaote-Altgerät besitzen, prüfen wir eine Inzahlungnahme. Der ermittelte Wert wird direkt vom Kaufpreis des neuen Geräts abgezogen. Abholung und Logistik übernehmen wir – koordiniert mit dem Liefertermin."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie schnell ist ein gebrauchtes Gerät lieferbar?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Das hängt von der Verfügbarkeit im Lager ab. Da unser Gebrauchtgeräte-Bestand regelmäßig wechselt, empfehlen wir eine direkte Anfrage mit Ihren Anforderungen – Fachrichtung, Preisspanne, gewünschte Funktionen. Wir informieren Sie umgehend über passende Geräte und koordinieren Lieferung und Einweisung termintreu."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Gibt es Garantie auf gebrauchte Ultraschallgeräte?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Alle Gebrauchtgeräte bei SONORING DORMED werden mit Garantie geliefert – Laufzeit und Konditionen je nach Gerät und Vereinbarung. Zusätzlich empfehlen wir den Abschluss der Sono-Secur Elektronikversicherung, die auch für Gebrauchtgeräte verfügbar ist und vor externen Schäden wie Sturz, Feuchtigkeit oder Überspannung schützt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich ein gebrauchtes Ultraschallgerät finanzieren oder leasen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, in vielen Fällen ist eine Finanzierung oder ein Leasing auch für Gebrauchtgeräte möglich. Voraussetzung sind ein geeignetes Gerätealter, ein ausreichender Restwert und Ihre Bonität als Praxisinhaber. Wir prüfen die Finanzierbarkeit individuell – sprechen Sie uns direkt an."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Sind gebrauchte Ultraschallgeräte noch an PACS und Praxissoftware anbindbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das hängt vom Modell und Softwarestand ab. Alle aktuellen Mindray- und Esaote-Geräte unterstützen DICOM und können per sonoGDT an gängige Praxisverwaltungssysteme angebunden werden. Bei älteren Modellen prüfen wir im Vorfeld, ob die Schnittstellen vorhanden sind und ob ein Software-Update sinnvoll ist."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist die Einweisung in ein gebrauchtes Gerät gesetzlich vorgeschrieben?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, zwingend – unabhängig davon, ob das Gerät neu oder gebraucht ist. §5 MPBetreibV verpflichtet jeden Betreiber zur nachweisbaren Einweisung aller Anwender vor der ersten Nutzung. SONORING DORMED führt diese Einweisung bei jeder Lieferung kostenlos durch und stellt das entsprechende Dokument aus."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich mein altes Gerät beim Kauf eines Gebrauchten in Zahlung geben?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Wenn Sie ein gebrauchtes Gerät kaufen und gleichzeitig ein Mindray- oder Esaote-Altgerät besitzen, prüfen wir eine Inzahlungnahme. Der ermittelte Wert wird direkt vom Kaufpreis des neuen Geräts abgezogen. Abholung und Logistik übernehmen wir – koordiniert mit dem Liefertermin."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie schnell ist ein gebrauchtes Gerät lieferbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das hängt von der Verfügbarkeit im Lager ab. Da unser Gebrauchtgeräte-Bestand regelmäßig wechselt, empfehlen wir eine direkte Anfrage mit Ihren Anforderungen – Fachrichtung, Preisspanne, gewünschte Funktionen. Wir informieren Sie umgehend über passende Geräte und koordinieren Lieferung und Einweisung termintreu."
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

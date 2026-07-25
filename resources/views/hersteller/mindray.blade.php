@@ -1,139 +1,164 @@
-@php
-    $title = "Mindray Ultraschall – Autorisierter Händler | SONORING DORMED";
-    $canonical = "https://dormed.de/hersteller/mindray";
-    $description = "Autorisierter Mindray-Partner seit 2005. Das komplette Mindray Ultraschall-Portfolio – von Handheld bis Premium – mit zertifiziertem Service und Wartung in Deutschland.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/hersteller/mindray">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/hersteller/mindray">
+
+        <title>Mindray Ultraschall – Autorisierter Händler | SONORING DORMED</title>
+        <meta name="description" content="Autorisierter Mindray-Partner seit 2005. Das komplette Mindray Ultraschall-Portfolio – von Handheld bis Premium – mit zertifiziertem Service und Wartung in Deutschland.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/hersteller/mindray">
+
+    
+
+        <meta property="og:title" content="Mindray Ultraschall – Autorisierter Händler | SONORING DORMED">
+        <meta property="og:description" content="Autorisierter Mindray-Partner seit 2005. Das komplette Mindray Ultraschall-Portfolio – von Handheld bis Premium – mit zertifiziertem Service und Wartung in Deutschland.">
+        <meta property="og:url" content="https://dormed.de/hersteller/mindray">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray Ultraschall – Autorisierter Händler | SONORING DORMED">
+        <meta name="twitter:description" content="Autorisierter Mindray-Partner seit 2005. Das komplette Mindray Ultraschall-Portfolio – von Handheld bis Premium – mit zertifiziertem Service und Wartung in Deutschland.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AboutPage",
+          "@id": "https://dormed.de/hersteller/mindray/#webpage",
+          "name": "Mindray Ultraschall – Autorisierter Händler | SONORING DORMED",
+          "description": "Autorisierter Mindray-Partner seit 2005. Das komplette Mindray Ultraschall-Portfolio – von Handheld bis Premium – mit zertifiziertem Service und Wartung in Deutschland.",
+          "url": "https://dormed.de/hersteller/mindray",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Hersteller", "item": "https://dormed.de/hersteller" },
+              { "@type": "ListItem", "position": 3, "name": "Mindray", "item": "https://dormed.de/hersteller/mindray" }
+            ]
+          }
+        },
+        {
+          "@type": "Brand",
+          "@id": "https://dormed.de/hersteller/mindray/#brand",
+          "name": "Mindray",
+          "url": "https://www.mindray.com",
+          "description": "Mindray ist einer der weltweit größten Hersteller von Medizintechnik mit Hauptsitz in Shenzhen, China. Das Ultraschall-Portfolio umfasst über 20 Modelle für alle Fachgebiete – auf ZST, ZST+ und Deep Intelligence Plattform.",
+          "logo": "https://www.mindray.com/favicon.ico"
+        },
+        {
+          "@type": "ItemList",
+          "name": "Mindray Ultraschallgeräte bei SONORING DORMED",
+          "numberOfItems": 23,
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Mindray Nuewa i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9" },
+            { "@type": "ListItem", "position": 2, "name": "Mindray Resona i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" },
+            { "@type": "ListItem", "position": 3, "name": "Mindray Resona i8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i8" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray Consona N9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n9" },
+            { "@type": "ListItem", "position": 5, "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" },
+            { "@type": "ListItem", "position": 6, "name": "Mindray Consona N6", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n6" },
+            { "@type": "ListItem", "position": 7, "name": "Mindray Consona N5", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n5" },
+            { "@type": "ListItem", "position": 8, "name": "Mindray DC-60", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-60" },
+            { "@type": "ListItem", "position": 9, "name": "Mindray DC-30", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30" },
+            { "@type": "ListItem", "position": 10, "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" },
+            { "@type": "ListItem", "position": 11, "name": "Mindray TE 7 Ace", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7-ace" },
+            { "@type": "ListItem", "position": 12, "name": "Mindray TE 5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5" },
+            { "@type": "ListItem", "position": 13, "name": "Mindray MX7", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7" },
+            { "@type": "ListItem", "position": 14, "name": "Mindray MX5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5" },
+            { "@type": "ListItem", "position": 15, "name": "Mindray MX3", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx3" },
+            { "@type": "ListItem", "position": 16, "name": "Mindray Z60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z60" },
+            { "@type": "ListItem", "position": 17, "name": "Mindray Z50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50" },
+            { "@type": "ListItem", "position": 18, "name": "Mindray DP-60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60" },
+            { "@type": "ListItem", "position": 19, "name": "Mindray DP-50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-50" },
+            { "@type": "ListItem", "position": 20, "name": "Mindray DP-30", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-30" },
+            { "@type": "ListItem", "position": 21, "name": "Mindray DP-10", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10" },
+            { "@type": "ListItem", "position": 22, "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" },
+            { "@type": "ListItem", "position": 23, "name": "Mindray TE Air i3M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
             {
-              "@type": "AboutPage",
-              "@id": "https://dormed.de/hersteller/mindray/#webpage",
-              "name": "Mindray Ultraschall – Autorisierter Händler | SONORING DORMED",
-              "description": "Autorisierter Mindray-Partner seit 2005. Das komplette Mindray Ultraschall-Portfolio – von Handheld bis Premium – mit zertifiziertem Service und Wartung in Deutschland.",
-              "url": "https://dormed.de/hersteller/mindray",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Hersteller", "item": "https://dormed.de/hersteller" },
-                  { "@type": "ListItem", "position": 3, "name": "Mindray", "item": "https://dormed.de/hersteller/mindray" }
-                ]
+              "@type": "Question",
+              "name": "Was bedeutet ZST+ und worin unterscheidet es sich von der ZST-Plattform?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "ZST (Zone Sonography Technology) ist Mindray's proprietäre Signalverarbeitungsplattform. ZST+ ist die Weiterentwicklung mit höherer Verarbeitungsleistung, verbesserter KI-Integration und erweiterter Farbdoppler-Performance. Geräte auf ZST+ (Resona i9, Consona N8/N9) bieten bessere Bildqualität bei schallschlechten Patienten, mehr simultane Bildverarbeitungsschritte und schnellere KI-Algorithmen als die Vorgänger-ZST-Plattform."
               }
             },
             {
-              "@type": "Brand",
-              "@id": "https://dormed.de/hersteller/mindray/#brand",
-              "name": "Mindray",
-              "url": "https://www.mindray.com",
-              "description": "Mindray ist einer der weltweit größten Hersteller von Medizintechnik mit Hauptsitz in Shenzhen, China. Das Ultraschall-Portfolio umfasst über 20 Modelle für alle Fachgebiete – auf ZST, ZST+ und Deep Intelligence Plattform.",
-              "logo": "https://www.mindray.com/favicon.ico"
+              "@type": "Question",
+              "name": "Wie lange erhalte ich Software-Updates und Support für Mindray-Geräte?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mindray unterstützt seine Geräte in der Regel 7–10 Jahre mit Software-Updates — deutlich länger als viele Wettbewerber. Kritische Sicherheitsupdates werden langfristig bereitgestellt, neue klinische Funktionen für aktuelle Generationen nachgepflegt. Als Mindray-Partner haben wir direkten Zugang zum Software-Update-Kanal und koordinieren Updates für unsere Wartungskunden."
+              }
             },
             {
-              "@type": "ItemList",
-              "name": "Mindray Ultraschallgeräte bei SONORING DORMED",
-              "numberOfItems": 23,
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Mindray Nuewa i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9" },
-                { "@type": "ListItem", "position": 2, "name": "Mindray Resona i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" },
-                { "@type": "ListItem", "position": 3, "name": "Mindray Resona i8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i8" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray Consona N9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n9" },
-                { "@type": "ListItem", "position": 5, "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" },
-                { "@type": "ListItem", "position": 6, "name": "Mindray Consona N6", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n6" },
-                { "@type": "ListItem", "position": 7, "name": "Mindray Consona N5", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n5" },
-                { "@type": "ListItem", "position": 8, "name": "Mindray DC-60", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-60" },
-                { "@type": "ListItem", "position": 9, "name": "Mindray DC-30", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30" },
-                { "@type": "ListItem", "position": 10, "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" },
-                { "@type": "ListItem", "position": 11, "name": "Mindray TE 7 Ace", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7-ace" },
-                { "@type": "ListItem", "position": 12, "name": "Mindray TE 5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5" },
-                { "@type": "ListItem", "position": 13, "name": "Mindray MX7", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7" },
-                { "@type": "ListItem", "position": 14, "name": "Mindray MX5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5" },
-                { "@type": "ListItem", "position": 15, "name": "Mindray MX3", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx3" },
-                { "@type": "ListItem", "position": 16, "name": "Mindray Z60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z60" },
-                { "@type": "ListItem", "position": 17, "name": "Mindray Z50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50" },
-                { "@type": "ListItem", "position": 18, "name": "Mindray DP-60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60" },
-                { "@type": "ListItem", "position": 19, "name": "Mindray DP-50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-50" },
-                { "@type": "ListItem", "position": 20, "name": "Mindray DP-30", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-30" },
-                { "@type": "ListItem", "position": 21, "name": "Mindray DP-10", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10" },
-                { "@type": "ListItem", "position": 22, "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" },
-                { "@type": "ListItem", "position": 23, "name": "Mindray TE Air i3M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m" }
-              ]
+              "@type": "Question",
+              "name": "Ist Mindray ein Qualitätshersteller oder nur ein günstiger Anbieter?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Diese Frage ist inzwischen überholt. Mindray ist heute in weltweiten Qualitätsstudien auf Augenhöhe mit Philips, Siemens und GE in der Mittelklasse. In Deutschland haben Mindray-Systeme in den letzten 10 Jahren erhebliche Marktanteile gewonnen — nicht weil sie günstig sind, sondern weil sie gute Bildqualität zu einem fairen Preis liefern. Unsere 1.700 Wartungskunden nutzen Mindray täglich in anspruchsvollen klinischen Umgebungen."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Was bedeutet ZST+ und worin unterscheidet es sich von der ZST-Plattform?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "ZST (Zone Sonography Technology) ist Mindray's proprietäre Signalverarbeitungsplattform. ZST+ ist die Weiterentwicklung mit höherer Verarbeitungsleistung, verbesserter KI-Integration und erweiterter Farbdoppler-Performance. Geräte auf ZST+ (Resona i9, Consona N8/N9) bieten bessere Bildqualität bei schallschlechten Patienten, mehr simultane Bildverarbeitungsschritte und schnellere KI-Algorithmen als die Vorgänger-ZST-Plattform."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie lange erhalte ich Software-Updates und Support für Mindray-Geräte?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Mindray unterstützt seine Geräte in der Regel 7–10 Jahre mit Software-Updates — deutlich länger als viele Wettbewerber. Kritische Sicherheitsupdates werden langfristig bereitgestellt, neue klinische Funktionen für aktuelle Generationen nachgepflegt. Als Mindray-Partner haben wir direkten Zugang zum Software-Update-Kanal und koordinieren Updates für unsere Wartungskunden."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Ist Mindray ein Qualitätshersteller oder nur ein günstiger Anbieter?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Diese Frage ist inzwischen überholt. Mindray ist heute in weltweiten Qualitätsstudien auf Augenhöhe mit Philips, Siemens und GE in der Mittelklasse. In Deutschland haben Mindray-Systeme in den letzten 10 Jahren erhebliche Marktanteile gewonnen — nicht weil sie günstig sind, sondern weil sie gute Bildqualität zu einem fairen Preis liefern. Unsere 1.700 Wartungskunden nutzen Mindray täglich in anspruchsvollen klinischen Umgebungen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was ist XStrain™ und auf welchen Geräten ist es verfügbar?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "XStrain™ ist Mindray's Speckle-Tracking-Technologie für die myokardiale Deformationsanalyse (Strain-Imaging). Es ermöglicht die Messung des Global Longitudinal Strain (GLS) — ein wichtiger Parameter für die Früherkennung kardialer Dysfunktion. XStrain™ ist verfügbar auf: TE 9, Resona i9, Nuewa i9. Auf der Resona i8 eingeschränkt verfügbar. Auf Consona-Systemen nicht verfügbar."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich Mindray-Schallköpfe zwischen verschiedenen Modellen verwenden?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die Schallkopf-Kompatibilität zwischen Mindray-Generationen ist eingeschränkt. Innerhalb einer Plattformgeneration (z.B. ZST+) ist Austausch oft möglich — zwischen Generationen (z.B. DC-Serie und Resona-Serie) in der Regel nicht. Wir prüfen die Kompatibilität für Sie bevor Sie in Schallköpfe investieren."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wo wird Mindray produziert und wie ist die Lieferkette?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Mindray produziert den Großteil seiner Systeme in eigenen Werken in Shenzhen und Nanjing, China. Kritische Komponenten wie Ultraschallwandler und Signalverarbeitungschips werden intern entwickelt — Mindray ist kein OEM-Anbieter. Als autorisierter Partner haben wir gesicherte Lieferketten und typische Lieferzeiten von 4–8 Wochen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie ist der Mindray-Kundendienst in Deutschland organisiert?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Mindray hat eine eigene deutsche Niederlassung (Mindray Medical Deutschland GmbH) mit Technikerstab für Eskalationen. Als autorisierter Partner ergänzen wir dieses Netzwerk mit unseren eigenen zertifizierten Technikern an 4 Standorten: Dortmund, Düsseldorf, Hamburg und Kiel. Für unsere Wartungskunden ist der erste Ansprechpartner immer SONORING DORMED."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was ist der Unterschied zwischen Consona N6 und Consona N8?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Beide Geräte laufen auf der ZST/ZST+-Plattform, unterscheiden sich aber in Leistung und Funktionsumfang. Die Consona N6 bietet solide Basisdiagnostik: Farbdoppler, 4 Ports, 21,5\" Display — ideal für die Hausarztpraxis. Die Consona N8 hat ZST+-Plattform, bessere Tiefenauflösung, Elastographie-Option und erweiterte Doppler-Funktionen. Der Preisunterschied liegt typischerweise bei 15–25%."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Was ist XStrain™ und auf welchen Geräten ist es verfügbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "XStrain™ ist Mindray's Speckle-Tracking-Technologie für die myokardiale Deformationsanalyse (Strain-Imaging). Es ermöglicht die Messung des Global Longitudinal Strain (GLS) — ein wichtiger Parameter für die Früherkennung kardialer Dysfunktion. XStrain™ ist verfügbar auf: TE 9, Resona i9, Nuewa i9. Auf der Resona i8 eingeschränkt verfügbar. Auf Consona-Systemen nicht verfügbar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich Mindray-Schallköpfe zwischen verschiedenen Modellen verwenden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Schallkopf-Kompatibilität zwischen Mindray-Generationen ist eingeschränkt. Innerhalb einer Plattformgeneration (z.B. ZST+) ist Austausch oft möglich — zwischen Generationen (z.B. DC-Serie und Resona-Serie) in der Regel nicht. Wir prüfen die Kompatibilität für Sie bevor Sie in Schallköpfe investieren."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wo wird Mindray produziert und wie ist die Lieferkette?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mindray produziert den Großteil seiner Systeme in eigenen Werken in Shenzhen und Nanjing, China. Kritische Komponenten wie Ultraschallwandler und Signalverarbeitungschips werden intern entwickelt — Mindray ist kein OEM-Anbieter. Als autorisierter Partner haben wir gesicherte Lieferketten und typische Lieferzeiten von 4–8 Wochen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie ist der Mindray-Kundendienst in Deutschland organisiert?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mindray hat eine eigene deutsche Niederlassung (Mindray Medical Deutschland GmbH) mit Technikerstab für Eskalationen. Als autorisierter Partner ergänzen wir dieses Netzwerk mit unseren eigenen zertifizierten Technikern an 4 Standorten: Dortmund, Düsseldorf, Hamburg und Kiel. Für unsere Wartungskunden ist der erste Ansprechpartner immer SONORING DORMED."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was ist der Unterschied zwischen Consona N6 und Consona N8?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Beide Geräte laufen auf der ZST/ZST+-Plattform, unterscheiden sich aber in Leistung und Funktionsumfang. Die Consona N6 bietet solide Basisdiagnostik: Farbdoppler, 4 Ports, 21,5\" Display — ideal für die Hausarztpraxis. Die Consona N8 hat ZST+-Plattform, bessere Tiefenauflösung, Elastographie-Option und erweiterte Doppler-Funktionen. Der Preisunterschied liegt typischerweise bei 15–25%."
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

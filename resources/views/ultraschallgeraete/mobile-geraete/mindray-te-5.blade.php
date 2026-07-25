@@ -1,78 +1,103 @@
-@php
-    $title = "Mindray TE 5 kaufen – Kompaktes Ultraschallgerät | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5";
-    $description = "Mindray TE 5: Kompaktes, mobiles Ultraschallgerät für breite klinische Anwendungen. Einfache Bedienung, zuverlässige Bildqualität, attraktiver Einstiegspreis.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5">
+
+        <title>Mindray TE 5 kaufen – Kompaktes Ultraschallgerät | DORMED</title>
+        <meta name="description" content="Mindray TE 5: Kompaktes, mobiles Ultraschallgerät für breite klinische Anwendungen. Einfache Bedienung, zuverlässige Bildqualität, attraktiver Einstiegspreis.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5">
+
+    
+
+        <meta property="og:title" content="Mindray TE 5 kaufen – Kompaktes Ultraschallgerät | DORMED">
+        <meta property="og:description" content="Mindray TE 5: Kompaktes, mobiles Ultraschallgerät für breite klinische Anwendungen. Einfache Bedienung, zuverlässige Bildqualität, attraktiver Einstiegspreis.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray TE 5 kaufen – Kompaktes Ultraschallgerät | DORMED">
+        <meta name="twitter:description" content="Mindray TE 5: Kompaktes, mobiles Ultraschallgerät für breite klinische Anwendungen. Einfache Bedienung, zuverlässige Bildqualität, attraktiver Einstiegspreis.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5/#product",
-              "name": "Mindray TE 5",
-              "description": "Kompaktes Einstiegs-Laptop-Ultraschallsystem auf ZST+ Plattform mit 4 aktiven Ports, Akkubetrieb, Farbdoppler und Smart Beam Basic. Leichtgewichtig und mobil — ideal für den Einstieg in die mobile Diagnostik.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-te-5/4d9a8f73-4d33-4d40-5134-535a6f07f400.png",
-                "https://dormed.de/assets/img/produkte/mindray-te-5/27386fb4-8ba3-4e03-4338-ba511b204b00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-te-5/fee9fe22-2e3c-4186-9a6a-da0090377a00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-te-5/5068b6ce-2ac9-4a0e-da59-a33f6b9a9700.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Mobiles Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+" },
-                { "@type": "PropertyValue", "name": "Format", "value": "Kompaktes Laptop-System" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4 aktive Ports" },
-                { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Smart Beam", "value": "Basic verfügbar" },
-                { "@type": "PropertyValue", "name": "eSpeedGo™", "value": "Nicht verfügbar" },
-                { "@type": "PropertyValue", "name": "XStrain™", "value": "Nicht verfügbar" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem Einstieg" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray TE 7 Ace", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7" },
-                { "@type": "Product", "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray TE 5", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5/#product",
+          "name": "Mindray TE 5",
+          "description": "Kompaktes Einstiegs-Laptop-Ultraschallsystem auf ZST+ Plattform mit 4 aktiven Ports, Akkubetrieb, Farbdoppler und Smart Beam Basic. Leichtgewichtig und mobil — ideal für den Einstieg in die mobile Diagnostik.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-te-5/4d9a8f73-4d33-4d40-5134-535a6f07f400.png",
+            "https://dormed.de/assets/img/produkte/mindray-te-5/27386fb4-8ba3-4e03-4338-ba511b204b00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-te-5/fee9fe22-2e3c-4186-9a6a-da0090377a00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-te-5/5068b6ce-2ac9-4a0e-da59-a33f6b9a9700.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Mobiles Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+" },
+            { "@type": "PropertyValue", "name": "Format", "value": "Kompaktes Laptop-System" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4 aktive Ports" },
+            { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Smart Beam", "value": "Basic verfügbar" },
+            { "@type": "PropertyValue", "name": "eSpeedGo™", "value": "Nicht verfügbar" },
+            { "@type": "PropertyValue", "name": "XStrain™", "value": "Nicht verfügbar" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem Einstieg" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray TE 7 Ace", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7" },
+            { "@type": "Product", "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray TE 5", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

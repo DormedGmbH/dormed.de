@@ -1,107 +1,132 @@
-@php
-    $title = "Ultraschall Finanzierung & Leasing für Ärzte | SONORING DORMED";
-    $canonical = "https://dormed.de/leistungen/finanzierung";
-    $description = "Ultraschallgeräte finanzieren oder leasen – flexible Modelle für Praxen und Kliniken. Monatliche Raten statt hoher Investition. Jetzt Finanzierungsangebot anfragen.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/leistungen/finanzierung">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/leistungen/finanzierung">
+
+        <title>Ultraschall Finanzierung &amp; Leasing für Ärzte | SONORING DORMED</title>
+        <meta name="description" content="Ultraschallgeräte finanzieren oder leasen – flexible Modelle für Praxen und Kliniken. Monatliche Raten statt hoher Investition. Jetzt Finanzierungsangebot anfragen.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/leistungen/finanzierung">
+
+    
+
+        <meta property="og:title" content="Ultraschall Finanzierung &amp;amp; Leasing für Ärzte | SONORING DORMED">
+        <meta property="og:description" content="Ultraschallgeräte finanzieren oder leasen – flexible Modelle für Praxen und Kliniken. Monatliche Raten statt hoher Investition. Jetzt Finanzierungsangebot anfragen.">
+        <meta property="og:url" content="https://dormed.de/leistungen/finanzierung">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Finanzierung &amp;amp; Leasing für Ärzte | SONORING DORMED">
+        <meta name="twitter:description" content="Ultraschallgeräte finanzieren oder leasen – flexible Modelle für Praxen und Kliniken. Monatliche Raten statt hoher Investition. Jetzt Finanzierungsangebot anfragen.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-finanzierung",
+          "name": "Ultraschall Finanzierung & Leasing",
+          "url": "https://dormed.de/leistungen/finanzierung",
+          "description": "Ultraschallgeräte finanzieren oder leasen – flexible Modelle für Praxen und Kliniken. Monatliche Raten statt hoher Investition. Jetzt Finanzierungsangebot anfragen.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "areaServed": { "@type": "Country", "name": "Deutschland" },
+          "serviceType": "Finanzierung & Leasing",
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Finanzierungsmodelle",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "name": "Barkauf",
+                "description": "Maximale Unabhängigkeit. Sie bezahlen den gesamten Betrag direkt und sind sofort vollständiger Eigentümer. Maximale Kostentransparenz, keine laufenden Verpflichtungen."
+              },
+              {
+                "@type": "Offer",
+                "name": "Leasing",
+                "description": "Liquidität schonen, Steuervorteile. Monatliche Raten statt Kapitalbindung. Am Vertragsende entscheiden Sie: Gerät übernehmen oder auf die neueste Technologie wechseln."
+              },
+              {
+                "@type": "Offer",
+                "name": "Darlehen",
+                "description": "Planungssicherheit, Eigentümer ab Tag 1. Feste Laufzeiten, klarer Tilgungsplan. Sie werden wirtschaftlicher Eigentümer ab dem ersten Tag."
+              }
+            ]
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
             {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-finanzierung",
-              "name": "Ultraschall Finanzierung & Leasing",
-              "url": "https://dormed.de/leistungen/finanzierung",
-              "description": "Ultraschallgeräte finanzieren oder leasen – flexible Modelle für Praxen und Kliniken. Monatliche Raten statt hoher Investition. Jetzt Finanzierungsangebot anfragen.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "areaServed": { "@type": "Country", "name": "Deutschland" },
-              "serviceType": "Finanzierung & Leasing",
-              "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Finanzierungsmodelle",
-                "itemListElement": [
-                  {
-                    "@type": "Offer",
-                    "name": "Barkauf",
-                    "description": "Maximale Unabhängigkeit. Sie bezahlen den gesamten Betrag direkt und sind sofort vollständiger Eigentümer. Maximale Kostentransparenz, keine laufenden Verpflichtungen."
-                  },
-                  {
-                    "@type": "Offer",
-                    "name": "Leasing",
-                    "description": "Liquidität schonen, Steuervorteile. Monatliche Raten statt Kapitalbindung. Am Vertragsende entscheiden Sie: Gerät übernehmen oder auf die neueste Technologie wechseln."
-                  },
-                  {
-                    "@type": "Offer",
-                    "name": "Darlehen",
-                    "description": "Planungssicherheit, Eigentümer ab Tag 1. Feste Laufzeiten, klarer Tilgungsplan. Sie werden wirtschaftlicher Eigentümer ab dem ersten Tag."
-                  }
-                ]
+              "@type": "Question",
+              "name": "Welche Finanzierungsmodelle bieten Sie an?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wir bieten drei Varianten: Leasing, Darlehen und Barzahlung. Leasing eignet sich für Ärzte, die Liquidität schonen und flexibel bleiben möchten. Darlehen bieten langfristige Planungssicherheit, während Barzahlung maximale Unabhängigkeit garantiert. Jedes Modell lässt sich individuell zuschneiden."
               }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Welche Finanzierungsmodelle bieten Sie an?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Wir bieten drei Varianten: Leasing, Darlehen und Barzahlung. Leasing eignet sich für Ärzte, die Liquidität schonen und flexibel bleiben möchten. Darlehen bieten langfristige Planungssicherheit, während Barzahlung maximale Unabhängigkeit garantiert. Jedes Modell lässt sich individuell zuschneiden."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Vorteile bietet Leasing gegenüber dem Kauf?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Leasing ermöglicht modernste Medizintechnik ohne langfristige Kapitalbindung. Sie zahlen monatliche Raten und entscheiden am Vertragsende: Gerät zurückgeben oder übernehmen. Besonders attraktiv: Bei Vorauszahlung realisieren Sie erhebliche steuerliche Vorteile nach §4(3) EStG."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie schnell ist die Finanzierung verfügbar?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Dank unserer Partnerschaft mit BNP Paribas Leasing Solutions können Sie – sofern die Bonität gegeben ist – direkt nach Geräteauswahl den Vertrag unterzeichnen und das Gerät sofort mitnehmen. Kurze Entscheidungswege sind unser Standard."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Können auch gebrauchte Geräte finanziert werden?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, gebrauchte Geräte können in vielen Fällen finanziert werden. Dies ist abhängig vom Gerätealter, Zustand und Restwert. Sprechen Sie uns direkt an – wir prüfen die Möglichkeiten individuell für Sie."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Sind die Leasingraten steuerlich absetzbar?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja. Leasingraten können vollständig als Betriebsausgabe geltend gemacht werden. Bei einer Vorauszahlung ist zusätzlich eine sofortige Abschreibung von bis zu 30 % der Anschaffungskosten möglich. Für Details empfehlen wir die Rücksprache mit Ihrem Steuerberater."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Voraussetzungen muss meine Praxis erfüllen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Für die Finanzierung sollten Sie freiberuflich oder gewerblich tätig sein. Eine ausreichende Bonität ist Voraussetzung. Die Finanzierung gilt ausschließlich für Freiberufler und Gewerbetreibende – nicht für Privatpersonen."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Welche Vorteile bietet Leasing gegenüber dem Kauf?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Leasing ermöglicht modernste Medizintechnik ohne langfristige Kapitalbindung. Sie zahlen monatliche Raten und entscheiden am Vertragsende: Gerät zurückgeben oder übernehmen. Besonders attraktiv: Bei Vorauszahlung realisieren Sie erhebliche steuerliche Vorteile nach §4(3) EStG."
+              }
             },
             {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
-                { "@type": "ListItem", "position": 3, "name": "Finanzierung", "item": "https://dormed.de/leistungen/finanzierung" }
-              ]
+              "@type": "Question",
+              "name": "Wie schnell ist die Finanzierung verfügbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dank unserer Partnerschaft mit BNP Paribas Leasing Solutions können Sie – sofern die Bonität gegeben ist – direkt nach Geräteauswahl den Vertrag unterzeichnen und das Gerät sofort mitnehmen. Kurze Entscheidungswege sind unser Standard."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Können auch gebrauchte Geräte finanziert werden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, gebrauchte Geräte können in vielen Fällen finanziert werden. Dies ist abhängig vom Gerätealter, Zustand und Restwert. Sprechen Sie uns direkt an – wir prüfen die Möglichkeiten individuell für Sie."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Sind die Leasingraten steuerlich absetzbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Leasingraten können vollständig als Betriebsausgabe geltend gemacht werden. Bei einer Vorauszahlung ist zusätzlich eine sofortige Abschreibung von bis zu 30 % der Anschaffungskosten möglich. Für Details empfehlen wir die Rücksprache mit Ihrem Steuerberater."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Voraussetzungen muss meine Praxis erfüllen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Für die Finanzierung sollten Sie freiberuflich oder gewerblich tätig sein. Eine ausreichende Bonität ist Voraussetzung. Die Finanzierung gilt ausschließlich für Freiberufler und Gewerbetreibende – nicht für Privatpersonen."
+              }
             }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
+            { "@type": "ListItem", "position": 3, "name": "Finanzierung", "item": "https://dormed.de/leistungen/finanzierung" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

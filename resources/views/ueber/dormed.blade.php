@@ -1,110 +1,135 @@
-@php
-    $title = "DORMED med. Systeme – Ihr Ultraschall-Fachhändler | SONORING DORMED";
-    $canonical = "https://dormed.de/ueber/dormed";
-    $description = "DORMED med. Systeme ist Ihr zertifizierter Fachhändler für medizinische Ultraschallgeräte. Persönliche Beratung, technischer Service und bundesweite Lieferung.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ueber/dormed">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ueber/dormed">
+
+        <title>DORMED med. Systeme – Ihr Ultraschall-Fachhändler | SONORING DORMED</title>
+        <meta name="description" content="DORMED med. Systeme ist Ihr zertifizierter Fachhändler für medizinische Ultraschallgeräte. Persönliche Beratung, technischer Service und bundesweite Lieferung.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ueber/dormed">
+
+    
+
+        <meta property="og:title" content="DORMED med. Systeme – Ihr Ultraschall-Fachhändler | SONORING DORMED">
+        <meta property="og:description" content="DORMED med. Systeme ist Ihr zertifizierter Fachhändler für medizinische Ultraschallgeräte. Persönliche Beratung, technischer Service und bundesweite Lieferung.">
+        <meta property="og:url" content="https://dormed.de/ueber/dormed">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="DORMED med. Systeme – Ihr Ultraschall-Fachhändler | SONORING DORMED">
+        <meta name="twitter:description" content="DORMED med. Systeme ist Ihr zertifizierter Fachhändler für medizinische Ultraschallgeräte. Persönliche Beratung, technischer Service und bundesweite Lieferung.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AboutPage",
+          "@id": "https://dormed.de/ueber/dormed/#webpage",
+          "name": "Über DORMED – Ultraschall-Spezialisten seit 1989 | SONORING DORMED",
+          "description": "Seit 1989 Partner für Ultraschallgeräte in Deutschland. 1.700 Wartungskunden, 4 Standorte, 15+ Techniker. Erfahren Sie mehr über SONORING DORMED med. Systeme.",
+          "url": "https://dormed.de/ueber/dormed",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "about": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Über uns", "item": "https://dormed.de/ueber" },
+              { "@type": "ListItem", "position": 3, "name": "DORMED", "item": "https://dormed.de/ueber/dormed" }
+            ]
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://dormed.de/#organization",
+          "name": "SONORING DORMED med. Systeme GmbH",
+          "alternateName": ["DORMED", "SONORING DORMED"],
+          "url": "https://dormed.de",
+          "foundingDate": "1989",
+          "foundingLocation": {
+            "@type": "Place",
+            "name": "Holzwickede, Deutschland"
+          },
+          "description": "SONORING DORMED med. Systeme GmbH ist seit 1989 spezialisierter Fachhändler für medizinische Ultraschallgeräte in Deutschland. Mit 4 Standorten, eigenem Technikerstab und über 1.700 aktiven Wartungskunden zählt DORMED zu den erfahrensten Ultraschall-Fachhändlern Deutschlands.",
+          "numberOfEmployees": {
+            "@type": "QuantitativeValue",
+            "minValue": 15
+          },
+          "member": [
             {
-              "@type": "AboutPage",
-              "@id": "https://dormed.de/ueber/dormed/#webpage",
-              "name": "Über DORMED – Ultraschall-Spezialisten seit 1989 | SONORING DORMED",
-              "description": "Seit 1989 Partner für Ultraschallgeräte in Deutschland. 1.700 Wartungskunden, 4 Standorte, 15+ Techniker. Erfahren Sie mehr über SONORING DORMED med. Systeme.",
-              "url": "https://dormed.de/ueber/dormed",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "about": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Über uns", "item": "https://dormed.de/ueber" },
-                  { "@type": "ListItem", "position": 3, "name": "DORMED", "item": "https://dormed.de/ueber/dormed" }
-                ]
+              "@type": "Person",
+              "name": "Thomas Stücker-Everding",
+              "jobTitle": "Geschäftsführer",
+              "worksFor": { "@id": "https://dormed.de/#organization" }
+            },
+            {
+              "@type": "Person",
+              "name": "Andreas Draheim",
+              "jobTitle": "Geschäftsführer",
+              "worksFor": { "@id": "https://dormed.de/#organization" }
+            }
+          ],
+          "location": [
+            {
+              "@type": "Place",
+              "name": "Dortmund / Holzwickede",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Wilhelm-Röntgen-Straße 4",
+                "addressLocality": "Holzwickede",
+                "postalCode": "59439",
+                "addressCountry": "DE"
               }
             },
             {
-              "@type": "Organization",
-              "@id": "https://dormed.de/#organization",
-              "name": "SONORING DORMED med. Systeme GmbH",
-              "alternateName": ["DORMED", "SONORING DORMED"],
-              "url": "https://dormed.de",
-              "foundingDate": "1989",
-              "foundingLocation": {
-                "@type": "Place",
-                "name": "Holzwickede, Deutschland"
-              },
-              "description": "SONORING DORMED med. Systeme GmbH ist seit 1989 spezialisierter Fachhändler für medizinische Ultraschallgeräte in Deutschland. Mit 4 Standorten, eigenem Technikerstab und über 1.700 aktiven Wartungskunden zählt DORMED zu den erfahrensten Ultraschall-Fachhändlern Deutschlands.",
-              "numberOfEmployees": {
-                "@type": "QuantitativeValue",
-                "minValue": 15
-              },
-              "member": [
-                {
-                  "@type": "Person",
-                  "name": "Thomas Stücker-Everding",
-                  "jobTitle": "Geschäftsführer",
-                  "worksFor": { "@id": "https://dormed.de/#organization" }
-                },
-                {
-                  "@type": "Person",
-                  "name": "Andreas Draheim",
-                  "jobTitle": "Geschäftsführer",
-                  "worksFor": { "@id": "https://dormed.de/#organization" }
-                }
-              ],
-              "location": [
-                {
-                  "@type": "Place",
-                  "name": "Dortmund / Holzwickede",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Wilhelm-Röntgen-Straße 4",
-                    "addressLocality": "Holzwickede",
-                    "postalCode": "59439",
-                    "addressCountry": "DE"
-                  }
-                },
-                {
-                  "@type": "Place",
-                  "name": "Düsseldorf / Ratingen",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Borsigstraße 5",
-                    "addressLocality": "Ratingen",
-                    "postalCode": "40880",
-                    "addressCountry": "DE"
-                  }
-                },
-                {
-                  "@type": "Place",
-                  "name": "Hamburg / Buchholz",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Bremer Straße 6",
-                    "addressLocality": "Buchholz in der Nordheide",
-                    "postalCode": "21244",
-                    "addressCountry": "DE"
-                  }
-                },
-                {
-                  "@type": "Place",
-                  "name": "Kiel",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Maria-Merian-Straße 9",
-                    "addressLocality": "Kiel",
-                    "postalCode": "24145",
-                    "addressCountry": "DE"
-                  }
-                }
-              ]
+              "@type": "Place",
+              "name": "Düsseldorf / Ratingen",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Borsigstraße 5",
+                "addressLocality": "Ratingen",
+                "postalCode": "40880",
+                "addressCountry": "DE"
+              }
+            },
+            {
+              "@type": "Place",
+              "name": "Hamburg / Buchholz",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Bremer Straße 6",
+                "addressLocality": "Buchholz in der Nordheide",
+                "postalCode": "21244",
+                "addressCountry": "DE"
+              }
+            },
+            {
+              "@type": "Place",
+              "name": "Kiel",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Maria-Merian-Straße 9",
+                "addressLocality": "Kiel",
+                "postalCode": "24145",
+                "addressCountry": "DE"
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

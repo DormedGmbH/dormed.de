@@ -1,124 +1,149 @@
-@php
-    $title = "Ultraschall Beratung – Persönlich & Kompetent | SONORING DORMED";
-    $canonical = "https://dormed.de/leistungen/beratung";
-    $description = "Individuelle Ultraschall-Beratung durch zertifizierte Experten. Wir finden das passende Gerät für Ihre Praxis – kostenlos, unverbindlich, persönlich vor Ort.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/leistungen/beratung">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/leistungen/beratung">
+
+        <title>Ultraschall Beratung – Persönlich &amp; Kompetent | SONORING DORMED</title>
+        <meta name="description" content="Individuelle Ultraschall-Beratung durch zertifizierte Experten. Wir finden das passende Gerät für Ihre Praxis – kostenlos, unverbindlich, persönlich vor Ort.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/leistungen/beratung">
+
+    
+
+        <meta property="og:title" content="Ultraschall Beratung – Persönlich &amp;amp; Kompetent | SONORING DORMED">
+        <meta property="og:description" content="Individuelle Ultraschall-Beratung durch zertifizierte Experten. Wir finden das passende Gerät für Ihre Praxis – kostenlos, unverbindlich, persönlich vor Ort.">
+        <meta property="og:url" content="https://dormed.de/leistungen/beratung">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Beratung – Persönlich &amp;amp; Kompetent | SONORING DORMED">
+        <meta name="twitter:description" content="Individuelle Ultraschall-Beratung durch zertifizierte Experten. Wir finden das passende Gerät für Ihre Praxis – kostenlos, unverbindlich, persönlich vor Ort.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-beratung",
+          "name": "Ultraschall Beratung",
+          "url": "https://dormed.de/leistungen/beratung",
+          "description": "Individuelle Ultraschall-Beratung durch zertifizierte Experten. Wir finden das passende Gerät für Ihre Praxis – kostenlos, unverbindlich, persönlich vor Ort.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "areaServed": { "@type": "Country", "name": "Deutschland" },
+          "serviceType": "Ultraschall Beratung",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "EUR",
+            "description": "Kostenlose und unverbindliche Beratung"
+          }
+        },
+        {
+          "@type": "HowTo",
+          "name": "Wie läuft eine Ultraschall-Beratung bei SONORING DORMED ab?",
+          "description": "In vier Schritten zum passenden Ultraschallgerät – von der ersten Kontaktaufnahme bis zum individuellen Angebot.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "step": [
             {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-beratung",
-              "name": "Ultraschall Beratung",
-              "url": "https://dormed.de/leistungen/beratung",
-              "description": "Individuelle Ultraschall-Beratung durch zertifizierte Experten. Wir finden das passende Gerät für Ihre Praxis – kostenlos, unverbindlich, persönlich vor Ort.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "areaServed": { "@type": "Country", "name": "Deutschland" },
-              "serviceType": "Ultraschall Beratung",
-              "offers": {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "EUR",
-                "description": "Kostenlose und unverbindliche Beratung"
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Erster Kontakt",
+              "text": "Kostenloses Erstgespräch – telefonisch, per E-Mail oder vor Ort. Unverbindlich und ohne Zeitdruck. Antwort innerhalb eines Werktages."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Analyse",
+              "text": "Bedarfsanalyse vor Ort. Unser Berater kommt zu Ihnen in die Praxis. Wir analysieren Ihre Arbeitsabläufe, Fachbereiche und räumlichen Gegebenheiten – deutschlandweit."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Live-Demo",
+              "text": "Demonstration im Showroom. Sie testen das Gerät unter realen Bedingungen – mit Schallköpfen, echten Presets, echter Hardware. Showrooms in Dortmund, Düsseldorf, Hamburg und Kiel."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 4,
+              "name": "Entscheidung",
+              "text": "Individuelles Angebot. Auf Basis der Analyse erhalten Sie ein maßgeschneidertes Angebot – inklusive Finanzierungsoptionen, Lieferung und Servicepaket."
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Ist die Beratung wirklich kostenlos?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, vollständig. Wir berechnen weder Beratungsgebühren noch Fahrtkosten für Praxisbesuche. Die Beratung ist unverbindlich – unabhängig davon, ob es zu einem Kauf kommt."
               }
             },
             {
-              "@type": "HowTo",
-              "name": "Wie läuft eine Ultraschall-Beratung bei SONORING DORMED ab?",
-              "description": "In vier Schritten zum passenden Ultraschallgerät – von der ersten Kontaktaufnahme bis zum individuellen Angebot.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "step": [
-                {
-                  "@type": "HowToStep",
-                  "position": 1,
-                  "name": "Erster Kontakt",
-                  "text": "Kostenloses Erstgespräch – telefonisch, per E-Mail oder vor Ort. Unverbindlich und ohne Zeitdruck. Antwort innerhalb eines Werktages."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 2,
-                  "name": "Analyse",
-                  "text": "Bedarfsanalyse vor Ort. Unser Berater kommt zu Ihnen in die Praxis. Wir analysieren Ihre Arbeitsabläufe, Fachbereiche und räumlichen Gegebenheiten – deutschlandweit."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 3,
-                  "name": "Live-Demo",
-                  "text": "Demonstration im Showroom. Sie testen das Gerät unter realen Bedingungen – mit Schallköpfen, echten Presets, echter Hardware. Showrooms in Dortmund, Düsseldorf, Hamburg und Kiel."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 4,
-                  "name": "Entscheidung",
-                  "text": "Individuelles Angebot. Auf Basis der Analyse erhalten Sie ein maßgeschneidertes Angebot – inklusive Finanzierungsoptionen, Lieferung und Servicepaket."
-                }
-              ]
+              "@type": "Question",
+              "name": "Welche Geräte können Sie empfehlen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wir führen das vollständige Portfolio von Mindray und Esaote – von Einstiegsgeräten bis zu High-End-Systemen für spezialisierte Fachbereiche. Unsere Empfehlung richtet sich ausschließlich nach Ihren klinischen Anforderungen, nicht nach Margen."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Ist die Beratung wirklich kostenlos?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, vollständig. Wir berechnen weder Beratungsgebühren noch Fahrtkosten für Praxisbesuche. Die Beratung ist unverbindlich – unabhängig davon, ob es zu einem Kauf kommt."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Geräte können Sie empfehlen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Wir führen das vollständige Portfolio von Mindray und Esaote – von Einstiegsgeräten bis zu High-End-Systemen für spezialisierte Fachbereiche. Unsere Empfehlung richtet sich ausschließlich nach Ihren klinischen Anforderungen, nicht nach Margen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie lange dauert eine Beratung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Das Erstgespräch dauert 20 bis 40 Minuten – telefonisch oder vor Ort. Der Showroom-Termin mit Live-Demo ist auf 1 bis 2 Stunden ausgelegt, je nach Anzahl der zu vergleichenden Geräte."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kommen Sie auch in meine Praxis?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja. Unsere Berater sind deutschlandweit im Einsatz und kommen für eine Bedarfsanalyse direkt zu Ihnen – kostenfrei und ohne zusätzliche Vereinbarung."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie schnell erhalte ich ein Angebot?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nach Erstgespräch und Bedarfsanalyse erstellen wir innerhalb von zwei Werktagen ein individuelles Angebot – inklusive Finanzierungsoptionen auf Wunsch."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was passiert nach dem Kauf?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Lieferung und Einweisung erfolgen direkt in Ihrer Praxis durch zertifizierte Techniker gemäß MPBetreibV. Darüber hinaus bieten wir Full-Service-Verträge, Wartung und schnelle Reparatur mit eigenem Technikerstab an."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Wie lange dauert eine Beratung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das Erstgespräch dauert 20 bis 40 Minuten – telefonisch oder vor Ort. Der Showroom-Termin mit Live-Demo ist auf 1 bis 2 Stunden ausgelegt, je nach Anzahl der zu vergleichenden Geräte."
+              }
             },
             {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
-                { "@type": "ListItem", "position": 3, "name": "Beratung", "item": "https://dormed.de/leistungen/beratung" }
-              ]
+              "@type": "Question",
+              "name": "Kommen Sie auch in meine Praxis?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Unsere Berater sind deutschlandweit im Einsatz und kommen für eine Bedarfsanalyse direkt zu Ihnen – kostenfrei und ohne zusätzliche Vereinbarung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie schnell erhalte ich ein Angebot?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nach Erstgespräch und Bedarfsanalyse erstellen wir innerhalb von zwei Werktagen ein individuelles Angebot – inklusive Finanzierungsoptionen auf Wunsch."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was passiert nach dem Kauf?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Lieferung und Einweisung erfolgen direkt in Ihrer Praxis durch zertifizierte Techniker gemäß MPBetreibV. Darüber hinaus bieten wir Full-Service-Verträge, Wartung und schnelle Reparatur mit eigenem Technikerstab an."
+              }
             }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
+            { "@type": "ListItem", "position": 3, "name": "Beratung", "item": "https://dormed.de/leistungen/beratung" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

@@ -1,76 +1,101 @@
-@php
-    $title = "Esaote MyLab A50 kaufen – Ultraschall Mittelklasse | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50";
-    $description = "Esaote MyLab A50: Vielseitiges Ultraschallsystem mit KI-Tools, 21,5\" Monitor, 4+1 Schallkopfanschlüssen und optionalem Akku. Ideal für die tägliche Diagnostik.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50">
+
+        <title>Esaote MyLab A50 kaufen – Ultraschall Mittelklasse | DORMED</title>
+        <meta name="description" content="Esaote MyLab A50: Vielseitiges Ultraschallsystem mit KI-Tools, 21,5&quot; Monitor, 4+1 Schallkopfanschlüssen und optionalem Akku. Ideal für die tägliche Diagnostik.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50">
+
+    
+
+        <meta property="og:title" content="Esaote MyLab A50 kaufen – Ultraschall Mittelklasse | DORMED">
+        <meta property="og:description" content="Esaote MyLab A50: Vielseitiges Ultraschallsystem mit KI-Tools, 21,5&quot; Monitor, 4+1 Schallkopfanschlüssen und optionalem Akku. Ideal für die tägliche Diagnostik.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Esaote MyLab A50 kaufen – Ultraschall Mittelklasse | DORMED">
+        <meta name="twitter:description" content="Esaote MyLab A50: Vielseitiges Ultraschallsystem mit KI-Tools, 21,5&amp;quot; Monitor, 4+1 Schallkopfanschlüssen und optionalem Akku. Ideal für die tägliche Diagnostik.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50/#product",
-              "name": "Esaote MyLab™ A50",
-              "description": "Vielseitiges Ultraschallsystem mit KI-gestütztem Workflow, 21,5\" LCD-Monitor, 13,3\" Touchscreen, 4+1 aktiven Schallkopfanschlüssen und optionalem Akku. Ideal für die tägliche Diagnostik in Allgemeinmedizin, Innere Medizin und Gynäkologie.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/esaote-mylab-a50/97651b89-f2ad-4af2-c204-44732ad43600.png",
-                "https://dormed.de/assets/img/produkte/esaote-mylab-a50/39b02c93-768e-4836-18f9-c95e80014b00.jpg",
-                "https://dormed.de/assets/img/produkte/esaote-mylab-a50/ba2f2c7f-f691-4eca-e3aa-cc20ade2d800.jpg",
-                "https://dormed.de/assets/img/produkte/esaote-mylab-a50/f86d36b6-e7fc-4c05-3790-ad5b632faf00.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Esaote",
-                "@id": "https://dormed.de/hersteller/esaote/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Esaote S.p.A.",
-                "url": "https://www.esaote.com"
-              },
-              "category": "Stationäres Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Monitor", "value": "21,5 Zoll LCD-Monitor" },
-                { "@type": "PropertyValue", "name": "Touchscreen", "value": "13,3 Zoll Breitbild-Touchscreen" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
-                { "@type": "PropertyValue", "name": "KI-Plattform", "value": "Augmented Insight™" },
-                { "@type": "PropertyValue", "name": "Garantie", "value": "3 Jahre Herstellergarantie" },
-                { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "Optional verfügbar" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Stationäres Standgerät" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Esaote MyLab A70", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70" },
-                { "@type": "Product", "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" },
-                { "@type": "ListItem", "position": 4, "name": "Esaote MyLab A50", "item": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50/#product",
+          "name": "Esaote MyLab™ A50",
+          "description": "Vielseitiges Ultraschallsystem mit KI-gestütztem Workflow, 21,5\" LCD-Monitor, 13,3\" Touchscreen, 4+1 aktiven Schallkopfanschlüssen und optionalem Akku. Ideal für die tägliche Diagnostik in Allgemeinmedizin, Innere Medizin und Gynäkologie.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/esaote-mylab-a50/97651b89-f2ad-4af2-c204-44732ad43600.png",
+            "https://dormed.de/assets/img/produkte/esaote-mylab-a50/39b02c93-768e-4836-18f9-c95e80014b00.jpg",
+            "https://dormed.de/assets/img/produkte/esaote-mylab-a50/ba2f2c7f-f691-4eca-e3aa-cc20ade2d800.jpg",
+            "https://dormed.de/assets/img/produkte/esaote-mylab-a50/f86d36b6-e7fc-4c05-3790-ad5b632faf00.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Esaote",
+            "@id": "https://dormed.de/hersteller/esaote/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Esaote S.p.A.",
+            "url": "https://www.esaote.com"
+          },
+          "category": "Stationäres Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Monitor", "value": "21,5 Zoll LCD-Monitor" },
+            { "@type": "PropertyValue", "name": "Touchscreen", "value": "13,3 Zoll Breitbild-Touchscreen" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
+            { "@type": "PropertyValue", "name": "KI-Plattform", "value": "Augmented Insight™" },
+            { "@type": "PropertyValue", "name": "Garantie", "value": "3 Jahre Herstellergarantie" },
+            { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "Optional verfügbar" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Stationäres Standgerät" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Esaote MyLab A70", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70" },
+            { "@type": "Product", "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" },
+            { "@type": "ListItem", "position": 4, "name": "Esaote MyLab A50", "item": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

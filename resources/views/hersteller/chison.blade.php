@@ -1,53 +1,78 @@
-@php
-    $title = "Chison Ultraschall – Autorisierter Händler SonoAir | SONORING DORMED";
-    $canonical = "https://dormed.de/hersteller/chison";
-    $description = "SONORING DORMED ist autorisierter Chison-Partner seit 2020. Das Chison SonoAir 70 – mobiles Laptop-Ultraschallgerät mit AIR-Plattform, 4+1 Ports und 2h Akku. Beratung & Service bundesweit.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/hersteller/chison">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/hersteller/chison">
+
+        <title>Chison Ultraschall – Autorisierter Händler SonoAir | SONORING DORMED</title>
+        <meta name="description" content="SONORING DORMED ist autorisierter Chison-Partner seit 2020. Das Chison SonoAir 70 – mobiles Laptop-Ultraschallgerät mit AIR-Plattform, 4+1 Ports und 2h Akku. Beratung &amp; Service bundesweit.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/hersteller/chison">
+
+    
+
+        <meta property="og:title" content="Chison Ultraschall – Autorisierter Händler SonoAir | SONORING DORMED">
+        <meta property="og:description" content="SONORING DORMED ist autorisierter Chison-Partner seit 2020. Das Chison SonoAir 70 – mobiles Laptop-Ultraschallgerät mit AIR-Plattform, 4+1 Ports und 2h Akku. Beratung &amp; Service bundesweit.">
+        <meta property="og:url" content="https://dormed.de/hersteller/chison">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Chison Ultraschall – Autorisierter Händler SonoAir | SONORING DORMED">
+        <meta name="twitter:description" content="SONORING DORMED ist autorisierter Chison-Partner seit 2020. Das Chison SonoAir 70 – mobiles Laptop-Ultraschallgerät mit AIR-Plattform, 4+1 Ports und 2h Akku. Beratung &amp;amp; Service bundesweit.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AboutPage",
+          "@id": "https://dormed.de/hersteller/chison/#webpage",
+          "name": "Chison Ultraschall – Autorisierter Händler SonoAir | SONORING DORMED",
+          "description": "SONORING DORMED ist autorisierter Chison-Partner seit 2020. Das Chison SonoAir 70 – mobiles Laptop-Ultraschallgerät mit AIR-Plattform, 4+1 Ports und 2h Akku. Beratung & Service bundesweit.",
+          "url": "https://dormed.de/hersteller/chison",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Hersteller", "item": "https://dormed.de/hersteller" },
+              { "@type": "ListItem", "position": 3, "name": "Chison", "item": "https://dormed.de/hersteller/chison" }
+            ]
+          }
+        },
+        {
+          "@type": "Brand",
+          "@id": "https://dormed.de/hersteller/chison/#brand",
+          "name": "Chison",
+          "url": "https://www.chison.com",
+          "description": "Chison Medical Technologies wurde 2002 gegründet und hat sich auf kompakte, mobile Ultraschallgeräte spezialisiert. Hauptsitz in Wuxi, China. Vertrieb in 190+ Ländern. CE MDR zertifiziert. SONORING DORMED ist seit 2020 autorisierter Chison-Partner in Deutschland.",
+          "foundingDate": "2002"
+        },
+        {
+          "@type": "ItemList",
+          "name": "Chison Ultraschallgeräte bei SONORING DORMED",
+          "numberOfItems": 1,
+          "itemListElement": [
             {
-              "@type": "AboutPage",
-              "@id": "https://dormed.de/hersteller/chison/#webpage",
-              "name": "Chison Ultraschall – Autorisierter Händler SonoAir | SONORING DORMED",
-              "description": "SONORING DORMED ist autorisierter Chison-Partner seit 2020. Das Chison SonoAir 70 – mobiles Laptop-Ultraschallgerät mit AIR-Plattform, 4+1 Ports und 2h Akku. Beratung & Service bundesweit.",
-              "url": "https://dormed.de/hersteller/chison",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Hersteller", "item": "https://dormed.de/hersteller" },
-                  { "@type": "ListItem", "position": 3, "name": "Chison", "item": "https://dormed.de/hersteller/chison" }
-                ]
-              }
-            },
-            {
-              "@type": "Brand",
-              "@id": "https://dormed.de/hersteller/chison/#brand",
-              "name": "Chison",
-              "url": "https://www.chison.com",
-              "description": "Chison Medical Technologies wurde 2002 gegründet und hat sich auf kompakte, mobile Ultraschallgeräte spezialisiert. Hauptsitz in Wuxi, China. Vertrieb in 190+ Ländern. CE MDR zertifiziert. SONORING DORMED ist seit 2020 autorisierter Chison-Partner in Deutschland.",
-              "foundingDate": "2002"
-            },
-            {
-              "@type": "ItemList",
-              "name": "Chison Ultraschallgeräte bei SONORING DORMED",
-              "numberOfItems": 1,
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Chison SonoAir 70",
-                  "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sono-air-70"
-                }
-              ]
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Chison SonoAir 70",
+              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sono-air-70"
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

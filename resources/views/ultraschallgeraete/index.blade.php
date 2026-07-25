@@ -1,133 +1,158 @@
-@php
-    $title = "Ultraschallgeräte kaufen – Mindray, Esaote & Chison | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete";
-    $description = "Stationäre, mobile und Handheld-Ultraschallgeräte von Mindray und Esaote. Alle Klassen, alle Fachgebiete – mit persönlicher Beratung und Full-Service von DORMED.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete">
+
+        <title>Ultraschallgeräte kaufen – Mindray, Esaote &amp; Chison | DORMED</title>
+        <meta name="description" content="Stationäre, mobile und Handheld-Ultraschallgeräte von Mindray und Esaote. Alle Klassen, alle Fachgebiete – mit persönlicher Beratung und Full-Service von DORMED.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete">
+
+    
+
+        <meta property="og:title" content="Ultraschallgeräte kaufen – Mindray, Esaote &amp;amp; Chison | DORMED">
+        <meta property="og:description" content="Stationäre, mobile und Handheld-Ultraschallgeräte von Mindray und Esaote. Alle Klassen, alle Fachgebiete – mit persönlicher Beratung und Full-Service von DORMED.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschallgeräte kaufen – Mindray, Esaote &amp;amp; Chison | DORMED">
+        <meta name="twitter:description" content="Stationäre, mobile und Handheld-Ultraschallgeräte von Mindray und Esaote. Alle Klassen, alle Fachgebiete – mit persönlicher Beratung und Full-Service von DORMED.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://dormed.de/ultraschallgeraete/#webpage",
+          "name": "Ultraschallgeräte kaufen – Mindray & Esaote | DORMED",
+          "description": "Stationäre, mobile und Handheld-Ultraschallgeräte von Mindray und Esaote. Alle Klassen, alle Fachgebiete – mit persönlicher Beratung und Full-Service von DORMED.",
+          "url": "https://dormed.de/ultraschallgeraete",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Alle Ultraschallgeräte bei SONORING DORMED",
+          "description": "Das vollständige Ultraschall-Portfolio von Mindray und Esaote – Standgeräte, mobile Geräte und Handheld-Systeme für die Arztpraxis.",
+          "numberOfItems": 27,
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Mindray Nuewa i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9" },
+            { "@type": "ListItem", "position": 2, "name": "Mindray Resona i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" },
+            { "@type": "ListItem", "position": 3, "name": "Mindray Resona i8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i8" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray Consona N9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n9" },
+            { "@type": "ListItem", "position": 5, "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" },
+            { "@type": "ListItem", "position": 6, "name": "Mindray Consona N6", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n6" },
+            { "@type": "ListItem", "position": 7, "name": "Mindray Consona N5", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n5" },
+            { "@type": "ListItem", "position": 8, "name": "Mindray DC-60", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-60" },
+            { "@type": "ListItem", "position": 9, "name": "Mindray DC-30", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30" },
+            { "@type": "ListItem", "position": 10, "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" },
+            { "@type": "ListItem", "position": 11, "name": "Mindray TE 7 Ace", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7-ace" },
+            { "@type": "ListItem", "position": 12, "name": "Mindray TE 5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5" },
+            { "@type": "ListItem", "position": 13, "name": "Mindray MX7", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7" },
+            { "@type": "ListItem", "position": 14, "name": "Mindray MX5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5" },
+            { "@type": "ListItem", "position": 15, "name": "Mindray MX3", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx3" },
+            { "@type": "ListItem", "position": 16, "name": "Mindray Z60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z60" },
+            { "@type": "ListItem", "position": 17, "name": "Mindray Z50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50" },
+            { "@type": "ListItem", "position": 18, "name": "Mindray DP-60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60" },
+            { "@type": "ListItem", "position": 19, "name": "Mindray DP-50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-50" },
+            { "@type": "ListItem", "position": 20, "name": "Mindray DP-30", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-30" },
+            { "@type": "ListItem", "position": 21, "name": "Mindray DP-10", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10" },
+            { "@type": "ListItem", "position": 22, "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" },
+            { "@type": "ListItem", "position": 23, "name": "Mindray TE Air i3M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m" },
+            { "@type": "ListItem", "position": 24, "name": "Esaote MyLab A50", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50" },
+            { "@type": "ListItem", "position": 25, "name": "Esaote MyLab A70", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
             {
-              "@type": "CollectionPage",
-              "@id": "https://dormed.de/ultraschallgeraete/#webpage",
-              "name": "Ultraschallgeräte kaufen – Mindray & Esaote | DORMED",
-              "description": "Stationäre, mobile und Handheld-Ultraschallgeräte von Mindray und Esaote. Alle Klassen, alle Fachgebiete – mit persönlicher Beratung und Full-Service von DORMED.",
-              "url": "https://dormed.de/ultraschallgeraete",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" }
-                ]
+              "@type": "Question",
+              "name": "Welches Ultraschallgerät passt zu meiner Arztpraxis?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das hängt vor allem von Ihrer Fachrichtung, der Untersuchungshäufigkeit und dem verfügbaren Platz ab. Allgemeinärzte greifen häufig zu einem kompakten Standgerät der Mittelklasse wie dem Mindray Consona N6 oder Esaote MyLab™ A50. Für spezialisierte Praxen empfehlen sich Geräte mit erweiterten Funktionen. Unsere Berater helfen Ihnen kostenlos und unverbindlich bei der Auswahl."
               }
             },
             {
-              "@type": "ItemList",
-              "name": "Alle Ultraschallgeräte bei SONORING DORMED",
-              "description": "Das vollständige Ultraschall-Portfolio von Mindray und Esaote – Standgeräte, mobile Geräte und Handheld-Systeme für die Arztpraxis.",
-              "numberOfItems": 27,
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Mindray Nuewa i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9" },
-                { "@type": "ListItem", "position": 2, "name": "Mindray Resona i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" },
-                { "@type": "ListItem", "position": 3, "name": "Mindray Resona i8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i8" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray Consona N9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n9" },
-                { "@type": "ListItem", "position": 5, "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" },
-                { "@type": "ListItem", "position": 6, "name": "Mindray Consona N6", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n6" },
-                { "@type": "ListItem", "position": 7, "name": "Mindray Consona N5", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n5" },
-                { "@type": "ListItem", "position": 8, "name": "Mindray DC-60", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-60" },
-                { "@type": "ListItem", "position": 9, "name": "Mindray DC-30", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30" },
-                { "@type": "ListItem", "position": 10, "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" },
-                { "@type": "ListItem", "position": 11, "name": "Mindray TE 7 Ace", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7-ace" },
-                { "@type": "ListItem", "position": 12, "name": "Mindray TE 5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5" },
-                { "@type": "ListItem", "position": 13, "name": "Mindray MX7", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7" },
-                { "@type": "ListItem", "position": 14, "name": "Mindray MX5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5" },
-                { "@type": "ListItem", "position": 15, "name": "Mindray MX3", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx3" },
-                { "@type": "ListItem", "position": 16, "name": "Mindray Z60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z60" },
-                { "@type": "ListItem", "position": 17, "name": "Mindray Z50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50" },
-                { "@type": "ListItem", "position": 18, "name": "Mindray DP-60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60" },
-                { "@type": "ListItem", "position": 19, "name": "Mindray DP-50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-50" },
-                { "@type": "ListItem", "position": 20, "name": "Mindray DP-30", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-30" },
-                { "@type": "ListItem", "position": 21, "name": "Mindray DP-10", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10" },
-                { "@type": "ListItem", "position": 22, "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" },
-                { "@type": "ListItem", "position": 23, "name": "Mindray TE Air i3M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m" },
-                { "@type": "ListItem", "position": 24, "name": "Esaote MyLab A50", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50" },
-                { "@type": "ListItem", "position": 25, "name": "Esaote MyLab A70", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70" }
-              ]
+              "@type": "Question",
+              "name": "Was ist der Unterschied zwischen einem Standgerät und einem mobilen Ultraschallgerät?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Standgeräte bieten den größten Monitor, die meisten Schallkopf-Anschlüsse und die höchste Bildqualität — ideal für spezialisierte Praxen mit festem Untersuchungsraum. Mobile Laptopsysteme wie der Mindray TE 7 sind kompakter, akkubetrieben und flexibel einsetzbar. Handheld-Geräte wie der TE Air e5M passen in die Kitteltasche und eignen sich für Point-of-Care-Diagnostik."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Welches Ultraschallgerät passt zu meiner Arztpraxis?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Das hängt vor allem von Ihrer Fachrichtung, der Untersuchungshäufigkeit und dem verfügbaren Platz ab. Allgemeinärzte greifen häufig zu einem kompakten Standgerät der Mittelklasse wie dem Mindray Consona N6 oder Esaote MyLab™ A50. Für spezialisierte Praxen empfehlen sich Geräte mit erweiterten Funktionen. Unsere Berater helfen Ihnen kostenlos und unverbindlich bei der Auswahl."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was ist der Unterschied zwischen einem Standgerät und einem mobilen Ultraschallgerät?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Standgeräte bieten den größten Monitor, die meisten Schallkopf-Anschlüsse und die höchste Bildqualität — ideal für spezialisierte Praxen mit festem Untersuchungsraum. Mobile Laptopsysteme wie der Mindray TE 7 sind kompakter, akkubetrieben und flexibel einsetzbar. Handheld-Geräte wie der TE Air e5M passen in die Kitteltasche und eignen sich für Point-of-Care-Diagnostik."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Ultraschallgeräte eignen sich für Hausärzte und Allgemeinmediziner?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Hausärzte benötigen ein vielseitiges Gerät für Abdomen, Schilddrüse und Gefäße. Kompakte Standgeräte der Mittelklasse — wie Mindray Consona N5/N6 oder Esaote MyLab™ A50 — decken alle typischen Indikationen ab. Wichtig sind einfache Bedienung, schnelle Presets und zuverlässiger Service vor Ort."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was ist der Unterschied zwischen Mindray und Esaote Ultraschallgeräten?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Mindray ist der weltgrößte Ultraschallhersteller mit einem breiten Portfolio von Einstieg bis Flaggschiff — stark in KI-Integration und ZST+ Bildgebung. Esaote ist ein italienischer Spezialist mit Fokus auf Benutzerfreundlichkeit — die neue MyLab™ A-Serie setzt Maßstäbe bei Workflow und Design. Als autorisierter Partner beider Hersteller beraten wir Sie herstellerneutral."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was ist POCUS und für wen eignet sich ein Handheld-Ultraschall?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "POCUS steht für Point-of-Care Ultrasound — Ultraschall direkt am Patienten ohne festes Gerät. Handheld-Systeme wie der Mindray TE Air e5M verbinden sich kabellos mit dem Smartphone und ermöglichen schnelle Erstbefundungen beim Hausbesuch, in der Notaufnahme oder auf der Intensivstation. Sie ergänzen ein Standgerät, ersetzen es aber nicht vollständig."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie aufwendig ist die Wartung eines Ultraschallgeräts?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ultraschallgeräte benötigen regelmäßige Sicherheitsprüfungen (STK) sowie Schallkopf-Checks. SONORING DORMED betreut über 1.700 aktive Wartungskunden bundesweit — mit eigenem Techniker-Team an 4 Standorten. Wartungsverträge decken STK, Reparaturen und Software-Updates ab und sichern die langfristige Betriebsbereitschaft Ihres Geräts."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Lohnt sich ein gebrauchtes Ultraschallgerät?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Geprüfte Gebrauchtgeräte sind eine gute Alternative — besonders für Praxen mit begrenztem Budget oder als Zweitgerät. SONORING DORMED prüft und zertifiziert Gebrauchtgeräte vor dem Verkauf. Wichtig: Garantie, Servicefähigkeit und Schallkopf-Verfügbarkeit müssen sichergestellt sein. Wir beraten Sie ehrlich zur Entscheidung Neuware vs. Gebraucht."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich mein Ultraschallgerät an PACS und meine Praxissoftware anbinden?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja — alle von uns vertriebenen Mindray und Esaote Geräte unterstützen DICOM und lassen sich an gängige PACS-Systeme und Praxisverwaltungssoftware anbinden, z.B. über sonoGDT. Unser Techniker-Team übernimmt Installation und Konfiguration direkt in Ihrer Praxis — bundesweit, ohne Zusatzaufwand für Sie."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Welche Ultraschallgeräte eignen sich für Hausärzte und Allgemeinmediziner?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Hausärzte benötigen ein vielseitiges Gerät für Abdomen, Schilddrüse und Gefäße. Kompakte Standgeräte der Mittelklasse — wie Mindray Consona N5/N6 oder Esaote MyLab™ A50 — decken alle typischen Indikationen ab. Wichtig sind einfache Bedienung, schnelle Presets und zuverlässiger Service vor Ort."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was ist der Unterschied zwischen Mindray und Esaote Ultraschallgeräten?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mindray ist der weltgrößte Ultraschallhersteller mit einem breiten Portfolio von Einstieg bis Flaggschiff — stark in KI-Integration und ZST+ Bildgebung. Esaote ist ein italienischer Spezialist mit Fokus auf Benutzerfreundlichkeit — die neue MyLab™ A-Serie setzt Maßstäbe bei Workflow und Design. Als autorisierter Partner beider Hersteller beraten wir Sie herstellerneutral."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was ist POCUS und für wen eignet sich ein Handheld-Ultraschall?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "POCUS steht für Point-of-Care Ultrasound — Ultraschall direkt am Patienten ohne festes Gerät. Handheld-Systeme wie der Mindray TE Air e5M verbinden sich kabellos mit dem Smartphone und ermöglichen schnelle Erstbefundungen beim Hausbesuch, in der Notaufnahme oder auf der Intensivstation. Sie ergänzen ein Standgerät, ersetzen es aber nicht vollständig."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie aufwendig ist die Wartung eines Ultraschallgeräts?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ultraschallgeräte benötigen regelmäßige Sicherheitsprüfungen (STK) sowie Schallkopf-Checks. SONORING DORMED betreut über 1.700 aktive Wartungskunden bundesweit — mit eigenem Techniker-Team an 4 Standorten. Wartungsverträge decken STK, Reparaturen und Software-Updates ab und sichern die langfristige Betriebsbereitschaft Ihres Geräts."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Lohnt sich ein gebrauchtes Ultraschallgerät?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Geprüfte Gebrauchtgeräte sind eine gute Alternative — besonders für Praxen mit begrenztem Budget oder als Zweitgerät. SONORING DORMED prüft und zertifiziert Gebrauchtgeräte vor dem Verkauf. Wichtig: Garantie, Servicefähigkeit und Schallkopf-Verfügbarkeit müssen sichergestellt sein. Wir beraten Sie ehrlich zur Entscheidung Neuware vs. Gebraucht."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich mein Ultraschallgerät an PACS und meine Praxissoftware anbinden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja — alle von uns vertriebenen Mindray und Esaote Geräte unterstützen DICOM und lassen sich an gängige PACS-Systeme und Praxisverwaltungssoftware anbinden, z.B. über sonoGDT. Unser Techniker-Team übernimmt Installation und Konfiguration direkt in Ihrer Praxis — bundesweit, ohne Zusatzaufwand für Sie."
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

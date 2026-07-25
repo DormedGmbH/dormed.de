@@ -1,213 +1,238 @@
-@php
-    $title = "Karriere bei SONORING DORMED – Jobs im Medizintechnik | SONORING DORMED";
-    $canonical = "https://dormed.de/karriere";
-    $description = "Werden Sie Teil des führenden Ultraschall-Fachhändlers in Deutschland. Offene Stellen in Technik, Vertrieb und Beratung bei SONORING DORMED med. Systeme.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/karriere">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/karriere">
+
+        <title>Karriere bei SONORING DORMED – Jobs im Medizintechnik | SONORING DORMED</title>
+        <meta name="description" content="Werden Sie Teil des führenden Ultraschall-Fachhändlers in Deutschland. Offene Stellen in Technik, Vertrieb und Beratung bei SONORING DORMED med. Systeme.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/karriere">
+
+    
+
+        <meta property="og:title" content="Karriere bei SONORING DORMED – Jobs im Medizintechnik | SONORING DORMED">
+        <meta property="og:description" content="Werden Sie Teil des führenden Ultraschall-Fachhändlers in Deutschland. Offene Stellen in Technik, Vertrieb und Beratung bei SONORING DORMED med. Systeme.">
+        <meta property="og:url" content="https://dormed.de/karriere">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Karriere bei SONORING DORMED – Jobs im Medizintechnik | SONORING DORMED">
+        <meta name="twitter:description" content="Werden Sie Teil des führenden Ultraschall-Fachhändlers in Deutschland. Offene Stellen in Technik, Vertrieb und Beratung bei SONORING DORMED med. Systeme.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://dormed.de/#organization",
+          "name": "SONORING DORMED med. Systeme GmbH",
+          "alternateName": ["DORMED", "SONORING DORMED"],
+          "url": "https://dormed.de",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
+            "width": 300,
+            "height": 80
+          },
+          "foundingDate": "1989",
+          "telephone": "+492301188600",
+          "email": "mail@dormed.de",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Wilhelm-Röntgen-Straße 4",
+            "addressLocality": "Holzwickede",
+            "postalCode": "59439",
+            "addressCountry": "DE"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://dormed.de/karriere/#webpage",
+          "name": "Karriere bei SONORING DORMED – Jobs im Medizintechnik | SONORING DORMED",
+          "description": "Werden Sie Teil des führenden Ultraschall-Fachhändlers in Deutschland. Offene Stellen in Technik, Vertrieb und Backoffice bei SONORING DORMED med. Systeme.",
+          "url": "https://dormed.de/karriere",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Karriere", "item": "https://dormed.de/karriere" }
+            ]
+          }
+        },
+        {
+          "@type": "JobPosting",
+          "@id": "https://dormed.de/karriere/#job-systemberater",
+          "title": "Systemberater Ultraschall (m/w/d)",
+          "description": "Als Systemberater Ultraschall betreuen Sie niedergelassene Ärzte und Kliniken, präsentieren Ultraschallgeräte von Mindray und Esaote und begleiten Kunden von der Beratung bis zur Lieferung.",
+          "hiringOrganization": { "@id": "https://dormed.de/#organization" },
+          "jobLocation": [
             {
-              "@type": "Organization",
-              "@id": "https://dormed.de/#organization",
-              "name": "SONORING DORMED med. Systeme GmbH",
-              "alternateName": ["DORMED", "SONORING DORMED"],
-              "url": "https://dormed.de",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
-                "width": 300,
-                "height": 80
-              },
-              "foundingDate": "1989",
-              "telephone": "+492301188600",
-              "email": "mail@dormed.de",
+              "@type": "Place",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Wilhelm-Röntgen-Straße 4",
-                "addressLocality": "Holzwickede",
-                "postalCode": "59439",
+                "addressLocality": "Dortmund",
                 "addressCountry": "DE"
               }
             },
             {
-              "@type": "WebPage",
-              "@id": "https://dormed.de/karriere/#webpage",
-              "name": "Karriere bei SONORING DORMED – Jobs im Medizintechnik | SONORING DORMED",
-              "description": "Werden Sie Teil des führenden Ultraschall-Fachhändlers in Deutschland. Offene Stellen in Technik, Vertrieb und Backoffice bei SONORING DORMED med. Systeme.",
-              "url": "https://dormed.de/karriere",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Karriere", "item": "https://dormed.de/karriere" }
-                ]
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Düsseldorf",
+                "addressCountry": "DE"
+              }
+            }
+          ],
+          "employmentType": "FULL_TIME",
+          "occupationalCategory": "Vertrieb",
+          "datePosted": "2026-03-01",
+          "validThrough": "2026-12-31",
+          "url": "https://dormed.de/karriere",
+          "applicationContact": {
+            "@type": "ContactPoint",
+            "telephone": "+492301188600",
+            "email": "mail@dormed.de",
+            "contactType": "hiring"
+          }
+        },
+        {
+          "@type": "JobPosting",
+          "@id": "https://dormed.de/karriere/#job-servicetechniker",
+          "title": "Servicetechniker Medizintechnik (m/w/d)",
+          "description": "Als Servicetechniker Medizintechnik führen Sie Wartungen, Reparaturen und Installationen von Ultraschallgeräten bei Kunden vor Ort durch und stellen den technischen Betrieb sicher.",
+          "hiringOrganization": { "@id": "https://dormed.de/#organization" },
+          "jobLocation": [
+            {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Hamburg",
+                "addressCountry": "DE"
               }
             },
             {
-              "@type": "JobPosting",
-              "@id": "https://dormed.de/karriere/#job-systemberater",
-              "title": "Systemberater Ultraschall (m/w/d)",
-              "description": "Als Systemberater Ultraschall betreuen Sie niedergelassene Ärzte und Kliniken, präsentieren Ultraschallgeräte von Mindray und Esaote und begleiten Kunden von der Beratung bis zur Lieferung.",
-              "hiringOrganization": { "@id": "https://dormed.de/#organization" },
-              "jobLocation": [
-                {
-                  "@type": "Place",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": "Dortmund",
-                    "addressCountry": "DE"
-                  }
-                },
-                {
-                  "@type": "Place",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": "Düsseldorf",
-                    "addressCountry": "DE"
-                  }
-                }
-              ],
-              "employmentType": "FULL_TIME",
-              "occupationalCategory": "Vertrieb",
-              "datePosted": "2026-03-01",
-              "validThrough": "2026-12-31",
-              "url": "https://dormed.de/karriere",
-              "applicationContact": {
-                "@type": "ContactPoint",
-                "telephone": "+492301188600",
-                "email": "mail@dormed.de",
-                "contactType": "hiring"
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kiel",
+                "addressCountry": "DE"
+              }
+            }
+          ],
+          "employmentType": "FULL_TIME",
+          "occupationalCategory": "Service & Technik",
+          "datePosted": "2026-03-01",
+          "validThrough": "2026-12-31",
+          "url": "https://dormed.de/karriere",
+          "applicationContact": {
+            "@type": "ContactPoint",
+            "telephone": "+492301188600",
+            "email": "mail@dormed.de",
+            "contactType": "hiring"
+          }
+        },
+        {
+          "@type": "JobPosting",
+          "@id": "https://dormed.de/karriere/#job-backoffice",
+          "title": "Mitarbeiter Backoffice (m/w/d)",
+          "description": "Im Backoffice unterstützen Sie die Organisation, koordinieren Kundenanfragen, pflegen Daten und sorgen für reibungslose interne Abläufe bei SONORING DORMED.",
+          "hiringOrganization": { "@id": "https://dormed.de/#organization" },
+          "jobLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Dortmund",
+              "addressCountry": "DE"
+            }
+          },
+          "employmentType": "FULL_TIME",
+          "occupationalCategory": "Backoffice",
+          "datePosted": "2026-03-01",
+          "validThrough": "2026-12-31",
+          "url": "https://dormed.de/karriere",
+          "applicationContact": {
+            "@type": "ContactPoint",
+            "telephone": "+492301188600",
+            "email": "mail@dormed.de",
+            "contactType": "hiring"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wie läuft der Bewerbungsprozess bei Dormed ab?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Senden Sie uns Ihre Unterlagen über das Kontaktformular. Wir melden uns in der Regel innerhalb weniger Werktage bei Ihnen. Nach einer ersten Sichtung laden wir passende Kandidatinnen und Kandidaten zu einem persönlichen Gespräch ein — telefonisch oder vor Ort an einem unserer Standorte."
               }
             },
             {
-              "@type": "JobPosting",
-              "@id": "https://dormed.de/karriere/#job-servicetechniker",
-              "title": "Servicetechniker Medizintechnik (m/w/d)",
-              "description": "Als Servicetechniker Medizintechnik führen Sie Wartungen, Reparaturen und Installationen von Ultraschallgeräten bei Kunden vor Ort durch und stellen den technischen Betrieb sicher.",
-              "hiringOrganization": { "@id": "https://dormed.de/#organization" },
-              "jobLocation": [
-                {
-                  "@type": "Place",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": "Hamburg",
-                    "addressCountry": "DE"
-                  }
-                },
-                {
-                  "@type": "Place",
-                  "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": "Kiel",
-                    "addressCountry": "DE"
-                  }
-                }
-              ],
-              "employmentType": "FULL_TIME",
-              "occupationalCategory": "Service & Technik",
-              "datePosted": "2026-03-01",
-              "validThrough": "2026-12-31",
-              "url": "https://dormed.de/karriere",
-              "applicationContact": {
-                "@type": "ContactPoint",
-                "telephone": "+492301188600",
-                "email": "mail@dormed.de",
-                "contactType": "hiring"
+              "@type": "Question",
+              "name": "Brauche ich Vorkenntnisse in der Medizintechnik?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das kommt auf den Bereich an. Im Service setzen wir eine technische Ausbildung voraus. Im Vertrieb und Backoffice sind Motivation, Kommunikationsstärke und Lernbereitschaft oft wichtiger als Branchenwissen — das Fachwissen geben wir Ihnen mit."
               }
             },
             {
-              "@type": "JobPosting",
-              "@id": "https://dormed.de/karriere/#job-backoffice",
-              "title": "Mitarbeiter Backoffice (m/w/d)",
-              "description": "Im Backoffice unterstützen Sie die Organisation, koordinieren Kundenanfragen, pflegen Daten und sorgen für reibungslose interne Abläufe bei SONORING DORMED.",
-              "hiringOrganization": { "@id": "https://dormed.de/#organization" },
-              "jobLocation": {
-                "@type": "Place",
-                "address": {
-                  "@type": "PostalAddress",
-                  "addressLocality": "Dortmund",
-                  "addressCountry": "DE"
-                }
-              },
-              "employmentType": "FULL_TIME",
-              "occupationalCategory": "Backoffice",
-              "datePosted": "2026-03-01",
-              "validThrough": "2026-12-31",
-              "url": "https://dormed.de/karriere",
-              "applicationContact": {
-                "@type": "ContactPoint",
-                "telephone": "+492301188600",
-                "email": "mail@dormed.de",
-                "contactType": "hiring"
+              "@type": "Question",
+              "name": "Gibt es die Möglichkeit auf Homeoffice?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Je nach Position und Bereich ist mobiles Arbeiten möglich. Im Außendienst und Service arbeiten Sie naturgemäß überwiegend beim Kunden und an unseren Standorten. Im Backoffice gibt es nach der Einarbeitung flexible Absprachen."
               }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Wie läuft der Bewerbungsprozess bei Dormed ab?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Senden Sie uns Ihre Unterlagen über das Kontaktformular. Wir melden uns in der Regel innerhalb weniger Werktage bei Ihnen. Nach einer ersten Sichtung laden wir passende Kandidatinnen und Kandidaten zu einem persönlichen Gespräch ein — telefonisch oder vor Ort an einem unserer Standorte."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Brauche ich Vorkenntnisse in der Medizintechnik?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Das kommt auf den Bereich an. Im Service setzen wir eine technische Ausbildung voraus. Im Vertrieb und Backoffice sind Motivation, Kommunikationsstärke und Lernbereitschaft oft wichtiger als Branchenwissen — das Fachwissen geben wir Ihnen mit."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Gibt es die Möglichkeit auf Homeoffice?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Je nach Position und Bereich ist mobiles Arbeiten möglich. Im Außendienst und Service arbeiten Sie naturgemäß überwiegend beim Kunden und an unseren Standorten. Im Backoffice gibt es nach der Einarbeitung flexible Absprachen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "An welchem Standort würde ich arbeiten?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Wir haben Standorte in Dortmund, Düsseldorf, Hamburg und Kiel. Welcher Standort zu Ihnen passt, besprechen wir gemeinsam im Bewerbungsgespräch — in der Regel richten wir uns nach Ihrer Region."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie werden neue Mitarbeiter eingearbeitet?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Jede neue Kollegin und jeder neue Kollege wird persönlich eingearbeitet — durch erfahrene Teammitglieder, Produktschulungen und im direkten Kundenkontakt. Wir setzen auf praxisnahes Lernen statt dicke Handbücher."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Gibt es Weiterbildungsmöglichkeiten?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja. Wir legen großen Wert auf fachliche Weiterentwicklung — von Herstellerschulungen bei Mindray und Esaote bis hin zu individuellen Fortbildungen. Als Teil des SONORING®-Verbunds profitieren Sie außerdem von verbundweiten Schulungsangeboten."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Ich finde keine passende Stelle – kann ich mich trotzdem bewerben?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Selbstverständlich. Initiativbewerbungen sind bei uns ausdrücklich willkommen. Schildern Sie uns in Ihrer Bewerbung kurz, in welchem Bereich Sie sich vorstellen können und was Sie mitbringen — wir schauen gemeinsam ob und wie es passen könnte."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "An welchem Standort würde ich arbeiten?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wir haben Standorte in Dortmund, Düsseldorf, Hamburg und Kiel. Welcher Standort zu Ihnen passt, besprechen wir gemeinsam im Bewerbungsgespräch — in der Regel richten wir uns nach Ihrer Region."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie werden neue Mitarbeiter eingearbeitet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Jede neue Kollegin und jeder neue Kollege wird persönlich eingearbeitet — durch erfahrene Teammitglieder, Produktschulungen und im direkten Kundenkontakt. Wir setzen auf praxisnahes Lernen statt dicke Handbücher."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Gibt es Weiterbildungsmöglichkeiten?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Wir legen großen Wert auf fachliche Weiterentwicklung — von Herstellerschulungen bei Mindray und Esaote bis hin zu individuellen Fortbildungen. Als Teil des SONORING®-Verbunds profitieren Sie außerdem von verbundweiten Schulungsangeboten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ich finde keine passende Stelle – kann ich mich trotzdem bewerben?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Selbstverständlich. Initiativbewerbungen sind bei uns ausdrücklich willkommen. Schildern Sie uns in Ihrer Bewerbung kurz, in welchem Bereich Sie sich vorstellen können und was Sie mitbringen — wir schauen gemeinsam ob und wie es passen könnte."
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

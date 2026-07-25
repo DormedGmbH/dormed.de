@@ -1,279 +1,304 @@
-@php
-    $title = "Ultraschallgeräte kaufen | SONORING DORMED med. Systeme";
-    $canonical = "https://dormed.de";
-    $description = "Deutschlands führender Ultraschall-Fachhändler seit 1989. Mindray & Esaote Geräte, Full-Service, Wartung und Beratung – bundesweit. Jetzt unverbindlich anfragen.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de">
+
+        <title>Ultraschallgeräte kaufen | SONORING DORMED med. Systeme</title>
+        <meta name="description" content="Deutschlands führender Ultraschall-Fachhändler seit 1989. Mindray &amp; Esaote Geräte, Full-Service, Wartung und Beratung – bundesweit. Jetzt unverbindlich anfragen.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de">
+
+    
+
+        <meta property="og:title" content="Ultraschallgeräte kaufen | SONORING DORMED med. Systeme">
+        <meta property="og:description" content="Deutschlands führender Ultraschall-Fachhändler seit 1989. Mindray &amp; Esaote Geräte, Full-Service, Wartung und Beratung – bundesweit. Jetzt unverbindlich anfragen.">
+        <meta property="og:url" content="https://dormed.de">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschallgeräte kaufen | SONORING DORMED med. Systeme">
+        <meta name="twitter:description" content="Deutschlands führender Ultraschall-Fachhändler seit 1989. Mindray &amp;amp; Esaote Geräte, Full-Service, Wartung und Beratung – bundesweit. Jetzt unverbindlich anfragen.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
 
-            {
-              "@type": "Organization",
-              "@id": "https://dormed.de/#organization",
-              "name": "SONORING DORMED med. Systeme GmbH",
-              "alternateName": ["DORMED", "SONORING DORMED"],
-              "url": "https://dormed.de",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
-                "width": 300,
-                "height": 80
-              },
-              "foundingDate": "1989",
-              "description": "SONORING DORMED med. Systeme GmbH ist Deutschlands führender Ultraschall-Fachhändler. Seit 1989 beraten und beliefern wir niedergelassene Ärzte mit Ultraschallgeräten von Mindray und Esaote – bundesweit, mit Full-Service und persönlicher Einweisung.",
-              "telephone": "+492301188600",
-              "email": "mail@dormed.de",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Wilhelm-Röntgen-Straße 4",
-                "addressLocality": "Holzwickede",
-                "postalCode": "59439",
-                "addressCountry": "DE"
-              },
-              "areaServed": {
-                "@type": "Country",
-                "name": "Deutschland"
-              },
-              "sameAs": [
-                "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.5105803,7.6079796,17z",
-                "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.3024915,6.8318954,17z",
-                "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED+-/@53.3267999,9.871767,17z",
-                "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@54.28188,10.1563251,17z",
-                "https://www.facebook.com/SonoringDormed/",
-                "https://de.linkedin.com/company/sonoringdormed"
-              ],
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "98",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Ultraschallgeräte",
-                "url": "https://dormed.de/ultraschallgeraete"
+        {
+          "@type": "Organization",
+          "@id": "https://dormed.de/#organization",
+          "name": "SONORING DORMED med. Systeme GmbH",
+          "alternateName": ["DORMED", "SONORING DORMED"],
+          "url": "https://dormed.de",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
+            "width": 300,
+            "height": 80
+          },
+          "foundingDate": "1989",
+          "description": "SONORING DORMED med. Systeme GmbH ist Deutschlands führender Ultraschall-Fachhändler. Seit 1989 beraten und beliefern wir niedergelassene Ärzte mit Ultraschallgeräten von Mindray und Esaote – bundesweit, mit Full-Service und persönlicher Einweisung.",
+          "telephone": "+492301188600",
+          "email": "mail@dormed.de",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Wilhelm-Röntgen-Straße 4",
+            "addressLocality": "Holzwickede",
+            "postalCode": "59439",
+            "addressCountry": "DE"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Deutschland"
+          },
+          "sameAs": [
+            "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.5105803,7.6079796,17z",
+            "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.3024915,6.8318954,17z",
+            "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED+-/@53.3267999,9.871767,17z",
+            "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@54.28188,10.1563251,17z",
+            "https://www.facebook.com/SonoringDormed/",
+            "https://de.linkedin.com/company/sonoringdormed"
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "98",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Ultraschallgeräte",
+            "url": "https://dormed.de/ultraschallgeraete"
+          }
+        },
+
+        {
+          "@type": "WebSite",
+          "@id": "https://dormed.de/#website",
+          "url": "https://dormed.de",
+          "name": "SONORING DORMED med. Systeme",
+          "description": "Ultraschallgeräte kaufen – Mindray & Esaote Fachhändler seit 1989",
+          "publisher": {
+            "@id": "https://dormed.de/#organization"
+          },
+          "inLanguage": "de-DE"
+        },
+
+        {
+          "@type": "WebPage",
+          "@id": "https://dormed.de/#webpage",
+          "url": "https://dormed.de",
+          "name": "Ultraschallgeräte kaufen | SONORING DORMED med. Systeme",
+          "description": "Deutschlands führender Ultraschall-Fachhändler seit 1989. Mindray & Esaote Geräte, Full-Service, Wartung und Beratung – bundesweit. Jetzt unverbindlich anfragen.",
+          "isPartOf": {
+            "@id": "https://dormed.de/#website"
+          },
+          "publisher": {
+            "@id": "https://dormed.de/#organization"
+          },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Startseite",
+                "item": "https://dormed.de"
               }
-            },
+            ]
+          }
+        },
 
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://dormed.de/#localbusiness-holzwickede",
+          "name": "SONORING DORMED med. Systeme GmbH",
+          "url": "https://dormed.de/standorte/dortmund",
+          "telephone": "+492301188600",
+          "email": "mail@dormed.de",
+          "image": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
+          "priceRange": "€€€",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Wilhelm-Röntgen-Straße 4",
+            "addressLocality": "Holzwickede",
+            "postalCode": "59439",
+            "addressCountry": "DE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.5105803,
+            "longitude": 7.6105545
+          },
+          "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.5105803,7.6079796,17z",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "66",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "openingHoursSpecification": [
             {
-              "@type": "WebSite",
-              "@id": "https://dormed.de/#website",
-              "url": "https://dormed.de",
-              "name": "SONORING DORMED med. Systeme",
-              "description": "Ultraschallgeräte kaufen – Mindray & Esaote Fachhändler seit 1989",
-              "publisher": {
-                "@id": "https://dormed.de/#organization"
-              },
-              "inLanguage": "de-DE"
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+              "opens": "08:00",
+              "closes": "17:00"
             },
-
             {
-              "@type": "WebPage",
-              "@id": "https://dormed.de/#webpage",
-              "url": "https://dormed.de",
-              "name": "Ultraschallgeräte kaufen | SONORING DORMED med. Systeme",
-              "description": "Deutschlands führender Ultraschall-Fachhändler seit 1989. Mindray & Esaote Geräte, Full-Service, Wartung und Beratung – bundesweit. Jetzt unverbindlich anfragen.",
-              "isPartOf": {
-                "@id": "https://dormed.de/#website"
-              },
-              "publisher": {
-                "@id": "https://dormed.de/#organization"
-              },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Startseite",
-                    "item": "https://dormed.de"
-                  }
-                ]
-              }
-            },
-
-            {
-              "@type": "LocalBusiness",
-              "@id": "https://dormed.de/#localbusiness-holzwickede",
-              "name": "SONORING DORMED med. Systeme GmbH",
-              "url": "https://dormed.de/standorte/dortmund",
-              "telephone": "+492301188600",
-              "email": "mail@dormed.de",
-              "image": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
-              "priceRange": "€€€",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Wilhelm-Röntgen-Straße 4",
-                "addressLocality": "Holzwickede",
-                "postalCode": "59439",
-                "addressCountry": "DE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 51.5105803,
-                "longitude": 7.6105545
-              },
-              "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.5105803,7.6079796,17z",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "66",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-                  "opens": "08:00",
-                  "closes": "17:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Friday",
-                  "opens": "08:00",
-                  "closes": "15:00"
-                }
-              ],
-              "parentOrganization": {
-                "@id": "https://dormed.de/#organization"
-              }
-            },
-
-            {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-beratung",
-              "name": "Ultraschall Beratung",
-              "url": "https://dormed.de/leistungen/beratung",
-              "description": "Individuelle Ultraschall-Beratung durch zertifizierte Experten. Wir finden das passende Gerät für Ihre Praxis – kostenlos, unverbindlich, persönlich vor Ort.",
-              "provider": {
-                "@id": "https://dormed.de/#organization"
-              },
-              "areaServed": {
-                "@type": "Country",
-                "name": "Deutschland"
-              },
-              "serviceType": "Ultraschall Beratung"
-            },
-
-            {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-finanzierung",
-              "name": "Ultraschall Finanzierung & Leasing",
-              "url": "https://dormed.de/leistungen/finanzierung",
-              "description": "Ultraschallgeräte finanzieren oder leasen – flexible Modelle für Praxen und Kliniken. Monatliche Raten statt hoher Investition. Jetzt Finanzierungsangebot anfragen.",
-              "provider": {
-                "@id": "https://dormed.de/#organization"
-              },
-              "areaServed": {
-                "@type": "Country",
-                "name": "Deutschland"
-              },
-              "serviceType": "Finanzierung & Leasing"
-            },
-
-            {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-lieferung",
-              "name": "Lieferung & Installation von Ultraschallgeräten",
-              "url": "https://dormed.de/leistungen/lieferung",
-              "description": "Bundesweite Lieferung, professionelle Installation und persönliche Einweisung in Ihrer Praxis – kostenlos und termintreu. Service direkt durch SONORING DORMED Techniker.",
-              "provider": {
-                "@id": "https://dormed.de/#organization"
-              },
-              "areaServed": {
-                "@type": "Country",
-                "name": "Deutschland"
-              },
-              "serviceType": "Lieferung & Installation"
-            },
-
-            {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-wartung",
-              "name": "Ultraschall Wartung & Reparatur",
-              "url": "https://dormed.de/leistungen/wartung-reparatur",
-              "description": "Zertifizierter Wartungsservice für Mindray und Esaote Ultraschallgeräte. Schnelle Reparatur, Präventivwartung, 1.700 aktive Wartungskunden – bundesweit verfügbar.",
-              "provider": {
-                "@id": "https://dormed.de/#organization"
-              },
-              "areaServed": {
-                "@type": "Country",
-                "name": "Deutschland"
-              },
-              "serviceType": "Wartung & Reparatur"
-            },
-
-            {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-netzwerk",
-              "name": "Ultraschall Netzwerkanbindung – DICOM & PACS",
-              "url": "https://dormed.de/leistungen/netzwerkanbindung",
-              "description": "Professionelle DICOM-Integration und Netzwerkanbindung für Ultraschallgeräte. KIS, RIS und PACS-kompatibel – technische Einrichtung durch unsere Spezialisten.",
-              "provider": {
-                "@id": "https://dormed.de/#organization"
-              },
-              "areaServed": {
-                "@type": "Country",
-                "name": "Deutschland"
-              },
-              "serviceType": "Netzwerkanbindung & DICOM Integration"
-            },
-
-            {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-schulung",
-              "name": "Ultraschall Schulung & Einweisung",
-              "url": "https://dormed.de/leistungen/schulung-einweisung",
-              "description": "Professionelle Geräteeinweisung und Anwenderschulung direkt in Ihrer Praxis. Unsere zertifizierten Trainer machen Ihr Team sicher im Umgang mit dem neuen Ultraschall.",
-              "provider": {
-                "@id": "https://dormed.de/#organization"
-              },
-              "areaServed": {
-                "@type": "Country",
-                "name": "Deutschland"
-              },
-              "serviceType": "Schulung & Einweisung"
-            },
-
-            {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-garantie",
-              "name": "Ultraschall Garantie & Geräteversicherung",
-              "url": "https://dormed.de/leistungen/garantie-versicherung",
-              "description": "Erweiterte Garantie und Vollkaskoversicherung für Ultraschallgeräte – maximaler Schutz für Ihre Investition. Transparente Konditionen, bundesweiter Service.",
-              "provider": {
-                "@id": "https://dormed.de/#organization"
-              },
-              "areaServed": {
-                "@type": "Country",
-                "name": "Deutschland"
-              },
-              "serviceType": "Garantie & Versicherung"
-            },
-
-            {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-inzahlungnahme",
-              "name": "Ultraschallgerät in Zahlung geben",
-              "url": "https://dormed.de/leistungen/inzahlungnahme",
-              "description": "Geben Sie Ihr altes Ultraschallgerät in Zahlung und sparen Sie beim Neukauf. Faire Bewertung, unkomplizierte Abwicklung durch SONORING DORMED.",
-              "provider": {
-                "@id": "https://dormed.de/#organization"
-              },
-              "areaServed": {
-                "@type": "Country",
-                "name": "Deutschland"
-              },
-              "serviceType": "Inzahlungnahme"
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Friday",
+              "opens": "08:00",
+              "closes": "15:00"
             }
+          ],
+          "parentOrganization": {
+            "@id": "https://dormed.de/#organization"
+          }
+        },
 
-          ]
-        }</script>
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-beratung",
+          "name": "Ultraschall Beratung",
+          "url": "https://dormed.de/leistungen/beratung",
+          "description": "Individuelle Ultraschall-Beratung durch zertifizierte Experten. Wir finden das passende Gerät für Ihre Praxis – kostenlos, unverbindlich, persönlich vor Ort.",
+          "provider": {
+            "@id": "https://dormed.de/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Deutschland"
+          },
+          "serviceType": "Ultraschall Beratung"
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-finanzierung",
+          "name": "Ultraschall Finanzierung & Leasing",
+          "url": "https://dormed.de/leistungen/finanzierung",
+          "description": "Ultraschallgeräte finanzieren oder leasen – flexible Modelle für Praxen und Kliniken. Monatliche Raten statt hoher Investition. Jetzt Finanzierungsangebot anfragen.",
+          "provider": {
+            "@id": "https://dormed.de/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Deutschland"
+          },
+          "serviceType": "Finanzierung & Leasing"
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-lieferung",
+          "name": "Lieferung & Installation von Ultraschallgeräten",
+          "url": "https://dormed.de/leistungen/lieferung",
+          "description": "Bundesweite Lieferung, professionelle Installation und persönliche Einweisung in Ihrer Praxis – kostenlos und termintreu. Service direkt durch SONORING DORMED Techniker.",
+          "provider": {
+            "@id": "https://dormed.de/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Deutschland"
+          },
+          "serviceType": "Lieferung & Installation"
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-wartung",
+          "name": "Ultraschall Wartung & Reparatur",
+          "url": "https://dormed.de/leistungen/wartung-reparatur",
+          "description": "Zertifizierter Wartungsservice für Mindray und Esaote Ultraschallgeräte. Schnelle Reparatur, Präventivwartung, 1.700 aktive Wartungskunden – bundesweit verfügbar.",
+          "provider": {
+            "@id": "https://dormed.de/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Deutschland"
+          },
+          "serviceType": "Wartung & Reparatur"
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-netzwerk",
+          "name": "Ultraschall Netzwerkanbindung – DICOM & PACS",
+          "url": "https://dormed.de/leistungen/netzwerkanbindung",
+          "description": "Professionelle DICOM-Integration und Netzwerkanbindung für Ultraschallgeräte. KIS, RIS und PACS-kompatibel – technische Einrichtung durch unsere Spezialisten.",
+          "provider": {
+            "@id": "https://dormed.de/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Deutschland"
+          },
+          "serviceType": "Netzwerkanbindung & DICOM Integration"
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-schulung",
+          "name": "Ultraschall Schulung & Einweisung",
+          "url": "https://dormed.de/leistungen/schulung-einweisung",
+          "description": "Professionelle Geräteeinweisung und Anwenderschulung direkt in Ihrer Praxis. Unsere zertifizierten Trainer machen Ihr Team sicher im Umgang mit dem neuen Ultraschall.",
+          "provider": {
+            "@id": "https://dormed.de/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Deutschland"
+          },
+          "serviceType": "Schulung & Einweisung"
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-garantie",
+          "name": "Ultraschall Garantie & Geräteversicherung",
+          "url": "https://dormed.de/leistungen/garantie-versicherung",
+          "description": "Erweiterte Garantie und Vollkaskoversicherung für Ultraschallgeräte – maximaler Schutz für Ihre Investition. Transparente Konditionen, bundesweiter Service.",
+          "provider": {
+            "@id": "https://dormed.de/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Deutschland"
+          },
+          "serviceType": "Garantie & Versicherung"
+        },
+
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-inzahlungnahme",
+          "name": "Ultraschallgerät in Zahlung geben",
+          "url": "https://dormed.de/leistungen/inzahlungnahme",
+          "description": "Geben Sie Ihr altes Ultraschallgerät in Zahlung und sparen Sie beim Neukauf. Faire Bewertung, unkomplizierte Abwicklung durch SONORING DORMED.",
+          "provider": {
+            "@id": "https://dormed.de/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Deutschland"
+          },
+          "serviceType": "Inzahlungnahme"
+        }
+
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

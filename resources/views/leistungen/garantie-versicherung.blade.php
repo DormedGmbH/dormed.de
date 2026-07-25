@@ -1,86 +1,111 @@
-@php
-    $title = "Ultraschall Garantie & Geräteversicherung | SONORING DORMED";
-    $canonical = "https://dormed.de/leistungen/garantie-versicherung";
-    $description = "Erweiterte Garantie und Vollkaskoversicherung für Ultraschallgeräte – maximaler Schutz für Ihre Investition. Transparente Konditionen, bundesweiter Service.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/leistungen/garantie-versicherung">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/leistungen/garantie-versicherung">
+
+        <title>Ultraschall Garantie &amp; Geräteversicherung | SONORING DORMED</title>
+        <meta name="description" content="Erweiterte Garantie und Vollkaskoversicherung für Ultraschallgeräte – maximaler Schutz für Ihre Investition. Transparente Konditionen, bundesweiter Service.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/leistungen/garantie-versicherung">
+
+    
+
+        <meta property="og:title" content="Ultraschall Garantie &amp;amp; Geräteversicherung | SONORING DORMED">
+        <meta property="og:description" content="Erweiterte Garantie und Vollkaskoversicherung für Ultraschallgeräte – maximaler Schutz für Ihre Investition. Transparente Konditionen, bundesweiter Service.">
+        <meta property="og:url" content="https://dormed.de/leistungen/garantie-versicherung">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Garantie &amp;amp; Geräteversicherung | SONORING DORMED">
+        <meta name="twitter:description" content="Erweiterte Garantie und Vollkaskoversicherung für Ultraschallgeräte – maximaler Schutz für Ihre Investition. Transparente Konditionen, bundesweiter Service.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-garantie",
+          "name": "Ultraschall Garantie & Geräteversicherung",
+          "url": "https://dormed.de/leistungen/garantie-versicherung",
+          "description": "Erweiterte Garantie und Vollkaskoversicherung für Ultraschallgeräte – maximaler Schutz für Ihre Investition. Transparente Konditionen, bundesweiter Service.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "areaServed": { "@type": "Country", "name": "Deutschland" },
+          "serviceType": "Garantie & Versicherung"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
             {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-garantie",
-              "name": "Ultraschall Garantie & Geräteversicherung",
-              "url": "https://dormed.de/leistungen/garantie-versicherung",
-              "description": "Erweiterte Garantie und Vollkaskoversicherung für Ultraschallgeräte – maximaler Schutz für Ihre Investition. Transparente Konditionen, bundesweiter Service.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "areaServed": { "@type": "Country", "name": "Deutschland" },
-              "serviceType": "Garantie & Versicherung"
+              "@type": "Question",
+              "name": "Was ist der Unterschied zwischen Garantieverlängerung und Versicherung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Garantieverlängerung schützt Sie vor den Kosten technischer Defekte – also wenn das Gerät durch einen Materialfehler oder internen Ausfall nicht mehr funktioniert. Ersatzteile, Arbeitszeit und Anfahrt sind vollständig eingeschlossen. Die Sono-Secur Versicherung greift dagegen bei externen Ereignissen: Sturz, Feuchtigkeit, Überspannung oder Fremdverschulden. Beide Leistungen sind komplementär – zusammen lassen sie keine Lücke."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Was ist der Unterschied zwischen Garantieverlängerung und Versicherung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die Garantieverlängerung schützt Sie vor den Kosten technischer Defekte – also wenn das Gerät durch einen Materialfehler oder internen Ausfall nicht mehr funktioniert. Ersatzteile, Arbeitszeit und Anfahrt sind vollständig eingeschlossen. Die Sono-Secur Versicherung greift dagegen bei externen Ereignissen: Sturz, Feuchtigkeit, Überspannung oder Fremdverschulden. Beide Leistungen sind komplementär – zusammen lassen sie keine Lücke."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich Garantieverlängerung und Versicherung kombinieren?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja – und genau das empfehlen wir. Während die Garantieverlängerung technische Ausfälle abdeckt, schützt Sono-Secur vor äußeren Schäden. Wer beides kombiniert, hat planbare Betriebskosten ohne unerwartete Ausgaben – unabhängig davon, was passiert."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Gilt die Garantieverlängerung auch für Gebrauchtgeräte?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die Garantieverlängerung von SONORING DORMED ist ausschließlich für Neugeräte verfügbar, die bei uns erworben werden. Für Gebrauchtgeräte empfehlen wir die Sono-Secur Elektronikversicherung – diese kann auch für bereits vorhandene Geräte abgeschlossen werden."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie läuft ein Schadensfall bei Sono-Secur ab?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Im Schadensfall melden Sie den Vorfall direkt bei der AXA Generalagentur David Bauer – digital oder telefonisch. Sie erhalten anschließend einen persönlichen Ansprechpartner, der Sie durch den gesamten Prozess begleitet. SONORING DORMED steht Ihnen dabei beratend zur Seite."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was passiert nach Ablauf der gesetzlichen Gewährleistung ohne Verlängerung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nach Ablauf der zweijährigen gesetzlichen Gewährleistung tragen Sie die vollen Reparaturkosten selbst – inklusive Ersatzteile, Anfahrt und Arbeitszeit. Bei einem hochwertigen Ultraschallgerät können das schnell mehrere tausend Euro sein. Die Garantieverlängerung schließt genau diese Lücke und macht Ihre Betriebskosten für bis zu 5 Jahre planbar."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich eine bestehende Versicherung auf Sono-Secur umstellen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, in der Regel ist das möglich. Wenn Sie Ihr Ultraschallgerät bereits über eine andere Police versichert haben, prüfen wir gemeinsam, ob ein Wechsel zu Sono-Secur sinnvoll ist – und ob sich Leistungsumfang oder Konditionen verbessern lassen."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Kann ich Garantieverlängerung und Versicherung kombinieren?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja – und genau das empfehlen wir. Während die Garantieverlängerung technische Ausfälle abdeckt, schützt Sono-Secur vor äußeren Schäden. Wer beides kombiniert, hat planbare Betriebskosten ohne unerwartete Ausgaben – unabhängig davon, was passiert."
+              }
             },
             {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
-                { "@type": "ListItem", "position": 3, "name": "Garantie & Versicherung", "item": "https://dormed.de/leistungen/garantie-versicherung" }
-              ]
+              "@type": "Question",
+              "name": "Gilt die Garantieverlängerung auch für Gebrauchtgeräte?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Garantieverlängerung von SONORING DORMED ist ausschließlich für Neugeräte verfügbar, die bei uns erworben werden. Für Gebrauchtgeräte empfehlen wir die Sono-Secur Elektronikversicherung – diese kann auch für bereits vorhandene Geräte abgeschlossen werden."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie läuft ein Schadensfall bei Sono-Secur ab?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Im Schadensfall melden Sie den Vorfall direkt bei der AXA Generalagentur David Bauer – digital oder telefonisch. Sie erhalten anschließend einen persönlichen Ansprechpartner, der Sie durch den gesamten Prozess begleitet. SONORING DORMED steht Ihnen dabei beratend zur Seite."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was passiert nach Ablauf der gesetzlichen Gewährleistung ohne Verlängerung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nach Ablauf der zweijährigen gesetzlichen Gewährleistung tragen Sie die vollen Reparaturkosten selbst – inklusive Ersatzteile, Anfahrt und Arbeitszeit. Bei einem hochwertigen Ultraschallgerät können das schnell mehrere tausend Euro sein. Die Garantieverlängerung schließt genau diese Lücke und macht Ihre Betriebskosten für bis zu 5 Jahre planbar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich eine bestehende Versicherung auf Sono-Secur umstellen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, in der Regel ist das möglich. Wenn Sie Ihr Ultraschallgerät bereits über eine andere Police versichert haben, prüfen wir gemeinsam, ob ein Wechsel zu Sono-Secur sinnvoll ist – und ob sich Leistungsumfang oder Konditionen verbessern lassen."
+              }
             }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
+            { "@type": "ListItem", "position": 3, "name": "Garantie & Versicherung", "item": "https://dormed.de/leistungen/garantie-versicherung" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

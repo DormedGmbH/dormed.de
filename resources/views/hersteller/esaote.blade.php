@@ -1,118 +1,143 @@
-@php
-    $title = "Esaote Ultraschall – MyLab A50 & A70 | SONORING DORMED";
-    $canonical = "https://dormed.de/hersteller/esaote";
-    $description = "Esaote MyLab Ultraschallsysteme bei SONORING DORMED – autorisierter Händler mit bundesweitem Service. Beratung, Lieferung und Wartung für MyLab A50 und A70.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/hersteller/esaote">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/hersteller/esaote">
+
+        <title>Esaote Ultraschall – MyLab A50 &amp; A70 | SONORING DORMED</title>
+        <meta name="description" content="Esaote MyLab Ultraschallsysteme bei SONORING DORMED – autorisierter Händler mit bundesweitem Service. Beratung, Lieferung und Wartung für MyLab A50 und A70.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/hersteller/esaote">
+
+    
+
+        <meta property="og:title" content="Esaote Ultraschall – MyLab A50 &amp;amp; A70 | SONORING DORMED">
+        <meta property="og:description" content="Esaote MyLab Ultraschallsysteme bei SONORING DORMED – autorisierter Händler mit bundesweitem Service. Beratung, Lieferung und Wartung für MyLab A50 und A70.">
+        <meta property="og:url" content="https://dormed.de/hersteller/esaote">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Esaote Ultraschall – MyLab A50 &amp;amp; A70 | SONORING DORMED">
+        <meta name="twitter:description" content="Esaote MyLab Ultraschallsysteme bei SONORING DORMED – autorisierter Händler mit bundesweitem Service. Beratung, Lieferung und Wartung für MyLab A50 und A70.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AboutPage",
+          "@id": "https://dormed.de/hersteller/esaote/#webpage",
+          "name": "Esaote Ultraschall – MyLab A50 & A70 | SONORING DORMED",
+          "description": "Esaote MyLab Ultraschallsysteme bei SONORING DORMED – autorisierter Händler mit bundesweitem Service. Beratung, Lieferung und Wartung für MyLab A50 und A70.",
+          "url": "https://dormed.de/hersteller/esaote",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Hersteller", "item": "https://dormed.de/hersteller" },
+              { "@type": "ListItem", "position": 3, "name": "Esaote", "item": "https://dormed.de/hersteller/esaote" }
+            ]
+          }
+        },
+        {
+          "@type": "Brand",
+          "@id": "https://dormed.de/hersteller/esaote/#brand",
+          "name": "Esaote",
+          "url": "https://www.esaote.com",
+          "description": "Esaote ist ein europäischer Spezialist für Ultraschall- und MRT-Systeme mit Hauptsitz in Genua, Italien. Gegründet 1982, steht die MyLab A-Serie für Augmented Insight™ KI-Plattform, Italian Design und 3 Jahre Herstellergarantie.",
+          "logo": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png"
+        },
+        {
+          "@type": "ItemList",
+          "name": "Esaote Ultraschallgeräte bei SONORING DORMED",
+          "numberOfItems": 2,
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Esaote MyLab A70", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70" },
+            { "@type": "ListItem", "position": 2, "name": "Esaote MyLab A50", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
             {
-              "@type": "AboutPage",
-              "@id": "https://dormed.de/hersteller/esaote/#webpage",
-              "name": "Esaote Ultraschall – MyLab A50 & A70 | SONORING DORMED",
-              "description": "Esaote MyLab Ultraschallsysteme bei SONORING DORMED – autorisierter Händler mit bundesweitem Service. Beratung, Lieferung und Wartung für MyLab A50 und A70.",
-              "url": "https://dormed.de/hersteller/esaote",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Hersteller", "item": "https://dormed.de/hersteller" },
-                  { "@type": "ListItem", "position": 3, "name": "Esaote", "item": "https://dormed.de/hersteller/esaote" }
-                ]
+              "@type": "Question",
+              "name": "Was ist Augmented Insight™ und auf welchen Geräten ist es verfügbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Augmented Insight™ ist Esaote's KI-Suite für automatisierte Messungen und Workflow-Unterstützung. Sie umfasst Funktionen wie AutoEF, AutoCM und QAI. Augmented Insight™ ist in verschiedenen Ausbaustufen auf dem MyLab A70 (vollständig) und dem MyLab A50 (grundlegende Funktionen) verfügbar. Die genaue Funktionsverfügbarkeit hängt von der Gerätekonfiguration ab."
               }
             },
             {
-              "@type": "Brand",
-              "@id": "https://dormed.de/hersteller/esaote/#brand",
-              "name": "Esaote",
-              "url": "https://www.esaote.com",
-              "description": "Esaote ist ein europäischer Spezialist für Ultraschall- und MRT-Systeme mit Hauptsitz in Genua, Italien. Gegründet 1982, steht die MyLab A-Serie für Augmented Insight™ KI-Plattform, Italian Design und 3 Jahre Herstellergarantie.",
-              "logo": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png"
+              "@type": "Question",
+              "name": "Was bedeutet XStrain™2D bei Esaote?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "XStrain™2D ist Esaote's Implementierung der 2D-Speckle-Tracking-Analyse. Es ermöglicht die Berechnung des Global Longitudinal Strain (GLS) für die Früherkennung myokardialer Dysfunktion und ist im MyLab A70 verfügbar. Esaote betont die Standardisierung der Messungen und die Kompatibilität mit dem 2D-Protokoll der ESC-Leitlinien."
+              }
             },
             {
-              "@type": "ItemList",
-              "name": "Esaote Ultraschallgeräte bei SONORING DORMED",
-              "numberOfItems": 2,
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Esaote MyLab A70", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70" },
-                { "@type": "ListItem", "position": 2, "name": "Esaote MyLab A50", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50" }
-              ]
+              "@type": "Question",
+              "name": "Warum gibt es nur zwei Esaote-Modelle im Sortiment?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Esaote positioniert sich bewusst als Spezialist — nicht als Vollsortimenter. Das MyLab A50 und A70 decken den Bereich Mittelklasse bis Oberklasse vollständig ab und sind die Modelle mit dem besten Verhältnis aus Bedienbarkeit, Bildqualität und Preis. Unser Fokus liegt auf den zwei Modellen die wir aus eigener Erfahrung empfehlen können."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Was ist Augmented Insight™ und auf welchen Geräten ist es verfügbar?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Augmented Insight™ ist Esaote's KI-Suite für automatisierte Messungen und Workflow-Unterstützung. Sie umfasst Funktionen wie AutoEF, AutoCM und QAI. Augmented Insight™ ist in verschiedenen Ausbaustufen auf dem MyLab A70 (vollständig) und dem MyLab A50 (grundlegende Funktionen) verfügbar. Die genaue Funktionsverfügbarkeit hängt von der Gerätekonfiguration ab."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was bedeutet XStrain™2D bei Esaote?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "XStrain™2D ist Esaote's Implementierung der 2D-Speckle-Tracking-Analyse. Es ermöglicht die Berechnung des Global Longitudinal Strain (GLS) für die Früherkennung myokardialer Dysfunktion und ist im MyLab A70 verfügbar. Esaote betont die Standardisierung der Messungen und die Kompatibilität mit dem 2D-Protokoll der ESC-Leitlinien."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Warum gibt es nur zwei Esaote-Modelle im Sortiment?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Esaote positioniert sich bewusst als Spezialist — nicht als Vollsortimenter. Das MyLab A50 und A70 decken den Bereich Mittelklasse bis Oberklasse vollständig ab und sind die Modelle mit dem besten Verhältnis aus Bedienbarkeit, Bildqualität und Preis. Unser Fokus liegt auf den zwei Modellen die wir aus eigener Erfahrung empfehlen können."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie schneidet Esaote gegen Mindray ab – wann welches System?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Als einer der wenigen Händler die beide führen können wir ohne Eigeninteresse vergleichen. Esaote A70 hat Vorteile beim Monitor (24\" Barco OptiLight), beim ergonomischen Design und bei der Garantie (3 Jahre). Mindray Resona i9 hat Vorteile beim Portangebot, beim mobilen Pendant (TE 9) und beim Preis-Leistungs-Verhältnis. Für Kardiologie tendieren wir zur Resona i9, für Gynäkologie zum MyLab A70."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Ist das Barco OptiLight Display wirklich ein relevanter Unterschied?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja — besonders für Kardiologie und Gynäkologie. Das 24\" Barco OptiLight des MyLab A70 ist ein medizinischer Hochleistungsmonitor mit adaptiver Hintergrundbeleuchtung, höherer Leuchtdichte und besserem Kontrastverhältnis als Standard-LCD-Monitore. In dunklen Untersuchungsräumen macht das einen spürbaren Unterschied in der endokardischen Abgrenzung."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Gibt es für Esaote Schallköpfe für alle Fachrichtungen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja — Esaote bietet ein breites Schallkopf-Sortiment für alle klinischen Anwendungen: Konvex, Linear, Phased Array, Endokavitär und 3D/4D-Schallköpfe für das MyLab A50 und A70. Für exklusiv für Esaote entwickelte Hochleistungsschallköpfe (L4-18N, C1-6A, P1-5A) gilt besondere Systemkompatibilität — sprechen Sie uns an."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie ist die Software-Update-Strategie bei Esaote?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Esaote aktualisiert die MyLab-Plattform regelmäßig — typischerweise 1–2 mal pro Jahr für klinisch relevante Funktionen. Die 3-Jahres-Garantie umfasst auch Software-Updates im Garantiezeitraum. Als autorisierter Partner koordinieren wir Software-Updates für unsere Wartungskunden direkt mit Esaote."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich das MyLab A50 mit Akku betreiben?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja — der Akkubetrieb ist für das MyLab A50 als Option verfügbar. Damit ist das Gerät ohne Netzanschluss für mehr als eine Stunde voll betriebsbereit — nützlich für Visite, Hausbesuche oder beengte Platzverhältnisse. Der Akku ist nicht im Standard-Lieferumfang enthalten, sondern muss bei Bestellung konfiguriert werden."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Wie schneidet Esaote gegen Mindray ab – wann welches System?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Als einer der wenigen Händler die beide führen können wir ohne Eigeninteresse vergleichen. Esaote A70 hat Vorteile beim Monitor (24\" Barco OptiLight), beim ergonomischen Design und bei der Garantie (3 Jahre). Mindray Resona i9 hat Vorteile beim Portangebot, beim mobilen Pendant (TE 9) und beim Preis-Leistungs-Verhältnis. Für Kardiologie tendieren wir zur Resona i9, für Gynäkologie zum MyLab A70."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist das Barco OptiLight Display wirklich ein relevanter Unterschied?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja — besonders für Kardiologie und Gynäkologie. Das 24\" Barco OptiLight des MyLab A70 ist ein medizinischer Hochleistungsmonitor mit adaptiver Hintergrundbeleuchtung, höherer Leuchtdichte und besserem Kontrastverhältnis als Standard-LCD-Monitore. In dunklen Untersuchungsräumen macht das einen spürbaren Unterschied in der endokardischen Abgrenzung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Gibt es für Esaote Schallköpfe für alle Fachrichtungen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja — Esaote bietet ein breites Schallkopf-Sortiment für alle klinischen Anwendungen: Konvex, Linear, Phased Array, Endokavitär und 3D/4D-Schallköpfe für das MyLab A50 und A70. Für exklusiv für Esaote entwickelte Hochleistungsschallköpfe (L4-18N, C1-6A, P1-5A) gilt besondere Systemkompatibilität — sprechen Sie uns an."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie ist die Software-Update-Strategie bei Esaote?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Esaote aktualisiert die MyLab-Plattform regelmäßig — typischerweise 1–2 mal pro Jahr für klinisch relevante Funktionen. Die 3-Jahres-Garantie umfasst auch Software-Updates im Garantiezeitraum. Als autorisierter Partner koordinieren wir Software-Updates für unsere Wartungskunden direkt mit Esaote."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich das MyLab A50 mit Akku betreiben?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja — der Akkubetrieb ist für das MyLab A50 als Option verfügbar. Damit ist das Gerät ohne Netzanschluss für mehr als eine Stunde voll betriebsbereit — nützlich für Visite, Hausbesuche oder beengte Platzverhältnisse. Der Akku ist nicht im Standard-Lieferumfang enthalten, sondern muss bei Bestellung konfiguriert werden."
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

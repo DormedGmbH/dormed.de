@@ -1,84 +1,109 @@
-@php
-    $title = "Chison SonoAir 70 – Mobiles Laptop-Ultraschallgerät AIR | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sonoair-70";
-    $description = "Chison SonoAir 70 kaufen bei SONORING DORMED – AIR-Plattform, 16,7\" Touchscreen, 4+1 Ports, FHI, 2h Akku, DICOM, WiFi. Vielseitiger Laptop-Ultraschall für Praxis und Klinik. Jetzt anfragen.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sonoair-70">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sonoair-70">
+
+        <title>Chison SonoAir 70 – Mobiles Laptop-Ultraschallgerät AIR | DORMED</title>
+        <meta name="description" content="Chison SonoAir 70 kaufen bei SONORING DORMED – AIR-Plattform, 16,7&quot; Touchscreen, 4+1 Ports, FHI, 2h Akku, DICOM, WiFi. Vielseitiger Laptop-Ultraschall für Praxis und Klinik. Jetzt anfragen.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sonoair-70">
+
+    
+
+        <meta property="og:title" content="Chison SonoAir 70 – Mobiles Laptop-Ultraschallgerät AIR | DORMED">
+        <meta property="og:description" content="Chison SonoAir 70 kaufen bei SONORING DORMED – AIR-Plattform, 16,7&quot; Touchscreen, 4+1 Ports, FHI, 2h Akku, DICOM, WiFi. Vielseitiger Laptop-Ultraschall für Praxis und Klinik. Jetzt anfragen.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sonoair-70">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Chison SonoAir 70 – Mobiles Laptop-Ultraschallgerät AIR | DORMED">
+        <meta name="twitter:description" content="Chison SonoAir 70 kaufen bei SONORING DORMED – AIR-Plattform, 16,7&amp;quot; Touchscreen, 4+1 Ports, FHI, 2h Akku, DICOM, WiFi. Vielseitiger Laptop-Ultraschall für Praxis und Klinik. Jetzt anfragen.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sono-air-70/#product",
-              "name": "Chison SonoAir 70",
-              "description": "Mobiles Laptop-Ultraschallsystem auf AIR-Plattform mit 16,7\" Touchscreen (1920×1080), 4+1 aktiven Ports, FHI (Fusion Harmonic Imaging), vollständigem Paketdoppler, 100 MHz Scanner, Touch-ID, DICOM, WiFi, LAN, HDMI und 2h Akkubetrieb. Gewicht: 7,1 kg.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/chison-sonoair-70/acda96d0-2ccc-444c-567b-00b97ace6000.jpg",
-                "https://dormed.de/assets/img/produkte/chison-sonoair-70/a25baa6c-31f5-45a4-3320-27d751c31400.jpg",
-                "https://dormed.de/assets/img/produkte/chison-sonoair-70/c93704da-0d07-4a79-505c-61af54317400.jpg",
-                "https://dormed.de/assets/img/produkte/chison-sonoair-70/de6487e4-afd0-482a-1931-7089a7667f00.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Chison",
-                "@id": "https://dormed.de/hersteller/chison/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Chison Medical Technologies",
-                "url": "https://www.chison.com"
-              },
-              "category": "Mobiles Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sono-air-70",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "AIR-Plattform" },
-                { "@type": "PropertyValue", "name": "Monitor", "value": "16,7 Zoll Touchscreen, 1920×1080" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
-                { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "2 Stunden" },
-                { "@type": "PropertyValue", "name": "Gewicht", "value": "7,1 kg" },
-                { "@type": "PropertyValue", "name": "FHI", "value": "Fusion Harmonic Imaging" },
-                { "@type": "PropertyValue", "name": "100 MHz Scanner", "value": "Vollflächig verfügbar" },
-                { "@type": "PropertyValue", "name": "Touch-ID", "value": "Fingerabdruckscanner" },
-                { "@type": "PropertyValue", "name": "Super Needle", "value": "Verfügbar — Nadelführung" },
-                { "@type": "PropertyValue", "name": "SonoZoom", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "X-Assistant", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "DICOM", "value": "Vollständig integriert" },
-                { "@type": "PropertyValue", "name": "Konnektivität", "value": "WiFi, LAN, HDMI" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sono-air-70",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray TE 7 Ace", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7" },
-                { "@type": "Product", "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" },
-                { "@type": "Product", "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
-                { "@type": "ListItem", "position": 4, "name": "Chison SonoAir 70", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sono-air-70" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sono-air-70/#product",
+          "name": "Chison SonoAir 70",
+          "description": "Mobiles Laptop-Ultraschallsystem auf AIR-Plattform mit 16,7\" Touchscreen (1920×1080), 4+1 aktiven Ports, FHI (Fusion Harmonic Imaging), vollständigem Paketdoppler, 100 MHz Scanner, Touch-ID, DICOM, WiFi, LAN, HDMI und 2h Akkubetrieb. Gewicht: 7,1 kg.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/chison-sonoair-70/acda96d0-2ccc-444c-567b-00b97ace6000.jpg",
+            "https://dormed.de/assets/img/produkte/chison-sonoair-70/a25baa6c-31f5-45a4-3320-27d751c31400.jpg",
+            "https://dormed.de/assets/img/produkte/chison-sonoair-70/c93704da-0d07-4a79-505c-61af54317400.jpg",
+            "https://dormed.de/assets/img/produkte/chison-sonoair-70/de6487e4-afd0-482a-1931-7089a7667f00.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Chison",
+            "@id": "https://dormed.de/hersteller/chison/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Chison Medical Technologies",
+            "url": "https://www.chison.com"
+          },
+          "category": "Mobiles Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sono-air-70",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "AIR-Plattform" },
+            { "@type": "PropertyValue", "name": "Monitor", "value": "16,7 Zoll Touchscreen, 1920×1080" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
+            { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "2 Stunden" },
+            { "@type": "PropertyValue", "name": "Gewicht", "value": "7,1 kg" },
+            { "@type": "PropertyValue", "name": "FHI", "value": "Fusion Harmonic Imaging" },
+            { "@type": "PropertyValue", "name": "100 MHz Scanner", "value": "Vollflächig verfügbar" },
+            { "@type": "PropertyValue", "name": "Touch-ID", "value": "Fingerabdruckscanner" },
+            { "@type": "PropertyValue", "name": "Super Needle", "value": "Verfügbar — Nadelführung" },
+            { "@type": "PropertyValue", "name": "SonoZoom", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "X-Assistant", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "DICOM", "value": "Vollständig integriert" },
+            { "@type": "PropertyValue", "name": "Konnektivität", "value": "WiFi, LAN, HDMI" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sono-air-70",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray TE 7 Ace", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7" },
+            { "@type": "Product", "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" },
+            { "@type": "Product", "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
+            { "@type": "ListItem", "position": 4, "name": "Chison SonoAir 70", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/chison-sono-air-70" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

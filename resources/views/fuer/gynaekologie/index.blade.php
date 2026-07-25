@@ -1,133 +1,158 @@
-@php
-    $title = "Ultraschall Gynäkologie – Geräte für Frauenarztpraxen | DORMED";
-    $canonical = "https://dormed.de/fuer/gynaekologie";
-    $description = "Ultraschallsysteme für Gynäkologie und Geburtshilfe. 3D/4D-Bildgebung, vaginale Schallköpfe, Doppler-Funktion – Beratung speziell für Frauenarztpraxen.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/fuer/gynaekologie">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/fuer/gynaekologie">
+
+        <title>Ultraschall Gynäkologie – Geräte für Frauenarztpraxen | DORMED</title>
+        <meta name="description" content="Ultraschallsysteme für Gynäkologie und Geburtshilfe. 3D/4D-Bildgebung, vaginale Schallköpfe, Doppler-Funktion – Beratung speziell für Frauenarztpraxen.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/fuer/gynaekologie">
+
+    
+
+        <meta property="og:title" content="Ultraschall Gynäkologie – Geräte für Frauenarztpraxen | DORMED">
+        <meta property="og:description" content="Ultraschallsysteme für Gynäkologie und Geburtshilfe. 3D/4D-Bildgebung, vaginale Schallköpfe, Doppler-Funktion – Beratung speziell für Frauenarztpraxen.">
+        <meta property="og:url" content="https://dormed.de/fuer/gynaekologie">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Gynäkologie – Geräte für Frauenarztpraxen | DORMED">
+        <meta name="twitter:description" content="Ultraschallsysteme für Gynäkologie und Geburtshilfe. 3D/4D-Bildgebung, vaginale Schallköpfe, Doppler-Funktion – Beratung speziell für Frauenarztpraxen.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://dormed.de/fuer/gynaekologie/#webpage",
+          "name": "Ultraschall Gynäkologie – Geräte für Frauenarztpraxen | DORMED",
+          "description": "Ultraschallsysteme für Gynäkologie und Geburtshilfe. 3D/4D-Bildgebung, vaginale Schallköpfe, Doppler-Funktion – Beratung speziell für Frauenarztpraxen.",
+          "url": "https://dormed.de/fuer/gynaekologie",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Für Fachgebiete", "item": "https://dormed.de/fuer" },
+              { "@type": "ListItem", "position": 3, "name": "Gynäkologie", "item": "https://dormed.de/fuer/gynaekologie" }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Empfohlene Ultraschallgeräte für Gynäkologie & Geburtshilfe",
+          "description": "Diese Systeme empfiehlt SONORING DORMED für gynäkologische Praxen – mit 3D/4D, endokavitären Schallköpfen und automatischer Biometrie.",
+          "numberOfItems": 4,
+          "itemListElement": [
             {
-              "@type": "WebPage",
-              "@id": "https://dormed.de/fuer/gynaekologie/#webpage",
-              "name": "Ultraschall Gynäkologie – Geräte für Frauenarztpraxen | DORMED",
-              "description": "Ultraschallsysteme für Gynäkologie und Geburtshilfe. 3D/4D-Bildgebung, vaginale Schallköpfe, Doppler-Funktion – Beratung speziell für Frauenarztpraxen.",
-              "url": "https://dormed.de/fuer/gynaekologie",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Für Fachgebiete", "item": "https://dormed.de/fuer" },
-                  { "@type": "ListItem", "position": 3, "name": "Gynäkologie", "item": "https://dormed.de/fuer/gynaekologie" }
-                ]
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Mindray Resona i9",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Mindray Consona N9",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n9"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Esaote MyLab A70",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Mindray Consona N8",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Was ist der Unterschied zwischen 3D- und 4D-Sonographie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "3D-Sonographie erstellt einen statischen Volumen-Datensatz aus vielen 2D-Schichten — das Ergebnis ist ein dreidimensionales Standbild, das nachträglich in verschiedenen Ebenen analysiert werden kann. 4D-Sonographie ist eine Echtzeit-3D-Darstellung mit typischerweise 10–25 Bildern pro Sekunde — der Fetus ist in Bewegung sichtbar. 3D ist besonders wertvoll für die Diagnostik von Uterusfehlbildungen und fetalen Fehlbildungen. 4D bietet weniger diagnostischen Mehrwert als 3D, ist aber für die Eltern ein eindrucksvolles Erlebnis."
               }
             },
             {
-              "@type": "ItemList",
-              "name": "Empfohlene Ultraschallgeräte für Gynäkologie & Geburtshilfe",
-              "description": "Diese Systeme empfiehlt SONORING DORMED für gynäkologische Praxen – mit 3D/4D, endokavitären Schallköpfen und automatischer Biometrie.",
-              "numberOfItems": 4,
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Mindray Resona i9",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Mindray Consona N9",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n9"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Esaote MyLab A70",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 4,
-                  "name": "Mindray Consona N8",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8"
-                }
-              ]
+              "@type": "Question",
+              "name": "Brauche ich für 3D/4D einen speziellen Schallkopf?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja — für 3D/4D-Bildgebung ist ein spezieller Volumenschallkopf erforderlich. Dieser kann nicht durch einen Standard-Konvexschallkopf ersetzt werden. Der 3D/4D-Schallkopf besitzt eine Matrix-Anordnung von Piezoelementen die die automatische Volumen-Akquisition ermöglicht. Alle empfohlenen Systeme sind mit 3D/4D-fähigen endokavitären und transabdominalen Schallköpfen erhältlich."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Was ist der Unterschied zwischen 3D- und 4D-Sonographie?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "3D-Sonographie erstellt einen statischen Volumen-Datensatz aus vielen 2D-Schichten — das Ergebnis ist ein dreidimensionales Standbild, das nachträglich in verschiedenen Ebenen analysiert werden kann. 4D-Sonographie ist eine Echtzeit-3D-Darstellung mit typischerweise 10–25 Bildern pro Sekunde — der Fetus ist in Bewegung sichtbar. 3D ist besonders wertvoll für die Diagnostik von Uterusfehlbildungen und fetalen Fehlbildungen. 4D bietet weniger diagnostischen Mehrwert als 3D, ist aber für die Eltern ein eindrucksvolles Erlebnis."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Brauche ich für 3D/4D einen speziellen Schallkopf?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja — für 3D/4D-Bildgebung ist ein spezieller Volumenschallkopf erforderlich. Dieser kann nicht durch einen Standard-Konvexschallkopf ersetzt werden. Der 3D/4D-Schallkopf besitzt eine Matrix-Anordnung von Piezoelementen die die automatische Volumen-Akquisition ermöglicht. Alle empfohlenen Systeme sind mit 3D/4D-fähigen endokavitären und transabdominalen Schallköpfen erhältlich."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Für welche gynäkologischen Indikationen ist 3D-Sonographie besonders sinnvoll?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die größten klinischen Vorteile der 3D-Gynäkologie-Sonographie liegen in der Darstellung der Uteruskavität im Koronarschnitt — einer Ebene die mit 2D-Sonographie nicht zugänglich ist. Das ermöglicht zuverlässige Diagnose von Uterussepten, Uterus arcuatus, Uterus bicornis und anderen Fehlbildungen. Weitere sinnvolle Indikationen: Lagekontrolle von IUD, Beurteilung von Endometriumpolypen und Follikelmonitoring bei IVF-Patientinnen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Biometrie-Programme sollte ein Gerät für die Schwangerschaftsbetreuung haben?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Für die leitliniengerechte Schwangerschaftssonographie sind folgende Biometrieparameter notwendig: BPD, HC, AC und FL — aus diesen wird das geschätzte Fetalgewicht (EFW) berechnet. Alle empfohlenen Systeme bieten automatische Biometrie mit aktuellen Wachstumstabellen nach DEGUM/ISUOG-Empfehlungen sowie automatische Berichterstellung."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wann ist ein Nabelschnur-Doppler medizinisch indiziert?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Der Nabelschnur-Doppler ist bei Risikoschwangerschaften mit Verdacht auf fetale Wachstumsrestriktion oder plazentare Insuffizienz indiziert. Pathologische Befunde — erhöhter Widerstand, fehlender oder retrograder enddiastolischer Fluss — sind wichtige Parameter für das Management der Risikoschwangerschaft. Für den Doppler in der Geburtshilfe ist ein Gerät mit PW-Doppler und Farbdoppler Voraussetzung."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich mit einem Gynäkologie-Gerät auch Brustsonographie durchführen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Eine orientierende Mammasonographie ist mit einem hochfrequenten Linearschallkopf (10–18 MHz) möglich, den die meisten empfohlenen Geräte unterstützen. Für eine vollständige Mammasonographie nach DEGUM-Standard sind jedoch spezifische Weiterbildung, eine Sonographiegenehmigung und ein dedizierter Brustultraschall-Arbeitsplatz erforderlich."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie lange ist ein endokavitärer Schallkopf haltbar?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Bei täglichem Einsatz in einer gynäkologischen Praxis ist eine Lebensdauer von 5–8 Jahren realistisch, wenn der Schallkopf korrekt gereinigt, desinfiziert und gelagert wird. Mechanische Beschädigungen durch unsachgemäße Lagerung oder Stürze sind die häufigsten vorzeitigen Ausfallursachen. Wir empfehlen die Aufnahme aller Schallköpfe in einen Wartungsvertrag."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Desinfektionsanforderungen gelten für endokavitäre Schallköpfe?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Endokavitäre Schallköpfe gelten als semikritische Medizinprodukte (Kategorie B nach RKI) und müssen nach jeder Untersuchung desinfiziert werden. Die RKI-Empfehlung sieht eine Wischdesinfektion mit einem VAH-gelisteten Desinfektionsmittel vor. Der Schallkopf muss vor der Desinfektion mit einem Schutzüberzug verwendet werden und die Aufbereitung muss dokumentiert werden."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Für welche gynäkologischen Indikationen ist 3D-Sonographie besonders sinnvoll?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die größten klinischen Vorteile der 3D-Gynäkologie-Sonographie liegen in der Darstellung der Uteruskavität im Koronarschnitt — einer Ebene die mit 2D-Sonographie nicht zugänglich ist. Das ermöglicht zuverlässige Diagnose von Uterussepten, Uterus arcuatus, Uterus bicornis und anderen Fehlbildungen. Weitere sinnvolle Indikationen: Lagekontrolle von IUD, Beurteilung von Endometriumpolypen und Follikelmonitoring bei IVF-Patientinnen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Biometrie-Programme sollte ein Gerät für die Schwangerschaftsbetreuung haben?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Für die leitliniengerechte Schwangerschaftssonographie sind folgende Biometrieparameter notwendig: BPD, HC, AC und FL — aus diesen wird das geschätzte Fetalgewicht (EFW) berechnet. Alle empfohlenen Systeme bieten automatische Biometrie mit aktuellen Wachstumstabellen nach DEGUM/ISUOG-Empfehlungen sowie automatische Berichterstellung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wann ist ein Nabelschnur-Doppler medizinisch indiziert?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Nabelschnur-Doppler ist bei Risikoschwangerschaften mit Verdacht auf fetale Wachstumsrestriktion oder plazentare Insuffizienz indiziert. Pathologische Befunde — erhöhter Widerstand, fehlender oder retrograder enddiastolischer Fluss — sind wichtige Parameter für das Management der Risikoschwangerschaft. Für den Doppler in der Geburtshilfe ist ein Gerät mit PW-Doppler und Farbdoppler Voraussetzung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich mit einem Gynäkologie-Gerät auch Brustsonographie durchführen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Eine orientierende Mammasonographie ist mit einem hochfrequenten Linearschallkopf (10–18 MHz) möglich, den die meisten empfohlenen Geräte unterstützen. Für eine vollständige Mammasonographie nach DEGUM-Standard sind jedoch spezifische Weiterbildung, eine Sonographiegenehmigung und ein dedizierter Brustultraschall-Arbeitsplatz erforderlich."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie lange ist ein endokavitärer Schallkopf haltbar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bei täglichem Einsatz in einer gynäkologischen Praxis ist eine Lebensdauer von 5–8 Jahren realistisch, wenn der Schallkopf korrekt gereinigt, desinfiziert und gelagert wird. Mechanische Beschädigungen durch unsachgemäße Lagerung oder Stürze sind die häufigsten vorzeitigen Ausfallursachen. Wir empfehlen die Aufnahme aller Schallköpfe in einen Wartungsvertrag."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Desinfektionsanforderungen gelten für endokavitäre Schallköpfe?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Endokavitäre Schallköpfe gelten als semikritische Medizinprodukte (Kategorie B nach RKI) und müssen nach jeder Untersuchung desinfiziert werden. Die RKI-Empfehlung sieht eine Wischdesinfektion mit einem VAH-gelisteten Desinfektionsmittel vor. Der Schallkopf muss vor der Desinfektion mit einem Schutzüberzug verwendet werden und die Aufbereitung muss dokumentiert werden."
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

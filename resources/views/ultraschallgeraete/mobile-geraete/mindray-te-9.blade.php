@@ -1,79 +1,104 @@
-@php
-    $title = "Mindray TE 9 kaufen – Ultraschall Allrounder | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9";
-    $description = "Mindray TE 9: Vielseitiges Ultraschallsystem für Allgemeinmedizin, Gynäkologie und Innere Medizin. Kompakt, leistungsstark, einfach zu bedienen.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9">
+
+        <title>Mindray TE 9 kaufen – Ultraschall Allrounder | DORMED</title>
+        <meta name="description" content="Mindray TE 9: Vielseitiges Ultraschallsystem für Allgemeinmedizin, Gynäkologie und Innere Medizin. Kompakt, leistungsstark, einfach zu bedienen.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9">
+
+    
+
+        <meta property="og:title" content="Mindray TE 9 kaufen – Ultraschall Allrounder | DORMED">
+        <meta property="og:description" content="Mindray TE 9: Vielseitiges Ultraschallsystem für Allgemeinmedizin, Gynäkologie und Innere Medizin. Kompakt, leistungsstark, einfach zu bedienen.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray TE 9 kaufen – Ultraschall Allrounder | DORMED">
+        <meta name="twitter:description" content="Mindray TE 9: Vielseitiges Ultraschallsystem für Allgemeinmedizin, Gynäkologie und Innere Medizin. Kompakt, leistungsstark, einfach zu bedienen.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9/#product",
-              "name": "Mindray TE 9",
-              "description": "Mobiles Laptop-Ultraschallsystem auf ZST+ Plattform mit vollständiger Kardiologie-Suite: XStrain™ Strain-Analyse, AutoEF, Smart HD und Smart Beam. 4 aktive Ports, Akkubetrieb. Kein Kompromiss bei Bildqualität gegenüber Standgeräten.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-te-9/1c5aa056-3080-4162-9884-b16cc7aaa300.png",
-                "https://dormed.de/assets/img/produkte/mindray-te-9/b2e5e0ed-7331-4215-72a5-2ba9530d5d00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-te-9/dc8df8f2-be8e-4542-7f01-068cfdc9cb00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-te-9/2ed95a5e-a365-4a6e-52f5-ee4c3023b700.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Mobiles Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+ (Zone Sonography Technology Plus)" },
-                { "@type": "PropertyValue", "name": "Format", "value": "Laptop-System — mobil" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4 aktive Ports" },
-                { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "XStrain™", "value": "Verfügbar — vollständige Strain-Analyse" },
-                { "@type": "PropertyValue", "name": "AutoEF", "value": "Verfügbar — automatische Ejektionsfraktion" },
-                { "@type": "PropertyValue", "name": "Smart HD", "value": "Verfügbar — Hochauflösung" },
-                { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Kardiologie", "value": "Vollständige Kardiologie-Suite" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray TE 7", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7" },
-                { "@type": "Product", "name": "Mindray Resona i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray TE 9", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9/#product",
+          "name": "Mindray TE 9",
+          "description": "Mobiles Laptop-Ultraschallsystem auf ZST+ Plattform mit vollständiger Kardiologie-Suite: XStrain™ Strain-Analyse, AutoEF, Smart HD und Smart Beam. 4 aktive Ports, Akkubetrieb. Kein Kompromiss bei Bildqualität gegenüber Standgeräten.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-te-9/1c5aa056-3080-4162-9884-b16cc7aaa300.png",
+            "https://dormed.de/assets/img/produkte/mindray-te-9/b2e5e0ed-7331-4215-72a5-2ba9530d5d00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-te-9/dc8df8f2-be8e-4542-7f01-068cfdc9cb00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-te-9/2ed95a5e-a365-4a6e-52f5-ee4c3023b700.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Mobiles Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+ (Zone Sonography Technology Plus)" },
+            { "@type": "PropertyValue", "name": "Format", "value": "Laptop-System — mobil" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4 aktive Ports" },
+            { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "XStrain™", "value": "Verfügbar — vollständige Strain-Analyse" },
+            { "@type": "PropertyValue", "name": "AutoEF", "value": "Verfügbar — automatische Ejektionsfraktion" },
+            { "@type": "PropertyValue", "name": "Smart HD", "value": "Verfügbar — Hochauflösung" },
+            { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Kardiologie", "value": "Vollständige Kardiologie-Suite" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray TE 7", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7" },
+            { "@type": "Product", "name": "Mindray Resona i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray TE 9", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

@@ -1,112 +1,137 @@
-@php
-    $title = "Ultraschall Netzwerkanbindung – DICOM & PACS | SONORING DORMED";
-    $canonical = "https://dormed.de/leistungen/netzwerkanbindung";
-    $description = "Professionelle DICOM-Integration und Netzwerkanbindung für Ultraschallgeräte. KIS, RIS und PACS-kompatibel – technische Einrichtung durch unsere Spezialisten.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/leistungen/netzwerkanbindung">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/leistungen/netzwerkanbindung">
+
+        <title>Ultraschall Netzwerkanbindung – DICOM &amp; PACS | SONORING DORMED</title>
+        <meta name="description" content="Professionelle DICOM-Integration und Netzwerkanbindung für Ultraschallgeräte. KIS, RIS und PACS-kompatibel – technische Einrichtung durch unsere Spezialisten.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/leistungen/netzwerkanbindung">
+
+    
+
+        <meta property="og:title" content="Ultraschall Netzwerkanbindung – DICOM &amp;amp; PACS | SONORING DORMED">
+        <meta property="og:description" content="Professionelle DICOM-Integration und Netzwerkanbindung für Ultraschallgeräte. KIS, RIS und PACS-kompatibel – technische Einrichtung durch unsere Spezialisten.">
+        <meta property="og:url" content="https://dormed.de/leistungen/netzwerkanbindung">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Netzwerkanbindung – DICOM &amp;amp; PACS | SONORING DORMED">
+        <meta name="twitter:description" content="Professionelle DICOM-Integration und Netzwerkanbindung für Ultraschallgeräte. KIS, RIS und PACS-kompatibel – technische Einrichtung durch unsere Spezialisten.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-netzwerk",
+          "name": "Ultraschall Netzwerkanbindung – DICOM & PACS",
+          "url": "https://dormed.de/leistungen/netzwerkanbindung",
+          "description": "Professionelle DICOM-Integration und Netzwerkanbindung für Ultraschallgeräte. KIS, RIS und PACS-kompatibel – technische Einrichtung durch unsere Spezialisten.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "areaServed": { "@type": "Country", "name": "Deutschland" },
+          "serviceType": "Netzwerkanbindung & DICOM Integration"
+        },
+        {
+          "@type": "HowTo",
+          "name": "Wie läuft die Netzwerkanbindung eines Ultraschallgeräts ab?",
+          "description": "In drei Schritten zur vollständig integrierten Ultraschall-Lösung – von der Vorprüfung bis zur Übergabe.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "step": [
             {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-netzwerk",
-              "name": "Ultraschall Netzwerkanbindung – DICOM & PACS",
-              "url": "https://dormed.de/leistungen/netzwerkanbindung",
-              "description": "Professionelle DICOM-Integration und Netzwerkanbindung für Ultraschallgeräte. KIS, RIS und PACS-kompatibel – technische Einrichtung durch unsere Spezialisten.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "areaServed": { "@type": "Country", "name": "Deutschland" },
-              "serviceType": "Netzwerkanbindung & DICOM Integration"
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Prüfung",
+              "text": "Praxissoftware und Gerät prüfen. Im Vorfeld klären wir, welche Praxissoftware Sie nutzen und ob Ihr Ultraschallgerät DICOM unterstützt. Kostenloses Vorab-Gespräch."
             },
             {
-              "@type": "HowTo",
-              "name": "Wie läuft die Netzwerkanbindung eines Ultraschallgeräts ab?",
-              "description": "In drei Schritten zur vollständig integrierten Ultraschall-Lösung – von der Vorprüfung bis zur Übergabe.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "step": [
-                {
-                  "@type": "HowToStep",
-                  "position": 1,
-                  "name": "Prüfung",
-                  "text": "Praxissoftware und Gerät prüfen. Im Vorfeld klären wir, welche Praxissoftware Sie nutzen und ob Ihr Ultraschallgerät DICOM unterstützt. Kostenloses Vorab-Gespräch."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 2,
-                  "name": "Einrichtung",
-                  "text": "Vor-Ort-Einrichtung durch unsere Techniker. DICOM-Konfiguration oder sonoGDT-Installation, Netzwerkeinbindung und Verbindung mit Ihrer Praxissoftware – alles aus einer Hand."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 3,
-                  "name": "Übergabe",
-                  "text": "Test, Einweisung und Übergabe. Wir testen die Übertragung gemeinsam mit Ihnen, weisen Sie in die Bedienung ein und übergeben die fertig eingerichtete Anbindung. Technischer Support inklusive."
-                }
-              ]
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Einrichtung",
+              "text": "Vor-Ort-Einrichtung durch unsere Techniker. DICOM-Konfiguration oder sonoGDT-Installation, Netzwerkeinbindung und Verbindung mit Ihrer Praxissoftware – alles aus einer Hand."
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Was ist der Unterschied zwischen DICOM und sonoGDT?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "DICOM ist der internationale Standard für digitale Bildübertragung in der Medizin. Patientendaten werden direkt aus Ihrer Praxissoftware ans Ultraschallgerät übermittelt, Bilder kehren automatisch zurück. sonoGDT ist eine günstigere Mittler-Software, die über die GDT-Schnittstelle Ihrer Praxissoftware arbeitet – ohne DICOM-Lizenz. Beide Wege führen zum Ergebnis: Bilder werden automatisch der richtigen Patientenakte zugeordnet."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Funktioniert die Anbindung mit meiner Praxissoftware?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Sehr wahrscheinlich ja. Die meisten gängigen Praxisverwaltungssysteme in Deutschland unterstützen mindestens die GDT-Schnittstelle für sonoGDT, viele auch DICOM. Wir prüfen das im Vorfeld – kostenlos und unverbindlich."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Muss ich selbst etwas konfigurieren oder installieren?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nein. Unsere Techniker übernehmen die komplette Einrichtung vor Ort – von der Konfiguration des Ultraschallgeräts über die Netzwerkeinbindung bis zur Verbindung mit Ihrer Praxissoftware. Kein IT-Wissen erforderlich."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie lange dauert die Einrichtung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "In der Regel ist die Einrichtung in einem halben Tag abgeschlossen – oft schneller. Bei einfachen sonoGDT-Installationen ist die Anbindung in 1–2 Stunden betriebsbereit."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was passiert, wenn nach der Einrichtung etwas nicht funktioniert?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Der technische Support ist Bestandteil unserer Leistung. Bei Problemen nach der Einrichtung stehen wir telefonisch und per Fernwartung zur Verfügung – viele Störungen lassen sich so ohne Vor-Ort-Termin schnell beheben."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Funktioniert die Anbindung auch, wenn ich das Gerät wechsle?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Grundsätzlich ja – DICOM und GDT sind herstellerunabhängige Standards. Bei einem Gerätewechsel prüfen wir gemeinsam, ob die bestehende Konfiguration übernommen werden kann oder ob eine Neueinrichtung sinnvoll ist."
-                  }
-                }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
-                { "@type": "ListItem", "position": 3, "name": "Netzwerkanbindung", "item": "https://dormed.de/leistungen/netzwerkanbindung" }
-              ]
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Übergabe",
+              "text": "Test, Einweisung und Übergabe. Wir testen die Übertragung gemeinsam mit Ihnen, weisen Sie in die Bedienung ein und übergeben die fertig eingerichtete Anbindung. Technischer Support inklusive."
             }
           ]
-        }</script>
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Was ist der Unterschied zwischen DICOM und sonoGDT?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "DICOM ist der internationale Standard für digitale Bildübertragung in der Medizin. Patientendaten werden direkt aus Ihrer Praxissoftware ans Ultraschallgerät übermittelt, Bilder kehren automatisch zurück. sonoGDT ist eine günstigere Mittler-Software, die über die GDT-Schnittstelle Ihrer Praxissoftware arbeitet – ohne DICOM-Lizenz. Beide Wege führen zum Ergebnis: Bilder werden automatisch der richtigen Patientenakte zugeordnet."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Funktioniert die Anbindung mit meiner Praxissoftware?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sehr wahrscheinlich ja. Die meisten gängigen Praxisverwaltungssysteme in Deutschland unterstützen mindestens die GDT-Schnittstelle für sonoGDT, viele auch DICOM. Wir prüfen das im Vorfeld – kostenlos und unverbindlich."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Muss ich selbst etwas konfigurieren oder installieren?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein. Unsere Techniker übernehmen die komplette Einrichtung vor Ort – von der Konfiguration des Ultraschallgeräts über die Netzwerkeinbindung bis zur Verbindung mit Ihrer Praxissoftware. Kein IT-Wissen erforderlich."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie lange dauert die Einrichtung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In der Regel ist die Einrichtung in einem halben Tag abgeschlossen – oft schneller. Bei einfachen sonoGDT-Installationen ist die Anbindung in 1–2 Stunden betriebsbereit."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was passiert, wenn nach der Einrichtung etwas nicht funktioniert?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der technische Support ist Bestandteil unserer Leistung. Bei Problemen nach der Einrichtung stehen wir telefonisch und per Fernwartung zur Verfügung – viele Störungen lassen sich so ohne Vor-Ort-Termin schnell beheben."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Funktioniert die Anbindung auch, wenn ich das Gerät wechsle?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Grundsätzlich ja – DICOM und GDT sind herstellerunabhängige Standards. Bei einem Gerätewechsel prüfen wir gemeinsam, ob die bestehende Konfiguration übernommen werden kann oder ob eine Neueinrichtung sinnvoll ist."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
+            { "@type": "ListItem", "position": 3, "name": "Netzwerkanbindung", "item": "https://dormed.de/leistungen/netzwerkanbindung" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

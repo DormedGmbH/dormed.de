@@ -1,76 +1,101 @@
-@php
-    $title = "Mindray Z50 kaufen – Zuverlässiger Ultraschall | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50";
-    $description = "Mindray Z50: Zuverlässiges Ultraschallgerät für Allgemeinmedizin und Innere Medizin. Solide Bildqualität, einfache Handhabung, wirtschaftlicher Betrieb.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50">
+
+        <title>Mindray Z50 kaufen – Zuverlässiger Ultraschall | DORMED</title>
+        <meta name="description" content="Mindray Z50: Zuverlässiges Ultraschallgerät für Allgemeinmedizin und Innere Medizin. Solide Bildqualität, einfache Handhabung, wirtschaftlicher Betrieb.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50">
+
+    
+
+        <meta property="og:title" content="Mindray Z50 kaufen – Zuverlässiger Ultraschall | DORMED">
+        <meta property="og:description" content="Mindray Z50: Zuverlässiges Ultraschallgerät für Allgemeinmedizin und Innere Medizin. Solide Bildqualität, einfache Handhabung, wirtschaftlicher Betrieb.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray Z50 kaufen – Zuverlässiger Ultraschall | DORMED">
+        <meta name="twitter:description" content="Mindray Z50: Zuverlässiges Ultraschallgerät für Allgemeinmedizin und Innere Medizin. Solide Bildqualität, einfache Handhabung, wirtschaftlicher Betrieb.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50/#product",
-              "name": "Mindray Z50",
-              "description": "Kompaktes mobiles Laptop-Ultraschallsystem auf PSI+ Beam Plattform mit 3 aktiven Ports, Farbdoppler und Smart Beam Basic. Bewährt und zuverlässig für mobile Basisdiagnostik.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-z50/8a797c77-91f8-40fc-183c-e39ae093a500.png",
-                "https://dormed.de/assets/img/produkte/mindray-z50/105617fe-f87d-499b-43d2-1f8588b5af00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-z50/26fc6aa0-ef05-43a7-a1b8-79e945273500.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-z50/5652d743-17a9-44b3-c4f3-4a5391943400.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Mobiles Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "PSI+ Beam" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "3 aktive Ports" },
-                { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Smart Beam", "value": "Basic verfügbar" },
-                { "@type": "PropertyValue", "name": "Elastographie", "value": "Nicht verfügbar" },
-                { "@type": "PropertyValue", "name": "Format", "value": "Kompakt — günstigster Z-Einstieg" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem Einstieg" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray Z60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z60" },
-                { "@type": "Product", "name": "Mindray MX3", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx3" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray Z50", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50/#product",
+          "name": "Mindray Z50",
+          "description": "Kompaktes mobiles Laptop-Ultraschallsystem auf PSI+ Beam Plattform mit 3 aktiven Ports, Farbdoppler und Smart Beam Basic. Bewährt und zuverlässig für mobile Basisdiagnostik.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-z50/8a797c77-91f8-40fc-183c-e39ae093a500.png",
+            "https://dormed.de/assets/img/produkte/mindray-z50/105617fe-f87d-499b-43d2-1f8588b5af00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-z50/26fc6aa0-ef05-43a7-a1b8-79e945273500.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-z50/5652d743-17a9-44b3-c4f3-4a5391943400.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Mobiles Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "PSI+ Beam" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "3 aktive Ports" },
+            { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Smart Beam", "value": "Basic verfügbar" },
+            { "@type": "PropertyValue", "name": "Elastographie", "value": "Nicht verfügbar" },
+            { "@type": "PropertyValue", "name": "Format", "value": "Kompakt — günstigster Z-Einstieg" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem Einstieg" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray Z60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z60" },
+            { "@type": "Product", "name": "Mindray MX3", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx3" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray Z50", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

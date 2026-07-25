@@ -1,164 +1,189 @@
-@php
-    $title = "Ultraschall Kardiologie – Echokardiographie Geräte | DORMED";
-    $canonical = "https://dormed.de/fuer/kardiologie";
-    $description = "Echokardiographie-Systeme für die kardiologische Praxis. Mindray Resona, Nuewa und Esaote MyLab A70 mit Strain-Analyse, AutoEF und 3D/4D-Bildgebung.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/fuer/kardiologie">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/fuer/kardiologie">
+
+        <title>Ultraschall Kardiologie – Echokardiographie Geräte | DORMED</title>
+        <meta name="description" content="Echokardiographie-Systeme für die kardiologische Praxis. Mindray Resona, Nuewa und Esaote MyLab A70 mit Strain-Analyse, AutoEF und 3D/4D-Bildgebung.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/fuer/kardiologie">
+
+    
+
+        <meta property="og:title" content="Ultraschall Kardiologie – Echokardiographie Geräte | DORMED">
+        <meta property="og:description" content="Echokardiographie-Systeme für die kardiologische Praxis. Mindray Resona, Nuewa und Esaote MyLab A70 mit Strain-Analyse, AutoEF und 3D/4D-Bildgebung.">
+        <meta property="og:url" content="https://dormed.de/fuer/kardiologie">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Kardiologie – Echokardiographie Geräte | DORMED">
+        <meta name="twitter:description" content="Echokardiographie-Systeme für die kardiologische Praxis. Mindray Resona, Nuewa und Esaote MyLab A70 mit Strain-Analyse, AutoEF und 3D/4D-Bildgebung.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://dormed.de/fuer/kardiologie/#webpage",
+          "name": "Ultraschall Kardiologie – Echokardiographie für die Praxis | DORMED",
+          "description": "Echokardiographie-Systeme für die kardiologische Praxis. Mindray Resona, Nuewa und Esaote MyLab A70 mit XStrain™, AutoEF und 3D/4D — inkl. Wirtschaftlichkeit & GOÄ.",
+          "url": "https://dormed.de/fuer/kardiologie",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Für Fachgebiete", "item": "https://dormed.de/fuer" },
+              { "@type": "ListItem", "position": 3, "name": "Kardiologie", "item": "https://dormed.de/fuer/kardiologie" }
+            ]
+          },
+          "hasPart": [
+            { "@id": "https://dormed.de/fuer/kardiologie/wirtschaftlichkeit/#webpage" },
+            { "@id": "https://dormed.de/fuer/kardiologie/cw-doppler/#webpage" },
+            { "@id": "https://dormed.de/fuer/kardiologie/pw-doppler/#webpage" }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "name": "Empfohlene Ultraschallgeräte für die Kardiologie",
+          "description": "Diese Echokardiographie-Systeme empfiehlt SONORING DORMED für kardiologische Praxen – von der soliden Einstiegslösung bis zum Flaggschiff.",
+          "numberOfItems": 4,
+          "itemListElement": [
             {
-              "@type": "WebPage",
-              "@id": "https://dormed.de/fuer/kardiologie/#webpage",
-              "name": "Ultraschall Kardiologie – Echokardiographie für die Praxis | DORMED",
-              "description": "Echokardiographie-Systeme für die kardiologische Praxis. Mindray Resona, Nuewa und Esaote MyLab A70 mit XStrain™, AutoEF und 3D/4D — inkl. Wirtschaftlichkeit & GOÄ.",
-              "url": "https://dormed.de/fuer/kardiologie",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Für Fachgebiete", "item": "https://dormed.de/fuer" },
-                  { "@type": "ListItem", "position": 3, "name": "Kardiologie", "item": "https://dormed.de/fuer/kardiologie" }
-                ]
-              },
-              "hasPart": [
-                { "@id": "https://dormed.de/fuer/kardiologie/wirtschaftlichkeit/#webpage" },
-                { "@id": "https://dormed.de/fuer/kardiologie/cw-doppler/#webpage" },
-                { "@id": "https://dormed.de/fuer/kardiologie/pw-doppler/#webpage" }
-              ]
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Mindray Resona i9",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9"
             },
             {
-              "@type": "ItemList",
-              "name": "Empfohlene Ultraschallgeräte für die Kardiologie",
-              "description": "Diese Echokardiographie-Systeme empfiehlt SONORING DORMED für kardiologische Praxen – von der soliden Einstiegslösung bis zum Flaggschiff.",
-              "numberOfItems": 4,
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Mindray Resona i9",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Mindray Nuewa i9",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Esaote MyLab A70",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 4,
-                  "name": "Mindray Resona i8",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i8"
-                }
-              ]
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Mindray Nuewa i9",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9"
             },
             {
-              "@type": "ItemList",
-              "name": "Vertiefende Themen zur Kardiologie",
-              "description": "Spezialthemen rund um Echokardiographie, Doppler-Verfahren und Wirtschaftlichkeit kardiologischer Ultraschalldiagnostik.",
-              "numberOfItems": 3,
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Wirtschaftlichkeit & GOÄ in der kardiologischen Sonographie",
-                  "url": "https://dormed.de/fuer/kardiologie/wirtschaftlichkeit"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "CW-Doppler in der Echokardiographie",
-                  "url": "https://dormed.de/fuer/kardiologie/cw-doppler"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "PW-Doppler in der Echokardiographie",
-                  "url": "https://dormed.de/fuer/kardiologie/pw-doppler"
-                }
-              ]
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Esaote MyLab A70",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70"
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Was kostet ein kardiologisches Ultraschallgerät?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die Preisspanne reicht von 25.000 € für Einstiegssysteme über 45.000–75.000 € für die kardiologische Mittelklasse bis hin zu über 100.000 € für High-End-Geräte. Für die typische niedergelassene Kardiologie liegt der Sweet Spot bei 50.000–70.000 € inklusive vollständiger Schallkopf-Ausstattung."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie schnell amortisiert sich ein Sono-Gerät in der Praxis?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ein Mittelklasse-Gerät (60.000 €, 25 Untersuchungen/Woche, 65 € Mischerlös) amortisiert sich typischerweise in 10–11 Monaten. Bei konservativen Annahmen liegt die Amortisation meist zwischen 12 und 24 Monaten. Bei 7 Jahren Nutzungsdauer bleiben 5–6 Jahre Reinerlös."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Lohnt sich Leasing oder Kauf?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Kauf rechnet sich langfristig günstiger und passt zu etablierten Praxen mit guter Eigenkapitalbasis. Leasing schont die Liquidität, ist voll als Betriebsausgabe absetzbar und passt zu Praxisgründern. Mietkauf kombiniert monatliche Raten mit automatischem Eigentumserwerb am Laufzeitende."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche GOÄ-Ziffer rechnet man für die Echokardiographie ab?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die Hauptziffern sind GOÄ 422 (Echokardiographie, ~41 € beim 2,3-fachen Satz), 423 (Doppler-Echokardiographie, ~47 €) und 424 (zweidimensionale Doppler-Echokardiographie, ~70 €). GOÄ 424 schließt 423 obligat ein. Im EBM gilt für gesetzlich Versicherte die Ziffer 33021."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was ist der typische Mischerlös pro Sono-Untersuchung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "In einer typischen kardiologischen Vollpraxis liegt der durchschnittliche Mischerlös bei 50–80 € pro Untersuchung. Eine GKV-Echokardiographie mit Doppler und Farbduplex bringt 60–80 €, eine Privat-Untersuchung 80–130 €. Praxen mit hohem Privatpatienten-Anteil amortisieren Premium-Geräte schneller."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welches Ultraschallgerät passt zu meiner Praxis?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Das hängt vom Untersuchungsspektrum ab: Basis-Echokardiographie braucht andere Hardware als Strain-Analyse, 3D-Echo oder Kontrastmittel-Untersuchungen. Für die kardiologische Vollpraxis empfehlen wir Mindray Resona i9, Nuewa i9 oder Esaote MyLab A70. Eine persönliche Beratung mit Bedarfsanalyse ist kostenlos."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie schnell ist die Lieferung eines neuen Ultraschallgeräts?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die Lieferzeit liegt typischerweise bei 2–6 Wochen ab Auftragsbestätigung — abhängig von Hersteller, Konfiguration und Schallkopf-Ausstattung. Lager-Geräte können innerhalb weniger Tage geliefert werden. Lieferung, Aufbau und Geräteeinweisung erfolgen direkt in Ihrer Praxis durch unsere zertifizierten Techniker — kostenfrei und bundesweit."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wer hilft bei technischen Problemen oder Wartung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "SONORING DORMED bietet einen eigenen Wartungs- und Reparaturservice mit zertifizierten Technikern bundesweit. Der erste Schritt ist meist eine Ferndiagnose über unsere Service-Hotline — viele Probleme lösen wir damit innerhalb weniger Stunden. Bei Bedarf kommt ein Servicetechniker in der Regel innerhalb von 24–48 Stunden zu Ihnen."
-                  }
-                }
-              ]
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Mindray Resona i8",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i8"
             }
           ]
-        }</script>
+        },
+        {
+          "@type": "ItemList",
+          "name": "Vertiefende Themen zur Kardiologie",
+          "description": "Spezialthemen rund um Echokardiographie, Doppler-Verfahren und Wirtschaftlichkeit kardiologischer Ultraschalldiagnostik.",
+          "numberOfItems": 3,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Wirtschaftlichkeit & GOÄ in der kardiologischen Sonographie",
+              "url": "https://dormed.de/fuer/kardiologie/wirtschaftlichkeit"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "CW-Doppler in der Echokardiographie",
+              "url": "https://dormed.de/fuer/kardiologie/cw-doppler"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "PW-Doppler in der Echokardiographie",
+              "url": "https://dormed.de/fuer/kardiologie/pw-doppler"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Was kostet ein kardiologisches Ultraschallgerät?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Preisspanne reicht von 25.000 € für Einstiegssysteme über 45.000–75.000 € für die kardiologische Mittelklasse bis hin zu über 100.000 € für High-End-Geräte. Für die typische niedergelassene Kardiologie liegt der Sweet Spot bei 50.000–70.000 € inklusive vollständiger Schallkopf-Ausstattung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie schnell amortisiert sich ein Sono-Gerät in der Praxis?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ein Mittelklasse-Gerät (60.000 €, 25 Untersuchungen/Woche, 65 € Mischerlös) amortisiert sich typischerweise in 10–11 Monaten. Bei konservativen Annahmen liegt die Amortisation meist zwischen 12 und 24 Monaten. Bei 7 Jahren Nutzungsdauer bleiben 5–6 Jahre Reinerlös."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Lohnt sich Leasing oder Kauf?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kauf rechnet sich langfristig günstiger und passt zu etablierten Praxen mit guter Eigenkapitalbasis. Leasing schont die Liquidität, ist voll als Betriebsausgabe absetzbar und passt zu Praxisgründern. Mietkauf kombiniert monatliche Raten mit automatischem Eigentumserwerb am Laufzeitende."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche GOÄ-Ziffer rechnet man für die Echokardiographie ab?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Hauptziffern sind GOÄ 422 (Echokardiographie, ~41 € beim 2,3-fachen Satz), 423 (Doppler-Echokardiographie, ~47 €) und 424 (zweidimensionale Doppler-Echokardiographie, ~70 €). GOÄ 424 schließt 423 obligat ein. Im EBM gilt für gesetzlich Versicherte die Ziffer 33021."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was ist der typische Mischerlös pro Sono-Untersuchung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In einer typischen kardiologischen Vollpraxis liegt der durchschnittliche Mischerlös bei 50–80 € pro Untersuchung. Eine GKV-Echokardiographie mit Doppler und Farbduplex bringt 60–80 €, eine Privat-Untersuchung 80–130 €. Praxen mit hohem Privatpatienten-Anteil amortisieren Premium-Geräte schneller."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welches Ultraschallgerät passt zu meiner Praxis?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das hängt vom Untersuchungsspektrum ab: Basis-Echokardiographie braucht andere Hardware als Strain-Analyse, 3D-Echo oder Kontrastmittel-Untersuchungen. Für die kardiologische Vollpraxis empfehlen wir Mindray Resona i9, Nuewa i9 oder Esaote MyLab A70. Eine persönliche Beratung mit Bedarfsanalyse ist kostenlos."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie schnell ist die Lieferung eines neuen Ultraschallgeräts?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Lieferzeit liegt typischerweise bei 2–6 Wochen ab Auftragsbestätigung — abhängig von Hersteller, Konfiguration und Schallkopf-Ausstattung. Lager-Geräte können innerhalb weniger Tage geliefert werden. Lieferung, Aufbau und Geräteeinweisung erfolgen direkt in Ihrer Praxis durch unsere zertifizierten Techniker — kostenfrei und bundesweit."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wer hilft bei technischen Problemen oder Wartung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "SONORING DORMED bietet einen eigenen Wartungs- und Reparaturservice mit zertifizierten Technikern bundesweit. Der erste Schritt ist meist eine Ferndiagnose über unsere Service-Hotline — viele Probleme lösen wir damit innerhalb weniger Stunden. Bei Bedarf kommt ein Servicetechniker in der Regel innerhalb von 24–48 Stunden zu Ihnen."
+              }
+            }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

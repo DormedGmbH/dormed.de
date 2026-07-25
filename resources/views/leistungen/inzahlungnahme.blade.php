@@ -1,112 +1,137 @@
-@php
-    $title = "Ultraschallgerät in Zahlung geben – Altgerät | SONORING DORMED";
-    $canonical = "https://dormed.de/leistungen/inzahlungnahme";
-    $description = "Geben Sie Ihr altes Ultraschallgerät in Zahlung und sparen Sie beim Neukauf. Faire Bewertung, unkomplizierte Abwicklung durch SONORING DORMED.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/leistungen/inzahlungnahme">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/leistungen/inzahlungnahme">
+
+        <title>Ultraschallgerät in Zahlung geben – Altgerät | SONORING DORMED</title>
+        <meta name="description" content="Geben Sie Ihr altes Ultraschallgerät in Zahlung und sparen Sie beim Neukauf. Faire Bewertung, unkomplizierte Abwicklung durch SONORING DORMED.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/leistungen/inzahlungnahme">
+
+    
+
+        <meta property="og:title" content="Ultraschallgerät in Zahlung geben – Altgerät | SONORING DORMED">
+        <meta property="og:description" content="Geben Sie Ihr altes Ultraschallgerät in Zahlung und sparen Sie beim Neukauf. Faire Bewertung, unkomplizierte Abwicklung durch SONORING DORMED.">
+        <meta property="og:url" content="https://dormed.de/leistungen/inzahlungnahme">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschallgerät in Zahlung geben – Altgerät | SONORING DORMED">
+        <meta name="twitter:description" content="Geben Sie Ihr altes Ultraschallgerät in Zahlung und sparen Sie beim Neukauf. Faire Bewertung, unkomplizierte Abwicklung durch SONORING DORMED.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-inzahlungnahme",
+          "name": "Ultraschallgerät in Zahlung geben",
+          "url": "https://dormed.de/leistungen/inzahlungnahme",
+          "description": "Geben Sie Ihr altes Ultraschallgerät in Zahlung und sparen Sie beim Neukauf. Faire Bewertung, unkomplizierte Abwicklung durch SONORING DORMED.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "areaServed": { "@type": "Country", "name": "Deutschland" },
+          "serviceType": "Inzahlungnahme"
+        },
+        {
+          "@type": "HowTo",
+          "name": "Wie läuft die Inzahlungnahme eines Ultraschallgeräts ab?",
+          "description": "In drei einfachen Schritten zum neuen Gerät – Altgerät bewerten lassen, Angebot erhalten, Abholung und Verrechnung.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "step": [
             {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-inzahlungnahme",
-              "name": "Ultraschallgerät in Zahlung geben",
-              "url": "https://dormed.de/leistungen/inzahlungnahme",
-              "description": "Geben Sie Ihr altes Ultraschallgerät in Zahlung und sparen Sie beim Neukauf. Faire Bewertung, unkomplizierte Abwicklung durch SONORING DORMED.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "areaServed": { "@type": "Country", "name": "Deutschland" },
-              "serviceType": "Inzahlungnahme"
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Anfrage & Bewertung",
+              "text": "Sie teilen uns Hersteller, Modell, Baujahr und Zustand Ihres Geräts mit – per Telefon oder über unser Kontaktformular. Wir prüfen und erstellen Ihnen ein unverbindliches Bewertungsangebot."
             },
             {
-              "@type": "HowTo",
-              "name": "Wie läuft die Inzahlungnahme eines Ultraschallgeräts ab?",
-              "description": "In drei einfachen Schritten zum neuen Gerät – Altgerät bewerten lassen, Angebot erhalten, Abholung und Verrechnung.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "step": [
-                {
-                  "@type": "HowToStep",
-                  "position": 1,
-                  "name": "Anfrage & Bewertung",
-                  "text": "Sie teilen uns Hersteller, Modell, Baujahr und Zustand Ihres Geräts mit – per Telefon oder über unser Kontaktformular. Wir prüfen und erstellen Ihnen ein unverbindliches Bewertungsangebot."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 2,
-                  "name": "Angebot & Abstimmung",
-                  "text": "Sie erhalten ein transparentes Angebot mit dem Inzahlungnahme-Wert. Nach Ihrer Zustimmung stimmen wir gemeinsam Termin und Ablauf ab – abgestimmt auf den Lieferzeitraum Ihres neuen Geräts."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 3,
-                  "name": "Abholung & Verrechnung",
-                  "text": "Wir holen Ihr Altgerät direkt in Ihrer Praxis ab und liefern das neue System – alles koordiniert, kein Zeitverlust. Der Inzahlungnahme-Wert wird direkt vom Neupreis abgezogen."
-                }
-              ]
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Angebot & Abstimmung",
+              "text": "Sie erhalten ein transparentes Angebot mit dem Inzahlungnahme-Wert. Nach Ihrer Zustimmung stimmen wir gemeinsam Termin und Ablauf ab – abgestimmt auf den Lieferzeitraum Ihres neuen Geräts."
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Welche Geräte nehmen Sie in Zahlung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Wir nehmen Ultraschallgeräte aller gängigen Hersteller in Zahlung — sofern Zustand und Marktwert passen. Bei Mindray, Esaote und Chison läuft die Inzahlungnahme standardisiert, da diese Geräte aus unserem eigenen Portfolio stammen. Geräte anderer Hersteller — etwa GE HealthCare, Philips, Siemens Healthineers, Canon, Samsung, Hitachi/Fujifilm, SonoScape oder Handhelds von Clarius und Butterfly — prüfen wir individuell auf Zustand, Baujahr und Marktwert. Voraussetzung ist ein funktionsfähiges Gerät ohne Totalschaden."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Muss mein Gerät noch funktionsfähig sein?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, das Gerät sollte grundsätzlich funktionsfähig sein. Gebrauchsspuren sind normal und mindern den Wert nur geringfügig. Bei technischen Mängeln kommt es auf den konkreten Defekt an – sprechen Sie uns einfach an, wir prüfen den Einzelfall."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie wird der Wert meines Altgeräts ermittelt?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Der Inzahlungnahme-Wert ergibt sich aus vier Faktoren: Modell und Hersteller, technischer Zustand, Baujahr sowie vorhandene Sonden und Dokumentation. Nach Ihrer Anfrage erhalten Sie von uns ein transparentes, unverbindliches Angebot – nachvollziehbar und ohne versteckte Abzüge."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wird der Altgeräte-Wert direkt vom Neupreis abgezogen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, genau so funktioniert die Inzahlungnahme. Der ermittelte Wert Ihres Altgeräts wird direkt vom Kaufpreis Ihres neuen Ultraschallsystems abgezogen – Sie zahlen nur die Differenz."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Holen Sie das Gerät auch aus meiner Praxis ab?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja. Wir koordinieren die Abholung Ihres Altgeräts direkt mit dem Liefertermin Ihres neuen Systems – so entsteht kein Zeitverlust im Praxisbetrieb. Unser Team ist für die fachgerechte Demontage und den Transport verantwortlich."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was passiert mit meinem Altgerät nach der Abholung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Gebrauchsfähige Geräte werden nach Prüfung und technischer Aufbereitung als Gebrauchtgeräte weiterverkauft. Geräte, die nicht mehr marktfähig sind, werden fachgerecht und datenschutzkonform entsorgt. In jedem Fall werden alle gespeicherten Patientendaten vor der Weitergabe vollständig gelöscht."
-                  }
-                }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
-                { "@type": "ListItem", "position": 3, "name": "Inzahlungnahme", "item": "https://dormed.de/leistungen/inzahlungnahme" }
-              ]
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Abholung & Verrechnung",
+              "text": "Wir holen Ihr Altgerät direkt in Ihrer Praxis ab und liefern das neue System – alles koordiniert, kein Zeitverlust. Der Inzahlungnahme-Wert wird direkt vom Neupreis abgezogen."
             }
           ]
-        }</script>
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Welche Geräte nehmen Sie in Zahlung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wir nehmen Ultraschallgeräte aller gängigen Hersteller in Zahlung — sofern Zustand und Marktwert passen. Bei Mindray, Esaote und Chison läuft die Inzahlungnahme standardisiert, da diese Geräte aus unserem eigenen Portfolio stammen. Geräte anderer Hersteller — etwa GE HealthCare, Philips, Siemens Healthineers, Canon, Samsung, Hitachi/Fujifilm, SonoScape oder Handhelds von Clarius und Butterfly — prüfen wir individuell auf Zustand, Baujahr und Marktwert. Voraussetzung ist ein funktionsfähiges Gerät ohne Totalschaden."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Muss mein Gerät noch funktionsfähig sein?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, das Gerät sollte grundsätzlich funktionsfähig sein. Gebrauchsspuren sind normal und mindern den Wert nur geringfügig. Bei technischen Mängeln kommt es auf den konkreten Defekt an – sprechen Sie uns einfach an, wir prüfen den Einzelfall."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie wird der Wert meines Altgeräts ermittelt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Inzahlungnahme-Wert ergibt sich aus vier Faktoren: Modell und Hersteller, technischer Zustand, Baujahr sowie vorhandene Sonden und Dokumentation. Nach Ihrer Anfrage erhalten Sie von uns ein transparentes, unverbindliches Angebot – nachvollziehbar und ohne versteckte Abzüge."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wird der Altgeräte-Wert direkt vom Neupreis abgezogen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, genau so funktioniert die Inzahlungnahme. Der ermittelte Wert Ihres Altgeräts wird direkt vom Kaufpreis Ihres neuen Ultraschallsystems abgezogen – Sie zahlen nur die Differenz."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Holen Sie das Gerät auch aus meiner Praxis ab?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Wir koordinieren die Abholung Ihres Altgeräts direkt mit dem Liefertermin Ihres neuen Systems – so entsteht kein Zeitverlust im Praxisbetrieb. Unser Team ist für die fachgerechte Demontage und den Transport verantwortlich."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was passiert mit meinem Altgerät nach der Abholung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Gebrauchsfähige Geräte werden nach Prüfung und technischer Aufbereitung als Gebrauchtgeräte weiterverkauft. Geräte, die nicht mehr marktfähig sind, werden fachgerecht und datenschutzkonform entsorgt. In jedem Fall werden alle gespeicherten Patientendaten vor der Weitergabe vollständig gelöscht."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
+            { "@type": "ListItem", "position": 3, "name": "Inzahlungnahme", "item": "https://dormed.de/leistungen/inzahlungnahme" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

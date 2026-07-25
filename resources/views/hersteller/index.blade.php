@@ -1,40 +1,65 @@
-@php
-    $title = "Ultraschall Hersteller – Mindray & Esaote | SONORING DORMED";
-    $canonical = "https://dormed.de/hersteller";
-    $description = "SONORING DORMED ist autorisierter Händler für Mindray und Esaote Ultraschallgeräte – Partner seit 2005. Geräteportfolio, Service und Beratung aus einer Hand, bundesweit.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/hersteller">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/hersteller">
+
+        <title>Ultraschall Hersteller – Mindray &amp; Esaote | SONORING DORMED</title>
+        <meta name="description" content="SONORING DORMED ist autorisierter Händler für Mindray und Esaote Ultraschallgeräte – Partner seit 2005. Geräteportfolio, Service und Beratung aus einer Hand, bundesweit.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/hersteller">
+
+    
+
+        <meta property="og:title" content="Ultraschall Hersteller – Mindray &amp;amp; Esaote | SONORING DORMED">
+        <meta property="og:description" content="SONORING DORMED ist autorisierter Händler für Mindray und Esaote Ultraschallgeräte – Partner seit 2005. Geräteportfolio, Service und Beratung aus einer Hand, bundesweit.">
+        <meta property="og:url" content="https://dormed.de/hersteller">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Hersteller – Mindray &amp;amp; Esaote | SONORING DORMED">
+        <meta name="twitter:description" content="SONORING DORMED ist autorisierter Händler für Mindray und Esaote Ultraschallgeräte – Partner seit 2005. Geräteportfolio, Service und Beratung aus einer Hand, bundesweit.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "CollectionPage",
-              "@id": "https://dormed.de/hersteller/#webpage",
-              "name": "Ultraschall Hersteller – Mindray & Esaote | SONORING DORMED",
-              "description": "SONORING DORMED ist autorisierter Händler für Mindray und Esaote Ultraschallgeräte. Erfahren Sie mehr über unsere Herstellerpartnerschaften und das Geräteportfolio.",
-              "url": "https://dormed.de/hersteller",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Hersteller", "item": "https://dormed.de/hersteller" }
-                ]
-              }
-            },
-            {
-              "@type": "ItemList",
-              "name": "Unsere Herstellerpartner",
-              "numberOfItems": 2,
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Mindray Ultraschallgeräte", "url": "https://dormed.de/hersteller/mindray" },
-                { "@type": "ListItem", "position": 2, "name": "Esaote Ultraschallgeräte", "url": "https://dormed.de/hersteller/esaote" }
-              ]
-            }
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://dormed.de/hersteller/#webpage",
+          "name": "Ultraschall Hersteller – Mindray & Esaote | SONORING DORMED",
+          "description": "SONORING DORMED ist autorisierter Händler für Mindray und Esaote Ultraschallgeräte. Erfahren Sie mehr über unsere Herstellerpartnerschaften und das Geräteportfolio.",
+          "url": "https://dormed.de/hersteller",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Hersteller", "item": "https://dormed.de/hersteller" }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Unsere Herstellerpartner",
+          "numberOfItems": 2,
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Mindray Ultraschallgeräte", "url": "https://dormed.de/hersteller/mindray" },
+            { "@type": "ListItem", "position": 2, "name": "Esaote Ultraschallgeräte", "url": "https://dormed.de/hersteller/esaote" }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

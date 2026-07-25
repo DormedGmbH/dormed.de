@@ -1,81 +1,106 @@
-@php
-    $title = "Mindray Consona N8 kaufen – Ultraschall Mittelklasse | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8";
-    $description = "Mindray Consona N8: Solides Mittelklassesystem mit ClearVision Engine, Farbdoppler und ergonomischem Design – ideal für den Praxisalltag.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8">
+
+        <title>Mindray Consona N8 kaufen – Ultraschall Mittelklasse | DORMED</title>
+        <meta name="description" content="Mindray Consona N8: Solides Mittelklassesystem mit ClearVision Engine, Farbdoppler und ergonomischem Design – ideal für den Praxisalltag.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8">
+
+    
+
+        <meta property="og:title" content="Mindray Consona N8 kaufen – Ultraschall Mittelklasse | DORMED">
+        <meta property="og:description" content="Mindray Consona N8: Solides Mittelklassesystem mit ClearVision Engine, Farbdoppler und ergonomischem Design – ideal für den Praxisalltag.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray Consona N8 kaufen – Ultraschall Mittelklasse | DORMED">
+        <meta name="twitter:description" content="Mindray Consona N8: Solides Mittelklassesystem mit ClearVision Engine, Farbdoppler und ergonomischem Design – ideal für den Praxisalltag.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8/#product",
-              "name": "Mindray Consona N8",
-              "description": "Leistungsstarkes Ultraschallsystem auf ZST+ Plattform mit 21,5\" Monitor, 13,3\" Touchscreen, 4+1 aktiven Ports, Elastographie, Smart Thyroid, iTouch Bildoptimierung und vollständiger Farbdoppler-Suite. Für Allgemeinmedizin, Innere Medizin und Schilddrüsendiagnostik.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-consona-n6/18568e12-ce75-4445-6541-82d6697a4400.png",
-                "https://dormed.de/assets/img/produkte/mindray-consona-n8/d4ef32ef-42ac-43fe-3d4c-ee797b55ee00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-consona-n8/220e14b4-5fc8-4530-cb99-3e19aef34c00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-consona-n8/91b6f418-73f8-4ad2-8b49-758664e6d600.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Stationäres Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+ (Zone Sonography Technology Plus)" },
-                { "@type": "PropertyValue", "name": "Monitor", "value": "21,5 Zoll" },
-                { "@type": "PropertyValue", "name": "Touchscreen", "value": "13,3 Zoll" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
-                { "@type": "PropertyValue", "name": "Elastographie", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Smart Thyroid", "value": "Verfügbar — automatische Schilddrüsenanalyse" },
-                { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "iTouch", "value": "Verfügbar — automatische Bildoptimierung" },
-                { "@type": "PropertyValue", "name": "AutoDPF-Pisa", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Nadelführung 2D/3D", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Stationäres Standgerät Oberklasse" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray Consona N9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n9" },
-                { "@type": "Product", "name": "Mindray Consona N6", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n6" },
-                { "@type": "Product", "name": "Esaote MyLab A50", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray Consona N8", "item": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8/#product",
+          "name": "Mindray Consona N8",
+          "description": "Leistungsstarkes Ultraschallsystem auf ZST+ Plattform mit 21,5\" Monitor, 13,3\" Touchscreen, 4+1 aktiven Ports, Elastographie, Smart Thyroid, iTouch Bildoptimierung und vollständiger Farbdoppler-Suite. Für Allgemeinmedizin, Innere Medizin und Schilddrüsendiagnostik.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-consona-n6/18568e12-ce75-4445-6541-82d6697a4400.png",
+            "https://dormed.de/assets/img/produkte/mindray-consona-n8/d4ef32ef-42ac-43fe-3d4c-ee797b55ee00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-consona-n8/220e14b4-5fc8-4530-cb99-3e19aef34c00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-consona-n8/91b6f418-73f8-4ad2-8b49-758664e6d600.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Stationäres Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+ (Zone Sonography Technology Plus)" },
+            { "@type": "PropertyValue", "name": "Monitor", "value": "21,5 Zoll" },
+            { "@type": "PropertyValue", "name": "Touchscreen", "value": "13,3 Zoll" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
+            { "@type": "PropertyValue", "name": "Elastographie", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Smart Thyroid", "value": "Verfügbar — automatische Schilddrüsenanalyse" },
+            { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "iTouch", "value": "Verfügbar — automatische Bildoptimierung" },
+            { "@type": "PropertyValue", "name": "AutoDPF-Pisa", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Nadelführung 2D/3D", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Stationäres Standgerät Oberklasse" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray Consona N9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n9" },
+            { "@type": "Product", "name": "Mindray Consona N6", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n6" },
+            { "@type": "Product", "name": "Esaote MyLab A50", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray Consona N8", "item": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

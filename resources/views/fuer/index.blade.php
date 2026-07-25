@@ -1,43 +1,68 @@
-@php
-    $title = "Ultraschall nach Fachgebiet – Geräte für Ärzte | DORMED";
-    $canonical = "https://dormed.de/fuer";
-    $description = "Ultraschallgerät für Ihre Fachrichtung finden – Allgemeinmedizin, Kardiologie, Gynäkologie und Orthopädie. Fachspezifische Beratung durch DORMED Experten, kostenlos.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/fuer">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/fuer">
+
+        <title>Ultraschall nach Fachgebiet – Geräte für Ärzte | DORMED</title>
+        <meta name="description" content="Ultraschallgerät für Ihre Fachrichtung finden – Allgemeinmedizin, Kardiologie, Gynäkologie und Orthopädie. Fachspezifische Beratung durch DORMED Experten, kostenlos.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/fuer">
+
+    
+
+        <meta property="og:title" content="Ultraschall nach Fachgebiet – Geräte für Ärzte | DORMED">
+        <meta property="og:description" content="Ultraschallgerät für Ihre Fachrichtung finden – Allgemeinmedizin, Kardiologie, Gynäkologie und Orthopädie. Fachspezifische Beratung durch DORMED Experten, kostenlos.">
+        <meta property="og:url" content="https://dormed.de/fuer">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall nach Fachgebiet – Geräte für Ärzte | DORMED">
+        <meta name="twitter:description" content="Ultraschallgerät für Ihre Fachrichtung finden – Allgemeinmedizin, Kardiologie, Gynäkologie und Orthopädie. Fachspezifische Beratung durch DORMED Experten, kostenlos.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "CollectionPage",
-              "@id": "https://dormed.de/fuer/#webpage",
-              "name": "Ultraschall nach Fachgebiet – Geräte für Ärzte | DORMED",
-              "description": "Ultraschallgerät für Ihre Fachrichtung finden – Allgemeinmedizin, Kardiologie, Gynäkologie und Orthopädie. Fachspezifische Beratung durch DORMED Experten, kostenlos.",
-              "url": "https://dormed.de/fuer",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Für Fachgebiete", "item": "https://dormed.de/fuer" }
-                ]
-              }
-            },
-            {
-              "@type": "ItemList",
-              "name": "Ultraschall nach Fachgebiet",
-              "description": "Fachgebietsspezifische Ultraschall-Beratung und Geräteempfehlungen von SONORING DORMED.",
-              "numberOfItems": 4,
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Ultraschall Allgemeinmedizin", "url": "https://dormed.de/fuer/allgemeinmedizin" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschall Kardiologie", "url": "https://dormed.de/fuer/kardiologie" },
-                { "@type": "ListItem", "position": 3, "name": "Ultraschall Gynäkologie", "url": "https://dormed.de/fuer/gynaekologie" },
-                { "@type": "ListItem", "position": 4, "name": "Ultraschall Orthopädie", "url": "https://dormed.de/fuer/orthopaedie" }
-              ]
-            }
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://dormed.de/fuer/#webpage",
+          "name": "Ultraschall nach Fachgebiet – Geräte für Ärzte | DORMED",
+          "description": "Ultraschallgerät für Ihre Fachrichtung finden – Allgemeinmedizin, Kardiologie, Gynäkologie und Orthopädie. Fachspezifische Beratung durch DORMED Experten, kostenlos.",
+          "url": "https://dormed.de/fuer",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Für Fachgebiete", "item": "https://dormed.de/fuer" }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Ultraschall nach Fachgebiet",
+          "description": "Fachgebietsspezifische Ultraschall-Beratung und Geräteempfehlungen von SONORING DORMED.",
+          "numberOfItems": 4,
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Ultraschall Allgemeinmedizin", "url": "https://dormed.de/fuer/allgemeinmedizin" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschall Kardiologie", "url": "https://dormed.de/fuer/kardiologie" },
+            { "@type": "ListItem", "position": 3, "name": "Ultraschall Gynäkologie", "url": "https://dormed.de/fuer/gynaekologie" },
+            { "@type": "ListItem", "position": 4, "name": "Ultraschall Orthopädie", "url": "https://dormed.de/fuer/orthopaedie" }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

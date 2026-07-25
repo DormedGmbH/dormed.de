@@ -1,78 +1,103 @@
-@php
-    $title = "Mindray MX5 kaufen – Mobiler Ultraschall | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5";
-    $description = "Mindray MX5: Mobiles Ultraschallsystem mit kompaktem Design und solider Leistung für den flexiblen Praxiseinsatz. Beratung & Lieferung durch DORMED.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5">
+
+        <title>Mindray MX5 kaufen – Mobiler Ultraschall | DORMED</title>
+        <meta name="description" content="Mindray MX5: Mobiles Ultraschallsystem mit kompaktem Design und solider Leistung für den flexiblen Praxiseinsatz. Beratung &amp; Lieferung durch DORMED.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5">
+
+    
+
+        <meta property="og:title" content="Mindray MX5 kaufen – Mobiler Ultraschall | DORMED">
+        <meta property="og:description" content="Mindray MX5: Mobiles Ultraschallsystem mit kompaktem Design und solider Leistung für den flexiblen Praxiseinsatz. Beratung &amp; Lieferung durch DORMED.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray MX5 kaufen – Mobiler Ultraschall | DORMED">
+        <meta name="twitter:description" content="Mindray MX5: Mobiles Ultraschallsystem mit kompaktem Design und solider Leistung für den flexiblen Praxiseinsatz. Beratung &amp;amp; Lieferung durch DORMED.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5/#product",
-              "name": "Mindray MX5",
-              "description": "Kompaktes mobiles Ultraschallsystem auf ZST+ Primary Core Plattform mit 13,3\" Display, 3 aktiven Ports, Smart Beam, AVC™ und Farbdoppler. Vielseitig und handlich für den täglichen Praxiseinsatz.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-mx5/cfe6e596-f655-432a-8a16-811ac45d4f00.png",
-                "https://dormed.de/assets/img/produkte/mindray-mx5/efc92a0f-cc75-4608-ebd8-85f4467d8100.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-mx5/94447542-494e-42fd-46fe-4c420c8b2f00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-mx5/7f0ffd7f-af34-439d-fa78-d92d673cec00.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Mobiles Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+ Primary Core" },
-                { "@type": "PropertyValue", "name": "Monitor", "value": "13,3 Zoll integriert" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "3 aktive Ports" },
-                { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "AVC™", "value": "Verfügbar — automatische Bildoptimierung" },
-                { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Elastographie", "value": "Nicht verfügbar" },
-                { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem Einstieg" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray MX7", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7" },
-                { "@type": "Product", "name": "Mindray MX3", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx3" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray MX5", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5/#product",
+          "name": "Mindray MX5",
+          "description": "Kompaktes mobiles Ultraschallsystem auf ZST+ Primary Core Plattform mit 13,3\" Display, 3 aktiven Ports, Smart Beam, AVC™ und Farbdoppler. Vielseitig und handlich für den täglichen Praxiseinsatz.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-mx5/cfe6e596-f655-432a-8a16-811ac45d4f00.png",
+            "https://dormed.de/assets/img/produkte/mindray-mx5/efc92a0f-cc75-4608-ebd8-85f4467d8100.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-mx5/94447542-494e-42fd-46fe-4c420c8b2f00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-mx5/7f0ffd7f-af34-439d-fa78-d92d673cec00.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Mobiles Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+ Primary Core" },
+            { "@type": "PropertyValue", "name": "Monitor", "value": "13,3 Zoll integriert" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "3 aktive Ports" },
+            { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "AVC™", "value": "Verfügbar — automatische Bildoptimierung" },
+            { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Elastographie", "value": "Nicht verfügbar" },
+            { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem Einstieg" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray MX7", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7" },
+            { "@type": "Product", "name": "Mindray MX3", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx3" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray MX5", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

@@ -1,86 +1,111 @@
-@php
-    $title = "Ultraschall Düsseldorf – SONORING DORMED Standort | SONORING DORMED";
-    $canonical = "https://dormed.de/standorte/duesseldorf";
-    $description = "Ultraschall-Beratung und Service in Düsseldorf. SONORING DORMED mit lokalem Ansprechpartner und Techniker-Team für Praxen in Düsseldorf und dem Rheinland.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/standorte/duesseldorf">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/standorte/duesseldorf">
+
+        <title>Ultraschall Düsseldorf – SONORING DORMED Standort | SONORING DORMED</title>
+        <meta name="description" content="Ultraschall-Beratung und Service in Düsseldorf. SONORING DORMED mit lokalem Ansprechpartner und Techniker-Team für Praxen in Düsseldorf und dem Rheinland.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/standorte/duesseldorf">
+
+    
+
+        <meta property="og:title" content="Ultraschall Düsseldorf – SONORING DORMED Standort | SONORING DORMED">
+        <meta property="og:description" content="Ultraschall-Beratung und Service in Düsseldorf. SONORING DORMED mit lokalem Ansprechpartner und Techniker-Team für Praxen in Düsseldorf und dem Rheinland.">
+        <meta property="og:url" content="https://dormed.de/standorte/duesseldorf">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Düsseldorf – SONORING DORMED Standort | SONORING DORMED">
+        <meta name="twitter:description" content="Ultraschall-Beratung und Service in Düsseldorf. SONORING DORMED mit lokalem Ansprechpartner und Techniker-Team für Praxen in Düsseldorf und dem Rheinland.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://dormed.de/#localbusiness-ratingen",
+          "name": "SONORING DORMED – Düsseldorf / Ratingen",
+          "url": "https://dormed.de/standorte/duesseldorf",
+          "telephone": "+492301188600",
+          "email": "mail@dormed.de",
+          "image": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
+          "priceRange": "€€€",
+          "description": "SONORING DORMED Niederlassung in Ratingen bei Düsseldorf. Ultraschall-Beratung und Service für Praxen im Rheinland.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Borsigstraße 5",
+            "addressLocality": "Ratingen",
+            "postalCode": "40880",
+            "addressCountry": "DE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.3024916,
+            "longitude": 6.8367663
+          },
+          "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.3024915,6.8318954,17z",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "26",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "openingHoursSpecification": [
             {
-              "@type": "LocalBusiness",
-              "@id": "https://dormed.de/#localbusiness-ratingen",
-              "name": "SONORING DORMED – Düsseldorf / Ratingen",
-              "url": "https://dormed.de/standorte/duesseldorf",
-              "telephone": "+492301188600",
-              "email": "mail@dormed.de",
-              "image": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
-              "priceRange": "€€€",
-              "description": "SONORING DORMED Niederlassung in Ratingen bei Düsseldorf. Ultraschall-Beratung und Service für Praxen im Rheinland.",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Borsigstraße 5",
-                "addressLocality": "Ratingen",
-                "postalCode": "40880",
-                "addressCountry": "DE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 51.3024916,
-                "longitude": 6.8367663
-              },
-              "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.3024915,6.8318954,17z",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "26",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-                  "opens": "08:00",
-                  "closes": "17:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Friday",
-                  "opens": "08:00",
-                  "closes": "15:00"
-                }
-              ],
-              "parentOrganization": {
-                "@id": "https://dormed.de/#organization"
-              }
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+              "opens": "08:00",
+              "closes": "17:00"
             },
             {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Startseite",
-                  "item": "https://dormed.de"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Standorte",
-                  "item": "https://dormed.de/standorte"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Düsseldorf",
-                  "item": "https://dormed.de/standorte/duesseldorf"
-                }
-              ]
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Friday",
+              "opens": "08:00",
+              "closes": "15:00"
+            }
+          ],
+          "parentOrganization": {
+            "@id": "https://dormed.de/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Startseite",
+              "item": "https://dormed.de"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Standorte",
+              "item": "https://dormed.de/standorte"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Düsseldorf",
+              "item": "https://dormed.de/standorte/duesseldorf"
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

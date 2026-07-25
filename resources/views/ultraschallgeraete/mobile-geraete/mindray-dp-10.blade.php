@@ -1,77 +1,102 @@
-@php
-    $title = "Mindray DP 10 kaufen – Einstieg in die Sonographie | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10";
-    $description = "Mindray DP 10: Einstiegsgerät für die Ultraschalldiagnostik – solide Technik zum wirtschaftlichen Preis. Mit bundesweitem Service und Einweisung durch DORMED.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10">
+
+        <title>Mindray DP 10 kaufen – Einstieg in die Sonographie | DORMED</title>
+        <meta name="description" content="Mindray DP 10: Einstiegsgerät für die Ultraschalldiagnostik – solide Technik zum wirtschaftlichen Preis. Mit bundesweitem Service und Einweisung durch DORMED.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10">
+
+    
+
+        <meta property="og:title" content="Mindray DP 10 kaufen – Einstieg in die Sonographie | DORMED">
+        <meta property="og:description" content="Mindray DP 10: Einstiegsgerät für die Ultraschalldiagnostik – solide Technik zum wirtschaftlichen Preis. Mit bundesweitem Service und Einweisung durch DORMED.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray DP 10 kaufen – Einstieg in die Sonographie | DORMED">
+        <meta name="twitter:description" content="Mindray DP 10: Einstiegsgerät für die Ultraschalldiagnostik – solide Technik zum wirtschaftlichen Preis. Mit bundesweitem Service und Einweisung durch DORMED.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10/#product",
-              "name": "Mindray DP-10",
-              "description": "Neues kompaktes Laptop-Ultraschallsystem auf TAD+ Plattform mit 13,5\" Display, 3 aktiven Ports, Smart Beam, DICOM-Integration und Square PC Bilddarstellung. Neue Generation der DP-Serie.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-dp-10/3c5d9dd2-b2ca-4579-8e04-ca34497e4100.png",
-                "https://dormed.de/assets/img/produkte/mindray-dp-10/a1c99299-9cca-4534-5295-bc5e26246a00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-dp-10/5279ff92-75d8-4db7-2df1-f4aae6266100.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-dp-10/5fec8c10-55de-4dd2-3aca-b03a482fd500.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Mobiles Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "TAD+ (neue Generation)" },
-                { "@type": "PropertyValue", "name": "Monitor", "value": "13,5 Zoll" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "3 aktive Ports" },
-                { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "DICOM", "value": "Vollständig integriert" },
-                { "@type": "PropertyValue", "name": "Square PC", "value": "Verfügbar — moderne Bilddarstellung" },
-                { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem neue Generation" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray DP-30", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-30" },
-                { "@type": "Product", "name": "Mindray DP-50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-50" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray DP-10", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10/#product",
+          "name": "Mindray DP-10",
+          "description": "Neues kompaktes Laptop-Ultraschallsystem auf TAD+ Plattform mit 13,5\" Display, 3 aktiven Ports, Smart Beam, DICOM-Integration und Square PC Bilddarstellung. Neue Generation der DP-Serie.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-dp-10/3c5d9dd2-b2ca-4579-8e04-ca34497e4100.png",
+            "https://dormed.de/assets/img/produkte/mindray-dp-10/a1c99299-9cca-4534-5295-bc5e26246a00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-dp-10/5279ff92-75d8-4db7-2df1-f4aae6266100.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-dp-10/5fec8c10-55de-4dd2-3aca-b03a482fd500.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Mobiles Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "TAD+ (neue Generation)" },
+            { "@type": "PropertyValue", "name": "Monitor", "value": "13,5 Zoll" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "3 aktive Ports" },
+            { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "DICOM", "value": "Vollständig integriert" },
+            { "@type": "PropertyValue", "name": "Square PC", "value": "Verfügbar — moderne Bilddarstellung" },
+            { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem neue Generation" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray DP-30", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-30" },
+            { "@type": "Product", "name": "Mindray DP-50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-50" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray DP-10", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

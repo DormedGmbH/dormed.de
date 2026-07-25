@@ -1,40 +1,65 @@
-@php
-    $title = "Über uns – SONORING DORMED med. Systeme | SONORING DORMED";
-    $canonical = "https://dormed.de/ueber";
-    $description = "DORMED ist Ihr persönlicher Ultraschall-Fachhändler seit 1989. SONORING ist das Netzwerk dahinter – Deutschlands größte Ultraschall-Fachhandelsorganisation mit ~23 Partnern.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ueber">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ueber">
+
+        <title>Über uns – SONORING DORMED med. Systeme | SONORING DORMED</title>
+        <meta name="description" content="DORMED ist Ihr persönlicher Ultraschall-Fachhändler seit 1989. SONORING ist das Netzwerk dahinter – Deutschlands größte Ultraschall-Fachhandelsorganisation mit ~23 Partnern.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ueber">
+
+    
+
+        <meta property="og:title" content="Über uns – SONORING DORMED med. Systeme | SONORING DORMED">
+        <meta property="og:description" content="DORMED ist Ihr persönlicher Ultraschall-Fachhändler seit 1989. SONORING ist das Netzwerk dahinter – Deutschlands größte Ultraschall-Fachhandelsorganisation mit ~23 Partnern.">
+        <meta property="og:url" content="https://dormed.de/ueber">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Über uns – SONORING DORMED med. Systeme | SONORING DORMED">
+        <meta name="twitter:description" content="DORMED ist Ihr persönlicher Ultraschall-Fachhändler seit 1989. SONORING ist das Netzwerk dahinter – Deutschlands größte Ultraschall-Fachhandelsorganisation mit ~23 Partnern.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "AboutPage",
-              "@id": "https://dormed.de/ueber/#webpage",
-              "name": "Über uns – SONORING DORMED med. Systeme | SONORING DORMED",
-              "description": "DORMED ist Ihr persönlicher Ultraschall-Fachhändler seit 1989. SONORING ist das Netzwerk dahinter – Deutschlands größte Ultraschall-Fachhandelsorganisation.",
-              "url": "https://dormed.de/ueber",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Über uns", "item": "https://dormed.de/ueber" }
-                ]
-              }
-            },
-            {
-              "@type": "ItemList",
-              "name": "Über SONORING DORMED",
-              "numberOfItems": 2,
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Über DORMED med. Systeme", "url": "https://dormed.de/ueber/dormed" },
-                { "@type": "ListItem", "position": 2, "name": "Über SONORING Deutschland", "url": "https://dormed.de/ueber/sonoring" }
-              ]
-            }
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AboutPage",
+          "@id": "https://dormed.de/ueber/#webpage",
+          "name": "Über uns – SONORING DORMED med. Systeme | SONORING DORMED",
+          "description": "DORMED ist Ihr persönlicher Ultraschall-Fachhändler seit 1989. SONORING ist das Netzwerk dahinter – Deutschlands größte Ultraschall-Fachhandelsorganisation.",
+          "url": "https://dormed.de/ueber",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Über uns", "item": "https://dormed.de/ueber" }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Über SONORING DORMED",
+          "numberOfItems": 2,
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Über DORMED med. Systeme", "url": "https://dormed.de/ueber/dormed" },
+            { "@type": "ListItem", "position": 2, "name": "Über SONORING Deutschland", "url": "https://dormed.de/ueber/sonoring" }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

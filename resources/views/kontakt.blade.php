@@ -1,64 +1,89 @@
-@php
-    $title = "Kontakt – Ultraschallgeräte Beratung & Anfrage | SONORING DORMED";
-    $canonical = "https://dormed.de/kontakt";
-    $description = "Sprechen Sie mit unseren Ultraschall-Experten. Beratung, Angebote und technischer Support – persönlich, per Telefon oder E-Mail. Wir antworten schnell.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/kontakt">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/kontakt">
+
+        <title>Kontakt – Ultraschallgeräte Beratung &amp; Anfrage | SONORING DORMED</title>
+        <meta name="description" content="Sprechen Sie mit unseren Ultraschall-Experten. Beratung, Angebote und technischer Support – persönlich, per Telefon oder E-Mail. Wir antworten schnell.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/kontakt">
+
+    
+
+        <meta property="og:title" content="Kontakt – Ultraschallgeräte Beratung &amp;amp; Anfrage | SONORING DORMED">
+        <meta property="og:description" content="Sprechen Sie mit unseren Ultraschall-Experten. Beratung, Angebote und technischer Support – persönlich, per Telefon oder E-Mail. Wir antworten schnell.">
+        <meta property="og:url" content="https://dormed.de/kontakt">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Kontakt – Ultraschallgeräte Beratung &amp;amp; Anfrage | SONORING DORMED">
+        <meta name="twitter:description" content="Sprechen Sie mit unseren Ultraschall-Experten. Beratung, Angebote und technischer Support – persönlich, per Telefon oder E-Mail. Wir antworten schnell.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ContactPage",
+          "@id": "https://dormed.de/kontakt/#webpage",
+          "name": "Kontakt – Ultraschallgeräte Beratung & Anfrage | SONORING DORMED",
+          "description": "Sprechen Sie mit unseren Ultraschall-Experten. Beratung, Angebote und technischer Support – persönlich, per Telefon oder E-Mail.",
+          "url": "https://dormed.de/kontakt",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Kontakt", "item": "https://dormed.de/kontakt" }
+            ]
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://dormed.de/#organization",
+          "name": "SONORING DORMED med. Systeme GmbH",
+          "telephone": "+492301188600",
+          "email": "mail@dormed.de",
+          "contactPoint": [
             {
-              "@type": "ContactPage",
-              "@id": "https://dormed.de/kontakt/#webpage",
-              "name": "Kontakt – Ultraschallgeräte Beratung & Anfrage | SONORING DORMED",
-              "description": "Sprechen Sie mit unseren Ultraschall-Experten. Beratung, Angebote und technischer Support – persönlich, per Telefon oder E-Mail.",
-              "url": "https://dormed.de/kontakt",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Kontakt", "item": "https://dormed.de/kontakt" }
-                ]
+              "@type": "ContactPoint",
+              "telephone": "+492301188600",
+              "contactType": "sales",
+              "availableLanguage": "German",
+              "hoursAvailable": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+                "opens": "08:00",
+                "closes": "17:00"
               }
             },
             {
-              "@type": "Organization",
-              "@id": "https://dormed.de/#organization",
-              "name": "SONORING DORMED med. Systeme GmbH",
+              "@type": "ContactPoint",
               "telephone": "+492301188600",
-              "email": "mail@dormed.de",
-              "contactPoint": [
-                {
-                  "@type": "ContactPoint",
-                  "telephone": "+492301188600",
-                  "contactType": "sales",
-                  "availableLanguage": "German",
-                  "hoursAvailable": {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-                    "opens": "08:00",
-                    "closes": "17:00"
-                  }
-                },
-                {
-                  "@type": "ContactPoint",
-                  "telephone": "+492301188600",
-                  "contactType": "customer support",
-                  "availableLanguage": "German"
-                },
-                {
-                  "@type": "ContactPoint",
-                  "telephone": "+492301188600",
-                  "contactType": "technical support",
-                  "availableLanguage": "German"
-                }
-              ]
+              "contactType": "customer support",
+              "availableLanguage": "German"
+            },
+            {
+              "@type": "ContactPoint",
+              "telephone": "+492301188600",
+              "contactType": "technical support",
+              "availableLanguage": "German"
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

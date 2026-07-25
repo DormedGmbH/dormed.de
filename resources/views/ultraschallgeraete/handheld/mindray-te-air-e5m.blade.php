@@ -1,78 +1,103 @@
-@php
-    $title = "Mindray TE Air e5M kaufen – Handheld Ultraschall | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m";
-    $description = "Mindray TE Air e5M: Kabelloser Handheld-Ultraschall für Point-of-Care-Diagnostik. Kompakt, leistungsstark, sofort einsatzbereit – ideal für mobile Anwendungen.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m">
+
+        <title>Mindray TE Air e5M kaufen – Handheld Ultraschall | DORMED</title>
+        <meta name="description" content="Mindray TE Air e5M: Kabelloser Handheld-Ultraschall für Point-of-Care-Diagnostik. Kompakt, leistungsstark, sofort einsatzbereit – ideal für mobile Anwendungen.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m">
+
+    
+
+        <meta property="og:title" content="Mindray TE Air e5M kaufen – Handheld Ultraschall | DORMED">
+        <meta property="og:description" content="Mindray TE Air e5M: Kabelloser Handheld-Ultraschall für Point-of-Care-Diagnostik. Kompakt, leistungsstark, sofort einsatzbereit – ideal für mobile Anwendungen.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray TE Air e5M kaufen – Handheld Ultraschall | DORMED">
+        <meta name="twitter:description" content="Mindray TE Air e5M: Kabelloser Handheld-Ultraschall für Point-of-Care-Diagnostik. Kompakt, leistungsstark, sofort einsatzbereit – ideal für mobile Anwendungen.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m/#product",
-              "name": "Mindray TE Air e5M",
-              "description": "Kabelloser POCUS Handheld-Ultraschall auf ZST+ Plattform mit 20 Stunden Akku, 4+1 virtuellen Sondenpositionen, KI-gestützter Messung, WLAN und App-Steuerung (iOS und Android). Für Praxis, Klinik und mobilen Einsatz.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-te-air-e5m/c81a3213-e902-4b9b-b84f-9de4bc992800.png",
-                "https://dormed.de/assets/img/produkte/mindray-te-air-e5m/f1018d09-75ce-44f2-8f4e-b71912493c00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-te-air-e5m/2ca2d9c1-6bc8-4a5c-c3c1-22141b489500.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-te-air-e5m/1f923353-fcca-4d55-cddc-eafc8ebd2600.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Handheld Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+ Handheld" },
-                { "@type": "PropertyValue", "name": "Format", "value": "Handheld — kabellos" },
-                { "@type": "PropertyValue", "name": "Akku", "value": "20 Stunden Laufzeit" },
-                { "@type": "PropertyValue", "name": "Sondenpositionen", "value": "4+1 virtuell" },
-                { "@type": "PropertyValue", "name": "Konnektivität", "value": "WLAN — iOS und Android App" },
-                { "@type": "PropertyValue", "name": "KI", "value": "KI-gestützte Messungen" },
-                { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "POCUS", "value": "Point-of-Care Ultraschall" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Handheld POCUS Ultraschallgerät" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray TE Air i3M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m" },
-                { "@type": "Product", "name": "Mindray TE 5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Handheld & POCUS", "item": "https://dormed.de/ultraschallgeraete/handheld" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray TE Air e5M", "item": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m/#product",
+          "name": "Mindray TE Air e5M",
+          "description": "Kabelloser POCUS Handheld-Ultraschall auf ZST+ Plattform mit 20 Stunden Akku, 4+1 virtuellen Sondenpositionen, KI-gestützter Messung, WLAN und App-Steuerung (iOS und Android). Für Praxis, Klinik und mobilen Einsatz.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-te-air-e5m/c81a3213-e902-4b9b-b84f-9de4bc992800.png",
+            "https://dormed.de/assets/img/produkte/mindray-te-air-e5m/f1018d09-75ce-44f2-8f4e-b71912493c00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-te-air-e5m/2ca2d9c1-6bc8-4a5c-c3c1-22141b489500.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-te-air-e5m/1f923353-fcca-4d55-cddc-eafc8ebd2600.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Handheld Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+ Handheld" },
+            { "@type": "PropertyValue", "name": "Format", "value": "Handheld — kabellos" },
+            { "@type": "PropertyValue", "name": "Akku", "value": "20 Stunden Laufzeit" },
+            { "@type": "PropertyValue", "name": "Sondenpositionen", "value": "4+1 virtuell" },
+            { "@type": "PropertyValue", "name": "Konnektivität", "value": "WLAN — iOS und Android App" },
+            { "@type": "PropertyValue", "name": "KI", "value": "KI-gestützte Messungen" },
+            { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "POCUS", "value": "Point-of-Care Ultraschall" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Handheld POCUS Ultraschallgerät" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray TE Air i3M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m" },
+            { "@type": "Product", "name": "Mindray TE 5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Handheld & POCUS", "item": "https://dormed.de/ultraschallgeraete/handheld" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray TE Air e5M", "item": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

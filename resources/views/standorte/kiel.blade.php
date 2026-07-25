@@ -1,86 +1,111 @@
-@php
-    $title = "Ultraschall Kiel – SONORING DORMED Standort | SONORING DORMED";
-    $canonical = "https://dormed.de/standorte/kiel";
-    $description = "Ultraschall-Beratung und technischer Service in Kiel und Schleswig-Holstein. SONORING DORMED – Ihr regionaler Ansprechpartner für Mindray und Esaote Geräte.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/standorte/kiel">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/standorte/kiel">
+
+        <title>Ultraschall Kiel – SONORING DORMED Standort | SONORING DORMED</title>
+        <meta name="description" content="Ultraschall-Beratung und technischer Service in Kiel und Schleswig-Holstein. SONORING DORMED – Ihr regionaler Ansprechpartner für Mindray und Esaote Geräte.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/standorte/kiel">
+
+    
+
+        <meta property="og:title" content="Ultraschall Kiel – SONORING DORMED Standort | SONORING DORMED">
+        <meta property="og:description" content="Ultraschall-Beratung und technischer Service in Kiel und Schleswig-Holstein. SONORING DORMED – Ihr regionaler Ansprechpartner für Mindray und Esaote Geräte.">
+        <meta property="og:url" content="https://dormed.de/standorte/kiel">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Kiel – SONORING DORMED Standort | SONORING DORMED">
+        <meta name="twitter:description" content="Ultraschall-Beratung und technischer Service in Kiel und Schleswig-Holstein. SONORING DORMED – Ihr regionaler Ansprechpartner für Mindray und Esaote Geräte.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://dormed.de/#localbusiness-kiel",
+          "name": "SONORING DORMED – Kiel",
+          "url": "https://dormed.de/standorte/kiel",
+          "telephone": "+492301188600",
+          "email": "mail@dormed.de",
+          "image": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
+          "priceRange": "€€€",
+          "description": "SONORING DORMED Niederlassung in Kiel. Ultraschall-Beratung und technischer Service für Praxen in Kiel und Schleswig-Holstein.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Maria-Merian-Straße 9",
+            "addressLocality": "Kiel",
+            "postalCode": "24145",
+            "addressCountry": "DE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 54.28188,
+            "longitude": 10.1589
+          },
+          "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@54.28188,10.1563251,17z",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "1",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "openingHoursSpecification": [
             {
-              "@type": "LocalBusiness",
-              "@id": "https://dormed.de/#localbusiness-kiel",
-              "name": "SONORING DORMED – Kiel",
-              "url": "https://dormed.de/standorte/kiel",
-              "telephone": "+492301188600",
-              "email": "mail@dormed.de",
-              "image": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
-              "priceRange": "€€€",
-              "description": "SONORING DORMED Niederlassung in Kiel. Ultraschall-Beratung und technischer Service für Praxen in Kiel und Schleswig-Holstein.",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Maria-Merian-Straße 9",
-                "addressLocality": "Kiel",
-                "postalCode": "24145",
-                "addressCountry": "DE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 54.28188,
-                "longitude": 10.1589
-              },
-              "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@54.28188,10.1563251,17z",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "1",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-                  "opens": "08:00",
-                  "closes": "17:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Friday",
-                  "opens": "08:00",
-                  "closes": "15:00"
-                }
-              ],
-              "parentOrganization": {
-                "@id": "https://dormed.de/#organization"
-              }
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+              "opens": "08:00",
+              "closes": "17:00"
             },
             {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Startseite",
-                  "item": "https://dormed.de"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Standorte",
-                  "item": "https://dormed.de/standorte"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Kiel",
-                  "item": "https://dormed.de/standorte/kiel"
-                }
-              ]
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Friday",
+              "opens": "08:00",
+              "closes": "15:00"
+            }
+          ],
+          "parentOrganization": {
+            "@id": "https://dormed.de/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Startseite",
+              "item": "https://dormed.de"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Standorte",
+              "item": "https://dormed.de/standorte"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Kiel",
+              "item": "https://dormed.de/standorte/kiel"
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

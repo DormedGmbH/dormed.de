@@ -1,86 +1,111 @@
-@php
-    $title = "Ultraschall Dortmund – SONORING DORMED Hauptsitz | SONORING DORMED";
-    $canonical = "https://dormed.de/standorte/dortmund";
-    $description = "SONORING DORMED Hauptstandort in Dortmund. Persönliche Beratung, Live-Demos und technischer Service für Ultraschallgeräte in NRW. Jetzt Termin vereinbaren.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/standorte/dortmund">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/standorte/dortmund">
+
+        <title>Ultraschall Dortmund – SONORING DORMED Hauptsitz | SONORING DORMED</title>
+        <meta name="description" content="SONORING DORMED Hauptstandort in Dortmund. Persönliche Beratung, Live-Demos und technischer Service für Ultraschallgeräte in NRW. Jetzt Termin vereinbaren.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/standorte/dortmund">
+
+    
+
+        <meta property="og:title" content="Ultraschall Dortmund – SONORING DORMED Hauptsitz | SONORING DORMED">
+        <meta property="og:description" content="SONORING DORMED Hauptstandort in Dortmund. Persönliche Beratung, Live-Demos und technischer Service für Ultraschallgeräte in NRW. Jetzt Termin vereinbaren.">
+        <meta property="og:url" content="https://dormed.de/standorte/dortmund">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Dortmund – SONORING DORMED Hauptsitz | SONORING DORMED">
+        <meta name="twitter:description" content="SONORING DORMED Hauptstandort in Dortmund. Persönliche Beratung, Live-Demos und technischer Service für Ultraschallgeräte in NRW. Jetzt Termin vereinbaren.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://dormed.de/#localbusiness-holzwickede",
+          "name": "SONORING DORMED – Dortmund / Holzwickede",
+          "url": "https://dormed.de/standorte/dortmund",
+          "telephone": "+492301188600",
+          "email": "mail@dormed.de",
+          "image": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
+          "priceRange": "€€€",
+          "description": "SONORING DORMED Hauptsitz in Holzwickede bei Dortmund. Persönliche Beratung, Live-Demos und technischer Service für Ultraschallgeräte in NRW.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Wilhelm-Röntgen-Straße 4",
+            "addressLocality": "Holzwickede",
+            "postalCode": "59439",
+            "addressCountry": "DE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.5105803,
+            "longitude": 7.6105545
+          },
+          "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.5105803,7.6079796,17z",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "66",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "openingHoursSpecification": [
             {
-              "@type": "LocalBusiness",
-              "@id": "https://dormed.de/#localbusiness-holzwickede",
-              "name": "SONORING DORMED – Dortmund / Holzwickede",
-              "url": "https://dormed.de/standorte/dortmund",
-              "telephone": "+492301188600",
-              "email": "mail@dormed.de",
-              "image": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
-              "priceRange": "€€€",
-              "description": "SONORING DORMED Hauptsitz in Holzwickede bei Dortmund. Persönliche Beratung, Live-Demos und technischer Service für Ultraschallgeräte in NRW.",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Wilhelm-Röntgen-Straße 4",
-                "addressLocality": "Holzwickede",
-                "postalCode": "59439",
-                "addressCountry": "DE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 51.5105803,
-                "longitude": 7.6105545
-              },
-              "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.5105803,7.6079796,17z",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "66",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-                  "opens": "08:00",
-                  "closes": "17:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Friday",
-                  "opens": "08:00",
-                  "closes": "15:00"
-                }
-              ],
-              "parentOrganization": {
-                "@id": "https://dormed.de/#organization"
-              }
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+              "opens": "08:00",
+              "closes": "17:00"
             },
             {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Startseite",
-                  "item": "https://dormed.de"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Standorte",
-                  "item": "https://dormed.de/standorte"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Dortmund",
-                  "item": "https://dormed.de/standorte/dortmund"
-                }
-              ]
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Friday",
+              "opens": "08:00",
+              "closes": "15:00"
+            }
+          ],
+          "parentOrganization": {
+            "@id": "https://dormed.de/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Startseite",
+              "item": "https://dormed.de"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Standorte",
+              "item": "https://dormed.de/standorte"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Dortmund",
+              "item": "https://dormed.de/standorte/dortmund"
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

@@ -1,78 +1,103 @@
-@php
-    $title = "Mindray Nuewa i9 kaufen – Flagship Ultraschall | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9";
-    $description = "Mindray Nuewa i9: Flaggschiff-Ultraschallsystem mit zoniBasierter Bildgebung, KI-Funktionen und höchster Bildqualität. Für anspruchsvolle klinische Anforderungen.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9">
+
+        <title>Mindray Nuewa i9 kaufen – Flagship Ultraschall | DORMED</title>
+        <meta name="description" content="Mindray Nuewa i9: Flaggschiff-Ultraschallsystem mit zoniBasierter Bildgebung, KI-Funktionen und höchster Bildqualität. Für anspruchsvolle klinische Anforderungen.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9">
+
+    
+
+        <meta property="og:title" content="Mindray Nuewa i9 kaufen – Flagship Ultraschall | DORMED">
+        <meta property="og:description" content="Mindray Nuewa i9: Flaggschiff-Ultraschallsystem mit zoniBasierter Bildgebung, KI-Funktionen und höchster Bildqualität. Für anspruchsvolle klinische Anforderungen.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray Nuewa i9 kaufen – Flagship Ultraschall | DORMED">
+        <meta name="twitter:description" content="Mindray Nuewa i9: Flaggschiff-Ultraschallsystem mit zoniBasierter Bildgebung, KI-Funktionen und höchster Bildqualität. Für anspruchsvolle klinische Anforderungen.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9/#product",
-              "name": "Mindray Nuewa i9",
-              "description": "Flaggschiff-Ultraschallsystem auf Deep Intelligence Plattform, speziell optimiert für OB/GYN. 21,5\" 4K Monitor, vollständige 3D/4D-Bildgebung, KI-Suite mit Smart Scene, Smart Fetus, Smart Flo und MD-3D Rendering. 4+1 aktive Schallkopfanschlüsse.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-nuewa-i9/6e8665b0-3063-4985-7767-2cee48c5be00.png",
-                "https://dormed.de/assets/img/produkte/mindray-nuewa-i9/2de85fa4-2eb1-4862-42ad-7c6beb833700.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-nuewa-i9/eb021d25-2ac3-47b4-fe45-dee06bf12800.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-nuewa-i9/06cd6f63-cfb7-4290-c2a4-ad0d94f16300.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Stationäres Ultraschallgerät Premium",
-              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "Deep Intelligence (DI+)" },
-                { "@type": "PropertyValue", "name": "Monitor", "value": "21,5 Zoll 4K" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
-                { "@type": "PropertyValue", "name": "3D/4D", "value": "Vollständig verfügbar" },
-                { "@type": "PropertyValue", "name": "KI", "value": "Smart Scene, Smart Fetus, Smart Flo, Smart Thyroid, Smart Bowel, Smart FLC" },
-                { "@type": "PropertyValue", "name": "MD-3D Rendering", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "IOTA-Analyse", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Stationäres Standgerät Flaggschiff" },
-                { "@type": "PropertyValue", "name": "Spezialisierung", "value": "OB/GYN, Gynäkologie, Geburtshilfe" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray Resona i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" },
-                { "@type": "Product", "name": "Esaote MyLab A70", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray Nuewa i9", "item": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9/#product",
+          "name": "Mindray Nuewa i9",
+          "description": "Flaggschiff-Ultraschallsystem auf Deep Intelligence Plattform, speziell optimiert für OB/GYN. 21,5\" 4K Monitor, vollständige 3D/4D-Bildgebung, KI-Suite mit Smart Scene, Smart Fetus, Smart Flo und MD-3D Rendering. 4+1 aktive Schallkopfanschlüsse.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-nuewa-i9/6e8665b0-3063-4985-7767-2cee48c5be00.png",
+            "https://dormed.de/assets/img/produkte/mindray-nuewa-i9/2de85fa4-2eb1-4862-42ad-7c6beb833700.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-nuewa-i9/eb021d25-2ac3-47b4-fe45-dee06bf12800.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-nuewa-i9/06cd6f63-cfb7-4290-c2a4-ad0d94f16300.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Stationäres Ultraschallgerät Premium",
+          "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "Deep Intelligence (DI+)" },
+            { "@type": "PropertyValue", "name": "Monitor", "value": "21,5 Zoll 4K" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
+            { "@type": "PropertyValue", "name": "3D/4D", "value": "Vollständig verfügbar" },
+            { "@type": "PropertyValue", "name": "KI", "value": "Smart Scene, Smart Fetus, Smart Flo, Smart Thyroid, Smart Bowel, Smart FLC" },
+            { "@type": "PropertyValue", "name": "MD-3D Rendering", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "IOTA-Analyse", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Stationäres Standgerät Flaggschiff" },
+            { "@type": "PropertyValue", "name": "Spezialisierung", "value": "OB/GYN, Gynäkologie, Geburtshilfe" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray Resona i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" },
+            { "@type": "Product", "name": "Esaote MyLab A70", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray Nuewa i9", "item": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

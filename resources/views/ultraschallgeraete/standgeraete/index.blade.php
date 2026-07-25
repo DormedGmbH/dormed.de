@@ -1,120 +1,145 @@
-@php
-    $title = "Stationäre Ultraschallgeräte kaufen | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/standgeraete";
-    $description = "Stationäre Ultraschallsysteme für Praxis und Klinik – Mindray Resona, Nuewa, Consona und Esaote MyLab. Beratung, Lieferung und Einweisung inklusive.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/standgeraete">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/standgeraete">
+
+        <title>Stationäre Ultraschallgeräte kaufen | DORMED</title>
+        <meta name="description" content="Stationäre Ultraschallsysteme für Praxis und Klinik – Mindray Resona, Nuewa, Consona und Esaote MyLab. Beratung, Lieferung und Einweisung inklusive.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/standgeraete">
+
+    
+
+        <meta property="og:title" content="Stationäre Ultraschallgeräte kaufen | DORMED">
+        <meta property="og:description" content="Stationäre Ultraschallsysteme für Praxis und Klinik – Mindray Resona, Nuewa, Consona und Esaote MyLab. Beratung, Lieferung und Einweisung inklusive.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/standgeraete">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Stationäre Ultraschallgeräte kaufen | DORMED">
+        <meta name="twitter:description" content="Stationäre Ultraschallsysteme für Praxis und Klinik – Mindray Resona, Nuewa, Consona und Esaote MyLab. Beratung, Lieferung und Einweisung inklusive.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://dormed.de/ultraschallgeraete/standgeraete/#webpage",
+          "name": "Stationäre Ultraschallgeräte kaufen | DORMED",
+          "description": "Stationäre Ultraschallsysteme für Praxis und Klinik – Mindray Resona, Nuewa, Consona und Esaote MyLab. Beratung, Lieferung und Einweisung inklusive.",
+          "url": "https://dormed.de/ultraschallgeraete/standgeraete",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+              { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Stationäre Ultraschallgeräte im Direktvergleich",
+          "description": "Alle stationären Ultraschallsysteme von Mindray und Esaote bei SONORING DORMED – von Einstieg bis Premium.",
+          "numberOfItems": 11,
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Mindray Nuewa i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9" },
+            { "@type": "ListItem", "position": 2, "name": "Mindray Resona i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" },
+            { "@type": "ListItem", "position": 3, "name": "Mindray Resona i8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i8" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray Consona N9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n9" },
+            { "@type": "ListItem", "position": 5, "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" },
+            { "@type": "ListItem", "position": 6, "name": "Mindray Consona N6", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n6" },
+            { "@type": "ListItem", "position": 7, "name": "Mindray Consona N5", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n5" },
+            { "@type": "ListItem", "position": 8, "name": "Mindray DC-60", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-60" },
+            { "@type": "ListItem", "position": 9, "name": "Mindray DC-30", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30" },
+            { "@type": "ListItem", "position": 10, "name": "Esaote MyLab A50", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50" },
+            { "@type": "ListItem", "position": 11, "name": "Esaote MyLab A70", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
             {
-              "@type": "CollectionPage",
-              "@id": "https://dormed.de/ultraschallgeraete/standgeraete/#webpage",
-              "name": "Stationäre Ultraschallgeräte kaufen | DORMED",
-              "description": "Stationäre Ultraschallsysteme für Praxis und Klinik – Mindray Resona, Nuewa, Consona und Esaote MyLab. Beratung, Lieferung und Einweisung inklusive.",
-              "url": "https://dormed.de/ultraschallgeraete/standgeraete",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                  { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" }
-                ]
+              "@type": "Question",
+              "name": "Was ist der Unterschied zwischen einem Standgerät und einem mobilen Ultraschallgerät?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Standgeräte sind stationäre Systeme auf einem fahrbaren Wagen mit großem Monitor, mehreren Schallkopfports und der vollen Funktionspalette. Sie bieten die höchste Bildqualität und sind für den dauerhaften Einsatz in einer festen Praxisumgebung ausgelegt. Mobile Geräte — etwa Laptop- oder Tablet-Systeme wie die Mindray TE-Serie oder MX-Serie — sind kompakter und leichter, bieten aber in der Regel weniger Ports und eine eingeschränktere Funktionspalette. Die Wahl hängt davon ab, ob Sie das Gerät auch außerhalb des Untersuchungsraums oder bei Hausbesuchen einsetzen möchten."
               }
             },
             {
-              "@type": "ItemList",
-              "name": "Stationäre Ultraschallgeräte im Direktvergleich",
-              "description": "Alle stationären Ultraschallsysteme von Mindray und Esaote bei SONORING DORMED – von Einstieg bis Premium.",
-              "numberOfItems": 11,
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Mindray Nuewa i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9" },
-                { "@type": "ListItem", "position": 2, "name": "Mindray Resona i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" },
-                { "@type": "ListItem", "position": 3, "name": "Mindray Resona i8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i8" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray Consona N9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n9" },
-                { "@type": "ListItem", "position": 5, "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" },
-                { "@type": "ListItem", "position": 6, "name": "Mindray Consona N6", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n6" },
-                { "@type": "ListItem", "position": 7, "name": "Mindray Consona N5", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n5" },
-                { "@type": "ListItem", "position": 8, "name": "Mindray DC-60", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-60" },
-                { "@type": "ListItem", "position": 9, "name": "Mindray DC-30", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30" },
-                { "@type": "ListItem", "position": 10, "name": "Esaote MyLab A50", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50" },
-                { "@type": "ListItem", "position": 11, "name": "Esaote MyLab A70", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70" }
-              ]
+              "@type": "Question",
+              "name": "Wie viele Schallkopfports brauche ich?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das hängt von Ihrer Fachrichtung und Ihrem Arbeitsalltag ab. Wer ausschließlich Abdomensonographie betreibt, kommt oft mit zwei bis drei Ports aus. Für eine internistische Praxis mit Farbdoppler, Endokavitär und Linearschallkopf sind vier aktive Ports sinnvoll — so wechseln Sie sekundenschnell ohne Umstecken. Kardiologen und spezialisierte Praxen profitieren von fünf Ports, um alle benötigten Schallköpfe gleichzeitig angeschlossen zu halten."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Was ist der Unterschied zwischen einem Standgerät und einem mobilen Ultraschallgerät?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Standgeräte sind stationäre Systeme auf einem fahrbaren Wagen mit großem Monitor, mehreren Schallkopfports und der vollen Funktionspalette. Sie bieten die höchste Bildqualität und sind für den dauerhaften Einsatz in einer festen Praxisumgebung ausgelegt. Mobile Geräte — etwa Laptop- oder Tablet-Systeme wie die Mindray TE-Serie oder MX-Serie — sind kompakter und leichter, bieten aber in der Regel weniger Ports und eine eingeschränktere Funktionspalette. Die Wahl hängt davon ab, ob Sie das Gerät auch außerhalb des Untersuchungsraums oder bei Hausbesuchen einsetzen möchten."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie viele Schallkopfports brauche ich?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Das hängt von Ihrer Fachrichtung und Ihrem Arbeitsalltag ab. Wer ausschließlich Abdomensonographie betreibt, kommt oft mit zwei bis drei Ports aus. Für eine internistische Praxis mit Farbdoppler, Endokavitär und Linearschallkopf sind vier aktive Ports sinnvoll — so wechseln Sie sekundenschnell ohne Umstecken. Kardiologen und spezialisierte Praxen profitieren von fünf Ports, um alle benötigten Schallköpfe gleichzeitig angeschlossen zu halten."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was bedeutet ZST Plattform bei Mindray?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "ZST steht für Zone Sonography Technology — Mindray's Bildgebungsplattform, die Ultraschallwellen zonenweise statt zeilenweise aussendet. Das Ergebnis ist eine deutlich höhere Bildfrequenz bei gleichzeitig besserer räumlicher Auflösung. ZST+ ist die Weiterentwicklung mit zusätzlicher KI-gestützter Bildoptimierung. Praktisch bedeutet das: schärfere Bilder bei schnellen Bewegungen wie dem schlagenden Herz und weniger manuelle Nachregulierung durch den Arzt."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was ist Elastographie und wann ist sie sinnvoll?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Elastographie ist ein Ultraschallverfahren zur Messung der Gewebesteifigkeit. Weiches Gewebe wie gesundes Leberparenchym verhält sich anders als verhärtetes Gewebe bei Fibrose oder Tumorgewebe. Für Internisten und Gastroenterologen ist Elastographie besonders relevant zur nicht-invasiven Beurteilung des Fibrosegrades bei Lebererkrankungen — als Alternative zur Biopsie. Bei Mindray-Geräten ist Elastographie ab der Consona N8 aufwärts verfügbar, bei Esaote ab dem MyLab A50."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was bedeutet Augmented Insight bei Esaote?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Augmented Insight™ ist Esaotes KI-Plattform, die als digitaler Copilot in den Untersuchungsablauf integriert ist. Sie unterstützt den Arzt durch automatische Bildoptimierung, KI-gestützte Messungen und assistierte Managementfunktionen wie easyMode und easyColor. Das Ziel: weniger Eingriffe in die Systemsteuerung während der Untersuchung, mehr Fokus auf den Patienten. Augmented Insight ist in beiden Esaote-Standgeräten — MyLab A50 und MyLab A70 — integriert."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Ultraschallgeräte eignen sich für die Kardiologie?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Für die Kardiologie benötigen Sie ein Gerät mit dediziertem Phased-Array-Schallkopf, hoher Bildrate für schnelle Herzzyklen sowie speziellen Funktionen wie Gewebedoppler (TDI), Strain-Analyse (XStrain™) und automatischer Ejektionsfraktion (AutoEF). Unter den Standgeräten im Sortiment eignen sich besonders die Mindray Nuewa i9, Resona i9 und der Esaote MyLab A70 mit vollständigem Kardiologie-Paket."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie lange hält ein stationäres Ultraschallgerät?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Hochwertige Standgeräte sind bei regelmäßiger Wartung auf eine Nutzungsdauer von zehn bis fünfzehn Jahren ausgelegt. Entscheidend ist die Verfügbarkeit von Ersatzteilen und Software-Updates des Herstellers. Mindray garantiert für seine aktuellen Systeme eine langfristige Ersatzteilversorgung. Esaote bietet drei Jahre Herstellergarantie auf die MyLab-Serie. Als SONORING®-Fachhändler führen wir regelmäßige Konstanzprüfungen und Wartungen durch — mit dokumentierten Prüfprotokollen für die QM-Dokumentation Ihrer Praxis."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was ist der Unterschied zwischen Mindray und Esaote Standgeräten?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Mindray ist der volumenstärkste Ultraschallhersteller weltweit und bietet mit der Consona- und Resona-Serie eine breite Auswahl vom Einsteiger bis zum Flaggschiff. Die ZST-Plattform und tiefe KI-Integration sind Mindray-spezifische Stärken. Esaote ist ein italienischer Spezialist mit starkem Fokus auf Workflow-Design und der Augmented Insight™ KI-Plattform. Der MyLab A70 ist durch den 24-Zoll-Barco-OptiLight-Monitor besonders für anspruchsvolle Bildgebung geeignet. Beide Hersteller ergänzen sich gut — Mindray für Volumen und Breite, Esaote für spezialisierte Anwendungen und premium Ergonomie."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Was bedeutet ZST Plattform bei Mindray?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "ZST steht für Zone Sonography Technology — Mindray's Bildgebungsplattform, die Ultraschallwellen zonenweise statt zeilenweise aussendet. Das Ergebnis ist eine deutlich höhere Bildfrequenz bei gleichzeitig besserer räumlicher Auflösung. ZST+ ist die Weiterentwicklung mit zusätzlicher KI-gestützter Bildoptimierung. Praktisch bedeutet das: schärfere Bilder bei schnellen Bewegungen wie dem schlagenden Herz und weniger manuelle Nachregulierung durch den Arzt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was ist Elastographie und wann ist sie sinnvoll?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Elastographie ist ein Ultraschallverfahren zur Messung der Gewebesteifigkeit. Weiches Gewebe wie gesundes Leberparenchym verhält sich anders als verhärtetes Gewebe bei Fibrose oder Tumorgewebe. Für Internisten und Gastroenterologen ist Elastographie besonders relevant zur nicht-invasiven Beurteilung des Fibrosegrades bei Lebererkrankungen — als Alternative zur Biopsie. Bei Mindray-Geräten ist Elastographie ab der Consona N8 aufwärts verfügbar, bei Esaote ab dem MyLab A50."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was bedeutet Augmented Insight bei Esaote?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Augmented Insight™ ist Esaotes KI-Plattform, die als digitaler Copilot in den Untersuchungsablauf integriert ist. Sie unterstützt den Arzt durch automatische Bildoptimierung, KI-gestützte Messungen und assistierte Managementfunktionen wie easyMode und easyColor. Das Ziel: weniger Eingriffe in die Systemsteuerung während der Untersuchung, mehr Fokus auf den Patienten. Augmented Insight ist in beiden Esaote-Standgeräten — MyLab A50 und MyLab A70 — integriert."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Ultraschallgeräte eignen sich für die Kardiologie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Für die Kardiologie benötigen Sie ein Gerät mit dediziertem Phased-Array-Schallkopf, hoher Bildrate für schnelle Herzzyklen sowie speziellen Funktionen wie Gewebedoppler (TDI), Strain-Analyse (XStrain™) und automatischer Ejektionsfraktion (AutoEF). Unter den Standgeräten im Sortiment eignen sich besonders die Mindray Nuewa i9, Resona i9 und der Esaote MyLab A70 mit vollständigem Kardiologie-Paket."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie lange hält ein stationäres Ultraschallgerät?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Hochwertige Standgeräte sind bei regelmäßiger Wartung auf eine Nutzungsdauer von zehn bis fünfzehn Jahren ausgelegt. Entscheidend ist die Verfügbarkeit von Ersatzteilen und Software-Updates des Herstellers. Mindray garantiert für seine aktuellen Systeme eine langfristige Ersatzteilversorgung. Esaote bietet drei Jahre Herstellergarantie auf die MyLab-Serie. Als SONORING®-Fachhändler führen wir regelmäßige Konstanzprüfungen und Wartungen durch — mit dokumentierten Prüfprotokollen für die QM-Dokumentation Ihrer Praxis."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was ist der Unterschied zwischen Mindray und Esaote Standgeräten?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mindray ist der volumenstärkste Ultraschallhersteller weltweit und bietet mit der Consona- und Resona-Serie eine breite Auswahl vom Einsteiger bis zum Flaggschiff. Die ZST-Plattform und tiefe KI-Integration sind Mindray-spezifische Stärken. Esaote ist ein italienischer Spezialist mit starkem Fokus auf Workflow-Design und der Augmented Insight™ KI-Plattform. Der MyLab A70 ist durch den 24-Zoll-Barco-OptiLight-Monitor besonders für anspruchsvolle Bildgebung geeignet. Beide Hersteller ergänzen sich gut — Mindray für Volumen und Breite, Esaote für spezialisierte Anwendungen und premium Ergonomie."
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

@@ -1,130 +1,155 @@
-@php
-    $title = "Lieferung & Installation von Ultraschallgeräten | SONORING DORMED";
-    $canonical = "https://dormed.de/leistungen/lieferung";
-    $description = "Bundesweite Lieferung, professionelle Installation und persönliche Einweisung in Ihrer Praxis – kostenlos und termintreu. Service direkt durch SONORING DORMED Techniker.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/leistungen/lieferung">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/leistungen/lieferung">
+
+        <title>Lieferung &amp; Installation von Ultraschallgeräten | SONORING DORMED</title>
+        <meta name="description" content="Bundesweite Lieferung, professionelle Installation und persönliche Einweisung in Ihrer Praxis – kostenlos und termintreu. Service direkt durch SONORING DORMED Techniker.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/leistungen/lieferung">
+
+    
+
+        <meta property="og:title" content="Lieferung &amp;amp; Installation von Ultraschallgeräten | SONORING DORMED">
+        <meta property="og:description" content="Bundesweite Lieferung, professionelle Installation und persönliche Einweisung in Ihrer Praxis – kostenlos und termintreu. Service direkt durch SONORING DORMED Techniker.">
+        <meta property="og:url" content="https://dormed.de/leistungen/lieferung">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Lieferung &amp;amp; Installation von Ultraschallgeräten | SONORING DORMED">
+        <meta name="twitter:description" content="Bundesweite Lieferung, professionelle Installation und persönliche Einweisung in Ihrer Praxis – kostenlos und termintreu. Service direkt durch SONORING DORMED Techniker.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-lieferung",
+          "name": "Lieferung & Installation von Ultraschallgeräten",
+          "url": "https://dormed.de/leistungen/lieferung",
+          "description": "Bundesweite Lieferung, professionelle Installation und persönliche Einweisung in Ihrer Praxis – kostenlos und termintreu. Service direkt durch SONORING DORMED Techniker.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "areaServed": { "@type": "Country", "name": "Deutschland" },
+          "serviceType": "Lieferung & Installation",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "EUR",
+            "description": "Kostenlose Lieferung und Installation bundesweit"
+          }
+        },
+        {
+          "@type": "HowTo",
+          "name": "Wie läuft die Lieferung und Installation eines Ultraschallgeräts ab?",
+          "description": "Von der Beratung bis zur einsatzbereiten Praxis – in fünf koordinierten Schritten.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "step": [
             {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-lieferung",
-              "name": "Lieferung & Installation von Ultraschallgeräten",
-              "url": "https://dormed.de/leistungen/lieferung",
-              "description": "Bundesweite Lieferung, professionelle Installation und persönliche Einweisung in Ihrer Praxis – kostenlos und termintreu. Service direkt durch SONORING DORMED Techniker.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "areaServed": { "@type": "Country", "name": "Deutschland" },
-              "serviceType": "Lieferung & Installation",
-              "offers": {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "EUR",
-                "description": "Kostenlose Lieferung und Installation bundesweit"
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Kontakt",
+              "text": "Persönliche Beratung und Geräteauswahl. Ihr Berater bespricht Bedarf, Ausstattung und Liefermodalitäten – telefonisch, per Video oder vor Ort."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Planung",
+              "text": "Auftragsbestätigung und Terminabstimmung. Sie erhalten die Auftragsbestätigung. Der Liefertermin wird passend zu Ihrem Praxisbetrieb koordiniert."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Lieferung",
+              "text": "Sichere Anlieferung direkt in Ihren Untersuchungsraum. Unser Fachpersonal liefert, trägt auf und platziert das Gerät exakt dort, wo es gebraucht wird."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 4,
+              "name": "Installation",
+              "text": "Aufbau, Konfiguration und Netzwerkanbindung. Das Gerät wird installiert, ans Praxisnetzwerk angebunden und alle Schnittstellen konfiguriert."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 5,
+              "name": "Abschluss",
+              "text": "Einweisung und einsatzbereit. Ihr Team wird eingewiesen. Noch am selben Tag können Sie mit dem neuen Gerät diagnostizieren."
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wie lange dauert die Lieferung eines Ultraschallgeräts?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In der Regel ist die Lieferung bereits am nächsten Werktag möglich. Der genaue Termin wird gemeinsam mit Ihnen abgestimmt, damit die Lieferung nahtlos in Ihren Praxisbetrieb passt – ohne Unterbrechung des laufenden Betriebs."
               }
             },
             {
-              "@type": "HowTo",
-              "name": "Wie läuft die Lieferung und Installation eines Ultraschallgeräts ab?",
-              "description": "Von der Beratung bis zur einsatzbereiten Praxis – in fünf koordinierten Schritten.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "step": [
-                {
-                  "@type": "HowToStep",
-                  "position": 1,
-                  "name": "Kontakt",
-                  "text": "Persönliche Beratung und Geräteauswahl. Ihr Berater bespricht Bedarf, Ausstattung und Liefermodalitäten – telefonisch, per Video oder vor Ort."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 2,
-                  "name": "Planung",
-                  "text": "Auftragsbestätigung und Terminabstimmung. Sie erhalten die Auftragsbestätigung. Der Liefertermin wird passend zu Ihrem Praxisbetrieb koordiniert."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 3,
-                  "name": "Lieferung",
-                  "text": "Sichere Anlieferung direkt in Ihren Untersuchungsraum. Unser Fachpersonal liefert, trägt auf und platziert das Gerät exakt dort, wo es gebraucht wird."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 4,
-                  "name": "Installation",
-                  "text": "Aufbau, Konfiguration und Netzwerkanbindung. Das Gerät wird installiert, ans Praxisnetzwerk angebunden und alle Schnittstellen konfiguriert."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 5,
-                  "name": "Abschluss",
-                  "text": "Einweisung und einsatzbereit. Ihr Team wird eingewiesen. Noch am selben Tag können Sie mit dem neuen Gerät diagnostizieren."
-                }
-              ]
+              "@type": "Question",
+              "name": "Kostet die Lieferung und Installation extra?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein. Lieferung, Aufbau und Erstinbetriebnahme sind bei SONORING DORMED im Leistungsumfang enthalten – bundesweit und ohne Aufpreis. Sie erhalten ein Rundum-sorglos-Paket vom ersten Kontakt bis zur einsatzbereiten Praxis."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Wie lange dauert die Lieferung eines Ultraschallgeräts?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "In der Regel ist die Lieferung bereits am nächsten Werktag möglich. Der genaue Termin wird gemeinsam mit Ihnen abgestimmt, damit die Lieferung nahtlos in Ihren Praxisbetrieb passt – ohne Unterbrechung des laufenden Betriebs."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kostet die Lieferung und Installation extra?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nein. Lieferung, Aufbau und Erstinbetriebnahme sind bei SONORING DORMED im Leistungsumfang enthalten – bundesweit und ohne Aufpreis. Sie erhalten ein Rundum-sorglos-Paket vom ersten Kontakt bis zur einsatzbereiten Praxis."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Liefern Sie auch in entlegene Regionen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, wir liefern deutschlandweit – von Kiel bis München. Mit unseren Standorten in Dortmund, Düsseldorf, Hamburg und Kiel sind wir flächendeckend vertreten und erreichen jeden Standort in Deutschland."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was passiert, wenn das Gerät beim Transport beschädigt wird?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Alle Geräte sind während des Transports vollständig versichert. Sollte es trotzdem zu einem Schaden kommen, kümmern wir uns umgehend um Ersatz oder Reparatur – auf unsere Kosten und ohne Verzögerung für Ihre Praxis."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wird das Gerät auch ans Praxisverwaltungssystem angebunden?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja. Unsere Techniker konfigurieren auf Wunsch die Schnittstellen zu Ihrer Praxissoftware und binden das Gerät ins Netzwerk ein. Für eine vollständige DICOM- und KIS-Integration verweisen wir auf unseren spezialisierten Netzwerkanbindungsservice."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Erhalten wir auch nach der Lieferung noch Unterstützung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Selbstverständlich. Nach der Ersteinweisung stehen wir Ihnen für Rückfragen und Nachschulungen zur Verfügung. Über unseren Schulungs- und Einweisungsservice bieten wir zudem strukturierte Folgeschulungen für neues Personal an."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Liefern Sie auch in entlegene Regionen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, wir liefern deutschlandweit – von Kiel bis München. Mit unseren Standorten in Dortmund, Düsseldorf, Hamburg und Kiel sind wir flächendeckend vertreten und erreichen jeden Standort in Deutschland."
+              }
             },
             {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
-                { "@type": "ListItem", "position": 3, "name": "Lieferung", "item": "https://dormed.de/leistungen/lieferung" }
-              ]
+              "@type": "Question",
+              "name": "Was passiert, wenn das Gerät beim Transport beschädigt wird?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Alle Geräte sind während des Transports vollständig versichert. Sollte es trotzdem zu einem Schaden kommen, kümmern wir uns umgehend um Ersatz oder Reparatur – auf unsere Kosten und ohne Verzögerung für Ihre Praxis."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wird das Gerät auch ans Praxisverwaltungssystem angebunden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Unsere Techniker konfigurieren auf Wunsch die Schnittstellen zu Ihrer Praxissoftware und binden das Gerät ins Netzwerk ein. Für eine vollständige DICOM- und KIS-Integration verweisen wir auf unseren spezialisierten Netzwerkanbindungsservice."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Erhalten wir auch nach der Lieferung noch Unterstützung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Selbstverständlich. Nach der Ersteinweisung stehen wir Ihnen für Rückfragen und Nachschulungen zur Verfügung. Über unseren Schulungs- und Einweisungsservice bieten wir zudem strukturierte Folgeschulungen für neues Personal an."
+              }
             }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
+            { "@type": "ListItem", "position": 3, "name": "Lieferung", "item": "https://dormed.de/leistungen/lieferung" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

@@ -1,9 +1,38 @@
-@php
-    $title = "PW-Doppler Ultraschall – Technik & Anwendung | DORMED";
-    $canonical = "https://dormed.de/fuer/kardiologie/pw-doppler";
-    $description = "PW-Doppler (Pulsed Wave Doppler) in der Ultraschalldiagnostik: Funktionsweise, klinische Anwendung und geeignete Geräte – Fachwissen von SONORING DORMED.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
+    <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/fuer/kardiologie/pw-doppler">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/fuer/kardiologie/pw-doppler">
+
+        <title>PW-Doppler Ultraschall – Technik &amp; Anwendung | DORMED</title>
+        <meta name="description" content="PW-Doppler (Pulsed Wave Doppler) in der Ultraschalldiagnostik: Funktionsweise, klinische Anwendung und geeignete Geräte – Fachwissen von SONORING DORMED.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/fuer/kardiologie/pw-doppler">
+
+    
+
+        <meta property="og:title" content="PW-Doppler Ultraschall – Technik &amp;amp; Anwendung | DORMED">
+        <meta property="og:description" content="PW-Doppler (Pulsed Wave Doppler) in der Ultraschalldiagnostik: Funktionsweise, klinische Anwendung und geeignete Geräte – Fachwissen von SONORING DORMED.">
+        <meta property="og:url" content="https://dormed.de/fuer/kardiologie/pw-doppler">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="PW-Doppler Ultraschall – Technik &amp;amp; Anwendung | DORMED">
+        <meta name="twitter:description" content="PW-Doppler (Pulsed Wave Doppler) in der Ultraschalldiagnostik: Funktionsweise, klinische Anwendung und geeignete Geräte – Fachwissen von SONORING DORMED.">
+
+    
+
+    
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
+    </x-slot:head>
+
 <main id="yuuble-main" class="main">
 <div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-v6zzpruf0" style="position:relative;width:100%;min-height:auto;background-color:#F7F5F0;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:96px;padding-bottom:96px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-ifsbyhgcu" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-s08mcohvh" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
           #widget-el-s08mcohvh { width: 100% !important; display: flex; }

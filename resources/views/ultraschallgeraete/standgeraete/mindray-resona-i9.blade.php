@@ -1,80 +1,105 @@
-@php
-    $title = "Mindray Resona i9 kaufen – Premium Ultraschall | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9";
-    $description = "Mindray Resona i9: Premiumsystem mit ZST+ Plattform, volldigitaler Architektur und KI-gestützter Bildoptimierung. Für Kardiologie, Abdomen und mehr.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9">
+
+        <title>Mindray Resona i9 kaufen – Premium Ultraschall | DORMED</title>
+        <meta name="description" content="Mindray Resona i9: Premiumsystem mit ZST+ Plattform, volldigitaler Architektur und KI-gestützter Bildoptimierung. Für Kardiologie, Abdomen und mehr.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9">
+
+    
+
+        <meta property="og:title" content="Mindray Resona i9 kaufen – Premium Ultraschall | DORMED">
+        <meta property="og:description" content="Mindray Resona i9: Premiumsystem mit ZST+ Plattform, volldigitaler Architektur und KI-gestützter Bildoptimierung. Für Kardiologie, Abdomen und mehr.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray Resona i9 kaufen – Premium Ultraschall | DORMED">
+        <meta name="twitter:description" content="Mindray Resona i9: Premiumsystem mit ZST+ Plattform, volldigitaler Architektur und KI-gestützter Bildoptimierung. Für Kardiologie, Abdomen und mehr.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9/#product",
-              "name": "Mindray Resona i9",
-              "description": "Premium-Ultraschallsystem auf ZST+ Plattform mit 21,5\" Full HD Monitor, 4+1 aktiven Ports, AutoEF, XStrain™ Strain-Analyse, Smart TIRADS, Y-View 3D und uMV. Für Kardiologie, Allgemeinmedizin und anspruchsvolle Multiparameter-Diagnostik.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-resona-i8/4a6087e5-0315-4a28-8e12-ed015f569c00.png",
-                "https://dormed.de/assets/img/produkte/mindray-resona-i9/ca4f40df-b944-4940-3aba-68a5a265fe00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-resona-i9/df6d87da-a325-4b61-a87e-ee4047991400.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-resona-i9/fee68044-eaa2-42c7-2c82-9c27cf533000.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Stationäres Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+ (Zone Sonography Technology Plus)" },
-                { "@type": "PropertyValue", "name": "Monitor", "value": "21,5 Zoll Full HD" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
-                { "@type": "PropertyValue", "name": "AutoEF", "value": "Verfügbar — automatische Ejektionsfraktion" },
-                { "@type": "PropertyValue", "name": "XStrain™", "value": "Verfügbar — Speckle-Tracking Strain-Analyse" },
-                { "@type": "PropertyValue", "name": "Smart TIRADS", "value": "Verfügbar — automatische Schilddrüsenklassifikation" },
-                { "@type": "PropertyValue", "name": "AutoTIME", "value": "Verfügbar — automatische Intima-Media-Messung" },
-                { "@type": "PropertyValue", "name": "Y-View 3D", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "uMV", "value": "Verfügbar — nächste Generation qEUS" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Stationäres Standgerät Premium" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray Nuewa i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9" },
-                { "@type": "Product", "name": "Mindray Resona i8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i8" },
-                { "@type": "Product", "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray Resona i9", "item": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9/#product",
+          "name": "Mindray Resona i9",
+          "description": "Premium-Ultraschallsystem auf ZST+ Plattform mit 21,5\" Full HD Monitor, 4+1 aktiven Ports, AutoEF, XStrain™ Strain-Analyse, Smart TIRADS, Y-View 3D und uMV. Für Kardiologie, Allgemeinmedizin und anspruchsvolle Multiparameter-Diagnostik.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-resona-i8/4a6087e5-0315-4a28-8e12-ed015f569c00.png",
+            "https://dormed.de/assets/img/produkte/mindray-resona-i9/ca4f40df-b944-4940-3aba-68a5a265fe00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-resona-i9/df6d87da-a325-4b61-a87e-ee4047991400.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-resona-i9/fee68044-eaa2-42c7-2c82-9c27cf533000.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Stationäres Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+ (Zone Sonography Technology Plus)" },
+            { "@type": "PropertyValue", "name": "Monitor", "value": "21,5 Zoll Full HD" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
+            { "@type": "PropertyValue", "name": "AutoEF", "value": "Verfügbar — automatische Ejektionsfraktion" },
+            { "@type": "PropertyValue", "name": "XStrain™", "value": "Verfügbar — Speckle-Tracking Strain-Analyse" },
+            { "@type": "PropertyValue", "name": "Smart TIRADS", "value": "Verfügbar — automatische Schilddrüsenklassifikation" },
+            { "@type": "PropertyValue", "name": "AutoTIME", "value": "Verfügbar — automatische Intima-Media-Messung" },
+            { "@type": "PropertyValue", "name": "Y-View 3D", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "uMV", "value": "Verfügbar — nächste Generation qEUS" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Stationäres Standgerät Premium" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray Nuewa i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9" },
+            { "@type": "Product", "name": "Mindray Resona i8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i8" },
+            { "@type": "Product", "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray Resona i9", "item": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

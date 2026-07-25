@@ -1,133 +1,158 @@
-@php
-    $title = "Ultraschall Allgemeinmedizin – Geräte für Hausärzte | DORMED";
-    $canonical = "https://dormed.de/fuer/allgemeinmedizin";
-    $description = "Ultraschallgeräte für Hausarztpraxen – kompakt, vielseitig und einfach zu bedienen. Mindray und Esaote Systeme für die tägliche Diagnostik in der Allgemeinmedizin.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/fuer/allgemeinmedizin">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/fuer/allgemeinmedizin">
+
+        <title>Ultraschall Allgemeinmedizin – Geräte für Hausärzte | DORMED</title>
+        <meta name="description" content="Ultraschallgeräte für Hausarztpraxen – kompakt, vielseitig und einfach zu bedienen. Mindray und Esaote Systeme für die tägliche Diagnostik in der Allgemeinmedizin.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/fuer/allgemeinmedizin">
+
+    
+
+        <meta property="og:title" content="Ultraschall Allgemeinmedizin – Geräte für Hausärzte | DORMED">
+        <meta property="og:description" content="Ultraschallgeräte für Hausarztpraxen – kompakt, vielseitig und einfach zu bedienen. Mindray und Esaote Systeme für die tägliche Diagnostik in der Allgemeinmedizin.">
+        <meta property="og:url" content="https://dormed.de/fuer/allgemeinmedizin">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Allgemeinmedizin – Geräte für Hausärzte | DORMED">
+        <meta name="twitter:description" content="Ultraschallgeräte für Hausarztpraxen – kompakt, vielseitig und einfach zu bedienen. Mindray und Esaote Systeme für die tägliche Diagnostik in der Allgemeinmedizin.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://dormed.de/fuer/allgemeinmedizin/#webpage",
+          "name": "Ultraschall Allgemeinmedizin – Geräte für Hausärzte | DORMED",
+          "description": "Ultraschallgeräte für Hausarztpraxen – kompakt, vielseitig und einfach zu bedienen. Mindray und Esaote Systeme für die tägliche Diagnostik in der Allgemeinmedizin.",
+          "url": "https://dormed.de/fuer/allgemeinmedizin",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Für Fachgebiete", "item": "https://dormed.de/fuer" },
+              { "@type": "ListItem", "position": 3, "name": "Allgemeinmedizin", "item": "https://dormed.de/fuer/allgemeinmedizin" }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Empfohlene Ultraschallgeräte für die Allgemeinmedizin",
+          "description": "Diese Ultraschallgeräte empfiehlt SONORING DORMED für Hausarztpraxen – vielseitig, einfach zu bedienen und KV-genehmigungsfähig.",
+          "numberOfItems": 4,
+          "itemListElement": [
             {
-              "@type": "WebPage",
-              "@id": "https://dormed.de/fuer/allgemeinmedizin/#webpage",
-              "name": "Ultraschall Allgemeinmedizin – Geräte für Hausärzte | DORMED",
-              "description": "Ultraschallgeräte für Hausarztpraxen – kompakt, vielseitig und einfach zu bedienen. Mindray und Esaote Systeme für die tägliche Diagnostik in der Allgemeinmedizin.",
-              "url": "https://dormed.de/fuer/allgemeinmedizin",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Für Fachgebiete", "item": "https://dormed.de/fuer" },
-                  { "@type": "ListItem", "position": 3, "name": "Allgemeinmedizin", "item": "https://dormed.de/fuer/allgemeinmedizin" }
-                ]
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Mindray Consona N8",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Mindray Consona N6",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n6"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Esaote MyLab A50",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Mindray DC-30",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Brauche ich eine spezielle Genehmigung um als Hausarzt Ultraschall abzurechnen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja — für die GKV-Abrechnung nach EBM benötigen Sie eine Genehmigung Ihrer Kassenärztlichen Vereinigung (KV) für Sonographie. Die Anforderungen variieren je nach KV, umfassen aber in der Regel einen Nachweis von Kenntnissen und Geräten. Für die GOÄ-Abrechnung bei Privatpatienten ist keine gesonderte Genehmigung erforderlich — hier reicht die ärztliche Approbation. Wir empfehlen vor der Geräteinvestition die Abklärung mit Ihrer KV."
               }
             },
             {
-              "@type": "ItemList",
-              "name": "Empfohlene Ultraschallgeräte für die Allgemeinmedizin",
-              "description": "Diese Ultraschallgeräte empfiehlt SONORING DORMED für Hausarztpraxen – vielseitig, einfach zu bedienen und KV-genehmigungsfähig.",
-              "numberOfItems": 4,
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Mindray Consona N8",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Mindray Consona N6",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n6"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Esaote MyLab A50",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 4,
-                  "name": "Mindray DC-30",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30"
-                }
-              ]
+              "@type": "Question",
+              "name": "Welches Ultraschallgerät empfehlen Sie für eine Hausarztpraxis die gerade mit Ultraschall anfängt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Für den Einstieg empfehlen wir die Mindray Consona N6 — sie bietet das vollständige Grundprogramm für Abdomen, Schilddrüse und Gefäße zu einem gut kalkulierbaren Preis. Vier Ports ermöglichen simultanen Anschluss von Konvex- und Linearschallkopf. Wenn das Budget eng ist, ist der DC 30 eine solide Basisoption. Beide Geräte liefern wir mit persönlicher Einweisung direkt in Ihrer Praxis."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Brauche ich eine spezielle Genehmigung um als Hausarzt Ultraschall abzurechnen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja — für die GKV-Abrechnung nach EBM benötigen Sie eine Genehmigung Ihrer Kassenärztlichen Vereinigung (KV) für Sonographie. Die Anforderungen variieren je nach KV, umfassen aber in der Regel einen Nachweis von Kenntnissen und Geräten. Für die GOÄ-Abrechnung bei Privatpatienten ist keine gesonderte Genehmigung erforderlich — hier reicht die ärztliche Approbation. Wir empfehlen vor der Geräteinvestition die Abklärung mit Ihrer KV."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welches Ultraschallgerät empfehlen Sie für eine Hausarztpraxis die gerade mit Ultraschall anfängt?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Für den Einstieg empfehlen wir die Mindray Consona N6 — sie bietet das vollständige Grundprogramm für Abdomen, Schilddrüse und Gefäße zu einem gut kalkulierbaren Preis. Vier Ports ermöglichen simultanen Anschluss von Konvex- und Linearschallkopf. Wenn das Budget eng ist, ist der DC 30 eine solide Basisoption. Beide Geräte liefern wir mit persönlicher Einweisung direkt in Ihrer Praxis."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich mit einem Ultraschallgerät die Genehmigung für das DEGUM-Stufenprogramm erlangen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die DEGUM-Stufengenehmigung hängt primär von Ihrer persönlichen Qualifikation und der nachgewiesenen Untersuchungsanzahl ab — nicht allein vom Gerät. Allerdings müssen Geräte bestimmte technische Mindestanforderungen erfüllen (aktueller Software-Stand, funktionsfähige Schallköpfe, Konstanzprüfungsprotokoll). Alle Geräte die wir verkaufen und warten erfüllen diese Voraussetzungen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie oft muss ein Ultraschallgerät gewartet werden?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Für die QM-Dokumentation nach KBV-Anforderungen ist eine jährliche Konstanzprüfung Pflicht. Diese umfasst die Überprüfung der Bildgebungsqualität mit einem Testphantom und wird mit einem Prüfprotokoll dokumentiert. Als SONORING®-Fachhändler führen wir diese Prüfungen bundesweit durch — entweder im Rahmen eines Wartungsvertrags oder als Einzelleistung."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Ist Elastographie in der Allgemeinmedizin sinnvoll?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Elastographie ist sinnvoll wenn Sie regelmäßig Patienten mit Lebererkrankungen oder Schilddrüsenknoten betreuen. Die Leberelastographie erlaubt eine nicht-invasive Beurteilung des Fibrosegrades — als Alternative zur Biopsie. Wenn Sie diese Patientengruppen nicht regelmäßig sehen, ist Elastographie entbehrlich — dann reicht ein Gerät der Grundklasse."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich denselben Schallkopf für Schilddrüse und Gefäße verwenden?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja — ein hochwertiger Linearschallkopf (7,5–12 MHz) ist sowohl für die Schilddrüsensonographie als auch für die Carotis-Duplex-Sonographie geeignet. Das spart Kosten weil Sie nicht zwei separate Schallköpfe kaufen müssen. Für die Carotis-IMT-Messung sollte der Schallkopf eine gute axiale Auflösung bei 7,5 MHz bieten."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was ist der Unterschied zwischen B-Bild und Farbdoppler-Sonographie?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Das B-Bild (Brightness Mode) ist die Standarddarstellung — Graustufen-Schnittbild der Organe. Es zeigt Morphologie, Größe und Struktur. Der Farbdoppler überlagert das B-Bild mit farbkodierten Flussinformationen — damit wird die Durchblutung von Organen, Gefäßen und Knoten sichtbar. Für die Gefäßdiagnostik und die Beurteilung der Vaskularisierung von Schilddrüsenknoten ist Farbdoppler unverzichtbar."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie lange dauert eine typische Abdomensonographie in der Hausarztpraxis?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Eine vollständige Abdominalsonographie (Leber, Gallenblase, Nieren, Milz, Blase) dauert bei Routine und gutem Gerät etwa 10–15 Minuten inklusive Dokumentation. Mit modernen Bildoptimierungsfunktionen wie iTouch oder easyMode reduziert sich die manuelle Einstellzeit deutlich. Bei schallschlechten Patienten oder unklaren Befunden kann die Untersuchung länger dauern."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Kann ich mit einem Ultraschallgerät die Genehmigung für das DEGUM-Stufenprogramm erlangen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die DEGUM-Stufengenehmigung hängt primär von Ihrer persönlichen Qualifikation und der nachgewiesenen Untersuchungsanzahl ab — nicht allein vom Gerät. Allerdings müssen Geräte bestimmte technische Mindestanforderungen erfüllen (aktueller Software-Stand, funktionsfähige Schallköpfe, Konstanzprüfungsprotokoll). Alle Geräte die wir verkaufen und warten erfüllen diese Voraussetzungen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie oft muss ein Ultraschallgerät gewartet werden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Für die QM-Dokumentation nach KBV-Anforderungen ist eine jährliche Konstanzprüfung Pflicht. Diese umfasst die Überprüfung der Bildgebungsqualität mit einem Testphantom und wird mit einem Prüfprotokoll dokumentiert. Als SONORING®-Fachhändler führen wir diese Prüfungen bundesweit durch — entweder im Rahmen eines Wartungsvertrags oder als Einzelleistung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist Elastographie in der Allgemeinmedizin sinnvoll?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Elastographie ist sinnvoll wenn Sie regelmäßig Patienten mit Lebererkrankungen oder Schilddrüsenknoten betreuen. Die Leberelastographie erlaubt eine nicht-invasive Beurteilung des Fibrosegrades — als Alternative zur Biopsie. Wenn Sie diese Patientengruppen nicht regelmäßig sehen, ist Elastographie entbehrlich — dann reicht ein Gerät der Grundklasse."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich denselben Schallkopf für Schilddrüse und Gefäße verwenden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja — ein hochwertiger Linearschallkopf (7,5–12 MHz) ist sowohl für die Schilddrüsensonographie als auch für die Carotis-Duplex-Sonographie geeignet. Das spart Kosten weil Sie nicht zwei separate Schallköpfe kaufen müssen. Für die Carotis-IMT-Messung sollte der Schallkopf eine gute axiale Auflösung bei 7,5 MHz bieten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was ist der Unterschied zwischen B-Bild und Farbdoppler-Sonographie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Das B-Bild (Brightness Mode) ist die Standarddarstellung — Graustufen-Schnittbild der Organe. Es zeigt Morphologie, Größe und Struktur. Der Farbdoppler überlagert das B-Bild mit farbkodierten Flussinformationen — damit wird die Durchblutung von Organen, Gefäßen und Knoten sichtbar. Für die Gefäßdiagnostik und die Beurteilung der Vaskularisierung von Schilddrüsenknoten ist Farbdoppler unverzichtbar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie lange dauert eine typische Abdomensonographie in der Hausarztpraxis?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Eine vollständige Abdominalsonographie (Leber, Gallenblase, Nieren, Milz, Blase) dauert bei Routine und gutem Gerät etwa 10–15 Minuten inklusive Dokumentation. Mit modernen Bildoptimierungsfunktionen wie iTouch oder easyMode reduziert sich die manuelle Einstellzeit deutlich. Bei schallschlechten Patienten oder unklaren Befunden kann die Untersuchung länger dauern."
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

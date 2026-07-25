@@ -1,47 +1,72 @@
-@php
-    $title = "Leistungen – Full-Service für Ultraschallgeräte | SONORING";
-    $canonical = "https://dormed.de/leistungen";
-    $description = "Von Beratung über Finanzierung bis Wartung – SONORING DORMED bietet den kompletten Service rund um Ihren Ultraschall. Alles aus einer Hand, bundesweit.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/leistungen">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/leistungen">
+
+        <title>Leistungen – Full-Service für Ultraschallgeräte | SONORING</title>
+        <meta name="description" content="Von Beratung über Finanzierung bis Wartung – SONORING DORMED bietet den kompletten Service rund um Ihren Ultraschall. Alles aus einer Hand, bundesweit.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/leistungen">
+
+    
+
+        <meta property="og:title" content="Leistungen – Full-Service für Ultraschallgeräte | SONORING">
+        <meta property="og:description" content="Von Beratung über Finanzierung bis Wartung – SONORING DORMED bietet den kompletten Service rund um Ihren Ultraschall. Alles aus einer Hand, bundesweit.">
+        <meta property="og:url" content="https://dormed.de/leistungen">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Leistungen – Full-Service für Ultraschallgeräte | SONORING">
+        <meta name="twitter:description" content="Von Beratung über Finanzierung bis Wartung – SONORING DORMED bietet den kompletten Service rund um Ihren Ultraschall. Alles aus einer Hand, bundesweit.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "WebPage",
-              "@id": "https://dormed.de/leistungen/#webpage",
-              "name": "Leistungen – Full-Service für Ultraschallgeräte | SONORING DORMED",
-              "description": "Von Beratung über Finanzierung bis Wartung – SONORING DORMED bietet den kompletten Service rund um Ihren Ultraschall. Alles aus einer Hand, bundesweit.",
-              "url": "https://dormed.de/leistungen",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" }
-                ]
-              }
-            },
-            {
-              "@type": "ItemList",
-              "name": "Leistungen von SONORING DORMED",
-              "description": "Das vollständige Service-Portfolio von SONORING DORMED rund um Ultraschallgeräte.",
-              "numberOfItems": 8,
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Ultraschall Beratung", "url": "https://dormed.de/leistungen/beratung" },
-                { "@type": "ListItem", "position": 2, "name": "Finanzierung & Leasing", "url": "https://dormed.de/leistungen/finanzierung" },
-                { "@type": "ListItem", "position": 3, "name": "Lieferung & Installation", "url": "https://dormed.de/leistungen/lieferung" },
-                { "@type": "ListItem", "position": 4, "name": "Wartung & Reparatur", "url": "https://dormed.de/leistungen/wartung-reparatur" },
-                { "@type": "ListItem", "position": 5, "name": "Netzwerkanbindung & DICOM", "url": "https://dormed.de/leistungen/netzwerkanbindung" },
-                { "@type": "ListItem", "position": 6, "name": "Schulung & Einweisung", "url": "https://dormed.de/leistungen/schulung-einweisung" },
-                { "@type": "ListItem", "position": 7, "name": "Garantie & Versicherung", "url": "https://dormed.de/leistungen/garantie-versicherung" },
-                { "@type": "ListItem", "position": 8, "name": "Inzahlungnahme", "url": "https://dormed.de/leistungen/inzahlungnahme" }
-              ]
-            }
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://dormed.de/leistungen/#webpage",
+          "name": "Leistungen – Full-Service für Ultraschallgeräte | SONORING DORMED",
+          "description": "Von Beratung über Finanzierung bis Wartung – SONORING DORMED bietet den kompletten Service rund um Ihren Ultraschall. Alles aus einer Hand, bundesweit.",
+          "url": "https://dormed.de/leistungen",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Leistungen von SONORING DORMED",
+          "description": "Das vollständige Service-Portfolio von SONORING DORMED rund um Ultraschallgeräte.",
+          "numberOfItems": 8,
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Ultraschall Beratung", "url": "https://dormed.de/leistungen/beratung" },
+            { "@type": "ListItem", "position": 2, "name": "Finanzierung & Leasing", "url": "https://dormed.de/leistungen/finanzierung" },
+            { "@type": "ListItem", "position": 3, "name": "Lieferung & Installation", "url": "https://dormed.de/leistungen/lieferung" },
+            { "@type": "ListItem", "position": 4, "name": "Wartung & Reparatur", "url": "https://dormed.de/leistungen/wartung-reparatur" },
+            { "@type": "ListItem", "position": 5, "name": "Netzwerkanbindung & DICOM", "url": "https://dormed.de/leistungen/netzwerkanbindung" },
+            { "@type": "ListItem", "position": 6, "name": "Schulung & Einweisung", "url": "https://dormed.de/leistungen/schulung-einweisung" },
+            { "@type": "ListItem", "position": 7, "name": "Garantie & Versicherung", "url": "https://dormed.de/leistungen/garantie-versicherung" },
+            { "@type": "ListItem", "position": 8, "name": "Inzahlungnahme", "url": "https://dormed.de/leistungen/inzahlungnahme" }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

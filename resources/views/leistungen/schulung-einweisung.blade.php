@@ -1,112 +1,137 @@
-@php
-    $title = "Ultraschall Schulung & Einweisung für Praxen | SONORING DORMED";
-    $canonical = "https://dormed.de/leistungen/schulung-einweisung";
-    $description = "Professionelle Geräteeinweisung und Anwenderschulung direkt in Ihrer Praxis. Unsere zertifizierten Trainer machen Ihr Team sicher im Umgang mit dem neuen Ultraschall.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/leistungen/schulung-einweisung">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/leistungen/schulung-einweisung">
+
+        <title>Ultraschall Schulung &amp; Einweisung für Praxen | SONORING DORMED</title>
+        <meta name="description" content="Professionelle Geräteeinweisung und Anwenderschulung direkt in Ihrer Praxis. Unsere zertifizierten Trainer machen Ihr Team sicher im Umgang mit dem neuen Ultraschall.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/leistungen/schulung-einweisung">
+
+    
+
+        <meta property="og:title" content="Ultraschall Schulung &amp;amp; Einweisung für Praxen | SONORING DORMED">
+        <meta property="og:description" content="Professionelle Geräteeinweisung und Anwenderschulung direkt in Ihrer Praxis. Unsere zertifizierten Trainer machen Ihr Team sicher im Umgang mit dem neuen Ultraschall.">
+        <meta property="og:url" content="https://dormed.de/leistungen/schulung-einweisung">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Schulung &amp;amp; Einweisung für Praxen | SONORING DORMED">
+        <meta name="twitter:description" content="Professionelle Geräteeinweisung und Anwenderschulung direkt in Ihrer Praxis. Unsere zertifizierten Trainer machen Ihr Team sicher im Umgang mit dem neuen Ultraschall.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-schulung",
+          "name": "Ultraschall Schulung & Einweisung",
+          "url": "https://dormed.de/leistungen/schulung-einweisung",
+          "description": "Professionelle Geräteeinweisung und Anwenderschulung direkt in Ihrer Praxis. Unsere zertifizierten Trainer machen Ihr Team sicher im Umgang mit dem neuen Ultraschall.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "areaServed": { "@type": "Country", "name": "Deutschland" },
+          "serviceType": "Schulung & Einweisung"
+        },
+        {
+          "@type": "HowTo",
+          "name": "Wie läuft die Ultraschall-Schulung und Einweisung ab?",
+          "description": "Drei Schulungsformate – von der Pflichteinweisung bei Lieferung bis zur individuellen Refresher-Schulung.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "step": [
             {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-schulung",
-              "name": "Ultraschall Schulung & Einweisung",
-              "url": "https://dormed.de/leistungen/schulung-einweisung",
-              "description": "Professionelle Geräteeinweisung und Anwenderschulung direkt in Ihrer Praxis. Unsere zertifizierten Trainer machen Ihr Team sicher im Umgang mit dem neuen Ultraschall.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "areaServed": { "@type": "Country", "name": "Deutschland" },
-              "serviceType": "Schulung & Einweisung"
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Erstschulung",
+              "text": "Bei jeder Lieferung: Erstschulung vor Ort. Direkt bei der Lieferung nehmen sich unsere Techniker die Zeit für eine vollständige Einweisung in alle Funktionen – abgestimmt auf Ihre Fachrichtung. Inklusive, kein Aufpreis."
             },
             {
-              "@type": "HowTo",
-              "name": "Wie läuft die Ultraschall-Schulung und Einweisung ab?",
-              "description": "Drei Schulungsformate – von der Pflichteinweisung bei Lieferung bis zur individuellen Refresher-Schulung.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "step": [
-                {
-                  "@type": "HowToStep",
-                  "position": 1,
-                  "name": "Erstschulung",
-                  "text": "Bei jeder Lieferung: Erstschulung vor Ort. Direkt bei der Lieferung nehmen sich unsere Techniker die Zeit für eine vollständige Einweisung in alle Funktionen – abgestimmt auf Ihre Fachrichtung. Inklusive, kein Aufpreis."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 2,
-                  "name": "Inhouse-Schulung",
-                  "text": "Auf Wunsch: Inhouse-Schulung durch Experten. Erfahrene Applikationsspezialisten kommen direkt in Ihre Praxis – für das gesamte Team, individuell zugeschnitten."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 3,
-                  "name": "Refresher",
-                  "text": "Jederzeit buchbar: Refresher-Schulung. Nach ein paar Monaten tauchen die echten Fragen auf. Wir kommen wieder – für gezielte Auffrischung, neue Funktionen oder wenn das Team gewechselt hat."
-                }
-              ]
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Inhouse-Schulung",
+              "text": "Auf Wunsch: Inhouse-Schulung durch Experten. Erfahrene Applikationsspezialisten kommen direkt in Ihre Praxis – für das gesamte Team, individuell zugeschnitten."
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Ist die Einweisung in ein Ultraschallgerät gesetzlich vorgeschrieben?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, zwingend. §5 der Medizinprodukte-Betreiberverordnung (MPBetreibV) verpflichtet jeden Betreiber, alle Anwender vor der ersten Nutzung eines Medizinprodukts einzuweisen. Zusätzlich verlangt §9 der Ultraschall-Vereinbarung einen schriftlichen Einweisungsnachweis als Voraussetzung für die KV-Abrechnungsgenehmigung."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was ist der Unterschied zwischen Pflichteinweisung und Applikationsschulung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die Pflichteinweisung ist gesetzlich vorgeschrieben und deckt die sachgerechte Handhabung des Geräts ab – sie ist Teil jeder Lieferung durch SONORING DORMED und wird schriftlich dokumentiert. Die Applikationsschulung geht darüber hinaus: Sie vermittelt den sicheren, effizienten Einsatz aller gerätespezifischen Funktionen im klinischen Alltag."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Bekomme ich ein Dokument für die KV-Genehmigung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja. Sie erhalten von uns eine schriftliche Einweisungsbestätigung mit allen erforderlichen Angaben: Name der einweisenden Person, Datum, Gerätebezeichnung und Seriennummer. Das Dokument ist direkt verwendbar für Ihren KV-Genehmigungsantrag."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wer führt die Schulungen durch?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die Pflichteinweisung übernehmen unsere eigenen, zertifizierten Techniker direkt bei der Lieferung. Für vertiefende Applikationsschulungen setzen wir auf erfahrene Applikationsspezialisten – eigene Techniker mit Mindray- und Esaote-Zertifizierung sowie externe Experten, die selbst jahrzehntelang als Ärzte in der Ultraschalldiagnostik tätig waren."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich eine Nachschulung oder einen Refresher anfragen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Jederzeit. Erfahrungsgemäß tauchen nach einigen Monaten im Praxisalltag die konkreten Fragen auf – neue Funktionen, unklare Befunde, Personalwechsel. Sprechen Sie uns an und wir vereinbaren einen Refresher-Termin direkt in Ihrer Praxis."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Gilt die Schulung auch für mein Praxispersonal und meine MFAs?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja. Die Einweisung und Schulung richtet sich an alle Personen, die am Gerät arbeiten – Arzt, MFA, MTRA oder sonstiges Praxispersonal. Die MPBetreibV sieht ausdrücklich vor, dass alle Anwender eingewiesen werden müssen."
-                  }
-                }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
-                { "@type": "ListItem", "position": 3, "name": "Schulung & Einweisung", "item": "https://dormed.de/leistungen/schulung-einweisung" }
-              ]
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Refresher",
+              "text": "Jederzeit buchbar: Refresher-Schulung. Nach ein paar Monaten tauchen die echten Fragen auf. Wir kommen wieder – für gezielte Auffrischung, neue Funktionen oder wenn das Team gewechselt hat."
             }
           ]
-        }</script>
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Ist die Einweisung in ein Ultraschallgerät gesetzlich vorgeschrieben?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, zwingend. §5 der Medizinprodukte-Betreiberverordnung (MPBetreibV) verpflichtet jeden Betreiber, alle Anwender vor der ersten Nutzung eines Medizinprodukts einzuweisen. Zusätzlich verlangt §9 der Ultraschall-Vereinbarung einen schriftlichen Einweisungsnachweis als Voraussetzung für die KV-Abrechnungsgenehmigung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was ist der Unterschied zwischen Pflichteinweisung und Applikationsschulung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Pflichteinweisung ist gesetzlich vorgeschrieben und deckt die sachgerechte Handhabung des Geräts ab – sie ist Teil jeder Lieferung durch SONORING DORMED und wird schriftlich dokumentiert. Die Applikationsschulung geht darüber hinaus: Sie vermittelt den sicheren, effizienten Einsatz aller gerätespezifischen Funktionen im klinischen Alltag."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Bekomme ich ein Dokument für die KV-Genehmigung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Sie erhalten von uns eine schriftliche Einweisungsbestätigung mit allen erforderlichen Angaben: Name der einweisenden Person, Datum, Gerätebezeichnung und Seriennummer. Das Dokument ist direkt verwendbar für Ihren KV-Genehmigungsantrag."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wer führt die Schulungen durch?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Pflichteinweisung übernehmen unsere eigenen, zertifizierten Techniker direkt bei der Lieferung. Für vertiefende Applikationsschulungen setzen wir auf erfahrene Applikationsspezialisten – eigene Techniker mit Mindray- und Esaote-Zertifizierung sowie externe Experten, die selbst jahrzehntelang als Ärzte in der Ultraschalldiagnostik tätig waren."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich eine Nachschulung oder einen Refresher anfragen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Jederzeit. Erfahrungsgemäß tauchen nach einigen Monaten im Praxisalltag die konkreten Fragen auf – neue Funktionen, unklare Befunde, Personalwechsel. Sprechen Sie uns an und wir vereinbaren einen Refresher-Termin direkt in Ihrer Praxis."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Gilt die Schulung auch für mein Praxispersonal und meine MFAs?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Die Einweisung und Schulung richtet sich an alle Personen, die am Gerät arbeiten – Arzt, MFA, MTRA oder sonstiges Praxispersonal. Die MPBetreibV sieht ausdrücklich vor, dass alle Anwender eingewiesen werden müssen."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
+            { "@type": "ListItem", "position": 3, "name": "Schulung & Einweisung", "item": "https://dormed.de/leistungen/schulung-einweisung" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

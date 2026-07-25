@@ -1,9 +1,38 @@
-@php
-    $title = "Blog – Ultraschall Wissen & Neuigkeiten | DORMED";
-    $canonical = "https://dormed.de/blog";
-    $description = "Fachwissen rund um Ultraschall: Geräte-Vergleiche, Praxistipps, Technologien und Neuigkeiten aus der Sonographie. Der Blog von SONORING DORMED.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
+    <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/blog">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/blog">
+
+        <title>Blog – Ultraschall Wissen &amp; Neuigkeiten | DORMED</title>
+        <meta name="description" content="Fachwissen rund um Ultraschall: Geräte-Vergleiche, Praxistipps, Technologien und Neuigkeiten aus der Sonographie. Der Blog von SONORING DORMED.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/blog">
+
+    
+
+        <meta property="og:title" content="Blog – Ultraschall Wissen &amp;amp; Neuigkeiten | DORMED">
+        <meta property="og:description" content="Fachwissen rund um Ultraschall: Geräte-Vergleiche, Praxistipps, Technologien und Neuigkeiten aus der Sonographie. Der Blog von SONORING DORMED.">
+        <meta property="og:url" content="https://dormed.de/blog">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Blog – Ultraschall Wissen &amp;amp; Neuigkeiten | DORMED">
+        <meta name="twitter:description" content="Fachwissen rund um Ultraschall: Geräte-Vergleiche, Praxistipps, Technologien und Neuigkeiten aus der Sonographie. Der Blog von SONORING DORMED.">
+
+    
+
+    
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
+    </x-slot:head>
+
 <main id="yuuble-main" class="main">
 <div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-bq2wwptwg" style="position:relative;width:100%;min-height:auto;background-color:#F4F6F9;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-xwhbxuw8z" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-4o9mux19p" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
           #widget-el-4o9mux19p { width: 100% !important; display: flex; }

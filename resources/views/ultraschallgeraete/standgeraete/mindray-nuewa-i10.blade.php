@@ -1,139 +1,164 @@
-@php
-    $title = "Mindray Nuewa I10 kaufen – Premium OB/GYN-Ultraschall | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10";
-    $description = "Mindray Nuewa I10: Neue Generation 10 für die Frauenheilkunde mit ZST+ Plattform, Intelli-Digital-Architektur, Smart Scene 3D und iLive-Volumenrendering. KI-Workflows für OB, GYN und IVF. Globale Premiere 2026.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10">
+
+        <title>Mindray Nuewa I10 kaufen – Premium OB/GYN-Ultraschall | DORMED</title>
+        <meta name="description" content="Mindray Nuewa I10: Neue Generation 10 für die Frauenheilkunde mit ZST+ Plattform, Intelli-Digital-Architektur, Smart Scene 3D und iLive-Volumenrendering. KI-Workflows für OB, GYN und IVF. Globale Premiere 2026.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10">
+
+    
+
+        <meta property="og:title" content="Mindray Nuewa I10 kaufen – Premium OB/GYN-Ultraschall | DORMED">
+        <meta property="og:description" content="Mindray Nuewa I10: Neue Generation 10 für die Frauenheilkunde mit ZST+ Plattform, Intelli-Digital-Architektur, Smart Scene 3D und iLive-Volumenrendering. KI-Workflows für OB, GYN und IVF. Globale Premiere 2026.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray Nuewa I10 kaufen – Premium OB/GYN-Ultraschall | DORMED">
+        <meta name="twitter:description" content="Mindray Nuewa I10: Neue Generation 10 für die Frauenheilkunde mit ZST+ Plattform, Intelli-Digital-Architektur, Smart Scene 3D und iLive-Volumenrendering. KI-Workflows für OB, GYN und IVF. Globale Premiere 2026.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10/#product",
+          "name": "Mindray Nuewa I10",
+          "description": "Mindray Nuewa I10: Neue Generation 10 für die Frauenheilkunde mit ZST+ Plattform, Intelli-Digital-Architektur, Smart Scene 3D und iLive-Volumenrendering. KI-Workflows für OB, GYN und IVF. Globale Premiere 2026.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-nuewa-i10/e667710b-476c-467e-832a-1b5f05172500.png",
+            "https://dormed.de/assets/img/produkte/mindray-nuewa-i10/c842a1d9-d81c-4881-9bc8-bee552c4bf00.png",
+            "https://dormed.de/assets/img/produkte/mindray-nuewa-i10/942292a1-6ea6-4cfe-40db-c9a0832ee800.png",
+            "https://dormed.de/assets/img/produkte/mindray-nuewa-i10/bd376793-ce9d-4eff-0e6c-fb174210e700.png"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Stationäres Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10",
+          "additionalProperty": [
             {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10/#product",
-              "name": "Mindray Nuewa I10",
-              "description": "Mindray Nuewa I10: Neue Generation 10 für die Frauenheilkunde mit ZST+ Plattform, Intelli-Digital-Architektur, Smart Scene 3D und iLive-Volumenrendering. KI-Workflows für OB, GYN und IVF. Globale Premiere 2026.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-nuewa-i10/e667710b-476c-467e-832a-1b5f05172500.png",
-                "https://dormed.de/assets/img/produkte/mindray-nuewa-i10/c842a1d9-d81c-4881-9bc8-bee552c4bf00.png",
-                "https://dormed.de/assets/img/produkte/mindray-nuewa-i10/942292a1-6ea6-4cfe-40db-c9a0832ee800.png",
-                "https://dormed.de/assets/img/produkte/mindray-nuewa-i10/bd376793-ce9d-4eff-0e6c-fb174210e700.png"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Stationäres Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10",
-              "additionalProperty": [
-                {
-                  "@type": "PropertyValue",
-                  "name": "Generation",
-                  "value": "Generation 10 · Premiere 2026"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Plattform",
-                  "value": "ZST+ · Intelli-Digital"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Schallkopfports",
-                  "value": "4 aktive Anschlüsse"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "3D/4D & iLive",
-                  "value": "Smart Scene 3D · iLive · VR iTouch"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "KI-Tools (OB)",
-                  "value": "Smart Face · Smart Planes · NT-Auto"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "KI-Tools (GYN)",
-                  "value": "Smart FLC · Smart Pelvic · Smart V-Trace"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "M-Connect Integration",
-                  "value": "Vorhanden"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "name": "Gerätetyp",
-                  "value": "Stationäres Standgerät Premium-Klasse OB/GYN"
-                }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10",
-                "availability": "https://schema.org/PreOrder",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": {
-                  "@id": "https://dormed.de/#organization"
-                },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                {
-                  "@type": "Product",
-                  "name": "Mindray Nuewa I9",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9"
-                },
-                {
-                  "@type": "Product",
-                  "name": "Esaote MyLab A70",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70"
-                }
-              ]
+              "@type": "PropertyValue",
+              "name": "Generation",
+              "value": "Generation 10 · Premiere 2026"
             },
             {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Startseite",
-                  "item": "https://dormed.de"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Ultraschallgeräte",
-                  "item": "https://dormed.de/ultraschallgeraete"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Standgeräte",
-                  "item": "https://dormed.de/ultraschallgeraete/standgeraete"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 4,
-                  "name": "Mindray Nuewa I10",
-                  "item": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10"
-                }
-              ]
+              "@type": "PropertyValue",
+              "name": "Plattform",
+              "value": "ZST+ · Intelli-Digital"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Schallkopfports",
+              "value": "4 aktive Anschlüsse"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "3D/4D & iLive",
+              "value": "Smart Scene 3D · iLive · VR iTouch"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "KI-Tools (OB)",
+              "value": "Smart Face · Smart Planes · NT-Auto"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "KI-Tools (GYN)",
+              "value": "Smart FLC · Smart Pelvic · Smart V-Trace"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "M-Connect Integration",
+              "value": "Vorhanden"
+            },
+            {
+              "@type": "PropertyValue",
+              "name": "Gerätetyp",
+              "value": "Stationäres Standgerät Premium-Klasse OB/GYN"
+            }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10",
+            "availability": "https://schema.org/PreOrder",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": {
+              "@id": "https://dormed.de/#organization"
+            },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
+            }
+          },
+          "isRelatedTo": [
+            {
+              "@type": "Product",
+              "name": "Mindray Nuewa I9",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i9"
+            },
+            {
+              "@type": "Product",
+              "name": "Esaote MyLab A70",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70"
             }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Startseite",
+              "item": "https://dormed.de"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Ultraschallgeräte",
+              "item": "https://dormed.de/ultraschallgeraete"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Standgeräte",
+              "item": "https://dormed.de/ultraschallgeraete/standgeraete"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Mindray Nuewa I10",
+              "item": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-nuewa-i10"
+            }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

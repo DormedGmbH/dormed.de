@@ -1,79 +1,104 @@
-@php
-    $title = "Mindray TE 7 Ace kaufen – Mobiler Ultraschall | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7-ace";
-    $description = "Mindray TE 7 Ace: Mobiles Ultraschallsystem mit hoher Bildqualität und flexiblem Einsatz in Praxis und Klinik. Kompakt, leistungsstark, schnell verfügbar.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7-ace">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7-ace">
+
+        <title>Mindray TE 7 Ace kaufen – Mobiler Ultraschall | DORMED</title>
+        <meta name="description" content="Mindray TE 7 Ace: Mobiles Ultraschallsystem mit hoher Bildqualität und flexiblem Einsatz in Praxis und Klinik. Kompakt, leistungsstark, schnell verfügbar.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7-ace">
+
+    
+
+        <meta property="og:title" content="Mindray TE 7 Ace kaufen – Mobiler Ultraschall | DORMED">
+        <meta property="og:description" content="Mindray TE 7 Ace: Mobiles Ultraschallsystem mit hoher Bildqualität und flexiblem Einsatz in Praxis und Klinik. Kompakt, leistungsstark, schnell verfügbar.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7-ace">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray TE 7 Ace kaufen – Mobiler Ultraschall | DORMED">
+        <meta name="twitter:description" content="Mindray TE 7 Ace: Mobiles Ultraschallsystem mit hoher Bildqualität und flexiblem Einsatz in Praxis und Klinik. Kompakt, leistungsstark, schnell verfügbar.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7/#product",
-              "name": "Mindray TE 7 Ace",
-              "description": "Mobiles Laptop-Ultraschallsystem auf ZST+ Plattform mit 21,5\" Monitor, 13,3\" Touchscreen, 4+1 aktiven Ports, eSpeedGo™ Schnellmessung, Smart Beam und 90 Minuten Akkubetrieb.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-te-7-ace/e764a53f-ce61-4a76-9995-8fea36037100.png",
-                "https://dormed.de/assets/img/produkte/mindray-te-7-ace/8acb9c52-42dd-4289-2a9c-5a5ebd44c900.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-te-7-ace/76cef726-cfb8-43c6-d014-7ffe21246e00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-te-7-ace/4f801a2d-8423-4311-4930-8a0ed297ae00.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Mobiles Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+" },
-                { "@type": "PropertyValue", "name": "Monitor", "value": "21,5 Zoll" },
-                { "@type": "PropertyValue", "name": "Touchscreen", "value": "13,3 Zoll" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
-                { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "90 Minuten" },
-                { "@type": "PropertyValue", "name": "eSpeedGo™", "value": "Verfügbar — automatische Schnellmessung" },
-                { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Format", "value": "Laptop-System mit großem Monitor" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem Mittelklasse" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" },
-                { "@type": "Product", "name": "Mindray TE 5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5" },
-                { "@type": "Product", "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray TE 7 Ace", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7/#product",
+          "name": "Mindray TE 7 Ace",
+          "description": "Mobiles Laptop-Ultraschallsystem auf ZST+ Plattform mit 21,5\" Monitor, 13,3\" Touchscreen, 4+1 aktiven Ports, eSpeedGo™ Schnellmessung, Smart Beam und 90 Minuten Akkubetrieb.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-te-7-ace/e764a53f-ce61-4a76-9995-8fea36037100.png",
+            "https://dormed.de/assets/img/produkte/mindray-te-7-ace/8acb9c52-42dd-4289-2a9c-5a5ebd44c900.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-te-7-ace/76cef726-cfb8-43c6-d014-7ffe21246e00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-te-7-ace/4f801a2d-8423-4311-4930-8a0ed297ae00.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Mobiles Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+" },
+            { "@type": "PropertyValue", "name": "Monitor", "value": "21,5 Zoll" },
+            { "@type": "PropertyValue", "name": "Touchscreen", "value": "13,3 Zoll" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
+            { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "90 Minuten" },
+            { "@type": "PropertyValue", "name": "eSpeedGo™", "value": "Verfügbar — automatische Schnellmessung" },
+            { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Format", "value": "Laptop-System mit großem Monitor" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem Mittelklasse" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" },
+            { "@type": "Product", "name": "Mindray TE 5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5" },
+            { "@type": "Product", "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray TE 7 Ace", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

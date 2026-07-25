@@ -1,80 +1,105 @@
-@php
-    $title = "Mindray DC 30 kaufen – Kompakter Ultraschall | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30";
-    $description = "Mindray DC 30: Kompaktes digitales Ultraschallgerät für den wirtschaftlichen Praxisbetrieb. Solide Technik, einfache Bedienung, bundesweiter Service durch DORMED.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30">
+
+        <title>Mindray DC 30 kaufen – Kompakter Ultraschall | DORMED</title>
+        <meta name="description" content="Mindray DC 30: Kompaktes digitales Ultraschallgerät für den wirtschaftlichen Praxisbetrieb. Solide Technik, einfache Bedienung, bundesweiter Service durch DORMED.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30">
+
+    
+
+        <meta property="og:title" content="Mindray DC 30 kaufen – Kompakter Ultraschall | DORMED">
+        <meta property="og:description" content="Mindray DC 30: Kompaktes digitales Ultraschallgerät für den wirtschaftlichen Praxisbetrieb. Solide Technik, einfache Bedienung, bundesweiter Service durch DORMED.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray DC 30 kaufen – Kompakter Ultraschall | DORMED">
+        <meta name="twitter:description" content="Mindray DC 30: Kompaktes digitales Ultraschallgerät für den wirtschaftlichen Praxisbetrieb. Solide Technik, einfache Bedienung, bundesweiter Service durch DORMED.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30/#product",
-              "name": "Mindray DC-30",
-              "description": "Kompaktes Einstiegs-Ultraschallsystem auf Full HD Plattform mit 15,6\" Monitor, 13,5\" Touchscreen und 3 aktiven Ports. Farbdoppler, FANOCA automatische Doppler-Analyse und kompaktes Format für den budgetbewussten Einstieg in die Sonographie.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-dc-30/0040273f-e38d-4fbd-32bb-192593c03700.png",
-                "https://dormed.de/assets/img/produkte/mindray-dc-30/205f5e77-9e77-4f8b-5604-97ed70e15b00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-dc-30/db08f2f7-3ea6-4a80-3da3-a52bdb852800.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-dc-30/56a90900-f889-4fdc-c0be-b41a16069300.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Stationäres Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "Full HD Plattform" },
-                { "@type": "PropertyValue", "name": "Monitor", "value": "15,6 Zoll" },
-                { "@type": "PropertyValue", "name": "Touchscreen", "value": "13,5 Zoll" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "3 aktive Ports" },
-                { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "FANOCA", "value": "Verfügbar — automatische Doppler-Analyse" },
-                { "@type": "PropertyValue", "name": "Elastographie", "value": "Nicht verfügbar" },
-                { "@type": "PropertyValue", "name": "3D", "value": "Nicht verfügbar" },
-                { "@type": "PropertyValue", "name": "Format", "value": "Kompakt — günstiger Einstieg" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Stationäres Standgerät Einstieg" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray DC-60", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-60" },
-                { "@type": "Product", "name": "Mindray Consona N6", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n6" },
-                { "@type": "Product", "name": "Mindray Consona N5", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n5" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray DC-30", "item": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30/#product",
+          "name": "Mindray DC-30",
+          "description": "Kompaktes Einstiegs-Ultraschallsystem auf Full HD Plattform mit 15,6\" Monitor, 13,5\" Touchscreen und 3 aktiven Ports. Farbdoppler, FANOCA automatische Doppler-Analyse und kompaktes Format für den budgetbewussten Einstieg in die Sonographie.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-dc-30/0040273f-e38d-4fbd-32bb-192593c03700.png",
+            "https://dormed.de/assets/img/produkte/mindray-dc-30/205f5e77-9e77-4f8b-5604-97ed70e15b00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-dc-30/db08f2f7-3ea6-4a80-3da3-a52bdb852800.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-dc-30/56a90900-f889-4fdc-c0be-b41a16069300.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Stationäres Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "Full HD Plattform" },
+            { "@type": "PropertyValue", "name": "Monitor", "value": "15,6 Zoll" },
+            { "@type": "PropertyValue", "name": "Touchscreen", "value": "13,5 Zoll" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "3 aktive Ports" },
+            { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "FANOCA", "value": "Verfügbar — automatische Doppler-Analyse" },
+            { "@type": "PropertyValue", "name": "Elastographie", "value": "Nicht verfügbar" },
+            { "@type": "PropertyValue", "name": "3D", "value": "Nicht verfügbar" },
+            { "@type": "PropertyValue", "name": "Format", "value": "Kompakt — günstiger Einstieg" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Stationäres Standgerät Einstieg" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray DC-60", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-60" },
+            { "@type": "Product", "name": "Mindray Consona N6", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n6" },
+            { "@type": "Product", "name": "Mindray Consona N5", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n5" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray DC-30", "item": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-dc-30" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

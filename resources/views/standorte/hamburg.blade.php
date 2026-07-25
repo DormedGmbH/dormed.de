@@ -1,86 +1,111 @@
-@php
-    $title = "Ultraschall Hamburg – SONORING DORMED Standort | SONORING DORMED";
-    $canonical = "https://dormed.de/standorte/hamburg";
-    $description = "Ultraschall-Fachhändler in Hamburg. Persönliche Beratung, Geräte-Demos und zertifizierter Service für Mindray und Esaote – direkt vor Ort in Hamburg.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/standorte/hamburg">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/standorte/hamburg">
+
+        <title>Ultraschall Hamburg – SONORING DORMED Standort | SONORING DORMED</title>
+        <meta name="description" content="Ultraschall-Fachhändler in Hamburg. Persönliche Beratung, Geräte-Demos und zertifizierter Service für Mindray und Esaote – direkt vor Ort in Hamburg.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/standorte/hamburg">
+
+    
+
+        <meta property="og:title" content="Ultraschall Hamburg – SONORING DORMED Standort | SONORING DORMED">
+        <meta property="og:description" content="Ultraschall-Fachhändler in Hamburg. Persönliche Beratung, Geräte-Demos und zertifizierter Service für Mindray und Esaote – direkt vor Ort in Hamburg.">
+        <meta property="og:url" content="https://dormed.de/standorte/hamburg">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Hamburg – SONORING DORMED Standort | SONORING DORMED">
+        <meta name="twitter:description" content="Ultraschall-Fachhändler in Hamburg. Persönliche Beratung, Geräte-Demos und zertifizierter Service für Mindray und Esaote – direkt vor Ort in Hamburg.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://dormed.de/#localbusiness-buchholz",
+          "name": "SONORING DORMED – Hamburg / Buchholz",
+          "url": "https://dormed.de/standorte/hamburg",
+          "telephone": "+492301188600",
+          "email": "mail@dormed.de",
+          "image": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
+          "priceRange": "€€€",
+          "description": "SONORING DORMED Niederlassung in Buchholz in der Nordheide bei Hamburg. Ultraschall-Beratung und technischer Service für Praxen in Hamburg und Norddeutschland.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Bremer Straße 6",
+            "addressLocality": "Buchholz in der Nordheide",
+            "postalCode": "21244",
+            "addressCountry": "DE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 53.3267999,
+            "longitude": 9.8743419
+          },
+          "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED+-/@53.3267999,9.871767,17z",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "openingHoursSpecification": [
             {
-              "@type": "LocalBusiness",
-              "@id": "https://dormed.de/#localbusiness-buchholz",
-              "name": "SONORING DORMED – Hamburg / Buchholz",
-              "url": "https://dormed.de/standorte/hamburg",
-              "telephone": "+492301188600",
-              "email": "mail@dormed.de",
-              "image": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
-              "priceRange": "€€€",
-              "description": "SONORING DORMED Niederlassung in Buchholz in der Nordheide bei Hamburg. Ultraschall-Beratung und technischer Service für Praxen in Hamburg und Norddeutschland.",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Bremer Straße 6",
-                "addressLocality": "Buchholz in der Nordheide",
-                "postalCode": "21244",
-                "addressCountry": "DE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 53.3267999,
-                "longitude": 9.8743419
-              },
-              "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED+-/@53.3267999,9.871767,17z",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-                  "opens": "08:00",
-                  "closes": "17:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Friday",
-                  "opens": "08:00",
-                  "closes": "15:00"
-                }
-              ],
-              "parentOrganization": {
-                "@id": "https://dormed.de/#organization"
-              }
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+              "opens": "08:00",
+              "closes": "17:00"
             },
             {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Startseite",
-                  "item": "https://dormed.de"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Standorte",
-                  "item": "https://dormed.de/standorte"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Hamburg",
-                  "item": "https://dormed.de/standorte/hamburg"
-                }
-              ]
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Friday",
+              "opens": "08:00",
+              "closes": "15:00"
+            }
+          ],
+          "parentOrganization": {
+            "@id": "https://dormed.de/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Startseite",
+              "item": "https://dormed.de"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Standorte",
+              "item": "https://dormed.de/standorte"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Hamburg",
+              "item": "https://dormed.de/standorte/hamburg"
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

@@ -1,121 +1,146 @@
-@php
-    $title = "Mobile Ultraschallgeräte – kompakt & leistungsstark | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/mobile-geraete";
-    $description = "Mobile Ultraschallsysteme für den flexiblen Praxiseinsatz. Mindray TE, MX, DC und Esaote MyLab – rollbar, schnell einsatzbereit, bundesweiter Service.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/mobile-geraete">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/mobile-geraete">
+
+        <title>Mobile Ultraschallgeräte – kompakt &amp; leistungsstark | DORMED</title>
+        <meta name="description" content="Mobile Ultraschallsysteme für den flexiblen Praxiseinsatz. Mindray TE, MX, DC und Esaote MyLab – rollbar, schnell einsatzbereit, bundesweiter Service.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/mobile-geraete">
+
+    
+
+        <meta property="og:title" content="Mobile Ultraschallgeräte – kompakt &amp;amp; leistungsstark | DORMED">
+        <meta property="og:description" content="Mobile Ultraschallsysteme für den flexiblen Praxiseinsatz. Mindray TE, MX, DC und Esaote MyLab – rollbar, schnell einsatzbereit, bundesweiter Service.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/mobile-geraete">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mobile Ultraschallgeräte – kompakt &amp;amp; leistungsstark | DORMED">
+        <meta name="twitter:description" content="Mobile Ultraschallsysteme für den flexiblen Praxiseinsatz. Mindray TE, MX, DC und Esaote MyLab – rollbar, schnell einsatzbereit, bundesweiter Service.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/#webpage",
+          "name": "Mobile Ultraschallgeräte – kompakt & leistungsstark | DORMED",
+          "description": "Mobile Ultraschallsysteme für den flexiblen Praxiseinsatz. Mindray TE, MX, DC und Esaote MyLab – rollbar, schnell einsatzbereit, bundesweiter Service.",
+          "url": "https://dormed.de/ultraschallgeraete/mobile-geraete",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+              { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Tragbare Ultraschallgeräte im Direktvergleich",
+          "description": "Alle mobilen Ultraschallsysteme von Mindray bei SONORING DORMED – Laptop-Systeme und kompakte Trolley-Geräte.",
+          "numberOfItems": 12,
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" },
+            { "@type": "ListItem", "position": 2, "name": "Mindray TE 7 Ace", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7-ace" },
+            { "@type": "ListItem", "position": 3, "name": "Mindray TE 5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray MX7", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7" },
+            { "@type": "ListItem", "position": 5, "name": "Mindray MX5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5" },
+            { "@type": "ListItem", "position": 6, "name": "Mindray MX3", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx3" },
+            { "@type": "ListItem", "position": 7, "name": "Mindray Z60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z60" },
+            { "@type": "ListItem", "position": 8, "name": "Mindray Z50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50" },
+            { "@type": "ListItem", "position": 9, "name": "Mindray DP-60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60" },
+            { "@type": "ListItem", "position": 10, "name": "Mindray DP-50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-50" },
+            { "@type": "ListItem", "position": 11, "name": "Mindray DP-30", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-30" },
+            { "@type": "ListItem", "position": 12, "name": "Mindray DP-10", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
             {
-              "@type": "CollectionPage",
-              "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/#webpage",
-              "name": "Mobile Ultraschallgeräte – kompakt & leistungsstark | DORMED",
-              "description": "Mobile Ultraschallsysteme für den flexiblen Praxiseinsatz. Mindray TE, MX, DC und Esaote MyLab – rollbar, schnell einsatzbereit, bundesweiter Service.",
-              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                  { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" }
-                ]
+              "@type": "Question",
+              "name": "Was ist der Unterschied zwischen einem Laptop-Ultraschallgerät und einem kompakten Mobilgerät?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Laptop-Systeme wie die Mindray TE-Serie haben eine vollwertige Tastatur, einen großen Klappmonitor und fühlen sich ergonomisch wie ein Standgerät an — nur ohne Wagen. Sie bieten mehr Funktionen, einen größeren Monitor und meist Akkubetrieb. Kompakte Mobilgeräte wie MX, DP und Z-Serie sind kleiner, leichter und günstiger, bieten aber eingeschränktere Bildschirmgröße und Funktionspalette. Die Wahl hängt davon ab, ob Sie primär in einem festen Untersuchungsraum oder wirklich mobil arbeiten."
               }
             },
             {
-              "@type": "ItemList",
-              "name": "Tragbare Ultraschallgeräte im Direktvergleich",
-              "description": "Alle mobilen Ultraschallsysteme von Mindray bei SONORING DORMED – Laptop-Systeme und kompakte Trolley-Geräte.",
-              "numberOfItems": 12,
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" },
-                { "@type": "ListItem", "position": 2, "name": "Mindray TE 7 Ace", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-7-ace" },
-                { "@type": "ListItem", "position": 3, "name": "Mindray TE 5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-5" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray MX7", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7" },
-                { "@type": "ListItem", "position": 5, "name": "Mindray MX5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5" },
-                { "@type": "ListItem", "position": 6, "name": "Mindray MX3", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx3" },
-                { "@type": "ListItem", "position": 7, "name": "Mindray Z60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z60" },
-                { "@type": "ListItem", "position": 8, "name": "Mindray Z50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z50" },
-                { "@type": "ListItem", "position": 9, "name": "Mindray DP-60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60" },
-                { "@type": "ListItem", "position": 10, "name": "Mindray DP-50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-50" },
-                { "@type": "ListItem", "position": 11, "name": "Mindray DP-30", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-30" },
-                { "@type": "ListItem", "position": 12, "name": "Mindray DP-10", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-10" }
-              ]
+              "@type": "Question",
+              "name": "Welche Mindray TE-Geräte haben einen integrierten Akku?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die gesamte TE-Serie — TE 5, TE 7 und TE 9 — verfügt über einen integrierten Akku mit bis zu 90 Minuten Laufzeit bei Volllast. Das macht sie ideal für Hausbesuche, Visitenrunden im Krankenhaus oder Point-of-Care-Anwendungen ohne feste Steckdose. Beachten Sie, dass die Akkuleistung je nach Nutzungsintensität und Ladezustand variiert."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Was ist der Unterschied zwischen einem Laptop-Ultraschallgerät und einem kompakten Mobilgerät?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Laptop-Systeme wie die Mindray TE-Serie haben eine vollwertige Tastatur, einen großen Klappmonitor und fühlen sich ergonomisch wie ein Standgerät an — nur ohne Wagen. Sie bieten mehr Funktionen, einen größeren Monitor und meist Akkubetrieb. Kompakte Mobilgeräte wie MX, DP und Z-Serie sind kleiner, leichter und günstiger, bieten aber eingeschränktere Bildschirmgröße und Funktionspalette. Die Wahl hängt davon ab, ob Sie primär in einem festen Untersuchungsraum oder wirklich mobil arbeiten."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Mindray TE-Geräte haben einen integrierten Akku?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die gesamte TE-Serie — TE 5, TE 7 und TE 9 — verfügt über einen integrierten Akku mit bis zu 90 Minuten Laufzeit bei Volllast. Das macht sie ideal für Hausbesuche, Visitenrunden im Krankenhaus oder Point-of-Care-Anwendungen ohne feste Steckdose. Beachten Sie, dass die Akkuleistung je nach Nutzungsintensität und Ladezustand variiert."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich mit einem tragbaren Gerät die gleiche Bildqualität wie mit einem Standgerät erreichen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nicht in allen Klassen. Einsteigergeräte wie DP 10 oder MX3 bieten solide Basisdiagnostik, aber keine Farbdoppler-Funktionen auf Standgerät-Niveau. Die TE-Serie hingegen kommt der Bildqualität eines Standgeräts sehr nahe — mit Farbdoppler, optionaler Elastographie und KI-gestützter Bildoptimierung. Für spezialisierte Diagnostik in der Kardiologie oder Gynäkologie ist ein Standgerät oder mindestens ein hochwertiges Laptop-System der TE-Klasse empfehlenswert."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie viele Schallköpfe kann ich an ein tragbares Gerät anschließen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die TE-Serie bietet drei aktive Schallkopfports — ausreichend für Konvex, Linear und Endokavitär gleichzeitig. MX und Z-Serie haben in der Regel zwei bis drei Ports je nach Modell. DP-Geräte der Einsteigerklasse kommen oft mit zwei Ports. Bei mobilen Geräten gilt: Weniger Ports bedeuten häufigeres Umstecken — bei intensivem Mehrsondenbetrieb sind Laptop-Systeme im Vorteil."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was bedeutet der Unterschied zwischen TE 5, TE 7 und TE 9?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die TE-Nummern bezeichnen die Leistungsklasse innerhalb der Laptop-Serie: TE 5 ist das Einstiegsmodell mit solider Grundausstattung und Farbdoppler. TE 7 bietet mehr Bildverarbeitungsleistung und erweiterte Funktionen. TE 9 ist das leistungsstärkste Laptop-System mit Kardiologie-Funktionen, XStrain™ und dem vollen Funktionsumfang — vergleichbar mit einem mittelklassigen Standgerät, aber im Laptop-Format."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Eignen sich DP und Z-Serie für die allgemeinmedizinische Praxis?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja — für Basissonographie in der Allgemeinmedizin sind DP 60, Z60 oder MX5 gut geeignet. Sie decken Abdomensonographie, einfache Gefäßbeurteilung und Schilddrüsenuntersuchungen ab. Wenn Sie jedoch regelmäßig Farbdoppler, Gefäßdiagnostik oder spezialisierte Anwendungen benötigen, empfehlen wir mindestens die MX7- oder TE-Klasse."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie robust sind tragbare Ultraschallgeräte im täglichen Einsatz?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Hochwertigere Laptop-Systeme wie die TE-Serie sind für den täglichen mobilen Einsatz konzipiert und entsprechend robust gebaut. Kompaktgeräte der DP- und Z-Serie sind ebenfalls zuverlässig, aber mechanisch weniger beansprucht, da sie seltener transportiert werden. Für intensive Außeneinsätze empfehlen wir eine Schutztasche und regelmäßige Konstanzprüfungen — wir führen diese als SONORING®-Fachhändler bundesweit durch."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Gibt es für tragbare Geräte auch Wartungsverträge?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja — wir bieten für alle tragbaren Geräte im Sortiment Wartungsverträge mit jährlicher Konstanzprüfung, Reinigung und dokumentiertem Prüfprotokoll. Gerade bei mobilen Geräten die häufig transportiert werden ist regelmäßige Wartung wichtig für die Messgenauigkeit und die QM-Dokumentation Ihrer Praxis."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Kann ich mit einem tragbaren Gerät die gleiche Bildqualität wie mit einem Standgerät erreichen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nicht in allen Klassen. Einsteigergeräte wie DP 10 oder MX3 bieten solide Basisdiagnostik, aber keine Farbdoppler-Funktionen auf Standgerät-Niveau. Die TE-Serie hingegen kommt der Bildqualität eines Standgeräts sehr nahe — mit Farbdoppler, optionaler Elastographie und KI-gestützter Bildoptimierung. Für spezialisierte Diagnostik in der Kardiologie oder Gynäkologie ist ein Standgerät oder mindestens ein hochwertiges Laptop-System der TE-Klasse empfehlenswert."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie viele Schallköpfe kann ich an ein tragbares Gerät anschließen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die TE-Serie bietet drei aktive Schallkopfports — ausreichend für Konvex, Linear und Endokavitär gleichzeitig. MX und Z-Serie haben in der Regel zwei bis drei Ports je nach Modell. DP-Geräte der Einsteigerklasse kommen oft mit zwei Ports. Bei mobilen Geräten gilt: Weniger Ports bedeuten häufigeres Umstecken — bei intensivem Mehrsondenbetrieb sind Laptop-Systeme im Vorteil."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was bedeutet der Unterschied zwischen TE 5, TE 7 und TE 9?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die TE-Nummern bezeichnen die Leistungsklasse innerhalb der Laptop-Serie: TE 5 ist das Einstiegsmodell mit solider Grundausstattung und Farbdoppler. TE 7 bietet mehr Bildverarbeitungsleistung und erweiterte Funktionen. TE 9 ist das leistungsstärkste Laptop-System mit Kardiologie-Funktionen, XStrain™ und dem vollen Funktionsumfang — vergleichbar mit einem mittelklassigen Standgerät, aber im Laptop-Format."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Eignen sich DP und Z-Serie für die allgemeinmedizinische Praxis?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja — für Basissonographie in der Allgemeinmedizin sind DP 60, Z60 oder MX5 gut geeignet. Sie decken Abdomensonographie, einfache Gefäßbeurteilung und Schilddrüsenuntersuchungen ab. Wenn Sie jedoch regelmäßig Farbdoppler, Gefäßdiagnostik oder spezialisierte Anwendungen benötigen, empfehlen wir mindestens die MX7- oder TE-Klasse."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie robust sind tragbare Ultraschallgeräte im täglichen Einsatz?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Hochwertigere Laptop-Systeme wie die TE-Serie sind für den täglichen mobilen Einsatz konzipiert und entsprechend robust gebaut. Kompaktgeräte der DP- und Z-Serie sind ebenfalls zuverlässig, aber mechanisch weniger beansprucht, da sie seltener transportiert werden. Für intensive Außeneinsätze empfehlen wir eine Schutztasche und regelmäßige Konstanzprüfungen — wir führen diese als SONORING®-Fachhändler bundesweit durch."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Gibt es für tragbare Geräte auch Wartungsverträge?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja — wir bieten für alle tragbaren Geräte im Sortiment Wartungsverträge mit jährlicher Konstanzprüfung, Reinigung und dokumentiertem Prüfprotokoll. Gerade bei mobilen Geräten die häufig transportiert werden ist regelmäßige Wartung wichtig für die Messgenauigkeit und die QM-Dokumentation Ihrer Praxis."
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

@@ -1,151 +1,176 @@
-@php
-    $title = "Ultraschall Wartung & Reparatur – Service bundesweit | SONORING DORMED";
-    $canonical = "https://dormed.de/leistungen/wartung-reparatur";
-    $description = "Zertifizierter Wartungsservice für Mindray und Esaote Ultraschallgeräte. Schnelle Reparatur, Präventivwartung, 1.700 aktive Wartungskunden – bundesweit verfügbar.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/leistungen/wartung-reparatur">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/leistungen/wartung-reparatur">
+
+        <title>Ultraschall Wartung &amp; Reparatur – Service bundesweit | SONORING DORMED</title>
+        <meta name="description" content="Zertifizierter Wartungsservice für Mindray und Esaote Ultraschallgeräte. Schnelle Reparatur, Präventivwartung, 1.700 aktive Wartungskunden – bundesweit verfügbar.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/leistungen/wartung-reparatur">
+
+    
+
+        <meta property="og:title" content="Ultraschall Wartung &amp;amp; Reparatur – Service bundesweit | SONORING DORMED">
+        <meta property="og:description" content="Zertifizierter Wartungsservice für Mindray und Esaote Ultraschallgeräte. Schnelle Reparatur, Präventivwartung, 1.700 aktive Wartungskunden – bundesweit verfügbar.">
+        <meta property="og:url" content="https://dormed.de/leistungen/wartung-reparatur">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Wartung &amp;amp; Reparatur – Service bundesweit | SONORING DORMED">
+        <meta name="twitter:description" content="Zertifizierter Wartungsservice für Mindray und Esaote Ultraschallgeräte. Schnelle Reparatur, Präventivwartung, 1.700 aktive Wartungskunden – bundesweit verfügbar.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Service",
+          "@id": "https://dormed.de/#service-wartung",
+          "name": "Ultraschall Wartung & Reparatur",
+          "url": "https://dormed.de/leistungen/wartung-reparatur",
+          "description": "Zertifizierter Wartungsservice für Mindray und Esaote Ultraschallgeräte. Schnelle Reparatur, Präventivwartung, 1.700 aktive Wartungskunden – bundesweit verfügbar.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "areaServed": { "@type": "Country", "name": "Deutschland" },
+          "serviceType": "Wartung & Reparatur"
+        },
+        {
+          "@type": "HowTo",
+          "name": "Wie läuft eine Ultraschall-Wartung bei SONORING DORMED ab?",
+          "description": "Vier Schritte zur vollständigen Wartung – von der Tiefenreinigung bis zum offiziellen Prüfprotokoll.",
+          "provider": { "@id": "https://dormed.de/#organization" },
+          "totalTime": "PT2H",
+          "step": [
             {
-              "@type": "Service",
-              "@id": "https://dormed.de/#service-wartung",
-              "name": "Ultraschall Wartung & Reparatur",
-              "url": "https://dormed.de/leistungen/wartung-reparatur",
-              "description": "Zertifizierter Wartungsservice für Mindray und Esaote Ultraschallgeräte. Schnelle Reparatur, Präventivwartung, 1.700 aktive Wartungskunden – bundesweit verfügbar.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "areaServed": { "@type": "Country", "name": "Deutschland" },
-              "serviceType": "Wartung & Reparatur"
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Reinigung",
+              "text": "Öffnung und Tiefenreinigung. Das Gerät wird geöffnet und gründlich gereinigt. Festgesetzte Ablagerungen an Kühlkörpern werden entfernt, Filtersysteme aufbereitet."
             },
             {
-              "@type": "HowTo",
-              "name": "Wie läuft eine Ultraschall-Wartung bei SONORING DORMED ab?",
-              "description": "Vier Schritte zur vollständigen Wartung – von der Tiefenreinigung bis zum offiziellen Prüfprotokoll.",
-              "provider": { "@id": "https://dormed.de/#organization" },
-              "totalTime": "PT2H",
-              "step": [
-                {
-                  "@type": "HowToStep",
-                  "position": 1,
-                  "name": "Reinigung",
-                  "text": "Öffnung und Tiefenreinigung. Das Gerät wird geöffnet und gründlich gereinigt. Festgesetzte Ablagerungen an Kühlkörpern werden entfernt, Filtersysteme aufbereitet."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 2,
-                  "name": "Funktionsprüfung",
-                  "text": "Leistungs- und Funktionsprüfung. Alle Mess- und Funktionsparameter werden geprüft – einschließlich Sonden-Leistung mittels Phantom- oder Körpermessungen sowie Software- und Programmeinstellungen."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 3,
-                  "name": "Sicherheitsprüfung",
-                  "text": "Technische Sicherheitskontrolle (STK) gemäß DIN EN 62353. Elektrische Betriebssicherheit: Überprüfung aller Schutzmechanismen, Messung von Schutzleiter- und Ableitströmen. Pflicht für den KV-Nachweis."
-                },
-                {
-                  "@type": "HowToStep",
-                  "position": 4,
-                  "name": "Dokumentation",
-                  "text": "Konstanzprüfung und Prüfprotokoll. Bildqualität und Messgenauigkeit werden durch die Konstanzprüfung belegt. Sie erhalten ein offizielles Prüfprotokoll als KV-Nachweis und für Ihr Qualitätsmanagementsystem."
-                }
-              ]
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Funktionsprüfung",
+              "text": "Leistungs- und Funktionsprüfung. Alle Mess- und Funktionsparameter werden geprüft – einschließlich Sonden-Leistung mittels Phantom- oder Körpermessungen sowie Software- und Programmeinstellungen."
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Gibt es eine Mindestlaufzeit für den Wartungsvertrag?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Unser Wartungsvertrag hat eine Mindestlaufzeit von drei Jahren. Um eine gleichbleibende Leistung, maximale Sicherheit und langfristigen Schutz für Ihr Ultraschallgerät zu gewährleisten, empfehlen wir, den Wartungsvertrag über die gesamte betriebliche Nutzungsdauer aufrechtzuerhalten."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie oft sollte eine Wartung durchgeführt werden?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Wir empfehlen eine jährliche Wartung, um die bestmögliche Geräteleistung und maximale Betriebssicherheit zu gewährleisten."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie lange dauert die Wartung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die Wartung dauert in der Regel 1,5 bis 2 Stunden. Falls mehrere Sonden geprüft werden müssen, kann sich die Dauer entsprechend verlängern."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was passiert, wenn mein Gerät während der Wartung ausfällt?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Kunden mit einem Wartungsvertrag erhalten innerhalb von 24 Stunden ein Ersatzgerät, um Ausfallzeiten zu minimieren."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kostet die Wartung im Vertrag weniger?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja. Kunden mit Wartungsvertrag profitieren von niedrigeren Wartungskosten, da regelmäßige Inspektionen günstiger sind als Einzelbuchungen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich eine Wartung auch kurzfristig buchen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, allerdings haben Kunden mit einem Wartungsvertrag Vorrang bei der Terminvergabe."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Ist eine Fernwartung möglich?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Für bestimmte Ultraschallgeräte bieten wir Fernwartung über TeamViewer an. So können unsere Techniker, in Abstimmung mit dem Arzt, direkt auf das Gerät zugreifen und Probleme schneller beheben."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Nachweise erhalte ich nach der Wartung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nach jeder Wartung erhalten Sie ein offizielles Prüfprotokoll, das für die Kassenärztliche Vereinigung (KV) als Nachweis dient."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie kann ich den Wartungsvertrag kündigen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Der Wartungsvertrag kann bis spätestens drei Monate vor der nächsten geplanten Wartung schriftlich gekündigt werden. Nach erfolgter Wartung endet der Vertrag automatisch ohne automatische Verlängerung."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Ist eine Konstanzprüfung in der Wartung enthalten?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, eine Konstanzprüfung ist in der Wartung enthalten. Sie wird im Rahmen der Wartung durchgeführt, um die Bildqualität und Messgenauigkeit Ihres Ultraschallgeräts sicherzustellen."
-                  }
-                }
-              ]
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Sicherheitsprüfung",
+              "text": "Technische Sicherheitskontrolle (STK) gemäß DIN EN 62353. Elektrische Betriebssicherheit: Überprüfung aller Schutzmechanismen, Messung von Schutzleiter- und Ableitströmen. Pflicht für den KV-Nachweis."
             },
             {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
-                { "@type": "ListItem", "position": 3, "name": "Wartung & Reparatur", "item": "https://dormed.de/leistungen/wartung-reparatur" }
-              ]
+              "@type": "HowToStep",
+              "position": 4,
+              "name": "Dokumentation",
+              "text": "Konstanzprüfung und Prüfprotokoll. Bildqualität und Messgenauigkeit werden durch die Konstanzprüfung belegt. Sie erhalten ein offizielles Prüfprotokoll als KV-Nachweis und für Ihr Qualitätsmanagementsystem."
             }
           ]
-        }</script>
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Gibt es eine Mindestlaufzeit für den Wartungsvertrag?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Unser Wartungsvertrag hat eine Mindestlaufzeit von drei Jahren. Um eine gleichbleibende Leistung, maximale Sicherheit und langfristigen Schutz für Ihr Ultraschallgerät zu gewährleisten, empfehlen wir, den Wartungsvertrag über die gesamte betriebliche Nutzungsdauer aufrechtzuerhalten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie oft sollte eine Wartung durchgeführt werden?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Wir empfehlen eine jährliche Wartung, um die bestmögliche Geräteleistung und maximale Betriebssicherheit zu gewährleisten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie lange dauert die Wartung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Wartung dauert in der Regel 1,5 bis 2 Stunden. Falls mehrere Sonden geprüft werden müssen, kann sich die Dauer entsprechend verlängern."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was passiert, wenn mein Gerät während der Wartung ausfällt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kunden mit einem Wartungsvertrag erhalten innerhalb von 24 Stunden ein Ersatzgerät, um Ausfallzeiten zu minimieren."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kostet die Wartung im Vertrag weniger?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Kunden mit Wartungsvertrag profitieren von niedrigeren Wartungskosten, da regelmäßige Inspektionen günstiger sind als Einzelbuchungen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich eine Wartung auch kurzfristig buchen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, allerdings haben Kunden mit einem Wartungsvertrag Vorrang bei der Terminvergabe."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist eine Fernwartung möglich?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Für bestimmte Ultraschallgeräte bieten wir Fernwartung über TeamViewer an. So können unsere Techniker, in Abstimmung mit dem Arzt, direkt auf das Gerät zugreifen und Probleme schneller beheben."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Nachweise erhalte ich nach der Wartung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nach jeder Wartung erhalten Sie ein offizielles Prüfprotokoll, das für die Kassenärztliche Vereinigung (KV) als Nachweis dient."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie kann ich den Wartungsvertrag kündigen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der Wartungsvertrag kann bis spätestens drei Monate vor der nächsten geplanten Wartung schriftlich gekündigt werden. Nach erfolgter Wartung endet der Vertrag automatisch ohne automatische Verlängerung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist eine Konstanzprüfung in der Wartung enthalten?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, eine Konstanzprüfung ist in der Wartung enthalten. Sie wird im Rahmen der Wartung durchgeführt, um die Bildqualität und Messgenauigkeit Ihres Ultraschallgeräts sicherzustellen."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
+            { "@type": "ListItem", "position": 3, "name": "Wartung & Reparatur", "item": "https://dormed.de/leistungen/wartung-reparatur" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

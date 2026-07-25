@@ -1,77 +1,102 @@
-@php
-    $title = "Mindray DP 60 kaufen – Ultraschall Einstiegsklasse | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60";
-    $description = "Mindray DP 60: Professionelles Einstiegsklasse-Ultraschallgerät mit bewährter Technik für die tägliche Diagnostik in Hausarzt- und Facharztpraxen.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60">
+
+        <title>Mindray DP 60 kaufen – Ultraschall Einstiegsklasse | DORMED</title>
+        <meta name="description" content="Mindray DP 60: Professionelles Einstiegsklasse-Ultraschallgerät mit bewährter Technik für die tägliche Diagnostik in Hausarzt- und Facharztpraxen.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60">
+
+    
+
+        <meta property="og:title" content="Mindray DP 60 kaufen – Ultraschall Einstiegsklasse | DORMED">
+        <meta property="og:description" content="Mindray DP 60: Professionelles Einstiegsklasse-Ultraschallgerät mit bewährter Technik für die tägliche Diagnostik in Hausarzt- und Facharztpraxen.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray DP 60 kaufen – Ultraschall Einstiegsklasse | DORMED">
+        <meta name="twitter:description" content="Mindray DP 60: Professionelles Einstiegsklasse-Ultraschallgerät mit bewährter Technik für die tägliche Diagnostik in Hausarzt- und Facharztpraxen.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60/#product",
-              "name": "Mindray DP-60",
-              "description": "Mobiles Laptop-Ultraschallsystem auf PSI+ Nova Serie Plattform mit 15,6\" Display, 4 aktiven Ports, Farbdoppler, iTouch Bildoptimierung und easyMode Workflow. Vielseitig für Allgemeinmedizin und Innere Medizin.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-dp-60/b8f38356-f031-44ae-d8ad-e255683c9f00.png",
-                "https://dormed.de/assets/img/produkte/mindray-dp-60/2daf847a-95eb-4823-f111-9d8608a89c00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-dp-60/94cd695b-74e3-4a3d-049a-9fb43f221800.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-dp-60/f8937054-5f93-4e64-74dd-cb1ddea05500.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Mobiles Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "PSI+ Nova Serie" },
-                { "@type": "PropertyValue", "name": "Monitor", "value": "15,6 Zoll Laptop-Format" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4 aktive Ports" },
-                { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Vollständig verfügbar" },
-                { "@type": "PropertyValue", "name": "iTouch", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "easyMode", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray DP-50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-50" },
-                { "@type": "Product", "name": "Mindray Z60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z60" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray DP-60", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60/#product",
+          "name": "Mindray DP-60",
+          "description": "Mobiles Laptop-Ultraschallsystem auf PSI+ Nova Serie Plattform mit 15,6\" Display, 4 aktiven Ports, Farbdoppler, iTouch Bildoptimierung und easyMode Workflow. Vielseitig für Allgemeinmedizin und Innere Medizin.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-dp-60/b8f38356-f031-44ae-d8ad-e255683c9f00.png",
+            "https://dormed.de/assets/img/produkte/mindray-dp-60/2daf847a-95eb-4823-f111-9d8608a89c00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-dp-60/94cd695b-74e3-4a3d-049a-9fb43f221800.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-dp-60/f8937054-5f93-4e64-74dd-cb1ddea05500.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Mobiles Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "PSI+ Nova Serie" },
+            { "@type": "PropertyValue", "name": "Monitor", "value": "15,6 Zoll Laptop-Format" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4 aktive Ports" },
+            { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Vollständig verfügbar" },
+            { "@type": "PropertyValue", "name": "iTouch", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "easyMode", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray DP-50", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-50" },
+            { "@type": "Product", "name": "Mindray Z60", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-z60" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray DP-60", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-dp-60" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

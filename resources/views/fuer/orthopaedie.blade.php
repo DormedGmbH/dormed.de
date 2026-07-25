@@ -1,133 +1,158 @@
-@php
-    $title = "Ultraschall Orthopädie & MSK – Geräte für Orthopäden | DORMED";
-    $canonical = "https://dormed.de/fuer/orthopaedie";
-    $description = "Hochfrequenz-Ultraschall für Orthopädie und Muskel-Skelett-Diagnostik. Präzise Bildgebung für Sehnen, Gelenke und Weichteile – Beratung durch DORMED Experten.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/fuer/orthopaedie">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/fuer/orthopaedie">
+
+        <title>Ultraschall Orthopädie &amp; MSK – Geräte für Orthopäden | DORMED</title>
+        <meta name="description" content="Hochfrequenz-Ultraschall für Orthopädie und Muskel-Skelett-Diagnostik. Präzise Bildgebung für Sehnen, Gelenke und Weichteile – Beratung durch DORMED Experten.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/fuer/orthopaedie">
+
+    
+
+        <meta property="og:title" content="Ultraschall Orthopädie &amp;amp; MSK – Geräte für Orthopäden | DORMED">
+        <meta property="og:description" content="Hochfrequenz-Ultraschall für Orthopädie und Muskel-Skelett-Diagnostik. Präzise Bildgebung für Sehnen, Gelenke und Weichteile – Beratung durch DORMED Experten.">
+        <meta property="og:url" content="https://dormed.de/fuer/orthopaedie">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ultraschall Orthopädie &amp;amp; MSK – Geräte für Orthopäden | DORMED">
+        <meta name="twitter:description" content="Hochfrequenz-Ultraschall für Orthopädie und Muskel-Skelett-Diagnostik. Präzise Bildgebung für Sehnen, Gelenke und Weichteile – Beratung durch DORMED Experten.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://dormed.de/fuer/orthopaedie/#webpage",
+          "name": "Ultraschall Orthopädie & MSK – Geräte für Orthopäden | DORMED",
+          "description": "Hochfrequenz-Ultraschall für Orthopädie und Muskel-Skelett-Diagnostik. Präzise Bildgebung für Sehnen, Gelenke und Weichteile – Beratung durch DORMED Experten.",
+          "url": "https://dormed.de/fuer/orthopaedie",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Für Fachgebiete", "item": "https://dormed.de/fuer" },
+              { "@type": "ListItem", "position": 3, "name": "Orthopädie & MSK", "item": "https://dormed.de/fuer/orthopaedie" }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Empfohlene Ultraschallgeräte für Orthopädie & Muskel-Skelett",
+          "description": "Diese Systeme empfiehlt SONORING DORMED für orthopädische Praxen – mit Hochfrequenz-Linearschallkopf, Power Doppler und Elastographie.",
+          "numberOfItems": 4,
+          "itemListElement": [
             {
-              "@type": "WebPage",
-              "@id": "https://dormed.de/fuer/orthopaedie/#webpage",
-              "name": "Ultraschall Orthopädie & MSK – Geräte für Orthopäden | DORMED",
-              "description": "Hochfrequenz-Ultraschall für Orthopädie und Muskel-Skelett-Diagnostik. Präzise Bildgebung für Sehnen, Gelenke und Weichteile – Beratung durch DORMED Experten.",
-              "url": "https://dormed.de/fuer/orthopaedie",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Für Fachgebiete", "item": "https://dormed.de/fuer" },
-                  { "@type": "ListItem", "position": 3, "name": "Orthopädie & MSK", "item": "https://dormed.de/fuer/orthopaedie" }
-                ]
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Mindray Consona N9",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n9"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Mindray TE 9",
+              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Mindray MX7",
+              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Esaote MyLab A50",
+              "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Was ist der Unterschied zwischen MSK-Sonographie und MRT in der Orthopädie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ultraschall und MRT sind in der Orthopädie komplementär — nicht austauschbar. Ultraschall ist der klare Gewinner bei dynamischen Untersuchungen, Weichteilstrukturen nah der Oberfläche (Sehnen, Bursae, Nerven), sofortiger Verfügbarkeit in der Praxis und bei der Nadelführung für Injektionen. MRT ist überlegen bei tiefen Strukturen, komplexen Bandverletzungen und Knochen-Pathologien. Für die tägliche Praxis bietet Ultraschall oft schnellere und wirtschaftlichere Antworten."
               }
             },
             {
-              "@type": "ItemList",
-              "name": "Empfohlene Ultraschallgeräte für Orthopädie & Muskel-Skelett",
-              "description": "Diese Systeme empfiehlt SONORING DORMED für orthopädische Praxen – mit Hochfrequenz-Linearschallkopf, Power Doppler und Elastographie.",
-              "numberOfItems": 4,
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Mindray Consona N9",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n9"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Mindray TE 9",
-                  "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "Mindray MX7",
-                  "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 4,
-                  "name": "Esaote MyLab A50",
-                  "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50"
-                }
-              ]
+              "@type": "Question",
+              "name": "Welche Frequenz brauche ich für die Rotatorenmanschetten-Sonographie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Für die Rotatorenmanschetten-Sonographie ist ein Linearschallkopf mit mindestens 10 MHz erforderlich — besser 12–15 MHz. Die Supraspinatussehne liegt typischerweise 1–3 cm unter der Hautoberfläche. Mit 12–15 MHz können Sehnentexturen, Rissstrukturen, Bursaveränderungen und Calcifizierungen klar dargestellt werden. Bei adipösen Patienten kann die Eindringtiefe bei 15 MHz eingeschränkt sein — dann auf 10–12 MHz wechseln."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Was ist der Unterschied zwischen MSK-Sonographie und MRT in der Orthopädie?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ultraschall und MRT sind in der Orthopädie komplementär — nicht austauschbar. Ultraschall ist der klare Gewinner bei dynamischen Untersuchungen, Weichteilstrukturen nah der Oberfläche (Sehnen, Bursae, Nerven), sofortiger Verfügbarkeit in der Praxis und bei der Nadelführung für Injektionen. MRT ist überlegen bei tiefen Strukturen, komplexen Bandverletzungen und Knochen-Pathologien. Für die tägliche Praxis bietet Ultraschall oft schnellere und wirtschaftlichere Antworten."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Frequenz brauche ich für die Rotatorenmanschetten-Sonographie?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Für die Rotatorenmanschetten-Sonographie ist ein Linearschallkopf mit mindestens 10 MHz erforderlich — besser 12–15 MHz. Die Supraspinatussehne liegt typischerweise 1–3 cm unter der Hautoberfläche. Mit 12–15 MHz können Sehnentexturen, Rissstrukturen, Bursaveränderungen und Calcifizierungen klar dargestellt werden. Bei adipösen Patienten kann die Eindringtiefe bei 15 MHz eingeschränkt sein — dann auf 10–12 MHz wechseln."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ich mit einem MSK-Gerät auch Schulterinfiltration ultraschallgezielt durchführen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja — ultraschallgezielte Injektionen sind eine der wertvollsten Anwendungen eines MSK-Geräts. Für subakromiale, intraartikuläre Schulter- und AC-Gelenk-Infiltrationen ist Ultraschallführung deutlich präziser als blinde Techniken. Gute Systeme bieten eine Needle Enhancement Funktion die die Nadeldarstellung verbessert. Wir empfehlen die Einweisung in ultraschallgezielte Injektionstechniken als Teil der DEGUM-Weiterbildung."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Ist ein mobiles System wie der TE 9 für MSK genauso gut wie ein Standgerät?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "In der MSK-Sonographie ist der Unterschied zwischen mobilem Laptop-System und Standgerät geringer als in anderen Fachrichtungen — weil hohe Bildrate und Tiefenpenetration weniger kritisch sind als Nahfeldauflösung. Das TE 9 mit L14-5NS Schallkopf bietet vergleichbare Bildqualität im Nahfeld wie ein Mittelklasse-Standgerät. Der große Vorteil: es kommt zum Patienten, nicht der Patient zum Gerät — besonders wertvoll bei Schulter- und Knieuntersuchungen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was ist Anisotropie und wie beeinflusst sie die MSK-Sonographie?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Anisotropie ist ein spezifisches Artefakt der MSK-Sonographie: Sehnen erscheinen nur dann echogen wenn der Schallkopf exakt senkrecht zur Sehnenstruktur ausgerichtet ist. Bei leichter Abwinkelung erscheint die gleiche Sehne hypoechogen — was fälschlicherweise als Riss oder Tendinopathie interpretiert werden kann. Die Anisotropie erfordert Erfahrung und korrektes Schallkopfhandling und wird in DEGUM-Kursen für MSK systematisch thematisiert."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche DEGUM-Qualifikation benötige ich für MSK-Sonographie?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Für die Abrechnung von MSK-Sonographie nach EBM benötigen Sie in den meisten KV-Bezirken die DEGUM-Stufe I MSK oder eine vergleichbare Qualifikation. Für ultraschallgezielte Interventionen empfiehlt sich zusätzlich ein Kurs in ultraschallgezielter Injektionstechnik. Sprechen Sie Ihre KV an welche Qualifikation für die Sonographiegenehmigung in Ihrem Bezirk erforderlich ist — die Anforderungen variieren."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Was ist Power Doppler und wann ist er in der MSK-Sonographie sinnvoll?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Power Doppler ist sensitiver als Standard-Farbdoppler und detektiert auch sehr langsame Blutflüsse. In der MSK-Sonographie ist er besonders wertvoll beim Nachweis von Neovaskularisierung bei Tendinopathie, Aktivitätsbeurteilung bei rheumatoider Arthritis, Synovitis-Nachweis und Differenzierung aktiver vs. inaktiver Enthesopathien. Er ist kein Muss für Basisdiagnostik — aber ein wichtiges Zusatzwerkzeug für entzündlich-rheumatologische Fragestellungen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie erkenne ich einen Supraspinatussehnenriss sonographisch?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ein vollständiger Supraspinatussehnenriss ist sonographisch durch den direkten Nachweis einer Kontinuitätsunterbrechung erkennbar — der Defekt ist oft mit Flüssigkeit oder Hämatom gefüllt. Partialrisse zeigen eine lokale Hypoechogenität ohne vollständige Kontinuitätsunterbrechung. Wichtig: Anisotropie-Artefakte müssen ausgeschlossen werden indem der Schallkopf exakt senkrecht gehalten wird. Die DEGUM empfiehlt für die Schultersonographie Kenntnisse in der Differenzierung von Artefakt und Pathologie."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Kann ich mit einem MSK-Gerät auch Schulterinfiltration ultraschallgezielt durchführen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja — ultraschallgezielte Injektionen sind eine der wertvollsten Anwendungen eines MSK-Geräts. Für subakromiale, intraartikuläre Schulter- und AC-Gelenk-Infiltrationen ist Ultraschallführung deutlich präziser als blinde Techniken. Gute Systeme bieten eine Needle Enhancement Funktion die die Nadeldarstellung verbessert. Wir empfehlen die Einweisung in ultraschallgezielte Injektionstechniken als Teil der DEGUM-Weiterbildung."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist ein mobiles System wie der TE 9 für MSK genauso gut wie ein Standgerät?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In der MSK-Sonographie ist der Unterschied zwischen mobilem Laptop-System und Standgerät geringer als in anderen Fachrichtungen — weil hohe Bildrate und Tiefenpenetration weniger kritisch sind als Nahfeldauflösung. Das TE 9 mit L14-5NS Schallkopf bietet vergleichbare Bildqualität im Nahfeld wie ein Mittelklasse-Standgerät. Der große Vorteil: es kommt zum Patienten, nicht der Patient zum Gerät — besonders wertvoll bei Schulter- und Knieuntersuchungen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was ist Anisotropie und wie beeinflusst sie die MSK-Sonographie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Anisotropie ist ein spezifisches Artefakt der MSK-Sonographie: Sehnen erscheinen nur dann echogen wenn der Schallkopf exakt senkrecht zur Sehnenstruktur ausgerichtet ist. Bei leichter Abwinkelung erscheint die gleiche Sehne hypoechogen — was fälschlicherweise als Riss oder Tendinopathie interpretiert werden kann. Die Anisotropie erfordert Erfahrung und korrektes Schallkopfhandling und wird in DEGUM-Kursen für MSK systematisch thematisiert."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche DEGUM-Qualifikation benötige ich für MSK-Sonographie?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Für die Abrechnung von MSK-Sonographie nach EBM benötigen Sie in den meisten KV-Bezirken die DEGUM-Stufe I MSK oder eine vergleichbare Qualifikation. Für ultraschallgezielte Interventionen empfiehlt sich zusätzlich ein Kurs in ultraschallgezielter Injektionstechnik. Sprechen Sie Ihre KV an welche Qualifikation für die Sonographiegenehmigung in Ihrem Bezirk erforderlich ist — die Anforderungen variieren."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Was ist Power Doppler und wann ist er in der MSK-Sonographie sinnvoll?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Power Doppler ist sensitiver als Standard-Farbdoppler und detektiert auch sehr langsame Blutflüsse. In der MSK-Sonographie ist er besonders wertvoll beim Nachweis von Neovaskularisierung bei Tendinopathie, Aktivitätsbeurteilung bei rheumatoider Arthritis, Synovitis-Nachweis und Differenzierung aktiver vs. inaktiver Enthesopathien. Er ist kein Muss für Basisdiagnostik — aber ein wichtiges Zusatzwerkzeug für entzündlich-rheumatologische Fragestellungen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie erkenne ich einen Supraspinatussehnenriss sonographisch?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ein vollständiger Supraspinatussehnenriss ist sonographisch durch den direkten Nachweis einer Kontinuitätsunterbrechung erkennbar — der Defekt ist oft mit Flüssigkeit oder Hämatom gefüllt. Partialrisse zeigen eine lokale Hypoechogenität ohne vollständige Kontinuitätsunterbrechung. Wichtig: Anisotropie-Artefakte müssen ausgeschlossen werden indem der Schallkopf exakt senkrecht gehalten wird. Die DEGUM empfiehlt für die Schultersonographie Kenntnisse in der Differenzierung von Artefakt und Pathologie."
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

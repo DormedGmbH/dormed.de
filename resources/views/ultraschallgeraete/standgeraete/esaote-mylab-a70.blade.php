@@ -1,81 +1,106 @@
-@php
-    $title = "Esaote MyLab A70 kaufen – Premium Ultraschall | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70";
-    $description = "Esaote MyLab A70: Hochleistungs-Ultraschall mit Augmented Insight™, 24\" Barco Monitor, 5+1 Anschlüssen und KI-gestützten Workflows. Jetzt Demo anfragen.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70">
+
+        <title>Esaote MyLab A70 kaufen – Premium Ultraschall | DORMED</title>
+        <meta name="description" content="Esaote MyLab A70: Hochleistungs-Ultraschall mit Augmented Insight™, 24&quot; Barco Monitor, 5+1 Anschlüssen und KI-gestützten Workflows. Jetzt Demo anfragen.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70">
+
+    
+
+        <meta property="og:title" content="Esaote MyLab A70 kaufen – Premium Ultraschall | DORMED">
+        <meta property="og:description" content="Esaote MyLab A70: Hochleistungs-Ultraschall mit Augmented Insight™, 24&quot; Barco Monitor, 5+1 Anschlüssen und KI-gestützten Workflows. Jetzt Demo anfragen.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Esaote MyLab A70 kaufen – Premium Ultraschall | DORMED">
+        <meta name="twitter:description" content="Esaote MyLab A70: Hochleistungs-Ultraschall mit Augmented Insight™, 24&amp;quot; Barco Monitor, 5+1 Anschlüssen und KI-gestützten Workflows. Jetzt Demo anfragen.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70/#product",
-              "name": "Esaote MyLab™ A70",
-              "description": "Premium-Ultraschallsystem mit 24\" Barco OptiLight Monitor, 13,3\" Touchscreen, 5+1 aktiven Ports, vollständiger Augmented Insight™ KI-Suite inkl. XStrain™2D, AutoEF und AutoCM. Für Kardiologie, Gynäkologie und anspruchsvolle Diagnostik.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/esaote-mylab-a70/75584888-c45d-4cf5-24b5-c97c227ded00.png",
-                "https://dormed.de/assets/img/produkte/esaote-mylab-a70/0ca09568-f666-4029-845e-c4ae685e5900.jpg",
-                "https://dormed.de/assets/img/produkte/esaote-mylab-a70/b9c265fc-608a-4e76-ca38-6ea333ddfd00.jpg",
-                "https://dormed.de/assets/img/produkte/esaote-mylab-a70/787209df-c0e3-4b07-28ef-684ac847cb00.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Esaote",
-                "@id": "https://dormed.de/hersteller/esaote/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Esaote S.p.A.",
-                "url": "https://www.esaote.com"
-              },
-              "category": "Stationäres Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Monitor", "value": "24 Zoll Barco OptiLight LCD-Monitor" },
-                { "@type": "PropertyValue", "name": "Touchscreen", "value": "13,3 Zoll Breitbild-Touchscreen" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "5+1 aktive Ports" },
-                { "@type": "PropertyValue", "name": "KI-Plattform", "value": "Augmented Insight™ vollständig" },
-                { "@type": "PropertyValue", "name": "Strain-Analyse", "value": "XStrain™2D" },
-                { "@type": "PropertyValue", "name": "AutoEF", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "AutoCM", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "3D/4D", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Garantie", "value": "3 Jahre Herstellergarantie" },
-                { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "Optional verfügbar" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Stationäres Standgerät Premium" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Esaote MyLab A50", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50" },
-                { "@type": "Product", "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" },
-                { "@type": "Product", "name": "Mindray Resona i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" },
-                { "@type": "ListItem", "position": 4, "name": "Esaote MyLab A70", "item": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70/#product",
+          "name": "Esaote MyLab™ A70",
+          "description": "Premium-Ultraschallsystem mit 24\" Barco OptiLight Monitor, 13,3\" Touchscreen, 5+1 aktiven Ports, vollständiger Augmented Insight™ KI-Suite inkl. XStrain™2D, AutoEF und AutoCM. Für Kardiologie, Gynäkologie und anspruchsvolle Diagnostik.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/esaote-mylab-a70/75584888-c45d-4cf5-24b5-c97c227ded00.png",
+            "https://dormed.de/assets/img/produkte/esaote-mylab-a70/0ca09568-f666-4029-845e-c4ae685e5900.jpg",
+            "https://dormed.de/assets/img/produkte/esaote-mylab-a70/b9c265fc-608a-4e76-ca38-6ea333ddfd00.jpg",
+            "https://dormed.de/assets/img/produkte/esaote-mylab-a70/787209df-c0e3-4b07-28ef-684ac847cb00.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Esaote",
+            "@id": "https://dormed.de/hersteller/esaote/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Esaote S.p.A.",
+            "url": "https://www.esaote.com"
+          },
+          "category": "Stationäres Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Monitor", "value": "24 Zoll Barco OptiLight LCD-Monitor" },
+            { "@type": "PropertyValue", "name": "Touchscreen", "value": "13,3 Zoll Breitbild-Touchscreen" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "5+1 aktive Ports" },
+            { "@type": "PropertyValue", "name": "KI-Plattform", "value": "Augmented Insight™ vollständig" },
+            { "@type": "PropertyValue", "name": "Strain-Analyse", "value": "XStrain™2D" },
+            { "@type": "PropertyValue", "name": "AutoEF", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "AutoCM", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "3D/4D", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Garantie", "value": "3 Jahre Herstellergarantie" },
+            { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "Optional verfügbar" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Stationäres Standgerät Premium" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Esaote MyLab A50", "url": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a50" },
+            { "@type": "Product", "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" },
+            { "@type": "Product", "name": "Mindray Resona i9", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-resona-i9" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Standgeräte", "item": "https://dormed.de/ultraschallgeraete/standgeraete" },
+            { "@type": "ListItem", "position": 4, "name": "Esaote MyLab A70", "item": "https://dormed.de/ultraschallgeraete/standgeraete/esaote-mylab-a70" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

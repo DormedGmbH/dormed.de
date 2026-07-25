@@ -1,46 +1,71 @@
-@php
-    $title = "SONORING – Einkaufsgemeinschaft für Ultraschall | SONORING DORMED";
-    $canonical = "https://dormed.de/ueber/sonoring";
-    $description = "SONORING ist Deutschlands größte Ultraschall-Händlerorganisation mit über 30 % Marktanteil. Gegründet 1991, heute starke Einkaufsgemeinschaft für Ärzte.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ueber/sonoring">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ueber/sonoring">
+
+        <title>SONORING – Einkaufsgemeinschaft für Ultraschall | SONORING DORMED</title>
+        <meta name="description" content="SONORING ist Deutschlands größte Ultraschall-Händlerorganisation mit über 30 % Marktanteil. Gegründet 1991, heute starke Einkaufsgemeinschaft für Ärzte.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ueber/sonoring">
+
+    
+
+        <meta property="og:title" content="SONORING – Einkaufsgemeinschaft für Ultraschall | SONORING DORMED">
+        <meta property="og:description" content="SONORING ist Deutschlands größte Ultraschall-Händlerorganisation mit über 30 % Marktanteil. Gegründet 1991, heute starke Einkaufsgemeinschaft für Ärzte.">
+        <meta property="og:url" content="https://dormed.de/ueber/sonoring">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="SONORING – Einkaufsgemeinschaft für Ultraschall | SONORING DORMED">
+        <meta name="twitter:description" content="SONORING ist Deutschlands größte Ultraschall-Händlerorganisation mit über 30 % Marktanteil. Gegründet 1991, heute starke Einkaufsgemeinschaft für Ärzte.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "AboutPage",
-              "@id": "https://dormed.de/ueber/sonoring/#webpage",
-              "name": "Über SONORING – Einkaufsgemeinschaft für Ultraschall | SONORING DORMED",
-              "description": "SONORING® ist Deutschlands größte Ultraschall-Händlerorganisation mit ~40% Marktanteil und ~23 Partnern. Gegründet 1991 – starke Einkaufsgemeinschaft für Ärzte.",
-              "url": "https://dormed.de/ueber/sonoring",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Über uns", "item": "https://dormed.de/ueber" },
-                  { "@type": "ListItem", "position": 3, "name": "SONORING", "item": "https://dormed.de/ueber/sonoring" }
-                ]
-              }
-            },
-            {
-              "@type": "Organization",
-              "@id": "https://dormed.de/ueber/sonoring/#sonoring",
-              "name": "SONORING® Deutschland",
-              "foundingDate": "1991",
-              "description": "SONORING® ist Deutschlands größte Einkaufs- und Fachhandelsorganisation für Ultraschallgeräte — ein Verbund von ~23 eigenständigen Fachhändlern mit gemeinsam über 40.000 aktiven Wartungsverträgen und einem Marktanteil von ~40% im deutschen Ultraschall-Fachhandel.",
-              "memberOf": {
-                "@id": "https://dormed.de/#organization"
-              },
-              "areaServed": {
-                "@type": "Country",
-                "name": "Deutschland"
-              }
-            }
-          ]
-        }</script>
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AboutPage",
+          "@id": "https://dormed.de/ueber/sonoring/#webpage",
+          "name": "Über SONORING – Einkaufsgemeinschaft für Ultraschall | SONORING DORMED",
+          "description": "SONORING® ist Deutschlands größte Ultraschall-Händlerorganisation mit ~40% Marktanteil und ~23 Partnern. Gegründet 1991 – starke Einkaufsgemeinschaft für Ärzte.",
+          "url": "https://dormed.de/ueber/sonoring",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Über uns", "item": "https://dormed.de/ueber" },
+              { "@type": "ListItem", "position": 3, "name": "SONORING", "item": "https://dormed.de/ueber/sonoring" }
+            ]
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://dormed.de/ueber/sonoring/#sonoring",
+          "name": "SONORING® Deutschland",
+          "foundingDate": "1991",
+          "description": "SONORING® ist Deutschlands größte Einkaufs- und Fachhandelsorganisation für Ultraschallgeräte — ein Verbund von ~23 eigenständigen Fachhändlern mit gemeinsam über 40.000 aktiven Wartungsverträgen und einem Marktanteil von ~40% im deutschen Ultraschall-Fachhandel.",
+          "memberOf": {
+            "@id": "https://dormed.de/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Deutschland"
+          }
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

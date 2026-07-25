@@ -1,111 +1,136 @@
-@php
-    $title = "Handheld Ultraschall – Point-of-Care Geräte | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/handheld";
-    $description = "Kompakte Handheld-Ultraschallgeräte für den Point-of-Care-Einsatz. Mindray TE Air e5M und i3M – klein, kabellos, klinisch zuverlässig. Jetzt anfragen.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/handheld">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/handheld">
+
+        <title>Handheld Ultraschall – Point-of-Care Geräte | DORMED</title>
+        <meta name="description" content="Kompakte Handheld-Ultraschallgeräte für den Point-of-Care-Einsatz. Mindray TE Air e5M und i3M – klein, kabellos, klinisch zuverlässig. Jetzt anfragen.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/handheld">
+
+    
+
+        <meta property="og:title" content="Handheld Ultraschall – Point-of-Care Geräte | DORMED">
+        <meta property="og:description" content="Kompakte Handheld-Ultraschallgeräte für den Point-of-Care-Einsatz. Mindray TE Air e5M und i3M – klein, kabellos, klinisch zuverlässig. Jetzt anfragen.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/handheld">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Handheld Ultraschall – Point-of-Care Geräte | DORMED">
+        <meta name="twitter:description" content="Kompakte Handheld-Ultraschallgeräte für den Point-of-Care-Einsatz. Mindray TE Air e5M und i3M – klein, kabellos, klinisch zuverlässig. Jetzt anfragen.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://dormed.de/ultraschallgeraete/handheld/#webpage",
+          "name": "Handheld Ultraschall – Point-of-Care Geräte | DORMED",
+          "description": "Kompakte Handheld-Ultraschallgeräte für den Point-of-Care-Einsatz. Mindray TE Air e5M und i3M – klein, kabellos, klinisch zuverlässig. Jetzt anfragen.",
+          "url": "https://dormed.de/ultraschallgeraete/handheld",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+              { "@type": "ListItem", "position": 3, "name": "Handheld", "item": "https://dormed.de/ultraschallgeraete/handheld" }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Handheld Ultraschall im Direktvergleich",
+          "description": "Kabellose POCUS-Systeme von Mindray – TE Air e5M und TE Air i3M für Point-of-Care-Diagnostik.",
+          "numberOfItems": 2,
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" },
+            { "@type": "ListItem", "position": 2, "name": "Mindray TE Air i3M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
             {
-              "@type": "CollectionPage",
-              "@id": "https://dormed.de/ultraschallgeraete/handheld/#webpage",
-              "name": "Handheld Ultraschall – Point-of-Care Geräte | DORMED",
-              "description": "Kompakte Handheld-Ultraschallgeräte für den Point-of-Care-Einsatz. Mindray TE Air e5M und i3M – klein, kabellos, klinisch zuverlässig. Jetzt anfragen.",
-              "url": "https://dormed.de/ultraschallgeraete/handheld",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                  { "@type": "ListItem", "position": 3, "name": "Handheld", "item": "https://dormed.de/ultraschallgeraete/handheld" }
-                ]
+              "@type": "Question",
+              "name": "Was ist POCUS und wofür steht die Abkürzung?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "POCUS steht für Point-of-Care Ultrasound — Ultraschall direkt am Behandlungsort. Im Gegensatz zur klassischen Sonographie in einem speziellen Untersuchungsraum ermöglicht POCUS fokussierte Ultraschalluntersuchungen direkt am Patientenbett, in der Notaufnahme, auf der Intensivstation oder beim Hausbesuch. Das Ziel ist eine schnelle, gezielte Antwort auf eine konkrete klinische Fragestellung — nicht die umfassende Organsystematik eines Standgeräts."
               }
             },
             {
-              "@type": "ItemList",
-              "name": "Handheld Ultraschall im Direktvergleich",
-              "description": "Kabellose POCUS-Systeme von Mindray – TE Air e5M und TE Air i3M für Point-of-Care-Diagnostik.",
-              "numberOfItems": 2,
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" },
-                { "@type": "ListItem", "position": 2, "name": "Mindray TE Air i3M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m" }
-              ]
+              "@type": "Question",
+              "name": "Kann ein Handheld-Ultraschall ein Standgerät ersetzen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein — und das sollte auch nicht das Ziel sein. Handheld-Systeme wie der Mindray TE Air sind auf fokussierte Fragestellungen ausgelegt: Ist Pleuraflüssigkeit vorhanden? Gibt es freie abdominale Flüssigkeit? Wie ist die grobe Herzfunktion? Für komplexe Differentialdiagnostik, Farbdoppler-intensive Untersuchungen oder Elastographie bleibt ein vollwertiges Standgerät oder Laptop-System die richtige Wahl. Handheld und Standgerät ergänzen sich — sie konkurrieren nicht."
+              }
             },
             {
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Was ist POCUS und wofür steht die Abkürzung?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "POCUS steht für Point-of-Care Ultrasound — Ultraschall direkt am Behandlungsort. Im Gegensatz zur klassischen Sonographie in einem speziellen Untersuchungsraum ermöglicht POCUS fokussierte Ultraschalluntersuchungen direkt am Patientenbett, in der Notaufnahme, auf der Intensivstation oder beim Hausbesuch. Das Ziel ist eine schnelle, gezielte Antwort auf eine konkrete klinische Fragestellung — nicht die umfassende Organsystematik eines Standgeräts."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Kann ein Handheld-Ultraschall ein Standgerät ersetzen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nein — und das sollte auch nicht das Ziel sein. Handheld-Systeme wie der Mindray TE Air sind auf fokussierte Fragestellungen ausgelegt: Ist Pleuraflüssigkeit vorhanden? Gibt es freie abdominale Flüssigkeit? Wie ist die grobe Herzfunktion? Für komplexe Differentialdiagnostik, Farbdoppler-intensive Untersuchungen oder Elastographie bleibt ein vollwertiges Standgerät oder Laptop-System die richtige Wahl. Handheld und Standgerät ergänzen sich — sie konkurrieren nicht."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Ist der Mindray TE Air ein zugelassenes Medizinprodukt?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja — beide TE Air Modelle (e5M und i3M) sind CE-zertifizierte Medizinprodukte nach EU MDR und dürfen für die medizinische Diagnostik eingesetzt werden. Sie sind keine Consumer-Geräte. Für den Betrieb in Deutschland ist eine Einweisung nach §2 MPBetreibV erforderlich, die wir als SONORING®-Fachhändler kostenlos durchführen."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Smartphones sind mit dem TE Air kompatibel?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Der TE Air verbindet sich per App mit iOS- und Android-Smartphones sowie Tablets. Für optimale Bilddarstellung empfehlen sich aktuelle Geräte mit mindestens 6-Zoll-Display und schnellem Prozessor. Die aktuelle Kompatibilitätsliste erhalten Sie direkt von uns — sprechen Sie uns an bevor Sie ein Gerät kaufen, damit wir Ihre vorhandene Hardware prüfen können."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Wie unterscheiden sich TE Air e5M und i3M konkret?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Der TE Air e5M hat einen Multifunktions-Schallkopf mit Konvex-, Linear- und Kardiologiemodus — er ist der Allrounder für Notaufnahme und Intensivstation. Der i3M hat einen Linear-/Endokavitär-Kombischallkopf und ist besser geeignet für Allgemeinmedizin, MSK und gynäkologische Basisdiagnostik. Beide verbinden sich kabellos mit Smartphone oder Tablet. Der e5M ist in der Regel etwas teurer."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Ist das Handheld-Gerät wasserdicht?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Beide TE Air Modelle sind nach IPX7 wasserdicht und können desinfiziert werden — wichtig für den klinischen Einsatz. Das Gerät kann kurzzeitig in Wasser eingetaucht werden und widersteht Spritzwasser und Desinfektionsmittel. Für die Aufbereitung empfehlen wir die Desinfektionsvorgaben von Mindray zu beachten."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Welche Untersuchungen kann ich mit einem Handheld-System durchführen?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Mit dem TE Air e5M: Abdomensonographie, FAST-Protokoll (freie Flüssigkeit), fokussierte Herzbeurteilung, Pleura- und Lungensonographie, Gefäßdarstellung, grobe Schilddrüsenbeurteilung. Mit dem TE Air i3M: Muskel-Skelett-Sonographie, Schilddrüse, Abdomen-Basis, Venen, gynäkologische Basisdiagnostik. Beide Geräte sind für fokussierte Fragestellungen ausgelegt — nicht für umfassende Organsystematik."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Brauche ich eine spezielle Ausbildung für POCUS?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Eine Grundausbildung in der Sonographie ist Voraussetzung — POCUS setzt diagnostisches Grundwissen voraus. Für den gezielten Einsatz von POCUS-Protokollen wie FAST, RUSH oder LUS empfehlen sich spezifische POCUS-Kurse, die von Fachgesellschaften wie DEGUM oder ÖGUM angeboten werden. Als SONORING®-Fachhändler führen wir die gesetzlich vorgeschriebene Einweisung nach MPBetreibV durch und können Sie auf weiterführende Fortbildungen hinweisen."
-                  }
-                }
-              ]
+              "@type": "Question",
+              "name": "Ist der Mindray TE Air ein zugelassenes Medizinprodukt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja — beide TE Air Modelle (e5M und i3M) sind CE-zertifizierte Medizinprodukte nach EU MDR und dürfen für die medizinische Diagnostik eingesetzt werden. Sie sind keine Consumer-Geräte. Für den Betrieb in Deutschland ist eine Einweisung nach §2 MPBetreibV erforderlich, die wir als SONORING®-Fachhändler kostenlos durchführen."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Smartphones sind mit dem TE Air kompatibel?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der TE Air verbindet sich per App mit iOS- und Android-Smartphones sowie Tablets. Für optimale Bilddarstellung empfehlen sich aktuelle Geräte mit mindestens 6-Zoll-Display und schnellem Prozessor. Die aktuelle Kompatibilitätsliste erhalten Sie direkt von uns — sprechen Sie uns an bevor Sie ein Gerät kaufen, damit wir Ihre vorhandene Hardware prüfen können."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Wie unterscheiden sich TE Air e5M und i3M konkret?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Der TE Air e5M hat einen Multifunktions-Schallkopf mit Konvex-, Linear- und Kardiologiemodus — er ist der Allrounder für Notaufnahme und Intensivstation. Der i3M hat einen Linear-/Endokavitär-Kombischallkopf und ist besser geeignet für Allgemeinmedizin, MSK und gynäkologische Basisdiagnostik. Beide verbinden sich kabellos mit Smartphone oder Tablet. Der e5M ist in der Regel etwas teurer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ist das Handheld-Gerät wasserdicht?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Beide TE Air Modelle sind nach IPX7 wasserdicht und können desinfiziert werden — wichtig für den klinischen Einsatz. Das Gerät kann kurzzeitig in Wasser eingetaucht werden und widersteht Spritzwasser und Desinfektionsmittel. Für die Aufbereitung empfehlen wir die Desinfektionsvorgaben von Mindray zu beachten."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Welche Untersuchungen kann ich mit einem Handheld-System durchführen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mit dem TE Air e5M: Abdomensonographie, FAST-Protokoll (freie Flüssigkeit), fokussierte Herzbeurteilung, Pleura- und Lungensonographie, Gefäßdarstellung, grobe Schilddrüsenbeurteilung. Mit dem TE Air i3M: Muskel-Skelett-Sonographie, Schilddrüse, Abdomen-Basis, Venen, gynäkologische Basisdiagnostik. Beide Geräte sind für fokussierte Fragestellungen ausgelegt — nicht für umfassende Organsystematik."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Brauche ich eine spezielle Ausbildung für POCUS?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Eine Grundausbildung in der Sonographie ist Voraussetzung — POCUS setzt diagnostisches Grundwissen voraus. Für den gezielten Einsatz von POCUS-Protokollen wie FAST, RUSH oder LUS empfehlen sich spezifische POCUS-Kurse, die von Fachgesellschaften wie DEGUM oder ÖGUM angeboten werden. Als SONORING®-Fachhändler führen wir die gesetzlich vorgeschriebene Einweisung nach MPBetreibV durch und können Sie auf weiterführende Fortbildungen hinweisen."
+              }
             }
           ]
-        }</script>
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

@@ -1,235 +1,260 @@
-@php
-    $title = "Standorte – SONORING DORMED bundesweit | SONORING DORMED";
-    $canonical = "https://dormed.de/standorte";
-    $description = "SONORING DORMED mit 4 Standorten in Dortmund, Düsseldorf, Hamburg und Kiel. 15+ Mitarbeiter, persönlicher Außendienst und Servicetechniker direkt in Ihrer Region.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/standorte">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/standorte">
+
+        <title>Standorte – SONORING DORMED bundesweit | SONORING DORMED</title>
+        <meta name="description" content="SONORING DORMED mit 4 Standorten in Dortmund, Düsseldorf, Hamburg und Kiel. 15+ Mitarbeiter, persönlicher Außendienst und Servicetechniker direkt in Ihrer Region.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/standorte">
+
+    
+
+        <meta property="og:title" content="Standorte – SONORING DORMED bundesweit | SONORING DORMED">
+        <meta property="og:description" content="SONORING DORMED mit 4 Standorten in Dortmund, Düsseldorf, Hamburg und Kiel. 15+ Mitarbeiter, persönlicher Außendienst und Servicetechniker direkt in Ihrer Region.">
+        <meta property="og:url" content="https://dormed.de/standorte">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Standorte – SONORING DORMED bundesweit | SONORING DORMED">
+        <meta name="twitter:description" content="SONORING DORMED mit 4 Standorten in Dortmund, Düsseldorf, Hamburg und Kiel. 15+ Mitarbeiter, persönlicher Außendienst und Servicetechniker direkt in Ihrer Region.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://dormed.de/standorte/#webpage",
+          "name": "Standorte – SONORING DORMED bundesweit | SONORING DORMED",
+          "description": "SONORING DORMED mit 4 Standorten in Dortmund, Düsseldorf, Hamburg und Kiel. 15+ Mitarbeiter, persönlicher Außendienst und Servicetechniker direkt in Ihrer Region.",
+          "url": "https://dormed.de/standorte",
+          "publisher": { "@id": "https://dormed.de/#organization" },
+          "inLanguage": "de-DE",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+              { "@type": "ListItem", "position": 2, "name": "Standorte", "item": "https://dormed.de/standorte" }
+            ]
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "SONORING DORMED Standorte",
+          "description": "Alle 4 Standorte von SONORING DORMED in Deutschland.",
+          "numberOfItems": 4,
+          "itemListElement": [
             {
-              "@type": "WebPage",
-              "@id": "https://dormed.de/standorte/#webpage",
-              "name": "Standorte – SONORING DORMED bundesweit | SONORING DORMED",
-              "description": "SONORING DORMED mit 4 Standorten in Dortmund, Düsseldorf, Hamburg und Kiel. 15+ Mitarbeiter, persönlicher Außendienst und Servicetechniker direkt in Ihrer Region.",
-              "url": "https://dormed.de/standorte",
-              "publisher": { "@id": "https://dormed.de/#organization" },
-              "inLanguage": "de-DE",
-              "breadcrumb": {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                  { "@type": "ListItem", "position": 2, "name": "Standorte", "item": "https://dormed.de/standorte" }
-                ]
-              }
+              "@type": "ListItem",
+              "position": 1,
+              "name": "SONORING DORMED Dortmund",
+              "url": "https://dormed.de/standorte/dortmund"
             },
             {
-              "@type": "ItemList",
-              "name": "SONORING DORMED Standorte",
-              "description": "Alle 4 Standorte von SONORING DORMED in Deutschland.",
-              "numberOfItems": 4,
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "SONORING DORMED Dortmund",
-                  "url": "https://dormed.de/standorte/dortmund"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "SONORING DORMED Düsseldorf",
-                  "url": "https://dormed.de/standorte/duesseldorf"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 3,
-                  "name": "SONORING DORMED Hamburg",
-                  "url": "https://dormed.de/standorte/hamburg"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 4,
-                  "name": "SONORING DORMED Kiel",
-                  "url": "https://dormed.de/standorte/kiel"
-                }
-              ]
+              "@type": "ListItem",
+              "position": 2,
+              "name": "SONORING DORMED Düsseldorf",
+              "url": "https://dormed.de/standorte/duesseldorf"
             },
             {
-              "@type": "LocalBusiness",
-              "@id": "https://dormed.de/#localbusiness-holzwickede",
-              "name": "SONORING DORMED – Dortmund / Holzwickede",
-              "url": "https://dormed.de/standorte/dortmund",
-              "telephone": "+492301188600",
-              "email": "mail@dormed.de",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Wilhelm-Röntgen-Straße 4",
-                "addressLocality": "Holzwickede",
-                "postalCode": "59439",
-                "addressCountry": "DE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 51.5105803,
-                "longitude": 7.6105545
-              },
-              "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.5105803,7.6079796,17z",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "66",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-                  "opens": "08:00",
-                  "closes": "17:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Friday",
-                  "opens": "08:00",
-                  "closes": "15:00"
-                }
-              ],
-              "parentOrganization": { "@id": "https://dormed.de/#organization" }
+              "@type": "ListItem",
+              "position": 3,
+              "name": "SONORING DORMED Hamburg",
+              "url": "https://dormed.de/standorte/hamburg"
             },
             {
-              "@type": "LocalBusiness",
-              "@id": "https://dormed.de/#localbusiness-ratingen",
-              "name": "SONORING DORMED – Düsseldorf / Ratingen",
-              "url": "https://dormed.de/standorte/duesseldorf",
-              "telephone": "+492301188600",
-              "email": "mail@dormed.de",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Borsigstraße 5",
-                "addressLocality": "Ratingen",
-                "postalCode": "40880",
-                "addressCountry": "DE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 51.3024916,
-                "longitude": 6.8367663
-              },
-              "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.3024915,6.8318954,17z",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "26",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-                  "opens": "08:00",
-                  "closes": "17:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Friday",
-                  "opens": "08:00",
-                  "closes": "15:00"
-                }
-              ],
-              "parentOrganization": { "@id": "https://dormed.de/#organization" }
-            },
-            {
-              "@type": "LocalBusiness",
-              "@id": "https://dormed.de/#localbusiness-buchholz",
-              "name": "SONORING DORMED – Hamburg / Buchholz",
-              "url": "https://dormed.de/standorte/hamburg",
-              "telephone": "+492301188600",
-              "email": "mail@dormed.de",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Bremer Straße 6",
-                "addressLocality": "Buchholz in der Nordheide",
-                "postalCode": "21244",
-                "addressCountry": "DE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 53.3267999,
-                "longitude": 9.8743419
-              },
-              "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED+-/@53.3267999,9.871767,17z",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-                  "opens": "08:00",
-                  "closes": "17:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Friday",
-                  "opens": "08:00",
-                  "closes": "15:00"
-                }
-              ],
-              "parentOrganization": { "@id": "https://dormed.de/#organization" }
-            },
-            {
-              "@type": "LocalBusiness",
-              "@id": "https://dormed.de/#localbusiness-kiel",
-              "name": "SONORING DORMED – Kiel",
-              "url": "https://dormed.de/standorte/kiel",
-              "telephone": "+492301188600",
-              "email": "mail@dormed.de",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Maria-Merian-Straße 9",
-                "addressLocality": "Kiel",
-                "postalCode": "24145",
-                "addressCountry": "DE"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 54.28188,
-                "longitude": 10.1589
-              },
-              "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@54.28188,10.1563251,17z",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "1",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-                  "opens": "08:00",
-                  "closes": "17:00"
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": "Friday",
-                  "opens": "08:00",
-                  "closes": "15:00"
-                }
-              ],
-              "parentOrganization": { "@id": "https://dormed.de/#organization" }
+              "@type": "ListItem",
+              "position": 4,
+              "name": "SONORING DORMED Kiel",
+              "url": "https://dormed.de/standorte/kiel"
             }
           ]
-        }</script>
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://dormed.de/#localbusiness-holzwickede",
+          "name": "SONORING DORMED – Dortmund / Holzwickede",
+          "url": "https://dormed.de/standorte/dortmund",
+          "telephone": "+492301188600",
+          "email": "mail@dormed.de",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Wilhelm-Röntgen-Straße 4",
+            "addressLocality": "Holzwickede",
+            "postalCode": "59439",
+            "addressCountry": "DE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.5105803,
+            "longitude": 7.6105545
+          },
+          "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.5105803,7.6079796,17z",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "66",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+              "opens": "08:00",
+              "closes": "17:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Friday",
+              "opens": "08:00",
+              "closes": "15:00"
+            }
+          ],
+          "parentOrganization": { "@id": "https://dormed.de/#organization" }
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://dormed.de/#localbusiness-ratingen",
+          "name": "SONORING DORMED – Düsseldorf / Ratingen",
+          "url": "https://dormed.de/standorte/duesseldorf",
+          "telephone": "+492301188600",
+          "email": "mail@dormed.de",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Borsigstraße 5",
+            "addressLocality": "Ratingen",
+            "postalCode": "40880",
+            "addressCountry": "DE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.3024916,
+            "longitude": 6.8367663
+          },
+          "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@51.3024915,6.8318954,17z",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "26",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+              "opens": "08:00",
+              "closes": "17:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Friday",
+              "opens": "08:00",
+              "closes": "15:00"
+            }
+          ],
+          "parentOrganization": { "@id": "https://dormed.de/#organization" }
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://dormed.de/#localbusiness-buchholz",
+          "name": "SONORING DORMED – Hamburg / Buchholz",
+          "url": "https://dormed.de/standorte/hamburg",
+          "telephone": "+492301188600",
+          "email": "mail@dormed.de",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Bremer Straße 6",
+            "addressLocality": "Buchholz in der Nordheide",
+            "postalCode": "21244",
+            "addressCountry": "DE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 53.3267999,
+            "longitude": 9.8743419
+          },
+          "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED+-/@53.3267999,9.871767,17z",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+              "opens": "08:00",
+              "closes": "17:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Friday",
+              "opens": "08:00",
+              "closes": "15:00"
+            }
+          ],
+          "parentOrganization": { "@id": "https://dormed.de/#organization" }
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://dormed.de/#localbusiness-kiel",
+          "name": "SONORING DORMED – Kiel",
+          "url": "https://dormed.de/standorte/kiel",
+          "telephone": "+492301188600",
+          "email": "mail@dormed.de",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Maria-Merian-Straße 9",
+            "addressLocality": "Kiel",
+            "postalCode": "24145",
+            "addressCountry": "DE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 54.28188,
+            "longitude": 10.1589
+          },
+          "sameAs": "https://www.google.com/maps/place/Ihre+Ultraschall+Spezialisten+-+SONORING+DORMED/@54.28188,10.1563251,17z",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "1",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+              "opens": "08:00",
+              "closes": "17:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Friday",
+              "opens": "08:00",
+              "closes": "15:00"
+            }
+          ],
+          "parentOrganization": { "@id": "https://dormed.de/#organization" }
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

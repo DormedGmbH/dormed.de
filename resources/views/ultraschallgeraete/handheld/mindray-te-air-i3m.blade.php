@@ -1,77 +1,102 @@
-@php
-    $title = "Mindray TE Air i3M kaufen – Pocket Ultraschall | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m";
-    $description = "Mindray TE Air i3M: Kleinster kabelloser Ultraschall aus dem Mindray-Portfolio. Für schnelle Einschätzungen am Point of Care – immer dabei, immer bereit.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m">
+
+        <title>Mindray TE Air i3M kaufen – Pocket Ultraschall | DORMED</title>
+        <meta name="description" content="Mindray TE Air i3M: Kleinster kabelloser Ultraschall aus dem Mindray-Portfolio. Für schnelle Einschätzungen am Point of Care – immer dabei, immer bereit.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m">
+
+    
+
+        <meta property="og:title" content="Mindray TE Air i3M kaufen – Pocket Ultraschall | DORMED">
+        <meta property="og:description" content="Mindray TE Air i3M: Kleinster kabelloser Ultraschall aus dem Mindray-Portfolio. Für schnelle Einschätzungen am Point of Care – immer dabei, immer bereit.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray TE Air i3M kaufen – Pocket Ultraschall | DORMED">
+        <meta name="twitter:description" content="Mindray TE Air i3M: Kleinster kabelloser Ultraschall aus dem Mindray-Portfolio. Für schnelle Einschätzungen am Point of Care – immer dabei, immer bereit.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m/#product",
-              "name": "Mindray TE Air i3M",
-              "description": "Pocket-Format Handheld-Ultraschall für Kardiologie ohne Kompromisse. TAD+ Plattform mit 30 Stunden Akku, 3 kombinierten Sondentypen (Konvex, Linear, Phased Array), WLAN, iOS und Android App.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-te-air-i3m/40df77a4-9717-4bce-f836-6efcca15d600.png",
-                "https://dormed.de/assets/img/produkte/mindray-te-air-i3m/07d8fb24-7985-40a0-9e5c-0efb4bc4af00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-te-air-i3m/fc8fd83e-3396-41cc-825a-5871c1f24700.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-te-air-i3m/2123b052-41d2-4be6-37fe-6d5776016300.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Handheld Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "TAD+" },
-                { "@type": "PropertyValue", "name": "Format", "value": "Pocket — Hosentaschenformat" },
-                { "@type": "PropertyValue", "name": "Akku", "value": "30 Stunden Laufzeit" },
-                { "@type": "PropertyValue", "name": "Sondentypen", "value": "3 kombiniert — Konvex, Linear, Phased Array" },
-                { "@type": "PropertyValue", "name": "Konnektivität", "value": "WLAN — iOS und Android App" },
-                { "@type": "PropertyValue", "name": "Kardiologie", "value": "Phased Array Sonde integriert" },
-                { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Pocket Handheld Ultraschallgerät" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" },
-                { "@type": "Product", "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Handheld & POCUS", "item": "https://dormed.de/ultraschallgeraete/handheld" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray TE Air i3M", "item": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m/#product",
+          "name": "Mindray TE Air i3M",
+          "description": "Pocket-Format Handheld-Ultraschall für Kardiologie ohne Kompromisse. TAD+ Plattform mit 30 Stunden Akku, 3 kombinierten Sondentypen (Konvex, Linear, Phased Array), WLAN, iOS und Android App.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-te-air-i3m/40df77a4-9717-4bce-f836-6efcca15d600.png",
+            "https://dormed.de/assets/img/produkte/mindray-te-air-i3m/07d8fb24-7985-40a0-9e5c-0efb4bc4af00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-te-air-i3m/fc8fd83e-3396-41cc-825a-5871c1f24700.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-te-air-i3m/2123b052-41d2-4be6-37fe-6d5776016300.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Handheld Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "TAD+" },
+            { "@type": "PropertyValue", "name": "Format", "value": "Pocket — Hosentaschenformat" },
+            { "@type": "PropertyValue", "name": "Akku", "value": "30 Stunden Laufzeit" },
+            { "@type": "PropertyValue", "name": "Sondentypen", "value": "3 kombiniert — Konvex, Linear, Phased Array" },
+            { "@type": "PropertyValue", "name": "Konnektivität", "value": "WLAN — iOS und Android App" },
+            { "@type": "PropertyValue", "name": "Kardiologie", "value": "Phased Array Sonde integriert" },
+            { "@type": "PropertyValue", "name": "Farbdoppler", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Pocket Handheld Ultraschallgerät" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray TE Air e5M", "url": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-e5m" },
+            { "@type": "Product", "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Handheld & POCUS", "item": "https://dormed.de/ultraschallgeraete/handheld" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray TE Air i3M", "item": "https://dormed.de/ultraschallgeraete/handheld/mindray-te-air-i3m" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">

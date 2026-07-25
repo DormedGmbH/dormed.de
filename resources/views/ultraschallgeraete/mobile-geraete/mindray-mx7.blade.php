@@ -1,81 +1,106 @@
-@php
-    $title = "Mindray MX7 kaufen – Mobiler Premium Ultraschall | DORMED";
-    $canonical = "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7";
-    $description = "Mindray MX7: Mobiles Premiumsystem mit hochauflösender Bildgebung und breitem Schallkopf-Angebot. Für Kardiologie, MSK und Gefäßdiagnostik.";
-@endphp
-<x-layout :title="$title" :canonical="$canonical" :description="$description">
+<x-layout>
     <x-slot:head>
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7">
+        <link rel="alternate" hreflang="x-default" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7">
+
+        <title>Mindray MX7 kaufen – Mobiler Premium Ultraschall | DORMED</title>
+        <meta name="description" content="Mindray MX7: Mobiles Premiumsystem mit hochauflösender Bildgebung und breitem Schallkopf-Angebot. Für Kardiologie, MSK und Gefäßdiagnostik.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7">
+
+    
+
+        <meta property="og:title" content="Mindray MX7 kaufen – Mobiler Premium Ultraschall | DORMED">
+        <meta property="og:description" content="Mindray MX7: Mobiles Premiumsystem mit hochauflösender Bildgebung und breitem Schallkopf-Angebot. Für Kardiologie, MSK und Gefäßdiagnostik.">
+        <meta property="og:url" content="https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Mindray MX7 kaufen – Mobiler Premium Ultraschall | DORMED">
+        <meta name="twitter:description" content="Mindray MX7: Mobiles Premiumsystem mit hochauflösender Bildgebung und breitem Schallkopf-Angebot. Für Kardiologie, MSK und Gefäßdiagnostik.">
+
+    
+
         <script type="application/ld+json">{
-          "@@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Product",
-              "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7/#product",
-              "name": "Mindray MX7",
-              "description": "Mobiles Laptop-Ultraschallsystem auf ZST+ Plattform im Laptop-First Design mit 13,7\" Display, 4+1 aktiven Ports, Elastographie, HiFi Power Doppler, Smart PW, Needle Guidance und Akkubetrieb.",
-              "image": [
-                "https://dormed.de/assets/img/produkte/mindray-mx7/3be59917-e163-4451-e7e1-76d97ac0b000.png",
-                "https://dormed.de/assets/img/produkte/mindray-mx7/e99410da-3b7e-4a1c-fb08-98678065e800.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-mx7/5323981d-3e39-4035-c742-6eabff428f00.jpg",
-                "https://dormed.de/assets/img/produkte/mindray-mx7/30b2aa8f-0b59-4ac4-9987-37d10c388500.jpg"
-              ],
-              "brand": {
-                "@type": "Brand",
-                "name": "Mindray",
-                "@id": "https://dormed.de/hersteller/mindray/#brand"
-              },
-              "manufacturer": {
-                "@type": "Organization",
-                "name": "Mindray Medical",
-                "url": "https://www.mindray.com"
-              },
-              "category": "Mobiles Ultraschallgerät",
-              "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7",
-              "additionalProperty": [
-                { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+ Laptop-First" },
-                { "@type": "PropertyValue", "name": "Monitor", "value": "13,7 Zoll integriert + externer Anschluss" },
-                { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
-                { "@type": "PropertyValue", "name": "Elastographie", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "HiFi Power Doppler", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Smart PW", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Smart Doppler", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Needle Guidance", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "Verfügbar" },
-                { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem Mittelklasse" }
-              ],
-              "offers": {
-                "@type": "Offer",
-                "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7",
-                "availability": "https://schema.org/InStock",
-                "itemCondition": "https://schema.org/NewCondition",
-                "seller": { "@id": "https://dormed.de/#organization" },
-                "areaServed": "DE",
-                "priceSpecification": {
-                  "@type": "PriceSpecification",
-                  "price": "0",
-                  "priceCurrency": "EUR",
-                  "valueAddedTaxIncluded": false,
-                  "description": "Preis auf Anfrage"
-                }
-              },
-              "isRelatedTo": [
-                { "@type": "Product", "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" },
-                { "@type": "Product", "name": "Mindray MX5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5" },
-                { "@type": "Product", "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" }
-              ]
-            },
-            {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
-                { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
-                { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
-                { "@type": "ListItem", "position": 4, "name": "Mindray MX7", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7" }
-              ]
+      "@@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "@id": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7/#product",
+          "name": "Mindray MX7",
+          "description": "Mobiles Laptop-Ultraschallsystem auf ZST+ Plattform im Laptop-First Design mit 13,7\" Display, 4+1 aktiven Ports, Elastographie, HiFi Power Doppler, Smart PW, Needle Guidance und Akkubetrieb.",
+          "image": [
+            "https://dormed.de/assets/img/produkte/mindray-mx7/3be59917-e163-4451-e7e1-76d97ac0b000.png",
+            "https://dormed.de/assets/img/produkte/mindray-mx7/e99410da-3b7e-4a1c-fb08-98678065e800.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-mx7/5323981d-3e39-4035-c742-6eabff428f00.jpg",
+            "https://dormed.de/assets/img/produkte/mindray-mx7/30b2aa8f-0b59-4ac4-9987-37d10c388500.jpg"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "name": "Mindray",
+            "@id": "https://dormed.de/hersteller/mindray/#brand"
+          },
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mindray Medical",
+            "url": "https://www.mindray.com"
+          },
+          "category": "Mobiles Ultraschallgerät",
+          "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7",
+          "additionalProperty": [
+            { "@type": "PropertyValue", "name": "Plattform", "value": "ZST+ Laptop-First" },
+            { "@type": "PropertyValue", "name": "Monitor", "value": "13,7 Zoll integriert + externer Anschluss" },
+            { "@type": "PropertyValue", "name": "Schallkopfanschlüsse", "value": "4+1 aktive Ports" },
+            { "@type": "PropertyValue", "name": "Elastographie", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "HiFi Power Doppler", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Smart PW", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Smart Beam", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Smart Doppler", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Needle Guidance", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Akkubetrieb", "value": "Verfügbar" },
+            { "@type": "PropertyValue", "name": "Gerätetyp", "value": "Mobiles Laptop-Ultraschallsystem Mittelklasse" }
+          ],
+          "offers": {
+            "@type": "Offer",
+            "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": { "@id": "https://dormed.de/#organization" },
+            "areaServed": "DE",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "0",
+              "priceCurrency": "EUR",
+              "valueAddedTaxIncluded": false,
+              "description": "Preis auf Anfrage"
             }
+          },
+          "isRelatedTo": [
+            { "@type": "Product", "name": "Mindray Consona N8", "url": "https://dormed.de/ultraschallgeraete/standgeraete/mindray-consona-n8" },
+            { "@type": "Product", "name": "Mindray MX5", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx5" },
+            { "@type": "Product", "name": "Mindray TE 9", "url": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-te-9" }
           ]
-        }</script>
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+            { "@type": "ListItem", "position": 2, "name": "Ultraschallgeräte", "item": "https://dormed.de/ultraschallgeraete" },
+            { "@type": "ListItem", "position": 3, "name": "Mobile Geräte", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete" },
+            { "@type": "ListItem", "position": 4, "name": "Mindray MX7", "item": "https://dormed.de/ultraschallgeraete/mobile-geraete/mindray-mx7" }
+          ]
+        }
+      ]
+    }</script>
+    
+        <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+  
+
+  
     </x-slot:head>
 
 <main id="yuuble-main" class="main">
