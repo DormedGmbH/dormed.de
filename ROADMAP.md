@@ -379,14 +379,18 @@ Drittanbieter-Dienste aktiv sind.
 ## Phase 6 – Launch (Produktivbetrieb & Analytics)
 
 1. Umzug auf den finalen Server, DNS-Einträge werden auf diesen umgestellt.
-2. CI/CD: GitHub-Actions-Workflow einrichten, der **ausschließlich auf Pushes auf `main`**
-   reagiert. Muss vor der DNS-Umstellung stehen. Ablauf: Lint + Tests laufen zuerst, der
-   Deploy-Job hängt per `needs:` (Job-Dependency) davon ab und läuft nur bei grünem
-   Lint/Test-Durchlauf. Der Auftraggeber liefert dafür ein nahezu fertiges Workflow-Template
-   mit 1–2 noch offenen Anpassungen. Coolify bleibt parallel als **Dev-Umgebung** bestehen
-   und hört weiterhin auf die `claude`-Branch (Webhook/Coolify-Setup dafür macht der
-   Auftraggeber selbst, ohne GitHub Actions); dort laufen Linting/Testing eigenständig,
-   nicht über den `main`-Workflow.
+2. CI/CD: **zwei GitHub-Actions-Workflows für zwei Branches mit unterschiedlicher
+   Deploy-Art**, beide vor der DNS-Umstellung fertig eingerichtet:
+   - **`main`** → Produktiv-Deploy auf den finalen Server. Ablauf: Lint + Tests laufen
+     zuerst, der Deploy-Job hängt per `needs:` (Job-Dependency) davon ab und läuft nur bei
+     grünem Lint/Test-Durchlauf. Der Auftraggeber liefert dafür ein nahezu fertiges
+     Workflow-Template mit 1–2 noch offenen Anpassungen.
+   - **`claude`** → weiterhin die **Dev-Umgebung** (Coolify), aber der Trigger läuft jetzt
+     ebenfalls über GitHub Actions statt über Coolifys eigene Branch-Watch-Funktion: bei
+     Push auf `claude` ruft der Workflow lediglich Coolifys Deploy-Webhook per HTTP auf
+     (URL/Token als GitHub-Actions-Secret hinterlegt, nicht im Workflow-Code). Kein
+     eigenständiges Lint/Test davor nötig — das deckt der `main`-Workflow ab, hier geht es
+     nur um den Redeploy-Trigger für die Staging-Umgebung.
 3. `APP_ENV`/`APP_DEBUG` auf Produktionswerte umstellen, sobald auf dem finalen Server
    (kein Boost-/Dev-Tooling mehr aktiv) — macht der Auftraggeber selbst zum Umstellungszeitpunkt.
 4. Consent-Management aus Phase 5 muss stehen und aktiv sein, bevor Analytics angebunden
