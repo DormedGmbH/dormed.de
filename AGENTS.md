@@ -40,7 +40,11 @@ Abschlusskriterium (DoD) muss erfüllt sein, bevor die nächste Phase beginnt.
 - **`dormed.everding.it`** — Staging-Deployment auf Coolify, gehört dem Auftraggeber
   (Lukas). Er redeployed dort manuell nach relevanten Pushes. **Änderungen im Repo
   erscheinen dort nicht automatisch** — vor einer Ferndiagnose auf dieser Domain im
-  Zweifel erst nachfragen, ob schon redeployed wurde.
+  Zweifel erst nachfragen, ob schon redeployed wurde. **Geplante Ablösung:** sobald das
+  Projekt eine gewisse Struktur erreicht hat, wird diese Domain durch `test.dormed.de`
+  ersetzt, dann mit gestreamlinetem Deploy-Schritt (jeder Push löst automatisch ein
+  Redeploy aus, kein manuelles Redeployen mehr nötig). Diesen Abschnitt aktualisieren,
+  sobald der Wechsel stattgefunden hat.
 - Netzwerkzugriff auf neue/andere Domains kann durch die Egress-Policy der Session
   blockiert sein (403 auf CONNECT-Ebene, bevor überhaupt ein Request rausgeht). Das ist
   keine Website-seitige Blockade — nicht umgehen, sondern melden und ggf. um Freigabe
