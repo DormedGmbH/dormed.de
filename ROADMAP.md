@@ -303,19 +303,41 @@ werden.
    (keine neue Route, Core Rule bleibt unangetastet), im 1:1-Stil der restlichen Seite
    gestaltet und leicht austauschbar, falls Original-Content nachgeliefert wird. Mail-Body:
    ruhiges, modernes Template, das nur die eingegebenen Daten strukturiert darstellt.
-2. Zusätzliche zweite Mail als Eingangsbestätigung an den Kunden.
-3. Versand zunächst synchron (`QUEUE_CONNECTION=sync`). Erst nach Validierung im
-   Produktivbetrieb Umstellung auf Queue diskutieren.
-4. Mail-Views unter `resources/views/mail/contact-form/customer.blade.php` und
+2. **Reply-To der Firmen-Mail** wird auf die vom Kunden im Formular angegebene E-Mail-Adresse
+   gesetzt — Mitarbeiter können also direkt aus dem Postfach auf die Anfrage antworten, ohne
+   die Adresse manuell rauszusuchen. Konsequenz: die Firmen-Mail landet dadurch faktisch im
+   Konversationsverlauf mit dem Kunden (sobald jemand antwortet, sieht der Kunde die
+   ursprüngliche Mail ggf. mit in der Historie) — das Template muss entsprechend
+   präsentabel/professionell aussehen, nicht wie ein reiner Debug-/Rohdaten-Dump.
+3. Zusätzliche zweite Mail als Eingangsbestätigung an den Kunden.
+4. Versand zunächst synchron (`QUEUE_CONNECTION=sync`). Erst nach Validierung im
+   Produktivbetrieb Umstellung auf Queue diskutieren. Aktuell würde ein Versandfehler (egal
+   welche der beiden Mails) dem Kunden synchron als Fehlerseite angezeigt — das wird hier
+   noch nicht gelöst, siehe Logging-Punkt unten als Zwischenschritt/Beobachtungsinstrument.
+5. Mail-Views unter `resources/views/mail/contact-form/customer.blade.php` und
    `resources/views/mail/contact-form/company.blade.php` (Laravel-Konvention ist
    `resources/views/mail/...`, nicht `resources/mail/...` — entsprechend korrigiert).
-5. Feature-Tests für die komplette Formular-Logik: Validierungsfehler, Erfolgsfall,
-   beide Mails werden verschickt (`Mail::fake()` + Assertions).
+6. **Eigenes Log `storage/logs/contact-form.log`**, das **jede** Formular-Einreichung
+   protokolliert (nicht nur Fehler) — ein eigener Log-Channel, getrennt vom normalen
+   Laravel-Log. Eine Zeile pro Einreichung, Format:
+   ```
+   [TT.MM.JJJJ HH:MM:SS] Anfrage von {NAME} | Mailversand an {Kunden-E-Mail} {✓|✗}
+   ```
+   Zeitstempel deutsch/menschenlesbar (nicht ISO), Status-Zeichen (✓/✗, UTF-8) bezieht sich
+   **nur auf den Mailversand an den Kunden** (Eingangsbestätigung aus Punkt 3) — für den
+   Versand an die Firma wird erstmal angenommen, dass er funktioniert bzw. sich über das
+   Firmen-Postfach selbst abgleichen lässt, daher kein separater Status dafür nötig. Zweck
+   ist langfristige Beobachtung/Abgleich, nicht das synchrone Fehlerproblem aus Punkt 4 zu
+   lösen — das bleibt ein offener Punkt für später (z. B. wenn auf Queue umgestellt wird).
+7. Feature-Tests für die komplette Formular-Logik: Validierungsfehler, Erfolgsfall,
+   beide Mails werden verschickt (`Mail::fake()` + Assertions), inkl. Log-Eintrag pro
+   Einreichung (Erfolgs- und Fehlerfall für den Kunden-Mailversand).
 
 ### Phase-4-Abschlusskriterium
 
-Kontaktformular versendet echte E-Mails (Firma + Kunde), TODO-Marker ist entfernt, Tests
-grün.
+Kontaktformular versendet echte E-Mails (Firma + Kunde) mit Reply-To auf die Kunden-Adresse
+bei der Firmen-Mail, TODO-Marker ist entfernt, jede Einreichung landet als eine Zeile in
+`contact-form.log` im vereinbarten Format, Tests grün.
 
 ---
 
