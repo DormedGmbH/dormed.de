@@ -169,15 +169,39 @@ offene Frage.
 - Zusätzliche zweite Mail als Eingangsbestätigung an den Kunden.
 - Mail-Views unter `resources/views/mail/contact-form/customer.blade.php` und
   `.../company.blade.php`.
-- Eigenes Log `storage/logs/contact-form.log` (eigener Channel, getrennt vom normalen
-  Laravel-Log), **jede** Einreichung protokolliert, eine Zeile pro Einreichung:
-  ```
-  [TT.MM.JJJJ HH:MM:SS] Anfrage von {NAME} | Mailversand an {Kunden-E-Mail} {✓|✗}
-  ```
-  Zeitstempel deutsch/menschenlesbar (nicht ISO). Status bezieht sich nur auf den
-  Mailversand an den Kunden (Eingangsbestätigung), nicht auf die Firmen-Mail.
-- Versand zunächst synchron (`QUEUE_CONNECTION=sync`), Umstellung auf Queue erst nach
-  Validierung im Produktivbetrieb.
+- **Zwei getrennte Logs:** `storage/logs/contact-form.log` (Formular-/Mail-Funnel, **jede**
+  Einreichung eine Zeile: `[TT.MM.JJJJ HH:MM:SS] Anfrage von {NAME} | Mailversand an
+  {Kunden-E-Mail} {✓|✗}`, deutsches Zeitformat, Status bezieht sich nur auf den
+  Kunden-Mailversand) und `storage/logs/api.log` (CRM-Anbindung allgemein, s. u. — nicht nur
+  Kontaktformular-spezifisch, wird bei künftigen weiteren CAS-Anbindungen mitgenutzt).
+
+**CRM-Anbindung (CAS genesisWorld):** jede Einreichung wird zusätzlich als CRM-Datensatz
+angelegt, nicht nur gemailt.
+
+- Auth: Basic Auth (`<database>/<username>`) **plus** `X-CAS-PRODUCT-KEY`-Header, über
+  `CAS_GENESIS_WORLD_HOST`/`_USERNAME`/`_PASSWORD`/`_PRODUCT_KEY`.
+- Schlanker eigener Service um Laravels `Http`-Facade (`app/Services/Cas/...`), keine neue
+  Dependency. Bei mehreren CRM-Integrationen später ggf. Saloon erwägen — nur mit
+  Rücksprache.
+- Ziel: neue CRM-Tabelle `Inquiries` (Felder `NAME`/`MAIL`/`PHONE`/`ZIP`/`MESSAGE`/
+  `COMPANY`/`SPECIALTY`/`CALLBACK_REQUESTED`/`CALLBACK_DATE`/`MAIL_STATUS` — Details siehe
+  `ROADMAP.md` Phase 4). Die Swagger-Doku der API ist ~95 % korrekt, einzelne
+  Payload-/Response-Schemas sind falsch verlinkt oder explizit "undocumented" — GUID aus der
+  Create-Response wird defensiv extrahiert (kein PUT bei Unsicherheit, stattdessen Fehler in
+  `api.log`).
+- **Verarbeitung als Job-Kette** (`Bus::chain()`), nicht ein einzelner Job: Job 1 legt den
+  CRM-Datensatz an (`retryUntil()`, da der CAS-Server nachts ca. eine Stunde rebootet — Ziel:
+  Downtime überstehen statt nach fester Versuchsanzahl aufzugeben), Job 2 (erst nach
+  erfolgreichem Job 1) verschickt beide Mails und trägt danach `MAIL_STATUS` per CRM-PUT
+  nach. Verhindert doppelte CRM-Einträge durch Retry nach Teilerfolg — vor erfolgreichem
+  CRM-Anlegen wird keine Mail verschickt.
+- `QUEUE_CONNECTION=database` (ersetzt `sync`) — `jobs`/`failed_jobs`-Migration (in Phase 2
+  mangels Bedarf gelöscht) muss wiederhergestellt werden. Abarbeitung per Cron
+  (`queue:work --stop-when-empty`, alle 1–2 Minuten), bewusst **kein** dauerhafter
+  Supervisor-Worker (passt zu Core Rule 5) — später ohne Codeänderung umstellbar.
+- Akzeptiertes Restrisiko: geht eine CAS-Antwort exakt im Reboot-Moment verloren, kann ein
+  Retry einen doppelten Datensatz erzeugen (kein Idempotency-Key-Support in der API). Bewusst
+  nicht weiter abgesichert.
 
 ### Consent-Management (Cookies)
 

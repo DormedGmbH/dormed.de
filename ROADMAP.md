@@ -316,34 +316,93 @@ werden.
    ursprüngliche Mail ggf. mit in der Historie) — das Template muss entsprechend
    präsentabel/professionell aussehen, nicht wie ein reiner Debug-/Rohdaten-Dump.
 4. Zusätzliche zweite Mail als Eingangsbestätigung an den Kunden.
-5. Versand zunächst synchron (`QUEUE_CONNECTION=sync`). Erst nach Validierung im
-   Produktivbetrieb Umstellung auf Queue diskutieren. Aktuell würde ein Versandfehler (egal
-   welche der beiden Mails) dem Kunden synchron als Fehlerseite angezeigt — das wird hier
-   noch nicht gelöst, siehe Logging-Punkt unten als Zwischenschritt/Beobachtungsinstrument.
-6. Mail-Views unter `resources/views/mail/contact-form/customer.blade.php` und
+5. **CRM-Anbindung an CAS genesisWorld** (bestehendes CRM-System des Auftraggebers, REST-API
+   via OpenAPI/Swagger dokumentiert — ~95 % korrekt, einzelne Endpoints referenzieren
+   fehlerhafte Payload-Schemas, z. B. `CreateDataObject`/`GetDataObject` zeigen fälschlich auf
+   `CheckForContactDuplicatesRequestData`; Response-Schemas für Create/Query sind teils explizit
+   als "currently undocumented" markiert). Jede Formular-Einreichung wird zusätzlich zum
+   Mailversand als Datensatz im CRM angelegt.
+   - **Auth:** Basic Auth (`<database>/<username>`, gegen die CAS-Benutzer-DB geprüft) **plus**
+     `X-CAS-PRODUCT-KEY`-Header, zentral über vier Env-Vars: `CAS_GENESIS_WORLD_HOST`,
+     `CAS_GENESIS_WORLD_USERNAME`, `CAS_GENESIS_WORLD_PASSWORD`,
+     `CAS_GENESIS_WORLD_PRODUCT_KEY`.
+   - **Client:** schlanker eigener Service (`app/Services/Cas/CasClient.php` o. ä.) um Laravels
+     `Http`-Facade, kein zusätzliches Composer-Paket. Vermerkt als bewusste Anfangsentscheidung
+     für eine einzelne Integration — bei mehreren CRM-Anbindungen später ggf. Wechsel auf
+     [Saloon](https://docs.saloon.dev/) (typisierte Connector/Request-Klassen) erwägen, dann
+     aber nur mit Rücksprache (neue Dependency).
+   - **Ziel-Tabelle `Inquiries`** (existiert im CRM noch nicht, wird vom Auftraggeber dort neu
+     angelegt, exakt mit diesen Feldnamen):
+
+     | CAS-Feld | Typ | Formularfeld | Pflicht |
+     |---|---|---|---|
+     | `NAME` | Text | `name` | ja |
+     | `MAIL` | Text | `email` | ja |
+     | `PHONE` | Text | `telefon` | nein |
+     | `ZIP` | Text | `plz` | ja |
+     | `MESSAGE` | Memo/Text | `nachricht` | nein |
+     | `COMPANY` | Text | `praxis` | nein |
+     | `SPECIALTY` | Text | `fachgebiet` | nein |
+     | `CALLBACK_REQUESTED` | Boolean | `rueckruf` | — |
+     | `CALLBACK_DATE` | Datum | `rueckruf_datum` | nein |
+     | `MAIL_STATUS` | Boolean | wird per PUT nachgetragen (s. u.) | — |
+
+     `datenschutz` (DSGVO-Checkbox) wird **nicht** übernommen — reine
+     Absende-Voraussetzung, keine CRM-relevante Information. `CREATED_AT`/vergleichbares wird
+     vom CRM selbst automatisch geführt, kein eigenes Datumsfeld dafür nötig.
+   - **GUID-Zuordnung für den späteren PUT:** die POST-Response wird auf einen plausiblen
+     GUID-Feldnamen geprüft (`GGUID` bevorzugt, passend zur durchgängigen
+     `dataObjectGGUID`-Namenskonvention der API; Fallback-Kandidaten `guid`/`id`), roh in
+     `api.log` mitgeloggt. Schlägt die Extraktion fehl, wird **kein** PUT versucht und der
+     Fehler explizit geloggt statt einen falschen Datensatz zu raten/treffen.
+6. **Verarbeitung als Job-Kette** (`Bus::chain()`), nicht als ein einzelner Job — verhindert,
+   dass ein Retry nach erfolgreichem CAS-Anlegen einen zweiten (doppelten) CRM-Datensatz
+   erzeugt:
+   - **Job 1** legt den `Inquiries`-Datensatz per CAS-POST an. Nutzt `retryUntil()` (zeitbasiert,
+     nicht feste Versuchsanzahl) — Hintergrund: der CAS-Server rebootet nachts ca. eine Stunde,
+     eine Einreichung um Mitternacht muss diese Downtime überstehen und darf nicht als
+     endgültig fehlgeschlagen gelten, nur weil eine feste Versuchsanzahl aufgebraucht ist.
+   - **Job 2** (erhält die GUID aus Job 1) verschickt Firmen- und Kunden-Mail und macht danach
+     den CAS-PUT mit `MAIL_STATUS`. Läuft **erst nach** erfolgreichem Job 1 — vor einem
+     erfolgreichen CAS-Anlegen wird **keine** Mail verschickt. Eigenes `retryUntil()`, unabhängig
+     von Job 1 (z. B. wenn nur der Mailversand kurz klemmt).
+   - **Akzeptiertes Restrisiko:** verarbeitet CAS den POST serverseitig, geht die Antwort aber
+     genau im Reboot-Moment verloren, wertet Job 1 das als Fehlschlag und legt beim Retry einen
+     zweiten Datensatz an. Ohne Idempotency-Key-Unterstützung auf CAS-Seite (in der Swagger
+     nicht vorhanden) nicht zu 100 % vermeidbar — bewusst akzeptiert statt überentwickelt.
+   - **Queue-Infrastruktur:** `QUEUE_CONNECTION=database` (ersetzt die bisherige
+     `sync`-Annahme aus Phase 2) — die `jobs`/`failed_jobs`-Migration, die in Phase 2 mangels
+     Bedarf gelöscht wurde, muss dafür wiederhergestellt werden. **Abarbeitung per Cron**
+     (`php artisan queue:work --stop-when-empty`, alle 1–2 Minuten) statt dauerhaft laufendem
+     Supervisor-Prozess — passt zu "kein Dauerprozess" (Core Rule 5) und lässt sich später ohne
+     Codeänderung auf einen echten Worker umstellen, falls gewünscht (dieselbe Queue, nur eine
+     andere Art sie abzuarbeiten).
+7. Mail-Views unter `resources/views/mail/contact-form/customer.blade.php` und
    `resources/views/mail/contact-form/company.blade.php` (Laravel-Konvention ist
    `resources/views/mail/...`, nicht `resources/mail/...` — entsprechend korrigiert).
-7. **Eigenes Log `storage/logs/contact-form.log`**, das **jede** Formular-Einreichung
-   protokolliert (nicht nur Fehler) — ein eigener Log-Channel, getrennt vom normalen
-   Laravel-Log. Eine Zeile pro Einreichung, Format:
-   ```
-   [TT.MM.JJJJ HH:MM:SS] Anfrage von {NAME} | Mailversand an {Kunden-E-Mail} {✓|✗}
-   ```
-   Zeitstempel deutsch/menschenlesbar (nicht ISO), Status-Zeichen (✓/✗, UTF-8) bezieht sich
-   **nur auf den Mailversand an den Kunden** (Eingangsbestätigung aus Punkt 4) — für den
-   Versand an die Firma wird erstmal angenommen, dass er funktioniert bzw. sich über das
-   Firmen-Postfach selbst abgleichen lässt, daher kein separater Status dafür nötig. Zweck
-   ist langfristige Beobachtung/Abgleich, nicht das synchrone Fehlerproblem aus Punkt 5 zu
-   lösen — das bleibt ein offener Punkt für später (z. B. wenn auf Queue umgestellt wird).
-8. Feature-Tests für die komplette Formular-Logik: Validierungsfehler, Erfolgsfall,
-   beide Mails werden verschickt (`Mail::fake()` + Assertions), inkl. Log-Eintrag pro
-   Einreichung (Erfolgs- und Fehlerfall für den Kunden-Mailversand).
+8. **Zwei getrennte Logs**, bewusst nicht in einem File vermischt, da unterschiedliche
+   Betrachtungsebenen:
+   - **`storage/logs/contact-form.log`** — Formular-/Mail-Funnel, **jede** Einreichung, eine
+     Zeile:
+     ```
+     [TT.MM.JJJJ HH:MM:SS] Anfrage von {NAME} | Mailversand an {Kunden-E-Mail} {✓|✗}
+     ```
+     Zeitstempel deutsch/menschenlesbar (nicht ISO), Status bezieht sich nur auf den
+     Mailversand an den Kunden (Job 2).
+   - **`storage/logs/api.log`** — CRM-Anbindung generell (nicht nur Kontaktformular-spezifisch,
+     wird bei künftigen weiteren CAS-Anbindungen mitgenutzt): jeder CAS-Request/-Response
+     (inkl. roher GUID-Extraktion, s. o.), jeder Fehlschlag/Retry.
+9. Feature-Tests für die komplette Logik: Validierungsfehler, Erfolgsfall, Job-Kette wird
+   korrekt dispatcht (`Bus::fake()`/`Queue::fake()` + Assertions), beide Mails werden verschickt
+   (`Mail::fake()`), CAS-Calls gemockt (`Http::fake()`), inkl. Log-Einträge in beiden Logs für
+   Erfolgs- und Fehlerfälle.
 
 ### Phase-4-Abschlusskriterium
 
 Kontaktformular versendet echte E-Mails (Firma + Kunde) mit Reply-To auf die Kunden-Adresse
-bei der Firmen-Mail, TODO-Marker ist entfernt, jede Einreichung landet als eine Zeile in
-`contact-form.log` im vereinbarten Format, Tests grün.
+bei der Firmen-Mail, TODO-Marker ist entfernt, jede Einreichung landet zusätzlich als
+`Inquiries`-Datensatz im CAS-CRM, jede Einreichung erzeugt eine Zeile in `contact-form.log`
+und die zugehörigen CAS-Calls in `api.log`, Cron-basierte Queue-Abarbeitung läuft, Tests grün.
 
 ---
 
