@@ -370,7 +370,38 @@ Drittanbieter-Dienste aktiv sind.
 
 ---
 
-## Phase 6 – Backlog / noch nicht spezifiziert
+## Phase 6 – Launch (Produktivbetrieb & Analytics)
+
+1. Umzug auf den finalen Server, DNS-Einträge werden auf diesen umgestellt.
+2. CI/CD: GitHub-Actions-Workflow einrichten, der **ausschließlich auf Pushes auf `main`**
+   reagiert. Muss vor der DNS-Umstellung stehen. Ablauf: Lint + Tests laufen zuerst, der
+   Deploy-Job hängt per `needs:` (Job-Dependency) davon ab und läuft nur bei grünem
+   Lint/Test-Durchlauf. Der Auftraggeber liefert dafür ein nahezu fertiges Workflow-Template
+   mit 1–2 noch offenen Anpassungen. Coolify bleibt parallel als **Dev-Umgebung** bestehen
+   und hört weiterhin auf die `claude`-Branch (Webhook/Coolify-Setup dafür macht der
+   Auftraggeber selbst, ohne GitHub Actions); dort laufen Linting/Testing eigenständig,
+   nicht über den `main`-Workflow.
+3. `APP_ENV`/`APP_DEBUG` auf Produktionswerte umstellen, sobald auf dem finalen Server
+   (kein Boost-/Dev-Tooling mehr aktiv) — macht der Auftraggeber selbst zum Umstellungszeitpunkt.
+4. Consent-Management aus Phase 5 muss stehen und aktiv sein, bevor Analytics angebunden
+   wird — bis zur DNS-Umstellung funktional vorhanden, aber ohne aktive
+   Analytics-Anbindung dahinter.
+5. Google Analytics und Google Search Console werden **erst unmittelbar nach der
+   DNS-Umstellung** angebunden (bestehender Account wird mit der dann unter dormed.de
+   laufenden Seite verknüpft — kein Account-Wechsel nötig). Geht technisch erst zu diesem
+   Zeitpunkt, da die Seite vorher nicht unter der echten Domain live ist. Eine Datenlücke
+   von 2–3 Tagen durch DNS-Propagation ist akzeptiert.
+
+### Phase-6-Abschlusskriterium
+
+Seite läuft produktiv unter dormed.de auf dem finalen Server. CI/CD-Workflow deployt
+automatisiert bei Pushes auf `main`, ausschließlich nach erfolgreichem Lint/Test-Lauf.
+Coolify/`claude`-Branch bleibt als Dev-Umgebung parallel bestehen. Consent-Banner aktiv,
+Analytics/Search Console an den bestehenden Account angebunden.
+
+---
+
+## Phase 7 – Backlog / noch nicht spezifiziert
 
 Aus den bisherigen Gesprächen relevant, aber noch nicht konkret genug für eine eigene
 Phase — wird nachgezogen, sobald die offenen Fragen geklärt sind:
@@ -388,4 +419,4 @@ Phase — wird nachgezogen, sobald die offenen Fragen geklärt sind:
   Livewire (falls serverseitige Logik/Daten nötig sind).
 
 Diese Punkte werden zu eigenen, konkreten Phasen, sobald sie spezifiziert sind — bewusst
-nicht in Phase 1–5 hineingezwungen.
+nicht in Phase 1–6 hineingezwungen.
