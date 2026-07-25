@@ -98,16 +98,27 @@ zusammenstößt.
 **DoD:** `grep -rE "yb-|yb_|yu-|yuuble"` liefert 0 Treffer mehr in allen
 `*.html`/`*.css`-Dateien.
 
-### 1.3 Fehlende Produktseiten ergänzen
+### 1.3 Fehlende Produktseiten ergänzen — ✅ abgeschlossen
 
-Die 6 fehlenden Standgeräte-Seiten (siehe Phase 0) nachbauen, nach dem Muster der 5
-vorhandenen Standgeräte-Seiten (`ultraschallgeraete/standgeraete/*.html`). Ablauf:
-Auftraggeber liefert pro Gerät Links oder bereits gescrapten Quellcode, Agent baut die Seite.
-Zusätzlich: Platzhalterbild DC-40 ersetzen, sobald ein echtes Foto vorliegt.
+Statt der ursprünglich angenommenen 6 waren es **7** fehlende Standgeräte-Seiten (zusätzlich
+entdeckt: Mindray Nuewa I10, in Nav/Sitemap bereits verlinkt). Direktzugriff auf die Live-Seite
+(`dormed.de`) freigeschaltet, dadurch kein Scraper/keine manuelle Content-Zulieferung nötig:
+Text, Specs und Bilder wurden 1:1 von der Live-Seite übernommen (Bild-Hashes lagen bereits
+lokal in `assets/img/` vor), Yuuble-Metadaten/-Präfixe wie in 1.1/1.2 entfernt, externe
+`media.yuuble.de`-Broschürenlinks auf die lokalen PDFs umgebogen. Ausnahme Nuewa I10: der
+Live-Seite fehlten Meta-Description/JSON-LD komplett — diese wurden neu verfasst, gestützt
+ausschließlich auf tatsächlich auf der Seite genannte Fakten; die dort bewusst fehlende
+Spec-Tabelle (Produkt ist brandneu, Live-Seite verweist auf persönliche Beratung statt
+Tabelle) wurde unangetastet gelassen.
 
-**DoD:** `ultraschallgeraete/standgeraete/` enthält alle 11 Geräte (5 bestehende + 6 neue),
-`standgeraete/index.html` verlinkt korrekt auf alle, `sitemap.xml` und
-`sitemap-system-pages.xml` werden um die neuen URLs ergänzt.
+Nav-Mega-Menü, mobile Nav und `sitemap-system-pages.xml` verlinkten bereits vorher korrekt
+auf alle 7 URLs (die Vorgänger-Agentur hatte die Navigation für den vollen Katalog gebaut,
+nur die Zielseiten fehlten) — daher war dort keine zusätzliche Änderung nötig.
+
+**DoD:** `ultraschallgeraete/standgeraete/` enthält jetzt alle 12 Geräte (5 bestehende + 7
+neue), alle Nav-/Sitemap-Links laufen ins Leere. Jede neue Seite einzeln committed, per
+Playwright verifiziert (0 fehlgeschlagene Requests, keine JS-Fehler, vollständiger
+Seitenaufbau inkl. Bildergalerie und "Ähnliche Geräte"-Verlinkung).
 
 ### 1.4 Globale Stylings zentralisieren
 
