@@ -18,6 +18,13 @@ wenn nichts anderes vom Auftraggeber (Lukas) kommuniziert wurde, gilt der Defaul
 3. Styling wird 1:1 optisch übernommen. Keine Redesigns, keine "Verbesserungen" nebenbei.
 4. Keine Datenbank. Persistenz, falls nötig, über Cookies/Cache/Dateisystem.
 5. Kein dauerhaft laufender Node/Server-Prozess. Klassisches PHP-FPM-Hosting.
+6. **Das an den Browser ausgelieferte HTML darf sich in keinem Punkt inhaltlich vom
+   aktuellen Stand unterscheiden** — mit genau diesen Ausnahmen: zentraler
+   Stylesheet-Import statt Inline-`<style>`, entfernte Yuuble-Kommentare/-Metadaten, und
+   veränderte Klassen-/ID-Namen. Alles andere bleibt 1:1 identisch: JSON-LD strukturierte
+   Daten, SEO-Meta-Tags (title, description, canonical, OG/Twitter), Überschriftenstruktur
+   (h1–h6) inklusive Text, alle sichtbaren Textinhalte. Jede Phase, die das nicht
+   garantieren kann, wird nicht ohne Rücksprache umgesetzt.
 
 ## Phase 0 – Kontext & Grundsatzentscheidungen (abgeschlossen)
 
@@ -78,12 +85,18 @@ einzelne Seite).
 
 ### 1.2 Styling-Präfixe bereinigen
 
-`yb-*`/`yu-*`-Klassen und -IDs (in HTML, `style.css`, `assets/widgets.css` und den
-Inline-`<style>`-Blöcken pro Widget) durch sprechende, projekteigene Namen ersetzen.
-Namenskonvention: sprechend/BEM-artig (z. B. `dormed-header__nav`), finale Wahl liegt bei
-euch — nicht blockierend für den Rest der Roadmap.
+Reines Entfernen des Präfixes `yb-`/`yb_`/`yu-` (zwei Buchstaben + Trennzeichen) aus jedem
+Klassen- und ID-Namen (in HTML, `style.css`, `assets/widgets.css` und den
+Inline-`<style>`-Blöcken pro Widget) — **keine Ersetzung durch neue/sprechende Namen**,
+der Rest des Namens bleibt exakt erhalten (`yb-section-abc123` → `section-abc123`,
+`yb_button_link` → `button_link`, `yu-header` → `header`). Vor der Ausführung geprüft:
+über alle 12.598 betroffenen Vorkommen gibt es keine Kollision — weder zwei
+unterschiedliche Original-Namen, die auf denselben gekürzten Namen fallen, noch ein
+gekürzter Name, der mit einem bereits vorhandenen, unabhängigen Klassen-/ID-Namen
+zusammenstößt.
 
-**DoD:** `grep -rE "yb-|yu-|yuuble"` liefert 0 Treffer mehr in allen `*.html`/`*.css`-Dateien.
+**DoD:** `grep -rE "yb-|yb_|yu-|yuuble"` liefert 0 Treffer mehr in allen
+`*.html`/`*.css`-Dateien.
 
 ### 1.3 Fehlende Produktseiten ergänzen
 
