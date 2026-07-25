@@ -1,0 +1,50 @@
+# Referenz-Config für den klassischen nginx/PHP-FPM/www-user-Betrieb auf dem Live-Server.
+#
+# Wird NICHT während der temporären Coolify-Hosting-Phase benutzt (Coolify bringt seinen
+# eigenen Reverse Proxy mit, i.d.R. Traefik) — erst beim Umzug auf den klassischen
+# Live-Server relevant. Alle TODO-Markierungen vor dem Einsatz mit echten Werten befüllen.
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name dormed.de www.dormed.de; # TODO: Domain(s) pruefen/anpassen
+
+    root /var/www/dormed.de/public; # TODO: tatsaechlichen Pfad auf dem Live-Server setzen
+    index index.php;
+
+    charset utf-8;
+
+    # Core Rule: keine URL/Route darf sich aendern -> kein Rewriting hier noetig,
+    # Laravel-Routing liefert die "schoenen" URLs bereits nativ ueber index.php.
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location = /robots.txt  { access_log off; log_not_found off; }
+
+    # statische Assets (Bilder, PDFs, gebuendelte CSS/JS aus dem Vite-Build) langfristig cachen
+    location ~* \.(?:css|js|jpg|jpeg|png|gif|ico|svg|webp|pdf|woff2?)$ {
+        expires 30d;
+        access_log off;
+        add_header Cache-Control "public";
+        try_files $uri =404;
+    }
+
+    error_page 404 /index.php;
+
+    location ~ \.php$ {
+        fastcgi_pass unix:/run/php/php-fpm-dormed.sock; # TODO: tatsaechlichen PHP-FPM-Socket/Pool eintragen
+        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+
+    location ~ /\.(?!well-known).* {
+        deny all;
+    }
+
+    client_max_body_size 20m;
+
+    access_log /var/log/nginx/dormed.de-access.log; # TODO: Pfad an Server-Konvention anpassen
+    error_log  /var/log/nginx/dormed.de-error.log;
+}
