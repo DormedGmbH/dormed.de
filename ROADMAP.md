@@ -355,6 +355,12 @@ bei der Firmen-Mail, TODO-Marker ist entfernt, jede Einreichung landet als eine 
 4. Optional, SSR-Vorteil gegenüber reinem Client-Ansatz: Helper/Blade-Directive, um
    eingebettete Drittanbieter-Inhalte (z. B. Maps-Embed) serverseitig erst nach
    vorhandenem Consent-Cookie zu rendern, statt sie client-seitig nachträglich zu blocken.
+5. Die Consent-Entscheidung wird **ausschließlich in einem eigenen, langlebigen
+   Browser-Cookie** gespeichert (nicht in der Laravel-DB-Session aus Core Rule 4). Grund:
+   Laravel-Sessions sind kurzlebig und leben in der `sessions`-Tabelle der SQLite-DB, die bei
+   einem `php artisan migrate:fresh` (z. B. automatisiert bei Redeploys) komplett geleert
+   wird — Consent müsste sonst bei jedem Deploy erneut eingeholt werden. Ein eigener Cookie
+   ist davon unabhängig und bleibt über Deploys hinweg gültig.
 
 ### Phase-5-Abschlusskriterium
 
