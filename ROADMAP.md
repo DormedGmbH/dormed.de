@@ -131,12 +131,35 @@ sind — Komponentisierung/Dedupe ist Aufgabe von Phase 3, nicht von Phase 1.
 **DoD:** Keine Duplikate mehr zwischen Dateien für identische globale Werte; alles
 Seiten-/Widget-Spezifische ist unangetastet.
 
+### 1.5 Produktbilder in Ordner je Produkt bündeln — ✅ abgeschlossen
+
+Bilder waren flach und unter bedeutungslosen Hash-Dateinamen in `assets/img/` verstreut
+(323 Dateien). Für alle 30 Produktseiten (Standgeräte, Mobile Geräte, Handheld) wurde
+ermittelt, welche Bilder tatsächlich **einem einzelnen Produkt gehören** (Kriterium: Bild
+wird insgesamt auf ≤ 20 Seiten referenziert, und auf genau einer Produktseite eindeutig am
+häufigsten — dort läuft Hero-Bild + Thumbnail + JSON-LD zusammen). Diese 224 Bilder wurden
+nach `assets/img/produkte/{produkt-slug}/{hash}.{ext}` verschoben, alle Referenzen
+site-weit (auch aus fremden Seiten, die ein Produktbild z. B. in einer
+"Ähnliche Geräte"-Karte oder einem Fachgebiets-Artikel mitverwenden) auf den neuen Pfad
+umgeschrieben. 4 Bilder blieben bewusst im flachen `assets/img/` — sie werden nachweislich
+von mehreren, nicht verwandten Produkten geteilt (z. B. ein generisches Beratungsfoto auf
+16 verschiedenen Produktseiten) und lassen sich keinem einzelnen Produkt eindeutig
+zuordnen. Dateinamen (Hash) bewusst unverändert gelassen, nur die Ordnerstruktur ist neu —
+Umbenennung auf sprechende Namen wäre ein separater Schritt, falls gewünscht.
+
+Vorbereitung für später: passt zu `php artisan storage:link`/`public/storage`-Konventionen,
+falls Produktbilder in Laravel aus dem Storage statt aus `public/` bedient werden sollen.
+
+**DoD:** `assets/img/produkte/{slug}/` existiert für alle 30 Produkte, 0 kaputte Bildpfade
+(automatisiert geprüft), 0 fehlgeschlagene Requests/JS-Fehler auf allen 30 Produktseiten +
+7 stichprobenartig geprüften Seiten mit Cross-Links auf Produktbilder, Screenshot-Vergleich
+vor/nach pixelgenau identisch.
+
 ### Phase-1-Abschlusskriterium
 
 Seite läuft weiterhin **rein statisch** über die bestehende, unveränderte nginx-Config,
 verhält sich optisch und funktional exakt wie vorher — jetzt mit vollständigem
-Produktkatalog und bereinigtem Markup. Alle Seiten sind (bis auf die neu zentralisierten
-globalen Styles) weiterhin self-contained wie jetzt.
+Produktkatalog, bereinigtem Markup und aufgeräumter Bilderstruktur je Produkt.
 
 ---
 
