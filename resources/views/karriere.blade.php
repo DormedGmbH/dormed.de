@@ -1,0 +1,3274 @@
+<!DOCTYPE html>
+<html lang="de-DE" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="/assets/img/9166be6b-46c0-4068-8b57-2b414dd62000.png">
+    <link rel="apple-touch-icon" href="/assets/img/9166be6b-46c0-4068-8b57-2b414dd62000.png">
+    
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/karriere">
+    <link rel="alternate" hreflang="x-default" href="https://dormed.de/karriere">
+
+    <title>Karriere bei SONORING DORMED – Jobs im Medizintechnik | SONORING DORMED</title>
+    <meta name="description" content="Werden Sie Teil des führenden Ultraschall-Fachhändlers in Deutschland. Offene Stellen in Technik, Vertrieb und Beratung bei SONORING DORMED med. Systeme.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dormed.de/karriere">
+
+    
+
+    <meta property="og:title" content="Karriere bei SONORING DORMED – Jobs im Medizintechnik | SONORING DORMED">
+    <meta property="og:description" content="Werden Sie Teil des führenden Ultraschall-Fachhändlers in Deutschland. Offene Stellen in Technik, Vertrieb und Beratung bei SONORING DORMED med. Systeme.">
+    <meta property="og:url" content="https://dormed.de/karriere">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Karriere bei SONORING DORMED – Jobs im Medizintechnik | SONORING DORMED">
+    <meta name="twitter:description" content="Werden Sie Teil des führenden Ultraschall-Fachhändlers in Deutschland. Offene Stellen in Technik, Vertrieb und Beratung bei SONORING DORMED med. Systeme.">
+
+    @vite(['resources/css/style.css', 'resources/css/widgets.css'])
+
+    <style id="yuuble-theme-style">
+    :root{
+
+}
+
+    </style>
+
+    <script type="application/ld+json">{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dormed.de/#organization",
+      "name": "SONORING DORMED med. Systeme GmbH",
+      "alternateName": ["DORMED", "SONORING DORMED"],
+      "url": "https://dormed.de",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dormed.de/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png",
+        "width": 300,
+        "height": 80
+      },
+      "foundingDate": "1989",
+      "telephone": "+492301188600",
+      "email": "mail@dormed.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Wilhelm-Röntgen-Straße 4",
+        "addressLocality": "Holzwickede",
+        "postalCode": "59439",
+        "addressCountry": "DE"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dormed.de/karriere/#webpage",
+      "name": "Karriere bei SONORING DORMED – Jobs im Medizintechnik | SONORING DORMED",
+      "description": "Werden Sie Teil des führenden Ultraschall-Fachhändlers in Deutschland. Offene Stellen in Technik, Vertrieb und Backoffice bei SONORING DORMED med. Systeme.",
+      "url": "https://dormed.de/karriere",
+      "publisher": { "@id": "https://dormed.de/#organization" },
+      "inLanguage": "de-DE",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+          { "@type": "ListItem", "position": 2, "name": "Karriere", "item": "https://dormed.de/karriere" }
+        ]
+      }
+    },
+    {
+      "@type": "JobPosting",
+      "@id": "https://dormed.de/karriere/#job-systemberater",
+      "title": "Systemberater Ultraschall (m/w/d)",
+      "description": "Als Systemberater Ultraschall betreuen Sie niedergelassene Ärzte und Kliniken, präsentieren Ultraschallgeräte von Mindray und Esaote und begleiten Kunden von der Beratung bis zur Lieferung.",
+      "hiringOrganization": { "@id": "https://dormed.de/#organization" },
+      "jobLocation": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Dortmund",
+            "addressCountry": "DE"
+          }
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Düsseldorf",
+            "addressCountry": "DE"
+          }
+        }
+      ],
+      "employmentType": "FULL_TIME",
+      "occupationalCategory": "Vertrieb",
+      "datePosted": "2026-03-01",
+      "validThrough": "2026-12-31",
+      "url": "https://dormed.de/karriere",
+      "applicationContact": {
+        "@type": "ContactPoint",
+        "telephone": "+492301188600",
+        "email": "mail@dormed.de",
+        "contactType": "hiring"
+      }
+    },
+    {
+      "@type": "JobPosting",
+      "@id": "https://dormed.de/karriere/#job-servicetechniker",
+      "title": "Servicetechniker Medizintechnik (m/w/d)",
+      "description": "Als Servicetechniker Medizintechnik führen Sie Wartungen, Reparaturen und Installationen von Ultraschallgeräten bei Kunden vor Ort durch und stellen den technischen Betrieb sicher.",
+      "hiringOrganization": { "@id": "https://dormed.de/#organization" },
+      "jobLocation": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hamburg",
+            "addressCountry": "DE"
+          }
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kiel",
+            "addressCountry": "DE"
+          }
+        }
+      ],
+      "employmentType": "FULL_TIME",
+      "occupationalCategory": "Service & Technik",
+      "datePosted": "2026-03-01",
+      "validThrough": "2026-12-31",
+      "url": "https://dormed.de/karriere",
+      "applicationContact": {
+        "@type": "ContactPoint",
+        "telephone": "+492301188600",
+        "email": "mail@dormed.de",
+        "contactType": "hiring"
+      }
+    },
+    {
+      "@type": "JobPosting",
+      "@id": "https://dormed.de/karriere/#job-backoffice",
+      "title": "Mitarbeiter Backoffice (m/w/d)",
+      "description": "Im Backoffice unterstützen Sie die Organisation, koordinieren Kundenanfragen, pflegen Daten und sorgen für reibungslose interne Abläufe bei SONORING DORMED.",
+      "hiringOrganization": { "@id": "https://dormed.de/#organization" },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dortmund",
+          "addressCountry": "DE"
+        }
+      },
+      "employmentType": "FULL_TIME",
+      "occupationalCategory": "Backoffice",
+      "datePosted": "2026-03-01",
+      "validThrough": "2026-12-31",
+      "url": "https://dormed.de/karriere",
+      "applicationContact": {
+        "@type": "ContactPoint",
+        "telephone": "+492301188600",
+        "email": "mail@dormed.de",
+        "contactType": "hiring"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie läuft der Bewerbungsprozess bei Dormed ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Senden Sie uns Ihre Unterlagen über das Kontaktformular. Wir melden uns in der Regel innerhalb weniger Werktage bei Ihnen. Nach einer ersten Sichtung laden wir passende Kandidatinnen und Kandidaten zu einem persönlichen Gespräch ein — telefonisch oder vor Ort an einem unserer Standorte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brauche ich Vorkenntnisse in der Medizintechnik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Das kommt auf den Bereich an. Im Service setzen wir eine technische Ausbildung voraus. Im Vertrieb und Backoffice sind Motivation, Kommunikationsstärke und Lernbereitschaft oft wichtiger als Branchenwissen — das Fachwissen geben wir Ihnen mit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es die Möglichkeit auf Homeoffice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Je nach Position und Bereich ist mobiles Arbeiten möglich. Im Außendienst und Service arbeiten Sie naturgemäß überwiegend beim Kunden und an unseren Standorten. Im Backoffice gibt es nach der Einarbeitung flexible Absprachen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "An welchem Standort würde ich arbeiten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir haben Standorte in Dortmund, Düsseldorf, Hamburg und Kiel. Welcher Standort zu Ihnen passt, besprechen wir gemeinsam im Bewerbungsgespräch — in der Regel richten wir uns nach Ihrer Region."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie werden neue Mitarbeiter eingearbeitet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jede neue Kollegin und jeder neue Kollege wird persönlich eingearbeitet — durch erfahrene Teammitglieder, Produktschulungen und im direkten Kundenkontakt. Wir setzen auf praxisnahes Lernen statt dicke Handbücher."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es Weiterbildungsmöglichkeiten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Wir legen großen Wert auf fachliche Weiterentwicklung — von Herstellerschulungen bei Mindray und Esaote bis hin zu individuellen Fortbildungen. Als Teil des SONORING®-Verbunds profitieren Sie außerdem von verbundweiten Schulungsangeboten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ich finde keine passende Stelle – kann ich mich trotzdem bewerben?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Selbstverständlich. Initiativbewerbungen sind bei uns ausdrücklich willkommen. Schildern Sie uns in Ihrer Bewerbung kurz, in welchem Bereich Sie sich vorstellen können und was Sie mitbringen — wir schauen gemeinsam ob und wie es passen könnte."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+    
+    <!-- Google Tag Manager -->
+<!-- End Google Tag Manager -->
+  
+
+  </head>
+  <body>
+
+<header id="header-b346cc60-762d-497f-9c88-f211d52671b2" class="region header" style="z-index: 999; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); box-sizing: border-box; padding-top: 0px; padding-bottom: 0px; margin: 0; background-color:#ffffff; background-image:none; border-radius:0px; border:none; top: 0; left: 0; right: 0; width: auto; position: fixed">
+  <div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-98c8c3d9-460e-4139-a41b-abc1afd930e8" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-wid-23er5hyi5" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container">
+
+<!-- BACKDROP -->
+<div class="nav__backdrop" id="nav-backdrop"></div>
+
+<nav class="nav__wrap" id="nav" role="navigation" aria-label="Hauptnavigation">
+
+  <div class="nav__bar">
+    <div class="nav__inner">
+
+      <a href="/" class="nav__logo" aria-label="SONORING DORMED – Startseite">
+        <img src="/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png" alt="SONORING DORMED Logo" class="nav__logo-img"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <span class="nav__logo-text" style="display:none">
+          <span class="nav__logo-brand"><em>SONORING</em> DORMED</span>
+          <span class="nav__logo-sub">med. Systeme</span>
+        </span>
+      </a>
+
+      <div class="nav__links" role="menubar">
+        <div class="nav__item" data-panel="geraete" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Ultraschallgeräte
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <!-- NEU: Hersteller Tab -->
+        <div class="nav__item" data-panel="hersteller" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Hersteller
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <div class="nav__item" data-panel="leistungen" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Leistungen
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <div class="nav__item" role="none">
+          <a href="/veranstaltungen" class="nav__link" role="menuitem">Veranstaltungen</a>
+        </div>
+        <div class="nav__item" data-panel="standorte" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Standorte
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <div class="nav__item" data-panel="ueber" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Über uns
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <a href="/kontakt" class="nav__cta"> Unverbindlich anfragen</a>
+
+      <button class="nav__burger" id="nav-burger" aria-label="Menü öffnen" aria-expanded="false">
+        <span class="nav__burger-line"></span>
+        <span class="nav__burger-line"></span>
+        <span class="nav__burger-line"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: ULTRASCHALLGERÄTE ══ -->
+  <div class="nav__panel" id="panel-geraete" role="region" aria-label="Ultraschallgeräte">
+    <div class="nav__panel-inner">
+      <div class="nav__mega">
+        <div class="nav__mega-cats" role="tablist" aria-label="Gerätekategorien">
+          <div class="nav__mega-cat nav__mega-cat--active" data-cat="stationaer" role="tab" tabindex="0" aria-selected="true">Standgeräte</div>
+          <div class="nav__mega-cat" data-cat="mobil" role="tab" tabindex="-1" aria-selected="false">Tragbare Geräte</div>
+          <div class="nav__mega-cat" data-cat="handheld" role="tab" tabindex="-1" aria-selected="false">Handheld &amp; POCUS</div>
+        </div>
+        <div>
+
+          <!-- ── STANDGERÄTE ── -->
+          <div class="nav__mega-content nav__mega-content--active" data-cat="stationaer" role="tabpanel">
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — Premium</div>
+              <div class="nav__mega-grid">
+                <!-- NEU: Nuewa I10 als 1. Karte -->
+                <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i10" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Nuewa i10</span>
+                  <span class="nav__mega-card-type">Flaggschiff · Neu</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Nuewa i9</span>
+                  <span class="nav__mega-card-type">Flaggschiff</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Resona i9</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-resona-i8" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Resona i8</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — Consona &amp; DC Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N9</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n8" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N8</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n6" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N6</span>
+                  <span class="nav__mega-card-type">Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n5" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N5</span>
+                  <span class="nav__mega-card-type">Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-dc-60" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DC 60</span>
+                  <span class="nav__mega-card-type">Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-dc-30" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DC 30</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Esaote — Neu</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a50" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; A50</span>
+                  <span class="nav__mega-card-type">Mittelklasse · Neu</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a70" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; A70</span>
+                  <span class="nav__mega-card-type">Oberklasse · Neu</span>
+                </a>
+              </div>
+            </div>
+            <div class="nav__mega-footer">
+              <a href="/ultraschallgeraete/standgeraete" class="nav__mega-all">
+                Alle Standgeräte ansehen
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+              <span class="nav__mega-hint" aria-hidden="true">25 Geräte verfügbar</span>
+            </div>
+          </div>
+
+          <!-- ── TRAGBARE GERÄTE ── REIHENFOLGE: MINDRAY → ESAOTE → CHISON -->
+          <div class="nav__mega-content" data-cat="mobil" role="tabpanel">
+            <!-- 1. Mindray TE Serie -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — TE Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-te-9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE 9</span>
+                  <span class="nav__mega-card-type">Mobil · Kardio</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-te-7-ace" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE 7</span>
+                  <span class="nav__mega-card-type">Laptop · Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-te-5" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE 5</span>
+                  <span class="nav__mega-card-type">Laptop · Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <!-- 2. Mindray MX, MU & Z Serie -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — MX, MU &amp; Z Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mu7" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MU7</span>
+                  <span class="nav__mega-card-type">Mobil · Neu</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mx7" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MX7</span>
+                  <span class="nav__mega-card-type">Mobil · Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mx5" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MX5</span>
+                  <span class="nav__mega-card-type">Mobil · Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mx3" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MX3</span>
+                  <span class="nav__mega-card-type">Mobil · Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-z60" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Z60</span>
+                  <span class="nav__mega-card-type">Mobil · Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-z50" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Z50</span>
+                  <span class="nav__mega-card-type">Mobil · Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <!-- 3. Mindray DP Serie -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — DP Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-60" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 60</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-50" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 50</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-30" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 30</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-10" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 10</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <!-- 4. Esaote (X1 Go + C25) -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Esaote — Tragbar · Neu</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-x1-go" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; X1 Go</span>
+                  <span class="nav__mega-card-type">Ultra-Slim · 1,2 kg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-c25" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; C25</span>
+                  <span class="nav__mega-card-type">Kompakt-Portable</span>
+                </a>
+              </div>
+            </div>
+            <!-- 5. Chison -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Chison — Neu</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/chison-sonoair-70/" class="nav__mega-card" style="border-color:rgba(30,100,180,0.15)">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--chison">Chison</span>
+                  <span class="nav__mega-card-name">SonoAir 70</span>
+                  <span class="nav__mega-card-type">Tragbar · AIR-Plattform</span>
+                </a>
+              </div>
+            </div>
+            <div class="nav__mega-footer">
+              <a href="/ultraschallgeraete/mobile-geraete" class="nav__mega-all">
+                Alle mobilen Geräte ansehen
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- ── HANDHELD & POCUS ── -->
+          <div class="nav__mega-content" data-cat="handheld" role="tabpanel">
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — TE Air Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/handheld/mindray-te-air-e5m" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE Air e5M</span>
+                  <span class="nav__mega-card-type">Handheld · WLAN · POCUS</span>
+                </a>
+                <a href="/ultraschallgeraete/handheld/mindray-te-air-i3m" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE Air i3M</span>
+                  <span class="nav__mega-card-type">Handheld · WLAN · Pocket</span>
+                </a>
+              </div>
+            </div>
+            <div class="nav__mega-footer">
+              <a href="/ultraschallgeraete/handheld" class="nav__mega-all">
+                Alle Handheld-Geräte ansehen
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+              <span class="nav__mega-hint" aria-hidden="true">25 Geräte verfügbar</span>
+            </div>
+          </div>
+
+        <!-- ALLE GERÄTE LINK — unten rechts unter der Inhalts-Spalte -->
+        <div style="padding: 0.8rem 0 1.4rem; border-top: 1px solid rgba(9,58,126,0.07); margin-top: 0.5rem; display: flex; justify-content: flex-end;">
+          <a href="/ultraschallgeraete" style="font-family: 'JetBrains Mono', monospace; font-size: 0.50rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #fff; background: rgb(9,58,126); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.65rem 1.2rem; transition: background 0.2s;" onmouseover="this.style.background='rgb(7,46,102)'" onmouseout="this.style.background='rgb(9,58,126)'">
+            Alle Ultraschallgeräte
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:11px;height:11px"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: HERSTELLER ══ -->
+  <div class="nav__panel" id="panel-hersteller" role="region" aria-label="Hersteller">
+    <div class="nav__panel-inner">
+      <div class="nav__hers-wrap">
+        <div class="nav__hers-grid">
+
+          <!-- Mindray -->
+          <a href="/hersteller/mindray" class="nav__hers-card nav__hers-card--mindray">
+            <span class="nav__hers-card-name nav__hers-card-name--mindray">mindray</span>
+            <p class="nav__hers-card-desc">Weltmarktführer · Vollständiges Portfolio von Einstieg bis Flaggschiff — stationär, mobil und Handheld.</p>
+            <div class="nav__hers-card-cta nav__hers-card-cta--mindray">
+              Mindray entdecken
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+
+          <!-- Esaote -->
+          <a href="/hersteller/esaote" class="nav__hers-card nav__hers-card--esaote">
+            <span class="nav__hers-card-name nav__hers-card-name--esaote">esaote</span>
+            <p class="nav__hers-card-desc">Italian Design · MyLab A-Serie für Standgeräte, X1 Go und C25 für tragbare Anwendungen — KI-gestützter Workflow mit Augmented Insight&#8482;.</p>
+            <div class="nav__hers-card-cta nav__hers-card-cta--esaote">
+              Esaote entdecken
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+
+          <!-- Chison -->
+          <a href="/hersteller/chison" class="nav__hers-card nav__hers-card--chison">
+            <span class="nav__hers-card-name nav__hers-card-name--chison">Chison</span>
+            <p class="nav__hers-card-desc">AIR-Plattform · SonoAir 70 — weltweit dünnster Laptop-Scanner mit 4 Ports, 2,1 kg und 180 Min. Akku.</p>
+            <div class="nav__hers-card-cta nav__hers-card-cta--chison">
+              Chison entdecken
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: LEISTUNGEN ══ -->
+  <div class="nav__panel" id="panel-leistungen" role="region" aria-label="Leistungen">
+    <div class="nav__panel-inner">
+      <div class="nav__leis-wrap">
+        <div class="nav__leis-grid">
+          <a href="/leistungen/beratung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Beratung</span></div>
+            <span class="nav__leis-card-desc">Persönlich, unverbindlich, herstellerunabhängig — wir finden das richtige Gerät für Ihre Praxis.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/finanzierung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Finanzierung</span></div>
+            <span class="nav__leis-card-desc">Kauf, Leasing oder Ratenzahlung — flexible Modelle für jede Praxisgröße.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/lieferung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Lieferung &amp; Installation</span></div>
+            <span class="nav__leis-card-desc">Bundesweit, termingerecht, kostenlos — inklusive Einweisung direkt in Ihrer Praxis.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/wartung-reparatur" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Wartung &amp; Reparatur</span></div>
+            <span class="nav__leis-card-desc">1.700 aktive Wartungskunden — eigene Techniker, schnelle Reaktionszeiten, faire Preise.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/netzwerkanbindung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Netzwerkanbindung</span></div>
+            <span class="nav__leis-card-desc">PACS-Anbindung, DICOM-Integration und Praxissoftware-Kopplung aus einer Hand.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/garantie-versicherung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Garantie &amp; Versicherung</span></div>
+            <span class="nav__leis-card-desc">Garantieverlängerung und Geräteversicherung — Ihre Investition langfristig abgesichert.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/schulung-einweisung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Schulung &amp; Einweisung</span></div>
+            <span class="nav__leis-card-desc">MPBetreibV-konforme Einweisung mit schriftlichem Nachweis — direkt in Ihrer Praxis.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/inzahlungnahme" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Inzahlungnahme</span></div>
+            <span class="nav__leis-card-desc">Altes Ultraschallgerät in Zahlung geben — direkt beim Neukauf verrechnet.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: STANDORTE ══ -->
+  <div class="nav__panel" id="panel-standorte" role="region" aria-label="Standorte">
+    <div class="nav__panel-inner">
+      <div class="nav__small">
+        <a href="/standorte/dortmund" class="nav__small-item">
+          <span class="nav__small-label">Hauptsitz</span>
+          <span class="nav__small-title">Dortmund</span>
+          <span class="nav__small-desc">Wilhelm-Röntgen-Str. 4<br>59439 Holzwickede</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <a href="/standorte/duesseldorf" class="nav__small-item">
+          <span class="nav__small-label">Filiale</span>
+          <span class="nav__small-title">Düsseldorf</span>
+          <span class="nav__small-desc">Borsigstraße 5<br>40880 Ratingen</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <a href="/standorte/hamburg" class="nav__small-item">
+          <span class="nav__small-label">Filiale</span>
+          <span class="nav__small-title">Hamburg</span>
+          <span class="nav__small-desc">Bremer Straße 6<br>21244 Buchholz</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <a href="/standorte/kiel" class="nav__small-item" style="border-right:none">
+          <span class="nav__small-label">Filiale</span>
+          <span class="nav__small-title">Kiel</span>
+          <span class="nav__small-desc">Maria-Merian-Straße 9<br>24145 Kiel</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+      </div>
+    </div>
+    <!-- DIGITALE SONOTHEK — Full-Width-Streifen -->
+    <a href="/standorte/digitale-sonothek" class="nav__sono">
+      <div class="nav__sono-bg" aria-hidden="true">
+        <img src="/assets/img/8f02d462-e2b4-4289-2e5c-d35e6dffa700.jpg" alt="" loading="lazy">
+      </div>
+      <div class="nav__panel-inner">
+        <div class="nav__sono-inner">
+          <div class="nav__sono-text">
+            <div class="nav__sono-title">Digitale Sonothek</div>
+            <div class="nav__sono-desc">Geräte live im Video-Meeting kennenlernen — bequem aus Ihrer Praxis, ohne Anfahrt.</div>
+          </div>
+          <div class="nav__sono-arrow" aria-hidden="true">
+            Mehr erfahren
+            <svg viewBox="0 0 16 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <!-- ══ PANEL: ÜBER UNS ══ -->
+  <div class="nav__panel" id="panel-ueber" role="region" aria-label="Über uns">
+    <div class="nav__panel-inner">
+      <div class="nav__ueber-wrap">
+        <a href="/ueber/dormed" class="nav__ueber-identity">
+          <div class="nav__ueber-tag">Unternehmen seit 1989</div>
+          <div class="nav__ueber-headline">Über<br><em>Dormed</em></div>
+          <div class="nav__ueber-stats">
+            <div class="nav__ueber-stat">
+              <span class="nav__ueber-stat-num">35+</span>
+              <span class="nav__ueber-stat-lbl">Jahre Erfahrung</span>
+            </div>
+            <div class="nav__ueber-stat">
+              <span class="nav__ueber-stat-num">4</span>
+              <span class="nav__ueber-stat-lbl">Standorte</span>
+            </div>
+            <div class="nav__ueber-stat">
+              <span class="nav__ueber-stat-num">1.700</span>
+              <span class="nav__ueber-stat-lbl">Wartungskunden</span>
+            </div>
+          </div>
+          <div class="nav__ueber-link">
+            Mehr erfahren
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </div>
+        </a>
+        <div class="nav__ueber-stack">
+          <a href="/ueber/sonoring" class="nav__ueber-card">
+            <div class="nav__ueber-card-inner">
+              <div>
+                <div class="nav__ueber-card-tag">Verbund</div>
+                <div class="nav__ueber-card-title">Sonoring</div>
+                <div class="nav__ueber-card-desc">Deutschlands größte Sono-Fachhändlerorganisation — ~40% Marktanteil, ~23 Partner bundesweit.</div>
+              </div>
+            </div>
+            <div class="nav__ueber-card-cta" aria-hidden="true">
+              Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+          <a href="/karriere" class="nav__ueber-card">
+            <div class="nav__ueber-card-inner">
+              <div>
+                <div class="nav__ueber-card-tag">Jobs</div>
+                <div class="nav__ueber-card-title">Karriere</div>
+                <div class="nav__ueber-card-desc">Werden Sie Teil unseres Teams — wachsendes Unternehmen mit Sinn für Präzision.</div>
+              </div>
+              <div class="nav__ueber-card-badge">
+                <span class="nav__ueber-card-badge-dot"></span>
+                Jetzt bewerben
+              </div>
+            </div>
+            <div class="nav__ueber-card-cta" aria-hidden="true">
+              Stellen ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ MOBILE DRAWER ══ -->
+  <div class="nav__mobile" id="nav-mobile" role="dialog" aria-label="Mobile Navigation" aria-modal="true">
+
+    <div class="nav__mob-section" id="mob-geraete">
+      <button class="nav__mob-toggle" data-mob="geraete">Ultraschallgeräte <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <!-- STANDGERÄTE: Mindray → Esaote -->
+          <div class="nav__mob-sub-label">Standgeräte — Mindray</div>
+          <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i10" class="nav__mob-sub-link">Nuewa i10 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i9" class="nav__mob-sub-link">Nuewa i9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9" class="nav__mob-sub-link">Resona i9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-resona-i8" class="nav__mob-sub-link">Resona i8 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n9" class="nav__mob-sub-link">Consona N9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n8" class="nav__mob-sub-link">Consona N8 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n6" class="nav__mob-sub-link">Consona N6 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n5" class="nav__mob-sub-link">Consona N5 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-dc-60" class="nav__mob-sub-link">DC 60 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-dc-30" class="nav__mob-sub-link">DC 30 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Standgeräte — Esaote</div>
+          <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a50" class="nav__mob-sub-link">MyLab&#8482; A50 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a70" class="nav__mob-sub-link">MyLab&#8482; A70 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+
+          <!-- TRAGBARE GERÄTE: Mindray → Esaote → Chison -->
+          <div class="nav__mob-sub-label">Tragbare Geräte — Mindray</div>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-te-9" class="nav__mob-sub-link">TE 9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-te-7" class="nav__mob-sub-link">TE 7 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-te-5" class="nav__mob-sub-link">TE 5 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mu7" class="nav__mob-sub-link">MU7 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mx7" class="nav__mob-sub-link">MX7 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mx5" class="nav__mob-sub-link">MX5 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mx3" class="nav__mob-sub-link">MX3 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-z60" class="nav__mob-sub-link">Z60 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-z50" class="nav__mob-sub-link">Z50 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-60" class="nav__mob-sub-link">DP 60 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-50" class="nav__mob-sub-link">DP 50 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-30" class="nav__mob-sub-link">DP 30 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-10" class="nav__mob-sub-link">DP 10 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Tragbare Geräte — Esaote</div>
+          <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-x1-go" class="nav__mob-sub-link">MyLab&#8482; X1 Go <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-c25" class="nav__mob-sub-link">MyLab&#8482; C25 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Tragbare Geräte — Chison</div>
+          <a href="/ultraschallgeraete/mobile-geraete/chison-sonoair-70/" class="nav__mob-sub-link">SonoAir 70 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Handheld &amp; POCUS</div>
+          <a href="/ultraschallgeraete/handheld/mindray-te-air-e5m" class="nav__mob-sub-link">TE Air e5M <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/handheld/mindray-te-air-i3m" class="nav__mob-sub-link">TE Air i3M <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete" class="nav__mob-sub-link" style="color:var(--blue-d);font-weight:600;margin-top:0.5rem">Alle Geräte ansehen <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hersteller im Mobile Drawer -->
+    <div class="nav__mob-section" id="mob-hersteller">
+      <button class="nav__mob-toggle" data-mob="hersteller">Hersteller <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/hersteller/mindray/" class="nav__mob-sub-link">Mindray <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/hersteller/esaote/" class="nav__mob-sub-link">Esaote <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/hersteller/chison/" class="nav__mob-sub-link">Chison <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav__mob-section" id="mob-leistungen">
+      <button class="nav__mob-toggle" data-mob="leistungen">Leistungen <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/leistungen/beratung" class="nav__mob-sub-link">Beratung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/finanzierung" class="nav__mob-sub-link">Finanzierung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/lieferung" class="nav__mob-sub-link">Lieferung &amp; Installation <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/wartung-reparatur" class="nav__mob-sub-link">Wartung &amp; Reparatur <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/netzwerkanbindung" class="nav__mob-sub-link">Netzwerkanbindung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/garantie-versicherung" class="nav__mob-sub-link">Garantie &amp; Versicherung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/schulung-einweisung" class="nav__mob-sub-link">Schulung &amp; Einweisung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/inzahlungnahme" class="nav__mob-sub-link">Inzahlungnahme <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav__mob-section">
+      <a href="/veranstaltungen" class="nav__mob-toggle" style="text-decoration:none">Veranstaltungen <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+    </div>
+
+    <div class="nav__mob-section" id="mob-standorte">
+      <button class="nav__mob-toggle" data-mob="standorte">Standorte <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/standorte/dortmund" class="nav__mob-sub-link">Dortmund (Hauptsitz) <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/duesseldorf" class="nav__mob-sub-link">Düsseldorf <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/hamburg" class="nav__mob-sub-link">Hamburg <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/kiel" class="nav__mob-sub-link">Kiel <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/digitale-sonothek" class="nav__mob-sub-link" style="color:var(--blue-d);font-weight:600;margin-top:0.5rem;display:flex;align-items:center;gap:0.5rem">
+            <span style="display:inline-flex;align-items:center;gap:0.4rem">
+              <span style="width:6px;height:6px;background:#22c55e;border-radius:50%;display:inline-block;flex-shrink:0"></span>
+              Digitale Sonothek
+            </span>
+            <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:auto"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav__mob-section" id="mob-ueber">
+      <button class="nav__mob-toggle" data-mob="ueber">Über uns <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/ueber/dormed" class="nav__mob-sub-link">Über Dormed <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ueber/sonoring" class="nav__mob-sub-link">Sonoring <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/karriere" class="nav__mob-sub-link">Karriere <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <a href="/kontakt" class="nav__mob-cta"> Unverbindlich anfragen</a>
+  </div>
+
+</nav>
+
+<script>
+(function(){
+  var nav      = document.getElementById('nav');
+  var backdrop = document.getElementById('nav-backdrop');
+  var burger   = document.getElementById('nav-burger');
+  var currentPanel = null;
+  var closeTimer   = null;
+
+  function openPanel(id) {
+    if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; }
+    if (currentPanel === id) return;
+    _hidePanels();
+    var panel = document.getElementById('panel-' + id);
+    var item  = nav.querySelector('[data-panel="' + id + '"]');
+    if (!panel || !item) return;
+    panel.classList.add('nav__panel--visible');
+    item.classList.add('nav__item--open');
+    item.querySelector('button').setAttribute('aria-expanded', 'true');
+    nav.classList.add('nav__wrap--active');
+    currentPanel = id;
+  }
+
+  function _hidePanels() {
+    document.querySelectorAll('.nav__panel--visible').forEach(function(p) { p.classList.remove('nav__panel--visible'); });
+    nav.querySelectorAll('.nav__item--open').forEach(function(i) {
+      i.classList.remove('nav__item--open');
+      var btn = i.querySelector('button');
+      if (btn) btn.setAttribute('aria-expanded', 'false');
+    });
+    currentPanel = null;
+  }
+
+  function closePanel() { _hidePanels(); nav.classList.remove('nav__wrap--active'); }
+
+  function scheduledClose() {
+    closeTimer = setTimeout(function() { closePanel(); closeTimer = null; }, 120);
+  }
+
+  nav.querySelectorAll('[data-panel]').forEach(function(item) {
+    var id = item.dataset.panel;
+    item.addEventListener('mouseenter', function() { if (window.innerWidth <= 1060) return; openPanel(id); });
+    item.addEventListener('mouseleave', function() { if (window.innerWidth <= 1060) return; scheduledClose(); });
+    item.querySelector('button').addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (currentPanel === id) { closePanel(); } else { openPanel(id); }
+    });
+  });
+
+  nav.querySelectorAll('.nav__panel').forEach(function(panel) {
+    panel.addEventListener('mouseenter', function() { if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; } });
+    panel.addEventListener('mouseleave', function() { scheduledClose(); });
+  });
+
+  backdrop.addEventListener('click', closePanel);
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') { closePanel(); closeMobile(); } });
+
+  function activateMegaCat(cat) {
+    var catId = cat.dataset.cat;
+    var panel = cat.closest('.nav__mega');
+    panel.querySelectorAll('.nav__mega-cat').forEach(function(c) {
+      c.classList.remove('nav__mega-cat--active');
+      c.setAttribute('aria-selected', 'false');
+      c.setAttribute('tabindex', '-1');
+    });
+    panel.querySelectorAll('.nav__mega-content').forEach(function(c) { c.classList.remove('nav__mega-content--active'); });
+    cat.classList.add('nav__mega-cat--active');
+    cat.setAttribute('aria-selected', 'true');
+    cat.setAttribute('tabindex', '0');
+    var content = panel.querySelector('.nav__mega-content[data-cat="' + catId + '"]');
+    if (content) content.classList.add('nav__mega-content--active');
+  }
+
+  nav.querySelectorAll('.nav__mega-cat').forEach(function(cat) {
+    cat.addEventListener('mouseenter', function() { activateMegaCat(cat); });
+    cat.addEventListener('click', function() { activateMegaCat(cat); });
+    cat.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activateMegaCat(cat); }
+      if (e.key === 'ArrowDown') { e.preventDefault(); var next = cat.nextElementSibling; if (next && next.classList.contains('nav__mega-cat')) next.focus(); }
+      if (e.key === 'ArrowUp')   { e.preventDefault(); var prev = cat.previousElementSibling; if (prev && prev.classList.contains('nav__mega-cat')) prev.focus(); }
+    });
+  });
+
+  function closeMobile() {
+    nav.classList.remove('nav__wrap--mob-open');
+    burger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  burger.addEventListener('click', function(e) {
+    e.stopPropagation();
+    closePanel();
+    var isOpen = nav.classList.toggle('nav__wrap--mob-open');
+    burger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  nav.querySelectorAll('[data-mob]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var id      = btn.dataset.mob;
+      var section = document.getElementById('mob-' + id);
+      var isOpen  = section.classList.contains('nav__mob-section--open');
+      nav.querySelectorAll('.nav__mob-section--open').forEach(function(s) { s.classList.remove('nav__mob-section--open'); });
+      if (!isOpen) section.classList.add('nav__mob-section--open');
+    });
+  });
+
+  window.addEventListener('resize', function() { if (window.innerWidth > 1060) { closeMobile(); } });
+})();
+</script></div></div></div></div></div></div></div>
+</header>
+<script>
+      (function() {
+        const el = document.getElementById('header-b346cc60-762d-497f-9c88-f211d52671b2');
+        if (!el) return;
+        const trigger = 50;
+        let lastY = window.scrollY;
+
+        function update() {
+          const currY = window.scrollY;
+          const isDesktop = window.innerWidth > 800;
+
+          if (isDesktop && currY > trigger) {
+            el.classList.add('is-scrolled'); 
+          } else {
+            el.classList.remove('is-scrolled');
+          }
+          
+          if (el.classList.contains('sticky-reveal')) {
+            if (currY > lastY && currY > trigger + 100) {
+              el.style.transform = 'translateY(-120%)';
+            } else {
+              el.style.transform = 'translateY(0)';
+            }
+          }
+          lastY = currY;
+        }
+
+        window.addEventListener('scroll', update, { passive: true });
+        window.addEventListener('resize', update);
+        update();
+      })();
+
+      // --- DROPDOWN TELEPORT ---
+      // Problem: Header hat transform:translateY() => neuer Stacking Context =>
+      // position:absolute Dropdowns werden innerhalb des Headers geclippt.
+      // Fix: .popup-bridge Elemente aus dem Header-DOM herausreißen,
+      // direkt an <body> hängen, und per position:fixed + getBoundingClientRect positionieren.
+      (function() {
+        if (window.__teleport_init) return;
+        window.__teleport_init = true;
+
+        function teleportDropdowns() {
+          var items = document.querySelectorAll('.menu-item');
+          items.forEach(function(item) {
+            var bridge = item.querySelector('.popup-bridge');
+            if (!bridge || bridge.getAttribute('data-teleported')) return;
+
+            // Bridge aus Header herauslösen und an <body> hängen
+            bridge.setAttribute('data-teleported', 'true');
+            document.body.appendChild(bridge);
+
+            function openBridge() {
+              var rect = item.getBoundingClientRect();
+              bridge.style.position = 'fixed';
+              bridge.style.top = rect.bottom + 'px';
+              bridge.style.left = rect.left + 'px';
+              bridge.style.minWidth = Math.max(rect.width, 220) + 'px';
+              bridge.style.opacity = '1';
+              bridge.style.visibility = 'visible';
+              bridge.style.transform = 'translateY(0)';
+              bridge.style.pointerEvents = 'auto';
+              bridge.style.zIndex = '999999';
+            }
+
+            function closeBridge() {
+              bridge.style.opacity = '0';
+              bridge.style.visibility = 'hidden';
+              bridge.style.pointerEvents = 'none';
+              bridge.style.transform = 'translateY(-8px)';
+            }
+
+            item.addEventListener('mouseenter', openBridge);
+
+            item.addEventListener('mouseleave', function(e) {
+              // Nicht schließen wenn Maus direkt auf Bridge wechselt
+              if (bridge.contains(e.relatedTarget)) return;
+              closeBridge();
+            });
+
+            bridge.addEventListener('mouseleave', function(e) {
+              // Nicht schließen wenn Maus zurück auf Item wechselt
+              if (item.contains(e.relatedTarget)) return;
+              closeBridge();
+            });
+          });
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', teleportDropdowns);
+        } else {
+          teleportDropdowns();
+        }
+      })();
+    </script>
+    <main id="yuuble-main" class="main">
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-xh19u2xh1" style="position:relative;width:100%;min-height:auto;background-color:#F7F5F0;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-j58o55a9k" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-6arjr5brf" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-6arjr5brf { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.kar-hero__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+  position: relative;
+}
+.kar-hero__wrap *,
+.kar-hero__wrap *::before,
+.kar-hero__wrap *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+
+/* ── TOP BAR ── */
+.kar-hero__topbar {
+  padding: 7rem 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.6s ease 0.05s;
+}
+.kar-hero__topbar.kar-vis { opacity: 1; }
+.kar-hero__topbar-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.56rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(9,58,126,0.4);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.kar-hero__topbar-label::before {
+  content: '';
+  width: 20px; height: 1px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  flex-shrink: 0;
+}
+.kar-hero__topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.kar-hero__open-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #34d399;
+  animation: kar-pulse 2.4s ease-in-out infinite;
+}
+@keyframes kar-pulse {
+  0%,100% { box-shadow: 0 0 0 0 rgba(52,211,153,0.4); }
+  50%      { box-shadow: 0 0 0 5px rgba(52,211,153,0); }
+}
+.kar-hero__topbar-open {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.54rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(52,211,153,0.8);
+}
+
+/* ── MAIN: ASYMMETRIC SPLIT ── */
+.kar-hero__main {
+  display: grid;
+  grid-template-columns: 58fr 42fr;
+  gap: 0;
+  align-items: stretch;
+}
+
+/* LEFT: TEXT */
+.kar-hero__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3.5rem 4rem 4rem 3rem;
+  position: relative;
+}
+
+.kar-hero__bg-letter {
+  position: absolute;
+  bottom: -3rem; left: -1.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 26rem;
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(9,58,126,0.04);
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  letter-spacing: -0.05em;
+}
+
+.kar-hero__left-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.kar-hero__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.65s ease 0.12s, transform 0.65s ease 0.12s;
+}
+.kar-hero__eyebrow.kar-vis { opacity: 1; transform: none; }
+.kar-hero__eyebrow-line {
+  width: 22px; height: 1px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  flex-shrink: 0;
+}
+.kar-hero__eyebrow-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(62,178,240,0.65);
+}
+
+.kar-hero__h1 {
+  font-size: clamp(2.6rem, 4.8vw, 4.6rem);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 1.0;
+  color: #0B1A2E;
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.85s ease 0.24s, transform 0.85s ease 0.24s;
+}
+.kar-hero__h1.kar-vis { opacity: 1; transform: none; }
+.kar-hero__h1 span {
+  background: linear-gradient(90deg, #093A7E, #3EB2F0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.kar-hero__sub {
+  font-size: clamp(0.95rem, 1.4vw, 1.08rem);
+  font-weight: 400;
+  line-height: 1.78;
+  color: rgb(72,87,112);
+  max-width: 500px;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.75s ease 0.38s, transform 0.75s ease 0.38s;
+}
+.kar-hero__sub.kar-vis { opacity: 1; transform: none; }
+
+.kar-hero__areas {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.7s ease 0.5s, transform 0.7s ease 0.5s;
+}
+.kar-hero__areas.kar-vis { opacity: 1; transform: none; }
+.kar-hero__area {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #0B1A2E;
+  border: 1px solid rgba(9,58,126,0.14);
+  background: rgba(9,58,126,0.04);
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+.kar-hero__area:hover { background: rgba(9,58,126,0.08); border-color: rgba(9,58,126,0.25); color: #093A7E; }
+.kar-hero__area-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0);
+  flex-shrink: 0;
+}
+
+.kar-hero__cta-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.7s ease 0.62s, transform 0.7s ease 0.62s;
+}
+.kar-hero__cta-row.kar-vis { opacity: 1; transform: none; }
+.kar-hero__btn {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #093A7E, #3EB2F0);
+  border: none;
+  padding: 0.82rem 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: opacity 0.2s, transform 0.15s;
+  box-shadow: 0 4px 20px rgba(9,58,126,0.2);
+}
+.kar-hero__btn:hover { opacity: 0.88; transform: translateY(-2px); }
+.kar-hero__btn--outline {
+  background: transparent;
+  border: 1px solid rgba(9,58,126,0.2);
+  color: rgb(9,58,126);
+  box-shadow: none;
+}
+.kar-hero__btn--outline:hover { border-color: rgba(9,58,126,0.4); opacity: 1; transform: translateY(-2px); }
+
+/* RIGHT: IMAGE + OVERLAY CARD */
+.kar-hero__right {
+  position: relative;
+  overflow: hidden;
+  background: #E8E4DC;
+}
+.kar-hero__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  filter: saturate(0.75);
+  transition: transform 0.6s ease;
+}
+.kar-hero__right:hover .kar-hero__img { transform: scale(1.03); }
+.kar-hero__img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(247,245,240,0.15) 0%, transparent 60%);
+  z-index: 1;
+}
+.kar-hero__float-card {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 2rem;
+  right: 2rem;
+  z-index: 2;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(9,58,126,0.1);
+  padding: 1.4rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.7s ease 0.7s, transform 0.7s ease 0.7s;
+}
+.kar-hero__float-card.kar-vis { opacity: 1; transform: none; }
+.kar-hero__float-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+}
+.kar-hero__float-title { font-size: 0.92rem; font-weight: 700; color: #0B1A2E; line-height: 1.2; }
+.kar-hero__float-sub { font-size: 0.78rem; font-weight: 400; color: rgb(72,87,112); line-height: 1.55; }
+.kar-hero__float-meta { display: flex; align-items: center; gap: 1rem; margin-top: 0.3rem; }
+.kar-hero__float-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.5rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(9,58,126,0.5);
+  background: rgba(9,58,126,0.06);
+  border: 1px solid rgba(9,58,126,0.1);
+  padding: 0.2rem 0.55rem;
+}
+
+.kar-hero__sep {
+  position: absolute;
+  top: 8%; bottom: 8%;
+  left: 58%;
+  width: 1px;
+  background: linear-gradient(180deg,
+    transparent 0%,
+    rgba(9,58,126,0.1) 25%,
+    rgba(62,178,240,0.25) 50%,
+    rgba(9,58,126,0.1) 75%,
+    transparent 100%
+  );
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* ── BOTTOM STRIP ── */
+.kar-hero__strip {
+  border-top: 1px solid rgba(9,58,126,0.07);
+  padding: 1.2rem 3rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  opacity: 0;
+  transition: opacity 0.7s ease 0.9s;
+}
+.kar-hero__strip.kar-vis { opacity: 1; }
+.kar-hero__strip-item { display: flex; align-items: center; gap: 0.6rem; flex-shrink: 0; }
+.kar-hero__strip-dot {
+  width: 4px; height: 4px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0);
+}
+.kar-hero__strip-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.54rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(9,58,126,0.35);
+  white-space: nowrap;
+}
+.kar-hero__strip-text strong { color: rgba(9,58,126,0.6); font-weight: 500; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .kar-hero__main { grid-template-columns: 1fr; }
+  .kar-hero__right { min-height: 320px; order: -1; }
+  .kar-hero__left { padding: 3rem 1.5rem 2.5rem; }
+  .kar-hero__sep    { display: none; }
+  .kar-hero__topbar { padding: 6rem 1.5rem 0; }
+  .kar-hero__strip  { padding: 1rem 1.5rem; gap: 1.5rem; }
+  .kar-hero__bg-letter { font-size: 16rem; }
+}
+@media (max-width: 480px) {
+  .kar-hero__h1 { font-size: clamp(2.2rem, 9vw, 3rem); }
+  .kar-hero__float-card { left: 1rem; right: 1rem; bottom: 1.5rem; }
+  .kar-hero__strip-item:nth-child(n+4) { display: none; }
+}
+</style>
+
+<div class="kar-hero__wrap">
+
+  <!-- TOP BAR -->
+  <div class="kar-hero__topbar" id="kar-tb">
+    <span class="kar-hero__topbar-label">Karriere bei SONORING DORMED</span>
+    <div class="kar-hero__topbar-right">
+      <span class="kar-hero__open-dot"></span>
+      <span class="kar-hero__topbar-open">Initiativbewerbung willkommen</span>
+    </div>
+  </div>
+
+  <!-- VERTICAL SEPARATOR -->
+  <div class="kar-hero__sep"></div>
+
+  <!-- MAIN SPLIT -->
+  <div class="kar-hero__main">
+
+    <!-- LEFT -->
+    <div class="kar-hero__left">
+      <div class="kar-hero__bg-letter">K</div>
+      <div class="kar-hero__left-content">
+
+        <div class="kar-hero__eyebrow" id="kar-ey">
+          <div class="kar-hero__eyebrow-line"></div>
+          <span class="kar-hero__eyebrow-text"> Werden Sie Teil des Teams</span>
+        </div>
+
+        <h1 class="kar-hero__h1" id="kar-h1">
+          Gemeinsam<br>
+          <span>Medizintechnik</span><br>
+          neu denken
+        </h1>
+
+        <p class="kar-hero__sub" id="kar-sub">Bei SONORING DORMED arbeiten Sie in einem eingespielten Team mit 35 Jahren Erfahrung — nah am Kunden, nah an der Technologie, nah an Menschen die Verantwortung übernehmen.</p>
+
+        <div class="kar-hero__areas" id="kar-areas">
+          <a href="#vertrieb" class="kar-hero__area">
+            <span class="kar-hero__area-dot"></span>
+            Vertrieb
+          </a>
+          <a href="#service" class="kar-hero__area">
+            <span class="kar-hero__area-dot"></span>
+            Service & Technik
+          </a>
+          <a href="#backoffice" class="kar-hero__area">
+            <span class="kar-hero__area-dot"></span>
+            Backoffice
+          </a>
+        </div>
+
+        <div class="kar-hero__cta-row" id="kar-cta">
+          <a href="#bewerbung" class="kar-hero__btn">Jetzt bewerben</a>
+          <a href="#stellen" class="kar-hero__btn kar-hero__btn--outline"> Stellenangebote ansehen</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- RIGHT: IMAGE -->
+    <div class="kar-hero__right">
+      <img class="kar-hero__img"
+        src="/assets/img/3fded473-6d1b-4b9f-a6d9-d4809831d800.png"
+        alt="Team SONORING DORMED"
+        loading="eager"
+      />
+      <div class="kar-hero__img-overlay"></div>
+      <div class="kar-hero__float-card" id="kar-fc">
+        <span class="kar-hero__float-title">Ihr Einstieg in die Medizintechnik</span>
+        <p class="kar-hero__float-sub">Erfahrene Kollegen, flache Hierarchien und echte Verantwortung vom ersten Tag an.</p>
+        <div class="kar-hero__float-meta">
+          <span class="kar-hero__float-tag">Vertrieb</span>
+          <span class="kar-hero__float-tag">Service</span>
+          <span class="kar-hero__float-tag">Backoffice</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM STRIP -->
+  <div class="kar-hero__strip" id="kar-strip">
+    <div class="kar-hero__strip-item">
+      <span class="kar-hero__strip-dot"></span>
+      <span class="kar-hero__strip-text">Seit <strong>1989</strong></span>
+    </div>
+    <div class="kar-hero__strip-item">
+      <span class="kar-hero__strip-dot"></span>
+      <span class="kar-hero__strip-text"><strong>15+</strong> Mitarbeiter</span>
+    </div>
+    <div class="kar-hero__strip-item">
+      <span class="kar-hero__strip-dot"></span>
+      <span class="kar-hero__strip-text"><strong>4</strong> Standorte</span>
+    </div>
+    <div class="kar-hero__strip-item">
+      <span class="kar-hero__strip-dot"></span>
+      <span class="kar-hero__strip-text">Vertrieb · Service · <strong>Backoffice</strong></span>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  var ids = ['kar-tb','kar-ey','kar-h1','kar-sub',
+             'kar-areas','kar-cta','kar-fc','kar-strip'];
+  function trigger() {
+    ids.forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) el.classList.add('kar-vis');
+    });
+  }
+  if (document.readyState === 'complete') { trigger(); }
+  else { window.addEventListener('load', trigger); }
+})();
+</script></div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-d8f5xddiz" style="position:relative;width:100%;min-height:auto;background-color:#FFFFFF;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-ep81onh6x" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-8slcbid63" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-8slcbid63 { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.kar-why__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+  padding: 6.5rem 0 7rem;
+}
+.kar-why__wrap *,
+.kar-why__wrap *::before,
+.kar-why__wrap *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+
+.kar-why__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ── HEADER: left-aligned, intro text right ── */
+.kar-why__header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: end;
+  margin-bottom: 4.5rem;
+}
+
+.kar-why__header-left {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.kar-why__header-left.kar-why__vis { opacity: 1; transform: none; }
+
+.kar-why__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.kar-why__eyebrow-line {
+  width: 22px; height: 1px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  flex-shrink: 0;
+}
+.kar-why__eyebrow-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(62,178,240,0.65);
+}
+.kar-why__h2 {
+  font-size: clamp(1.9rem, 3vw, 2.8rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  color: #0B1A2E;
+}
+.kar-why__h2 span {
+  background: linear-gradient(90deg, #093A7E, #3EB2F0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.kar-why__header-right {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.7s ease 0.14s, transform 0.7s ease 0.14s;
+}
+.kar-why__header-right.kar-why__vis { opacity: 1; transform: none; }
+.kar-why__header-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: rgb(72,87,112);
+  border-left: 2px solid rgba(9,58,126,0.12);
+  padding-left: 1.4rem;
+}
+
+/* ── BENEFITS GRID: 2x2 ── */
+.kar-why__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5px;
+  background: rgba(9,58,126,0.07);
+  margin-bottom: 1.5px;
+}
+
+.kar-why__benefit {
+  background: #fff;
+  padding: 2.4rem 2.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.65s ease, transform 0.65s ease,
+              background 0.2s ease;
+}
+.kar-why__benefit.kar-why__vis { opacity: 1; transform: none; }
+.kar-why__benefit:nth-child(1) { transition-delay: 0.05s; }
+.kar-why__benefit:nth-child(2) { transition-delay: 0.14s; }
+.kar-why__benefit:nth-child(3) { transition-delay: 0.23s; }
+.kar-why__benefit:nth-child(4) { transition-delay: 0.32s; }
+
+.kar-why__benefit:hover { background: #fafafa; }
+
+/* top accent line */
+.kar-why__benefit::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  opacity: 0;
+  transition: opacity 0.22s ease;
+}
+.kar-why__benefit:hover::before { opacity: 1; }
+
+/* large background number */
+.kar-why__benefit-bg {
+  position: absolute;
+  bottom: -0.8rem; right: 1rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1;
+  color: rgba(9,58,126,0.04);
+  pointer-events: none;
+  user-select: none;
+}
+
+/* icon */
+.kar-why__icon {
+  width: 46px; height: 46px;
+  border-radius: 50%;
+  background: rgba(9,58,126,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+.kar-why__benefit:hover .kar-why__icon {
+  background: rgba(9,58,126,0.1);
+}
+.kar-why__icon svg {
+  width: 20px; height: 20px;
+  stroke: #0B5FB7;
+  fill: none;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.kar-why__benefit-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #0B1A2E;
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+}
+.kar-why__benefit-body {
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: rgb(72,87,112);
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+/* bottom tag */
+.kar-why__benefit-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.52rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(9,58,126,0.4);
+  border-top: 1px solid rgba(9,58,126,0.07);
+  padding-top: 0.9rem;
+  margin-top: auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── BOTTOM: CULTURE QUOTE ── */
+.kar-why__quote-row {
+  background: #fff;
+  border: 1px solid rgba(9,58,126,0.07);
+  padding: 2.2rem 2.8rem;
+  display: grid;
+  grid-template-columns: 3px 1fr auto;
+  gap: 2rem;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.7s ease 0.15s, transform 0.7s ease 0.15s;
+}
+.kar-why__quote-row.kar-why__vis { opacity: 1; transform: none; }
+
+.kar-why__quote-bar {
+  width: 3px;
+  align-self: stretch;
+  background: linear-gradient(180deg, #0B5FB7, #3EB2F0);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.kar-why__quote-text {
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.5;
+  color: #0B1A2E;
+}
+.kar-why__quote-text em {
+  font-style: normal;
+  background: linear-gradient(90deg, #093A7E, #3EB2F0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.kar-why__quote-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
+  flex-shrink: 0;
+}
+.kar-why__quote-name {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #0B1A2E;
+  white-space: nowrap;
+}
+.kar-why__quote-role {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.52rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(9,58,126,0.4);
+  white-space: nowrap;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .kar-why__header { grid-template-columns: 1fr; gap: 2rem; }
+  .kar-why__grid   { grid-template-columns: 1fr; gap: 1px; }
+  .kar-why__quote-row {
+    grid-template-columns: 3px 1fr;
+    grid-template-rows: auto auto;
+  }
+  .kar-why__quote-meta {
+    grid-column: 2;
+    align-items: flex-start;
+  }
+  .kar-why__wrap { padding: 4rem 0 4.5rem; }
+}
+@media (max-width: 480px) {
+  .kar-why__benefit  { padding: 1.8rem 1.5rem; }
+  .kar-why__quote-row { padding: 1.6rem 1.4rem; gap: 1.2rem; }
+}
+</style>
+
+<div class="kar-why__wrap">
+  <div class="kar-why__inner">
+
+    <!-- HEADER -->
+    <div class="kar-why__header">
+      <div class="kar-why__header-left" id="kar-w-hl">
+        <div class="kar-why__eyebrow">
+          <div class="kar-why__eyebrow-line"></div>
+          <span class="kar-why__eyebrow-text">Warum Dormed?</span>
+        </div>
+        <h2 class="kar-why__h2">Mehr als ein<br><span>Arbeitsplatz</span></h2>
+      </div>
+      <div class="kar-why__header-right" id="kar-w-hr">
+        <p class="kar-why__header-text">Bei SONORING DORMED arbeiten Sie in einem Unternehmen das seit 1989 auf Verlässlichkeit aufgebaut ist — mit flachen Hierarchien, echten Gestaltungsmöglichkeiten und einem Team das zusammenhält.</p>
+      </div>
+    </div>
+
+    <!-- BENEFITS GRID -->
+    <div class="kar-why__grid" id="kar-w-grid">
+
+      <!-- 01 -->
+      <div class="kar-why__benefit">
+        <span class="kar-why__benefit-bg">01</span>
+        <div class="kar-why__icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+        </div>
+        <span class="kar-why__benefit-title">Echte Verantwortung vom ersten Tag</span>
+        <p class="kar-why__benefit-body">Wir setzen auf Eigenverantwortung statt Mikromanagement. Ob im Außendienst, im Service oder im Backoffice — Ihre Arbeit hat direkten Einfluss auf den Erfolg des Unternehmens und die Zufriedenheit unserer Kunden.</p>
+        <span class="kar-why__benefit-tag">Flache Hierarchien · Eigenverantwortung</span>
+      </div>
+
+      <!-- 02 -->
+      <div class="kar-why__benefit">
+        <span class="kar-why__benefit-bg">02</span>
+        <div class="kar-why__icon">
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/>
+          </svg>
+        </div>
+        <span class="kar-why__benefit-title">Arbeit mit modernster Medizintechnik</span>
+        <p class="kar-why__benefit-body">Sie arbeiten täglich mit den neuesten Ultraschallsystemen von Mindray und Esaote — und beraten oder betreuen Ärzte und Kliniken auf höchstem technischem Niveau. Weiterbildung ist bei uns selbstverständlich.</p>
+        <span class="kar-why__benefit-tag">Mindray · Esaote · Technologie</span>
+      </div>
+
+      <!-- 03 -->
+      <div class="kar-why__benefit">
+        <span class="kar-why__benefit-bg">03</span>
+        <div class="kar-why__icon">
+          <svg viewBox="0 0 24 24">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+          </svg>
+        </div>
+        <span class="kar-why__benefit-title">Wachstum mit einem starken Verbund</span>
+        <p class="kar-why__benefit-body">Als Gründungsmitglied des SONORING® Deutschland profitieren Sie von einem der stärksten Fachhändlernetzwerke der Branche — mit bundesweitem Rückhalt, gemeinsamen Schulungen und dem Wissen von über 30 Jahren Marktführerschaft.</p>
+        <span class="kar-why__benefit-tag">SONORING® · Netzwerk · Entwicklung</span>
+      </div>
+
+      <!-- 04 -->
+      <div class="kar-why__benefit">
+        <span class="kar-why__benefit-bg">04</span>
+        <div class="kar-why__icon">
+          <svg viewBox="0 0 24 24">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <path d="M3 9h18M9 21V9"/>
+          </svg>
+        </div>
+        <span class="kar-why__benefit-title">Stabilität seit 1989</span>
+        <p class="kar-why__benefit-body">SONORING DORMED ist ein gewachsenes Unternehmen mit 35 Jahren Geschichte — kein Startup mit ungewissem Ausgang, sondern ein verlässlicher Arbeitgeber mit klarer Struktur, 1.700 aktiven Kunden und Standorten in ganz Norddeutschland.</p>
+        <span class="kar-why__benefit-tag">Seit 1989 · 4 Standorte · 1.700 Kunden</span>
+      </div>
+
+    </div>
+
+    <!-- CULTURE QUOTE -->
+    <div class="kar-why__quote-row" id="kar-w-q">
+      <div class="kar-why__quote-bar"></div>
+      <p class="kar-why__quote-text">Wer bei uns anfängt, merkt schnell: hier arbeitet man nicht <em>für</em> ein Unternehmen — man arbeitet <em>mit</em> einem Team.</p>
+      <div class="kar-why__quote-meta">
+        <span class="kar-why__quote-name">Thomas Stücker-Everding</span>
+        <span class="kar-why__quote-role">Gründer & Geschäftsführer</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function() {
+  var singles = ['kar-w-hl','kar-w-hr','kar-w-q'];
+  var gridEl  = document.getElementById('kar-w-grid');
+
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (!e.isIntersecting) return;
+      if (e.target.id === 'kar-w-grid') {
+        e.target.querySelectorAll('.kar-why__benefit').forEach(function(b) {
+          b.classList.add('kar-why__vis');
+        });
+      } else {
+        e.target.classList.add('kar-why__vis');
+      }
+      obs.unobserve(e.target);
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+
+  singles.forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) obs.observe(el);
+  });
+  if (gridEl) obs.observe(gridEl);
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-sooq49pp8" style="position:relative;width:100%;min-height:auto;background-color:#F4F6F9;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-814my74xu" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-0q5lwgeik" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-0q5lwgeik { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.kar-ar__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+  padding: 6.5rem 0 7rem;
+}
+.kar-ar__wrap *,
+.kar-ar__wrap *::before,
+.kar-ar__wrap *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+
+.kar-ar__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ── SECTION HEADER ── */
+.kar-ar__header {
+  margin-bottom: 4rem;
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.kar-ar__header.kar-ar__vis { opacity: 1; transform: none; }
+
+.kar-ar__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.kar-ar__eyebrow-line {
+  width: 22px; height: 1px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  flex-shrink: 0;
+}
+.kar-ar__eyebrow-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(62,178,240,0.65);
+}
+.kar-ar__h2 {
+  font-size: clamp(1.9rem, 3vw, 2.8rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  color: #0B1A2E;
+  max-width: 600px;
+}
+.kar-ar__h2 span {
+  background: linear-gradient(90deg, #093A7E, #3EB2F0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ── THREE AREA CARDS ── */
+.kar-ar__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5px;
+  background: rgba(9,58,126,0.07);
+  margin-bottom: 5rem;
+}
+
+.kar-ar__card {
+  background: #F4F6F9;
+  padding: 2.4rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.65s ease, transform 0.65s ease,
+              background 0.2s ease;
+}
+.kar-ar__card.kar-ar__vis { opacity: 1; transform: none; }
+.kar-ar__card:nth-child(1) { transition-delay: 0.05s; }
+.kar-ar__card:nth-child(2) { transition-delay: 0.14s; }
+.kar-ar__card:nth-child(3) { transition-delay: 0.23s; }
+.kar-ar__card:hover { background: #eef0f5; }
+
+.kar-ar__card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  opacity: 0;
+  transition: opacity 0.22s ease;
+}
+.kar-ar__card:hover::before { opacity: 1; }
+
+.kar-ar__anchor {
+  position: absolute;
+  top: -80px;
+}
+
+.kar-ar__card-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.56rem;
+  letter-spacing: 0.2em;
+  color: rgba(9,58,126,0.25);
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.kar-ar__card-icon {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background: rgba(9,58,126,0.07);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+.kar-ar__card:hover .kar-ar__card-icon { background: rgba(9,58,126,0.12); }
+.kar-ar__card-icon svg {
+  width: 20px; height: 20px;
+  stroke: #0B5FB7;
+  fill: none;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.kar-ar__card-title {
+  font-size: 1.12rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #0B1A2E;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+.kar-ar__card-claim {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(9,58,126,0.45);
+  margin-bottom: 1.2rem;
+}
+.kar-ar__card-body {
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: rgb(72,87,112);
+  margin-bottom: 1.6rem;
+}
+
+.kar-ar__lists {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  flex: 1;
+}
+.kar-ar__list-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.kar-ar__list-heading {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #0B1A2E;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.2rem;
+}
+.kar-ar__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.kar-ar__list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.55;
+  color: rgb(72,87,112);
+}
+.kar-ar__list-item::before {
+  content: '';
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0);
+  flex-shrink: 0;
+  margin-top: 0.12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cpolyline points='1.5,4 3.5,6 6.5,2' stroke='white' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px 8px;
+}
+
+.kar-ar__list-divider {
+  height: 1px;
+  background: rgba(9,58,126,0.08);
+}
+
+/* ── STELLENANGEBOTE ── */
+.kar-ar__jobs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.8rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.kar-ar__jobs-header.kar-ar__vis { opacity: 1; transform: none; }
+
+.kar-ar__jobs-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #0B1A2E;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.kar-ar__jobs-title-sub {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.52rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(9,58,126,0.4);
+  font-weight: 400;
+}
+
+/* ═══════════════════════════════════════════
+   EMPTY STATE — AKTUELL KEINE STELLEN OFFEN
+   ═══════════════════════════════════════════ */
+.kar-ar__jobs-empty {
+  background: #F7F5F0;
+  border-left: 3px solid #3EB2F0;
+  padding: 1.8rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.7s ease 0.05s, transform 0.7s ease 0.05s;
+}
+.kar-ar__jobs-empty.kar-ar__vis { opacity: 1; transform: none; }
+
+.kar-ar__empty-dot {
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  background: #34d399;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 0 rgba(52,211,153,0.4);
+  animation: kar-ar-pulse 2.4s ease-in-out infinite;
+}
+@keyframes kar-ar-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(52,211,153,0.4); }
+  50%      { box-shadow: 0 0 0 6px rgba(52,211,153,0); }
+}
+
+.kar-ar__empty-text {
+  font-size: 0.92rem;
+  font-weight: 400;
+  line-height: 1.65;
+  color: rgb(72,87,112);
+  flex: 1;
+}
+.kar-ar__empty-text strong {
+  font-weight: 700;
+  color: #0B1A2E;
+}
+.kar-ar__empty-text a {
+  color: #0B5FB7;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 0.2s, text-underline-offset 0.2s;
+}
+.kar-ar__empty-text a:hover {
+  color: #093A7E;
+  text-underline-offset: 4px;
+}
+
+/* ═══════════════════════════════════════════
+   JOB-GRID — im DISABLED-State
+   ═══════════════════════════════════════════ */
+.kar-ar__jobs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5px;
+  background: rgba(9,58,126,0.07);
+}
+
+.kar-ar__jobs-caption {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.52rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(9,58,126,0.4);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.kar-ar__jobs-caption::before {
+  content: ''; width: 16px; height: 1px;
+  background: rgba(9,58,126,0.2); flex-shrink: 0;
+}
+
+/* Individual job card */
+.kar-ar__job {
+  background: #F4F6F9;
+  padding: 1.8rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  text-decoration: none;
+  position: relative;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.6s ease, transform 0.6s ease,
+              background 0.2s ease;
+}
+.kar-ar__job.kar-ar__vis { opacity: 1; transform: none; }
+.kar-ar__job:nth-child(1) { transition-delay: 0.05s; }
+.kar-ar__job:nth-child(2) { transition-delay: 0.13s; }
+.kar-ar__job:nth-child(3) { transition-delay: 0.21s; }
+
+/* DISABLED STATE — Karten sind sichtbar aber nicht klickbar */
+.kar-ar__job--disabled {
+  cursor: not-allowed;
+  filter: grayscale(0.7);
+  pointer-events: none;
+}
+.kar-ar__job--disabled.kar-ar__vis {
+  opacity: 0.52;
+}
+
+.kar-ar__job-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.kar-ar__job-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0B1A2E;
+  line-height: 1.25;
+  flex: 1;
+}
+
+/* Status-Badge "Aktuell nicht besetzt" */
+.kar-ar__job-status {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.48rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(72,87,112,0.75);
+  background: rgba(9,58,126,0.06);
+  border: 1px solid rgba(9,58,126,0.1);
+  padding: 0.3rem 0.55rem;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+.kar-ar__job-status::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(72,87,112,0.4);
+  flex-shrink: 0;
+}
+
+.kar-ar__job-location {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.54rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(9,58,126,0.5);
+}
+.kar-ar__job-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: auto;
+}
+.kar-ar__job-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(9,58,126,0.55);
+  background: rgba(9,58,126,0.06);
+  border: 1px solid rgba(9,58,126,0.09);
+  padding: 0.2rem 0.5rem;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1024px) {
+  .kar-ar__jobs { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 900px) {
+  .kar-ar__cards { grid-template-columns: 1fr; gap: 1px; }
+  .kar-ar__jobs  { grid-template-columns: 1fr; gap: 1px; }
+  .kar-ar__wrap  { padding: 4rem 0 4.5rem; }
+  .kar-ar__jobs-empty { padding: 1.4rem 1.5rem; }
+}
+@media (max-width: 600px) {
+  .kar-ar__jobs-empty { flex-direction: column; align-items: flex-start; gap: 0.8rem; }
+  .kar-ar__job-top { flex-direction: column; gap: 0.6rem; }
+  .kar-ar__job-status { align-self: flex-start; }
+}
+@media (max-width: 480px) {
+  .kar-ar__card  { padding: 1.8rem 1.4rem 1.6rem; }
+}
+</style>
+
+<div class="kar-ar__wrap">
+  <div class="kar-ar__inner">
+
+    <!-- HEADER -->
+    <div class="kar-ar__header" id="kar-ar-hdr">
+      <div class="kar-ar__eyebrow">
+        <div class="kar-ar__eyebrow-line"></div>
+        <span class="kar-ar__eyebrow-text">Wo Sie bei uns arbeiten</span>
+      </div>
+      <h2 class="kar-ar__h2">Drei Bereiche. <span>Ein Team.</span></h2>
+    </div>
+
+    <!-- THREE AREA CARDS -->
+    <div class="kar-ar__cards" id="kar-ar-cards">
+
+      <!-- VERTRIEB -->
+      <div class="kar-ar__card">
+        <span id="vertrieb" class="kar-ar__anchor"></span>
+        <span class="kar-ar__card-num">01</span>
+        <div class="kar-ar__card-icon">
+          <svg viewBox="0 0 24 24">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+          </svg>
+        </div>
+        <span class="kar-ar__card-title">Vertrieb</span>
+        <span class="kar-ar__card-claim">Individuelle Beratung mit System</span>
+        <p class="kar-ar__card-body">Unser Vertriebsteam findet für jeden niedergelassenen Arzt die passende Lösung — mit tiefem Verständnis für die Medizintechnik, persönlicher Nähe und nachhaltigen Empfehlungen.</p>
+        <div class="kar-ar__lists">
+          <div class="kar-ar__list-block">
+            <span class="kar-ar__list-heading"> Was Sie erwartet</span>
+            <ul class="kar-ar__list">
+              <li class="kar-ar__list-item">Betreuung von Arztpraxen vor Ort</li>
+              <li class="kar-ar__list-item">Vorstellung modernster Sonographiesysteme</li>
+              <li class="kar-ar__list-item">Eigenverantwortliches Arbeiten im festen Gebiet</li>
+              <li class="kar-ar__list-item">Enge Zusammenarbeit mit Technik & Backoffice</li>
+            </ul>
+          </div>
+          <div class="kar-ar__list-divider"></div>
+          <div class="kar-ar__list-block">
+            <span class="kar-ar__list-heading">Was Sie mitbringen</span>
+            <ul class="kar-ar__list">
+              <li class="kar-ar__list-item">Kommunikationsstärke & medizinisches Grundverständnis</li>
+              <li class="kar-ar__list-item">Strukturierte, selbstständige Arbeitsweise</li>
+              <li class="kar-ar__list-item">Erfahrung im Außendienst von Vorteil</li>
+              <li class="kar-ar__list-item">Motivation, mit einem starken Team zu wachsen</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- SERVICE -->
+      <div class="kar-ar__card">
+        <span id="service" class="kar-ar__anchor"></span>
+        <span class="kar-ar__card-num">02</span>
+        <div class="kar-ar__card-icon">
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/>
+          </svg>
+        </div>
+        <span class="kar-ar__card-title">Service & Technik</span>
+        <span class="kar-ar__card-claim">Präzise. Zuverlässig. Persönlich.</span>
+        <p class="kar-ar__card-body">Unser Serviceteam sorgt dafür, dass Kunden sich auf eines verlassen können: ihre Geräte funktionieren. Mit technischem Fachwissen und hohem Qualitätsanspruch.</p>
+        <div class="kar-ar__lists">
+          <div class="kar-ar__list-block">
+            <span class="kar-ar__list-heading"> Was Sie erwartet</span>
+            <ul class="kar-ar__list">
+              <li class="kar-ar__list-item">Installation & Einweisung von Sonographiesystemen</li>
+              <li class="kar-ar__list-item"> Wartung & Reparatur direkt in der Praxis</li>
+              <li class="kar-ar__list-item">Technischer Support telefonisch oder vor Ort</li>
+              <li class="kar-ar__list-item">Dokumentation & Qualitätskontrollen nach DGUV V3</li>
+            </ul>
+          </div>
+          <div class="kar-ar__list-divider"></div>
+          <div class="kar-ar__list-block">
+            <span class="kar-ar__list-heading">Was Sie mitbringen</span>
+            <ul class="kar-ar__list">
+              <li class="kar-ar__list-item">Ausbildung in Medizintechnik, Elektrotechnik o. Ä.</li>
+              <li class="kar-ar__list-item">Technisches Verständnis & strukturierte Arbeitsweise</li>
+              <li class="kar-ar__list-item">Freundliches Auftreten & Serviceorientierung</li>
+              <li class="kar-ar__list-item">Reisebereitschaft im eigenen Gebiet</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- BACKOFFICE -->
+      <div class="kar-ar__card">
+        <span id="backoffice" class="kar-ar__anchor"></span>
+        <span class="kar-ar__card-num">03</span>
+        <div class="kar-ar__card-icon">
+          <svg viewBox="0 0 24 24">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <path d="M8 21h8M12 17v4"/>
+          </svg>
+        </div>
+        <span class="kar-ar__card-title">Backoffice</span>
+        <span class="kar-ar__card-claim">Die stille Stärke hinter dem Erfolg</span>
+        <p class="kar-ar__card-body">Im Backoffice laufen alle Fäden zusammen — Angebote, Aufträge, Kundendaten, Kommunikation. Wer gerne strukturiert arbeitet und den Überblick behält, findet hier seinen Platz.</p>
+        <div class="kar-ar__lists">
+          <div class="kar-ar__list-block">
+            <span class="kar-ar__list-heading"> Was Sie erwartet</span>
+            <ul class="kar-ar__list">
+              <li class="kar-ar__list-item">Bearbeitung von Anfragen & Aufträgen</li>
+              <li class="kar-ar__list-item">Unterstützung von Vertrieb & Service</li>
+              <li class="kar-ar__list-item">Pflege von Kundendaten & Dokumentation</li>
+              <li class="kar-ar__list-item">Schnittstelle zwischen Kunden, Lager & Außendienst</li>
+            </ul>
+          </div>
+          <div class="kar-ar__list-divider"></div>
+          <div class="kar-ar__list-block">
+            <span class="kar-ar__list-heading">Was Sie mitbringen</span>
+            <ul class="kar-ar__list">
+              <li class="kar-ar__list-item">Organisationsgeschick & Teamfähigkeit</li>
+              <li class="kar-ar__list-item">Sicherer Umgang mit Office-Software</li>
+              <li class="kar-ar__list-item">Verbindliche Kommunikation schriftlich & telefonisch</li>
+              <li class="kar-ar__list-item">Eigenverantwortliches, strukturiertes Arbeiten</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- STELLENANGEBOTE HEADER -->
+    <div class="kar-ar__jobs-header" id="kar-ar-jh">
+      <span id="stellen" class="kar-ar__anchor"></span>
+      <div class="kar-ar__jobs-title">
+        Aktuelle Stellenangebote
+        <span class="kar-ar__jobs-title-sub">PDF zum Download</span>
+      </div>
+    </div>
+
+    <!-- EMPTY STATE — sichtbar wenn keine Stellen offen -->
+    <div class="kar-ar__jobs-empty" id="kar-ar-empty">
+      <span class="kar-ar__empty-dot"></span>
+      <p class="kar-ar__empty-text">
+        <strong>Aktuell sind keine Stellen ausgeschrieben.</strong>
+        Wir freuen uns jederzeit &uuml;ber Ihre
+        <a href="/kontakt/">Initiativbewerbung</a>
+        &mdash; &uuml;blicherweise besetzen wir Rollen in den folgenden Bereichen:
+      </p>
+    </div>
+
+    <!-- CAPTION für die grauen Karten -->
+    <div class="kar-ar__jobs-caption">Typische Positionen &middot; aktuell nicht offen</div>
+
+    <!-- JOB CARDS (alle im disabled-State, keine href's) -->
+    <div class="kar-ar__jobs" id="kar-ar-jobs">
+
+      <div class="kar-ar__job kar-ar__job--disabled">
+        <div class="kar-ar__job-top">
+          <span class="kar-ar__job-title">Systemberater Ultraschall (m/w/d)</span>
+          <span class="kar-ar__job-status">Nicht besetzt</span>
+        </div>
+        <span class="kar-ar__job-location">Dortmund · Düsseldorf</span>
+        <div class="kar-ar__job-tags">
+          <span class="kar-ar__job-tag">Vollzeit</span>
+          <span class="kar-ar__job-tag">Vertrieb</span>
+        </div>
+      </div>
+
+      <div class="kar-ar__job kar-ar__job--disabled">
+        <div class="kar-ar__job-top">
+          <span class="kar-ar__job-title">Servicetechniker Medizintechnik (m/w/d)</span>
+          <span class="kar-ar__job-status">Nicht besetzt</span>
+        </div>
+        <span class="kar-ar__job-location">Hamburg · Kiel</span>
+        <div class="kar-ar__job-tags">
+          <span class="kar-ar__job-tag">Vollzeit</span>
+          <span class="kar-ar__job-tag">Service</span>
+        </div>
+      </div>
+
+      <div class="kar-ar__job kar-ar__job--disabled">
+        <div class="kar-ar__job-top">
+          <span class="kar-ar__job-title">Mitarbeiter Backoffice (m/w/d)</span>
+          <span class="kar-ar__job-status">Nicht besetzt</span>
+        </div>
+        <span class="kar-ar__job-location">Dortmund</span>
+        <div class="kar-ar__job-tags">
+          <span class="kar-ar__job-tag">Vollzeit</span>
+          <span class="kar-ar__job-tag">Backoffice</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function() {
+  var singles = ['kar-ar-hdr','kar-ar-jh','kar-ar-empty'];
+  var cardsEl = document.getElementById('kar-ar-cards');
+  var jobsEl  = document.getElementById('kar-ar-jobs');
+
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (!e.isIntersecting) return;
+      var id = e.target.id;
+      if (id === 'kar-ar-cards') {
+        e.target.querySelectorAll('.kar-ar__card').forEach(function(c) {
+          c.classList.add('kar-ar__vis');
+        });
+      } else if (id === 'kar-ar-jobs') {
+        e.target.querySelectorAll('.kar-ar__job').forEach(function(j) {
+          j.classList.add('kar-ar__vis');
+        });
+      } else {
+        e.target.classList.add('kar-ar__vis');
+      }
+      obs.unobserve(e.target);
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+
+  singles.forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) obs.observe(el);
+  });
+  if (cardsEl) obs.observe(cardsEl);
+  if (jobsEl)  obs.observe(jobsEl);
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-lcnqlso7z" style="position:relative;width:100%;min-height:auto;background-color:#FFFFFF;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-bvx7crjqu" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-p7sjpjlsn" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-p7sjpjlsn { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.kar-ap__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+  padding: 7rem 0 7.5rem;
+}
+.kar-ap__wrap *,
+.kar-ap__wrap *::before,
+.kar-ap__wrap *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+
+.kar-ap__inner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ── TOP: CENTERED STATEMENT ── */
+/* Deliberately narrow — forces eye to center, feels personal */
+.kar-ap__statement {
+  text-align: center;
+  margin-bottom: 5rem;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.kar-ap__statement.kar-ap__vis { opacity: 1; transform: none; }
+
+.kar-ap__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.4rem;
+}
+.kar-ap__eyebrow-line {
+  width: 22px; height: 1px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+}
+.kar-ap__eyebrow-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(62,178,240,0.65);
+}
+.kar-ap__eyebrow-line--r {
+  width: 22px; height: 1px;
+  background: linear-gradient(270deg, #0B5FB7, #3EB2F0);
+}
+
+.kar-ap__h2 {
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  color: #0B1A2E;
+  margin-bottom: 1.4rem;
+}
+.kar-ap__h2 span {
+  background: linear-gradient(90deg, #093A7E, #3EB2F0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.kar-ap__sub {
+  font-size: clamp(0.95rem, 1.4vw, 1.05rem);
+  font-weight: 400;
+  line-height: 1.8;
+  color: rgb(72,87,112);
+  max-width: 560px;
+  margin: 0 auto 2.4rem;
+}
+
+/* CTA button — full width feel but capped */
+.kar-ap__cta-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.kar-ap__btn {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #093A7E, #3EB2F0);
+  border: none;
+  padding: 1rem 2.4rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: opacity 0.2s, transform 0.15s;
+  box-shadow: 0 6px 28px rgba(9,58,126,0.22);
+  letter-spacing: 0.01em;
+}
+.kar-ap__btn:hover { opacity: 0.88; transform: translateY(-2px); }
+
+.kar-ap__cta-note {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.54rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(9,58,126,0.35);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.kar-ap__cta-note::before {
+  content: '';
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: #34d399;
+}
+
+/* ── DIVIDER ── */
+.kar-ap__divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(9,58,126,0.1), transparent);
+  margin-bottom: 4.5rem;
+  opacity: 0;
+  transition: opacity 0.6s ease 0.1s;
+}
+.kar-ap__divider.kar-ap__vis { opacity: 1; }
+
+/* ── FAQ SECTION ── */
+.kar-ap__faq-header {
+  margin-bottom: 2rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.kar-ap__faq-header.kar-ap__vis { opacity: 1; transform: none; }
+
+.kar-ap__faq-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(9,58,126,0.4);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.kar-ap__faq-title {
+  font-size: clamp(1.3rem, 2.2vw, 1.8rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #0B1A2E;
+  line-height: 1.1;
+}
+.kar-ap__faq-title span {
+  background: linear-gradient(90deg, #093A7E, #3EB2F0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ── ACCORDION ── */
+.kar-ap__accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-top: 1px solid rgba(9,58,126,0.08);
+}
+
+.kar-ap__item {
+  border-bottom: 1px solid rgba(9,58,126,0.08);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.kar-ap__item.kar-ap__vis { opacity: 1; transform: none; }
+.kar-ap__item:nth-child(1) { transition-delay: 0.04s; }
+.kar-ap__item:nth-child(2) { transition-delay: 0.1s; }
+.kar-ap__item:nth-child(3) { transition-delay: 0.16s; }
+.kar-ap__item:nth-child(4) { transition-delay: 0.22s; }
+.kar-ap__item:nth-child(5) { transition-delay: 0.28s; }
+.kar-ap__item:nth-child(6) { transition-delay: 0.34s; }
+.kar-ap__item:nth-child(7) { transition-delay: 0.40s; }
+
+/* Question row — clickable */
+.kar-ap__q {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 1.4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  cursor: pointer;
+  text-align: left;
+  transition: padding 0.25s ease;
+}
+.kar-ap__q:hover .kar-ap__q-text {
+  color: #093A7E;
+}
+
+.kar-ap__q-text {
+  font-size: 0.97rem;
+  font-weight: 600;
+  color: #0B1A2E;
+  line-height: 1.4;
+  transition: color 0.2s;
+  flex: 1;
+}
+
+/* Plus/Minus icon */
+.kar-ap__q-icon {
+  width: 24px; height: 24px;
+  border: 1px solid rgba(9,58,126,0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s, border-color 0.2s, transform 0.3s ease;
+}
+.kar-ap__item--open .kar-ap__q-icon {
+  background: linear-gradient(135deg, #093A7E, #3EB2F0);
+  border-color: transparent;
+  transform: rotate(45deg);
+}
+.kar-ap__q-icon svg {
+  width: 10px; height: 10px;
+  stroke: rgba(9,58,126,0.5);
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  transition: stroke 0.2s;
+}
+.kar-ap__item--open .kar-ap__q-icon svg { stroke: #fff; }
+
+/* Answer panel */
+.kar-ap__a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+.kar-ap__item--open .kar-ap__a {
+  max-height: 320px;
+}
+.kar-ap__a-inner {
+  padding: 0 0 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.78;
+  color: rgb(72,87,112);
+}
+.kar-ap__a-inner strong {
+  font-weight: 600;
+  color: #0B1A2E;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .kar-ap__wrap { padding: 5rem 0 5.5rem; }
+  .kar-ap__h2   { font-size: clamp(1.9rem, 8vw, 2.6rem); }
+  .kar-ap__q-text { font-size: 0.9rem; }
+}
+@media (max-width: 480px) {
+  .kar-ap__btn  { width: 100%; text-align: center; padding: 0.9rem 1.4rem; }
+}
+</style>
+
+<div class="kar-ap__wrap">
+  <div class="kar-ap__inner">
+
+    <!-- STATEMENT + CTA -->
+    <div class="kar-ap__statement" id="kar-ap-stmt">
+      <div class="kar-ap__eyebrow">
+        <div class="kar-ap__eyebrow-line"></div>
+        <span class="kar-ap__eyebrow-text">Jetzt bewerben</span>
+        <div class="kar-ap__eyebrow-line--r"></div>
+      </div>
+      <h2 class="kar-ap__h2" id="bewerbung">Wir freuen uns<br><span> auf Sie</span></h2>
+      <p class="kar-ap__sub">Nutzen Sie unser Kontaktformular für Ihre Bewerbung — unkompliziert, direkt und ohne Umwege. Sie können Ihre Unterlagen als PDF-Anhang beifügen. Wir melden uns schnellstmöglich bei Ihnen.</p>
+      <div class="kar-ap__cta-wrap">
+        <a href="/kontakt" class="kar-ap__btn">Jetzt Bewerbung senden</a>
+        <span class="kar-ap__cta-note">Initiativbewerbungen jederzeit willkommen</span>
+      </div>
+    </div>
+
+    <!-- DIVIDER -->
+    <div class="kar-ap__divider" id="kar-ap-div"></div>
+
+    <!-- FAQ -->
+    <div class="kar-ap__faq-header" id="kar-ap-fh">
+      <span class="kar-ap__faq-label">Häufige Fragen</span>
+      <h3 class="kar-ap__faq-title">Ihre Fragen — <span>unsere Antworten</span></h3>
+    </div>
+
+    <div class="kar-ap__accordion" id="kar-ap-acc">
+
+      <div class="kar-ap__item">
+        <button class="kar-ap__q" aria-expanded="false">
+          <span class="kar-ap__q-text">Wie läuft der Bewerbungsprozess bei Dormed ab?</span>
+          <span class="kar-ap__q-icon">
+            <svg viewBox="0 0 10 10"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+          </span>
+        </button>
+        <div class="kar-ap__a">
+          <div class="kar-ap__a-inner">Senden Sie uns Ihre Unterlagen über das Kontaktformular. Wir melden uns in der Regel innerhalb weniger Werktage bei Ihnen. Nach einer ersten Sichtung laden wir passende Kandidatinnen und Kandidaten zu einem persönlichen Gespräch ein — telefonisch oder vor Ort an einem unserer Standorte.</div>
+        </div>
+      </div>
+
+      <div class="kar-ap__item">
+        <button class="kar-ap__q" aria-expanded="false">
+          <span class="kar-ap__q-text">Brauche ich Vorkenntnisse in der Medizintechnik?</span>
+          <span class="kar-ap__q-icon">
+            <svg viewBox="0 0 10 10"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+          </span>
+        </button>
+        <div class="kar-ap__a">
+          <div class="kar-ap__a-inner">Das kommt auf den Bereich an. Im Service setzen wir eine technische Ausbildung voraus. Im Vertrieb und Backoffice sind Motivation, Kommunikationsstärke und Lernbereitschaft oft wichtiger als Branchenwissen — das Fachwissen geben wir Ihnen mit.  </div>
+        </div>
+      </div>
+
+      <div class="kar-ap__item">
+        <button class="kar-ap__q" aria-expanded="false">
+          <span class="kar-ap__q-text">Gibt es die Möglichkeit auf Homeoffice?</span>
+          <span class="kar-ap__q-icon">
+            <svg viewBox="0 0 10 10"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+          </span>
+        </button>
+        <div class="kar-ap__a">
+          <div class="kar-ap__a-inner">Je nach Position und Bereich ist mobiles Arbeiten möglich. Im Außendienst und Service arbeiten Sie naturgemäß überwiegend beim Kunden und an unseren Standorten. Im Backoffice gibt es nach der Einarbeitung flexible Absprachen.</div>
+        </div>
+      </div>
+
+      <div class="kar-ap__item">
+        <button class="kar-ap__q" aria-expanded="false">
+          <span class="kar-ap__q-text">An welchem Standort würde ich arbeiten?</span>
+          <span class="kar-ap__q-icon">
+            <svg viewBox="0 0 10 10"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+          </span>
+        </button>
+        <div class="kar-ap__a">
+          <div class="kar-ap__a-inner">Wir haben Standorte in <strong>Dortmund, Düsseldorf, Hamburg und Kiel</strong>. Welcher Standort zu Ihnen passt, besprechen wir gemeinsam im Bewerbungsgespräch — in der Regel richten wir uns nach Ihrer Region.</div>
+        </div>
+      </div>
+
+      <div class="kar-ap__item">
+        <button class="kar-ap__q" aria-expanded="false">
+          <span class="kar-ap__q-text">Wie werden neue Mitarbeiter eingearbeitet?</span>
+          <span class="kar-ap__q-icon">
+            <svg viewBox="0 0 10 10"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+          </span>
+        </button>
+        <div class="kar-ap__a">
+          <div class="kar-ap__a-inner">Jede neue Kollegin und jeder neue Kollege wird persönlich eingearbeitet — durch erfahrene Teammitglieder, Produktschulungen und im direkten Kundenkontakt. Wir setzen auf praxisnahes Lernen statt dicke Handbücher.  </div>
+        </div>
+      </div>
+
+      <div class="kar-ap__item">
+        <button class="kar-ap__q" aria-expanded="false">
+          <span class="kar-ap__q-text">Gibt es Weiterbildungsmöglichkeiten?</span>
+          <span class="kar-ap__q-icon">
+            <svg viewBox="0 0 10 10"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+          </span>
+        </button>
+        <div class="kar-ap__a">
+          <div class="kar-ap__a-inner">Ja. Wir legen großen Wert auf fachliche Weiterentwicklung — von Herstellerschulungen bei Mindray und Esaote bis hin zu individuellen Fortbildungen. Als Teil des SONORING®-Verbunds profitieren Sie außerdem von verbundweiten Schulungsangeboten.</div>
+        </div>
+      </div>
+
+      <div class="kar-ap__item">
+        <button class="kar-ap__q" aria-expanded="false">
+          <span class="kar-ap__q-text">Ich finde keine passende Stelle — kann ich mich trotzdem bewerben?</span>
+          <span class="kar-ap__q-icon">
+            <svg viewBox="0 0 10 10"><line x1="5" y1="1" x2="5" y2="9"/><line x1="1" y1="5" x2="9" y2="5"/></svg>
+          </span>
+        </button>
+        <div class="kar-ap__a">
+          <div class="kar-ap__a-inner">Selbstverständlich. Initiativbewerbungen sind bei uns ausdrücklich willkommen. Schildern Sie uns in Ihrer Bewerbung kurz, in welchem Bereich Sie sich vorstellen können und was Sie mitbringen — wir schauen gemeinsam ob und wie es passen könnte.</div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function() {
+  // Scroll animations
+  var singles = ['kar-ap-stmt','kar-ap-div','kar-ap-fh'];
+  var accEl   = document.getElementById('kar-ap-acc');
+
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (!e.isIntersecting) return;
+      if (e.target.id === 'kar-ap-acc') {
+        e.target.querySelectorAll('.kar-ap__item').forEach(function(i) {
+          i.classList.add('kar-ap__vis');
+        });
+      } else {
+        e.target.classList.add('kar-ap__vis');
+      }
+      obs.unobserve(e.target);
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+
+  singles.forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) obs.observe(el);
+  });
+  if (accEl) obs.observe(accEl);
+
+  // Accordion logic
+  var items = document.querySelectorAll('.kar-ap__item');
+  items.forEach(function(item) {
+    var btn = item.querySelector('.kar-ap__q');
+    if (!btn) return;
+    btn.addEventListener('click', function() {
+      var isOpen = item.classList.contains('kar-ap__item--open');
+      // Close all
+      items.forEach(function(i) {
+        i.classList.remove('kar-ap__item--open');
+        var b = i.querySelector('.kar-ap__q');
+        if (b) b.setAttribute('aria-expanded', 'false');
+      });
+      // Open clicked if it was closed
+      if (!isOpen) {
+        item.classList.add('kar-ap__item--open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+</main>
+    <footer id="footer-a3d3bfb9-6fa3-4a84-91c0-180364037cd1" class="region footer" style="z-index: 10; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); box-sizing: border-box; padding-top: 0px; padding-bottom: 0px; margin: 0; background-color:#060C1C; background-image:none; border-radius:0px; border:none; position: relative; width: 100%">
+  <div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-de41c6a2-5c82-4cb0-a730-c675ed876f74" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-wid-ezrxxi9be" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container">
+
+<footer class="footer__wrap" itemscope itemtype="https://schema.org/Organization">
+
+  <div class="footer__stripe"></div>
+
+  <!-- ══ CTA BAND ══ -->
+  <div class="footer__cta-band">
+    <div class="footer__cta-inner">
+      <div class="footer__cta-text">
+        <span class="footer__cta-eyebrow">Persönliche Beratung</span>
+        <span class="footer__cta-title">Jetzt beraten lassen — kostenlos & unverbindlich</span>
+      </div>
+      <div class="footer__cta-actions">
+        <a href="/kontakt" class="footer__cta-btn">
+          Unverbindlich anfragen
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a href="tel:+492301188600" class="footer__cta-btn footer__cta-btn--ghost">
+          +49 (0) 2301 / 188 600
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MAIN GRID ── -->
+  <div class="footer__main">
+    <div class="footer__main-inner">
+
+      <!-- BRAND -->
+      <div class="footer__brand">
+        <a href="/" class="footer__logo" aria-label="SONORING DORMED Startseite" itemprop="url">
+          <img src="/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png" alt="SONORING DORMED Logo" class="footer__logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="footer__logo-text" style="display:none">
+            <span class="footer__logo-brand"><em>SONORING</em> DORMED</span>
+            <span class="footer__logo-sub">med. Systeme</span>
+          </span>
+        </a>
+        <p class="footer__tagline" itemprop="description">Deutschlands führender Ultraschall-Fachhändler. Gegründet 1989 — über 35 Jahre Erfahrung, 1.700 aktive Wartungskunden, 4 Standorte bundesweit.</p>
+        <div class="footer__contact">
+          <a href="tel:+4923011886000" class="footer__contact-item" itemprop="telephone">
+            <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 10.5c-1 .5-2 1-3 .5-1.5-.7-2.8-2-3.5-3.5-.5-1 0-2 .5-3L5.5 2 2 4c0 7 7 14 14 14l2-3.5-2.5-1.5z"/></svg>
+            +49 (0) 2301 / 188-600
+          </a>
+          <a href="mailto:mail@dormed.de" class="footer__contact-item" itemprop="email">
+            <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="14" height="10" rx="1"/><path d="M1 3l7 6 7-6"/></svg>
+            mail@dormed.de
+          </a>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.youtube.com/@SonoringDormed" class="footer__social-link" aria-label="YouTube" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="rgb(13,31,60)" stroke="none"/></svg>
+          </a>
+          <a href="https://de.linkedin.com/company/sonoringdormed" class="footer__social-link" aria-label="LinkedIn" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://www.facebook.com/SonoringDormed/" class="footer__social-link" aria-label="Facebook" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://www.xing.com/pages/sonoringdormed" class="footer__social-link" aria-label="Xing" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l3.5 6L3 18h4l4.5-8L8 4H4zM17 2l-7 12.5L14.5 22H19l-4.5-7.5L21 2h-4z"/></svg>
+          </a>
+        </div>
+
+        <!-- TeamViewer Quick Support Button -->
+        <a href="https://get.teamviewer.com/677uhcc" class="footer__tv-btn" target="_blank" rel="noopener noreferrer" aria-label="TeamViewer Quick Support – Fernwartung starten">
+          <span class="footer__tv-brand">
+            <img src="/assets/img/4f0f1b6d-fe34-4ffe-e2c0-2171ee260b00.png" alt="TeamViewer" class="footer__tv-logo-img" loading="lazy" decoding="async">
+            <span class="footer__tv-wordmark"><em>Team</em>Viewer</span>
+          </span>
+          <span class="footer__tv-cta">
+            <span class="footer__tv-cta-label">Quick Support</span>
+            <span class="footer__tv-cta-sub">Fernwartung starten</span>
+          </span>
+        </a>
+      </div>
+
+      <!-- ULTRASCHALLGERÄTE — Kategorien statt Einzelgeräten -->
+      <div class="footer__col">
+        <div class="footer__col-label">Ultraschallgeräte</div>
+        <a href="/ultraschallgeraete/standgeraete" class="footer__link">Standgeräte</a>
+        <a href="/ultraschallgeraete/mobile-geraete" class="footer__link">Mobile Geräte</a>
+        <a href="/ultraschallgeraete/handheld" class="footer__link">Handheld</a>
+        <a href="/ultraschallgeraete/sono-finder" class="footer__link">Sono Finder</a>
+        <a href="/standorte/digitale-sonothek" class="footer__link">Digitale Sonothek</a>
+        <a href="/ultraschallgeraete" class="footer__link footer__link--highlight" style="margin-top:0.4rem">→ Alle Geräte</a>
+      </div>
+
+      <!-- LEISTUNGEN + FACHGEBIETE -->
+      <div class="footer__col">
+        <div class="footer__col-label">Leistungen</div>
+        <a href="/leistungen/beratung" class="footer__link">Beratung</a>
+        <a href="/leistungen/finanzierung" class="footer__link">Finanzierung & Leasing</a>
+        <a href="/leistungen/lieferung" class="footer__link">Lieferung & Installation</a>
+        <a href="/leistungen/wartung-reparatur" class="footer__link">Wartung & Reparatur</a>
+        <a href="/leistungen/netzwerkanbindung" class="footer__link">Netzwerkanbindung</a>
+        <a href="/leistungen/schulung-einweisung" class="footer__link">Schulung & Einweisung</a>
+        <a href="/leistungen/garantie-versicherung" class="footer__link">Garantie & Versicherung</a>
+        <a href="/leistungen/inzahlungnahme" class="footer__link">Inzahlungnahme</a>
+        <div class="footer__col-label" style="margin-top:1.4rem">Für Fachgebiete</div>
+        <a href="/fuer/allgemeinmedizin" class="footer__link">Allgemeinmedizin</a>
+        <a href="/fuer/kardiologie" class="footer__link">Kardiologie</a>
+        <a href="/fuer/gynaekologie" class="footer__link">Gynäkologie</a>
+        <a href="/fuer/orthopaedie" class="footer__link">Orthopädie & MSK</a>
+      </div>
+
+      <!-- UNTERNEHMEN -->
+      <div class="footer__col">
+        <div class="footer__col-label">Unternehmen</div>
+        <a href="/ueber/dormed" class="footer__link">Über Dormed</a>
+        <a href="/ueber/sonoring" class="footer__link">Sonoring</a>
+        <a href="/hersteller/mindray" class="footer__link">Mindray</a>
+        <a href="/hersteller/esaote" class="footer__link">Esaote</a>
+        <a href="/hersteller/chison" class="footer__link">Chison</a>
+        <a href="/karriere" class="footer__link">Karriere</a>
+        <a href="/veranstaltungen" class="footer__link">Veranstaltungen</a>
+        <a href="/blog" class="footer__link">Blog</a>
+        <div class="footer__col-label" style="margin-top:1.4rem">Standorte</div>
+        <a href="/standorte/dortmund" class="footer__location">
+          <span class="footer__location-city">Dortmund</span>
+          <span class="footer__location-addr">Wilhelm-Röntgen-Str. 4<br>59439 Holzwickede</span>
+        </a>
+        <a href="/standorte/duesseldorf" class="footer__location">
+          <span class="footer__location-city">Düsseldorf</span>
+          <span class="footer__location-addr">Borsigstraße 5<br>40880 Ratingen</span>
+        </a>
+        <a href="/standorte/hamburg" class="footer__location">
+          <span class="footer__location-city">Hamburg</span>
+          <span class="footer__location-addr">Bremer Straße 6<br>21244 Buchholz</span>
+        </a>
+        <a href="/standorte/kiel" class="footer__location">
+          <span class="footer__location-city">Kiel</span>
+          <span class="footer__location-addr">Maria-Merian-Str. 9<br>24145 Kiel</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── BOTTOM BAR ── -->
+  <div class="footer__bottom">
+    <div class="footer__bottom-inner">
+      <span class="footer__copy">© 2026 DORMED medizinische Systeme GmbH · Alle Rechte vorbehalten</span>
+      <div class="footer__legal">
+        <a href="/impressum" class="footer__legal-link">Impressum</a>
+        <a href="/datenschutz" class="footer__legal-link">Datenschutz</a>
+        <a href="/agb" class="footer__legal-link">AGB</a>
+      </div>
+
+    </div>
+  </div>
+
+</footer></div></div></div></div></div></div></div>
+</footer>
+    
+    
+<script>
+(function() {
+  function easeInOutCubic(t) {
+    return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  }
+
+  function smoothScrollTo(targetSelector) {
+    const targetElement = document.querySelector(targetSelector);
+    if (!targetElement) return;
+
+    const header = document.getElementById('yuuble-header');
+    const offset = header ? header.offsetHeight : 0;
+
+    const startPosition = window.pageYOffset;
+    const targetPosition = targetElement.getBoundingClientRect().top + startPosition - offset;
+    const distance = targetPosition - startPosition;
+    
+    const duration = Math.min(Math.max(Math.abs(distance) * 0.6, 800), 1400);
+    let startTime = null;
+
+    function animation(currentTime) {
+      if (startTime === null) startTime = currentTime;
+      const timeElapsed = currentTime - startTime;
+      const progress = Math.min(timeElapsed / duration, 1);
+      
+      const ease = easeInOutCubic(progress);
+      window.scrollTo(0, startPosition + distance * ease);
+
+      if (timeElapsed < duration) {
+        requestAnimationFrame(animation);
+      }
+    }
+    requestAnimationFrame(animation);
+  }
+
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a[href^="#"]');
+    if (!link) return;
+
+    const href = link.getAttribute('href');
+    if (href === '#' || href.length < 2) return;
+
+    const targetEl = document.querySelector(href);
+    if (!targetEl) return; 
+
+    e.preventDefault();
+    smoothScrollTo(href);
+    
+    if (history.pushState) {
+      history.pushState(null, null, href);
+    }
+  });
+  
+  console.log("🚀 Smooth Scrolling via Factory Injection aktiv.");
+})();
+</script>
+
+    
+  </body>
+</html>

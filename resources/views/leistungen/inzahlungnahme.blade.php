@@ -1,0 +1,3176 @@
+<!DOCTYPE html>
+<html lang="de-DE" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="/assets/img/9166be6b-46c0-4068-8b57-2b414dd62000.png">
+    <link rel="apple-touch-icon" href="/assets/img/9166be6b-46c0-4068-8b57-2b414dd62000.png">
+    
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/leistungen/inzahlungnahme">
+    <link rel="alternate" hreflang="x-default" href="https://dormed.de/leistungen/inzahlungnahme">
+
+    <title>Ultraschallgerät in Zahlung geben – Altgerät | SONORING DORMED</title>
+    <meta name="description" content="Geben Sie Ihr altes Ultraschallgerät in Zahlung und sparen Sie beim Neukauf. Faire Bewertung, unkomplizierte Abwicklung durch SONORING DORMED.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dormed.de/leistungen/inzahlungnahme">
+
+    
+
+    <meta property="og:title" content="Ultraschallgerät in Zahlung geben – Altgerät | SONORING DORMED">
+    <meta property="og:description" content="Geben Sie Ihr altes Ultraschallgerät in Zahlung und sparen Sie beim Neukauf. Faire Bewertung, unkomplizierte Abwicklung durch SONORING DORMED.">
+    <meta property="og:url" content="https://dormed.de/leistungen/inzahlungnahme">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ultraschallgerät in Zahlung geben – Altgerät | SONORING DORMED">
+    <meta name="twitter:description" content="Geben Sie Ihr altes Ultraschallgerät in Zahlung und sparen Sie beim Neukauf. Faire Bewertung, unkomplizierte Abwicklung durch SONORING DORMED.">
+
+    @vite(['resources/css/style.css', 'resources/css/widgets.css'])
+
+    <style id="yuuble-theme-style">
+    :root{
+
+}
+
+    </style>
+
+    <script type="application/ld+json">{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://dormed.de/#service-inzahlungnahme",
+      "name": "Ultraschallgerät in Zahlung geben",
+      "url": "https://dormed.de/leistungen/inzahlungnahme",
+      "description": "Geben Sie Ihr altes Ultraschallgerät in Zahlung und sparen Sie beim Neukauf. Faire Bewertung, unkomplizierte Abwicklung durch SONORING DORMED.",
+      "provider": { "@id": "https://dormed.de/#organization" },
+      "areaServed": { "@type": "Country", "name": "Deutschland" },
+      "serviceType": "Inzahlungnahme"
+    },
+    {
+      "@type": "HowTo",
+      "name": "Wie läuft die Inzahlungnahme eines Ultraschallgeräts ab?",
+      "description": "In drei einfachen Schritten zum neuen Gerät – Altgerät bewerten lassen, Angebot erhalten, Abholung und Verrechnung.",
+      "provider": { "@id": "https://dormed.de/#organization" },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Anfrage & Bewertung",
+          "text": "Sie teilen uns Hersteller, Modell, Baujahr und Zustand Ihres Geräts mit – per Telefon oder über unser Kontaktformular. Wir prüfen und erstellen Ihnen ein unverbindliches Bewertungsangebot."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Angebot & Abstimmung",
+          "text": "Sie erhalten ein transparentes Angebot mit dem Inzahlungnahme-Wert. Nach Ihrer Zustimmung stimmen wir gemeinsam Termin und Ablauf ab – abgestimmt auf den Lieferzeitraum Ihres neuen Geräts."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Abholung & Verrechnung",
+          "text": "Wir holen Ihr Altgerät direkt in Ihrer Praxis ab und liefern das neue System – alles koordiniert, kein Zeitverlust. Der Inzahlungnahme-Wert wird direkt vom Neupreis abgezogen."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Welche Geräte nehmen Sie in Zahlung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir nehmen Ultraschallgeräte aller gängigen Hersteller in Zahlung — sofern Zustand und Marktwert passen. Bei Mindray, Esaote und Chison läuft die Inzahlungnahme standardisiert, da diese Geräte aus unserem eigenen Portfolio stammen. Geräte anderer Hersteller — etwa GE HealthCare, Philips, Siemens Healthineers, Canon, Samsung, Hitachi/Fujifilm, SonoScape oder Handhelds von Clarius und Butterfly — prüfen wir individuell auf Zustand, Baujahr und Marktwert. Voraussetzung ist ein funktionsfähiges Gerät ohne Totalschaden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Muss mein Gerät noch funktionsfähig sein?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, das Gerät sollte grundsätzlich funktionsfähig sein. Gebrauchsspuren sind normal und mindern den Wert nur geringfügig. Bei technischen Mängeln kommt es auf den konkreten Defekt an – sprechen Sie uns einfach an, wir prüfen den Einzelfall."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie wird der Wert meines Altgeräts ermittelt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Inzahlungnahme-Wert ergibt sich aus vier Faktoren: Modell und Hersteller, technischer Zustand, Baujahr sowie vorhandene Sonden und Dokumentation. Nach Ihrer Anfrage erhalten Sie von uns ein transparentes, unverbindliches Angebot – nachvollziehbar und ohne versteckte Abzüge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wird der Altgeräte-Wert direkt vom Neupreis abgezogen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, genau so funktioniert die Inzahlungnahme. Der ermittelte Wert Ihres Altgeräts wird direkt vom Kaufpreis Ihres neuen Ultraschallsystems abgezogen – Sie zahlen nur die Differenz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Holen Sie das Gerät auch aus meiner Praxis ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Wir koordinieren die Abholung Ihres Altgeräts direkt mit dem Liefertermin Ihres neuen Systems – so entsteht kein Zeitverlust im Praxisbetrieb. Unser Team ist für die fachgerechte Demontage und den Transport verantwortlich."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was passiert mit meinem Altgerät nach der Abholung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gebrauchsfähige Geräte werden nach Prüfung und technischer Aufbereitung als Gebrauchtgeräte weiterverkauft. Geräte, die nicht mehr marktfähig sind, werden fachgerecht und datenschutzkonform entsorgt. In jedem Fall werden alle gespeicherten Patientendaten vor der Weitergabe vollständig gelöscht."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://dormed.de" },
+        { "@type": "ListItem", "position": 2, "name": "Leistungen", "item": "https://dormed.de/leistungen" },
+        { "@type": "ListItem", "position": 3, "name": "Inzahlungnahme", "item": "https://dormed.de/leistungen/inzahlungnahme" }
+      ]
+    }
+  ]
+}</script>
+    
+    <!-- Google Tag Manager -->
+<!-- End Google Tag Manager -->
+  
+
+  </head>
+  <body>
+
+<header id="header-b346cc60-762d-497f-9c88-f211d52671b2" class="region header" style="z-index: 999; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); box-sizing: border-box; padding-top: 0px; padding-bottom: 0px; margin: 0; background-color:#ffffff; background-image:none; border-radius:0px; border:none; top: 0; left: 0; right: 0; width: auto; position: fixed">
+  <div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-98c8c3d9-460e-4139-a41b-abc1afd930e8" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-wid-23er5hyi5" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container">
+
+<!-- BACKDROP -->
+<div class="nav__backdrop" id="nav-backdrop"></div>
+
+<nav class="nav__wrap" id="nav" role="navigation" aria-label="Hauptnavigation">
+
+  <div class="nav__bar">
+    <div class="nav__inner">
+
+      <a href="/" class="nav__logo" aria-label="SONORING DORMED – Startseite">
+        <img src="/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png" alt="SONORING DORMED Logo" class="nav__logo-img"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <span class="nav__logo-text" style="display:none">
+          <span class="nav__logo-brand"><em>SONORING</em> DORMED</span>
+          <span class="nav__logo-sub">med. Systeme</span>
+        </span>
+      </a>
+
+      <div class="nav__links" role="menubar">
+        <div class="nav__item" data-panel="geraete" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Ultraschallgeräte
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <!-- NEU: Hersteller Tab -->
+        <div class="nav__item" data-panel="hersteller" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Hersteller
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <div class="nav__item" data-panel="leistungen" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Leistungen
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <div class="nav__item" role="none">
+          <a href="/veranstaltungen" class="nav__link" role="menuitem">Veranstaltungen</a>
+        </div>
+        <div class="nav__item" data-panel="standorte" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Standorte
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <div class="nav__item" data-panel="ueber" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Über uns
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <a href="/kontakt" class="nav__cta"> Unverbindlich anfragen</a>
+
+      <button class="nav__burger" id="nav-burger" aria-label="Menü öffnen" aria-expanded="false">
+        <span class="nav__burger-line"></span>
+        <span class="nav__burger-line"></span>
+        <span class="nav__burger-line"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: ULTRASCHALLGERÄTE ══ -->
+  <div class="nav__panel" id="panel-geraete" role="region" aria-label="Ultraschallgeräte">
+    <div class="nav__panel-inner">
+      <div class="nav__mega">
+        <div class="nav__mega-cats" role="tablist" aria-label="Gerätekategorien">
+          <div class="nav__mega-cat nav__mega-cat--active" data-cat="stationaer" role="tab" tabindex="0" aria-selected="true">Standgeräte</div>
+          <div class="nav__mega-cat" data-cat="mobil" role="tab" tabindex="-1" aria-selected="false">Tragbare Geräte</div>
+          <div class="nav__mega-cat" data-cat="handheld" role="tab" tabindex="-1" aria-selected="false">Handheld &amp; POCUS</div>
+        </div>
+        <div>
+
+          <!-- ── STANDGERÄTE ── -->
+          <div class="nav__mega-content nav__mega-content--active" data-cat="stationaer" role="tabpanel">
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — Premium</div>
+              <div class="nav__mega-grid">
+                <!-- NEU: Nuewa I10 als 1. Karte -->
+                <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i10" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Nuewa i10</span>
+                  <span class="nav__mega-card-type">Flaggschiff · Neu</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Nuewa i9</span>
+                  <span class="nav__mega-card-type">Flaggschiff</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Resona i9</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-resona-i8" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Resona i8</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — Consona &amp; DC Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N9</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n8" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N8</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n6" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N6</span>
+                  <span class="nav__mega-card-type">Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n5" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N5</span>
+                  <span class="nav__mega-card-type">Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-dc-60" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DC 60</span>
+                  <span class="nav__mega-card-type">Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-dc-30" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DC 30</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Esaote — Neu</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a50" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; A50</span>
+                  <span class="nav__mega-card-type">Mittelklasse · Neu</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a70" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; A70</span>
+                  <span class="nav__mega-card-type">Oberklasse · Neu</span>
+                </a>
+              </div>
+            </div>
+            <div class="nav__mega-footer">
+              <a href="/ultraschallgeraete/standgeraete" class="nav__mega-all">
+                Alle Standgeräte ansehen
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+              <span class="nav__mega-hint" aria-hidden="true">25 Geräte verfügbar</span>
+            </div>
+          </div>
+
+          <!-- ── TRAGBARE GERÄTE ── REIHENFOLGE: MINDRAY → ESAOTE → CHISON -->
+          <div class="nav__mega-content" data-cat="mobil" role="tabpanel">
+            <!-- 1. Mindray TE Serie -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — TE Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-te-9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE 9</span>
+                  <span class="nav__mega-card-type">Mobil · Kardio</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-te-7-ace" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE 7</span>
+                  <span class="nav__mega-card-type">Laptop · Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-te-5" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE 5</span>
+                  <span class="nav__mega-card-type">Laptop · Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <!-- 2. Mindray MX, MU & Z Serie -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — MX, MU &amp; Z Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mu7" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MU7</span>
+                  <span class="nav__mega-card-type">Mobil · Neu</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mx7" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MX7</span>
+                  <span class="nav__mega-card-type">Mobil · Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mx5" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MX5</span>
+                  <span class="nav__mega-card-type">Mobil · Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mx3" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MX3</span>
+                  <span class="nav__mega-card-type">Mobil · Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-z60" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Z60</span>
+                  <span class="nav__mega-card-type">Mobil · Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-z50" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Z50</span>
+                  <span class="nav__mega-card-type">Mobil · Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <!-- 3. Mindray DP Serie -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — DP Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-60" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 60</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-50" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 50</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-30" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 30</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-10" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 10</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <!-- 4. Esaote (X1 Go + C25) -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Esaote — Tragbar · Neu</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-x1-go" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; X1 Go</span>
+                  <span class="nav__mega-card-type">Ultra-Slim · 1,2 kg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-c25" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; C25</span>
+                  <span class="nav__mega-card-type">Kompakt-Portable</span>
+                </a>
+              </div>
+            </div>
+            <!-- 5. Chison -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Chison — Neu</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/chison-sonoair-70/" class="nav__mega-card" style="border-color:rgba(30,100,180,0.15)">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--chison">Chison</span>
+                  <span class="nav__mega-card-name">SonoAir 70</span>
+                  <span class="nav__mega-card-type">Tragbar · AIR-Plattform</span>
+                </a>
+              </div>
+            </div>
+            <div class="nav__mega-footer">
+              <a href="/ultraschallgeraete/mobile-geraete" class="nav__mega-all">
+                Alle mobilen Geräte ansehen
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- ── HANDHELD & POCUS ── -->
+          <div class="nav__mega-content" data-cat="handheld" role="tabpanel">
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — TE Air Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/handheld/mindray-te-air-e5m" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE Air e5M</span>
+                  <span class="nav__mega-card-type">Handheld · WLAN · POCUS</span>
+                </a>
+                <a href="/ultraschallgeraete/handheld/mindray-te-air-i3m" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE Air i3M</span>
+                  <span class="nav__mega-card-type">Handheld · WLAN · Pocket</span>
+                </a>
+              </div>
+            </div>
+            <div class="nav__mega-footer">
+              <a href="/ultraschallgeraete/handheld" class="nav__mega-all">
+                Alle Handheld-Geräte ansehen
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+              <span class="nav__mega-hint" aria-hidden="true">25 Geräte verfügbar</span>
+            </div>
+          </div>
+
+        <!-- ALLE GERÄTE LINK — unten rechts unter der Inhalts-Spalte -->
+        <div style="padding: 0.8rem 0 1.4rem; border-top: 1px solid rgba(9,58,126,0.07); margin-top: 0.5rem; display: flex; justify-content: flex-end;">
+          <a href="/ultraschallgeraete" style="font-family: 'JetBrains Mono', monospace; font-size: 0.50rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #fff; background: rgb(9,58,126); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.65rem 1.2rem; transition: background 0.2s;" onmouseover="this.style.background='rgb(7,46,102)'" onmouseout="this.style.background='rgb(9,58,126)'">
+            Alle Ultraschallgeräte
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:11px;height:11px"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: HERSTELLER ══ -->
+  <div class="nav__panel" id="panel-hersteller" role="region" aria-label="Hersteller">
+    <div class="nav__panel-inner">
+      <div class="nav__hers-wrap">
+        <div class="nav__hers-grid">
+
+          <!-- Mindray -->
+          <a href="/hersteller/mindray" class="nav__hers-card nav__hers-card--mindray">
+            <span class="nav__hers-card-name nav__hers-card-name--mindray">mindray</span>
+            <p class="nav__hers-card-desc">Weltmarktführer · Vollständiges Portfolio von Einstieg bis Flaggschiff — stationär, mobil und Handheld.</p>
+            <div class="nav__hers-card-cta nav__hers-card-cta--mindray">
+              Mindray entdecken
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+
+          <!-- Esaote -->
+          <a href="/hersteller/esaote" class="nav__hers-card nav__hers-card--esaote">
+            <span class="nav__hers-card-name nav__hers-card-name--esaote">esaote</span>
+            <p class="nav__hers-card-desc">Italian Design · MyLab A-Serie für Standgeräte, X1 Go und C25 für tragbare Anwendungen — KI-gestützter Workflow mit Augmented Insight&#8482;.</p>
+            <div class="nav__hers-card-cta nav__hers-card-cta--esaote">
+              Esaote entdecken
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+
+          <!-- Chison -->
+          <a href="/hersteller/chison" class="nav__hers-card nav__hers-card--chison">
+            <span class="nav__hers-card-name nav__hers-card-name--chison">Chison</span>
+            <p class="nav__hers-card-desc">AIR-Plattform · SonoAir 70 — weltweit dünnster Laptop-Scanner mit 4 Ports, 2,1 kg und 180 Min. Akku.</p>
+            <div class="nav__hers-card-cta nav__hers-card-cta--chison">
+              Chison entdecken
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: LEISTUNGEN ══ -->
+  <div class="nav__panel" id="panel-leistungen" role="region" aria-label="Leistungen">
+    <div class="nav__panel-inner">
+      <div class="nav__leis-wrap">
+        <div class="nav__leis-grid">
+          <a href="/leistungen/beratung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Beratung</span></div>
+            <span class="nav__leis-card-desc">Persönlich, unverbindlich, herstellerunabhängig — wir finden das richtige Gerät für Ihre Praxis.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/finanzierung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Finanzierung</span></div>
+            <span class="nav__leis-card-desc">Kauf, Leasing oder Ratenzahlung — flexible Modelle für jede Praxisgröße.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/lieferung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Lieferung &amp; Installation</span></div>
+            <span class="nav__leis-card-desc">Bundesweit, termingerecht, kostenlos — inklusive Einweisung direkt in Ihrer Praxis.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/wartung-reparatur" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Wartung &amp; Reparatur</span></div>
+            <span class="nav__leis-card-desc">1.700 aktive Wartungskunden — eigene Techniker, schnelle Reaktionszeiten, faire Preise.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/netzwerkanbindung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Netzwerkanbindung</span></div>
+            <span class="nav__leis-card-desc">PACS-Anbindung, DICOM-Integration und Praxissoftware-Kopplung aus einer Hand.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/garantie-versicherung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Garantie &amp; Versicherung</span></div>
+            <span class="nav__leis-card-desc">Garantieverlängerung und Geräteversicherung — Ihre Investition langfristig abgesichert.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/schulung-einweisung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Schulung &amp; Einweisung</span></div>
+            <span class="nav__leis-card-desc">MPBetreibV-konforme Einweisung mit schriftlichem Nachweis — direkt in Ihrer Praxis.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/inzahlungnahme" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Inzahlungnahme</span></div>
+            <span class="nav__leis-card-desc">Altes Ultraschallgerät in Zahlung geben — direkt beim Neukauf verrechnet.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: STANDORTE ══ -->
+  <div class="nav__panel" id="panel-standorte" role="region" aria-label="Standorte">
+    <div class="nav__panel-inner">
+      <div class="nav__small">
+        <a href="/standorte/dortmund" class="nav__small-item">
+          <span class="nav__small-label">Hauptsitz</span>
+          <span class="nav__small-title">Dortmund</span>
+          <span class="nav__small-desc">Wilhelm-Röntgen-Str. 4<br>59439 Holzwickede</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <a href="/standorte/duesseldorf" class="nav__small-item">
+          <span class="nav__small-label">Filiale</span>
+          <span class="nav__small-title">Düsseldorf</span>
+          <span class="nav__small-desc">Borsigstraße 5<br>40880 Ratingen</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <a href="/standorte/hamburg" class="nav__small-item">
+          <span class="nav__small-label">Filiale</span>
+          <span class="nav__small-title">Hamburg</span>
+          <span class="nav__small-desc">Bremer Straße 6<br>21244 Buchholz</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <a href="/standorte/kiel" class="nav__small-item" style="border-right:none">
+          <span class="nav__small-label">Filiale</span>
+          <span class="nav__small-title">Kiel</span>
+          <span class="nav__small-desc">Maria-Merian-Straße 9<br>24145 Kiel</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+      </div>
+    </div>
+    <!-- DIGITALE SONOTHEK — Full-Width-Streifen -->
+    <a href="/standorte/digitale-sonothek" class="nav__sono">
+      <div class="nav__sono-bg" aria-hidden="true">
+        <img src="/assets/img/8f02d462-e2b4-4289-2e5c-d35e6dffa700.jpg" alt="" loading="lazy">
+      </div>
+      <div class="nav__panel-inner">
+        <div class="nav__sono-inner">
+          <div class="nav__sono-text">
+            <div class="nav__sono-title">Digitale Sonothek</div>
+            <div class="nav__sono-desc">Geräte live im Video-Meeting kennenlernen — bequem aus Ihrer Praxis, ohne Anfahrt.</div>
+          </div>
+          <div class="nav__sono-arrow" aria-hidden="true">
+            Mehr erfahren
+            <svg viewBox="0 0 16 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <!-- ══ PANEL: ÜBER UNS ══ -->
+  <div class="nav__panel" id="panel-ueber" role="region" aria-label="Über uns">
+    <div class="nav__panel-inner">
+      <div class="nav__ueber-wrap">
+        <a href="/ueber/dormed" class="nav__ueber-identity">
+          <div class="nav__ueber-tag">Unternehmen seit 1989</div>
+          <div class="nav__ueber-headline">Über<br><em>Dormed</em></div>
+          <div class="nav__ueber-stats">
+            <div class="nav__ueber-stat">
+              <span class="nav__ueber-stat-num">35+</span>
+              <span class="nav__ueber-stat-lbl">Jahre Erfahrung</span>
+            </div>
+            <div class="nav__ueber-stat">
+              <span class="nav__ueber-stat-num">4</span>
+              <span class="nav__ueber-stat-lbl">Standorte</span>
+            </div>
+            <div class="nav__ueber-stat">
+              <span class="nav__ueber-stat-num">1.700</span>
+              <span class="nav__ueber-stat-lbl">Wartungskunden</span>
+            </div>
+          </div>
+          <div class="nav__ueber-link">
+            Mehr erfahren
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </div>
+        </a>
+        <div class="nav__ueber-stack">
+          <a href="/ueber/sonoring" class="nav__ueber-card">
+            <div class="nav__ueber-card-inner">
+              <div>
+                <div class="nav__ueber-card-tag">Verbund</div>
+                <div class="nav__ueber-card-title">Sonoring</div>
+                <div class="nav__ueber-card-desc">Deutschlands größte Sono-Fachhändlerorganisation — ~40% Marktanteil, ~23 Partner bundesweit.</div>
+              </div>
+            </div>
+            <div class="nav__ueber-card-cta" aria-hidden="true">
+              Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+          <a href="/karriere" class="nav__ueber-card">
+            <div class="nav__ueber-card-inner">
+              <div>
+                <div class="nav__ueber-card-tag">Jobs</div>
+                <div class="nav__ueber-card-title">Karriere</div>
+                <div class="nav__ueber-card-desc">Werden Sie Teil unseres Teams — wachsendes Unternehmen mit Sinn für Präzision.</div>
+              </div>
+              <div class="nav__ueber-card-badge">
+                <span class="nav__ueber-card-badge-dot"></span>
+                Jetzt bewerben
+              </div>
+            </div>
+            <div class="nav__ueber-card-cta" aria-hidden="true">
+              Stellen ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ MOBILE DRAWER ══ -->
+  <div class="nav__mobile" id="nav-mobile" role="dialog" aria-label="Mobile Navigation" aria-modal="true">
+
+    <div class="nav__mob-section" id="mob-geraete">
+      <button class="nav__mob-toggle" data-mob="geraete">Ultraschallgeräte <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <!-- STANDGERÄTE: Mindray → Esaote -->
+          <div class="nav__mob-sub-label">Standgeräte — Mindray</div>
+          <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i10" class="nav__mob-sub-link">Nuewa i10 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i9" class="nav__mob-sub-link">Nuewa i9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9" class="nav__mob-sub-link">Resona i9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-resona-i8" class="nav__mob-sub-link">Resona i8 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n9" class="nav__mob-sub-link">Consona N9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n8" class="nav__mob-sub-link">Consona N8 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n6" class="nav__mob-sub-link">Consona N6 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n5" class="nav__mob-sub-link">Consona N5 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-dc-60" class="nav__mob-sub-link">DC 60 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-dc-30" class="nav__mob-sub-link">DC 30 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Standgeräte — Esaote</div>
+          <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a50" class="nav__mob-sub-link">MyLab&#8482; A50 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a70" class="nav__mob-sub-link">MyLab&#8482; A70 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+
+          <!-- TRAGBARE GERÄTE: Mindray → Esaote → Chison -->
+          <div class="nav__mob-sub-label">Tragbare Geräte — Mindray</div>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-te-9" class="nav__mob-sub-link">TE 9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-te-7" class="nav__mob-sub-link">TE 7 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-te-5" class="nav__mob-sub-link">TE 5 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mu7" class="nav__mob-sub-link">MU7 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mx7" class="nav__mob-sub-link">MX7 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mx5" class="nav__mob-sub-link">MX5 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mx3" class="nav__mob-sub-link">MX3 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-z60" class="nav__mob-sub-link">Z60 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-z50" class="nav__mob-sub-link">Z50 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-60" class="nav__mob-sub-link">DP 60 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-50" class="nav__mob-sub-link">DP 50 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-30" class="nav__mob-sub-link">DP 30 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-10" class="nav__mob-sub-link">DP 10 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Tragbare Geräte — Esaote</div>
+          <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-x1-go" class="nav__mob-sub-link">MyLab&#8482; X1 Go <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-c25" class="nav__mob-sub-link">MyLab&#8482; C25 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Tragbare Geräte — Chison</div>
+          <a href="/ultraschallgeraete/mobile-geraete/chison-sonoair-70/" class="nav__mob-sub-link">SonoAir 70 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Handheld &amp; POCUS</div>
+          <a href="/ultraschallgeraete/handheld/mindray-te-air-e5m" class="nav__mob-sub-link">TE Air e5M <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/handheld/mindray-te-air-i3m" class="nav__mob-sub-link">TE Air i3M <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete" class="nav__mob-sub-link" style="color:var(--blue-d);font-weight:600;margin-top:0.5rem">Alle Geräte ansehen <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hersteller im Mobile Drawer -->
+    <div class="nav__mob-section" id="mob-hersteller">
+      <button class="nav__mob-toggle" data-mob="hersteller">Hersteller <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/hersteller/mindray/" class="nav__mob-sub-link">Mindray <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/hersteller/esaote/" class="nav__mob-sub-link">Esaote <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/hersteller/chison/" class="nav__mob-sub-link">Chison <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav__mob-section" id="mob-leistungen">
+      <button class="nav__mob-toggle" data-mob="leistungen">Leistungen <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/leistungen/beratung" class="nav__mob-sub-link">Beratung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/finanzierung" class="nav__mob-sub-link">Finanzierung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/lieferung" class="nav__mob-sub-link">Lieferung &amp; Installation <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/wartung-reparatur" class="nav__mob-sub-link">Wartung &amp; Reparatur <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/netzwerkanbindung" class="nav__mob-sub-link">Netzwerkanbindung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/garantie-versicherung" class="nav__mob-sub-link">Garantie &amp; Versicherung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/schulung-einweisung" class="nav__mob-sub-link">Schulung &amp; Einweisung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/inzahlungnahme" class="nav__mob-sub-link">Inzahlungnahme <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav__mob-section">
+      <a href="/veranstaltungen" class="nav__mob-toggle" style="text-decoration:none">Veranstaltungen <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+    </div>
+
+    <div class="nav__mob-section" id="mob-standorte">
+      <button class="nav__mob-toggle" data-mob="standorte">Standorte <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/standorte/dortmund" class="nav__mob-sub-link">Dortmund (Hauptsitz) <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/duesseldorf" class="nav__mob-sub-link">Düsseldorf <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/hamburg" class="nav__mob-sub-link">Hamburg <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/kiel" class="nav__mob-sub-link">Kiel <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/digitale-sonothek" class="nav__mob-sub-link" style="color:var(--blue-d);font-weight:600;margin-top:0.5rem;display:flex;align-items:center;gap:0.5rem">
+            <span style="display:inline-flex;align-items:center;gap:0.4rem">
+              <span style="width:6px;height:6px;background:#22c55e;border-radius:50%;display:inline-block;flex-shrink:0"></span>
+              Digitale Sonothek
+            </span>
+            <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:auto"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav__mob-section" id="mob-ueber">
+      <button class="nav__mob-toggle" data-mob="ueber">Über uns <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/ueber/dormed" class="nav__mob-sub-link">Über Dormed <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ueber/sonoring" class="nav__mob-sub-link">Sonoring <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/karriere" class="nav__mob-sub-link">Karriere <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <a href="/kontakt" class="nav__mob-cta"> Unverbindlich anfragen</a>
+  </div>
+
+</nav>
+
+<script>
+(function(){
+  var nav      = document.getElementById('nav');
+  var backdrop = document.getElementById('nav-backdrop');
+  var burger   = document.getElementById('nav-burger');
+  var currentPanel = null;
+  var closeTimer   = null;
+
+  function openPanel(id) {
+    if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; }
+    if (currentPanel === id) return;
+    _hidePanels();
+    var panel = document.getElementById('panel-' + id);
+    var item  = nav.querySelector('[data-panel="' + id + '"]');
+    if (!panel || !item) return;
+    panel.classList.add('nav__panel--visible');
+    item.classList.add('nav__item--open');
+    item.querySelector('button').setAttribute('aria-expanded', 'true');
+    nav.classList.add('nav__wrap--active');
+    currentPanel = id;
+  }
+
+  function _hidePanels() {
+    document.querySelectorAll('.nav__panel--visible').forEach(function(p) { p.classList.remove('nav__panel--visible'); });
+    nav.querySelectorAll('.nav__item--open').forEach(function(i) {
+      i.classList.remove('nav__item--open');
+      var btn = i.querySelector('button');
+      if (btn) btn.setAttribute('aria-expanded', 'false');
+    });
+    currentPanel = null;
+  }
+
+  function closePanel() { _hidePanels(); nav.classList.remove('nav__wrap--active'); }
+
+  function scheduledClose() {
+    closeTimer = setTimeout(function() { closePanel(); closeTimer = null; }, 120);
+  }
+
+  nav.querySelectorAll('[data-panel]').forEach(function(item) {
+    var id = item.dataset.panel;
+    item.addEventListener('mouseenter', function() { if (window.innerWidth <= 1060) return; openPanel(id); });
+    item.addEventListener('mouseleave', function() { if (window.innerWidth <= 1060) return; scheduledClose(); });
+    item.querySelector('button').addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (currentPanel === id) { closePanel(); } else { openPanel(id); }
+    });
+  });
+
+  nav.querySelectorAll('.nav__panel').forEach(function(panel) {
+    panel.addEventListener('mouseenter', function() { if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; } });
+    panel.addEventListener('mouseleave', function() { scheduledClose(); });
+  });
+
+  backdrop.addEventListener('click', closePanel);
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') { closePanel(); closeMobile(); } });
+
+  function activateMegaCat(cat) {
+    var catId = cat.dataset.cat;
+    var panel = cat.closest('.nav__mega');
+    panel.querySelectorAll('.nav__mega-cat').forEach(function(c) {
+      c.classList.remove('nav__mega-cat--active');
+      c.setAttribute('aria-selected', 'false');
+      c.setAttribute('tabindex', '-1');
+    });
+    panel.querySelectorAll('.nav__mega-content').forEach(function(c) { c.classList.remove('nav__mega-content--active'); });
+    cat.classList.add('nav__mega-cat--active');
+    cat.setAttribute('aria-selected', 'true');
+    cat.setAttribute('tabindex', '0');
+    var content = panel.querySelector('.nav__mega-content[data-cat="' + catId + '"]');
+    if (content) content.classList.add('nav__mega-content--active');
+  }
+
+  nav.querySelectorAll('.nav__mega-cat').forEach(function(cat) {
+    cat.addEventListener('mouseenter', function() { activateMegaCat(cat); });
+    cat.addEventListener('click', function() { activateMegaCat(cat); });
+    cat.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activateMegaCat(cat); }
+      if (e.key === 'ArrowDown') { e.preventDefault(); var next = cat.nextElementSibling; if (next && next.classList.contains('nav__mega-cat')) next.focus(); }
+      if (e.key === 'ArrowUp')   { e.preventDefault(); var prev = cat.previousElementSibling; if (prev && prev.classList.contains('nav__mega-cat')) prev.focus(); }
+    });
+  });
+
+  function closeMobile() {
+    nav.classList.remove('nav__wrap--mob-open');
+    burger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  burger.addEventListener('click', function(e) {
+    e.stopPropagation();
+    closePanel();
+    var isOpen = nav.classList.toggle('nav__wrap--mob-open');
+    burger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  nav.querySelectorAll('[data-mob]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var id      = btn.dataset.mob;
+      var section = document.getElementById('mob-' + id);
+      var isOpen  = section.classList.contains('nav__mob-section--open');
+      nav.querySelectorAll('.nav__mob-section--open').forEach(function(s) { s.classList.remove('nav__mob-section--open'); });
+      if (!isOpen) section.classList.add('nav__mob-section--open');
+    });
+  });
+
+  window.addEventListener('resize', function() { if (window.innerWidth > 1060) { closeMobile(); } });
+})();
+</script></div></div></div></div></div></div></div>
+</header>
+<script>
+      (function() {
+        const el = document.getElementById('header-b346cc60-762d-497f-9c88-f211d52671b2');
+        if (!el) return;
+        const trigger = 50;
+        let lastY = window.scrollY;
+
+        function update() {
+          const currY = window.scrollY;
+          const isDesktop = window.innerWidth > 800;
+
+          if (isDesktop && currY > trigger) {
+            el.classList.add('is-scrolled'); 
+          } else {
+            el.classList.remove('is-scrolled');
+          }
+          
+          if (el.classList.contains('sticky-reveal')) {
+            if (currY > lastY && currY > trigger + 100) {
+              el.style.transform = 'translateY(-120%)';
+            } else {
+              el.style.transform = 'translateY(0)';
+            }
+          }
+          lastY = currY;
+        }
+
+        window.addEventListener('scroll', update, { passive: true });
+        window.addEventListener('resize', update);
+        update();
+      })();
+
+      // --- DROPDOWN TELEPORT ---
+      // Problem: Header hat transform:translateY() => neuer Stacking Context =>
+      // position:absolute Dropdowns werden innerhalb des Headers geclippt.
+      // Fix: .popup-bridge Elemente aus dem Header-DOM herausreißen,
+      // direkt an <body> hängen, und per position:fixed + getBoundingClientRect positionieren.
+      (function() {
+        if (window.__teleport_init) return;
+        window.__teleport_init = true;
+
+        function teleportDropdowns() {
+          var items = document.querySelectorAll('.menu-item');
+          items.forEach(function(item) {
+            var bridge = item.querySelector('.popup-bridge');
+            if (!bridge || bridge.getAttribute('data-teleported')) return;
+
+            // Bridge aus Header herauslösen und an <body> hängen
+            bridge.setAttribute('data-teleported', 'true');
+            document.body.appendChild(bridge);
+
+            function openBridge() {
+              var rect = item.getBoundingClientRect();
+              bridge.style.position = 'fixed';
+              bridge.style.top = rect.bottom + 'px';
+              bridge.style.left = rect.left + 'px';
+              bridge.style.minWidth = Math.max(rect.width, 220) + 'px';
+              bridge.style.opacity = '1';
+              bridge.style.visibility = 'visible';
+              bridge.style.transform = 'translateY(0)';
+              bridge.style.pointerEvents = 'auto';
+              bridge.style.zIndex = '999999';
+            }
+
+            function closeBridge() {
+              bridge.style.opacity = '0';
+              bridge.style.visibility = 'hidden';
+              bridge.style.pointerEvents = 'none';
+              bridge.style.transform = 'translateY(-8px)';
+            }
+
+            item.addEventListener('mouseenter', openBridge);
+
+            item.addEventListener('mouseleave', function(e) {
+              // Nicht schließen wenn Maus direkt auf Bridge wechselt
+              if (bridge.contains(e.relatedTarget)) return;
+              closeBridge();
+            });
+
+            bridge.addEventListener('mouseleave', function(e) {
+              // Nicht schließen wenn Maus zurück auf Item wechselt
+              if (item.contains(e.relatedTarget)) return;
+              closeBridge();
+            });
+          });
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', teleportDropdowns);
+        } else {
+          teleportDropdowns();
+        }
+      })();
+    </script>
+    <main id="yuuble-main" class="main">
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-2y8q5xs2u" style="position:relative;width:100%;min-height:auto;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-nd6n7apf7" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-ze7f84pll" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-ze7f84pll { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.inz-hero__wrap {
+  --grad:   linear-gradient(90deg, rgb(9,58,126), rgb(62,178,240));
+  --blue-l: rgb(62,178,240);
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%; overflow-x: clip; position: relative;
+}
+.inz-hero__wrap *,
+.inz-hero__wrap *::before,
+.inz-hero__wrap *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+
+/* ── Stage — kein Vollbild mehr, standard padding wie andere Heroes ── */
+.inz-hero__stage {
+  position: relative;
+  width: 100%;
+  padding: 7rem 0 4rem;
+  overflow: hidden;
+  min-height: 420px;
+}
+
+/* ── Background ── */
+.inz-hero__bg {
+  position: absolute; inset: 0;
+  background-image: url('/assets/img/0876ee7b-0502-446c-4c0c-b03ef0de1700.jpg');
+  background-size: cover; background-position: center center;
+  transform: scale(1.05);
+  animation: inz-zoom 14s ease-out forwards;
+}
+@keyframes inz-zoom { to { transform: scale(1.0); } }
+
+/* ── Overlays ── */
+.inz-hero__overlay        { position: absolute; inset: 0; background: rgba(4,12,28,0.52); }
+.inz-hero__overlay-left   { position: absolute; inset: 0; background: linear-gradient(100deg, rgba(4,12,28,0.80) 0%, rgba(4,12,28,0.45) 50%, rgba(4,12,28,0.05) 100%); }
+.inz-hero__overlay-bottom { position: absolute; bottom: 0; left: 0; right: 0; height: 45%; background: linear-gradient(to top, rgba(4,12,28,0.72), transparent); }
+
+/* ── Content ── */
+.inz-hero__content {
+  position: relative; z-index: 1;
+}
+
+/* ── Inner ── */
+.inz-hero__inner {
+  width: 100%; max-width: 1700px;
+  margin: 0 auto;
+  padding: 0 6% 0;
+  display: flex; flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Eyebrow */
+.inz-hero__eyebrow {
+  display: flex; align-items: center; gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem; letter-spacing: 0.28em; text-transform: uppercase;
+  color: var(--blue-l); margin-bottom: 0.85rem;
+  opacity: 0; animation: inz-up 0.6s ease 0.15s forwards;
+}
+.inz-hero__eyebrow::before {
+  content: ''; width: 20px; height: 1.5px;
+  background: var(--grad); flex-shrink: 0;
+}
+
+/* H1 */
+.inz-hero__h1 {
+  font-size: clamp(2rem, 3.6vw, 3.4rem);
+  font-weight: 700; letter-spacing: -0.04em; line-height: 1.05;
+  color: #fff; max-width: 700px; margin-bottom: 1.1rem;
+  opacity: 0; animation: inz-up 0.6s ease 0.28s forwards;
+}
+.inz-hero__h1 em {
+  font-style: normal;
+  background: var(--grad);
+  -webkit-background-clip: text; background-clip: text;
+  color: transparent;
+}
+
+/* Sub */
+.inz-hero__sub {
+  font-size: clamp(0.88rem, 1.1vw, 1rem); font-weight: 400; line-height: 1.75;
+  color: rgba(255,255,255,0.68); max-width: 560px; margin-bottom: 1.6rem;
+  opacity: 0; animation: inz-up 0.6s ease 0.42s forwards;
+}
+
+/* CTAs */
+.inz-hero__ctas {
+  display: flex; align-items: center; gap: 1.2rem;
+  flex-wrap: wrap; margin-bottom: 1.6rem;
+  opacity: 0; animation: inz-up 0.6s ease 0.56s forwards;
+}
+.inz-hero__btn-primary {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.88rem; font-weight: 600; color: #fff;
+  background: var(--grad); border: none;
+  padding: 0.75rem 1.5rem; cursor: pointer; text-decoration: none;
+  transition: opacity 0.2s, transform 0.15s;
+  box-shadow: 0 4px 20px rgba(9,58,126,0.45); white-space: nowrap;
+}
+.inz-hero__btn-primary:hover { opacity: 0.87; transform: translateY(-2px); }
+.inz-hero__btn-primary svg {
+  width: 14px; height: 14px; stroke: #fff; stroke-width: 2.2;
+  stroke-linecap: round; stroke-linejoin: round; fill: none; flex-shrink: 0;
+  transition: transform 0.2s;
+}
+.inz-hero__btn-primary:hover svg { transform: translateX(3px); }
+.inz-hero__btn-secondary {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.84rem; font-weight: 500;
+  color: rgba(255,255,255,0.90); text-decoration: none;
+  transition: color 0.2s; white-space: nowrap;
+}
+.inz-hero__btn-secondary:hover { color: var(--blue-l); }
+.inz-hero__btn-secondary svg {
+  width: 13px; height: 13px; stroke: var(--blue-l); fill: none; flex-shrink: 0;
+}
+
+/* Badges */
+.inz-hero__badges {
+  display: flex; flex-wrap: wrap; gap: 0.9rem;
+  padding-top: 0.85rem; border-top: 1px solid rgba(62,178,240,0.18);
+  opacity: 0; animation: inz-up 0.6s ease 0.72s forwards;
+}
+.inz-hero__badge {
+  display: flex; align-items: center; gap: 0.42rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.54rem; letter-spacing: 0.14em; text-transform: uppercase;
+  color: rgba(255,255,255,0.70); white-space: nowrap;
+}
+.inz-hero__badge-dot {
+  width: 5px; height: 5px; border-radius: 50%;
+  background: var(--blue-l); flex-shrink: 0;
+}
+
+/* ── Animation ── */
+@keyframes inz-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .inz-hero__inner { padding: 0 22px; }
+  .inz-hero__h1    { font-size: 2.4rem; max-width: 100%; }
+  .inz-hero__sub   { font-size: 0.88rem; max-width: 100%; }
+  .inz-hero__stage { padding: 6rem 0 3rem; }
+}
+@media (max-width: 480px) {
+  .inz-hero__inner         { padding: 0 18px; }
+  .inz-hero__h1            { font-size: 2.1rem; }
+  .inz-hero__ctas          { flex-direction: column; align-items: flex-start; gap: 0.65rem; margin-bottom: 1.2rem; }
+  .inz-hero__btn-primary   { width: 100%; justify-content: center; }
+  .inz-hero__badges        { gap: 0.6rem; }
+}
+</style>
+
+<div class="inz-hero__wrap" role="region" aria-labelledby="inz-hero-h1">
+  <div class="inz-hero__stage">
+
+    <div class="inz-hero__bg" aria-hidden="true"></div>
+    <div class="inz-hero__overlay" aria-hidden="true"></div>
+    <div class="inz-hero__overlay-left" aria-hidden="true"></div>
+    <div class="inz-hero__overlay-bottom" aria-hidden="true"></div>
+
+    <div class="inz-hero__content">
+      <div class="inz-hero__inner">
+
+        <p class="inz-hero__eyebrow">Leistungen · Inzahlungnahme</p>
+
+        <h1 class="inz-hero__h1" id="inz-hero-h1">
+          Ihr Ultraschall-Altgerät — <em>direkt beim Neukauf verrechnet.</em>
+        </h1>
+
+        <p class="inz-hero__sub">Kein Inserat, keine Verhandlung, kein Aufwand. Wir bewerten Ihr Altgerät fair — unabhängig vom Hersteller — holen es ab und verrechnen den Wert direkt mit Ihrem neuen Ultraschallsystem.</p>
+
+        <div class="inz-hero__ctas">
+          <a href="/kontakt" class="inz-hero__btn-primary">
+            Altgerät anfragen
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="13 6 19 12 13 18"/>
+            </svg>
+          </a>
+          <a href="tel:+492301188600" class="inz-hero__btn-secondary">
+            <svg viewBox="0 0 24 24" aria-hidden="true" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.9v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07A19.5 19.5 0 013.87 13a19.8 19.8 0 01-3.07-8.67A2 2 0 012.78 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L6.91 9.91A16 16 0 0013 16l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.9z"/>
+            </svg>
+            +49 (0) 2301 / 188-600
+          </a>
+        </div>
+
+        <ul class="inz-hero__badges" aria-label="Leistungsmerkmale">
+          <li class="inz-hero__badge">
+            <span class="inz-hero__badge-dot" aria-hidden="true"></span>Herstellerunabhängig
+          </li>
+          <li class="inz-hero__badge">
+            <span class="inz-hero__badge-dot" aria-hidden="true"></span>Faire & transparente Bewertung
+          </li>
+          <li class="inz-hero__badge">
+            <span class="inz-hero__badge-dot" aria-hidden="true"></span>Abholung durch uns
+          </li>
+          <li class="inz-hero__badge">
+            <span class="inz-hero__badge-dot" aria-hidden="true"></span>Direkt vom Neupreis abgezogen
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div></div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-94hrcpeoy" style="position:relative;width:100%;min-height:auto;background-color:#ffffff;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-z7jpxyc2r" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-wclfomkc4" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-wclfomkc4 { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.inz-how__wrap {
+  --grad:   linear-gradient(90deg, rgb(9,58,126), rgb(62,178,240));
+  --navy:   rgb(9,58,126);
+  --blue-l: rgb(62,178,240);
+  --muted:  rgb(72,87,112);
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%; overflow-x: clip;
+  padding: 5rem 0 5.5rem;
+}
+.inz-how__wrap *,
+.inz-how__wrap *::before,
+.inz-how__wrap *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+.inz-how__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ── Asymmetrisches Layout: Info links | Steps rechts ── */
+.inz-how__layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+/* ═══════════════════════════
+   LINKE SEITE — Warum Inzahlungnahme
+   ═══════════════════════════ */
+.inz-how__left {}
+
+.inz-how__label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: rgba(11,95,183,0.55);
+  display: flex; align-items: center; gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+.inz-how__label::before {
+  content: ''; width: 20px; height: 1px;
+  background: var(--grad); flex-shrink: 0;
+}
+.inz-how__h2 {
+  font-size: clamp(1.5rem, 2.4vw, 2rem);
+  font-weight: 700; letter-spacing: -0.04em; line-height: 1.15;
+  color: #0B1A2E; margin-bottom: 1rem;
+}
+.inz-how__h2 span {
+  background: var(--grad);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.inz-how__intro {
+  font-size: 0.88rem; font-weight: 400; line-height: 1.78;
+  color: var(--muted); margin-bottom: 1.8rem;
+}
+
+/* Vorteils-Liste */
+.inz-how__pros {
+  list-style: none;
+  display: flex; flex-direction: column; gap: 0;
+  border-top: 1px solid rgba(11,95,183,0.08);
+}
+.inz-how__pro {
+  display: flex; align-items: flex-start; gap: 0.9rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(11,95,183,0.08);
+}
+.inz-how__pro-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem; font-weight: 500;
+  background: var(--grad);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  flex-shrink: 0; margin-top: 0.1rem; line-height: 1;
+  min-width: 1.2rem;
+}
+.inz-how__pro-body {}
+.inz-how__pro-title {
+  font-size: 0.86rem; font-weight: 700;
+  color: #0B1A2E; margin-bottom: 0.2rem; line-height: 1.3;
+}
+.inz-how__pro-desc {
+  font-size: 0.78rem; font-weight: 400;
+  color: var(--muted); line-height: 1.6;
+}
+
+/* Geräte-Link */
+.inz-how__device-link {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  margin-top: 1.6rem;
+  font-size: 0.84rem; font-weight: 600;
+  color: var(--navy); text-decoration: none;
+  transition: gap 0.2s, color 0.2s;
+}
+.inz-how__device-link:hover { gap: 0.7rem; color: var(--blue-l); }
+.inz-how__device-link:focus-visible { outline: 2px solid var(--blue-l); outline-offset: 3px; }
+.inz-how__device-link svg {
+  width: 14px; height: 14px; fill: none;
+  stroke: currentColor; stroke-width: 2.2;
+  stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0;
+}
+
+/* ═══════════════════════════
+   RECHTE SEITE — 3-Schritt-Timeline
+   ═══════════════════════════ */
+.inz-how__right {}
+
+.inz-how__steps-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: rgba(11,95,183,0.55);
+  display: flex; align-items: center; gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+.inz-how__steps-label::before {
+  content: ''; width: 20px; height: 1px;
+  background: var(--grad); flex-shrink: 0;
+}
+
+/* Timeline */
+.inz-how__steps {
+  list-style: none;
+  position: relative;
+}
+
+/* Vertikale Verbindungslinie */
+.inz-how__steps::before {
+  content: '';
+  position: absolute;
+  top: 28px; bottom: 28px;
+  left: 27px; /* Mitte des Nummer-Kreises */
+  width: 1px;
+  background: linear-gradient(to bottom,
+    rgba(11,95,183,0.25) 0%,
+    rgba(62,178,240,0.40) 50%,
+    rgba(11,95,183,0.25) 100%
+  );
+  pointer-events: none;
+}
+
+.inz-how__step {
+  display: flex; align-items: flex-start; gap: 1.4rem;
+  padding-bottom: 2.2rem; position: relative;
+}
+.inz-how__step:last-child { padding-bottom: 0; }
+
+/* Nummer */
+.inz-how__step-num {
+  width: 56px; height: 56px; flex-shrink: 0;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid rgba(11,95,183,0.14);
+  display: flex; align-items: center; justify-content: center;
+  position: relative; z-index: 1;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.inz-how__step:hover .inz-how__step-num {
+  border-color: rgba(11,95,183,0.35);
+  box-shadow: 0 0 0 6px rgba(11,95,183,0.05);
+}
+.inz-how__step-num-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.95rem; font-weight: 500; line-height: 1;
+  background: var(--grad);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+/* Step Content */
+.inz-how__step-body {
+  flex: 1; padding-top: 0.6rem;
+}
+.inz-how__step-eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.5rem; letter-spacing: 0.18em; text-transform: uppercase;
+  color: rgba(11,95,183,0.5); margin-bottom: 0.35rem;
+}
+.inz-how__step-h3 {
+  font-size: 1.05rem; font-weight: 700;
+  color: #0B1A2E; letter-spacing: -0.025em;
+  line-height: 1.25; margin-bottom: 0.55rem; margin-top: 0;
+}
+.inz-how__step-text {
+  font-size: 0.86rem; font-weight: 400; line-height: 1.75;
+  color: var(--muted);
+}
+
+/* Step-interne Links */
+.inz-how__step-link {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  margin-top: 0.6rem;
+  font-size: 0.78rem; font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(11,95,183,0.18);
+  padding-bottom: 0.1rem;
+  transition: color 0.2s, border-color 0.2s;
+}
+.inz-how__step-link:hover { color: var(--navy); border-color: rgba(11,95,183,0.45); }
+.inz-how__step-link:focus-visible { outline: 2px solid var(--blue-l); outline-offset: 3px; }
+.inz-how__step-link svg {
+  width: 11px; height: 11px; fill: none;
+  stroke: currentColor; stroke-width: 2;
+  stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0;
+}
+
+/* ── Animation ── */
+.inz-how__anim {
+  opacity: 0; transform: translateY(16px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.inz-how__anim.inz-how__vis { opacity: 1; transform: none; }
+.inz-how__anim--d1 { transition-delay: 0.12s; }
+
+/* ── Responsive ── */
+@media (max-width: 860px) {
+  .inz-how__layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .inz-how__steps::before { display: none; }
+}
+@media (max-width: 640px) {
+  .inz-how__wrap { padding: 3.5rem 0 4rem; }
+  .inz-how__step-num { width: 48px; height: 48px; }
+  .inz-how__step { gap: 1rem; }
+}
+</style>
+
+<!-- MARKUP -->
+<div class="inz-how__wrap">
+  <div class="inz-how__inner">
+    <div class="inz-how__layout">
+
+      <!-- ── Links: Warum Inzahlungnahme ── -->
+      <div class="inz-how__left inz-how__anim">
+
+        <div class="inz-how__label" aria-hidden="true"> Warum Inzahlungnahme?</div>
+        <h2 class="inz-how__h2">Einfacher als <span>selbst verkaufen</span></h2>
+        <p class="inz-how__intro">Wer sein Altgerät selbst verkauft, investiert Zeit in Inserate, Preisverhandlungen und Logistik – oft ohne Garantie auf einen fairen Preis. Bei der Inzahlungnahme über SONORING DORMED läuft das anders.</p>
+
+        <ul class="inz-how__pros" aria-label="Vorteile der Inzahlungnahme">
+          <li class="inz-how__pro">
+            <span class="inz-how__pro-num" aria-hidden="true">01</span>
+            <div class="inz-how__pro-body">
+              <div class="inz-how__pro-title">Kein Aufwand</div>
+              <p class="inz-how__pro-desc"> Kein Inserat, keine Anfragen filtern, keine Verhandlung mit Dritten. Sie teilen uns Gerätemodell und Zustand mit – wir machen den Rest.</p>
+            </div>
+          </li>
+          <li class="inz-how__pro">
+            <span class="inz-how__pro-num" aria-hidden="true">02</span>
+            <div class="inz-how__pro-body">
+              <div class="inz-how__pro-title">Direkt verrechnet</div>
+              <p class="inz-how__pro-desc">Der Wert Ihres Altgeräts wird unmittelbar vom Preis Ihres neuen Ultraschallsystems abgezogen – transparent und ohne Umwege.</p>
+            </div>
+          </li>
+          <li class="inz-how__pro">
+            <span class="inz-how__pro-num" aria-hidden="true">03</span>
+            <div class="inz-how__pro-body">
+              <div class="inz-how__pro-title">Abholung inklusive</div>
+              <p class="inz-how__pro-desc">Wir holen Ihr Altgerät direkt aus Ihrer Praxis ab – koordiniert mit dem Liefertermin Ihres neuen Geräts, damit kein Loch im Praxisbetrieb entsteht.</p>
+            </div>
+          </li>
+        </ul>
+
+        <a href="/ultraschallgeraete" class="inz-how__device-link">
+          Neues Ultraschallgerät auswählen
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"/>
+            <polyline points="13 6 19 12 13 18"/>
+          </svg>
+        </a>
+
+      </div>
+
+      <!-- ── Rechts: 3-Schritt-Timeline ── -->
+      <div class="inz-how__right inz-how__anim inz-how__anim--d1">
+
+        <div class="inz-how__steps-label" aria-hidden="true">So läuft es ab</div>
+
+        <ol class="inz-how__steps" aria-label="Ablauf der Inzahlungnahme">
+
+          <!-- Schritt 1 -->
+          <li class="inz-how__step">
+            <div class="inz-how__step-num" aria-hidden="true">
+              <span class="inz-how__step-num-text">01</span>
+            </div>
+            <div class="inz-how__step-body">
+              <div class="inz-how__step-eyebrow">Schritt 1</div>
+              <h3 class="inz-how__step-h3">Anfrage & Bewertung</h3>
+              <p class="inz-how__step-text">Sie teilen uns Hersteller, Modell, Baujahr und Zustand Ihres Geräts mit – per Telefon oder über unser Kontaktformular. Wir prüfen und erstellen Ihnen ein unverbindliches Bewertungsangebot.</p>
+            </div>
+          </li>
+
+          <!-- Schritt 2 -->
+          <li class="inz-how__step">
+            <div class="inz-how__step-num" aria-hidden="true">
+              <span class="inz-how__step-num-text">02</span>
+            </div>
+            <div class="inz-how__step-body">
+              <div class="inz-how__step-eyebrow">Schritt 2</div>
+              <h3 class="inz-how__step-h3">Angebot & Abstimmung</h3>
+              <p class="inz-how__step-text">Sie erhalten ein transparentes Angebot mit dem Inzahlungnahme-Wert. Nach Ihrer Zustimmung stimmen wir gemeinsam Termin und Ablauf ab – abgestimmt auf den Lieferzeitraum Ihres neuen Geräts.</p>
+            </div>
+          </li>
+
+          <!-- Schritt 3 -->
+          <li class="inz-how__step">
+            <div class="inz-how__step-num" aria-hidden="true">
+              <span class="inz-how__step-num-text">03</span>
+            </div>
+            <div class="inz-how__step-body">
+              <div class="inz-how__step-eyebrow">Schritt 3</div>
+              <h3 class="inz-how__step-h3">Abholung & Verrechnung</h3>
+              <p class="inz-how__step-text">Wir holen Ihr Altgerät direkt in Ihrer Praxis ab und liefern das neue System – alles koordiniert, kein Zeitverlust. Der Inzahlungnahme-Wert wird direkt vom Neupreis abgezogen.</p>
+              <a href="/leistungen/lieferung" class="inz-how__step-link">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/>
+                  <path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/>
+                </svg>
+                Mehr zur Lieferung & Installation
+              </a>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+
+    </div><!-- /layout -->
+  </div><!-- /inner -->
+</div><!-- /wrap -->
+
+<script>
+(function() {
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('inz-how__vis');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.inz-how__anim').forEach(function(el) {
+    obs.observe(el);
+  });
+})();
+</script></div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-4rsby4yyv" style="position:relative;width:100%;min-height:auto;background-color:#F4F6F9;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-xyx8f9b2t" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-zf8rf367z" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-zf8rf367z { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.inz-scope__wrap {
+  --navy:  rgb(9,58,126);
+  --blue:  rgb(62,178,240);
+  --text:  rgb(18,30,52);
+  --muted: rgb(72,87,112);
+  --subtle:rgb(109,132,179);
+  --line:  rgba(9,58,126,0.10);
+  --soft:  rgba(9,58,126,0.04);
+  --grad:  linear-gradient(90deg, rgb(9,58,126), rgb(62,178,240));
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%; overflow-x: clip;
+}
+.inz-scope__wrap *,
+.inz-scope__wrap *::before,
+.inz-scope__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+.inz-scope__wrap *:focus-visible { outline: 2px solid var(--navy); outline-offset: 3px; }
+
+.inz-scope__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 5rem 2rem 5.5rem;
+}
+
+/* ── HEADER ── */
+.inz-scope__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 3rem;
+  margin-bottom: 2.5rem;
+  align-items: end;
+}
+.inz-scope__label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+.inz-scope__label::before {
+  content: '';
+  width: 18px;
+  height: 1.5px;
+  background: var(--grad);
+  flex-shrink: 0;
+}
+.inz-scope__h2 {
+  font-size: clamp(1.7rem, 2.8vw, 2.4rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+  color: var(--text);
+}
+.inz-scope__h2 em {
+  font-style: normal;
+  background: var(--grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.inz-scope__sub {
+  font-size: 0.98rem;
+  line-height: 1.75;
+  color: var(--muted);
+}
+
+/* ── SECTION DIVIDER ── */
+.inz-scope__divider {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.56rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--subtle);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 2.2rem 0 1rem;
+}
+.inz-scope__divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+.inz-scope__divider--first { margin-top: 0; }
+
+/* ── GRID ── */
+.inz-scope__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+/* ── TILE ── */
+.inz-scope__tile {
+  background: #fff;
+  padding: 1.7rem 1.4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  position: relative;
+  transition: background 0.2s ease;
+}
+.inz-scope__tile:hover { background: #fafbfc; }
+
+/* Featured-Variante (Mindray, Esaote) */
+.inz-scope__tile--featured::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: var(--grad);
+}
+
+/* Monogramm */
+.inz-scope__tile-mark {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: 0.35rem;
+  flex-shrink: 0;
+  background: rgba(9,58,126,0.05);
+  border: 1px solid var(--line);
+  overflow: hidden;
+  position: relative;
+}
+
+/* Logo-Bild */
+.inz-scope__tile-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 6px;
+  display: block;
+}
+
+/* Fallback-Monogramm (wird nur sichtbar wenn Bild fehlt) */
+.inz-scope__tile-mono {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.02em;
+}
+
+/* Farben je Hersteller (authentische Brand-Farben, wo bekannt)
+   Diese wirken nur auf den Mono-Fallback, nicht aufs Logo-Bild */
+.inz-scope__tile--mindray   .inz-scope__tile-mono { background: rgb(195,0,0); }
+.inz-scope__tile--esaote    .inz-scope__tile-mono { background: rgb(9,58,126); }
+.inz-scope__tile--ge        .inz-scope__tile-mono { background: rgb(0,93,158); }
+.inz-scope__tile--philips   .inz-scope__tile-mono { background: rgb(0,85,175); }
+.inz-scope__tile--siemens   .inz-scope__tile-mono { background: rgb(0,153,153); }
+.inz-scope__tile--canon     .inz-scope__tile-mono { background: rgb(204,0,0); }
+.inz-scope__tile--samsung   .inz-scope__tile-mono { background: rgb(20,40,80); }
+.inz-scope__tile--hitachi   .inz-scope__tile-mono { background: rgb(230,35,40); }
+.inz-scope__tile--sonoscape .inz-scope__tile-mono { background: rgb(0,120,190); }
+.inz-scope__tile--chison    .inz-scope__tile-mono { background: rgb(30,100,180); }
+.inz-scope__tile--vinno     .inz-scope__tile-mono { background: rgb(180,30,40); }
+.inz-scope__tile--edan      .inz-scope__tile-mono { background: rgb(40,90,160); }
+.inz-scope__tile--clarius   .inz-scope__tile-mono { background: rgb(0,130,200); }
+.inz-scope__tile--butterfly .inz-scope__tile-mono { background: rgb(240,160,0); color: #1a1a1a; }
+.inz-scope__tile--alpinion  .inz-scope__tile-mono { background: rgb(40,50,70); }
+.inz-scope__tile--sonosite  .inz-scope__tile-mono { background: rgb(200,70,40); }
+.inz-scope__tile--ezono     .inz-scope__tile-mono { background: rgb(70,110,160); }
+
+/* Platzhalter-Kachel "Weitere Marken" */
+.inz-scope__tile--other .inz-scope__tile-mark {
+  background: transparent;
+  border: 1px dashed rgba(9,58,126,0.25);
+}
+.inz-scope__tile--other .inz-scope__tile-mono {
+  background: transparent;
+  color: var(--subtle);
+  font-size: 1.5rem;
+}
+
+/* Partner-Badge */
+.inz-scope__tile-badge {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.46rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--blue);
+  background: var(--soft);
+  border: 1px solid var(--line);
+  padding: 0.16rem 0.42rem;
+  white-space: nowrap;
+}
+
+.inz-scope__tile-name {
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--text);
+  line-height: 1.2;
+}
+.inz-scope__tile-sub {
+  font-size: 0.74rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+/* ── META-LEISTE ── */
+.inz-scope__meta {
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 1.2rem 1.8rem;
+  display: flex;
+  gap: 1.8rem;
+  flex-wrap: wrap;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--subtle);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.inz-scope__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.inz-scope__meta-check {
+  width: 14px; height: 14px;
+  background: rgba(52,211,153,0.12);
+  border: 1px solid rgba(52,211,153,0.35);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.inz-scope__meta-check svg { width: 8px; height: 8px; stroke: rgb(16,150,100); fill: none; }
+.inz-scope__meta-cross {
+  width: 14px; height: 14px;
+  background: rgba(195,0,0,0.08);
+  border: 1px solid rgba(195,0,0,0.28);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.inz-scope__meta-cross svg { width: 7px; height: 7px; stroke: rgb(160,0,0); fill: none; }
+.inz-scope__meta-info {
+  width: 14px; height: 14px;
+  background: rgba(62,178,240,0.12);
+  border: 1px solid rgba(62,178,240,0.35);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  color: var(--blue);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+/* ── CONTACT BANNER ── */
+.inz-scope__banner {
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.inz-scope__banner-text {
+  font-size: 0.92rem;
+  color: var(--text);
+  line-height: 1.55;
+  flex: 1;
+  min-width: 260px;
+}
+.inz-scope__banner-btn {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(90deg, var(--navy), rgb(30,100,180));
+  padding: 0.75rem 1.3rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.15s, box-shadow 0.2s, opacity 0.2s;
+  box-shadow: 0 4px 16px rgba(9,58,126,0.22);
+}
+.inz-scope__banner-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 22px rgba(9,58,126,0.32);
+  opacity: 0.95;
+}
+.inz-scope__banner-btn svg { width: 12px; height: 12px; transition: transform 0.2s; }
+.inz-scope__banner-btn:hover svg { transform: translateX(3px); }
+
+/* ── ANIM ── */
+.inz-scope__anim { opacity: 0; transform: translateY(16px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.inz-scope__anim.inz-scope__vis { opacity: 1; transform: none; }
+.inz-scope__anim--d1 { transition-delay: 0.08s; }
+.inz-scope__anim--d2 { transition-delay: 0.16s; }
+.inz-scope__anim--d3 { transition-delay: 0.24s; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1000px) {
+  .inz-scope__head { grid-template-columns: 1fr; gap: 1.2rem; }
+  .inz-scope__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .inz-scope__inner { padding: 3.5rem 1.5rem 4rem; }
+  .inz-scope__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .inz-scope__tile { padding: 1.4rem 1.1rem 1.2rem; }
+  .inz-scope__meta { gap: 1rem; padding: 1rem 1.3rem; }
+  .inz-scope__banner { flex-direction: column; align-items: stretch; }
+  .inz-scope__banner-btn { justify-content: center; }
+}
+@media (max-width: 400px) {
+  .inz-scope__grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="inz-scope__wrap">
+<div class="inz-scope__inner">
+
+  <!-- ── HEADER ── -->
+  <div class="inz-scope__head inz-scope__anim">
+    <div>
+      <div class="inz-scope__label">Welche Hersteller</div>
+      <h2 class="inz-scope__h2">Ultraschallgeräte — <em>herstellerunabhängig angenommen.</em></h2>
+    </div>
+    <p class="inz-scope__sub">Von unseren Partnermarken bis zu den großen Namen des Marktes. Wir nehmen Geräte aller gängigen Hersteller in Zahlung — bei Nicht-Partnern prüfen wir Zustand und Marktwert individuell.</p>
+  </div>
+
+  <!-- ── SECTION 1: PARTNERS ── -->
+  <div class="inz-scope__divider inz-scope__divider--first inz-scope__anim">
+    SONORING Portfolio — direkte Verrechnung
+  </div>
+
+  <div class="inz-scope__grid inz-scope__anim inz-scope__anim--d1">
+    <div class="inz-scope__tile inz-scope__tile--featured inz-scope__tile--mindray">
+      <div class="inz-scope__tile-badge" aria-hidden="true">Partner seit 2005</div>
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="M Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">M</span>
+        </div>
+      <div class="inz-scope__tile-name">Mindray</div>
+      <div class="inz-scope__tile-sub">Nuewa, Resona, Consona, TE, MX, DC, DP, Z-Serie</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--featured inz-scope__tile--esaote">
+      <div class="inz-scope__tile-badge" aria-hidden="true">Partner</div>
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="E Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">E</span>
+        </div>
+      <div class="inz-scope__tile-name">Esaote</div>
+      <div class="inz-scope__tile-sub">MyLab A50, A70, X8, 9, Omega, Seven, Gamma, Sigma</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--featured inz-scope__tile--chison">
+      <div class="inz-scope__tile-badge" aria-hidden="true">Partner</div>
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="C Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">C</span>
+        </div>
+      <div class="inz-scope__tile-name">Chison</div>
+      <div class="inz-scope__tile-sub">CBit-Serie, ECO, SonoBook, SonoAir</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--other">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="+ Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">+</span>
+        </div>
+      <div class="inz-scope__tile-name">Weitere Marken?</div>
+      <div class="inz-scope__tile-sub">Siehe unten — wir nehmen herstellerunabhängig an.</div>
+    </div>
+  </div>
+
+  <!-- ── SECTION 2: ALL OTHER MANUFACTURERS ── -->
+  <div class="inz-scope__divider inz-scope__anim">
+    Andere Hersteller — nach individueller Prüfung
+  </div>
+
+  <div class="inz-scope__grid inz-scope__anim inz-scope__anim--d2">
+
+    <!-- Etablierte Premium -->
+    <div class="inz-scope__tile inz-scope__tile--ge">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="GE Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">GE</span>
+        </div>
+      <div class="inz-scope__tile-name">GE HealthCare</div>
+      <div class="inz-scope__tile-sub">Voluson, LOGIQ, Vivid, Venue, Vscan</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--philips">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="P Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">P</span>
+        </div>
+      <div class="inz-scope__tile-name">Philips</div>
+      <div class="inz-scope__tile-sub">EPIQ, Affiniti, CX, ClearVue, Lumify</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--siemens">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="SH Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">SH</span>
+        </div>
+      <div class="inz-scope__tile-name">Siemens Healthineers</div>
+      <div class="inz-scope__tile-sub">ACUSON Sequoia, Juniper, Redwood, P500</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--canon">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="C Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">C</span>
+        </div>
+      <div class="inz-scope__tile-name">Canon · Toshiba</div>
+      <div class="inz-scope__tile-sub">Aplio i-Serie, Xario, Viamo</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--samsung">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="S Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">S</span>
+        </div>
+      <div class="inz-scope__tile-name">Samsung</div>
+      <div class="inz-scope__tile-sub">RS85, HS-Serie, WS80, V-Serie</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--hitachi">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="H Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">H</span>
+        </div>
+      <div class="inz-scope__tile-name">Hitachi · Fujifilm</div>
+      <div class="inz-scope__tile-sub">Arietta-Serie, Noblus, Ascendus, Aloka</div>
+    </div>
+
+    <!-- Asiatischer Markt -->
+    <div class="inz-scope__tile inz-scope__tile--sonoscape">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="SS Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">SS</span>
+        </div>
+      <div class="inz-scope__tile-name">SonoScape</div>
+      <div class="inz-scope__tile-sub">P-Serie (P50/P60), S-Serie, E-Serie</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--vinno">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="V Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">V</span>
+        </div>
+      <div class="inz-scope__tile-name">Vinno</div>
+      <div class="inz-scope__tile-sub">Ultimus-Serie, R700, E-Serie, G-Serie, A5</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--edan">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="ED Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">ED</span>
+        </div>
+      <div class="inz-scope__tile-name">Edan</div>
+      <div class="inz-scope__tile-sub">Acclarix-Serie, U50, U60, AX-Serie</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--alpinion">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="A Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">A</span>
+        </div>
+      <div class="inz-scope__tile-name">Alpinion</div>
+      <div class="inz-scope__tile-sub">X-CUBE i9, E-CUBE-Serie</div>
+    </div>
+
+    <!-- Handheld -->
+    <div class="inz-scope__tile inz-scope__tile--clarius">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="CL Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">CL</span>
+        </div>
+      <div class="inz-scope__tile-name">Clarius</div>
+      <div class="inz-scope__tile-sub">HD3-Serie (C3, L7, L15, L20, PA, PAL)</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--butterfly">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="B Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">B</span>
+        </div>
+      <div class="inz-scope__tile-name">Butterfly Network</div>
+      <div class="inz-scope__tile-sub">iQ+, iQ3, Vscan-ähnliche Handhelds</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--sonosite">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <img src="" alt="SN Logo" class="inz-scope__tile-logo" loading="lazy" decoding="async"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="inz-scope__tile-mono" style="display:none">SN</span>
+        </div>
+      <div class="inz-scope__tile-name">SonoSite</div>
+      <div class="inz-scope__tile-sub">Edge II, M-Turbo, X-Porte, PX</div>
+    </div>
+
+    <div class="inz-scope__tile inz-scope__tile--ezono">
+      <div class="inz-scope__tile-mark" aria-hidden="true">eZ</div>
+      <div class="inz-scope__tile-name">eZono</div>
+      <div class="inz-scope__tile-sub">eZono 3000, eZono 4000 (Nadelführung)</div>
+    </div>
+
+    <!-- Catch-all -->
+    <div class="inz-scope__tile inz-scope__tile--other">
+      <div class="inz-scope__tile-mark" aria-hidden="true">
+          <span class="inz-scope__tile-mono" style="display:flex">+</span>
+        </div>
+      <div class="inz-scope__tile-name">Weitere Hersteller</div>
+      <div class="inz-scope__tile-sub">Auch kleinere & ältere Marken — fragen Sie uns.</div>
+    </div>
+
+  </div>
+
+  <!-- ── META-LEISTE ── -->
+  <div class="inz-scope__meta inz-scope__anim inz-scope__anim--d3">
+    <div class="inz-scope__meta-item">
+      <span class="inz-scope__meta-check"><svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6l3 3 5-6"/></svg></span>
+      Funktionsfähig
+    </div>
+    <div class="inz-scope__meta-item">
+      <span class="inz-scope__meta-check"><svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6l3 3 5-6"/></svg></span>
+      Gebrauchsspuren normal
+    </div>
+    <div class="inz-scope__meta-item">
+      <span class="inz-scope__meta-info" aria-hidden="true">i</span>
+      Einzelfallprüfung bei Nicht-Partnern
+    </div>
+    <div class="inz-scope__meta-item">
+      <span class="inz-scope__meta-cross"><svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l6 6M9 3l-6 6"/></svg></span>
+      Kein Totalschaden
+    </div>
+  </div>
+
+  <!-- ── CONTACT BANNER ── -->
+  <div class="inz-scope__banner inz-scope__anim inz-scope__anim--d3">
+    <p class="inz-scope__banner-text">Ihr Gerät ist nicht aufgelistet oder Sie sind unsicher über den Zustand? Sprechen Sie uns an — wir prüfen Ihr konkretes Gerät und geben eine ehrliche Einschätzung.</p>
+    <a href="/kontakt" class="inz-scope__banner-btn">
+      Gerät anfragen
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+    </a>
+  </div>
+
+</div>
+</div>
+
+<script>
+(function() {
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('inz-scope__vis');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.04, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.inz-scope__anim').forEach(function(el) {
+    obs.observe(el);
+  });
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-fo66zbf4i" style="position:relative;width:100%;min-height:auto;background-color:#ffffff;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-7wbccv54c" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-crwur3uud" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-crwur3uud { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.inz-value__wrap {
+  --grad:   linear-gradient(90deg, rgb(9,58,126), rgb(62,178,240));
+  --navy:   rgb(9,58,126);
+  --blue-l: rgb(62,178,240);
+  --muted:  rgb(72,87,112);
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%; overflow-x: clip;
+  padding: 5rem 0 5.5rem;
+}
+.inz-value__wrap *,
+.inz-value__wrap *::before,
+.inz-value__wrap *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+.inz-value__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ── Layout: 55% Kriterien | 45% Rechenbeispiel ── */
+.inz-value__layout {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 4rem;
+  align-items: start;
+}
+
+/* ═══════════════════════════
+   LINKE SEITE — Bewertungskriterien
+   ═══════════════════════════ */
+.inz-value__left {}
+
+.inz-value__label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: rgba(11,95,183,0.55);
+  display: flex; align-items: center; gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+.inz-value__label::before {
+  content: ''; width: 20px; height: 1px;
+  background: var(--grad); flex-shrink: 0;
+}
+.inz-value__h2 {
+  font-size: clamp(1.75rem, 2.8vw, 2.3rem);
+  font-weight: 700; letter-spacing: -0.04em; line-height: 1.1;
+  color: #0B1A2E; margin-bottom: 1rem;
+}
+.inz-value__h2 span {
+  background: var(--grad);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.inz-value__intro {
+  font-size: 0.92rem; font-weight: 400; line-height: 1.78;
+  color: var(--muted); margin-bottom: 2.2rem;
+}
+
+/* Kriterien-Grid 2×2 */
+.inz-value__criteria {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: rgba(11,95,183,0.08);
+  border: 1px solid rgba(11,95,183,0.08);
+  margin-bottom: 2rem;
+}
+.inz-value__criterion {
+  background: #fff;
+  padding: 1.4rem 1.5rem;
+  display: flex; align-items: flex-start; gap: 1rem;
+  transition: background 0.2s;
+}
+.inz-value__criterion:hover { background: rgba(11,95,183,0.015); }
+
+.inz-value__crit-icon {
+  width: 38px; height: 38px; flex-shrink: 0;
+  background: linear-gradient(135deg, rgba(9,58,126,0.08), rgba(62,178,240,0.08));
+  display: flex; align-items: center; justify-content: center;
+}
+.inz-value__crit-icon svg {
+  width: 17px; height: 17px; fill: none;
+  stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round;
+}
+.inz-value__crit-body {}
+.inz-value__crit-title {
+  font-size: 0.88rem; font-weight: 700;
+  color: #0B1A2E; line-height: 1.25; margin-bottom: 0.25rem;
+}
+.inz-value__crit-desc {
+  font-size: 0.76rem; font-weight: 400;
+  color: var(--muted); line-height: 1.6;
+}
+
+/* Finanzierungs-Querlink */
+.inz-value__fin-link {
+  display: flex; align-items: center; gap: 1rem;
+  padding: 1rem 1.4rem;
+  border: 1px solid rgba(11,95,183,0.09);
+  background: linear-gradient(100deg, rgba(9,58,126,0.03), rgba(62,178,240,0.03));
+  text-decoration: none;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.inz-value__fin-link:hover {
+  background: rgba(11,95,183,0.04);
+  box-shadow: 0 4px 16px rgba(11,95,183,0.06);
+}
+.inz-value__fin-link:focus-visible { outline: 2px solid var(--blue-l); outline-offset: 3px; }
+.inz-value__fin-icon {
+  width: 36px; height: 36px; flex-shrink: 0;
+  background: linear-gradient(135deg, rgba(9,58,126,0.09), rgba(62,178,240,0.09));
+  display: flex; align-items: center; justify-content: center;
+}
+.inz-value__fin-icon svg {
+  width: 16px; height: 16px; fill: none;
+  stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round;
+}
+.inz-value__fin-body { flex: 1; }
+.inz-value__fin-eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.5rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: rgba(11,95,183,0.5); margin-bottom: 0.15rem;
+}
+.inz-value__fin-title {
+  font-size: 0.86rem; font-weight: 600; color: #0B1A2E; line-height: 1.3;
+}
+.inz-value__fin-arrow {
+  width: 28px; height: 28px; flex-shrink: 0;
+  background: linear-gradient(135deg, rgba(9,58,126,0.08), rgba(62,178,240,0.08));
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.2s;
+}
+.inz-value__fin-link:hover .inz-value__fin-arrow {
+  background: linear-gradient(135deg, rgb(9,58,126), rgb(62,178,240));
+}
+.inz-value__fin-arrow svg {
+  width: 12px; height: 12px; fill: none;
+  stroke: var(--navy); stroke-width: 2.2;
+  stroke-linecap: round; stroke-linejoin: round;
+  transition: stroke 0.2s;
+}
+.inz-value__fin-link:hover .inz-value__fin-arrow svg { stroke: #fff; }
+
+/* ═══════════════════════════
+   RECHTE SEITE — Rechenbeispiel
+   ═══════════════════════════ */
+.inz-value__right {}
+
+.inz-value__calc {
+  border: 1px solid rgba(11,95,183,0.10);
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.inz-value__calc::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: var(--grad);
+}
+
+.inz-value__calc-head {
+  padding: 1.4rem 1.6rem 1.2rem;
+  border-bottom: 1px solid rgba(11,95,183,0.07);
+  display: flex; align-items: center; gap: 0.8rem;
+}
+.inz-value__calc-head-icon {
+  width: 34px; height: 34px; flex-shrink: 0;
+  background: linear-gradient(135deg, rgba(9,58,126,0.08), rgba(62,178,240,0.08));
+  display: flex; align-items: center; justify-content: center;
+}
+.inz-value__calc-head-icon svg {
+  width: 15px; height: 15px; fill: none;
+  stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round;
+}
+.inz-value__calc-h3 {
+  font-size: 0.88rem; font-weight: 700;
+  color: #0B1A2E; letter-spacing: -0.02em; margin: 0;
+}
+.inz-value__calc-sub {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.48rem; letter-spacing: 0.14em; text-transform: uppercase;
+  color: rgba(11,95,183,0.45);
+}
+
+/* Rechenzeilen */
+.inz-value__calc-body { padding: 0.5rem 0 0; }
+
+.inz-value__calc-row {
+  display: flex; align-items: center;
+  justify-content: space-between; gap: 1rem;
+  padding: 1rem 1.6rem;
+  border-bottom: 1px solid rgba(11,95,183,0.06);
+}
+.inz-value__calc-row:last-of-type { border-bottom: none; }
+
+.inz-value__calc-row--total {
+  background: linear-gradient(100deg, rgba(9,58,126,0.04), rgba(62,178,240,0.04));
+  border-top: 2px solid rgba(11,95,183,0.12);
+  border-bottom: none;
+  padding: 1.2rem 1.6rem;
+}
+
+.inz-value__calc-desc {
+  font-size: 0.84rem; font-weight: 400;
+  color: var(--muted); line-height: 1.4; flex: 1;
+}
+.inz-value__calc-row--total .inz-value__calc-desc {
+  font-weight: 700; color: #0B1A2E;
+}
+.inz-value__calc-desc span {
+  display: block;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.48rem; letter-spacing: 0.14em; text-transform: uppercase;
+  color: rgba(11,95,183,0.45); font-weight: 400; margin-bottom: 0.1rem;
+}
+
+.inz-value__calc-amount {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem; font-weight: 500;
+  color: #0B1A2E; white-space: nowrap; text-align: right;
+}
+.inz-value__calc-row--subtraction .inz-value__calc-amount {
+  color: rgb(9,58,126);
+}
+.inz-value__calc-row--total .inz-value__calc-amount {
+  font-size: 1.3rem;
+  background: var(--grad);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+/* Operator */
+.inz-value__calc-op {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem; font-weight: 300;
+  color: rgba(11,95,183,0.4); flex-shrink: 0; width: 1rem; text-align: center;
+}
+
+/* Hinweis */
+.inz-value__calc-note {
+  padding: 0.9rem 1.6rem;
+  background: rgba(11,95,183,0.025);
+  border-top: 1px solid rgba(11,95,183,0.07);
+  font-size: 0.72rem; font-weight: 400; line-height: 1.65;
+  color: var(--muted);
+}
+
+/* ── Animation ── */
+.inz-value__anim {
+  opacity: 0; transform: translateY(16px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.inz-value__anim.inz-value__vis { opacity: 1; transform: none; }
+.inz-value__anim--d1 { transition-delay: 0.12s; }
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .inz-value__layout { grid-template-columns: 1fr 360px; gap: 2.5rem; }
+}
+@media (max-width: 860px) {
+  .inz-value__layout { grid-template-columns: 1fr; gap: 2rem; }
+}
+@media (max-width: 640px) {
+  .inz-value__wrap { padding: 3.5rem 0 4rem; }
+  .inz-value__criteria { grid-template-columns: 1fr; }
+}
+</style>
+
+<!-- MARKUP -->
+<div class="inz-value__wrap">
+  <div class="inz-value__inner">
+    <div class="inz-value__layout">
+
+      <!-- ── Links: Bewertungskriterien ── -->
+      <div class="inz-value__left inz-value__anim">
+
+        <div class="inz-value__label" aria-hidden="true"> Wie wir bewerten</div>
+        <h2 class="inz-value__h2">Fair bewertet — <span>transparent verrechnet</span></h2>
+        <p class="inz-value__intro">Der Wert Ihres Altgeräts hängt von vier Faktoren ab. Wir bewerten ehrlich und nachvollziehbar – kein Pauschalabzug, kein versteckter Aufschlag auf den Neupreis.</p>
+
+        <!-- Kriterien 2×2 -->
+        <div class="inz-value__criteria" role="list"
+             aria-label="Bewertungskriterien für Ihr Altgerät">
+
+          <div class="inz-value__criterion" role="listitem">
+            <div class="inz-value__crit-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <defs><linearGradient id="iv-g1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="rgb(9,58,126)"/>
+                  <stop offset="100%" stop-color="rgb(62,178,240)"/>
+                </linearGradient></defs>
+                <rect x="3" y="4" width="18" height="18" rx="2" stroke="url(#iv-g1)"/>
+                <line x1="16" y1="2" x2="16" y2="6" stroke="url(#iv-g1)"/>
+                <line x1="8" y1="2" x2="8" y2="6" stroke="url(#iv-g1)"/>
+                <line x1="3" y1="10" x2="21" y2="10" stroke="url(#iv-g1)"/>
+              </svg>
+            </div>
+            <div class="inz-value__crit-body">
+              <div class="inz-value__crit-title">Modell & Hersteller</div>
+              <p class="inz-value__crit-desc">Mindray- und Esaote-Modelle aus unserem Portfolio haben einen definierten Wiederverkaufswert — neuere, gefragte Modelle erzielen höhere Inzahlungnahme-Werte.</p>
+            </div>
+          </div>
+
+          <div class="inz-value__criterion" role="listitem">
+            <div class="inz-value__crit-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <defs><linearGradient id="iv-g2" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="rgb(9,58,126)"/>
+                  <stop offset="100%" stop-color="rgb(62,178,240)"/>
+                </linearGradient></defs>
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="url(#iv-g2)"/>
+                <polyline points="9 12 11 14 15 10" stroke="url(#iv-g2)"/>
+              </svg>
+            </div>
+            <div class="inz-value__crit-body">
+              <div class="inz-value__crit-title"> Technischer Zustand</div>
+              <p class="inz-value__crit-desc">Funktionsfähigkeit, Bildqualität und technische Mängel werden bewertet. Gebrauchsspuren sind normal und mindern den Wert nur geringfügig.</p>
+            </div>
+          </div>
+
+          <div class="inz-value__criterion" role="listitem">
+            <div class="inz-value__crit-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <defs><linearGradient id="iv-g3" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="rgb(9,58,126)"/>
+                  <stop offset="100%" stop-color="rgb(62,178,240)"/>
+                </linearGradient></defs>
+                <circle cx="12" cy="12" r="10" stroke="url(#iv-g3)"/>
+                <path d="M12 8v4l3 3" stroke="url(#iv-g3)" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="inz-value__crit-body">
+              <div class="inz-value__crit-title">Baujahr & Betriebsdauer</div>
+              <p class="inz-value__crit-desc">Ältere Geräte haben naturgemäß einen geringeren Restwert. Entscheidend ist aber vor allem der Zustand — nicht allein das Alter.</p>
+            </div>
+          </div>
+
+          <div class="inz-value__criterion" role="listitem">
+            <div class="inz-value__crit-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <defs><linearGradient id="iv-g4" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="rgb(9,58,126)"/>
+                  <stop offset="100%" stop-color="rgb(62,178,240)"/>
+                </linearGradient></defs>
+                <path d="M9 12h6M9 16h4" stroke="url(#iv-g4)"/>
+                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke="url(#iv-g4)"/>
+                <polyline points="14 2 14 8 20 8" stroke="url(#iv-g4)"/>
+              </svg>
+            </div>
+            <div class="inz-value__crit-body">
+              <div class="inz-value__crit-title">Sonden & Dokumentation</div>
+              <p class="inz-value__crit-desc">orhandene Schallköpfe und vollständige Serviceunterlagen (Wartungsprotokolle, Handbücher) erhöhen den Inzahlungnahme-Wert.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Querlink: Finanzierung -->
+        <a href="/leistungen/finanzierung" class="inz-value__fin-link">
+          <div class="inz-value__fin-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <defs><linearGradient id="iv-g5" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="rgb(9,58,126)"/>
+                <stop offset="100%" stop-color="rgb(62,178,240)"/>
+              </linearGradient></defs>
+              <rect x="1" y="4" width="22" height="16" rx="2" stroke="url(#iv-g5)"/>
+              <line x1="1" y1="10" x2="23" y2="10" stroke="url(#iv-g5)"/>
+            </svg>
+          </div>
+          <div class="inz-value__fin-body">
+            <div class="inz-value__fin-eyebrow">Kombination möglich</div>
+            <div class="inz-value__fin-title">Restbetrag leasen oder finanzieren — so bleibt Ihre Liquidität erhalten</div>
+          </div>
+          <div class="inz-value__fin-arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="13 6 19 12 13 18"/>
+            </svg>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- ── Rechts: Stilisiertes Rechenbeispiel ── -->
+      <div class="inz-value__right inz-value__anim inz-value__anim--d1">
+
+        <div class="inz-value__calc" aria-label="Beispielrechnung Inzahlungnahme">
+
+          <div class="inz-value__calc-head">
+            <div class="inz-value__calc-head-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <defs><linearGradient id="iv-g6" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="rgb(9,58,126)"/>
+                  <stop offset="100%" stop-color="rgb(62,178,240)"/>
+                </linearGradient></defs>
+                <rect x="4" y="2" width="16" height="20" rx="2" stroke="url(#iv-g6)"/>
+                <path d="M9 7h6M9 11h6M9 15h4" stroke="url(#iv-g6)"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="inz-value__calc-h3">So funktioniert die Verrechnung</h3>
+              <div class="inz-value__calc-sub">Beispielrechnung · Illustrativ</div>
+            </div>
+          </div>
+
+          <div class="inz-value__calc-body">
+
+            <!-- Neupreis -->
+            <div class="inz-value__calc-row">
+              <div class="inz-value__calc-desc">
+                <span>Ihr neues Gerät</span>
+                Mindray Resona i9 · Beispielpreis
+              </div>
+              <span class="inz-value__calc-op" aria-hidden="true"> </span>
+              <div class="inz-value__calc-amount">38.000 €</div>
+            </div>
+
+            <!-- Altgeräte-Wert -->
+            <div class="inz-value__calc-row inz-value__calc-row--subtraction">
+              <div class="inz-value__calc-desc">
+                <span>Ihr Altgerät in Zahlung</span>
+                Mindray DC-70 · Baujahr 2019, guter Zustand
+              </div>
+              <span class="inz-value__calc-op" aria-label="minus">−</span>
+              <div class="inz-value__calc-amount">4.500 €</div>
+            </div>
+
+            <!-- Ergebnis -->
+            <div class="inz-value__calc-row inz-value__calc-row--total">
+              <div class="inz-value__calc-desc">
+                <span>Ihr Preis</span>
+                Nach Inzahlungnahme
+              </div>
+              <span class="inz-value__calc-op" aria-label="gleich">=</span>
+              <div class="inz-value__calc-amount">33.500 €</div>
+            </div>
+
+          </div>
+
+          <p class="inz-value__calc-note">Alle Preise sind Beispielwerte zur Illustration. Der tatsächliche Inzahlungnahme-Wert wird individuell nach Prüfung Ihres Geräts ermittelt. Preise netto zzgl. MwSt.</p>
+
+        </div>
+
+      </div>
+
+    </div><!-- /layout -->
+  </div><!-- /inner -->
+</div><!-- /wrap -->
+
+<script>
+(function() {
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('inz-value__vis');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.inz-value__anim').forEach(function(el) {
+    obs.observe(el);
+  });
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-sh3fbeiax" style="position:relative;width:100%;min-height:auto;background-color:#F4F6F9;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-px01pcwcr" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-j9rj9m9mx" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-j9rj9m9mx { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.inz-faq__wrap {
+  --grad:   linear-gradient(90deg, rgb(9,58,126), rgb(62,178,240));
+  --navy:   rgb(9,58,126);
+  --blue-l: rgb(62,178,240);
+  --muted:  rgb(72,87,112);
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%; overflow-x: clip;
+  padding: 5rem 0 5.5rem;
+}
+.inz-faq__wrap *,
+.inz-faq__wrap *::before,
+.inz-faq__wrap *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+.inz-faq__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ── Layout: Sticky Left + Accordion Right ── */
+.inz-faq__layout {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+/* ── Left ── */
+.inz-faq__left { position: sticky; top: 6rem; }
+
+.inz-faq__label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: rgba(11,95,183,0.55);
+  display: flex; align-items: center; gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+.inz-faq__label::before {
+  content: ''; width: 20px; height: 1px;
+  background: var(--grad); flex-shrink: 0;
+}
+.inz-faq__h2 {
+  font-size: clamp(1.6rem, 2.6vw, 2.2rem);
+  font-weight: 700; letter-spacing: -0.04em; line-height: 1.1;
+  color: #0B1A2E; margin-bottom: 1rem;
+}
+.inz-faq__h2 span {
+  background: var(--grad);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.inz-faq__left-sub {
+  font-size: 0.9rem; font-weight: 400; line-height: 1.75;
+  color: var(--muted); margin-bottom: 1.8rem;
+}
+.inz-faq__left-cta {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  font-size: 0.85rem; font-weight: 600;
+  color: var(--navy); text-decoration: none;
+  transition: gap 0.2s, color 0.2s;
+}
+.inz-faq__left-cta:hover { gap: 0.7rem; color: var(--blue-l); }
+.inz-faq__left-cta:focus-visible { outline: 2px solid var(--blue-l); outline-offset: 3px; }
+.inz-faq__left-cta svg {
+  width: 14px; height: 14px; fill: none;
+  stroke: currentColor; stroke-width: 2.2;
+  stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0;
+}
+
+/* ── Accordion ── */
+.inz-faq__accordion {
+  display: flex; flex-direction: column;
+  border-top: 1px solid rgba(11,95,183,0.10);
+}
+.inz-faq__item {
+  border-bottom: 1px solid rgba(11,95,183,0.10);
+}
+.inz-faq__trigger {
+  width: 100%; background: none; border: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1.2rem; padding: 1.4rem 0; text-align: left;
+}
+.inz-faq__trigger:focus-visible { outline: 2px solid var(--blue-l); outline-offset: 2px; }
+.inz-faq__trigger:hover .inz-faq__q { color: var(--navy); }
+
+.inz-faq__q {
+  font-size: 0.97rem; font-weight: 600;
+  color: #0B1A2E; line-height: 1.4; flex: 1;
+  transition: color 0.2s; margin: 0;
+}
+.inz-faq__trigger[aria-expanded="true"] .inz-faq__q {
+  background: var(--grad);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+.inz-faq__chevron {
+  width: 20px; height: 20px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  border: 1px solid rgba(11,95,183,0.15); background: #fff;
+  transition: transform 0.3s ease, background 0.2s, border-color 0.2s;
+}
+.inz-faq__chevron svg {
+  width: 10px; height: 10px; fill: none;
+  stroke: var(--navy); stroke-width: 2.2;
+  stroke-linecap: round; stroke-linejoin: round;
+  transition: stroke 0.2s;
+}
+.inz-faq__trigger[aria-expanded="true"] .inz-faq__chevron {
+  transform: rotate(180deg);
+  background: var(--navy); border-color: var(--navy);
+}
+.inz-faq__trigger[aria-expanded="true"] .inz-faq__chevron svg { stroke: #fff; }
+
+.inz-faq__panel {
+  overflow: hidden; max-height: 0;
+  transition: max-height 0.38s ease;
+}
+.inz-faq__panel--open { max-height: 600px; }
+.inz-faq__a {
+  font-size: 0.9rem; font-weight: 400; line-height: 1.8;
+  color: var(--muted); padding: 0 2rem 1.4rem 0;
+}
+.inz-faq__a strong { color: #0B1A2E; font-weight: 600; }
+
+/* ── Animation ── */
+.inz-faq__anim {
+  opacity: 0; transform: translateY(16px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.inz-faq__anim.inz-faq__vis { opacity: 1; transform: none; }
+.inz-faq__anim--d1 { transition-delay: 0.1s; }
+
+/* ── Responsive ── */
+@media (max-width: 960px) {
+  .inz-faq__layout { grid-template-columns: 1fr; gap: 2.5rem; }
+  .inz-faq__left { position: static; }
+  .inz-faq__h2 { font-size: 1.75rem; }
+}
+@media (max-width: 640px) {
+  .inz-faq__wrap { padding: 3.5rem 0 4rem; }
+  .inz-faq__q { font-size: 0.92rem; }
+  .inz-faq__a { font-size: 0.86rem; padding-right: 1rem; }
+}
+</style>
+
+<!-- MARKUP -->
+<div class="inz-faq__wrap">
+  <div class="inz-faq__inner">
+    <div class="inz-faq__layout">
+
+      <!-- Left: Sticky Header -->
+      <div class="inz-faq__left inz-faq__anim">
+        <div class="inz-faq__label" aria-hidden="true">Häufige Fragen</div>
+        <h2 class="inz-faq__h2">Ihre Fragen zur <span>Inzahlungnahme</span></h2>
+        <p class="inz-faq__left-sub">Alles Wichtige zu Ablauf, Bewertung, Abholung und Verrechnung — klar beantwortet.</p>
+        <a href="/kontakt" class="inz-faq__left-cta">
+          Altgerät anfragen
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"/>
+            <polyline points="13 6 19 12 13 18"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Right: Accordion -->
+      <div class="inz-faq__accordion inz-faq__anim inz-faq__anim--d1"
+           role="list" aria-label="Häufige Fragen zur Inzahlungnahme">
+
+        <!-- FAQ 1 -->
+        <div class="inz-faq__item" role="listitem">
+          <button class="inz-faq__trigger"
+                  aria-expanded="false"
+                  aria-controls="inz-faq__a1"
+                  id="inz-faq__q1">
+            <h3 class="inz-faq__q">Welche Geräte nehmen Sie in Zahlung?</h3>
+            <span class="inz-faq__chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </button>
+          <div class="inz-faq__panel" role="region"
+               id="inz-faq__a1" aria-labelledby="inz-faq__q1">
+            <p class="inz-faq__a">Wir nehmen <strong>Ultraschallgeräte aller gängigen Hersteller</strong> in Zahlung — sofern Zustand und Marktwert passen. Bei <strong>Mindray, Esaote und Chison</strong> läuft die Inzahlungnahme standardisiert, da diese Geräte aus unserem eigenen Portfolio stammen. Geräte anderer Hersteller — etwa GE HealthCare, Philips, Siemens Healthineers, Canon, Samsung, Hitachi/Fujifilm, SonoScape oder Handhelds von Clarius und Butterfly — prüfen wir individuell auf Zustand, Baujahr und Marktwert. Voraussetzung ist ein funktionsfähiges Gerät ohne Totalschaden.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="inz-faq__item" role="listitem">
+          <button class="inz-faq__trigger"
+                  aria-expanded="false"
+                  aria-controls="inz-faq__a2"
+                  id="inz-faq__q2">
+            <h3 class="inz-faq__q">Muss mein Gerät noch funktionsfähig sein?</h3>
+            <span class="inz-faq__chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </button>
+          <div class="inz-faq__panel" role="region"
+               id="inz-faq__a2" aria-labelledby="inz-faq__q2">
+            <p class="inz-faq__a">Ja, das Gerät sollte grundsätzlich funktionsfähig sein. <strong>Gebrauchsspuren sind normal</strong> und mindern den Wert nur geringfügig. Bei technischen Mängeln kommt es auf den konkreten Defekt an — sprechen Sie uns einfach an, wir prüfen den Einzelfall. Geräte mit Totalschaden können wir nicht in Zahlung nehmen.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="inz-faq__item" role="listitem">
+          <button class="inz-faq__trigger"
+                  aria-expanded="false"
+                  aria-controls="inz-faq__a3"
+                  id="inz-faq__q3">
+            <h3 class="inz-faq__q">Wie wird der Wert meines Altgeräts ermittelt?</h3>
+            <span class="inz-faq__chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </button>
+          <div class="inz-faq__panel" role="region"
+               id="inz-faq__a3" aria-labelledby="inz-faq__q3">
+            <p class="inz-faq__a">Der Inzahlungnahme-Wert ergibt sich aus vier Faktoren: <strong>Modell und Hersteller</strong>, technischer Zustand, Baujahr sowie vorhandene Sonden und Dokumentation. Nach Ihrer Anfrage erhalten Sie von uns ein transparentes, unverbindliches Angebot — nachvollziehbar und ohne versteckte Abzüge.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="inz-faq__item" role="listitem">
+          <button class="inz-faq__trigger"
+                  aria-expanded="false"
+                  aria-controls="inz-faq__a4"
+                  id="inz-faq__q4">
+            <h3 class="inz-faq__q">Wird der Altgeräte-Wert direkt vom Neupreis abgezogen?</h3>
+            <span class="inz-faq__chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </button>
+          <div class="inz-faq__panel" role="region"
+               id="inz-faq__a4" aria-labelledby="inz-faq__q4">
+            <p class="inz-faq__a">Ja, genau so funktioniert die Inzahlungnahme. Der ermittelte Wert Ihres Altgeräts wird <strong>direkt vom Kaufpreis Ihres neuen Ultraschallsystems abgezogen</strong> — Sie zahlen nur die Differenz. Ein separater Verkaufserlös wird nicht ausgezahlt. Einen reinen Ankauf ohne gleichzeitigen Neukauf bieten wir nur in Ausnahmefällen an.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="inz-faq__item" role="listitem">
+          <button class="inz-faq__trigger"
+                  aria-expanded="false"
+                  aria-controls="inz-faq__a5"
+                  id="inz-faq__q5">
+            <h3 class="inz-faq__q">Holen Sie das Gerät auch aus meiner Praxis ab?</h3>
+            <span class="inz-faq__chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </button>
+          <div class="inz-faq__panel" role="region"
+               id="inz-faq__a5" aria-labelledby="inz-faq__q5">
+            <p class="inz-faq__a">Ja. Wir koordinieren die <strong>Abholung Ihres Altgeräts direkt mit dem Liefertermin Ihres neuen Systems</strong> — so entsteht kein Zeitverlust im Praxisbetrieb. Sie müssen sich um Logistik und Transport nicht kümmern. Unser Team ist dabei für die fachgerechte Demontage und den Transport verantwortlich.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="inz-faq__item" role="listitem">
+          <button class="inz-faq__trigger"
+                  aria-expanded="false"
+                  aria-controls="inz-faq__a6"
+                  id="inz-faq__q6">
+            <h3 class="inz-faq__q"> Was passiert mit meinem Altgerät nach der Abholung?</h3>
+            <span class="inz-faq__chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </button>
+          <div class="inz-faq__panel" role="region"
+               id="inz-faq__a6" aria-labelledby="inz-faq__q6">
+            <p class="inz-faq__a">Gebrauchsfähige Geräte werden nach Prüfung und technischer Aufbereitung <strong>als Gebrauchtgeräte weiterverkauft</strong> — ein ressourcenschonender Umgang mit hochwertiger Medizintechnik. Geräte, die nicht mehr marktfähig sind, werden fachgerecht und datenschutzkonform entsorgt. In jedem Fall werden alle gespeicherten Patientendaten vor der Weitergabe vollständig gelöscht.</p>
+          </div>
+        </div>
+
+      </div><!-- /accordion -->
+    </div><!-- /layout -->
+  </div><!-- /inner -->
+</div><!-- /wrap -->
+
+<script>
+(function() {
+  var triggers = document.querySelectorAll('.inz-faq__trigger');
+
+  triggers.forEach(function(trigger) {
+    trigger.addEventListener('click', function() {
+      var expanded = trigger.getAttribute('aria-expanded') === 'true';
+      var panelId  = trigger.getAttribute('aria-controls');
+      var panel    = document.getElementById(panelId);
+
+      triggers.forEach(function(t) {
+        t.setAttribute('aria-expanded', 'false');
+        var p = document.getElementById(t.getAttribute('aria-controls'));
+        if (p) p.classList.remove('inz-faq__panel--open');
+      });
+
+      if (!expanded) {
+        trigger.setAttribute('aria-expanded', 'true');
+        if (panel) panel.classList.add('inz-faq__panel--open');
+      }
+    });
+  });
+
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('inz-faq__vis');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.inz-faq__anim').forEach(function(el) {
+    obs.observe(el);
+  });
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+</main>
+    <footer id="footer-a3d3bfb9-6fa3-4a84-91c0-180364037cd1" class="region footer" style="z-index: 10; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); box-sizing: border-box; padding-top: 0px; padding-bottom: 0px; margin: 0; background-color:#060C1C; background-image:none; border-radius:0px; border:none; position: relative; width: 100%">
+  <div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-de41c6a2-5c82-4cb0-a730-c675ed876f74" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-wid-ezrxxi9be" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container">
+
+<footer class="footer__wrap" itemscope itemtype="https://schema.org/Organization">
+
+  <div class="footer__stripe"></div>
+
+  <!-- ══ CTA BAND ══ -->
+  <div class="footer__cta-band">
+    <div class="footer__cta-inner">
+      <div class="footer__cta-text">
+        <span class="footer__cta-eyebrow">Persönliche Beratung</span>
+        <span class="footer__cta-title">Jetzt beraten lassen — kostenlos & unverbindlich</span>
+      </div>
+      <div class="footer__cta-actions">
+        <a href="/kontakt" class="footer__cta-btn">
+          Unverbindlich anfragen
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a href="tel:+492301188600" class="footer__cta-btn footer__cta-btn--ghost">
+          +49 (0) 2301 / 188 600
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MAIN GRID ── -->
+  <div class="footer__main">
+    <div class="footer__main-inner">
+
+      <!-- BRAND -->
+      <div class="footer__brand">
+        <a href="/" class="footer__logo" aria-label="SONORING DORMED Startseite" itemprop="url">
+          <img src="/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png" alt="SONORING DORMED Logo" class="footer__logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="footer__logo-text" style="display:none">
+            <span class="footer__logo-brand"><em>SONORING</em> DORMED</span>
+            <span class="footer__logo-sub">med. Systeme</span>
+          </span>
+        </a>
+        <p class="footer__tagline" itemprop="description">Deutschlands führender Ultraschall-Fachhändler. Gegründet 1989 — über 35 Jahre Erfahrung, 1.700 aktive Wartungskunden, 4 Standorte bundesweit.</p>
+        <div class="footer__contact">
+          <a href="tel:+4923011886000" class="footer__contact-item" itemprop="telephone">
+            <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 10.5c-1 .5-2 1-3 .5-1.5-.7-2.8-2-3.5-3.5-.5-1 0-2 .5-3L5.5 2 2 4c0 7 7 14 14 14l2-3.5-2.5-1.5z"/></svg>
+            +49 (0) 2301 / 188-600
+          </a>
+          <a href="mailto:mail@dormed.de" class="footer__contact-item" itemprop="email">
+            <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="14" height="10" rx="1"/><path d="M1 3l7 6 7-6"/></svg>
+            mail@dormed.de
+          </a>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.youtube.com/@SonoringDormed" class="footer__social-link" aria-label="YouTube" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="rgb(13,31,60)" stroke="none"/></svg>
+          </a>
+          <a href="https://de.linkedin.com/company/sonoringdormed" class="footer__social-link" aria-label="LinkedIn" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://www.facebook.com/SonoringDormed/" class="footer__social-link" aria-label="Facebook" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://www.xing.com/pages/sonoringdormed" class="footer__social-link" aria-label="Xing" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l3.5 6L3 18h4l4.5-8L8 4H4zM17 2l-7 12.5L14.5 22H19l-4.5-7.5L21 2h-4z"/></svg>
+          </a>
+        </div>
+
+        <!-- TeamViewer Quick Support Button -->
+        <a href="https://get.teamviewer.com/677uhcc" class="footer__tv-btn" target="_blank" rel="noopener noreferrer" aria-label="TeamViewer Quick Support – Fernwartung starten">
+          <span class="footer__tv-brand">
+            <img src="/assets/img/4f0f1b6d-fe34-4ffe-e2c0-2171ee260b00.png" alt="TeamViewer" class="footer__tv-logo-img" loading="lazy" decoding="async">
+            <span class="footer__tv-wordmark"><em>Team</em>Viewer</span>
+          </span>
+          <span class="footer__tv-cta">
+            <span class="footer__tv-cta-label">Quick Support</span>
+            <span class="footer__tv-cta-sub">Fernwartung starten</span>
+          </span>
+        </a>
+      </div>
+
+      <!-- ULTRASCHALLGERÄTE — Kategorien statt Einzelgeräten -->
+      <div class="footer__col">
+        <div class="footer__col-label">Ultraschallgeräte</div>
+        <a href="/ultraschallgeraete/standgeraete" class="footer__link">Standgeräte</a>
+        <a href="/ultraschallgeraete/mobile-geraete" class="footer__link">Mobile Geräte</a>
+        <a href="/ultraschallgeraete/handheld" class="footer__link">Handheld</a>
+        <a href="/ultraschallgeraete/sono-finder" class="footer__link">Sono Finder</a>
+        <a href="/standorte/digitale-sonothek" class="footer__link">Digitale Sonothek</a>
+        <a href="/ultraschallgeraete" class="footer__link footer__link--highlight" style="margin-top:0.4rem">→ Alle Geräte</a>
+      </div>
+
+      <!-- LEISTUNGEN + FACHGEBIETE -->
+      <div class="footer__col">
+        <div class="footer__col-label">Leistungen</div>
+        <a href="/leistungen/beratung" class="footer__link">Beratung</a>
+        <a href="/leistungen/finanzierung" class="footer__link">Finanzierung & Leasing</a>
+        <a href="/leistungen/lieferung" class="footer__link">Lieferung & Installation</a>
+        <a href="/leistungen/wartung-reparatur" class="footer__link">Wartung & Reparatur</a>
+        <a href="/leistungen/netzwerkanbindung" class="footer__link">Netzwerkanbindung</a>
+        <a href="/leistungen/schulung-einweisung" class="footer__link">Schulung & Einweisung</a>
+        <a href="/leistungen/garantie-versicherung" class="footer__link">Garantie & Versicherung</a>
+        <a href="/leistungen/inzahlungnahme" class="footer__link">Inzahlungnahme</a>
+        <div class="footer__col-label" style="margin-top:1.4rem">Für Fachgebiete</div>
+        <a href="/fuer/allgemeinmedizin" class="footer__link">Allgemeinmedizin</a>
+        <a href="/fuer/kardiologie" class="footer__link">Kardiologie</a>
+        <a href="/fuer/gynaekologie" class="footer__link">Gynäkologie</a>
+        <a href="/fuer/orthopaedie" class="footer__link">Orthopädie & MSK</a>
+      </div>
+
+      <!-- UNTERNEHMEN -->
+      <div class="footer__col">
+        <div class="footer__col-label">Unternehmen</div>
+        <a href="/ueber/dormed" class="footer__link">Über Dormed</a>
+        <a href="/ueber/sonoring" class="footer__link">Sonoring</a>
+        <a href="/hersteller/mindray" class="footer__link">Mindray</a>
+        <a href="/hersteller/esaote" class="footer__link">Esaote</a>
+        <a href="/hersteller/chison" class="footer__link">Chison</a>
+        <a href="/karriere" class="footer__link">Karriere</a>
+        <a href="/veranstaltungen" class="footer__link">Veranstaltungen</a>
+        <a href="/blog" class="footer__link">Blog</a>
+        <div class="footer__col-label" style="margin-top:1.4rem">Standorte</div>
+        <a href="/standorte/dortmund" class="footer__location">
+          <span class="footer__location-city">Dortmund</span>
+          <span class="footer__location-addr">Wilhelm-Röntgen-Str. 4<br>59439 Holzwickede</span>
+        </a>
+        <a href="/standorte/duesseldorf" class="footer__location">
+          <span class="footer__location-city">Düsseldorf</span>
+          <span class="footer__location-addr">Borsigstraße 5<br>40880 Ratingen</span>
+        </a>
+        <a href="/standorte/hamburg" class="footer__location">
+          <span class="footer__location-city">Hamburg</span>
+          <span class="footer__location-addr">Bremer Straße 6<br>21244 Buchholz</span>
+        </a>
+        <a href="/standorte/kiel" class="footer__location">
+          <span class="footer__location-city">Kiel</span>
+          <span class="footer__location-addr">Maria-Merian-Str. 9<br>24145 Kiel</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── BOTTOM BAR ── -->
+  <div class="footer__bottom">
+    <div class="footer__bottom-inner">
+      <span class="footer__copy">© 2026 DORMED medizinische Systeme GmbH · Alle Rechte vorbehalten</span>
+      <div class="footer__legal">
+        <a href="/impressum" class="footer__legal-link">Impressum</a>
+        <a href="/datenschutz" class="footer__legal-link">Datenschutz</a>
+        <a href="/agb" class="footer__legal-link">AGB</a>
+      </div>
+
+    </div>
+  </div>
+
+</footer></div></div></div></div></div></div></div>
+</footer>
+    
+    
+<script>
+(function() {
+  function easeInOutCubic(t) {
+    return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  }
+
+  function smoothScrollTo(targetSelector) {
+    const targetElement = document.querySelector(targetSelector);
+    if (!targetElement) return;
+
+    const header = document.getElementById('yuuble-header');
+    const offset = header ? header.offsetHeight : 0;
+
+    const startPosition = window.pageYOffset;
+    const targetPosition = targetElement.getBoundingClientRect().top + startPosition - offset;
+    const distance = targetPosition - startPosition;
+    
+    const duration = Math.min(Math.max(Math.abs(distance) * 0.6, 800), 1400);
+    let startTime = null;
+
+    function animation(currentTime) {
+      if (startTime === null) startTime = currentTime;
+      const timeElapsed = currentTime - startTime;
+      const progress = Math.min(timeElapsed / duration, 1);
+      
+      const ease = easeInOutCubic(progress);
+      window.scrollTo(0, startPosition + distance * ease);
+
+      if (timeElapsed < duration) {
+        requestAnimationFrame(animation);
+      }
+    }
+    requestAnimationFrame(animation);
+  }
+
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a[href^="#"]');
+    if (!link) return;
+
+    const href = link.getAttribute('href');
+    if (href === '#' || href.length < 2) return;
+
+    const targetEl = document.querySelector(href);
+    if (!targetEl) return; 
+
+    e.preventDefault();
+    smoothScrollTo(href);
+    
+    if (history.pushState) {
+      history.pushState(null, null, href);
+    }
+  });
+  
+  console.log("🚀 Smooth Scrolling via Factory Injection aktiv.");
+})();
+</script>
+
+    
+  </body>
+</html>

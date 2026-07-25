@@ -1,0 +1,4788 @@
+<!DOCTYPE html>
+<html lang="de-DE" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="/assets/img/9166be6b-46c0-4068-8b57-2b414dd62000.png">
+    <link rel="apple-touch-icon" href="/assets/img/9166be6b-46c0-4068-8b57-2b414dd62000.png">
+    
+    <link rel="alternate" hreflang="de-DE" href="https://dormed.de/fuer/allgemeinmedizin/schilddruesen-sonographie">
+    <link rel="alternate" hreflang="x-default" href="https://dormed.de/fuer/allgemeinmedizin/schilddruesen-sonographie">
+
+    <title>Schilddrüsen-Sonographie: Ultraschallgeräte | DORMED</title>
+    <meta name="description" content="Ultraschall der Schilddrüse: Knoten, TIRADS, Hashimoto. Hochauflösende Linearschallköpfe und passende Geräte für Praxis und Klinik – von DORMED.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dormed.de/fuer/allgemeinmedizin/schilddruesen-sonographie">
+
+    
+
+    <meta property="og:title" content="Schilddrüsen-Sonographie: Ultraschallgeräte | DORMED">
+    <meta property="og:description" content="Ultraschall der Schilddrüse: Knoten, TIRADS, Hashimoto. Hochauflösende Linearschallköpfe und passende Geräte für Praxis und Klinik – von DORMED.">
+    <meta property="og:url" content="https://dormed.de/fuer/allgemeinmedizin/schilddruesen-sonographie">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Dormed med. Systeme GmbH">
+    
+    
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Schilddrüsen-Sonographie: Ultraschallgeräte | DORMED">
+    <meta name="twitter:description" content="Ultraschall der Schilddrüse: Knoten, TIRADS, Hashimoto. Hochauflösende Linearschallköpfe und passende Geräte für Praxis und Klinik – von DORMED.">
+
+    @vite(['resources/css/style.css', 'resources/css/widgets.css'])
+
+    <style id="yuuble-theme-style">
+    :root{
+
+}
+
+    </style>
+
+    
+    
+    <!-- Google Tag Manager -->
+<!-- End Google Tag Manager -->
+  
+
+  </head>
+  <body>
+
+<header id="header-b346cc60-762d-497f-9c88-f211d52671b2" class="region header" style="z-index: 999; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); box-sizing: border-box; padding-top: 0px; padding-bottom: 0px; margin: 0; background-color:#ffffff; background-image:none; border-radius:0px; border:none; top: 0; left: 0; right: 0; width: auto; position: fixed">
+  <div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-98c8c3d9-460e-4139-a41b-abc1afd930e8" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-wid-23er5hyi5" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container">
+
+<!-- BACKDROP -->
+<div class="nav__backdrop" id="nav-backdrop"></div>
+
+<nav class="nav__wrap" id="nav" role="navigation" aria-label="Hauptnavigation">
+
+  <div class="nav__bar">
+    <div class="nav__inner">
+
+      <a href="/" class="nav__logo" aria-label="SONORING DORMED – Startseite">
+        <img src="/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png" alt="SONORING DORMED Logo" class="nav__logo-img"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <span class="nav__logo-text" style="display:none">
+          <span class="nav__logo-brand"><em>SONORING</em> DORMED</span>
+          <span class="nav__logo-sub">med. Systeme</span>
+        </span>
+      </a>
+
+      <div class="nav__links" role="menubar">
+        <div class="nav__item" data-panel="geraete" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Ultraschallgeräte
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <!-- NEU: Hersteller Tab -->
+        <div class="nav__item" data-panel="hersteller" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Hersteller
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <div class="nav__item" data-panel="leistungen" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Leistungen
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <div class="nav__item" role="none">
+          <a href="/veranstaltungen" class="nav__link" role="menuitem">Veranstaltungen</a>
+        </div>
+        <div class="nav__item" data-panel="standorte" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Standorte
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+        <div class="nav__item" data-panel="ueber" role="none">
+          <button class="nav__link" role="menuitem" aria-haspopup="true" aria-expanded="false">
+            Über uns
+            <svg class="nav__chevron" viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <a href="/kontakt" class="nav__cta"> Unverbindlich anfragen</a>
+
+      <button class="nav__burger" id="nav-burger" aria-label="Menü öffnen" aria-expanded="false">
+        <span class="nav__burger-line"></span>
+        <span class="nav__burger-line"></span>
+        <span class="nav__burger-line"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: ULTRASCHALLGERÄTE ══ -->
+  <div class="nav__panel" id="panel-geraete" role="region" aria-label="Ultraschallgeräte">
+    <div class="nav__panel-inner">
+      <div class="nav__mega">
+        <div class="nav__mega-cats" role="tablist" aria-label="Gerätekategorien">
+          <div class="nav__mega-cat nav__mega-cat--active" data-cat="stationaer" role="tab" tabindex="0" aria-selected="true">Standgeräte</div>
+          <div class="nav__mega-cat" data-cat="mobil" role="tab" tabindex="-1" aria-selected="false">Tragbare Geräte</div>
+          <div class="nav__mega-cat" data-cat="handheld" role="tab" tabindex="-1" aria-selected="false">Handheld &amp; POCUS</div>
+        </div>
+        <div>
+
+          <!-- ── STANDGERÄTE ── -->
+          <div class="nav__mega-content nav__mega-content--active" data-cat="stationaer" role="tabpanel">
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — Premium</div>
+              <div class="nav__mega-grid">
+                <!-- NEU: Nuewa I10 als 1. Karte -->
+                <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i10" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Nuewa i10</span>
+                  <span class="nav__mega-card-type">Flaggschiff · Neu</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Nuewa i9</span>
+                  <span class="nav__mega-card-type">Flaggschiff</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Resona i9</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-resona-i8" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Resona i8</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — Consona &amp; DC Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N9</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n8" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N8</span>
+                  <span class="nav__mega-card-type">Oberklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n6" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N6</span>
+                  <span class="nav__mega-card-type">Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-consona-n5" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Consona N5</span>
+                  <span class="nav__mega-card-type">Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-dc-60" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DC 60</span>
+                  <span class="nav__mega-card-type">Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/mindray-dc-30" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DC 30</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Esaote — Neu</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a50" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; A50</span>
+                  <span class="nav__mega-card-type">Mittelklasse · Neu</span>
+                </a>
+                <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a70" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; A70</span>
+                  <span class="nav__mega-card-type">Oberklasse · Neu</span>
+                </a>
+              </div>
+            </div>
+            <div class="nav__mega-footer">
+              <a href="/ultraschallgeraete/standgeraete" class="nav__mega-all">
+                Alle Standgeräte ansehen
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+              <span class="nav__mega-hint" aria-hidden="true">25 Geräte verfügbar</span>
+            </div>
+          </div>
+
+          <!-- ── TRAGBARE GERÄTE ── REIHENFOLGE: MINDRAY → ESAOTE → CHISON -->
+          <div class="nav__mega-content" data-cat="mobil" role="tabpanel">
+            <!-- 1. Mindray TE Serie -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — TE Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-te-9" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE 9</span>
+                  <span class="nav__mega-card-type">Mobil · Kardio</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-te-7-ace" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE 7</span>
+                  <span class="nav__mega-card-type">Laptop · Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-te-5" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE 5</span>
+                  <span class="nav__mega-card-type">Laptop · Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <!-- 2. Mindray MX, MU & Z Serie -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — MX, MU &amp; Z Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mu7" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MU7</span>
+                  <span class="nav__mega-card-type">Mobil · Neu</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mx7" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MX7</span>
+                  <span class="nav__mega-card-type">Mobil · Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mx5" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MX5</span>
+                  <span class="nav__mega-card-type">Mobil · Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-mx3" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">MX3</span>
+                  <span class="nav__mega-card-type">Mobil · Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-z60" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Z60</span>
+                  <span class="nav__mega-card-type">Mobil · Mittelklasse</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-z50" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">Z50</span>
+                  <span class="nav__mega-card-type">Mobil · Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <!-- 3. Mindray DP Serie -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — DP Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-60" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 60</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-50" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 50</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-30" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 30</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-10" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">DP 10</span>
+                  <span class="nav__mega-card-type">Einstieg</span>
+                </a>
+              </div>
+            </div>
+            <!-- 4. Esaote (X1 Go + C25) -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Esaote — Tragbar · Neu</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-x1-go" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; X1 Go</span>
+                  <span class="nav__mega-card-type">Ultra-Slim · 1,2 kg</span>
+                </a>
+                <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-c25" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--esaote">Esaote</span>
+                  <span class="nav__mega-card-name">MyLab&#8482; C25</span>
+                  <span class="nav__mega-card-type">Kompakt-Portable</span>
+                </a>
+              </div>
+            </div>
+            <!-- 5. Chison -->
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Chison — Neu</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/mobile-geraete/chison-sonoair-70/" class="nav__mega-card" style="border-color:rgba(30,100,180,0.15)">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--chison">Chison</span>
+                  <span class="nav__mega-card-name">SonoAir 70</span>
+                  <span class="nav__mega-card-type">Tragbar · AIR-Plattform</span>
+                </a>
+              </div>
+            </div>
+            <div class="nav__mega-footer">
+              <a href="/ultraschallgeraete/mobile-geraete" class="nav__mega-all">
+                Alle mobilen Geräte ansehen
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- ── HANDHELD & POCUS ── -->
+          <div class="nav__mega-content" data-cat="handheld" role="tabpanel">
+            <div>
+              <div class="nav__mega-section-label" aria-hidden="true">Mindray — TE Air Serie</div>
+              <div class="nav__mega-grid">
+                <a href="/ultraschallgeraete/handheld/mindray-te-air-e5m" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE Air e5M</span>
+                  <span class="nav__mega-card-type">Handheld · WLAN · POCUS</span>
+                </a>
+                <a href="/ultraschallgeraete/handheld/mindray-te-air-i3m" class="nav__mega-card">
+                  <span class="nav__mega-card-brand nav__mega-card-brand--mindray">Mindray</span>
+                  <span class="nav__mega-card-name">TE Air i3M</span>
+                  <span class="nav__mega-card-type">Handheld · WLAN · Pocket</span>
+                </a>
+              </div>
+            </div>
+            <div class="nav__mega-footer">
+              <a href="/ultraschallgeraete/handheld" class="nav__mega-all">
+                Alle Handheld-Geräte ansehen
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </a>
+              <span class="nav__mega-hint" aria-hidden="true">25 Geräte verfügbar</span>
+            </div>
+          </div>
+
+        <!-- ALLE GERÄTE LINK — unten rechts unter der Inhalts-Spalte -->
+        <div style="padding: 0.8rem 0 1.4rem; border-top: 1px solid rgba(9,58,126,0.07); margin-top: 0.5rem; display: flex; justify-content: flex-end;">
+          <a href="/ultraschallgeraete" style="font-family: 'JetBrains Mono', monospace; font-size: 0.50rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #fff; background: rgb(9,58,126); text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.65rem 1.2rem; transition: background 0.2s;" onmouseover="this.style.background='rgb(7,46,102)'" onmouseout="this.style.background='rgb(9,58,126)'">
+            Alle Ultraschallgeräte
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:11px;height:11px"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: HERSTELLER ══ -->
+  <div class="nav__panel" id="panel-hersteller" role="region" aria-label="Hersteller">
+    <div class="nav__panel-inner">
+      <div class="nav__hers-wrap">
+        <div class="nav__hers-grid">
+
+          <!-- Mindray -->
+          <a href="/hersteller/mindray" class="nav__hers-card nav__hers-card--mindray">
+            <span class="nav__hers-card-name nav__hers-card-name--mindray">mindray</span>
+            <p class="nav__hers-card-desc">Weltmarktführer · Vollständiges Portfolio von Einstieg bis Flaggschiff — stationär, mobil und Handheld.</p>
+            <div class="nav__hers-card-cta nav__hers-card-cta--mindray">
+              Mindray entdecken
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+
+          <!-- Esaote -->
+          <a href="/hersteller/esaote" class="nav__hers-card nav__hers-card--esaote">
+            <span class="nav__hers-card-name nav__hers-card-name--esaote">esaote</span>
+            <p class="nav__hers-card-desc">Italian Design · MyLab A-Serie für Standgeräte, X1 Go und C25 für tragbare Anwendungen — KI-gestützter Workflow mit Augmented Insight&#8482;.</p>
+            <div class="nav__hers-card-cta nav__hers-card-cta--esaote">
+              Esaote entdecken
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+
+          <!-- Chison -->
+          <a href="/hersteller/chison" class="nav__hers-card nav__hers-card--chison">
+            <span class="nav__hers-card-name nav__hers-card-name--chison">Chison</span>
+            <p class="nav__hers-card-desc">AIR-Plattform · SonoAir 70 — weltweit dünnster Laptop-Scanner mit 4 Ports, 2,1 kg und 180 Min. Akku.</p>
+            <div class="nav__hers-card-cta nav__hers-card-cta--chison">
+              Chison entdecken
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: LEISTUNGEN ══ -->
+  <div class="nav__panel" id="panel-leistungen" role="region" aria-label="Leistungen">
+    <div class="nav__panel-inner">
+      <div class="nav__leis-wrap">
+        <div class="nav__leis-grid">
+          <a href="/leistungen/beratung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Beratung</span></div>
+            <span class="nav__leis-card-desc">Persönlich, unverbindlich, herstellerunabhängig — wir finden das richtige Gerät für Ihre Praxis.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/finanzierung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Finanzierung</span></div>
+            <span class="nav__leis-card-desc">Kauf, Leasing oder Ratenzahlung — flexible Modelle für jede Praxisgröße.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/lieferung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Lieferung &amp; Installation</span></div>
+            <span class="nav__leis-card-desc">Bundesweit, termingerecht, kostenlos — inklusive Einweisung direkt in Ihrer Praxis.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/wartung-reparatur" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Wartung &amp; Reparatur</span></div>
+            <span class="nav__leis-card-desc">1.700 aktive Wartungskunden — eigene Techniker, schnelle Reaktionszeiten, faire Preise.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/netzwerkanbindung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Netzwerkanbindung</span></div>
+            <span class="nav__leis-card-desc">PACS-Anbindung, DICOM-Integration und Praxissoftware-Kopplung aus einer Hand.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/garantie-versicherung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Garantie &amp; Versicherung</span></div>
+            <span class="nav__leis-card-desc">Garantieverlängerung und Geräteversicherung — Ihre Investition langfristig abgesichert.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/schulung-einweisung" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Schulung &amp; Einweisung</span></div>
+            <span class="nav__leis-card-desc">MPBetreibV-konforme Einweisung mit schriftlichem Nachweis — direkt in Ihrer Praxis.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+          <a href="/leistungen/inzahlungnahme" class="nav__leis-card">
+            <div><span class="nav__leis-card-title">Inzahlungnahme</span></div>
+            <span class="nav__leis-card-desc">Altes Ultraschallgerät in Zahlung geben — direkt beim Neukauf verrechnet.</span>
+            <span class="nav__leis-card-arrow" aria-hidden="true">Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PANEL: STANDORTE ══ -->
+  <div class="nav__panel" id="panel-standorte" role="region" aria-label="Standorte">
+    <div class="nav__panel-inner">
+      <div class="nav__small">
+        <a href="/standorte/dortmund" class="nav__small-item">
+          <span class="nav__small-label">Hauptsitz</span>
+          <span class="nav__small-title">Dortmund</span>
+          <span class="nav__small-desc">Wilhelm-Röntgen-Str. 4<br>59439 Holzwickede</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <a href="/standorte/duesseldorf" class="nav__small-item">
+          <span class="nav__small-label">Filiale</span>
+          <span class="nav__small-title">Düsseldorf</span>
+          <span class="nav__small-desc">Borsigstraße 5<br>40880 Ratingen</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <a href="/standorte/hamburg" class="nav__small-item">
+          <span class="nav__small-label">Filiale</span>
+          <span class="nav__small-title">Hamburg</span>
+          <span class="nav__small-desc">Bremer Straße 6<br>21244 Buchholz</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <a href="/standorte/kiel" class="nav__small-item" style="border-right:none">
+          <span class="nav__small-label">Filiale</span>
+          <span class="nav__small-title">Kiel</span>
+          <span class="nav__small-desc">Maria-Merian-Straße 9<br>24145 Kiel</span>
+          <span class="nav__small-cta" aria-hidden="true">Standort ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+      </div>
+    </div>
+    <!-- DIGITALE SONOTHEK — Full-Width-Streifen -->
+    <a href="/standorte/digitale-sonothek" class="nav__sono">
+      <div class="nav__sono-bg" aria-hidden="true">
+        <img src="/assets/img/8f02d462-e2b4-4289-2e5c-d35e6dffa700.jpg" alt="" loading="lazy">
+      </div>
+      <div class="nav__panel-inner">
+        <div class="nav__sono-inner">
+          <div class="nav__sono-text">
+            <div class="nav__sono-title">Digitale Sonothek</div>
+            <div class="nav__sono-desc">Geräte live im Video-Meeting kennenlernen — bequem aus Ihrer Praxis, ohne Anfahrt.</div>
+          </div>
+          <div class="nav__sono-arrow" aria-hidden="true">
+            Mehr erfahren
+            <svg viewBox="0 0 16 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <!-- ══ PANEL: ÜBER UNS ══ -->
+  <div class="nav__panel" id="panel-ueber" role="region" aria-label="Über uns">
+    <div class="nav__panel-inner">
+      <div class="nav__ueber-wrap">
+        <a href="/ueber/dormed" class="nav__ueber-identity">
+          <div class="nav__ueber-tag">Unternehmen seit 1989</div>
+          <div class="nav__ueber-headline">Über<br><em>Dormed</em></div>
+          <div class="nav__ueber-stats">
+            <div class="nav__ueber-stat">
+              <span class="nav__ueber-stat-num">35+</span>
+              <span class="nav__ueber-stat-lbl">Jahre Erfahrung</span>
+            </div>
+            <div class="nav__ueber-stat">
+              <span class="nav__ueber-stat-num">4</span>
+              <span class="nav__ueber-stat-lbl">Standorte</span>
+            </div>
+            <div class="nav__ueber-stat">
+              <span class="nav__ueber-stat-num">1.700</span>
+              <span class="nav__ueber-stat-lbl">Wartungskunden</span>
+            </div>
+          </div>
+          <div class="nav__ueber-link">
+            Mehr erfahren
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </div>
+        </a>
+        <div class="nav__ueber-stack">
+          <a href="/ueber/sonoring" class="nav__ueber-card">
+            <div class="nav__ueber-card-inner">
+              <div>
+                <div class="nav__ueber-card-tag">Verbund</div>
+                <div class="nav__ueber-card-title">Sonoring</div>
+                <div class="nav__ueber-card-desc">Deutschlands größte Sono-Fachhändlerorganisation — ~40% Marktanteil, ~23 Partner bundesweit.</div>
+              </div>
+            </div>
+            <div class="nav__ueber-card-cta" aria-hidden="true">
+              Mehr erfahren <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+          <a href="/karriere" class="nav__ueber-card">
+            <div class="nav__ueber-card-inner">
+              <div>
+                <div class="nav__ueber-card-tag">Jobs</div>
+                <div class="nav__ueber-card-title">Karriere</div>
+                <div class="nav__ueber-card-desc">Werden Sie Teil unseres Teams — wachsendes Unternehmen mit Sinn für Präzision.</div>
+              </div>
+              <div class="nav__ueber-card-badge">
+                <span class="nav__ueber-card-badge-dot"></span>
+                Jetzt bewerben
+              </div>
+            </div>
+            <div class="nav__ueber-card-cta" aria-hidden="true">
+              Stellen ansehen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ MOBILE DRAWER ══ -->
+  <div class="nav__mobile" id="nav-mobile" role="dialog" aria-label="Mobile Navigation" aria-modal="true">
+
+    <div class="nav__mob-section" id="mob-geraete">
+      <button class="nav__mob-toggle" data-mob="geraete">Ultraschallgeräte <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <!-- STANDGERÄTE: Mindray → Esaote -->
+          <div class="nav__mob-sub-label">Standgeräte — Mindray</div>
+          <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i10" class="nav__mob-sub-link">Nuewa i10 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-nuewa-i9" class="nav__mob-sub-link">Nuewa i9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9" class="nav__mob-sub-link">Resona i9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-resona-i8" class="nav__mob-sub-link">Resona i8 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n9" class="nav__mob-sub-link">Consona N9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n8" class="nav__mob-sub-link">Consona N8 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n6" class="nav__mob-sub-link">Consona N6 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-consona-n5" class="nav__mob-sub-link">Consona N5 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-dc-60" class="nav__mob-sub-link">DC 60 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-dc-30" class="nav__mob-sub-link">DC 30 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Standgeräte — Esaote</div>
+          <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a50" class="nav__mob-sub-link">MyLab&#8482; A50 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a70" class="nav__mob-sub-link">MyLab&#8482; A70 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+
+          <!-- TRAGBARE GERÄTE: Mindray → Esaote → Chison -->
+          <div class="nav__mob-sub-label">Tragbare Geräte — Mindray</div>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-te-9" class="nav__mob-sub-link">TE 9 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-te-7" class="nav__mob-sub-link">TE 7 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-te-5" class="nav__mob-sub-link">TE 5 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mu7" class="nav__mob-sub-link">MU7 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mx7" class="nav__mob-sub-link">MX7 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mx5" class="nav__mob-sub-link">MX5 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-mx3" class="nav__mob-sub-link">MX3 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-z60" class="nav__mob-sub-link">Z60 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-z50" class="nav__mob-sub-link">Z50 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-60" class="nav__mob-sub-link">DP 60 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-50" class="nav__mob-sub-link">DP 50 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-30" class="nav__mob-sub-link">DP 30 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/mindray-dp-10" class="nav__mob-sub-link">DP 10 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Tragbare Geräte — Esaote</div>
+          <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-x1-go" class="nav__mob-sub-link">MyLab&#8482; X1 Go <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/mobile-geraete/esaote-mylab-c25" class="nav__mob-sub-link">MyLab&#8482; C25 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Tragbare Geräte — Chison</div>
+          <a href="/ultraschallgeraete/mobile-geraete/chison-sonoair-70/" class="nav__mob-sub-link">SonoAir 70 <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <div class="nav__mob-sub-label">Handheld &amp; POCUS</div>
+          <a href="/ultraschallgeraete/handheld/mindray-te-air-e5m" class="nav__mob-sub-link">TE Air e5M <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete/handheld/mindray-te-air-i3m" class="nav__mob-sub-link">TE Air i3M <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ultraschallgeraete" class="nav__mob-sub-link" style="color:var(--blue-d);font-weight:600;margin-top:0.5rem">Alle Geräte ansehen <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hersteller im Mobile Drawer -->
+    <div class="nav__mob-section" id="mob-hersteller">
+      <button class="nav__mob-toggle" data-mob="hersteller">Hersteller <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/hersteller/mindray/" class="nav__mob-sub-link">Mindray <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/hersteller/esaote/" class="nav__mob-sub-link">Esaote <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/hersteller/chison/" class="nav__mob-sub-link">Chison <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav__mob-section" id="mob-leistungen">
+      <button class="nav__mob-toggle" data-mob="leistungen">Leistungen <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/leistungen/beratung" class="nav__mob-sub-link">Beratung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/finanzierung" class="nav__mob-sub-link">Finanzierung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/lieferung" class="nav__mob-sub-link">Lieferung &amp; Installation <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/wartung-reparatur" class="nav__mob-sub-link">Wartung &amp; Reparatur <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/netzwerkanbindung" class="nav__mob-sub-link">Netzwerkanbindung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/garantie-versicherung" class="nav__mob-sub-link">Garantie &amp; Versicherung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/schulung-einweisung" class="nav__mob-sub-link">Schulung &amp; Einweisung <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/leistungen/inzahlungnahme" class="nav__mob-sub-link">Inzahlungnahme <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav__mob-section">
+      <a href="/veranstaltungen" class="nav__mob-toggle" style="text-decoration:none">Veranstaltungen <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+    </div>
+
+    <div class="nav__mob-section" id="mob-standorte">
+      <button class="nav__mob-toggle" data-mob="standorte">Standorte <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/standorte/dortmund" class="nav__mob-sub-link">Dortmund (Hauptsitz) <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/duesseldorf" class="nav__mob-sub-link">Düsseldorf <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/hamburg" class="nav__mob-sub-link">Hamburg <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/kiel" class="nav__mob-sub-link">Kiel <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/standorte/digitale-sonothek" class="nav__mob-sub-link" style="color:var(--blue-d);font-weight:600;margin-top:0.5rem;display:flex;align-items:center;gap:0.5rem">
+            <span style="display:inline-flex;align-items:center;gap:0.4rem">
+              <span style="width:6px;height:6px;background:#22c55e;border-radius:50%;display:inline-block;flex-shrink:0"></span>
+              Digitale Sonothek
+            </span>
+            <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left:auto"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav__mob-section" id="mob-ueber">
+      <button class="nav__mob-toggle" data-mob="ueber">Über uns <svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></button>
+      <div class="nav__mob-sub">
+        <div class="nav__mob-sub-inner">
+          <a href="/ueber/dormed" class="nav__mob-sub-link">Über Dormed <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/ueber/sonoring" class="nav__mob-sub-link">Sonoring <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+          <a href="/karriere" class="nav__mob-sub-link">Karriere <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <a href="/kontakt" class="nav__mob-cta"> Unverbindlich anfragen</a>
+  </div>
+
+</nav>
+
+<script>
+(function(){
+  var nav      = document.getElementById('nav');
+  var backdrop = document.getElementById('nav-backdrop');
+  var burger   = document.getElementById('nav-burger');
+  var currentPanel = null;
+  var closeTimer   = null;
+
+  function openPanel(id) {
+    if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; }
+    if (currentPanel === id) return;
+    _hidePanels();
+    var panel = document.getElementById('panel-' + id);
+    var item  = nav.querySelector('[data-panel="' + id + '"]');
+    if (!panel || !item) return;
+    panel.classList.add('nav__panel--visible');
+    item.classList.add('nav__item--open');
+    item.querySelector('button').setAttribute('aria-expanded', 'true');
+    nav.classList.add('nav__wrap--active');
+    currentPanel = id;
+  }
+
+  function _hidePanels() {
+    document.querySelectorAll('.nav__panel--visible').forEach(function(p) { p.classList.remove('nav__panel--visible'); });
+    nav.querySelectorAll('.nav__item--open').forEach(function(i) {
+      i.classList.remove('nav__item--open');
+      var btn = i.querySelector('button');
+      if (btn) btn.setAttribute('aria-expanded', 'false');
+    });
+    currentPanel = null;
+  }
+
+  function closePanel() { _hidePanels(); nav.classList.remove('nav__wrap--active'); }
+
+  function scheduledClose() {
+    closeTimer = setTimeout(function() { closePanel(); closeTimer = null; }, 120);
+  }
+
+  nav.querySelectorAll('[data-panel]').forEach(function(item) {
+    var id = item.dataset.panel;
+    item.addEventListener('mouseenter', function() { if (window.innerWidth <= 1060) return; openPanel(id); });
+    item.addEventListener('mouseleave', function() { if (window.innerWidth <= 1060) return; scheduledClose(); });
+    item.querySelector('button').addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (currentPanel === id) { closePanel(); } else { openPanel(id); }
+    });
+  });
+
+  nav.querySelectorAll('.nav__panel').forEach(function(panel) {
+    panel.addEventListener('mouseenter', function() { if (closeTimer) { clearTimeout(closeTimer); closeTimer = null; } });
+    panel.addEventListener('mouseleave', function() { scheduledClose(); });
+  });
+
+  backdrop.addEventListener('click', closePanel);
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') { closePanel(); closeMobile(); } });
+
+  function activateMegaCat(cat) {
+    var catId = cat.dataset.cat;
+    var panel = cat.closest('.nav__mega');
+    panel.querySelectorAll('.nav__mega-cat').forEach(function(c) {
+      c.classList.remove('nav__mega-cat--active');
+      c.setAttribute('aria-selected', 'false');
+      c.setAttribute('tabindex', '-1');
+    });
+    panel.querySelectorAll('.nav__mega-content').forEach(function(c) { c.classList.remove('nav__mega-content--active'); });
+    cat.classList.add('nav__mega-cat--active');
+    cat.setAttribute('aria-selected', 'true');
+    cat.setAttribute('tabindex', '0');
+    var content = panel.querySelector('.nav__mega-content[data-cat="' + catId + '"]');
+    if (content) content.classList.add('nav__mega-content--active');
+  }
+
+  nav.querySelectorAll('.nav__mega-cat').forEach(function(cat) {
+    cat.addEventListener('mouseenter', function() { activateMegaCat(cat); });
+    cat.addEventListener('click', function() { activateMegaCat(cat); });
+    cat.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activateMegaCat(cat); }
+      if (e.key === 'ArrowDown') { e.preventDefault(); var next = cat.nextElementSibling; if (next && next.classList.contains('nav__mega-cat')) next.focus(); }
+      if (e.key === 'ArrowUp')   { e.preventDefault(); var prev = cat.previousElementSibling; if (prev && prev.classList.contains('nav__mega-cat')) prev.focus(); }
+    });
+  });
+
+  function closeMobile() {
+    nav.classList.remove('nav__wrap--mob-open');
+    burger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  burger.addEventListener('click', function(e) {
+    e.stopPropagation();
+    closePanel();
+    var isOpen = nav.classList.toggle('nav__wrap--mob-open');
+    burger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  nav.querySelectorAll('[data-mob]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var id      = btn.dataset.mob;
+      var section = document.getElementById('mob-' + id);
+      var isOpen  = section.classList.contains('nav__mob-section--open');
+      nav.querySelectorAll('.nav__mob-section--open').forEach(function(s) { s.classList.remove('nav__mob-section--open'); });
+      if (!isOpen) section.classList.add('nav__mob-section--open');
+    });
+  });
+
+  window.addEventListener('resize', function() { if (window.innerWidth > 1060) { closeMobile(); } });
+})();
+</script></div></div></div></div></div></div></div>
+</header>
+<script>
+      (function() {
+        const el = document.getElementById('header-b346cc60-762d-497f-9c88-f211d52671b2');
+        if (!el) return;
+        const trigger = 50;
+        let lastY = window.scrollY;
+
+        function update() {
+          const currY = window.scrollY;
+          const isDesktop = window.innerWidth > 800;
+
+          if (isDesktop && currY > trigger) {
+            el.classList.add('is-scrolled'); 
+          } else {
+            el.classList.remove('is-scrolled');
+          }
+          
+          if (el.classList.contains('sticky-reveal')) {
+            if (currY > lastY && currY > trigger + 100) {
+              el.style.transform = 'translateY(-120%)';
+            } else {
+              el.style.transform = 'translateY(0)';
+            }
+          }
+          lastY = currY;
+        }
+
+        window.addEventListener('scroll', update, { passive: true });
+        window.addEventListener('resize', update);
+        update();
+      })();
+
+      // --- DROPDOWN TELEPORT ---
+      // Problem: Header hat transform:translateY() => neuer Stacking Context =>
+      // position:absolute Dropdowns werden innerhalb des Headers geclippt.
+      // Fix: .popup-bridge Elemente aus dem Header-DOM herausreißen,
+      // direkt an <body> hängen, und per position:fixed + getBoundingClientRect positionieren.
+      (function() {
+        if (window.__teleport_init) return;
+        window.__teleport_init = true;
+
+        function teleportDropdowns() {
+          var items = document.querySelectorAll('.menu-item');
+          items.forEach(function(item) {
+            var bridge = item.querySelector('.popup-bridge');
+            if (!bridge || bridge.getAttribute('data-teleported')) return;
+
+            // Bridge aus Header herauslösen und an <body> hängen
+            bridge.setAttribute('data-teleported', 'true');
+            document.body.appendChild(bridge);
+
+            function openBridge() {
+              var rect = item.getBoundingClientRect();
+              bridge.style.position = 'fixed';
+              bridge.style.top = rect.bottom + 'px';
+              bridge.style.left = rect.left + 'px';
+              bridge.style.minWidth = Math.max(rect.width, 220) + 'px';
+              bridge.style.opacity = '1';
+              bridge.style.visibility = 'visible';
+              bridge.style.transform = 'translateY(0)';
+              bridge.style.pointerEvents = 'auto';
+              bridge.style.zIndex = '999999';
+            }
+
+            function closeBridge() {
+              bridge.style.opacity = '0';
+              bridge.style.visibility = 'hidden';
+              bridge.style.pointerEvents = 'none';
+              bridge.style.transform = 'translateY(-8px)';
+            }
+
+            item.addEventListener('mouseenter', openBridge);
+
+            item.addEventListener('mouseleave', function(e) {
+              // Nicht schließen wenn Maus direkt auf Bridge wechselt
+              if (bridge.contains(e.relatedTarget)) return;
+              closeBridge();
+            });
+
+            bridge.addEventListener('mouseleave', function(e) {
+              // Nicht schließen wenn Maus zurück auf Item wechselt
+              if (item.contains(e.relatedTarget)) return;
+              closeBridge();
+            });
+          });
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', teleportDropdowns);
+        } else {
+          teleportDropdowns();
+        }
+      })();
+    </script>
+    <main id="yuuble-main" class="main">
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-alygbu88w" style="position:relative;width:100%;min-height:auto;background-color:#F7F5F0;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:96px;padding-bottom:96px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-moczvg2y5" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-bbt942y1o" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-bbt942y1o { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.blog-hero__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.blog-hero__wrap *,
+.blog-hero__wrap *::before,
+.blog-hero__wrap *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-hero__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+/* LEFT */
+.blog-hero__left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Breadcrumb */
+.blog-hero__breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgb(72,87,112);
+}
+.blog-hero__breadcrumb a {
+  color: rgb(72,87,112);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.blog-hero__breadcrumb a:hover { color: rgb(9,58,126); }
+.blog-hero__breadcrumb-sep { color: rgb(90,110,140); }
+
+/* Kategorie-Label */
+.blog-hero__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgb(9,58,126);
+}
+.blog-hero__label::before {
+  content: '';
+  width: 24px;
+  height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  flex-shrink: 0;
+}
+
+/* Titel */
+.blog-hero__title {
+  font-size: clamp(1.75rem, 3vw, 2.6rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: #0B1A2E;
+}
+.blog-hero__title span {
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Intro */
+.blog-hero__intro {
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: rgb(72,87,112);
+  max-width: 540px;
+}
+
+/* Meta */
+.blog-hero__meta {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(11,26,46,0.08);
+}
+.blog-hero__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgb(72,87,112);
+}
+.blog-hero__meta-icon {
+  width: 14px;
+  height: 14px;
+  opacity: 0.5;
+}
+.blog-hero__meta-dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: rgba(11,26,46,0.2);
+}
+
+/* RIGHT — Bild */
+.blog-hero__right { position: relative; }
+.blog-hero__img-wrap {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  box-shadow:
+    0 2px 8px rgba(11,26,46,0.06),
+    0 12px 40px rgba(11,26,46,0.10);
+}
+.blog-hero__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.blog-hero__img-accent {
+  position: absolute;
+  left: -12px;
+  top: 10%;
+  bottom: 10%;
+  width: 3px;
+  background: linear-gradient(180deg, #0B5FB7, #3EB2F0);
+  border-radius: 2px;
+}
+
+/* ANIMATIONEN */
+.blog-hero__anim {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.blog-hero__anim.blog-hero__vis { opacity: 1; transform: none; }
+.blog-hero__anim--d1 { transition-delay: 0.05s; }
+.blog-hero__anim--d2 { transition-delay: 0.15s; }
+.blog-hero__anim--d3 { transition-delay: 0.25s; }
+.blog-hero__anim--d4 { transition-delay: 0.35s; }
+.blog-hero__anim--d5 { transition-delay: 0.20s; }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .blog-hero__inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .blog-hero__right { order: -1; }
+  .blog-hero__img-wrap { aspect-ratio: 16/7; }
+  .blog-hero__img-accent { display: none; }
+  .blog-hero__title { font-size: clamp(1.5rem, 5vw, 2rem); }
+}
+@media (max-width: 480px) {
+  .blog-hero__meta { flex-wrap: wrap; gap: 0.8rem; }
+  .blog-hero__meta-dot { display: none; }
+}
+
+.blog-hero__wrap a:focus-visible,
+.blog-hero__wrap button:focus-visible {
+  outline: 2px solid #0B5FB7;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+</style>
+
+<div class="blog-hero__wrap">
+  <div class="blog-hero__inner">
+    <div class="blog-hero__left">
+      <div class="blog-hero__breadcrumb blog-hero__anim blog-hero__anim--d1">
+        <a href="/">Home</a>
+        <span class="blog-hero__breadcrumb-sep">›</span>
+        <a href="/fuer/">Für</a>
+        <span class="blog-hero__breadcrumb-sep">›</span>
+        <a href="/fuer/allgemeinmedizin/">Allgemeinmedizin</a>
+        <span class="blog-hero__breadcrumb-sep">›</span>
+        <span>Schilddrüsen-Sonographie</span>
+      </div>
+      <div class="blog-hero__label blog-hero__anim blog-hero__anim--d2">
+        Allgemeinmedizin · Innere Medizin
+      </div>
+      <h1 class="blog-hero__title blog-hero__anim blog-hero__anim--d3">
+        Schilddrüsen-Sonographie <span>in der Praxis</span>
+      </h1>
+      <p class="blog-hero__intro blog-hero__anim blog-hero__anim--d4">
+        Der Ultraschall der Schilddrüse ist die zentrale bildgebende Methode bei Knoten, Struma und Hashimoto-Thyreoiditis — strahlungsfrei, sofort am Patienten und beliebig oft wiederholbar. Dieser Leitfaden zeigt Indikationen, Befundmuster, TIRADS, die richtige Schallkopf- und Doppler-Technik und die entscheidenden Kriterien für die Gerätewahl in der allgemeinmedizinischen, internistischen und endokrinologischen Praxis.
+      </p>
+      <div class="blog-hero__meta blog-hero__anim blog-hero__anim--d4">
+        <div class="blog-hero__meta-item">
+          <svg aria-hidden="true" class="blog-hero__meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>
+          </svg>
+          Aktualisiert 2026
+        </div>
+        <div class="blog-hero__meta-dot" aria-hidden="true"></div>
+        <div class="blog-hero__meta-item">
+          <svg aria-hidden="true" class="blog-hero__meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/>
+          </svg>
+          13 Min. Lesezeit
+        </div>
+        <div class="blog-hero__meta-dot" aria-hidden="true"></div>
+        <div class="blog-hero__meta-item">
+          <svg aria-hidden="true" class="blog-hero__meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+          </svg>
+          SONORING DORMED Redaktion
+        </div>
+      </div>
+    </div>
+    <div class="blog-hero__right blog-hero__anim blog-hero__anim--d5">
+      <div class="blog-hero__img-wrap">
+        <img class="blog-hero__img" src="/assets/img/e6d8f9ca-725c-4b18-fb34-db8236bb3600.jpg" alt="Schilddrüsen-Sonographie — B-Mode-Ultraschall der Schilddrüse mit Hochfrequenz-Linearschallkopf und Farbdoppler" loading="lazy"/>
+      </div>
+      <div class="blog-hero__img-accent" aria-hidden="true"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('blog-hero__vis');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.05, rootMargin: '0px 0px -20px 0px' });
+  document.querySelectorAll('.blog-hero__anim').forEach(function(el) {
+    obs.observe(el);
+  });
+})();
+</script>
+
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-v6eiaawsf" style="position:relative;width:100%;min-height:auto;background-color:#F4F6F9;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-abbrqlfk9" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-of2w87uuc" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-of2w87uuc { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.blog-toc__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.blog-toc__wrap *,
+.blog-toc__wrap *::before,
+.blog-toc__wrap *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-toc__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.blog-toc__box {
+  background: #FFFFFF;
+  border: 1px solid rgba(11,26,46,0.08);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Kopfzeile */
+.blog-toc__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem 1.6rem;
+  border-bottom: 1px solid rgba(11,26,46,0.06);
+  cursor: pointer;
+  user-select: none;
+  gap: 1rem;
+}
+.blog-toc__head-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.blog-toc__head-icon {
+  width: 28px;
+  height: 28px;
+  background: rgba(11,95,183,0.07);
+  border: 1px solid rgba(11,95,183,0.12);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #0B5FB7;
+}
+.blog-toc__head-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #0B1A2E;
+}
+.blog-toc__head-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.56rem;
+  letter-spacing: 0.1em;
+  color: rgb(150,165,190);
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-left: auto;
+}
+.blog-toc__head-meta-sep {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: rgba(11,26,46,0.15);
+}
+.blog-toc__chevron {
+  color: rgb(150,165,190);
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+.blog-toc__chevron--open { transform: rotate(180deg); }
+
+/* Body */
+.blog-toc__body {
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 0.35s ease;
+}
+.blog-toc__body--closed { grid-template-rows: 0fr; }
+.blog-toc__body-inner { overflow: hidden; }
+
+/* Liste — 2 Spalten */
+.blog-toc__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0.5rem 0;
+}
+
+.blog-toc__item {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.7rem 1.6rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(11,26,46,0.04);
+  transition: background 0.18s;
+}
+.blog-toc__item:hover { background: rgba(62,178,240,0.04); }
+.blog-toc__item:hover .blog-toc__item-num {
+  color: #0B5FB7;
+  border-color: rgba(11,95,183,0.25);
+}
+.blog-toc__item:hover .blog-toc__item-label { color: #0B1A2E; }
+.blog-toc__item:nth-child(odd) { border-right: 1px solid rgba(11,26,46,0.04); }
+.blog-toc__item:nth-last-child(-n+2) { border-bottom: none; }
+.blog-toc__item:focus-visible {
+  outline: 2px solid #0B5FB7;
+  outline-offset: -2px;
+}
+
+.blog-toc__item-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: rgb(180,195,215);
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(11,26,46,0.08);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: color 0.18s, border-color 0.18s;
+}
+.blog-toc__item-label {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: rgb(55,70,95);
+  line-height: 1.35;
+  transition: color 0.18s;
+  flex: 1;
+}
+.blog-toc__item-arrow {
+  color: rgba(62,178,240,0);
+  transition: color 0.18s, transform 0.18s;
+  flex-shrink: 0;
+}
+.blog-toc__item:hover .blog-toc__item-arrow {
+  color: #3EB2F0;
+  transform: translateX(3px);
+}
+
+/* Lesefortschritt */
+.blog-toc__progress {
+  height: 2px;
+  background: rgba(11,26,46,0.06);
+  position: relative;
+  overflow: hidden;
+}
+.blog-toc__progress-bar {
+  position: absolute;
+  left: 0; top: 0;
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  transition: width 0.1s linear;
+}
+
+/* Animation */
+.blog-toc__anim {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.blog-toc__anim.blog-toc__vis { opacity: 1; transform: none; }
+
+/* Responsive */
+@media (max-width: 680px) {
+  .blog-toc__list { grid-template-columns: 1fr; }
+  .blog-toc__item:nth-child(odd) { border-right: none; }
+  .blog-toc__item:nth-last-child(-n+2) { border-bottom: 1px solid rgba(11,26,46,0.04); }
+  .blog-toc__item:last-child { border-bottom: none; }
+  .blog-toc__head-meta { display: none; }
+}
+</style>
+
+<div class="blog-toc__wrap">
+  <div class="blog-toc__inner">
+    <div class="blog-toc__box blog-toc__anim">
+      <div class="blog-toc__head" id="toc-sd-toggle">
+        <div class="blog-toc__head-left">
+          <div class="blog-toc__head-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+          </div>
+          <span class="blog-toc__head-title">Inhaltsverzeichnis</span>
+        </div>
+        <div class="blog-toc__head-meta">
+          <span>6 Kapitel</span>
+          <span class="blog-toc__head-meta-sep" aria-hidden="true"></span>
+          <span>13 Min. Lesezeit</span>
+        </div>
+        <svg class="blog-toc__chevron" id="toc-sd-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+      <div class="blog-toc__body" id="toc-sd-body">
+        <div class="blog-toc__body-inner">
+          <div class="blog-toc__list">
+            <a href="#was-ist-sd" class="blog-toc__item">
+              <span class="blog-toc__item-num">01</span>
+              <span class="blog-toc__item-label">Was ist Schilddrüsensonographie?</span>
+              <svg class="blog-toc__item-arrow" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#indikationen" class="blog-toc__item">
+              <span class="blog-toc__item-num">02</span>
+              <span class="blog-toc__item-label">Indikationen — Knoten, Struma &amp; Hashimoto</span>
+              <svg class="blog-toc__item-arrow" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#befundmuster" class="blog-toc__item">
+              <span class="blog-toc__item-num">03</span>
+              <span class="blog-toc__item-label">Befundmuster &amp; TIRADS</span>
+              <svg class="blog-toc__item-arrow" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#technik" class="blog-toc__item">
+              <span class="blog-toc__item-num">04</span>
+              <span class="blog-toc__item-label">Schallkopf, Frequenz &amp; Farbdoppler</span>
+              <svg class="blog-toc__item-arrow" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#anwendungen" class="blog-toc__item">
+              <span class="blog-toc__item-num">05</span>
+              <span class="blog-toc__item-label">Klinische Anwendungen &amp; Verlauf</span>
+              <svg class="blog-toc__item-arrow" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#geraetewahl" class="blog-toc__item">
+              <span class="blog-toc__item-num">06</span>
+              <span class="blog-toc__item-label">Gerätewahl, Schallköpfe &amp; Abrechnung</span>
+              <svg class="blog-toc__item-arrow" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="blog-toc__progress" aria-hidden="true">
+        <div class="blog-toc__progress-bar" id="toc-sd-progress"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  /* Scroll-Animation */
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('blog-toc__vis');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.blog-toc__anim').forEach(function(el) { obs.observe(el); });
+
+  /* Auf-/Zuklappen */
+  var toggle = document.getElementById('toc-sd-toggle');
+  var body   = document.getElementById('toc-sd-body');
+  var chev   = document.getElementById('toc-sd-chevron');
+  var isOpen = true;
+  if (toggle && body && chev) {
+    chev.classList.add('blog-toc__chevron--open');
+    toggle.addEventListener('click', function() {
+      isOpen = !isOpen;
+      body.classList.toggle('blog-toc__body--closed', !isOpen);
+      chev.classList.toggle('blog-toc__chevron--open', isOpen);
+    });
+  }
+
+  /* Smooth Scroll */
+  document.querySelectorAll('.blog-toc__item').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      var href = link.getAttribute('href');
+      if (!href || href.charAt(0) !== '#') return;
+      var target = document.querySelector(href);
+      if (!target) return;
+      e.preventDefault();
+      window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 90, behavior: 'smooth' });
+    });
+  });
+
+  /* Lesefortschritt */
+  var bar = document.getElementById('toc-sd-progress');
+  if (bar) {
+    window.addEventListener('scroll', function() {
+      var docH = document.documentElement.scrollHeight - window.innerHeight;
+      bar.style.width = (docH > 0 ? Math.min((window.scrollY / docH) * 100, 100) : 0) + '%';
+    }, { passive: true });
+  }
+})();
+</script></div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-fllvivv1c" style="position:relative;width:100%;min-height:900px;background-color:#FFFF;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:center;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-lpm6oh7em" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-bxysi22kf" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-bxysi22kf { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.sd-b1__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.sd-b1__wrap *,
+.sd-b1__wrap *::before,
+.sd-b1__wrap *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+
+.sd-b1__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: minmax(0, 720px) 1fr;
+  gap: 0 5rem;
+  align-items: start;
+  position: relative;
+}
+
+.sd-b1__main { display: flex; flex-direction: column; gap: 3.5rem; }
+
+/* ASIDE */
+.sd-b1__aside {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.sd-b1__aside--fixed { position: fixed; z-index: 10; }
+.sd-b1__aside-placeholder { display: none; }
+.sd-b1__aside-placeholder--active { display: block; }
+
+.sd-b1__section { display: flex; flex-direction: column; gap: 1.5rem; }
+.sd-b1__anchor { display: block; position: relative; top: -90px; visibility: hidden; }
+
+/* KAPITEL-LABEL */
+.sd-b1__chapter {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-b1__chapter::before {
+  content: ''; width: 18px; height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+/* ÜBERSCHRIFTEN */
+.sd-b1__h2 {
+  font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+  font-weight: 700; letter-spacing: -0.03em; line-height: 1.2; color: #0B1A2E;
+}
+.sd-b1__h3 {
+  font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em;
+  line-height: 1.35; color: #0B1A2E;
+  display: flex; align-items: center; gap: 0.65rem;
+}
+.sd-b1__h3-marker {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+/* FLIESSTEXT */
+.sd-b1__p {
+  font-size: 1rem; font-weight: 400; line-height: 1.85; color: rgb(55,70,95);
+}
+.sd-b1__p a {
+  color: rgb(9,58,126); text-decoration: underline;
+  text-decoration-color: rgba(62,178,240,0.4); text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+.sd-b1__p a:hover { color: #0B5FB7; text-decoration-color: #3EB2F0; }
+.sd-b1__p a:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 2px; border-radius: 1px; }
+
+/* KEYBOX */
+.sd-b1__keybox {
+  background: rgba(11,95,183,0.04);
+  border: 1px solid rgba(11,95,183,0.12);
+  border-left: 3px solid #0B5FB7;
+  border-radius: 0 4px 4px 0;
+  padding: 1.5rem 1.75rem;
+  display: flex; flex-direction: column; gap: 0.6rem;
+}
+.sd-b1__keybox-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.56rem; letter-spacing: 0.2em; text-transform: uppercase;
+  color: rgb(9,58,126);
+}
+.sd-b1__keybox-text {
+  font-size: 0.95rem; font-weight: 400; line-height: 1.75; color: rgb(40,60,90);
+}
+.sd-b1__keybox-text strong { font-weight: 700; color: #0B1A2E; }
+
+/* STATS-CARDS (3er Grid) */
+.sd-b1__sv-cards {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px; background: rgba(11,26,46,0.07);
+  border: 1px solid rgba(11,26,46,0.07); border-radius: 4px; overflow: hidden;
+}
+.sd-b1__sv-card {
+  background: #FFFFFF; padding: 1.3rem 1.25rem;
+  display: flex; flex-direction: column; gap: 0.5rem;
+  transition: background 0.2s;
+}
+.sd-b1__sv-card:hover { background: rgba(62,178,240,0.04); }
+.sd-b1__sv-num {
+  font-family: 'JetBrains Mono', monospace; font-size: 1.4rem; font-weight: 700;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  line-height: 1;
+}
+.sd-b1__sv-label { font-size: 0.78rem; font-weight: 600; color: #0B1A2E; line-height: 1.3; }
+.sd-b1__sv-sub { font-size: 0.76rem; font-weight: 400; line-height: 1.55; color: rgb(72,87,112); }
+
+/* BILD */
+.sd-b1__img-block { display: flex; flex-direction: column; gap: 0.75rem; }
+.sd-b1__img-wrap { border-radius: 4px; overflow: hidden; border: 1px solid rgba(11,26,46,0.07); }
+.sd-b1__img { width: 100%; height: auto; display: block; }
+.sd-b1__img-caption {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.58rem;
+  letter-spacing: 0.1em; color: rgb(90,110,140); text-align: center;
+}
+
+/* KRISTALL-SCHEMA — visuelle Erklärung 2 Kristalle */
+.sd-b1__crystal-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+}
+.sd-b1__crystal-card {
+  background: #FFFFFF; border: 1px solid rgba(11,26,46,0.07);
+  border-radius: 4px; overflow: hidden;
+}
+.sd-b1__crystal-head {
+  padding: 0.85rem 1.1rem 0.75rem;
+  border-bottom: 1px solid rgba(11,26,46,0.06);
+  display: flex; align-items: center; gap: 0.65rem;
+}
+.sd-b1__crystal-icon {
+  width: 30px; height: 30px;
+  background: rgba(11,95,183,0.07); border: 1px solid rgba(11,95,183,0.12);
+  border-radius: 2px; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; font-size: 0.9rem;
+}
+.sd-b1__crystal-name {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.14em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-b1__crystal-title {
+  font-size: 0.9rem; font-weight: 600; color: #0B1A2E; line-height: 1.3;
+  margin-top: 0.1rem;
+}
+.sd-b1__crystal-body { padding: 0.9rem 1.1rem; }
+.sd-b1__crystal-text {
+  font-size: 0.83rem; font-weight: 400; line-height: 1.65; color: rgb(72,87,112);
+}
+.sd-b1__crystal-text strong { font-weight: 600; color: rgb(40,60,90); }
+
+/* SPEKTRUM-INFOBOX */
+.sd-b1__spektrum {
+  background: rgba(11,95,183,0.04); border: 1px solid rgba(11,95,183,0.12);
+  border-left: 3px solid #0B5FB7; border-radius: 0 4px 4px 0;
+  padding: 1.4rem 1.6rem; display: flex; flex-direction: column; gap: 0.75rem;
+}
+.sd-b1__spektrum-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(9,58,126);
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.sd-b1__spektrum-rows { display: flex; flex-direction: column; gap: 0.55rem; }
+.sd-b1__spektrum-row {
+  display: flex; align-items: flex-start; gap: 0.75rem;
+  font-size: 0.88rem; line-height: 1.6; color: rgb(55,70,95);
+}
+.sd-b1__spektrum-row strong { font-weight: 600; color: #0B1A2E; }
+.sd-b1__spektrum-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0);
+  flex-shrink: 0; margin-top: 7px;
+}
+
+/* INFOBOX (cyan) */
+.sd-b1__infobox {
+  background: rgba(62,178,240,0.05); border: 1px solid rgba(62,178,240,0.15);
+  border-left: 3px solid #3EB2F0; border-radius: 0 4px 4px 0;
+  padding: 1.4rem 1.6rem; display: flex; flex-direction: column; gap: 0.6rem;
+}
+.sd-b1__infobox-label {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-b1__infobox-text {
+  font-size: 0.9rem; font-weight: 400; line-height: 1.75;
+  color: rgb(55,70,95); font-style: italic;
+}
+.sd-b1__infobox-text strong { font-weight: 600; color: #0B1A2E; }
+
+/* ASIDE CARDS */
+.sd-b1__aside-card {
+  background: rgba(11,26,46,0.02); border: 1px solid rgba(11,26,46,0.07);
+  border-radius: 4px; padding: 1.4rem;
+  display: flex; flex-direction: column; gap: 0.75rem;
+}
+.sd-b1__aside-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.55rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(90,110,140);
+}
+.sd-b1__aside-title { font-size: 0.88rem; font-weight: 600; color: #0B1A2E; line-height: 1.35; }
+.sd-b1__aside-text { font-size: 0.82rem; font-weight: 400; line-height: 1.65; color: rgb(80,100,130); }
+.sd-b1__aside-link {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-size: 0.8rem; font-weight: 600; color: rgb(9,58,126);
+  text-decoration: none; transition: gap 0.2s;
+}
+.sd-b1__aside-link:hover { gap: 0.65rem; }
+.sd-b1__aside-link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* ANIMATIONEN */
+.sd-b1__anim {
+  opacity: 0; transform: translateY(14px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.sd-b1__anim.sd-b1__vis { opacity: 1; transform: none; }
+.sd-b1__anim--d1 { transition-delay: 0.05s; }
+.sd-b1__anim--d2 { transition-delay: 0.12s; }
+.sd-b1__anim--d3 { transition-delay: 0.20s; }
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .sd-b1__inner { grid-template-columns: 1fr; gap: 3rem 0; }
+  .sd-b1__aside {
+    position: static !important;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;
+  }
+  .sd-b1__aside--fixed { position: static !important; }
+  .sd-b1__aside-placeholder { display: none !important; }
+}
+@media (max-width: 640px) {
+  .sd-b1__aside { grid-template-columns: 1fr; }
+  .sd-b1__sv-cards { grid-template-columns: 1fr; }
+  .sd-b1__crystal-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="sd-b1__wrap" id="sd-b1-wrap">
+  <div class="sd-b1__inner" id="sd-b1-inner">
+    <div class="sd-b1__main">
+
+      <div class="sd-b1__section">
+        <span id="was-ist-sd" class="sd-b1__anchor"></span>
+        <div class="sd-b1__chapter sd-b1__anim sd-b1__anim--d1">01 — Definition</div>
+        <h2 class="sd-b1__h2 sd-b1__anim sd-b1__anim--d1">Was ist Schilddrüsensonographie?</h2>
+
+        <div class="sd-b1__keybox sd-b1__anim sd-b1__anim--d2">
+          <div class="sd-b1__keybox-label">Kurzdefinition</div>
+          <p class="sd-b1__keybox-text">
+            Die <strong>Schilddrüsen-Sonographie</strong> (Ultraschall der Schilddrüse, Schilddrüsenultraschall) ist die bildgebende Untersuchung beider Schilddrüsenlappen, des Isthmus und der Halslymphknoten mittels hochfrequentem Ultraschall. Sie liefert in Echtzeit Aussagen zu <strong>Volumen, Echostruktur, Knoten und Vaskularisation</strong> — schmerzfrei, ohne ionisierende Strahlung und beliebig oft wiederholbar. In der allgemeinmedizinischen und internistischen Praxis ist der Ultraschall der Schilddrüse die wichtigste apparative Basisdiagnostik bei jeder Schilddrüsenerkrankung.
+          </p>
+        </div>
+
+        <p class="sd-b1__p sd-b1__anim sd-b1__anim--d2">
+          Technisch verbindet die Untersuchung zwei Bausteine: die <strong>zweidimensionale Bildgebung (B-Mode)</strong> mit einem hochauflösenden Linearschallkopf, der die oberflächlich gelegene Schilddrüse detailreich abbildet, und den <strong>Farb- und Power-Doppler</strong>, der die Durchblutung (Vaskularisation) des Gewebes und einzelner Knoten darstellt. Aus der Kombination ergibt sich ein vollständiges Bild aus Anatomie, Echostruktur und Perfusion.
+        </p>
+
+        <p class="sd-b1__p sd-b1__anim sd-b1__anim--d2">
+          Anders als die Szintigraphie ist der Schilddrüsenultraschall unmittelbar am Patienten verfügbar — am Untersuchungsplatz, ohne Strahlenbelastung, bei jeder Konsultation wiederholbar. Das macht ihn zum unverzichtbaren Werkzeug für Allgemeinmediziner, Internisten und Endokrinologen, die Tastbefunde am Hals, eine Struma oder auffällige Laborwerte (TSH, Antikörper) direkt abklären wollen.
+        </p>
+
+        <div class="sd-b1__sv-cards sd-b1__anim sd-b1__anim--d2">
+          <div class="sd-b1__sv-card">
+            <div class="sd-b1__sv-num">B</div>
+            <div class="sd-b1__sv-label">B-Mode</div>
+            <div class="sd-b1__sv-sub">Echostruktur, Volumen und Knoten der Schilddrüse in Echtzeit</div>
+          </div>
+          <div class="sd-b1__sv-card">
+            <div class="sd-b1__sv-num">CD</div>
+            <div class="sd-b1__sv-label">Farbdoppler</div>
+            <div class="sd-b1__sv-sub">Vaskularisation von Parenchym und Knoten als wichtiger Zusatzbefund</div>
+          </div>
+          <div class="sd-b1__sv-card">
+            <div class="sd-b1__sv-num">0</div>
+            <div class="sd-b1__sv-label">Strahlung</div>
+            <div class="sd-b1__sv-sub">Nicht-invasiv, schmerzfrei, beliebig oft wiederholbar</div>
+          </div>
+        </div>
+
+        <div class="sd-b1__img-block sd-b1__anim sd-b1__anim--d2">
+          <div class="sd-b1__img-wrap">
+            <img class="sd-b1__img" src="/assets/img/bb313905-7f09-462f-7812-5febf1bb5f00.jpg" alt="Hochfrequenz-Linearschallkopf bei der Schilddrüsen-Sonographie am Hals" loading="lazy"/>
+          </div>
+          <p class="sd-b1__img-caption">Hochfrequenz-Linearschallkopf am Hals — flache, breite Auflagefläche für die oberflächlich gelegene Schilddrüse</p>
+        </div>
+      </div>
+
+      <div class="sd-b1__section">
+        <span id="indikationen" class="sd-b1__anchor"></span>
+        <div class="sd-b1__chapter sd-b1__anim sd-b1__anim--d1">02 — Indikationen</div>
+        <h2 class="sd-b1__h2 sd-b1__anim sd-b1__anim--d1">Indikationen — Knoten, Struma und Hashimoto-Thyreoiditis</h2>
+
+        <p class="sd-b1__p sd-b1__anim sd-b1__anim--d2">
+          Wann sonographiert man die Schilddrüse? Die häufigsten Anlässe in der Praxis sind ein Tastbefund am Hals, eine auffällige TSH-Bestimmung, positive Schilddrüsenantikörper und die Verlaufskontrolle bekannter Befunde. Drei Indikationsgruppen dominieren den Alltag.
+        </p>
+
+        <div class="sd-b1__crystal-grid sd-b1__anim sd-b1__anim--d2">
+          <div class="sd-b1__crystal-card">
+            <div class="sd-b1__crystal-head">
+              <div class="sd-b1__crystal-icon" aria-hidden="true">🔵</div>
+              <div>
+                <div class="sd-b1__crystal-name">Knoten</div>
+                <div class="sd-b1__crystal-title">Schilddrüsenknoten — der häufigste Befund</div>
+              </div>
+            </div>
+            <div class="sd-b1__crystal-body">
+              <p class="sd-b1__crystal-text">
+                <strong>Schilddrüsenknoten</strong> sind extrem häufig und in der Mehrzahl benigne. Der Ultraschall beschreibt Größe, Echogenität, Begrenzung, Verkalkungen und Vaskularisation und ordnet das Malignitätsrisiko nach <strong>TIRADS</strong> ein — die Basis für die Entscheidung über Verlaufskontrolle oder Feinnadelpunktion.
+              </p>
+            </div>
+          </div>
+          <div class="sd-b1__crystal-card">
+            <div class="sd-b1__crystal-head">
+              <div class="sd-b1__crystal-icon" aria-hidden="true">🦋</div>
+              <div>
+                <div class="sd-b1__crystal-name">Struma</div>
+                <div class="sd-b1__crystal-title">Struma — Volumetrie &amp; Verlauf</div>
+              </div>
+            </div>
+            <div class="sd-b1__crystal-body">
+              <p class="sd-b1__crystal-text">
+                Bei der <strong>Struma</strong> (Schilddrüsenvergrößerung) liefert der Ultraschall das exakte Volumen beider Lappen (Ellipsoidformel) und unterscheidet die diffuse von der knotigen Form. Die reproduzierbare Volumetrie ist die Grundlage jeder Verlaufs- und Therapiekontrolle.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="sd-b1__h3 sd-b1__anim sd-b1__anim--d2">
+          <span class="sd-b1__h3-marker" aria-hidden="true"></span>
+          Hashimoto-Thyreoiditis &amp; Verlaufskontrolle
+        </h3>
+
+        <p class="sd-b1__p sd-b1__anim sd-b1__anim--d2">
+          Die <strong>Hashimoto-Thyreoiditis</strong> ist die häufigste Ursache der Hypothyreose. Sonographisch zeigt sich ein typisch <strong>echoarmes, inhomogenes Parenchym</strong>, oft mit feinen echoreichen Septen und reduziertem Volumen im Verlauf. Bei der Immunthyreopathie vom Typ Morbus Basedow ist das Parenchym ebenfalls echoarm, aber im Farbdoppler stark hypervaskularisiert („thyroid inferno"). Die <strong>Verlaufskontrolle</strong> bekannter Knoten, einer Struma oder einer Thyreoiditis ist eine der wertvollsten Anwendungen — strahlungsfrei und so oft wie nötig.
+        </p>
+
+        <div class="sd-b1__spektrum sd-b1__anim sd-b1__anim--d2">
+          <div class="sd-b1__spektrum-label"><span aria-hidden="true">📋</span> Indikationen auf einen Blick</div>
+          <div class="sd-b1__spektrum-rows">
+            <div class="sd-b1__spektrum-row">
+              <span class="sd-b1__spektrum-dot" aria-hidden="true"></span>
+              <span><strong>Knoten:</strong> Tastbefund, Zufallsbefund, TIRADS-Einordnung, Punktionssteuerung</span>
+            </div>
+            <div class="sd-b1__spektrum-row">
+              <span class="sd-b1__spektrum-dot" aria-hidden="true"></span>
+              <span><strong>Struma:</strong> Volumetrie, diffus vs. knotig, Therapie- und Verlaufskontrolle</span>
+            </div>
+            <div class="sd-b1__spektrum-row">
+              <span class="sd-b1__spektrum-dot" aria-hidden="true"></span>
+              <span><strong>Thyreoiditis:</strong> Hashimoto (echoarm, inhomogen), Morbus Basedow (hypervaskularisiert)</span>
+            </div>
+            <div class="sd-b1__spektrum-row">
+              <span class="sd-b1__spektrum-dot" aria-hidden="true"></span>
+              <span><strong>Verlaufskontrolle:</strong> bekannte Knoten, Struma, nach Operation oder Radiojodtherapie</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sd-b1__infobox sd-b1__anim sd-b1__anim--d3">
+          <div class="sd-b1__infobox-label"><span aria-hidden="true">💡</span> Sonographie &amp; Labor gehören zusammen</div>
+          <p class="sd-b1__infobox-text">
+            Der Schilddrüsenultraschall ersetzt die Funktionsdiagnostik nicht, sondern ergänzt sie: TSH (ggf. fT3/fT4) klärt die Funktion, Antikörper (TPO-AK, TRAK) die Autoimmunität, der Ultraschall die Morphologie. Erst die Kombination führt zur Diagnose — und der Ultraschall steuert die nächste Stufe, etwa eine Szintigraphie bei autonomen Knoten oder eine Feinnadelpunktion bei TIRADS-Verdacht. (<a href="https://de.wikipedia.org/wiki/Schilddr%C3%BCsensonografie" target="_blank" rel="noopener noreferrer" style="color:rgb(9,58,126);font-style:normal">Quelle: Wikipedia — Schilddrüsensonografie</a>)
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="sd-b1__aside-placeholder" id="sd-b1-placeholder" aria-hidden="true"></div>
+    <div class="sd-b1__aside" id="sd-b1-aside">
+      <div class="sd-b1__aside-card">
+        <div class="sd-b1__aside-label">Grundlagen</div>
+        <div class="sd-b1__aside-title">Ultraschall in der Allgemeinmedizin</div>
+        <p class="sd-b1__aside-text">Vom Abdomen bis zu Small Parts — wie der Ultraschall die hausärztliche und internistische Diagnostik erweitert.</p>
+        <a href="/fuer/allgemeinmedizin/sonographie" class="sd-b1__aside-link">
+          Zur Sonographie-Übersicht
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="sd-b1__aside-card">
+        <div class="sd-b1__aside-label">Geräteauswahl</div>
+        <div class="sd-b1__aside-title">Geräte für die Schilddrüse</div>
+        <p class="sd-b1__aside-text">Hochauflösender Linearschallkopf, Farb-/Power-Doppler und Elastographie — die passenden Systeme auf einen Blick.</p>
+        <a href="/fuer/allgemeinmedizin/" class="sd-b1__aside-link">
+          Geräte für die Allgemeinmedizin
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var aside       = document.getElementById('sd-b1-aside');
+  var placeholder = document.getElementById('sd-b1-placeholder');
+  var inner       = document.getElementById('sd-b1-inner');
+  if (!aside || !placeholder || !inner) return;
+
+  var stickyStartY = null;
+  var asideLeft    = null;
+  var asideWidth   = null;
+  var bottomPad    = 40;
+
+  function getNavHeight() {
+    var nav = document.querySelector('.nav__wrap');
+    if (nav) return nav.getBoundingClientRect().height;
+    var bar = document.querySelector('.nav__bar');
+    if (bar) return bar.getBoundingClientRect().height;
+    var anyNav = document.querySelector('nav');
+    if (anyNav) return anyNav.getBoundingClientRect().height;
+    return 68;
+  }
+  function isMobile() { return window.innerWidth <= 1100; }
+
+  function measureStickyStartY() {
+    if (isMobile()) {
+      aside.classList.remove('sd-b1__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('sd-b1__aside-placeholder--active');
+      placeholder.style.height = '';
+      stickyStartY = null;
+      return;
+    }
+    aside.classList.remove('sd-b1__aside--fixed');
+    aside.style.position = aside.style.top = aside.style.left = aside.style.width = '';
+    placeholder.classList.remove('sd-b1__aside-placeholder--active');
+    placeholder.style.height = '';
+    var navH = getNavHeight();
+    var rect = aside.getBoundingClientRect();
+    asideLeft    = rect.left;
+    asideWidth   = rect.width;
+    stickyStartY = rect.top + window.scrollY - navH - 20;
+    if (window.scrollY >= stickyStartY) {
+      placeholder.classList.add('sd-b1__aside-placeholder--active');
+      placeholder.style.height = aside.offsetHeight + 'px';
+      aside.classList.add('sd-b1__aside--fixed');
+      aside.style.top    = (navH + 20) + 'px';
+      aside.style.bottom = '';
+      aside.style.left   = asideLeft + 'px';
+      aside.style.right  = '';
+      aside.style.width  = asideWidth + 'px';
+    }
+  }
+
+  function updateSidebarPos() {
+    if (!aside || !inner) return;
+    if (isMobile()) {
+      aside.classList.remove('sd-b1__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('sd-b1__aside-placeholder--active');
+      placeholder.style.height = '';
+      return;
+    }
+    if (stickyStartY === null) { measureStickyStartY(); return; }
+
+    var navH      = getNavHeight();
+    var scrollY   = window.scrollY;
+    var asideH    = aside.offsetHeight;
+    var innerH    = inner.offsetHeight;
+    var maxAbsTop = innerH - asideH - bottomPad;
+
+    if (scrollY < stickyStartY) {
+      placeholder.classList.remove('sd-b1__aside-placeholder--active');
+      placeholder.style.height = '';
+      aside.classList.remove('sd-b1__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      return;
+    }
+
+    placeholder.classList.add('sd-b1__aside-placeholder--active');
+    placeholder.style.height = asideH + 'px';
+
+    var innerRect       = inner.getBoundingClientRect();
+    var sidebarWouldEnd = (navH + 20) + asideH;
+
+    if (innerRect.bottom - bottomPad <= sidebarWouldEnd) {
+      var innerPadRight = parseInt(window.getComputedStyle(inner).paddingRight, 10) || 0;
+      aside.classList.remove('sd-b1__aside--fixed');
+      aside.style.position = 'absolute';
+      aside.style.top      = 'auto';
+      aside.style.bottom   = bottomPad + 'px';
+      aside.style.right    = innerPadRight + 'px';
+      aside.style.left     = 'auto';
+      aside.style.width    = asideWidth + 'px';
+    } else {
+      aside.style.position = '';
+      aside.classList.add('sd-b1__aside--fixed');
+      aside.style.top      = (navH + 20) + 'px';
+      aside.style.bottom   = '';
+      aside.style.left     = asideLeft + 'px';
+      aside.style.right    = '';
+      aside.style.width    = asideWidth + 'px';
+    }
+  }
+
+  window.addEventListener('scroll', updateSidebarPos, { passive: true });
+  window.addEventListener('resize', function () {
+    stickyStartY = null; asideLeft = null; asideWidth = null;
+    setTimeout(updateSidebarPos, 60);
+  }, { passive: true });
+  setTimeout(function () { measureStickyStartY(); updateSidebarPos(); }, 200);/*SLF*/window.addEventListener("load",function(){measureStickyStartY();updateSidebarPos();setTimeout(function(){measureStickyStartY();updateSidebarPos();},200);});[700,1500,2500].forEach(function(d){setTimeout(function(){measureStickyStartY();updateSidebarPos();},d);});
+  updateSidebarPos();
+
+  function measure() { measureStickyStartY(); }
+  function update() { updateSidebarPos(); }
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('sd-b1__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.sd-b1__anim').forEach(function (el) { obs.observe(el); });
+
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-c7sww7asl" style="position:relative;width:100%;min-height:900px;background-color:#F4F6F9;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:center;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-mz0x3xc0q" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-l57nxfhbw" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-l57nxfhbw { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.sd-b2__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.sd-b2__wrap *,
+.sd-b2__wrap *::before,
+.sd-b2__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.sd-b2__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: minmax(0, 720px) 1fr;
+  gap: 0 5rem;
+  align-items: start;
+  position: relative;
+}
+
+.sd-b2__main { display: flex; flex-direction: column; gap: 3.5rem; }
+
+/* ASIDE */
+.sd-b2__aside { position: relative; display: flex; flex-direction: column; gap: 1.5rem; }
+.sd-b2__aside--fixed { position: fixed; z-index: 10; }
+.sd-b2__aside-placeholder { display: none; }
+.sd-b2__aside-placeholder--active { display: block; }
+
+.sd-b2__section { display: flex; flex-direction: column; gap: 1.5rem; }
+.sd-b2__anchor { display: block; position: relative; top: -90px; visibility: hidden; }
+
+.sd-b2__chapter {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-b2__chapter::before {
+  content: ''; width: 18px; height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+.sd-b2__h2 {
+  font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+  font-weight: 700; letter-spacing: -0.03em; line-height: 1.2; color: #0B1A2E;
+}
+.sd-b2__h3 {
+  font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em;
+  line-height: 1.35; color: #0B1A2E;
+  display: flex; align-items: center; gap: 0.65rem;
+}
+.sd-b2__h3-marker {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+.sd-b2__p {
+  font-size: 1rem; font-weight: 400; line-height: 1.85; color: rgb(55,70,95);
+}
+.sd-b2__p a {
+  color: rgb(9,58,126); text-decoration: underline;
+  text-decoration-color: rgba(62,178,240,0.4); text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+.sd-b2__p a:hover { color: #0B5FB7; text-decoration-color: #3EB2F0; }
+.sd-b2__p a:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 2px; border-radius: 1px; }
+
+/* ── VERGLEICHS-GRID PW vs CW ── */
+.sd-b2__compare {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 1px; background: rgba(11,26,46,0.07);
+  border: 1px solid rgba(11,26,46,0.07); border-radius: 4px; overflow: hidden;
+}
+.sd-b2__compare-card { background: #FFFFFF; padding: 1.6rem 1.5rem; display: flex; flex-direction: column; gap: 0.9rem; }
+.sd-b2__compare-head { display: flex; flex-direction: column; gap: 0.4rem; }
+.sd-b2__compare-badge {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.54rem;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  padding: 0.25rem 0.65rem; border-radius: 2px; width: fit-content;
+}
+.sd-b2__compare-badge--cw { color: #0B5FB7; background: rgba(11,95,183,0.07); border: 1px solid rgba(11,95,183,0.15); }
+.sd-b2__compare-badge--pw { color: rgb(80,60,180); background: rgba(80,60,180,0.06); border: 1px solid rgba(80,60,180,0.14); }
+.sd-b2__compare-title { font-size: 0.95rem; font-weight: 700; color: #0B1A2E; line-height: 1.2; }
+.sd-b2__compare-items { display: flex; flex-direction: column; gap: 0.6rem; list-style: none; }
+.sd-b2__compare-item { display: flex; gap: 0.65rem; align-items: flex-start; font-size: 0.84rem; line-height: 1.6; color: rgb(72,87,112); }
+.sd-b2__compare-item strong { font-weight: 600; color: rgb(40,60,90); }
+.sd-b2__compare-dot { width: 5px; height: 5px; border-radius: 50%; background: rgba(62,178,240,0.5); flex-shrink: 0; margin-top: 7px; }
+.sd-b2__compare-dot--pro { background: rgba(16,185,129,0.55); }
+.sd-b2__compare-dot--limit { background: rgba(255,80,80,0.4); }
+
+/* ── TABELLE ── */
+.sd-b2__table-wrap {
+  width: 100%; overflow: hidden; border-radius: 4px;
+  border: 1px solid rgba(11,26,46,0.08); background: #FFFFFF;
+}
+.sd-b2__table { width: 100%; border-collapse: collapse; font-size: 0.85rem; table-layout: fixed; }
+.sd-b2__table thead tr { background: rgba(11,26,46,0.03); border-bottom: 2px solid rgba(62,178,240,0.2); }
+.sd-b2__table th { padding: 0.75rem 0.9rem; font-weight: 600; font-size: 0.75rem; color: #0B1A2E; text-align: left; word-break: break-word; }
+.sd-b2__table th:first-child { font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(72,87,112); width: 30%; }
+.sd-b2__table td { padding: 0.75rem 0.9rem; color: rgb(55,70,95); border-bottom: 1px solid rgba(11,26,46,0.05); line-height: 1.5; vertical-align: top; word-break: break-word; }
+.sd-b2__table tr:last-child td { border-bottom: none; }
+.sd-b2__table tr:hover td { background: rgba(62,178,240,0.03); }
+.sd-b2__table-hl { background: rgba(11,95,183,0.04); font-weight: 600; color: rgb(9,58,126); }
+.sd-b2__table-check { color: #3EB2F0; font-weight: 700; }
+.sd-b2__table-no { color: rgb(180,195,220); }
+
+@media (max-width: 600px) {
+  .sd-b2__table thead { display: none; }
+  .sd-b2__table, .sd-b2__table tbody, .sd-b2__table tr, .sd-b2__table td { display: block; width: 100%; }
+  .sd-b2__table tr { border-bottom: 1px solid rgba(11,26,46,0.07); padding: 0.75rem 0; }
+  .sd-b2__table tr:last-child { border-bottom: none; }
+  .sd-b2__table td { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; padding: 0.3rem 1rem; border-bottom: none; font-size: 0.82rem; }
+  .sd-b2__table td::before { content: attr(data-label); font-family: 'JetBrains Mono', monospace; font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(90,110,140); white-space: nowrap; flex-shrink: 0; min-width: 80px; }
+}
+
+/* ── BERNOULLI-FORMEL-BOX ── */
+.sd-b2__formula-box {
+  background: rgba(11,95,183,0.04); border: 1px solid rgba(11,95,183,0.14);
+  border-radius: 4px; overflow: hidden;
+}
+.sd-b2__formula-head {
+  padding: 0.9rem 1.5rem; background: rgba(11,95,183,0.07);
+  border-bottom: 1px solid rgba(11,95,183,0.12);
+  display: flex; align-items: center; gap: 0.75rem;
+}
+.sd-b2__formula-head-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-b2__formula-body { padding: 1.5rem; display: flex; flex-direction: column; gap: 1.25rem; }
+.sd-b2__formula-eq {
+  display: flex; align-items: center; justify-content: center;
+  gap: 0.75rem; flex-wrap: wrap;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(1.15rem, 2.5vw, 1.6rem);
+  font-weight: 700; color: #0B1A2E;
+  padding: 1rem;
+  background: #FFFFFF; border-radius: 4px;
+  border: 1px solid rgba(11,26,46,0.08);
+}
+.sd-b2__formula-eq .eq-hl {
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.sd-b2__formula-legend { display: flex; flex-direction: column; gap: 0.45rem; }
+.sd-b2__formula-legend-item {
+  display: flex; gap: 0.75rem; align-items: baseline;
+  font-size: 0.85rem; color: rgb(55,70,95); line-height: 1.55;
+}
+.sd-b2__formula-legend-key {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;
+  font-weight: 700; color: #0B5FB7; flex-shrink: 0; min-width: 40px;
+}
+
+/* ── RECHENBEISPIEL ── */
+.sd-b2__rechenbsp {
+  background: #FFFFFF; border: 1px solid rgba(11,26,46,0.08);
+  border-radius: 4px; overflow: hidden;
+}
+.sd-b2__rechenbsp-head {
+  padding: 0.85rem 1.4rem; background: rgba(11,26,46,0.02);
+  border-bottom: 1px solid rgba(11,26,46,0.06);
+  display: flex; align-items: center; gap: 0.6rem;
+}
+.sd-b2__rechenbsp-tag {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.54rem;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: #fff; background: rgb(9,58,126);
+  padding: 0.2rem 0.55rem; border-radius: 2px;
+}
+.sd-b2__rechenbsp-title { font-size: 0.88rem; font-weight: 600; color: #0B1A2E; }
+.sd-b2__rechenbsp-body { padding: 1.25rem 1.4rem; display: flex; flex-direction: column; gap: 0.75rem; }
+.sd-b2__rechenbsp-row {
+  display: grid; grid-template-columns: 1fr auto;
+  align-items: center; gap: 1rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 2px;
+}
+.sd-b2__rechenbsp-row--input { background: rgba(62,178,240,0.05); border: 1px solid rgba(62,178,240,0.12); }
+.sd-b2__rechenbsp-row--calc  { background: rgba(11,26,46,0.02); border: 1px solid rgba(11,26,46,0.06); }
+.sd-b2__rechenbsp-row--result { background: rgba(11,95,183,0.06); border: 1px solid rgba(11,95,183,0.18); }
+.sd-b2__rechenbsp-desc { font-size: 0.84rem; color: rgb(55,70,95); line-height: 1.5; }
+.sd-b2__rechenbsp-desc strong { font-weight: 600; color: #0B1A2E; }
+.sd-b2__rechenbsp-val {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.9rem;
+  font-weight: 700; white-space: nowrap;
+}
+.sd-b2__rechenbsp-val--blue { color: #0B5FB7; }
+.sd-b2__rechenbsp-val--result {
+  font-size: 1.05rem; color: #0B1A2E;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.sd-b2__rechenbsp-hint {
+  font-size: 0.8rem; font-style: italic; color: rgb(90,110,140);
+  padding-top: 0.25rem; line-height: 1.6;
+}
+
+/* ── SCHWEREGRAD-TABELLE ── */
+.sd-b2__severity {
+  width: 100%; overflow: hidden; border-radius: 4px;
+  border: 1px solid rgba(11,26,46,0.08); background: #FFFFFF;
+}
+.sd-b2__severity table { width: 100%; border-collapse: collapse; font-size: 0.84rem; table-layout: fixed; }
+.sd-b2__severity thead tr { background: rgba(11,26,46,0.03); border-bottom: 2px solid rgba(62,178,240,0.18); }
+.sd-b2__severity th { padding: 0.7rem 0.9rem; font-weight: 600; font-size: 0.73rem; color: #0B1A2E; text-align: left; word-break: break-word; }
+.sd-b2__severity th:first-child { font-family: 'JetBrains Mono', monospace; font-size: 0.56rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(72,87,112); width: 30%; }
+.sd-b2__severity td { padding: 0.7rem 0.9rem; color: rgb(55,70,95); border-bottom: 1px solid rgba(11,26,46,0.05); line-height: 1.5; vertical-align: middle; word-break: break-word; }
+.sd-b2__severity tr:last-child td { border-bottom: none; }
+.sd-b2__severity tr:hover td { background: rgba(62,178,240,0.03); }
+.sd-b2__sev-dot {
+  display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+  margin-right: 0.4rem; vertical-align: middle;
+}
+.sd-b2__sev-dot--leicht { background: #22c55e; }
+.sd-b2__sev-dot--mittel { background: #f59e0b; }
+.sd-b2__sev-dot--schwer { background: #ef4444; }
+
+@media (max-width: 600px) {
+  .sd-b2__severity thead { display: none; }
+  .sd-b2__severity table, .sd-b2__severity tbody, .sd-b2__severity tr, .sd-b2__severity td { display: block; width: 100%; }
+  .sd-b2__severity tr { border-bottom: 1px solid rgba(11,26,46,0.07); padding: 0.6rem 0; }
+  .sd-b2__severity tr:last-child { border-bottom: none; }
+  .sd-b2__severity td { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; padding: 0.3rem 1rem; border-bottom: none; font-size: 0.8rem; }
+  .sd-b2__severity td::before { content: attr(data-label); font-family: 'JetBrains Mono', monospace; font-size: 0.54rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(90,110,140); white-space: nowrap; flex-shrink: 0; min-width: 80px; }
+}
+
+/* ── INFOBOX ── */
+.sd-b2__infobox {
+  background: rgba(62,178,240,0.05); border: 1px solid rgba(62,178,240,0.15);
+  border-left: 3px solid #3EB2F0; border-radius: 0 4px 4px 0;
+  padding: 1.4rem 1.6rem; display: flex; flex-direction: column; gap: 0.6rem;
+}
+.sd-b2__infobox-label {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-b2__infobox-text {
+  font-size: 0.9rem; font-weight: 400; line-height: 1.75;
+  color: rgb(55,70,95); font-style: italic;
+}
+.sd-b2__infobox-text strong { font-weight: 600; color: #0B1A2E; }
+
+/* ── BILD ── */
+.sd-b2__img-block { display: flex; flex-direction: column; gap: 0.75rem; }
+.sd-b2__img-wrap { border-radius: 4px; overflow: hidden; border: 1px solid rgba(11,26,46,0.07); }
+.sd-b2__img { width: 100%; height: auto; display: block; }
+.sd-b2__img-caption { font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; letter-spacing: 0.1em; color: rgb(90,110,140); text-align: center; }
+
+/* ── ASIDE CARDS ── */
+.sd-b2__aside-card { background: #FFFFFF; border: 1px solid rgba(11,26,46,0.07); border-radius: 4px; padding: 1.4rem; display: flex; flex-direction: column; gap: 0.75rem; }
+.sd-b2__aside-label { font-family: 'JetBrains Mono', monospace; font-size: 0.55rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgb(90,110,140); }
+.sd-b2__aside-title { font-size: 0.88rem; font-weight: 600; color: #0B1A2E; line-height: 1.35; }
+.sd-b2__aside-text { font-size: 0.82rem; font-weight: 400; line-height: 1.65; color: rgb(80,100,130); }
+.sd-b2__aside-link { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 600; color: rgb(9,58,126); text-decoration: none; transition: gap 0.2s; }
+.sd-b2__aside-link:hover { gap: 0.65rem; }
+.sd-b2__aside-link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* ANIMATIONEN */
+.sd-b2__anim { opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.sd-b2__anim.sd-b2__vis { opacity: 1; transform: none; }
+.sd-b2__anim--d1 { transition-delay: 0.05s; }
+.sd-b2__anim--d2 { transition-delay: 0.12s; }
+.sd-b2__anim--d3 { transition-delay: 0.20s; }
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .sd-b2__inner { grid-template-columns: 1fr; gap: 3rem 0; }
+  .sd-b2__aside { position: static !important; display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .sd-b2__aside--fixed { position: static !important; }
+  .sd-b2__aside-placeholder { display: none !important; }
+}
+@media (max-width: 640px) {
+  .sd-b2__aside { grid-template-columns: 1fr; }
+  .sd-b2__compare { grid-template-columns: 1fr; }
+  .sd-b2__rechenbsp-row { grid-template-columns: 1fr; gap: 0.25rem; }
+}
+</style>
+
+<div class="sd-b2__wrap" id="sd-b2-wrap">
+  <div class="sd-b2__inner" id="sd-b2-inner">
+    <div class="sd-b2__main">
+
+      <div class="sd-b2__section">
+        <span id="befundmuster" class="sd-b2__anchor"></span>
+        <div class="sd-b2__chapter sd-b2__anim sd-b2__anim--d1">03 — Befundmuster</div>
+        <h2 class="sd-b2__h2 sd-b2__anim sd-b2__anim--d1">Befundmuster in der Schilddrüsen-Sonographie</h2>
+
+        <p class="sd-b2__p sd-b2__anim sd-b2__anim--d2">
+          Das B-Bild zeigt Echogenität und Struktur — der <strong>Farbdoppler</strong> ergänzt die Vaskularisation. Eine systematische Befundung beschreibt jeden Knoten nach denselben Kriterien: Zusammensetzung, Echogenität, Form, Rand und Echogenitätsherde (Verkalkungen). Genau diese Merkmale fließen in die TIRADS-Risikoeinschätzung ein.
+        </p>
+
+        <div class="sd-b2__compare sd-b2__anim sd-b2__anim--d2">
+          <div class="sd-b2__compare-card">
+            <div class="sd-b2__compare-head">
+              <span class="sd-b2__compare-badge sd-b2__compare-badge--cw">Eher benigne</span>
+              <div class="sd-b2__compare-title">Beruhigende Zeichen</div>
+            </div>
+            <ul class="sd-b2__compare-items">
+              <li class="sd-b2__compare-item">
+                <span class="sd-b2__compare-dot sd-b2__compare-dot--pro"></span>
+                <span><strong>Echoreich oder isoechogen</strong> — gleich hell oder heller als das umgebende Parenchym</span>
+              </li>
+              <li class="sd-b2__compare-item">
+                <span class="sd-b2__compare-dot sd-b2__compare-dot--pro"></span>
+                <span><strong>Glatt begrenzt, breiter als hoch</strong> — ovale, scharf abgrenzbare Form</span>
+              </li>
+              <li class="sd-b2__compare-item">
+                <span class="sd-b2__compare-dot sd-b2__compare-dot--pro"></span>
+                <span><strong>Rein zystisch / spongiform</strong> — überwiegend flüssigkeitsgefüllt, schwammartig</span>
+              </li>
+            </ul>
+          </div>
+          <div class="sd-b2__compare-card">
+            <div class="sd-b2__compare-head">
+              <span class="sd-b2__compare-badge sd-b2__compare-badge--pw">Verdächtig</span>
+              <div class="sd-b2__compare-title">Warnzeichen (Malignitätshinweis)</div>
+            </div>
+            <ul class="sd-b2__compare-items">
+              <li class="sd-b2__compare-item">
+                <span class="sd-b2__compare-dot sd-b2__compare-dot--limit"></span>
+                <span><strong>Echoarm bis sehr echoarm</strong> — dunkler als Parenchym, besonders bei solidem Knoten</span>
+              </li>
+              <li class="sd-b2__compare-item">
+                <span class="sd-b2__compare-dot sd-b2__compare-dot--limit"></span>
+                <span><strong>Mikroverkalkungen</strong> — feine, punktförmige echoreiche Herde ohne Schallschatten</span>
+              </li>
+              <li class="sd-b2__compare-item">
+                <span class="sd-b2__compare-dot sd-b2__compare-dot--limit"></span>
+                <span><strong>Höher als breit, irregulärer Rand</strong> — vertikale Orientierung, unscharfe oder lobulierte Begrenzung</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="sd-b2__table-wrap sd-b2__anim sd-b2__anim--d2">
+          <table class="sd-b2__table">
+            <thead>
+              <tr>
+                <th scope="col">Merkmal</th>
+                <th scope="col" class="sd-b2__table-hl">Sonographisches Bild</th>
+                <th scope="col">Bedeutung</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Merkmal">Echogenität</td>
+                <td class="sd-b2__table-hl" data-label="Bild">echoarm / echoreich / isoechogen</td>
+                <td data-label="Bedeutung">Echoarm = höheres Risiko, echoreich = eher benigne</td>
+              </tr>
+              <tr>
+                <td data-label="Merkmal">Struktur</td>
+                <td class="sd-b2__table-hl" data-label="Bild">homogen / inhomogen</td>
+                <td data-label="Bedeutung">Inhomogenes Parenchym typisch für Hashimoto</td>
+              </tr>
+              <tr>
+                <td data-label="Merkmal">Verkalkungen</td>
+                <td class="sd-b2__table-hl" data-label="Bild">Mikro- vs. Makroverkalkung</td>
+                <td data-label="Bedeutung">Mikroverkalkungen sind ein Malignitätshinweis</td>
+              </tr>
+              <tr>
+                <td data-label="Merkmal">Form</td>
+                <td class="sd-b2__table-hl" data-label="Bild">breiter als hoch / höher als breit</td>
+                <td data-label="Bedeutung">„Höher als breit" gilt als verdächtig</td>
+              </tr>
+              <tr>
+                <td data-label="Merkmal">Vaskularisation</td>
+                <td class="sd-b2__table-hl" data-label="Bild">peripher vs. zentral/chaotisch (Farbdoppler)</td>
+                <td data-label="Bedeutung">Zentrale Hypervaskularisation als Zusatzkriterium</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="sd-b2__infobox sd-b2__anim sd-b2__anim--d3">
+          <div class="sd-b2__infobox-label"><span aria-hidden="true">💡</span> TIRADS — Risiko strukturiert einschätzen</div>
+          <p class="sd-b2__infobox-text">
+            <strong>TIRADS</strong> (Thyroid Imaging Reporting and Data System) übersetzt die sonographischen Merkmale in eine Punktwertung und damit in ein abgestuftes Malignitätsrisiko (TR1–TR5). Aus Risikokategorie und Knotengröße ergibt sich die Empfehlung: Verlaufskontrolle oder <strong>Feinnadelpunktion (FNAB)</strong>. TIRADS standardisiert Befundung und Kommunikation — Voraussetzung ist ein Gerät, das alle Merkmale (Echogenität, Form, Ränder, Mikroverkalkungen) sauber auflöst.
+          </p>
+        </div>
+      </div>
+
+      <div class="sd-b2__section">
+        <span id="technik" class="sd-b2__anchor"></span>
+        <div class="sd-b2__chapter sd-b2__anim sd-b2__anim--d1">04 — Schallkopf &amp; Technik</div>
+        <h2 class="sd-b2__h2 sd-b2__anim sd-b2__anim--d1">Schallkopf, Frequenz und Farbdoppler</h2>
+
+        <p class="sd-b2__p sd-b2__anim sd-b2__anim--d2">
+          Die Schilddrüse liegt oberflächlich — das prädestiniert sie für den <strong>hochauflösenden Linearschallkopf</strong>. Anders als beim Abdomen- oder Herzultraschall kommt es nicht auf Eindringtiefe, sondern auf maximale Detailauflösung im Nahfeld an. Der richtige Schallkopf und seine Frequenz entscheiden über die Qualität der gesamten Untersuchung.
+        </p>
+
+        <div class="sd-b2__formula-box sd-b2__anim sd-b2__anim--d2">
+          <div class="sd-b2__formula-head">
+            <div class="sd-b2__formula-head-label">Schallkopf-Wahl</div>
+          </div>
+          <div class="sd-b2__formula-body">
+            <div class="sd-b2__formula-eq" role="img" aria-label="Hochfrequenz-Linearschallkopf etwa 7,5 bis 15 Megahertz">
+              <span class="eq-hl">Linear</span>
+              <span style="color:rgb(90,110,140); font-weight:400">·</span>
+              <span>7,5 – 15 MHz</span>
+              <span style="color:rgb(90,110,140); font-weight:400">+</span>
+              <span class="eq-hl">Farbdoppler</span>
+            </div>
+            <div class="sd-b2__formula-legend">
+              <div class="sd-b2__formula-legend-item">
+                <span class="sd-b2__formula-legend-key">Linear</span>
+                <span>Hochauflösender Linearschallkopf — flache, breite Auflagefläche für die oberflächliche Schilddrüse</span>
+              </div>
+              <div class="sd-b2__formula-legend-item">
+                <span class="sd-b2__formula-legend-key">MHz</span>
+                <span>Hochfrequenz (ca. <strong>7,5–15 MHz</strong>) für maximale Detailauflösung im Nahfeld</span>
+              </div>
+              <div class="sd-b2__formula-legend-item">
+                <span class="sd-b2__formula-legend-key">CD/PD</span>
+                <span>Farb- und Power-Doppler zur Darstellung der <strong>Vaskularisation</strong> von Parenchym und Knoten</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="sd-b2__p sd-b2__anim sd-b2__anim--d2">
+          Höhere Frequenzen verbessern die Auflösung, kosten aber Eindringtiefe — bei sehr großer Struma oder tief liegenden, retrosternalen Anteilen kann daher eine etwas niedrigere Frequenz oder ergänzend ein Konvexschallkopf nötig sein. Der <strong>Farbdoppler</strong> macht die Durchblutung sichtbar: Bei Morbus Basedow zeigt sich eine ausgeprägte Hypervaskularisation, der <strong>Power-Doppler</strong> erfasst auch niedrige Flüsse und ist deshalb für die feine Knotenvaskularisation besonders geeignet.
+        </p>
+
+        <div class="sd-b2__rechenbsp sd-b2__anim sd-b2__anim--d2">
+          <div class="sd-b2__rechenbsp-head">
+            <span class="sd-b2__rechenbsp-tag">Volumetrie</span>
+            <span class="sd-b2__rechenbsp-title">Schilddrüsenvolumen berechnen (Ellipsoidformel)</span>
+          </div>
+          <div class="sd-b2__rechenbsp-body">
+            <div class="sd-b2__rechenbsp-row sd-b2__rechenbsp-row--input">
+              <div class="sd-b2__rechenbsp-desc">
+                <strong>Lappenmaße</strong> — Länge × Breite × Tiefe, gemessen im Längs- und Querschnitt
+              </div>
+              <div class="sd-b2__rechenbsp-val sd-b2__rechenbsp-val--blue">5,0 × 2,0 × 1,8 cm</div>
+            </div>
+            <div class="sd-b2__rechenbsp-row sd-b2__rechenbsp-row--calc">
+              <div class="sd-b2__rechenbsp-desc">
+                <strong>Ellipsoidformel</strong> — L × B × T × 0,52 je Lappen → <strong>5,0 × 2,0 × 1,8 × 0,52</strong>
+              </div>
+              <div class="sd-b2__rechenbsp-val sd-b2__rechenbsp-val--blue">≈ 9,4 ml</div>
+            </div>
+            <div class="sd-b2__rechenbsp-row sd-b2__rechenbsp-row--result">
+              <div class="sd-b2__rechenbsp-desc">
+                <strong>Gesamtvolumen</strong> — Summe beider Lappen (Isthmus i. d. R. vernachlässigt)
+              </div>
+              <div class="sd-b2__rechenbsp-val sd-b2__rechenbsp-val--result">≈ 18,8 ml</div>
+            </div>
+            <p class="sd-b2__rechenbsp-hint">
+              Richtwerte für die Obergrenze: ca. 18 ml bei Frauen, ca. 25 ml bei Männern. Die reproduzierbare Volumetrie ist die Grundlage jeder Verlaufskontrolle bei Struma — exakte Messungen setzen ein scharfes B-Bild und eine zuverlässige Kalipersetzung voraus.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="sd-b2__h3 sd-b2__anim sd-b2__anim--d2">
+          <span class="sd-b2__h3-marker" aria-hidden="true"></span>
+          Elastographie — Gewebehärte als Zusatzkriterium
+        </h3>
+
+        <div class="sd-b2__severity sd-b2__anim sd-b2__anim--d2">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Verfahren</th>
+                <th scope="col">Misst</th>
+                <th scope="col">Nutzen an der Schilddrüse</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Verfahren"><span class="sd-b2__sev-dot sd-b2__sev-dot--leicht" aria-hidden="true"></span>B-Mode</td>
+                <td data-label="Misst">Echostruktur, Form, Ränder</td>
+                <td data-label="Nutzen">Basis jeder Befundung und TIRADS-Einordnung</td>
+              </tr>
+              <tr>
+                <td data-label="Verfahren"><span class="sd-b2__sev-dot sd-b2__sev-dot--mittel" aria-hidden="true"></span>Farb-/Power-Doppler</td>
+                <td data-label="Misst">Vaskularisation (Perfusion)</td>
+                <td data-label="Nutzen">Hypervaskularisation, Basedow, Knotendurchblutung</td>
+              </tr>
+              <tr>
+                <td data-label="Verfahren"><span class="sd-b2__sev-dot sd-b2__sev-dot--schwer" aria-hidden="true"></span>Elastographie</td>
+                <td data-label="Misst">Gewebehärte (Steifigkeit)</td>
+                <td data-label="Nutzen">Zusatzkriterium — harte Knoten potenziell verdächtiger</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="sd-b2__p sd-b2__anim sd-b2__anim--d2">
+          Die <strong>Elastographie</strong> (Strain- oder Scherwellen-Elastographie) bewertet die Gewebehärte und kann als Zusatzkriterium die Knotenbeurteilung ergänzen — harte Knoten sind tendenziell verdächtiger. Sie ersetzt TIRADS nicht, liefert aber bei unklaren Befunden ein zusätzliches Argument. Wer Elastographie nutzen möchte, sollte sie bei der Gerätewahl gezielt mitberücksichtigen.
+        </p>
+
+        <div class="sd-b2__img-block sd-b2__anim sd-b2__anim--d2">
+          <div class="sd-b2__img-wrap">
+            <img class="sd-b2__img" src="/assets/img/ab5e3a61-7969-4506-cd31-5fa990fa8d00.jpg" alt="Schilddrüsen-Sonographie — Querschnitt beider Schilddrüsenlappen mit Knoten und Farbdoppler" loading="lazy"/>
+          </div>
+          <p class="sd-b2__img-caption">Querschnitt der Schilddrüse — beide Lappen und Isthmus im B-Mode, Knoten mit Farbdoppler-Vaskularisation</p>
+        </div>
+
+        <div class="sd-b2__infobox sd-b2__anim sd-b2__anim--d3">
+          <div class="sd-b2__infobox-label"><span aria-hidden="true">⚠️</span> Standardisierte Schnittebenen beachten</div>
+          <p class="sd-b2__infobox-text">
+            Reproduzierbare Volumina und Knotengrößen setzen standardisierte Schnittebenen voraus — Längs- und Querschnitt durch die Lappenmitte, Knoten in zwei Ebenen vermessen. Eine schräge Anlotung verzerrt Maße und Volumen systematisch. Ein scharfes B-Bild mit guter Nahfeldauflösung und eine präzise Kalipersetzung sind die Voraussetzung für verlässliche Verlaufswerte.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sd-b2__aside-placeholder" id="sd-b2-placeholder" aria-hidden="true"></div>
+    <div class="sd-b2__aside" id="sd-b2-aside">
+      <div class="sd-b2__aside-card">
+        <div class="sd-b2__aside-label">Im Cluster</div>
+        <div class="sd-b2__aside-title">Weitere Ultraschall-Verfahren</div>
+        <p class="sd-b2__aside-text">Schilddrüse, Abdomen, Small Parts und mehr — das Sonographie-Spektrum für die Allgemeinmedizin im Überblick.</p>
+        <a href="/fuer/allgemeinmedizin/sonographie" class="sd-b2__aside-link">
+          Zur Sonographie-Übersicht
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="sd-b2__aside-card">
+        <div class="sd-b2__aside-label">Beratung</div>
+        <div class="sd-b2__aside-title">Linearschallkopf &amp; Elastographie</div>
+        <p class="sd-b2__aside-text">Welche Systeme bieten hochauflösende Linearschallköpfe, Power-Doppler und Elastographie? Wir beraten Sie persönlich.</p>
+        <a href="/kontakt" class="sd-b2__aside-link">
+          Kostenlos beraten lassen
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var aside       = document.getElementById('sd-b2-aside');
+  var placeholder = document.getElementById('sd-b2-placeholder');
+  var inner       = document.getElementById('sd-b2-inner');
+  if (!aside || !placeholder || !inner) return;
+
+  var stickyStartY = null;
+  var asideLeft    = null;
+  var asideWidth   = null;
+  var bottomPad    = 40;
+
+  function getNavHeight() {
+    var nav = document.querySelector('.nav__wrap');
+    if (nav) return nav.getBoundingClientRect().height;
+    var bar = document.querySelector('.nav__bar');
+    if (bar) return bar.getBoundingClientRect().height;
+    var anyNav = document.querySelector('nav');
+    if (anyNav) return anyNav.getBoundingClientRect().height;
+    return 68;
+  }
+  function isMobile() { return window.innerWidth <= 1100; }
+
+  function measureStickyStartY() {
+    if (isMobile()) {
+      aside.classList.remove('sd-b2__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('sd-b2__aside-placeholder--active');
+      placeholder.style.height = '';
+      stickyStartY = null;
+      return;
+    }
+    aside.classList.remove('sd-b2__aside--fixed');
+    aside.style.position = aside.style.top = aside.style.left = aside.style.width = '';
+    placeholder.classList.remove('sd-b2__aside-placeholder--active');
+    placeholder.style.height = '';
+    var navH = getNavHeight();
+    var rect = aside.getBoundingClientRect();
+    asideLeft    = rect.left;
+    asideWidth   = rect.width;
+    stickyStartY = rect.top + window.scrollY - navH - 20;
+    if (window.scrollY >= stickyStartY) {
+      placeholder.classList.add('sd-b2__aside-placeholder--active');
+      placeholder.style.height = aside.offsetHeight + 'px';
+      aside.classList.add('sd-b2__aside--fixed');
+      aside.style.top    = (navH + 20) + 'px';
+      aside.style.bottom = '';
+      aside.style.left   = asideLeft + 'px';
+      aside.style.right  = '';
+      aside.style.width  = asideWidth + 'px';
+    }
+  }
+
+  function updateSidebarPos() {
+    if (!aside || !inner) return;
+    if (isMobile()) {
+      aside.classList.remove('sd-b2__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('sd-b2__aside-placeholder--active');
+      placeholder.style.height = '';
+      return;
+    }
+    if (stickyStartY === null) { measureStickyStartY(); return; }
+
+    var navH      = getNavHeight();
+    var scrollY   = window.scrollY;
+    var asideH    = aside.offsetHeight;
+    var innerH    = inner.offsetHeight;
+    var maxAbsTop = innerH - asideH - bottomPad;
+
+    if (scrollY < stickyStartY) {
+      placeholder.classList.remove('sd-b2__aside-placeholder--active');
+      placeholder.style.height = '';
+      aside.classList.remove('sd-b2__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      return;
+    }
+
+    placeholder.classList.add('sd-b2__aside-placeholder--active');
+    placeholder.style.height = asideH + 'px';
+
+    var innerRect       = inner.getBoundingClientRect();
+    var sidebarWouldEnd = (navH + 20) + asideH;
+
+    if (innerRect.bottom - bottomPad <= sidebarWouldEnd) {
+      var innerPadRight = parseInt(window.getComputedStyle(inner).paddingRight, 10) || 0;
+      aside.classList.remove('sd-b2__aside--fixed');
+      aside.style.position = 'absolute';
+      aside.style.top      = 'auto';
+      aside.style.bottom   = bottomPad + 'px';
+      aside.style.right    = innerPadRight + 'px';
+      aside.style.left     = 'auto';
+      aside.style.width    = asideWidth + 'px';
+    } else {
+      aside.style.position = '';
+      aside.classList.add('sd-b2__aside--fixed');
+      aside.style.top      = (navH + 20) + 'px';
+      aside.style.bottom   = '';
+      aside.style.left     = asideLeft + 'px';
+      aside.style.right    = '';
+      aside.style.width    = asideWidth + 'px';
+    }
+  }
+
+  window.addEventListener('scroll', updateSidebarPos, { passive: true });
+  window.addEventListener('resize', function () {
+    stickyStartY = null; asideLeft = null; asideWidth = null;
+    setTimeout(updateSidebarPos, 60);
+  }, { passive: true });
+  setTimeout(function () { measureStickyStartY(); updateSidebarPos(); }, 200);/*SLF*/window.addEventListener("load",function(){measureStickyStartY();updateSidebarPos();setTimeout(function(){measureStickyStartY();updateSidebarPos();},200);});[700,1500,2500].forEach(function(d){setTimeout(function(){measureStickyStartY();updateSidebarPos();},d);});
+  updateSidebarPos();
+
+  function measure() { measureStickyStartY(); }
+  function update() { updateSidebarPos(); }
+
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('sd-b2__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.sd-b2__anim').forEach(function (el) { obs.observe(el); });
+
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-6gmczlmvm" style="position:relative;width:100%;min-height:auto;background-color:#FFFF;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-ttvf993dm" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-rg56dqcxu" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-rg56dqcxu { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.sd-prod__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.sd-prod__wrap *,
+.sd-prod__wrap *::before,
+.sd-prod__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.sd-prod__inner { max-width: 1160px; margin: 0 auto; padding: 0 2rem; }
+
+/* Einleitungszeile */
+.sd-prod__intro {
+  display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;
+}
+.sd-prod__intro-line {
+  flex: 1; height: 1px;
+  background: linear-gradient(90deg, rgba(11,95,183,0.15), transparent);
+}
+.sd-prod__intro-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: rgb(9,58,126); white-space: nowrap;
+}
+.sd-prod__intro-line--r {
+  background: linear-gradient(90deg, transparent, rgba(11,95,183,0.15));
+}
+
+/* Card */
+.sd-prod__card {
+  background: #FFFFFF; border: 1px solid rgba(11,26,46,0.08); border-radius: 4px;
+  display: grid; grid-template-columns: 340px 1fr; overflow: hidden;
+  box-shadow: 0 4px 24px rgba(11,26,46,0.06), 0 1px 4px rgba(11,26,46,0.04);
+  transition: box-shadow 0.3s ease;
+}
+.sd-prod__card:hover {
+  box-shadow: 0 8px 40px rgba(11,26,46,0.10), 0 2px 8px rgba(11,26,46,0.06);
+}
+
+/* Bild-Spalte */
+.sd-prod__img-col {
+  position: relative; background: #F7F5F0;
+  display: flex; align-items: center; justify-content: center;
+  padding: 2.5rem; overflow: hidden;
+}
+.sd-prod__img-grid {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(11,95,183,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(11,95,183,0.04) 1px, transparent 1px);
+  background-size: 32px 32px; pointer-events: none;
+}
+.sd-prod__img {
+  width: 100%; max-width: 280px; height: auto; display: block;
+  position: relative; z-index: 1; transition: transform 0.4s ease;
+}
+.sd-prod__card:hover .sd-prod__img { transform: scale(1.03) translateY(-3px); }
+.sd-prod__badge {
+  position: absolute; top: 1.2rem; left: 1.2rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.54rem; letter-spacing: 0.16em;
+  text-transform: uppercase; color: rgb(9,58,126); background: rgba(255,255,255,0.9);
+  border: 1px solid rgba(11,95,183,0.15); border-radius: 2px;
+  padding: 0.3rem 0.65rem; z-index: 2;
+}
+.sd-prod__cw-badge {
+  position: absolute; bottom: 1.2rem; right: 1.2rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.52rem; letter-spacing: 0.12em;
+  text-transform: uppercase; color: #fff;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  border-radius: 2px; padding: 0.28rem 0.6rem; z-index: 2;
+}
+
+/* Content-Spalte */
+.sd-prod__content {
+  padding: 2.5rem 2.75rem; display: flex; flex-direction: column;
+  gap: 1.4rem; justify-content: center;
+}
+.sd-prod__context {
+  display: inline-flex; align-items: center; gap: 0.55rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.2em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-prod__context::before {
+  content: ''; width: 16px; height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+.sd-prod__name {
+  font-size: clamp(1.3rem, 2vw, 1.65rem); font-weight: 700;
+  letter-spacing: -0.03em; line-height: 1.2; color: #0B1A2E;
+}
+.sd-prod__sub {
+  font-size: 0.92rem; font-weight: 400; line-height: 1.7; color: rgb(72,87,112);
+}
+
+/* CW-Highlight Box */
+.sd-prod__highlight {
+  background: rgba(11,95,183,0.04); border: 1px solid rgba(11,95,183,0.12);
+  border-left: 3px solid #0B5FB7; border-radius: 0 4px 4px 0;
+  padding: 0.9rem 1.1rem; display: flex; flex-direction: column; gap: 0.35rem;
+}
+.sd-prod__highlight-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.52rem;
+  letter-spacing: 0.16em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-prod__highlight-text {
+  font-size: 0.85rem; font-weight: 400; line-height: 1.6; color: rgb(40,60,90);
+}
+.sd-prod__highlight-text strong { font-weight: 600; color: #0B1A2E; }
+
+.sd-prod__bullets { display: flex; flex-direction: column; gap: 0.7rem; list-style: none; }
+.sd-prod__bullet { display: flex; align-items: flex-start; gap: 0.75rem; }
+.sd-prod__bullet-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0); flex-shrink: 0; margin-top: 7px;
+}
+.sd-prod__bullet-text {
+  font-size: 0.9rem; font-weight: 400; line-height: 1.6; color: rgb(55,70,95);
+}
+.sd-prod__bullet-text strong { font-weight: 600; color: #0B1A2E; }
+
+.sd-prod__divider { height: 1px; background: rgba(11,26,46,0.07); }
+
+.sd-prod__actions {
+  display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+}
+.sd-prod__btn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  font-family: 'Space Grotesk', sans-serif; font-size: 0.85rem; font-weight: 600;
+  color: #fff; background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  border: none; border-radius: 2px; padding: 0.75rem 1.5rem; cursor: pointer;
+  text-decoration: none; transition: opacity 0.2s, transform 0.15s;
+  box-shadow: 0 4px 16px rgba(11,95,183,0.22);
+}
+.sd-prod__btn:hover { opacity: 0.88; transform: translateY(-1px); }
+.sd-prod__btn:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+.sd-prod__link {
+  font-size: 0.82rem; font-weight: 500; color: rgb(9,58,126); text-decoration: none;
+  display: inline-flex; align-items: center; gap: 0.4rem; transition: gap 0.2s;
+}
+.sd-prod__link:hover { gap: 0.65rem; }
+.sd-prod__link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* ANIMATIONEN */
+.sd-prod__anim { opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.sd-prod__anim.sd-prod__vis { opacity: 1; transform: none; }
+.sd-prod__anim--d1 { transition-delay: 0.05s; }
+.sd-prod__anim--d2 { transition-delay: 0.15s; }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .sd-prod__card { grid-template-columns: 1fr; }
+  .sd-prod__img-col { padding: 2rem; min-height: 220px; }
+  .sd-prod__img { max-width: 200px; }
+  .sd-prod__content { padding: 2rem; }
+}
+@media (max-width: 480px) {
+  .sd-prod__actions { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  .sd-prod__btn { width: 100%; justify-content: center; }
+}
+</style>
+
+<div class="sd-prod__wrap">
+  <div class="sd-prod__inner">
+    <div class="sd-prod__intro sd-prod__anim sd-prod__anim--d1">
+      <div class="sd-prod__intro-line" aria-hidden="true"></div>
+      <span class="sd-prod__intro-label">Empfehlung für die Schilddrüsen-Sonographie</span>
+      <div class="sd-prod__intro-line sd-prod__intro-line--r" aria-hidden="true"></div>
+    </div>
+
+    <div class="sd-prod__card sd-prod__anim sd-prod__anim--d2">
+      <div class="sd-prod__img-col">
+        <div class="sd-prod__img-grid" aria-hidden="true"></div>
+        <span class="sd-prod__badge">Mindray</span>
+        <span class="sd-prod__cw-badge">Elastographie ✓</span>
+        <img class="sd-prod__img" src="/assets/img/produkte/mindray-consona-n5/4b828db5-543d-4cdc-05a8-3654dfe48d00.png" alt="Mindray Resona I9 — Premium-Ultraschallgerät für die Schilddrüsen-Sonographie mit hochauflösendem Linearschallkopf" loading="lazy"/>
+      </div>
+      <div class="sd-prod__content">
+        <div class="sd-prod__context">Premium — Small Parts / Standgerät</div>
+        <h3 class="sd-prod__name">Mindray Resona I9</h3>
+        <p class="sd-prod__sub">
+          Das Resona I9 ist ein Premium-System mit exzellenter Nahfeldauflösung für Small Parts: hochauflösender Linearschallkopf, feiner Power-Doppler und Scherwellen-Elastographie. Für Endokrinologen und Internisten, die Schilddrüse, Halslymphknoten und Weichteile auf höchstem Niveau befunden.
+        </p>
+
+        <div class="sd-prod__highlight">
+          <div class="sd-prod__highlight-label">Schilddrüse-Highlight</div>
+          <p class="sd-prod__highlight-text">
+            Der <strong>hochauflösende Linearschallkopf</strong> bildet die oberflächliche Schilddrüse detailreich ab, der <strong>Power-Doppler</strong> macht selbst niedrige Knotenflüsse sichtbar, und die <strong>Scherwellen-Elastographie</strong> liefert die Gewebehärte als Zusatzkriterium zu TIRADS. Auto-Workflows und Mess-Tools beschleunigen die Volumetrie und die Verlaufsdokumentation.
+          </p>
+        </div>
+
+        <ul class="sd-prod__bullets">
+          <li class="sd-prod__bullet">
+            <span class="sd-prod__bullet-dot" aria-hidden="true"></span>
+            <span class="sd-prod__bullet-text"><strong>Hochauflösender Linearschallkopf:</strong> maximale Detailauflösung im Nahfeld für Schilddrüse und Small Parts</span>
+          </li>
+          <li class="sd-prod__bullet">
+            <span class="sd-prod__bullet-dot" aria-hidden="true"></span>
+            <span class="sd-prod__bullet-text"><strong>Farb- &amp; Power-Doppler:</strong> Vaskularisation von Parenchym und Knoten, auch bei niedrigen Flüssen</span>
+          </li>
+          <li class="sd-prod__bullet">
+            <span class="sd-prod__bullet-dot" aria-hidden="true"></span>
+            <span class="sd-prod__bullet-text"><strong>Scherwellen-Elastographie:</strong> objektive Gewebehärte als Zusatzkriterium zur Knotenbeurteilung</span>
+          </li>
+          <li class="sd-prod__bullet">
+            <span class="sd-prod__bullet-dot" aria-hidden="true"></span>
+            <span class="sd-prod__bullet-text"><strong>Mess- &amp; Volumetrie-Tools:</strong> reproduzierbare Knotengröße und Schilddrüsenvolumen für die Verlaufskontrolle</span>
+          </li>
+        </ul>
+
+        <div class="sd-prod__divider" aria-hidden="true"></div>
+
+        <div class="sd-prod__actions">
+          <a href="/kontakt" class="sd-prod__btn">
+            Unverbindlich anfragen
+            <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9" class="sd-prod__link">
+            Resona I9 im Detail
+            <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) { e.target.classList.add('sd-prod__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.sd-prod__anim').forEach(function(el) { obs.observe(el); });
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-m8bb3q8lv" style="position:relative;width:100%;min-height:auto;background-color:#F4F6F9;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-xb0omf9e9" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-05yz297bp" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-05yz297bp { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.sd-b3__wrap { font-family: 'Space Grotesk', sans-serif; -webkit-font-smoothing: antialiased; width: 100%; overflow-x: clip; }
+.sd-b3__wrap *, .sd-b3__wrap *::before, .sd-b3__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.sd-b3__inner {
+  max-width: 1160px; margin: 0 auto; padding: 0 2rem;
+  display: grid; grid-template-columns: minmax(0, 720px) 1fr;
+  gap: 0 5rem; align-items: start;
+  position: relative;
+}
+.sd-b3__main { display: flex; flex-direction: column; gap: 3.5rem; }
+
+/* ASIDE */
+.sd-b3__aside { position: relative; display: flex; flex-direction: column; gap: 1.5rem; }
+.sd-b3__aside--fixed { position: fixed; z-index: 10; }
+.sd-b3__aside-placeholder { display: none; }
+.sd-b3__aside-placeholder--active { display: block; }
+
+.sd-b3__section { display: flex; flex-direction: column; gap: 1.5rem; }
+.sd-b3__anchor { display: block; position: relative; top: -90px; visibility: hidden; }
+
+.sd-b3__chapter {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-b3__chapter::before {
+  content: ''; width: 18px; height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+.sd-b3__h2 {
+  font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+  font-weight: 700; letter-spacing: -0.03em; line-height: 1.2; color: #0B1A2E;
+}
+
+.sd-b3__p {
+  font-size: 1rem; font-weight: 400; line-height: 1.85; color: rgb(55,70,95);
+}
+.sd-b3__p a {
+  color: rgb(9,58,126); text-decoration: underline;
+  text-decoration-color: rgba(62,178,240,0.4); text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+.sd-b3__p a:hover { color: #0B5FB7; text-decoration-color: #3EB2F0; }
+.sd-b3__p a:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 2px; border-radius: 1px; }
+
+/* ── ACCORDION ── */
+.sd-b3__fach-tabs {
+  display: flex; flex-direction: column; gap: 0;
+  border: 1px solid rgba(11,26,46,0.08); border-radius: 4px;
+  overflow: hidden; background: #FFFFFF;
+}
+.sd-b3__fach-tab { border-bottom: 1px solid rgba(11,26,46,0.06); }
+.sd-b3__fach-tab:last-child { border-bottom: none; }
+
+.sd-b3__fach-head {
+  display: flex; align-items: center; gap: 1rem;
+  padding: 1rem 1.4rem; cursor: pointer; user-select: none;
+  transition: background 0.2s; background: transparent; border: none; width: 100%; text-align: left;
+}
+.sd-b3__fach-head:hover { background: rgba(62,178,240,0.03); }
+.sd-b3__fach-head:focus-visible { outline: 2px solid #0B5FB7; outline-offset: -2px; }
+
+.sd-b3__fach-icon {
+  width: 36px; height: 36px; border-radius: 2px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center; font-size: 1.05rem;
+  background: rgba(11,95,183,0.06); border: 1px solid rgba(11,95,183,0.10);
+}
+.sd-b3__fach-title { font-size: 0.93rem; font-weight: 600; color: #0B1A2E; flex: 1; line-height: 1.3; }
+.sd-b3__fach-chev { color: rgb(150,165,190); transition: transform 0.3s ease; flex-shrink: 0; }
+.sd-b3__fach-chev--open { transform: rotate(180deg); }
+
+.sd-b3__fach-body { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.32s ease; }
+.sd-b3__fach-body--open { grid-template-rows: 1fr; }
+.sd-b3__fach-inner { overflow: hidden; }
+.sd-b3__fach-content { padding: 0 1.4rem 1.5rem 4rem; display: flex; flex-direction: column; gap: 1.1rem; }
+
+/* ── TABELLE (innerhalb Accordion) ── */
+.sd-b3__table-wrap { width: 100%; overflow: hidden; border-radius: 4px; border: 1px solid rgba(11,26,46,0.08); }
+.sd-b3__table { width: 100%; border-collapse: collapse; font-size: 0.84rem; table-layout: fixed; }
+.sd-b3__table thead tr { background: rgba(11,26,46,0.03); border-bottom: 2px solid rgba(62,178,240,0.18); }
+.sd-b3__table th { padding: 0.7rem 0.9rem; font-weight: 600; font-size: 0.73rem; color: #0B1A2E; text-align: left; word-break: break-word; }
+.sd-b3__table th:first-child { font-family: 'JetBrains Mono', monospace; font-size: 0.56rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(72,87,112); width: 30%; }
+.sd-b3__table td { padding: 0.7rem 0.9rem; color: rgb(55,70,95); border-bottom: 1px solid rgba(11,26,46,0.05); line-height: 1.55; vertical-align: top; word-break: break-word; }
+.sd-b3__table tr:last-child td { border-bottom: none; }
+.sd-b3__table tr:hover td { background: rgba(62,178,240,0.03); }
+
+@media (max-width: 600px) {
+  .sd-b3__table thead { display: none; }
+  .sd-b3__table, .sd-b3__table tbody, .sd-b3__table tr, .sd-b3__table td { display: block; width: 100%; }
+  .sd-b3__table tr { border-bottom: 1px solid rgba(11,26,46,0.07); padding: 0.6rem 0; }
+  .sd-b3__table tr:last-child { border-bottom: none; }
+  .sd-b3__table td { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; padding: 0.3rem 1rem; border-bottom: none; font-size: 0.8rem; }
+  .sd-b3__table td::before { content: attr(data-label); font-family: 'JetBrains Mono', monospace; font-size: 0.54rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(90,110,140); white-space: nowrap; flex-shrink: 0; min-width: 80px; }
+}
+
+/* ── BILD ── */
+.sd-b3__img-block { display: flex; flex-direction: column; gap: 0.65rem; }
+.sd-b3__img-wrap { border-radius: 4px; overflow: hidden; border: 1px solid rgba(11,26,46,0.07); }
+.sd-b3__img { width: 100%; height: auto; display: block; }
+.sd-b3__img-caption { font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; letter-spacing: 0.1em; color: rgb(90,110,140); text-align: center; }
+
+/* ── INFOBOX cyan ── */
+.sd-b3__infobox {
+  background: rgba(62,178,240,0.05); border: 1px solid rgba(62,178,240,0.15);
+  border-left: 3px solid #3EB2F0; border-radius: 0 4px 4px 0;
+  padding: 1.2rem 1.4rem; display: flex; flex-direction: column; gap: 0.5rem;
+}
+.sd-b3__infobox-label {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-b3__infobox-text { font-size: 0.88rem; font-weight: 400; line-height: 1.7; color: rgb(55,70,95); font-style: italic; }
+.sd-b3__infobox-text strong { font-weight: 600; color: #0B1A2E; font-style: normal; }
+.sd-b3__infobox-text a { color: rgb(9,58,126); text-decoration: underline; text-decoration-color: rgba(62,178,240,0.4); text-underline-offset: 2px; }
+
+/* ── TR-VELOCITY FORMEL ── */
+.sd-b3__tr-box {
+  background: rgba(11,95,183,0.04); border: 1px solid rgba(11,95,183,0.12);
+  border-left: 3px solid #0B5FB7; border-radius: 0 4px 4px 0;
+  padding: 1.2rem 1.4rem; display: flex; flex-direction: column; gap: 0.75rem;
+}
+.sd-b3__tr-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-b3__tr-eq {
+  font-family: 'JetBrains Mono', monospace; font-size: 1.05rem; font-weight: 700;
+  color: #0B1A2E; background: #FFFFFF; border-radius: 4px;
+  border: 1px solid rgba(11,26,46,0.07); padding: 0.65rem 1rem;
+  display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;
+}
+.sd-b3__tr-eq .eq-hl {
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.sd-b3__tr-text { font-size: 0.85rem; font-weight: 400; line-height: 1.65; color: rgb(55,70,95); }
+.sd-b3__tr-text strong { font-weight: 600; color: #0B1A2E; }
+
+/* ── ABI MINI-BLOCK ── */
+.sd-b3__abi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: rgba(11,26,46,0.07); border: 1px solid rgba(11,26,46,0.07); border-radius: 4px; overflow: hidden; }
+.sd-b3__abi-card { background: #FFFFFF; padding: 1.1rem 1.25rem; display: flex; flex-direction: column; gap: 0.3rem; }
+.sd-b3__abi-val { font-family: 'JetBrains Mono', monospace; font-size: 1.2rem; font-weight: 700; background: linear-gradient(90deg, #0B5FB7, #3EB2F0); -webkit-background-clip: text; background-clip: text; color: transparent; line-height: 1; }
+.sd-b3__abi-label { font-size: 0.78rem; font-weight: 600; color: #0B1A2E; }
+.sd-b3__abi-sub { font-size: 0.75rem; color: rgb(72,87,112); line-height: 1.45; }
+
+/* ── ASIDE CARDS ── */
+.sd-b3__aside-card { background: #FFFFFF; border: 1px solid rgba(11,26,46,0.07); border-radius: 4px; padding: 1.4rem; display: flex; flex-direction: column; gap: 0.75rem; }
+.sd-b3__aside-label { font-family: 'JetBrains Mono', monospace; font-size: 0.55rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgb(90,110,140); }
+.sd-b3__aside-title { font-size: 0.88rem; font-weight: 600; color: #0B1A2E; line-height: 1.35; }
+.sd-b3__aside-text { font-size: 0.82rem; font-weight: 400; line-height: 1.65; color: rgb(80,100,130); }
+.sd-b3__aside-link { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 600; color: rgb(9,58,126); text-decoration: none; transition: gap 0.2s; }
+.sd-b3__aside-link:hover { gap: 0.65rem; }
+.sd-b3__aside-link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* ANIMATIONEN */
+.sd-b3__anim { opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.sd-b3__anim.sd-b3__vis { opacity: 1; transform: none; }
+.sd-b3__anim--d1 { transition-delay: 0.05s; }
+.sd-b3__anim--d2 { transition-delay: 0.12s; }
+.sd-b3__anim--d3 { transition-delay: 0.20s; }
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .sd-b3__inner { grid-template-columns: 1fr; gap: 3rem 0; }
+  .sd-b3__aside { position: static !important; display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .sd-b3__aside--fixed { position: static !important; }
+  .sd-b3__aside-placeholder { display: none !important; }
+}
+@media (max-width: 640px) {
+  .sd-b3__aside { grid-template-columns: 1fr; }
+  .sd-b3__fach-content { padding-left: 1.4rem; }
+  .sd-b3__abi-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="sd-b3__wrap" id="sd-b3-wrap">
+  <div class="sd-b3__inner" id="sd-b3-inner">
+    <div class="sd-b3__main">
+      <div class="sd-b3__section">
+        <span id="anwendungen" class="sd-b3__anchor"></span>
+        <div class="sd-b3__chapter sd-b3__anim sd-b3__anim--d1">05 — Klinik</div>
+        <h2 class="sd-b3__h2 sd-b3__anim sd-b3__anim--d1">Klinische Anwendungen der Schilddrüsen-Sonographie</h2>
+
+        <p class="sd-b3__p sd-b3__anim sd-b3__anim--d2">
+          Kaum eine Schilddrüsenfrage kommt ohne Ultraschall aus. Die wichtigsten Anwendungen — vom Knoten über die Thyreoiditis bis zur Punktionssteuerung — im praxisnahen Überblick.
+        </p>
+
+        <div class="sd-b3__fach-tabs sd-b3__anim sd-b3__anim--d2">
+
+          <div class="sd-b3__fach-tab">
+            <button class="sd-b3__fach-head" data-tab="sd-knoten" aria-expanded="true" aria-controls="sd-tab-knoten">
+              <div class="sd-b3__fach-icon" aria-hidden="true">🔵</div>
+              <span class="sd-b3__fach-title">Knotenabklärung &amp; TIRADS</span>
+              <svg class="sd-b3__fach-chev sd-b3__fach-chev--open" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="sd-b3__fach-body sd-b3__fach-body--open" id="sd-tab-knoten" role="region">
+              <div class="sd-b3__fach-inner">
+                <div class="sd-b3__fach-content">
+                  <p class="sd-b3__p" style="font-size:0.92rem">
+                    Die <strong>Knotenabklärung</strong> ist die häufigste Indikation. Der Ultraschall beschreibt jeden Knoten standardisiert (Zusammensetzung, Echogenität, Form, Rand, Verkalkungen) und ordnet ihn nach <strong>TIRADS</strong> ein. Aus Risikokategorie und Größe folgt die Entscheidung: Verlaufskontrolle oder Feinnadelpunktion.
+                  </p>
+                  <div class="sd-b3__img-block">
+                    <div class="sd-b3__img-wrap">
+                      <img class="sd-b3__img" src="/assets/img/bcfb218e-3732-439d-6a8c-d5830eb9db00.jpg" alt="Schilddrüsen-Sonographie — echoarmer Knoten im Längsschnitt der Schilddrüse" loading="lazy"/>
+                    </div>
+                    <p class="sd-b3__img-caption">Längsschnitt eines Schilddrüsenlappens — Grundlage der Knotenbeurteilung und TIRADS-Einordnung</p>
+                  </div>
+                  <div class="sd-b3__table-wrap">
+                    <table class="sd-b3__table">
+                      <thead>
+                        <tr><th scope="col">Merkmal</th><th scope="col">Klinische Bedeutung</th></tr>
+                      </thead>
+                      <tbody>
+                        <tr><td data-label="Merkmal"><strong>Echogenität</strong></td><td data-label="Bedeutung">Echoarme solide Knoten haben das höchste Malignitätsrisiko — wichtigstes Einzelmerkmal.</td></tr>
+                        <tr><td data-label="Merkmal"><strong>Mikroverkalkungen</strong></td><td data-label="Bedeutung">Feine punktförmige Herde ohne Schallschatten — starker Malignitätshinweis (papilläres Karzinom).</td></tr>
+                        <tr><td data-label="Merkmal"><strong>Form &amp; Rand</strong></td><td data-label="Bedeutung">„Höher als breit" und irregulärer Rand erhöhen den TIRADS-Punktwert.</td></tr>
+                        <tr><td data-label="Merkmal"><strong>FNAB-Indikation</strong></td><td data-label="Bedeutung">Aus TIRADS-Kategorie und Knotengröße abgeleitet — ultraschallgesteuerte Punktion.</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sd-b3__fach-tab">
+            <button class="sd-b3__fach-head" data-tab="sd-struma" aria-expanded="false" aria-controls="sd-tab-struma">
+              <div class="sd-b3__fach-icon" aria-hidden="true">🦋</div>
+              <span class="sd-b3__fach-title">Struma — Volumetrie &amp; Verlauf</span>
+              <svg class="sd-b3__fach-chev" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="sd-b3__fach-body" id="sd-tab-struma" role="region">
+              <div class="sd-b3__fach-inner">
+                <div class="sd-b3__fach-content">
+                  <p class="sd-b3__p" style="font-size:0.92rem">
+                    Bei der <strong>Struma</strong> liefert der Ultraschall das exakte Volumen beider Lappen über die Ellipsoidformel und unterscheidet die diffuse von der knotigen (Knotenstruma) Form. Die reproduzierbare Volumetrie steuert Therapie (z. B. Jod/Levothyroxin) und Verlaufskontrolle.
+                  </p>
+                  <div class="sd-b3__table-wrap">
+                    <table class="sd-b3__table">
+                      <thead>
+                        <tr><th scope="col">Befund</th><th scope="col">Sonographische Beurteilung</th></tr>
+                      </thead>
+                      <tbody>
+                        <tr><td data-label="Befund"><strong>Diffuse Struma</strong></td><td data-label="Bedeutung">Gleichmäßig vergrößertes, oft homogenes Parenchym — Volumen über Normgrenze.</td></tr>
+                        <tr><td data-label="Befund"><strong>Knotenstruma</strong></td><td data-label="Bedeutung">Multiple Knoten unterschiedlicher Echogenität — jeder Knoten einzeln nach TIRADS bewerten.</td></tr>
+                        <tr><td data-label="Befund"><strong>Volumetrie</strong></td><td data-label="Bedeutung">L × B × T × 0,52 je Lappen — Grundlage von Therapie- und Verlaufsentscheidung.</td></tr>
+                        <tr><td data-label="Befund"><strong>Retrosternale Anteile</strong></td><td data-label="Bedeutung">Begrenzte Schallbarkeit hinter dem Sternum — ggf. ergänzende Schnittbildgebung.</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="sd-b3__infobox">
+                    <div class="sd-b3__infobox-label"><span aria-hidden="true">💡</span> Verlaufskontrolle ohne Strahlung</div>
+                    <p class="sd-b3__infobox-text">
+                      Weil der Ultraschall strahlungsfrei ist, eignet er sich ideal für die engmaschige Verlaufskontrolle einer Struma oder bekannter Knoten — so oft wie klinisch nötig, ohne kumulative Belastung. Voraussetzung sind standardisierte Schnittebenen und ein Gerät mit reproduzierbarer Bildqualität.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sd-b3__fach-tab">
+            <button class="sd-b3__fach-head" data-tab="sd-thyreoiditis" aria-expanded="false" aria-controls="sd-tab-thyreoiditis">
+              <div class="sd-b3__fach-icon" aria-hidden="true">🔬</div>
+              <span class="sd-b3__fach-title">Thyreoiditis — Hashimoto &amp; Basedow</span>
+              <svg class="sd-b3__fach-chev" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="sd-b3__fach-body" id="sd-tab-thyreoiditis" role="region">
+              <div class="sd-b3__fach-inner">
+                <div class="sd-b3__fach-content">
+                  <p class="sd-b3__p" style="font-size:0.92rem">
+                    Die <strong>Autoimmunthyreopathien</strong> haben charakteristische Ultraschallmuster. Die <strong>Hashimoto-Thyreoiditis</strong> zeigt ein echoarmes, inhomogenes Parenchym mit reduziertem Volumen im Verlauf; der <strong>Morbus Basedow</strong> imponiert echoarm und im Farbdoppler stark hypervaskularisiert.
+                  </p>
+                  <div class="sd-b3__abi-grid">
+                    <div class="sd-b3__abi-card">
+                      <div class="sd-b3__abi-val">Hashimoto</div>
+                      <div class="sd-b3__abi-label">Echoarm &amp; inhomogen</div>
+                      <div class="sd-b3__abi-sub">Diffus echoarmes, inhomogenes Parenchym, oft mit echoreichen Septen; TPO-AK positiv.</div>
+                    </div>
+                    <div class="sd-b3__abi-card">
+                      <div class="sd-b3__abi-val">Basedow</div>
+                      <div class="sd-b3__abi-label">Hypervaskularisiert</div>
+                      <div class="sd-b3__abi-sub">Echoarm mit ausgeprägter Durchblutung („thyroid inferno") im Farbdoppler; TRAK positiv.</div>
+                    </div>
+                  </div>
+                  <div class="sd-b3__table-wrap">
+                    <table class="sd-b3__table">
+                      <thead>
+                        <tr><th scope="col">Form</th><th scope="col">Klinische Bedeutung</th></tr>
+                      </thead>
+                      <tbody>
+                        <tr><td data-label="Form"><strong>Hashimoto-Thyreoiditis</strong></td><td data-label="Bedeutung">Häufigste Hypothyreose-Ursache — echoarm/inhomogen, Verlaufskontrolle des Volumens.</td></tr>
+                        <tr><td data-label="Form"><strong>Morbus Basedow</strong></td><td data-label="Bedeutung">Hyperthyreose — diffuse Hypervaskularisation als typisches Farbdoppler-Zeichen.</td></tr>
+                        <tr><td data-label="Form"><strong>Subakute Thyreoiditis</strong></td><td data-label="Bedeutung">De Quervain — landkartenartige echoarme Areale, druckschmerzhaft.</td></tr>
+                        <tr><td data-label="Form"><strong>Post partum</strong></td><td data-label="Bedeutung">Transiente Thyreoiditis — Verlaufskontrolle von Echostruktur und Funktion.</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sd-b3__fach-tab">
+            <button class="sd-b3__fach-head" data-tab="sd-weitere" aria-expanded="false" aria-controls="sd-tab-weitere">
+              <div class="sd-b3__fach-icon" aria-hidden="true">🎯</div>
+              <span class="sd-b3__fach-title">Punktionssteuerung, Lymphknoten &amp; Small Parts</span>
+              <svg class="sd-b3__fach-chev" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="sd-b3__fach-body" id="sd-tab-weitere" role="region">
+              <div class="sd-b3__fach-inner">
+                <div class="sd-b3__fach-content">
+                  <p class="sd-b3__p" style="font-size:0.92rem">
+                    Über die Schilddrüse hinaus deckt der Linearschallkopf das gesamte Small-Parts-Spektrum am Hals ab.
+                  </p>
+                  <div class="sd-b3__table-wrap">
+                    <table class="sd-b3__table">
+                      <thead>
+                        <tr><th scope="col">Anwendung</th><th scope="col">Klinischer Nutzen</th></tr>
+                      </thead>
+                      <tbody>
+                        <tr><td data-label="Anwendung"><strong>Feinnadelpunktion (FNAB)</strong></td><td data-label="Nutzen">Ultraschallgesteuerte Punktion verdächtiger Knoten — präzise Nadelführung in Echtzeit.</td></tr>
+                        <tr><td data-label="Anwendung"><strong>Halslymphknoten</strong></td><td data-label="Nutzen">Beurteilung von Größe, Hilus und Vaskularisation — Staging und Verlauf nach Karzinom.</td></tr>
+                        <tr><td data-label="Anwendung"><strong>Nebenschilddrüsen</strong></td><td data-label="Nutzen">Adenom-Suche bei Hyperparathyreoidismus — echoarme Raumforderung dorsal der Schilddrüse.</td></tr>
+                        <tr><td data-label="Anwendung"><strong>Speicheldrüsen / Weichteile</strong></td><td data-label="Nutzen">Derselbe Linearschallkopf für Parotis, Submandibularis und oberflächliche Weichteile.</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="sd-b3__aside-placeholder" id="sd-b3-placeholder" aria-hidden="true"></div>
+    <div class="sd-b3__aside sd-b3__anim sd-b3__anim--d3" id="sd-b3-aside">
+      <div class="sd-b3__aside-card">
+        <div class="sd-b3__aside-label">Allgemeinmedizin</div>
+        <div class="sd-b3__aside-title">Geräte mit Linearschallkopf</div>
+        <p class="sd-b3__aside-text">Stand- und mobile Systeme mit hochauflösendem Linearschallkopf für Schilddrüse und Small Parts.</p>
+        <a href="/fuer/allgemeinmedizin/" class="sd-b3__aside-link">
+          Geräte ansehen
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="sd-b3__aside-card">
+        <div class="sd-b3__aside-label">Mobile Lösung</div>
+        <div class="sd-b3__aside-title">Mindray MX7 — kompakt &amp; mobil</div>
+        <p class="sd-b3__aside-text">Tragbares System mit Linearschallkopf für die Schilddrüse — ideal für Praxis und Hausbesuch.</p>
+        <a href="/ultraschallgeraete/mobile-geraete/mindray-mx7" class="sd-b3__aside-link">
+          Zum Mindray MX7
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ── Sticky Aside ── */
+  var aside       = document.getElementById('sd-b3-aside');
+  var placeholder = document.getElementById('sd-b3-placeholder');
+  var inner       = document.getElementById('sd-b3-inner');
+  if (!aside || !placeholder || !inner) return;
+
+  var stickyStartY = null;
+  var asideLeft    = null;
+  var asideWidth   = null;
+  var bottomPad    = 40;
+
+  function getNavHeight() {
+    var nav = document.querySelector('.nav__wrap');
+    if (nav) return nav.getBoundingClientRect().height;
+    var bar = document.querySelector('.nav__bar');
+    if (bar) return bar.getBoundingClientRect().height;
+    var anyNav = document.querySelector('nav');
+    if (anyNav) return anyNav.getBoundingClientRect().height;
+    return 68;
+  }
+  function isMobile() { return window.innerWidth <= 1100; }
+
+  function measureStickyStartY() {
+    if (isMobile()) {
+      aside.classList.remove('sd-b3__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('sd-b3__aside-placeholder--active');
+      placeholder.style.height = '';
+      stickyStartY = null;
+      return;
+    }
+    aside.classList.remove('sd-b3__aside--fixed');
+    aside.style.position = aside.style.top = aside.style.left = aside.style.width = '';
+    placeholder.classList.remove('sd-b3__aside-placeholder--active');
+    placeholder.style.height = '';
+    var navH = getNavHeight();
+    var rect = aside.getBoundingClientRect();
+    asideLeft    = rect.left;
+    asideWidth   = rect.width;
+    stickyStartY = rect.top + window.scrollY - navH - 20;
+    if (window.scrollY >= stickyStartY) {
+      placeholder.classList.add('sd-b3__aside-placeholder--active');
+      placeholder.style.height = aside.offsetHeight + 'px';
+      aside.classList.add('sd-b3__aside--fixed');
+      aside.style.top    = (navH + 20) + 'px';
+      aside.style.bottom = '';
+      aside.style.left   = asideLeft + 'px';
+      aside.style.right  = '';
+      aside.style.width  = asideWidth + 'px';
+    }
+  }
+
+  function updateSidebarPos() {
+    if (!aside || !inner) return;
+    if (isMobile()) {
+      aside.classList.remove('sd-b3__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('sd-b3__aside-placeholder--active');
+      placeholder.style.height = '';
+      return;
+    }
+    if (stickyStartY === null) { measureStickyStartY(); return; }
+
+    var navH      = getNavHeight();
+    var scrollY   = window.scrollY;
+    var asideH    = aside.offsetHeight;
+    var innerH    = inner.offsetHeight;
+    var maxAbsTop = innerH - asideH - bottomPad;
+
+    if (scrollY < stickyStartY) {
+      placeholder.classList.remove('sd-b3__aside-placeholder--active');
+      placeholder.style.height = '';
+      aside.classList.remove('sd-b3__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      return;
+    }
+
+    placeholder.classList.add('sd-b3__aside-placeholder--active');
+    placeholder.style.height = asideH + 'px';
+
+    var innerRect       = inner.getBoundingClientRect();
+    var sidebarWouldEnd = (navH + 20) + asideH;
+
+    if (innerRect.bottom - bottomPad <= sidebarWouldEnd) {
+      var innerPadRight = parseInt(window.getComputedStyle(inner).paddingRight, 10) || 0;
+      aside.classList.remove('sd-b3__aside--fixed');
+      aside.style.position = 'absolute';
+      aside.style.top      = 'auto';
+      aside.style.bottom   = bottomPad + 'px';
+      aside.style.right    = innerPadRight + 'px';
+      aside.style.left     = 'auto';
+      aside.style.width    = asideWidth + 'px';
+    } else {
+      aside.style.position = '';
+      aside.classList.add('sd-b3__aside--fixed');
+      aside.style.top      = (navH + 20) + 'px';
+      aside.style.bottom   = '';
+      aside.style.left     = asideLeft + 'px';
+      aside.style.right    = '';
+      aside.style.width    = asideWidth + 'px';
+    }
+  }
+
+  window.addEventListener('scroll', updateSidebarPos, { passive: true });
+  window.addEventListener('resize', function () {
+    stickyStartY = null; asideLeft = null; asideWidth = null;
+    setTimeout(updateSidebarPos, 60);
+  }, { passive: true });
+  setTimeout(function () { measureStickyStartY(); updateSidebarPos(); }, 200);/*SLF*/window.addEventListener("load",function(){measureStickyStartY();updateSidebarPos();setTimeout(function(){measureStickyStartY();updateSidebarPos();},200);});[700,1500,2500].forEach(function(d){setTimeout(function(){measureStickyStartY();updateSidebarPos();},d);});
+  updateSidebarPos();
+
+  function measure() { measureStickyStartY(); }
+  function update() { updateSidebarPos(); }
+  function toggleTab(btn) {
+    var tabId = btn.getAttribute('data-tab');
+    var body  = document.getElementById('sd-tab-' + tabId.replace('sd-', ''));
+    var chev  = btn.querySelector('.sd-b3__fach-chev');
+    if (!body) return;
+    var isOpen = body.classList.contains('sd-b3__fach-body--open');
+    body.classList.toggle('sd-b3__fach-body--open', !isOpen);
+    btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+    if (chev) chev.classList.toggle('sd-b3__fach-chev--open', !isOpen);
+    /* Sticky remeasure nach Höhenänderung */
+    stickyStartY = null; asideLeft = null;
+    setTimeout(update, 360);
+  }
+
+  document.querySelectorAll('.sd-b3__fach-head').forEach(function (btn) {
+    btn.addEventListener('click', function () { toggleTab(btn); });
+    btn.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleTab(btn); }
+    });
+  });
+
+  /* ── Scroll-Animationen ── */
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('sd-b3__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.sd-b3__anim').forEach(function (el) { obs.observe(el); });
+
+})();
+</script></div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-helkfr3jb" style="position:relative;width:100%;min-height:auto;background-color:#FFFF;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-l272g6147" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-zeaeua4cz" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-zeaeua4cz { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.sd-b4__wrap { font-family: 'Space Grotesk', sans-serif; -webkit-font-smoothing: antialiased; width: 100%; overflow-x: clip; }
+.sd-b4__wrap *, .sd-b4__wrap *::before, .sd-b4__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.sd-b4__inner {
+  max-width: 1160px; margin: 0 auto; padding: 0 2rem;
+  display: grid; grid-template-columns: minmax(0, 720px) 1fr;
+  gap: 0 5rem; align-items: start;
+  position: relative;
+}
+.sd-b4__main { display: flex; flex-direction: column; gap: 3.5rem; }
+
+/* ASIDE */
+.sd-b4__aside { position: relative; display: flex; flex-direction: column; gap: 1.5rem; }
+.sd-b4__aside--fixed { position: fixed; z-index: 10; }
+.sd-b4__aside-placeholder { display: none; }
+.sd-b4__aside-placeholder--active { display: block; }
+
+.sd-b4__section { display: flex; flex-direction: column; gap: 1.5rem; }
+.sd-b4__anchor { display: block; position: relative; top: -90px; visibility: hidden; }
+
+.sd-b4__chapter {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-b4__chapter::before {
+  content: ''; width: 18px; height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+.sd-b4__h2 {
+  font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+  font-weight: 700; letter-spacing: -0.03em; line-height: 1.2; color: #0B1A2E;
+}
+.sd-b4__h3 {
+  font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em;
+  line-height: 1.35; color: #0B1A2E;
+  display: flex; align-items: center; gap: 0.65rem;
+}
+.sd-b4__h3-marker {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: linear-gradient(135deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+
+.sd-b4__p {
+  font-size: 1rem; font-weight: 400; line-height: 1.85; color: rgb(55,70,95);
+}
+.sd-b4__p a {
+  color: rgb(9,58,126); text-decoration: underline;
+  text-decoration-color: rgba(62,178,240,0.4); text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+.sd-b4__p a:hover { color: #0B5FB7; text-decoration-color: #3EB2F0; }
+.sd-b4__p a:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 2px; border-radius: 1px; }
+
+/* ── STIFTSONDE CARD ── */
+.sd-b4__pedof {
+  background: #FFFFFF; border: 1px solid rgba(11,26,46,0.08);
+  border-radius: 4px; overflow: hidden;
+}
+.sd-b4__pedof-head {
+  padding: 1rem 1.5rem; background: rgba(11,95,183,0.05);
+  border-bottom: 1px solid rgba(11,26,46,0.07);
+  display: flex; align-items: center; gap: 0.75rem;
+}
+.sd-b4__pedof-icon {
+  font-size: 1.3rem; width: 38px; height: 38px;
+  background: rgba(11,95,183,0.08); border: 1px solid rgba(11,95,183,0.14);
+  border-radius: 2px; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.sd-b4__pedof-meta { display: flex; flex-direction: column; gap: 0.15rem; }
+.sd-b4__pedof-tag {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.54rem;
+  letter-spacing: 0.14em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-b4__pedof-title { font-size: 1rem; font-weight: 700; color: #0B1A2E; line-height: 1.2; }
+.sd-b4__pedof-body {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 1px; background: rgba(11,26,46,0.06);
+}
+.sd-b4__pedof-col { background: #FFFFFF; padding: 1.2rem 1.4rem; display: flex; flex-direction: column; gap: 0.6rem; }
+.sd-b4__pedof-col-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.54rem;
+  letter-spacing: 0.14em; text-transform: uppercase; color: rgb(90,110,140);
+}
+.sd-b4__pedof-items { display: flex; flex-direction: column; gap: 0.5rem; list-style: none; }
+.sd-b4__pedof-item { display: flex; gap: 0.6rem; align-items: flex-start; font-size: 0.84rem; line-height: 1.6; color: rgb(55,70,95); }
+.sd-b4__pedof-item strong { font-weight: 600; color: #0B1A2E; }
+.sd-b4__pedof-dot-pro { width: 5px; height: 5px; border-radius: 50%; background: rgba(16,185,129,0.6); flex-shrink: 0; margin-top: 7px; }
+.sd-b4__pedof-dot-con { width: 5px; height: 5px; border-radius: 50%; background: rgba(239,68,68,0.45); flex-shrink: 0; margin-top: 7px; }
+.sd-b4__pedof-hint {
+  padding: 0.85rem 1.4rem; background: rgba(62,178,240,0.04);
+  border-top: 1px solid rgba(11,26,46,0.06);
+  font-size: 0.83rem; font-style: italic; line-height: 1.65; color: rgb(72,87,112);
+}
+.sd-b4__pedof-hint strong { font-weight: 600; color: #0B1A2E; font-style: normal; }
+
+/* ── VORTEILE TABELLE ── */
+.sd-b4__table-wrap { width: 100%; overflow: hidden; border-radius: 4px; border: 1px solid rgba(11,26,46,0.08); background: #FFFFFF; }
+.sd-b4__table { width: 100%; border-collapse: collapse; font-size: 0.85rem; table-layout: fixed; }
+.sd-b4__table thead tr { background: rgba(11,26,46,0.03); border-bottom: 2px solid rgba(62,178,240,0.2); }
+.sd-b4__table th { padding: 0.75rem 0.9rem; font-weight: 600; font-size: 0.75rem; color: #0B1A2E; text-align: left; word-break: break-word; }
+.sd-b4__table th:first-child { font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(72,87,112); width: 28%; }
+.sd-b4__table td { padding: 0.75rem 0.9rem; color: rgb(55,70,95); border-bottom: 1px solid rgba(11,26,46,0.05); line-height: 1.55; vertical-align: top; word-break: break-word; }
+.sd-b4__table tr:last-child td { border-bottom: none; }
+.sd-b4__table tr:hover td { background: rgba(62,178,240,0.03); }
+
+@media (max-width: 600px) {
+  .sd-b4__table thead { display: none; }
+  .sd-b4__table, .sd-b4__table tbody, .sd-b4__table tr, .sd-b4__table td { display: block; width: 100%; }
+  .sd-b4__table tr { border-bottom: 1px solid rgba(11,26,46,0.07); padding: 0.75rem 0; }
+  .sd-b4__table tr:last-child { border-bottom: none; }
+  .sd-b4__table td { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; padding: 0.3rem 1rem; border-bottom: none; font-size: 0.82rem; }
+  .sd-b4__table td::before { content: attr(data-label); font-family: 'JetBrains Mono', monospace; font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(90,110,140); white-space: nowrap; flex-shrink: 0; min-width: 75px; }
+}
+
+/* ── GRENZEN BOX ── */
+.sd-b4__limits {
+  background: rgba(251,191,36,0.06); border: 1px solid rgba(251,191,36,0.22);
+  border-left: 3px solid rgba(251,191,36,0.7); border-radius: 0 4px 4px 0;
+  padding: 1.4rem 1.6rem; display: flex; flex-direction: column; gap: 0.75rem;
+}
+.sd-b4__limits-label {
+  display: flex; align-items: center; gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: rgb(140,100,0);
+}
+.sd-b4__limits-list { display: flex; flex-direction: column; gap: 0.6rem; list-style: none; }
+.sd-b4__limits-item { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.88rem; line-height: 1.65; color: rgb(80,60,20); }
+.sd-b4__limits-item strong { font-weight: 600; }
+.sd-b4__limits-dash { width: 10px; height: 2px; background: rgba(140,100,0,0.45); flex-shrink: 0; margin-top: 10px; }
+
+/* ── GOÄ/EBM TABELLEN ── */
+.sd-b4__abr-grid { display: flex; flex-direction: column; gap: 1.25rem; }
+.sd-b4__abr-block {
+  background: #FFFFFF; border: 1px solid rgba(11,26,46,0.08);
+  border-radius: 4px; overflow: hidden;
+}
+.sd-b4__abr-head {
+  padding: 0.8rem 1.2rem; background: rgba(11,26,46,0.02);
+  border-bottom: 1px solid rgba(11,26,46,0.07);
+  display: flex; align-items: center; gap: 0.6rem;
+}
+.sd-b4__abr-system {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.58rem;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: #fff; padding: 0.2rem 0.6rem; border-radius: 2px;
+}
+.sd-b4__abr-system--ebm { background: rgb(9,58,126); }
+.sd-b4__abr-system--goa { background: rgb(55,70,95); }
+.sd-b4__abr-head-title { font-size: 0.88rem; font-weight: 600; color: #0B1A2E; }
+.sd-b4__abr-table { width: 100%; border-collapse: collapse; font-size: 0.83rem; table-layout: fixed; }
+.sd-b4__abr-table th { padding: 0.6rem 1rem; font-weight: 600; font-size: 0.7rem; color: rgb(72,87,112); text-align: left; background: rgba(11,26,46,0.02); border-bottom: 1px solid rgba(11,26,46,0.07); word-break: break-word; }
+.sd-b4__abr-table th:first-child { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; width: 22%; }
+.sd-b4__abr-table td { padding: 0.65rem 1rem; color: rgb(55,70,95); border-bottom: 1px solid rgba(11,26,46,0.05); line-height: 1.5; vertical-align: top; word-break: break-word; }
+.sd-b4__abr-table tr:last-child td { border-bottom: none; }
+.sd-b4__abr-table tr:hover td { background: rgba(62,178,240,0.02); }
+.sd-b4__abr-table .ziffer {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;
+  font-weight: 700; color: #0B5FB7; white-space: nowrap;
+}
+.sd-b4__abr-hint {
+  padding: 0.75rem 1rem; background: rgba(251,191,36,0.05);
+  border-top: 1px solid rgba(251,191,36,0.18);
+  font-size: 0.8rem; line-height: 1.6; color: rgb(100,75,10);
+  font-style: italic;
+}
+.sd-b4__abr-hint strong { font-weight: 600; font-style: normal; }
+
+@media (max-width: 600px) {
+  .sd-b4__abr-table thead { display: none; }
+  .sd-b4__abr-table, .sd-b4__abr-table tbody, .sd-b4__abr-table tr, .sd-b4__abr-table td { display: block; width: 100%; }
+  .sd-b4__abr-table tr { border-bottom: 1px solid rgba(11,26,46,0.07); padding: 0.6rem 0; }
+  .sd-b4__abr-table tr:last-child { border-bottom: none; }
+  .sd-b4__abr-table td { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; padding: 0.3rem 1rem; border-bottom: none; font-size: 0.8rem; }
+  .sd-b4__abr-table td::before { content: attr(data-label); font-family: 'JetBrains Mono', monospace; font-size: 0.54rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgb(90,110,140); white-space: nowrap; flex-shrink: 0; min-width: 65px; }
+}
+
+/* ── FAZIT BOX ── */
+.sd-b4__summary {
+  background: rgba(11,95,183,0.04); border: 1px solid rgba(11,95,183,0.14);
+  border-left: 3px solid #0B5FB7; border-radius: 0 4px 4px 0;
+  padding: 1.5rem 1.75rem; display: flex; flex-direction: column; gap: 0.65rem;
+}
+.sd-b4__summary-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.2em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-b4__summary-text {
+  font-size: 0.95rem; font-weight: 400; line-height: 1.8; color: rgb(40,60,90);
+}
+.sd-b4__summary-text strong { font-weight: 700; color: #0B1A2E; }
+
+/* ── BILD ── */
+.sd-b4__img-block { display: flex; flex-direction: column; gap: 0.75rem; }
+.sd-b4__img-wrap { border-radius: 4px; overflow: hidden; border: 1px solid rgba(11,26,46,0.07); }
+.sd-b4__img { width: 100%; height: auto; display: block; }
+.sd-b4__img-caption { font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; letter-spacing: 0.1em; color: rgb(90,110,140); text-align: center; }
+
+/* ── ASIDE CARDS ── */
+.sd-b4__aside-card { background: rgba(11,26,46,0.02); border: 1px solid rgba(11,26,46,0.07); border-radius: 4px; padding: 1.4rem; display: flex; flex-direction: column; gap: 0.75rem; }
+.sd-b4__aside-label { font-family: 'JetBrains Mono', monospace; font-size: 0.55rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgb(90,110,140); }
+.sd-b4__aside-title { font-size: 0.88rem; font-weight: 600; color: #0B1A2E; line-height: 1.35; }
+.sd-b4__aside-text { font-size: 0.82rem; font-weight: 400; line-height: 1.65; color: rgb(80,100,130); }
+.sd-b4__aside-link { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 600; color: rgb(9,58,126); text-decoration: none; transition: gap 0.2s; }
+.sd-b4__aside-link:hover { gap: 0.65rem; }
+.sd-b4__aside-link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* ANIMATIONEN */
+.sd-b4__anim { opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.sd-b4__anim.sd-b4__vis { opacity: 1; transform: none; }
+.sd-b4__anim--d1 { transition-delay: 0.05s; }
+.sd-b4__anim--d2 { transition-delay: 0.12s; }
+.sd-b4__anim--d3 { transition-delay: 0.20s; }
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .sd-b4__inner { grid-template-columns: 1fr; gap: 3rem 0; }
+  .sd-b4__aside { position: static !important; display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .sd-b4__aside--fixed { position: static !important; }
+  .sd-b4__aside-placeholder { display: none !important; }
+}
+@media (max-width: 640px) {
+  .sd-b4__aside { grid-template-columns: 1fr; }
+  .sd-b4__pedof-body { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="sd-b4__wrap" id="sd-b4-wrap">
+  <div class="sd-b4__inner" id="sd-b4-inner">
+    <div class="sd-b4__main">
+
+      <div class="sd-b4__section">
+        <span id="geraetewahl" class="sd-b4__anchor"></span>
+        <div class="sd-b4__chapter sd-b4__anim sd-b4__anim--d1">06 — Gerätewahl &amp; Abrechnung</div>
+        <h2 class="sd-b4__h2 sd-b4__anim sd-b4__anim--d1">Kriterien für die Gerätewahl bei der Schilddrüsen-Sonographie</h2>
+
+        <p class="sd-b4__p sd-b4__anim sd-b4__anim--d2">
+          Ein Ultraschallsystem ist eine Investition für Jahre. Entscheidend ist nicht die längste Featureliste, sondern das passende Profil für Ihr Patientengut — von der gelegentlichen Schilddrüsensonographie in der Hausarztpraxis bis zur spezialisierten endokrinologischen Knoten- und Punktionssprechstunde.
+        </p>
+
+        <div class="sd-b4__pedof sd-b4__anim sd-b4__anim--d2">
+          <div class="sd-b4__pedof-head">
+            <div class="sd-b4__pedof-icon" aria-hidden="true">🎛️</div>
+            <div class="sd-b4__pedof-meta">
+              <div class="sd-b4__pedof-tag">Worauf es ankommt</div>
+              <div class="sd-b4__pedof-title">Die entscheidenden Auswahlkriterien</div>
+            </div>
+          </div>
+          <div class="sd-b4__pedof-body">
+            <div class="sd-b4__pedof-col">
+              <div class="sd-b4__pedof-col-label">Muss-Kriterien</div>
+              <ul class="sd-b4__pedof-items">
+                <li class="sd-b4__pedof-item"><span class="sd-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Hochauflösender Linearschallkopf</strong> — ca. 7,5–15 MHz, maximale Nahfeldauflösung für die oberflächliche Schilddrüse</span></li>
+                <li class="sd-b4__pedof-item"><span class="sd-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Farb- und Power-Doppler</strong> — Vaskularisation von Parenchym und Knoten, auch bei niedrigen Flüssen</span></li>
+                <li class="sd-b4__pedof-item"><span class="sd-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Präzise Mess- &amp; Volumetrie-Tools</strong> — reproduzierbare Knotengröße und Schilddrüsenvolumen</span></li>
+                <li class="sd-b4__pedof-item"><span class="sd-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Scharfe B-Bild-Auflösung</strong> — feine Mikroverkalkungen und Echogenität klar erkennbar (TIRADS)</span></li>
+              </ul>
+            </div>
+            <div class="sd-b4__pedof-col">
+              <div class="sd-b4__pedof-col-label">Kür — je nach Schwerpunkt</div>
+              <ul class="sd-b4__pedof-items">
+                <li class="sd-b4__pedof-item"><span class="sd-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Elastographie</strong> — Gewebehärte als Zusatzkriterium zur Knotenbeurteilung</span></li>
+                <li class="sd-b4__pedof-item"><span class="sd-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Punktionsführung (Needle Guide)</strong> — Nadelvisualisierung für die ultraschallgesteuerte FNAB</span></li>
+                <li class="sd-b4__pedof-item"><span class="sd-b4__pedof-dot-pro" aria-hidden="true"></span><span><strong>Mobilität</strong> — kompaktes oder tragbares System für Hausbesuch und mehrere Räume</span></li>
+                <li class="sd-b4__pedof-item"><span class="sd-b4__pedof-dot-con" aria-hidden="true"></span><span><strong>KI-gestützte Befundung</strong> — automatische TIRADS-Vorschläge an der Spitze des Spektrums</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="sd-b4__pedof-hint">
+            <strong>Praxistipp:</strong> Eine Hausarztpraxis mit gelegentlicher Schilddrüsensonographie ist mit einem soliden Mittelklasse-System und gutem Linearschallkopf bestens bedient — eine spezialisierte Endokrinologie mit Knoten- und Punktionssprechstunde profitiert von Elastographie, Punktionsführung und Premium-Bildqualität. Lassen Sie immer eine Demo mit Ihren eigenen Patienten durchführen; die Nahfeldauflösung am realen Knoten ist das ehrlichste Auswahlkriterium.
+          </div>
+        </div>
+
+        <div class="sd-b4__img-block sd-b4__anim sd-b4__anim--d2">
+          <div class="sd-b4__img-wrap">
+            <img class="sd-b4__img" src="/assets/img/f1f50d3f-fe06-4a30-5e88-f4438a8b6b00.jpg" alt="Hochauflösender Linearschallkopf für die Schilddrüsen-Sonographie und Small Parts" loading="lazy"/>
+          </div>
+          <p class="sd-b4__img-caption">Hochauflösender Linearschallkopf — das zentrale Werkzeug für Schilddrüse, Halslymphknoten und Small Parts</p>
+        </div>
+
+        <h3 class="sd-b4__h3 sd-b4__anim sd-b4__anim--d2">
+          <span class="sd-b4__h3-marker" aria-hidden="true"></span>
+          Vorteile der Schilddrüsen-Sonographie im Überblick
+        </h3>
+
+        <div class="sd-b4__table-wrap sd-b4__anim sd-b4__anim--d2">
+          <table class="sd-b4__table">
+            <thead>
+              <tr><th scope="col">Vorteil</th><th scope="col">Klinische Bedeutung</th></tr>
+            </thead>
+            <tbody>
+              <tr><td data-label="Vorteil"><strong>Keine Strahlung</strong></td><td data-label="Bedeutung">Beliebig oft wiederholbar — ideal für Verlaufskontrollen, Schwangerschaft und junge Patienten.</td></tr>
+              <tr><td data-label="Vorteil"><strong>Sofort am Patienten</strong></td><td data-label="Bedeutung">Tastbefund direkt abklären — Diagnose ohne Wartezeit oder Überweisung.</td></tr>
+              <tr><td data-label="Vorteil"><strong>Hohe Detailauflösung</strong></td><td data-label="Bedeutung">Linearschallkopf zeigt Mikroverkalkungen und Knotenränder — Basis für TIRADS.</td></tr>
+              <tr><td data-label="Vorteil"><strong>Punktionssteuerung</strong></td><td data-label="Bedeutung">Echtzeit-Nadelführung macht die FNAB sicher und präzise.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="sd-b4__limits sd-b4__anim sd-b4__anim--d2">
+          <div class="sd-b4__limits-label"><span aria-hidden="true">⚠️</span> Grenzen &amp; Herausforderungen</div>
+          <ul class="sd-b4__limits-list">
+            <li class="sd-b4__limits-item"><span class="sd-b4__limits-dash" aria-hidden="true"></span><span><strong>Untersucherabhängigkeit:</strong> Bildqualität und Befund hängen stark von Erfahrung und Schnittführung ab — Standardisierung mildert das.</span></li>
+            <li class="sd-b4__limits-item"><span class="sd-b4__limits-dash" aria-hidden="true"></span><span><strong>Keine Funktionsaussage:</strong> Der Ultraschall zeigt Morphologie, nicht die Stoffwechsellage — TSH/Antikörper und ggf. Szintigraphie ergänzen.</span></li>
+            <li class="sd-b4__limits-item"><span class="sd-b4__limits-dash" aria-hidden="true"></span><span><strong>Retrosternale Anteile:</strong> Hinter dem Sternum gelegene Strumaanteile sind sonographisch nur eingeschränkt beurteilbar.</span></li>
+            <li class="sd-b4__limits-item"><span class="sd-b4__limits-dash" aria-hidden="true"></span><span><strong>Dignität nicht sicher:</strong> Auch TIRADS schätzt nur ein Risiko — die endgültige Klärung liefert die Feinnadelpunktion.</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sd-b4__section">
+        <h3 class="sd-b4__h3 sd-b4__anim sd-b4__anim--d1">
+          <span class="sd-b4__h3-marker" aria-hidden="true"></span>
+          Schilddrüsen-Sonographie abrechnen — GOÄ und EBM
+        </h3>
+
+        <p class="sd-b4__p sd-b4__anim sd-b4__anim--d2">
+          Die Abrechnung hängt vom Versicherungsstatus ab. Die folgenden Ziffern geben eine Orientierung — verbindliche Auskunft erteilen die zuständige Kassenärztliche Vereinigung oder ein Abrechnungsspezialist.
+        </p>
+
+        <div class="sd-b4__abr-grid sd-b4__anim sd-b4__anim--d2">
+
+          <div class="sd-b4__abr-block">
+            <div class="sd-b4__abr-head">
+              <span class="sd-b4__abr-system sd-b4__abr-system--ebm">EBM</span>
+              <span class="sd-b4__abr-head-title">Gesetzlich Versicherte (GKV)</span>
+            </div>
+            <table class="sd-b4__abr-table">
+              <thead>
+                <tr><th scope="col">Ziffer</th><th scope="col">Leistung</th><th scope="col">Hinweis</th></tr>
+              </thead>
+              <tbody>
+                <tr><td data-label="Ziffer"><span class="ziffer">33012</span></td><td data-label="Leistung">Sonographie der Schilddrüse (B-Mode)</td><td data-label="Hinweis">Genehmigungspflichtig nach Ultraschall-Vereinbarung</td></tr>
+                <tr><td data-label="Ziffer"><span class="ziffer">33075</span></td><td data-label="Leistung">Optische Führungshilfe (Punktion) — Zuschlag</td><td data-label="Hinweis">Ergänzend bei ultraschallgesteuerter FNAB</td></tr>
+              </tbody>
+            </table>
+            <div class="sd-b4__abr-hint">
+              <strong>Wichtig:</strong> Die Sonographie nach EBM setzt eine KV-Genehmigung gemäß Ultraschall-Vereinbarung (Qualitätssicherung) voraus. Die genauen Ziffern und Zuschläge entnehmen Sie dem aktuellen EBM Ihrer KV. (<a href="https://www.kbv.de/html/ebm.php" target="_blank" rel="noopener noreferrer" style="color:rgb(9,58,126)">Quelle: KBV — Einheitlicher Bewertungsmaßstab (EBM)</a>)
+            </div>
+          </div>
+
+          <div class="sd-b4__abr-block">
+            <div class="sd-b4__abr-head">
+              <span class="sd-b4__abr-system sd-b4__abr-system--goa">GOÄ</span>
+              <span class="sd-b4__abr-head-title">Privatpatienten &amp; Selbstzahler</span>
+            </div>
+            <table class="sd-b4__abr-table">
+              <thead>
+                <tr><th scope="col">Ziffer</th><th scope="col">Leistung</th><th scope="col">Hinweis</th></tr>
+              </thead>
+              <tbody>
+                <tr><td data-label="Ziffer"><span class="ziffer">417</span></td><td data-label="Leistung">Sonographie eines Organs (z. B. Schilddrüse)</td><td data-label="Hinweis">Basisziffer der Organsonographie</td></tr>
+                <tr><td data-label="Ziffer"><span class="ziffer">420</span></td><td data-label="Leistung">Zuschlag je weiteres Organ / weitere Region</td><td data-label="Hinweis">Z. B. Halslymphknoten zusätzlich</td></tr>
+                <tr><td data-label="Ziffer"><span class="ziffer">401</span></td><td data-label="Leistung">Duplex-/Farbduplex-Sonographie — Zuschlag</td><td data-label="Hinweis">Bei Farbdoppler der Vaskularisation</td></tr>
+              </tbody>
+            </table>
+            <div class="sd-b4__abr-hint">
+              <strong>Hinweis:</strong> Diese Angaben dienen der Information und ersetzen keine verbindliche Abrechnungsberatung. Steigerungsfaktor und kombinierbare Ziffern richten sich nach Aufwand und Begründung. (<a href="https://www.virchowbund.de/praxisaerzte-blog/goae-sonographie-abrechnung-ultraschall" target="_blank" rel="noopener noreferrer" style="color:rgb(100,75,10)">Quelle: Virchow Bund — GOÄ Sonographie Abrechnung</a>)
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="sd-b4__section">
+        <div class="sd-b4__summary sd-b4__anim sd-b4__anim--d2">
+          <div class="sd-b4__summary-label">Fazit</div>
+          <p class="sd-b4__summary-text">
+            Die <strong>Schilddrüsen-Sonographie</strong> ist die diagnostische Basis bei jeder Schilddrüsenerkrankung: Sie liefert Volumen, Echostruktur, Knotenmorphologie und Vaskularisation in Echtzeit — ohne Strahlung, sofort am Patienten, beliebig oft wiederholbar. Wer ein Gerät beschafft, sollte auf einen <strong>hochauflösenden Linearschallkopf</strong> (ca. 7,5–15 MHz), Farb- und Power-Doppler, präzise Mess-Tools und — je nach Schwerpunkt — Elastographie und Punktionsführung achten. Welches System zu Ihrer Praxis passt, klären wir herstellerunabhängig in einer persönlichen Beratung — einen Überblick über das Portfolio finden Sie auf der <a href="/fuer/allgemeinmedizin/">Seite Ultraschall für die Allgemeinmedizin</a>.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="sd-b4__aside-placeholder" id="sd-b4-placeholder" aria-hidden="true"></div>
+    <div class="sd-b4__aside sd-b4__anim sd-b4__anim--d3" id="sd-b4-aside">
+      <div class="sd-b4__aside-card">
+        <div class="sd-b4__aside-label">Beratung</div>
+        <div class="sd-b4__aside-title">Welches Gerät für Ihre Schilddrüsensonographie?</div>
+        <p class="sd-b4__aside-text">Mittelklasse oder Premium, mit oder ohne Elastographie und Punktionsführung — wir beraten Sie herstellerunabhängig und ehrlich.</p>
+        <a href="/kontakt" class="sd-b4__aside-link">
+          Kostenlos beraten lassen
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="sd-b4__aside-card">
+        <div class="sd-b4__aside-label">Geräte-Portfolio</div>
+        <div class="sd-b4__aside-title">Geräte für die Allgemeinmedizin</div>
+        <p class="sd-b4__aside-text">Vom mobilen System bis zum Premium-Standgerät — das DORMED-Portfolio für Schilddrüse und Small Parts.</p>
+        <a href="/fuer/allgemeinmedizin/" class="sd-b4__aside-link">
+          Zur Allgemeinmedizin-Übersicht
+          <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var aside       = document.getElementById('sd-b4-aside');
+  var placeholder = document.getElementById('sd-b4-placeholder');
+  var inner       = document.getElementById('sd-b4-inner');
+  if (!aside || !placeholder || !inner) return;
+
+  var stickyStartY = null;
+  var asideLeft    = null;
+  var asideWidth   = null;
+  var bottomPad    = 40;
+
+  function getNavHeight() {
+    var nav = document.querySelector('.nav__wrap');
+    if (nav) return nav.getBoundingClientRect().height;
+    var bar = document.querySelector('.nav__bar');
+    if (bar) return bar.getBoundingClientRect().height;
+    var anyNav = document.querySelector('nav');
+    if (anyNav) return anyNav.getBoundingClientRect().height;
+    return 68;
+  }
+  function isMobile() { return window.innerWidth <= 1100; }
+
+  function measureStickyStartY() {
+    if (isMobile()) {
+      aside.classList.remove('sd-b4__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('sd-b4__aside-placeholder--active');
+      placeholder.style.height = '';
+      stickyStartY = null;
+      return;
+    }
+    aside.classList.remove('sd-b4__aside--fixed');
+    aside.style.position = aside.style.top = aside.style.left = aside.style.width = '';
+    placeholder.classList.remove('sd-b4__aside-placeholder--active');
+    placeholder.style.height = '';
+    var navH = getNavHeight();
+    var rect = aside.getBoundingClientRect();
+    asideLeft    = rect.left;
+    asideWidth   = rect.width;
+    stickyStartY = rect.top + window.scrollY - navH - 20;
+    if (window.scrollY >= stickyStartY) {
+      placeholder.classList.add('sd-b4__aside-placeholder--active');
+      placeholder.style.height = aside.offsetHeight + 'px';
+      aside.classList.add('sd-b4__aside--fixed');
+      aside.style.top    = (navH + 20) + 'px';
+      aside.style.bottom = '';
+      aside.style.left   = asideLeft + 'px';
+      aside.style.right  = '';
+      aside.style.width  = asideWidth + 'px';
+    }
+  }
+
+  function updateSidebarPos() {
+    if (!aside || !inner) return;
+    if (isMobile()) {
+      aside.classList.remove('sd-b4__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      placeholder.classList.remove('sd-b4__aside-placeholder--active');
+      placeholder.style.height = '';
+      return;
+    }
+    if (stickyStartY === null) { measureStickyStartY(); return; }
+
+    var navH      = getNavHeight();
+    var scrollY   = window.scrollY;
+    var asideH    = aside.offsetHeight;
+    var innerH    = inner.offsetHeight;
+    var maxAbsTop = innerH - asideH - bottomPad;
+
+    if (scrollY < stickyStartY) {
+      placeholder.classList.remove('sd-b4__aside-placeholder--active');
+      placeholder.style.height = '';
+      aside.classList.remove('sd-b4__aside--fixed');
+      aside.style.position = aside.style.top = aside.style.bottom = aside.style.left = aside.style.right = aside.style.width = '';
+      return;
+    }
+
+    placeholder.classList.add('sd-b4__aside-placeholder--active');
+    placeholder.style.height = asideH + 'px';
+
+    var innerRect       = inner.getBoundingClientRect();
+    var sidebarWouldEnd = (navH + 20) + asideH;
+
+    if (innerRect.bottom - bottomPad <= sidebarWouldEnd) {
+      var innerPadRight = parseInt(window.getComputedStyle(inner).paddingRight, 10) || 0;
+      aside.classList.remove('sd-b4__aside--fixed');
+      aside.style.position = 'absolute';
+      aside.style.top      = 'auto';
+      aside.style.bottom   = bottomPad + 'px';
+      aside.style.right    = innerPadRight + 'px';
+      aside.style.left     = 'auto';
+      aside.style.width    = asideWidth + 'px';
+    } else {
+      aside.style.position = '';
+      aside.classList.add('sd-b4__aside--fixed');
+      aside.style.top      = (navH + 20) + 'px';
+      aside.style.bottom   = '';
+      aside.style.left     = asideLeft + 'px';
+      aside.style.right    = '';
+      aside.style.width    = asideWidth + 'px';
+    }
+  }
+
+  window.addEventListener('scroll', updateSidebarPos, { passive: true });
+  window.addEventListener('resize', function () {
+    stickyStartY = null; asideLeft = null; asideWidth = null;
+    setTimeout(updateSidebarPos, 60);
+  }, { passive: true });
+  setTimeout(function () { measureStickyStartY(); updateSidebarPos(); }, 200);/*SLF*/window.addEventListener("load",function(){measureStickyStartY();updateSidebarPos();setTimeout(function(){measureStickyStartY();updateSidebarPos();},200);});[700,1500,2500].forEach(function(d){setTimeout(function(){measureStickyStartY();updateSidebarPos();},d);});
+  updateSidebarPos();
+
+  function measure() { measureStickyStartY(); }
+  function update() { updateSidebarPos(); }
+
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('sd-b4__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.sd-b4__anim').forEach(function (el) { obs.observe(el); });
+
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-8j7d3dssb" style="position:relative;width:100%;min-height:auto;background-color:#F4F6F9;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-uvyuoflwm" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-zzuqo0c8n" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-zzuqo0c8n { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.blog-faq__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.blog-faq__wrap *,
+.blog-faq__wrap *::before,
+.blog-faq__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.blog-faq__inner {position:relative;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: minmax(0, 400px) 1fr;
+  gap: 0 6rem;
+  align-items: start;
+}
+
+/* LINKE SPALTE */
+.blog-faq__head{position:relative;align-self:start;}
+.blog-faq__eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.56rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: rgba(62,178,240,0.7);
+  display: flex; align-items: center; gap: 0.7rem;
+  margin-bottom: 1.2rem;
+}
+.blog-faq__eyebrow::before {
+  content: ''; width: 22px; height: 1px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+.blog-faq__h2 {
+  font-size: clamp(1.6rem, 2.8vw, 2.2rem);
+  font-weight: 700; letter-spacing: -0.035em; line-height: 1.05;
+  color: #0B1A2E; margin-bottom: 1rem;
+}
+.blog-faq__h2 span {
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.blog-faq__sub {
+  font-size: 0.92rem; font-weight: 400; line-height: 1.75; color: rgb(72,87,112);
+}
+
+/* RECHTE SPALTE: Accordion */
+.blog-faq__list {
+  display: flex; flex-direction: column; gap: 0;
+  border: 1px solid rgba(11,26,46,0.08); border-radius: 4px;
+  overflow: hidden; background: #FFFFFF;
+}
+
+.blog-faq__item { border-bottom: 1px solid rgba(11,26,46,0.06); }
+.blog-faq__item:last-child { border-bottom: none; }
+
+.blog-faq__q {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 1rem; padding: 1.25rem 1.5rem;
+  cursor: pointer; user-select: none;
+  background: transparent; border: none; width: 100%; text-align: left;
+  transition: background 0.2s; -webkit-tap-highlight-color: transparent;
+}
+.blog-faq__q:hover { background: rgba(62,178,240,0.03); }
+.blog-faq__q:focus-visible { outline: 2px solid #0B5FB7; outline-offset: -2px; }
+
+.blog-faq__q-text {margin:0;
+  font-size: 0.95rem; font-weight: 600; color: #0B1A2E; line-height: 1.45;
+}
+.blog-faq__q-icon {
+  width: 22px; height: 22px; border-radius: 50%;
+  background: rgba(11,95,183,0.07); border: 1px solid rgba(11,95,183,0.14);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; margin-top: 1px;
+  transition: background 0.2s, transform 0.3s ease;
+  color: rgb(9,58,126);
+}
+.blog-faq__q-icon svg { width: 10px; height: 10px; }
+.blog-faq__item--open .blog-faq__q-icon {
+  background: rgb(9,58,126); color: #fff; transform: rotate(45deg);
+}
+
+.blog-faq__body {
+  display: grid; grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+.blog-faq__item--open .blog-faq__body { grid-template-rows: 1fr; }
+.blog-faq__body-inner { overflow: hidden; }
+
+.blog-faq__a {
+  padding: 0 1.5rem 1.4rem 1.5rem;
+  font-size: 0.9rem; font-weight: 400; line-height: 1.8; color: rgb(55,70,95);
+}
+.blog-faq__a strong { font-weight: 600; color: #0B1A2E; }
+.blog-faq__a a {
+  color: rgb(9,58,126); text-decoration: underline;
+  text-decoration-color: rgba(62,178,240,0.4); text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s;
+}
+.blog-faq__a a:hover { text-decoration-color: #3EB2F0; }
+.blog-faq__a a:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 2px; border-radius: 1px; }
+
+/* ANIMATIONEN */
+.blog-faq__anim { opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.blog-faq__anim.blog-faq__vis { opacity: 1; transform: none; }
+.blog-faq__anim--d1 { transition-delay: 0.08s; }
+.blog-faq__anim--d2 { transition-delay: 0.16s; }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .blog-faq__inner { grid-template-columns: 1fr; gap: 2.5rem 0; }
+  .blog-faq__head { position: static; }
+}
+
+.blog-faq__head--fixed{position:fixed;z-index:50;}
+.blog-faq__head-placeholder{display:none;flex-shrink:0;}
+.blog-faq__head-placeholder--active{display:block;}
+@media(max-width:1100px){.blog-faq__head{position:relative!important;top:auto!important;bottom:auto!important;left:auto!important;right:auto!important;width:auto!important;}.blog-faq__head-placeholder{display:none!important;}}
+</style>
+
+<div class="blog-faq__wrap">
+  <div class="blog-faq__inner" id="blog-faq-inner">
+    <div class="blog-faq__head-placeholder" id="blog-faq-placeholder" aria-hidden="true"></div>
+    <div class="blog-faq__head blog-faq__anim" id="blog-faq-aside">
+      <div class="blog-faq__eyebrow">Häufige Fragen</div>
+      <h2 class="blog-faq__h2">
+        Die häufigsten Fragen<br>
+        <span>zur Schilddrüsen-Sonographie</span>
+      </h2>
+      <p class="blog-faq__sub">
+        Aus der Praxis — für Allgemeinmediziner, Internisten und Endokrinologen, die den Schilddrüsenultraschall täglich nutzen und ein passendes Gerät suchen.
+      </p>
+    </div>
+    <div class="blog-faq__list blog-faq__anim blog-faq__anim--d1" role="list">
+
+      <div class="blog-faq__item" role="listitem">
+        <button class="blog-faq__q" aria-expanded="true" aria-controls="faq-sd-1" id="faq-sd-1-btn">
+          <h3 class="blog-faq__q-text">Was ist eine Schilddrüsen-Sonographie?</h3>
+          <span class="blog-faq__q-icon" aria-hidden="true">
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 1v8M1 5h8"/></svg>
+          </span>
+        </button>
+        <div class="blog-faq__body" id="faq-sd-1" role="region" aria-labelledby="faq-sd-1-btn">
+          <div class="blog-faq__body-inner">
+            <div class="blog-faq__a">Die Schilddrüsen-Sonographie (Ultraschall der Schilddrüse, Schilddrüsenultraschall) ist die bildgebende Untersuchung beider Schilddrüsenlappen, des Isthmus und der Halslymphknoten mit hochfrequentem Ultraschall. Sie beurteilt Volumen, Echostruktur, Knoten und mit Farbdoppler die Durchblutung (Vaskularisation). Die Untersuchung ist nicht-invasiv, schmerzfrei, ohne Strahlung und beliebig oft wiederholbar. In der allgemeinmedizinischen und internistischen Praxis ist sie die wichtigste apparative Basisdiagnostik bei Schilddrüsenerkrankungen und kombiniert das B-Bild mit Farb- und Power-Doppler.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-faq__item" role="listitem">
+        <button class="blog-faq__q" aria-expanded="false" aria-controls="faq-sd-2" id="faq-sd-2-btn">
+          <h3 class="blog-faq__q-text">Welcher Schallkopf eignet sich für den Ultraschall der Schilddrüse?</h3>
+          <span class="blog-faq__q-icon" aria-hidden="true">
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 1v8M1 5h8"/></svg>
+          </span>
+        </button>
+        <div class="blog-faq__body" id="faq-sd-2" role="region" aria-labelledby="faq-sd-2-btn" hidden>
+          <div class="blog-faq__body-inner">
+            <div class="blog-faq__a">Weil die Schilddrüse oberflächlich liegt, ist ein <strong>hochauflösender Linearschallkopf</strong> mit hoher Frequenz (ca. <strong>7,5–15 MHz</strong>) ideal — er liefert die maximale Detailauflösung im Nahfeld für Echogenität, Ränder und Mikroverkalkungen. Ergänzend sind <strong>Farb- und Power-Doppler</strong> zur Darstellung der Vaskularisation Pflicht. Bei sehr großer Struma oder tief/retrosternal gelegenen Anteilen kann eine etwas niedrigere Frequenz oder ein Konvexschallkopf nötig sein. Für die Knotenbeurteilung ist optional die Elastographie hilfreich.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-faq__item" role="listitem">
+        <button class="blog-faq__q" aria-expanded="false" aria-controls="faq-sd-3" id="faq-sd-3-btn">
+          <h3 class="blog-faq__q-text">Welche Befundmuster sind in der Schilddrüsen-Sonographie verdächtig?</h3>
+          <span class="blog-faq__q-icon" aria-hidden="true">
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 1v8M1 5h8"/></svg>
+          </span>
+        </button>
+        <div class="blog-faq__body" id="faq-sd-3" role="region" aria-labelledby="faq-sd-3-btn" hidden>
+          <div class="blog-faq__body-inner">
+            <div class="blog-faq__a">Als Malignitätshinweise gelten ein <strong>echoarmer bis sehr echoarmer</strong> solider Knoten, <strong>Mikroverkalkungen</strong> (feine punktförmige Herde ohne Schallschatten), eine <strong>„höher als breit"-Form</strong> sowie ein <strong>irregulärer oder unscharfer Rand</strong>. Eher beruhigend sind echoreiche/isoechogene, glatt begrenzte, breiter-als-hohe oder spongiform-zystische Knoten. Diese Merkmale werden im <strong>TIRADS</strong>-System zu einem Punktwert und einer Risikokategorie (TR1–TR5) zusammengefasst, aus der sich zusammen mit der Knotengröße die Empfehlung zur Verlaufskontrolle oder Feinnadelpunktion ergibt.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-faq__item" role="listitem">
+        <button class="blog-faq__q" aria-expanded="false" aria-controls="faq-sd-4" id="faq-sd-4-btn">
+          <h3 class="blog-faq__q-text">Wie sieht eine Hashimoto-Thyreoiditis im Ultraschall aus?</h3>
+          <span class="blog-faq__q-icon" aria-hidden="true">
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 1v8M1 5h8"/></svg>
+          </span>
+        </button>
+        <div class="blog-faq__body" id="faq-sd-4" role="region" aria-labelledby="faq-sd-4-btn" hidden>
+          <div class="blog-faq__body-inner">
+            <div class="blog-faq__a">Die <strong>Hashimoto-Thyreoiditis</strong> zeigt sonographisch ein typisch <strong>echoarmes, inhomogenes Parenchym</strong>, oft mit feinen echoreichen Septen, und im Verlauf häufig ein reduziertes Schilddrüsenvolumen. Sie ist die häufigste Ursache der Hypothyreose und meist mit positiven TPO-Antikörpern verbunden. Davon abzugrenzen ist der Morbus Basedow: ebenfalls echoarm, im Farbdoppler aber stark hypervaskularisiert („thyroid inferno"). Der Ultraschall ergänzt hier Labor (TSH, Antikörper) und steuert die strahlungsfreie Verlaufskontrolle.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-faq__item" role="listitem">
+        <button class="blog-faq__q" aria-expanded="false" aria-controls="faq-sd-5" id="faq-sd-5-btn">
+          <h3 class="blog-faq__q-text">Worauf sollte ich bei der Gerätewahl für die Schilddrüsen-Sonographie achten?</h3>
+          <span class="blog-faq__q-icon" aria-hidden="true">
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 1v8M1 5h8"/></svg>
+          </span>
+        </button>
+        <div class="blog-faq__body" id="faq-sd-5" role="region" aria-labelledby="faq-sd-5-btn" hidden>
+          <div class="blog-faq__body-inner">
+            <div class="blog-faq__a">Pflicht sind ein <strong>hochauflösender Linearschallkopf</strong> (ca. 7,5–15 MHz) mit scharfer Nahfeldauflösung, <strong>Farb- und Power-Doppler</strong> für die Vaskularisation und präzise <strong>Mess- und Volumetrie-Tools</strong>. Je nach Schwerpunkt kommen <strong>Elastographie</strong>, eine <strong>Punktionsführung</strong> für die FNAB und Mobilität hinzu. Entscheidend ist die Detailauflösung am realen Knoten — testen Sie ein System immer in einer Demo mit eigenen Patienten. Eine Hausarztpraxis ist mit einem soliden Mittelklasse-Gerät bestens bedient, eine spezialisierte Endokrinologie mit Knoten- und Punktionssprechstunde benötigt ein Premium-System.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-faq__item" role="listitem">
+        <button class="blog-faq__q" aria-expanded="false" aria-controls="faq-sd-6" id="faq-sd-6-btn">
+          <h3 class="blog-faq__q-text">Welches Ultraschallgerät eignet sich für die Schilddrüsen-Sonographie in meiner Praxis?</h3>
+          <span class="blog-faq__q-icon" aria-hidden="true">
+            <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 1v8M1 5h8"/></svg>
+          </span>
+        </button>
+        <div class="blog-faq__body" id="faq-sd-6" role="region" aria-labelledby="faq-sd-6-btn" hidden>
+          <div class="blog-faq__body-inner">
+            <div class="blog-faq__a">Für eine spezialisierte Schilddrüsen- und Small-Parts-Diagnostik mit Elastographie und Punktionsführung empfehlen sich Premium-Standgeräte wie der <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9">Mindray Resona I9</a> oder der <a href="/ultraschallgeraete/standgeraete/mindray-consona-n8">Mindray Consona N8</a> sowie der <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a70">Esaote MyLab A70</a> — alle mit hochauflösendem Linearschallkopf, Power-Doppler und Elastographie. Für die Hausarztpraxis oder den mobilen Einsatz eignet sich ein kompaktes System wie der <a href="/ultraschallgeraete/mobile-geraete/mindray-mx7">Mindray MX7</a>. Welches Gerät zu Ihrem Patientengut passt, klären wir herstellerunabhängig — einen Überblick über das gesamte Portfolio finden Sie auf der <a href="/fuer/allgemeinmedizin/">Seite Ultraschall für die Allgemeinmedizin</a>.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<script>
+(function () {
+  'use strict';
+
+  var items = document.querySelectorAll('.blog-faq__item');
+
+  /* Erstes Item standardmäßig offen */
+  var first = items[0];
+  if (first) {
+    first.classList.add('blog-faq__item--open');
+    var firstBtn  = first.querySelector('.blog-faq__q');
+    var firstBody = first.querySelector('.blog-faq__body');
+    if (firstBtn)  firstBtn.setAttribute('aria-expanded', 'true');
+    if (firstBody) firstBody.removeAttribute('hidden');
+  }
+
+  function openItem(item) {
+    item.classList.add('blog-faq__item--open');
+    var btn  = item.querySelector('.blog-faq__q');
+    var body = item.querySelector('.blog-faq__body');
+    if (btn)  btn.setAttribute('aria-expanded', 'true');
+    if (body) body.removeAttribute('hidden');
+  }
+
+  function closeItem(item) {
+    item.classList.remove('blog-faq__item--open');
+    var btn  = item.querySelector('.blog-faq__q');
+    var body = item.querySelector('.blog-faq__body');
+    if (btn)  btn.setAttribute('aria-expanded', 'false');
+    if (body) body.setAttribute('hidden', '');
+  }
+
+  items.forEach(function (item) {
+    var btn = item.querySelector('.blog-faq__q');
+    if (!btn) return;
+
+    btn.addEventListener('click', function () {
+      var isOpen = item.classList.contains('blog-faq__item--open');
+      items.forEach(function (i) { closeItem(i); });
+      if (!isOpen) { openItem(item); }
+    });
+
+    btn.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); btn.click(); }
+    });
+  });
+
+  /* Scroll-Animationen */
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('blog-faq__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.blog-faq__anim').forEach(function (el) { obs.observe(el); });
+
+})();
+</script>
+<script>(function(){
+  var aside=document.getElementById('blog-faq-aside');
+  var placeholder=document.getElementById('blog-faq-placeholder');
+  var inner=document.getElementById('blog-faq-inner');
+  if(!aside||!placeholder||!inner)return;
+  var startY=null,aLeft=null,aWidth=null,bottomPad=40;
+  function navH(){var n=document.querySelector('.nav__wrap');if(n)return n.getBoundingClientRect().height;var b=document.querySelector('.nav__bar');if(b)return b.getBoundingClientRect().height;return 68;}
+  function isMobile(){return window.innerWidth<=1100;}
+  function reset(){aside.classList.remove('blog-faq__head--fixed');aside.style.position=aside.style.top=aside.style.bottom=aside.style.left=aside.style.right=aside.style.width='';placeholder.classList.remove('blog-faq__head-placeholder--active');placeholder.style.height='';placeholder.style.width='';}
+  function measure(){
+    reset();
+    if(isMobile()){startY=null;return;}
+    var nh=navH();var r=aside.getBoundingClientRect();aLeft=r.left;aWidth=r.width;startY=r.top+window.scrollY-nh-20;
+    if(window.scrollY>=startY){
+      placeholder.classList.add('blog-faq__head-placeholder--active');placeholder.style.height=aside.offsetHeight+'px';placeholder.style.width=aWidth+'px';
+      aside.classList.add('blog-faq__head--fixed');aside.style.top=(nh+20)+'px';aside.style.left=aLeft+'px';aside.style.width=aWidth+'px';
+    }
+  }
+  function update(){
+    if(isMobile()){reset();return;}
+    if(startY===null){measure();return;}
+    var nh=navH(),sy=window.scrollY,aH=aside.offsetHeight;
+    if(sy<startY){
+      placeholder.classList.remove('blog-faq__head-placeholder--active');placeholder.style.height='';
+      aside.classList.remove('blog-faq__head--fixed');aside.style.position=aside.style.top=aside.style.bottom=aside.style.left=aside.style.right=aside.style.width='';
+      return;
+    }
+    placeholder.classList.add('blog-faq__head-placeholder--active');placeholder.style.height=aH+'px';placeholder.style.width=aWidth+'px';
+    var ir=inner.getBoundingClientRect();var wouldEnd=(nh+20)+aH;
+    if(ir.bottom-bottomPad<=wouldEnd){
+      var padL=parseInt(window.getComputedStyle(inner).paddingLeft,10)||0;
+      aside.classList.remove('blog-faq__head--fixed');
+      aside.style.position='absolute';aside.style.top='auto';aside.style.bottom=bottomPad+'px';aside.style.left=padL+'px';aside.style.right='auto';aside.style.width=aWidth+'px';
+    }else{
+      aside.style.position='';aside.classList.add('blog-faq__head--fixed');aside.style.top=(nh+20)+'px';aside.style.bottom='';aside.style.left=aLeft+'px';aside.style.right='';aside.style.width=aWidth+'px';
+    }
+  }
+  window.addEventListener('scroll',update,{passive:true});
+  window.addEventListener('resize',function(){startY=null;aLeft=null;aWidth=null;setTimeout(update,60);},{passive:true});
+  setTimeout(function(){measure();update();},200);/*SLF*/window.addEventListener("load",function(){measure();update();setTimeout(function(){measure();update();},200);});[700,1500,2500].forEach(function(d){setTimeout(function(){measure();update();},d);});update();
+})();</script>
+<script type="application/ld+json">{"@@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Häufige Fragen Die häufigsten Fragen zur Schilddrüsen-Sonographie","acceptedAnswer":{"@type":"Answer","text":"Was ist eine Schilddrüsen-Sonographie? Die Schilddrüsen-Sonographie (Ultraschall der Schilddrüse, Schilddrüsenultraschall) ist die bildgebende Untersuchung beider Schilddrüsenlappen, des Isthmus und der Halslymphknoten mit hochfrequentem Ultraschall. Sie beurteilt Volumen, Echostruktur, Knoten und mit Farbdoppler die Durchblutung (Vaskularisation). Die Untersuchung ist nicht-invasiv, schmerzfrei, ohne Strahlung und beliebig oft wiederholbar. In der allgemeinmedizinischen und internistischen Praxis ist sie die wichtigste apparative Basisdiagnostik bei Schilddrüsenerkrankungen und kombiniert das B-Bild mit Farb- und Power-Doppler."}},{"@type":"Question","name":"Welcher Schallkopf eignet sich für den Ultraschall der Schilddrüse?","acceptedAnswer":{"@type":"Answer","text":"Weil die Schilddrüse oberflächlich liegt, ist ein hochauflösender Linearschallkopf mit hoher Frequenz (ca. 7,5–15 MHz ) ideal — er liefert die maximale Detailauflösung im Nahfeld für Echogenität, Ränder und Mikroverkalkungen. Ergänzend sind Farb- und Power-Doppler zur Darstellung der Vaskularisation Pflicht. Bei sehr großer Struma oder tief/retrosternal gelegenen Anteilen kann eine etwas niedrigere Frequenz oder ein Konvexschallkopf nötig sein. Für die Knotenbeurteilung ist optional die Elastographie hilfreich."}},{"@type":"Question","name":"Welche Befundmuster sind in der Schilddrüsen-Sonographie verdächtig?","acceptedAnswer":{"@type":"Answer","text":"Als Malignitätshinweise gelten ein echoarmer bis sehr echoarmer solider Knoten, Mikroverkalkungen (feine punktförmige Herde ohne Schallschatten), eine „höher als breit\"-Form sowie ein irregulärer oder unscharfer Rand . Eher beruhigend sind echoreiche/isoechogene, glatt begrenzte, breiter-als-hohe oder spongiform-zystische Knoten. Diese Merkmale werden im TIRADS -System zu einem Punktwert und einer Risikokategorie (TR1–TR5) zusammengefasst, aus der sich zusammen mit der Knotengröße die Empfehlung zur Verlaufskontrolle oder Feinnadelpunktion ergibt."}},{"@type":"Question","name":"Wie sieht eine Hashimoto-Thyreoiditis im Ultraschall aus?","acceptedAnswer":{"@type":"Answer","text":"Die Hashimoto-Thyreoiditis zeigt sonographisch ein typisch echoarmes, inhomogenes Parenchym , oft mit feinen echoreichen Septen, und im Verlauf häufig ein reduziertes Schilddrüsenvolumen. Sie ist die häufigste Ursache der Hypothyreose und meist mit positiven TPO-Antikörpern verbunden. Davon abzugrenzen ist der Morbus Basedow: ebenfalls echoarm, im Farbdoppler aber stark hypervaskularisiert („thyroid inferno\"). Der Ultraschall ergänzt hier Labor (TSH, Antikörper) und steuert die strahlungsfreie Verlaufskontrolle."}},{"@type":"Question","name":"Worauf sollte ich bei der Gerätewahl für die Schilddrüsen-Sonographie achten?","acceptedAnswer":{"@type":"Answer","text":"Pflicht sind ein hochauflösender Linearschallkopf (ca. 7,5–15 MHz) mit scharfer Nahfeldauflösung, Farb- und Power-Doppler für die Vaskularisation und präzise Mess- und Volumetrie-Tools . Je nach Schwerpunkt kommen Elastographie , eine Punktionsführung für die FNAB und Mobilität hinzu. Entscheidend ist die Detailauflösung am realen Knoten — testen Sie ein System immer in einer Demo mit eigenen Patienten. Eine Hausarztpraxis ist mit einem soliden Mittelklasse-Gerät bestens bedient, eine spezialisierte Endokrinologie mit Knoten- und Punktionssprechstunde benötigt ein Premium-System."}},{"@type":"Question","name":"Welches Ultraschallgerät eignet sich für die Schilddrüsen-Sonographie in meiner Praxis?","acceptedAnswer":{"@type":"Answer","text":"Für eine spezialisierte Schilddrüsen- und Small-Parts-Diagnostik mit Elastographie und Punktionsführung empfehlen sich Premium-Standgeräte wie der Mindray Resona I9 oder der Mindray Consona N8 sowie der Esaote MyLab A70 — alle mit hochauflösendem Linearschallkopf, Power-Doppler und Elastographie. Für die Hausarztpraxis oder den mobilen Einsatz eignet sich ein kompaktes System wie der Mindray MX7 . Welches Gerät zu Ihrem Patientengut passt, klären wir herstellerunabhängig — einen Überblick über das gesamte Portfolio finden Sie auf der Seite Ultraschall für die Allgemeinmedizin ."}}]}</script></div></div></div></div></div></div></div></section></div>
+<div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><section id="section-sec-ljdqi7vqj" style="position:relative;width:100%;min-height:auto;background-color:#FFFF;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;padding-top:40px;padding-bottom:40px;padding-left:0px;padding-right:0px;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;box-sizing:border-box;z-index:1;overflow:visible;transition:min-height 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-con-n83hct301" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-el-ynz3z8dj6" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><style>
+          #widget-el-ynz3z8dj6 { width: 100% !important; display: flex; }
+        </style><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container"><style>
+.sd-dev__wrap {
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  overflow-x: clip;
+}
+.sd-dev__wrap *,
+.sd-dev__wrap *::before,
+.sd-dev__wrap *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.sd-dev__inner {
+  max-width: 1160px; margin: 0 auto; padding: 0 2rem;
+  display: flex; flex-direction: column; gap: 3rem;
+}
+
+/* Header */
+.sd-dev__header { display: flex; flex-direction: column; gap: 0.75rem; max-width: 640px; }
+.sd-dev__label {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.56rem;
+  letter-spacing: 0.22em; text-transform: uppercase; color: rgb(9,58,126);
+}
+.sd-dev__label::before {
+  content: ''; width: 20px; height: 2px;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0); flex-shrink: 0;
+}
+.sd-dev__title {
+  font-size: clamp(1.3rem, 2.2vw, 1.65rem); font-weight: 700;
+  letter-spacing: -0.03em; line-height: 1.2; color: #0B1A2E;
+}
+.sd-dev__title span {
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.sd-dev__sub {
+  font-size: 0.95rem; font-weight: 400; line-height: 1.7; color: rgb(72,87,112);
+}
+
+/* Grid */
+.sd-dev__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+
+/* Karte */
+.sd-dev__card {
+  background: #FFFFFF; border: 1px solid rgba(11,26,46,0.08); border-radius: 4px;
+  overflow: hidden; display: flex; flex-direction: column;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s;
+}
+.sd-dev__card:hover {
+  box-shadow: 0 8px 36px rgba(11,26,46,0.10), 0 2px 8px rgba(11,26,46,0.05);
+  transform: translateY(-3px); border-color: rgba(62,178,240,0.2);
+}
+
+/* Bild */
+.sd-dev__img-col {
+  position: relative; background: #F7F5F0;
+  display: flex; align-items: center; justify-content: center;
+  padding: 2rem 1.5rem 1.75rem; overflow: hidden; min-height: 200px;
+}
+.sd-dev__img-grid {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(11,95,183,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(11,95,183,0.035) 1px, transparent 1px);
+  background-size: 28px 28px; pointer-events: none;
+}
+.sd-dev__img {
+  width: 100%; max-width: 200px; height: auto; display: block;
+  position: relative; z-index: 1; transition: transform 0.4s ease;
+}
+.sd-dev__card:hover .sd-dev__img { transform: scale(1.04) translateY(-4px); }
+.sd-dev__hersteller {
+  position: absolute; top: 1rem; left: 1rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.52rem; letter-spacing: 0.14em;
+  text-transform: uppercase; color: rgb(9,58,126); background: rgba(255,255,255,0.9);
+  border: 1px solid rgba(11,95,183,0.15); border-radius: 2px; padding: 0.25rem 0.55rem; z-index: 2;
+}
+.sd-dev__klasse {
+  position: absolute; bottom: 1rem; right: 1rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.5rem; letter-spacing: 0.12em;
+  text-transform: uppercase; color: rgb(72,87,112); background: rgba(255,255,255,0.85);
+  border: 1px solid rgba(11,26,46,0.1); border-radius: 2px; padding: 0.2rem 0.5rem; z-index: 2;
+}
+/* CW-Badge auf Gerätekarte */
+.sd-dev__cw-tag {
+  position: absolute; top: 1rem; right: 1rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.48rem; letter-spacing: 0.1em;
+  text-transform: uppercase; color: #fff;
+  background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  border-radius: 2px; padding: 0.2rem 0.5rem; z-index: 2;
+}
+
+/* Content */
+.sd-dev__content {
+  padding: 1.5rem 1.6rem 1.75rem; display: flex; flex-direction: column; gap: 0.9rem; flex: 1;
+}
+.sd-dev__name { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.02em; color: #0B1A2E; line-height: 1.2; }
+.sd-dev__pos { font-size: 0.84rem; font-weight: 400; line-height: 1.65; color: rgb(72,87,112); }
+.sd-dev__divider { height: 1px; background: rgba(11,26,46,0.07); }
+
+.sd-dev__specs { display: flex; flex-direction: column; gap: 0.45rem; list-style: none; }
+.sd-dev__spec { display: flex; align-items: flex-start; gap: 0.6rem; }
+.sd-dev__spec-dot {
+  width: 5px; height: 5px; border-radius: 50%;
+  background: rgba(62,178,240,0.5); flex-shrink: 0; margin-top: 7px;
+}
+.sd-dev__spec-text {
+  font-size: 0.8rem; font-weight: 400; line-height: 1.55; color: rgb(80,100,130);
+}
+.sd-dev__spec-text strong { font-weight: 600; color: rgb(40,60,90); }
+
+.sd-dev__footer {
+  margin-top: auto; padding-top: 0.75rem;
+  display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;
+}
+.sd-dev__btn {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  font-family: 'Space Grotesk', sans-serif; font-size: 0.8rem; font-weight: 600;
+  color: #fff; background: linear-gradient(90deg, #0B5FB7, #3EB2F0);
+  border: none; border-radius: 2px; padding: 0.6rem 1.1rem; text-decoration: none;
+  transition: opacity 0.2s, transform 0.15s; box-shadow: 0 3px 12px rgba(11,95,183,0.2);
+  white-space: nowrap;
+}
+.sd-dev__btn:hover { opacity: 0.88; transform: translateY(-1px); }
+.sd-dev__btn:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+.sd-dev__link {
+  font-size: 0.76rem; font-weight: 500; color: rgb(9,58,126); text-decoration: none;
+  display: inline-flex; align-items: center; gap: 0.35rem; transition: gap 0.2s; white-space: nowrap;
+}
+.sd-dev__link:hover { gap: 0.55rem; }
+.sd-dev__link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* Unterzeile */
+.sd-dev__all {
+  display: flex; align-items: center; justify-content: center; gap: 1rem;
+  padding-top: 0.5rem; border-top: 1px solid rgba(11,26,46,0.07);
+}
+.sd-dev__all-text { font-size: 0.85rem; font-weight: 400; color: rgb(72,87,112); }
+.sd-dev__all-link {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-size: 0.85rem; font-weight: 600; color: rgb(9,58,126);
+  text-decoration: none; transition: gap 0.2s;
+}
+.sd-dev__all-link:hover { gap: 0.65rem; }
+.sd-dev__all-link:focus-visible { outline: 2px solid #0B5FB7; outline-offset: 3px; border-radius: 2px; }
+
+/* ANIMATIONEN */
+.sd-dev__anim { opacity: 0; transform: translateY(14px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.sd-dev__anim.sd-dev__vis { opacity: 1; transform: none; }
+.sd-dev__anim--d1 { transition-delay: 0.05s; }
+.sd-dev__anim--d2 { transition-delay: 0.12s; }
+.sd-dev__anim--d3 { transition-delay: 0.20s; }
+.sd-dev__anim--d4 { transition-delay: 0.28s; }
+.sd-dev__anim--d5 { transition-delay: 0.15s; }
+
+/* RESPONSIVE */
+@media (max-width: 960px) {
+  .sd-dev__grid { grid-template-columns: repeat(2, 1fr); }
+  .sd-dev__card:last-child { grid-column: 1 / -1; max-width: 480px; margin: 0 auto; width: 100%; }
+}
+@media (max-width: 580px) {
+  .sd-dev__grid { grid-template-columns: 1fr; }
+  .sd-dev__card:last-child { grid-column: auto; max-width: none; }
+  .sd-dev__footer { flex-direction: column; align-items: flex-start; }
+  .sd-dev__btn { width: 100%; justify-content: center; }
+  .sd-dev__all { flex-direction: column; text-align: center; gap: 0.5rem; }
+}
+</style>
+
+<div class="sd-dev__wrap">
+  <div class="sd-dev__inner">
+    <div class="sd-dev__header">
+      <div class="sd-dev__label sd-dev__anim sd-dev__anim--d1">Passend zu diesem Beitrag</div>
+      <h2 class="sd-dev__title sd-dev__anim sd-dev__anim--d2">
+        Ultraschallgeräte für die<br><span>Schilddrüsen-Sonographie</span>
+      </h2>
+      <p class="sd-dev__sub sd-dev__anim sd-dev__anim--d2">
+        Drei Systeme mit hochauflösendem Linearschallkopf, Farb-/Power-Doppler und Elastographie — für Schilddrüse, Halslymphknoten und Small Parts. Persönliche Beratung und Demo inklusive.
+      </p>
+    </div>
+
+    <div class="sd-dev__grid">
+
+      <div class="sd-dev__card sd-dev__anim sd-dev__anim--d2">
+        <div class="sd-dev__img-col">
+          <div class="sd-dev__img-grid" aria-hidden="true"></div>
+          <span class="sd-dev__hersteller">Mindray</span>
+          <span class="sd-dev__cw-tag">Elastographie ✓</span>
+          <span class="sd-dev__klasse">Premium</span>
+          <img class="sd-dev__img" src="/assets/img/produkte/mindray-consona-n5/4b828db5-543d-4cdc-05a8-3654dfe48d00.png" alt="Mindray Resona I9 Ultraschallgerät für die Schilddrüsen-Sonographie" loading="lazy"/>
+        </div>
+        <div class="sd-dev__content">
+          <div class="sd-dev__name">Mindray Resona I9</div>
+          <p class="sd-dev__pos">Premium-Standgerät mit exzellenter Nahfeldauflösung — hochauflösender Linearschallkopf, Power-Doppler und Scherwellen-Elastographie für Small Parts.</p>
+          <div class="sd-dev__divider" aria-hidden="true"></div>
+          <ul class="sd-dev__specs">
+            <li class="sd-dev__spec"><span class="sd-dev__spec-dot" aria-hidden="true"></span><span class="sd-dev__spec-text"><strong>Hochauflösender Linearschallkopf</strong> — maximale Detailauflösung für Schilddrüse &amp; Small Parts</span></li>
+            <li class="sd-dev__spec"><span class="sd-dev__spec-dot" aria-hidden="true"></span><span class="sd-dev__spec-text"><strong>Farb- &amp; Power-Doppler</strong> — feine Knotenvaskularisation, auch bei niedrigen Flüssen</span></li>
+            <li class="sd-dev__spec"><span class="sd-dev__spec-dot" aria-hidden="true"></span><span class="sd-dev__spec-text"><strong>Scherwellen-Elastographie</strong> — Gewebehärte als Zusatzkriterium zur Knotenbeurteilung</span></li>
+          </ul>
+          <div class="sd-dev__footer">
+            <a href="/ultraschallgeraete/standgeraete/mindray-resona-i9" class="sd-dev__btn">
+              Zum Gerät
+              <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="/kontakt" class="sd-dev__link">
+              Beraten lassen
+              <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sd-dev__card sd-dev__anim sd-dev__anim--d3">
+        <div class="sd-dev__img-col">
+          <div class="sd-dev__img-grid" aria-hidden="true"></div>
+          <span class="sd-dev__hersteller">Mindray</span>
+          <span class="sd-dev__cw-tag">Linear ✓</span>
+          <span class="sd-dev__klasse">Premium</span>
+          <img class="sd-dev__img" src="/assets/img/produkte/esaote-mylab-a70/75584888-c45d-4cf5-24b5-c97c227ded00.png" alt="Mindray Consona N8 Ultraschallgerät für die Schilddrüsen-Sonographie" loading="lazy"/>
+        </div>
+        <div class="sd-dev__content">
+          <div class="sd-dev__name">Mindray Consona N8</div>
+          <p class="sd-dev__pos">Vielseitiges Premium-System mit starker Bildqualität — hochauflösender Linearschallkopf und vollständiges Doppler-Paket für die Schilddrüsendiagnostik.</p>
+          <div class="sd-dev__divider" aria-hidden="true"></div>
+          <ul class="sd-dev__specs">
+            <li class="sd-dev__spec"><span class="sd-dev__spec-dot" aria-hidden="true"></span><span class="sd-dev__spec-text"><strong>Hochauflösender Linearschallkopf</strong> — scharfes B-Bild für Echogenität und Mikroverkalkungen</span></li>
+            <li class="sd-dev__spec"><span class="sd-dev__spec-dot" aria-hidden="true"></span><span class="sd-dev__spec-text"><strong>Farb- &amp; Power-Doppler</strong> — zuverlässige Darstellung der Vaskularisation</span></li>
+            <li class="sd-dev__spec"><span class="sd-dev__spec-dot" aria-hidden="true"></span><span class="sd-dev__spec-text"><strong>Mess- &amp; Volumetrie-Tools</strong> — reproduzierbare Knotengröße und Schilddrüsenvolumen</span></li>
+          </ul>
+          <div class="sd-dev__footer">
+            <a href="/ultraschallgeraete/standgeraete/mindray-consona-n8" class="sd-dev__btn">
+              Zum Gerät
+              <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="/kontakt" class="sd-dev__link">
+              Beraten lassen
+              <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sd-dev__card sd-dev__anim sd-dev__anim--d4">
+        <div class="sd-dev__img-col">
+          <div class="sd-dev__img-grid" aria-hidden="true"></div>
+          <span class="sd-dev__hersteller">Esaote</span>
+          <span class="sd-dev__cw-tag">Elastographie ✓</span>
+          <span class="sd-dev__klasse">Premium</span>
+          <img class="sd-dev__img" src="/assets/img/produkte/mindray-consona-n6/18568e12-ce75-4445-6541-82d6697a4400.png" alt="Esaote MyLab A70 Ultraschallgerät für die Schilddrüsen-Sonographie" loading="lazy"/>
+        </div>
+        <div class="sd-dev__content">
+          <div class="sd-dev__name">Esaote MyLab™ A70</div>
+          <p class="sd-dev__pos">Premium-System mit KI-gestütztem Workflow und exzellenter Small-Parts-Bildgebung — für die anspruchsvolle Schilddrüsen- und Weichteildiagnostik.</p>
+          <div class="sd-dev__divider" aria-hidden="true"></div>
+          <ul class="sd-dev__specs">
+            <li class="sd-dev__spec"><span class="sd-dev__spec-dot" aria-hidden="true"></span><span class="sd-dev__spec-text"><strong>Hochauflösende Linear-Schallköpfe</strong> — detailreiche Small-Parts- und Schilddrüsenbildgebung</span></li>
+            <li class="sd-dev__spec"><span class="sd-dev__spec-dot" aria-hidden="true"></span><span class="sd-dev__spec-text"><strong>Elastographie &amp; Power-Doppler</strong> — Gewebehärte und Vaskularisation als Zusatzkriterien</span></li>
+            <li class="sd-dev__spec"><span class="sd-dev__spec-dot" aria-hidden="true"></span><span class="sd-dev__spec-text"><strong>KI-gestützter Workflow</strong> — schnelle, reproduzierbare Befundung und Dokumentation</span></li>
+          </ul>
+          <div class="sd-dev__footer">
+            <a href="/ultraschallgeraete/standgeraete/esaote-mylab-a70" class="sd-dev__btn">
+              Zum Gerät
+              <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="/kontakt" class="sd-dev__link">
+              Beraten lassen
+              <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="sd-dev__all sd-dev__anim sd-dev__anim--d5">
+      <span class="sd-dev__all-text">Weitere Systeme für Schilddrüse und Small Parts im Sortiment —</span>
+      <a href="/fuer/allgemeinmedizin/" class="sd-dev__all-link">
+        Alle Geräte für die Allgemeinmedizin
+        <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function() {
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) { e.target.classList.add('sd-dev__vis'); obs.unobserve(e.target); }
+    });
+  }, { threshold: 0.06, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.sd-dev__anim').forEach(function(el) { obs.observe(el); });
+})();
+</script>
+</div></div></div></div></div></div></div></section></div>
+</main>
+    <footer id="footer-a3d3bfb9-6fa3-4a84-91c0-180364037cd1" class="region footer" style="z-index: 10; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); box-sizing: border-box; padding-top: 0px; padding-bottom: 0px; margin: 0; background-color:#060C1C; background-image:none; border-radius:0px; border:none; position: relative; width: 100%">
+  <div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="container-de41c6a2-5c82-4cb0-a730-c675ed876f74" style="width:100%;max-width:9999px;margin:0 auto;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:transparent;background-image:none;border-style:none;border-width:0;border-color:transparent;border-radius:0px;box-sizing:border-box;min-height:0px;display:flex;flex-direction:row;gap:0px;justify-content:center;align-items:center;transition:all 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, backdrop-filter 0.2s ease"><div style="position:relative;pointer-events:auto;cursor:default;opacity:1;transition:opacity 0.2s ease;display:block;overflow:visible;width:100%;height:auto;min-height:auto"><div id="widget-wid-ezrxxi9be" class="widget-root full-width" style="width:100%;height:auto;padding:0px;box-sizing:border-box;display:flex;flex-direction:column;position:relative"><div style="pointer-events:auto;width:100%;display:block"><div class="custom_code_wrapper"><div class="custom_code_container">
+
+<footer class="footer__wrap" itemscope itemtype="https://schema.org/Organization">
+
+  <div class="footer__stripe"></div>
+
+  <!-- ══ CTA BAND ══ -->
+  <div class="footer__cta-band">
+    <div class="footer__cta-inner">
+      <div class="footer__cta-text">
+        <span class="footer__cta-eyebrow">Persönliche Beratung</span>
+        <span class="footer__cta-title">Jetzt beraten lassen — kostenlos & unverbindlich</span>
+      </div>
+      <div class="footer__cta-actions">
+        <a href="/kontakt" class="footer__cta-btn">
+          Unverbindlich anfragen
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a href="tel:+492301188600" class="footer__cta-btn footer__cta-btn--ghost">
+          +49 (0) 2301 / 188 600
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MAIN GRID ── -->
+  <div class="footer__main">
+    <div class="footer__main-inner">
+
+      <!-- BRAND -->
+      <div class="footer__brand">
+        <a href="/" class="footer__logo" aria-label="SONORING DORMED Startseite" itemprop="url">
+          <img src="/assets/img/7a0f874f-87e0-4847-e395-5103bf8d1300.png" alt="SONORING DORMED Logo" class="footer__logo-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="footer__logo-text" style="display:none">
+            <span class="footer__logo-brand"><em>SONORING</em> DORMED</span>
+            <span class="footer__logo-sub">med. Systeme</span>
+          </span>
+        </a>
+        <p class="footer__tagline" itemprop="description">Deutschlands führender Ultraschall-Fachhändler. Gegründet 1989 — über 35 Jahre Erfahrung, 1.700 aktive Wartungskunden, 4 Standorte bundesweit.</p>
+        <div class="footer__contact">
+          <a href="tel:+4923011886000" class="footer__contact-item" itemprop="telephone">
+            <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 10.5c-1 .5-2 1-3 .5-1.5-.7-2.8-2-3.5-3.5-.5-1 0-2 .5-3L5.5 2 2 4c0 7 7 14 14 14l2-3.5-2.5-1.5z"/></svg>
+            +49 (0) 2301 / 188-600
+          </a>
+          <a href="mailto:mail@dormed.de" class="footer__contact-item" itemprop="email">
+            <svg viewBox="0 0 16 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="14" height="10" rx="1"/><path d="M1 3l7 6 7-6"/></svg>
+            mail@dormed.de
+          </a>
+        </div>
+        <div class="footer__social">
+          <a href="https://www.youtube.com/@SonoringDormed" class="footer__social-link" aria-label="YouTube" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="rgb(13,31,60)" stroke="none"/></svg>
+          </a>
+          <a href="https://de.linkedin.com/company/sonoringdormed" class="footer__social-link" aria-label="LinkedIn" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://www.facebook.com/SonoringDormed/" class="footer__social-link" aria-label="Facebook" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="https://www.xing.com/pages/sonoringdormed" class="footer__social-link" aria-label="Xing" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l3.5 6L3 18h4l4.5-8L8 4H4zM17 2l-7 12.5L14.5 22H19l-4.5-7.5L21 2h-4z"/></svg>
+          </a>
+        </div>
+
+        <!-- TeamViewer Quick Support Button -->
+        <a href="https://get.teamviewer.com/677uhcc" class="footer__tv-btn" target="_blank" rel="noopener noreferrer" aria-label="TeamViewer Quick Support – Fernwartung starten">
+          <span class="footer__tv-brand">
+            <img src="/assets/img/4f0f1b6d-fe34-4ffe-e2c0-2171ee260b00.png" alt="TeamViewer" class="footer__tv-logo-img" loading="lazy" decoding="async">
+            <span class="footer__tv-wordmark"><em>Team</em>Viewer</span>
+          </span>
+          <span class="footer__tv-cta">
+            <span class="footer__tv-cta-label">Quick Support</span>
+            <span class="footer__tv-cta-sub">Fernwartung starten</span>
+          </span>
+        </a>
+      </div>
+
+      <!-- ULTRASCHALLGERÄTE — Kategorien statt Einzelgeräten -->
+      <div class="footer__col">
+        <div class="footer__col-label">Ultraschallgeräte</div>
+        <a href="/ultraschallgeraete/standgeraete" class="footer__link">Standgeräte</a>
+        <a href="/ultraschallgeraete/mobile-geraete" class="footer__link">Mobile Geräte</a>
+        <a href="/ultraschallgeraete/handheld" class="footer__link">Handheld</a>
+        <a href="/ultraschallgeraete/sono-finder" class="footer__link">Sono Finder</a>
+        <a href="/standorte/digitale-sonothek" class="footer__link">Digitale Sonothek</a>
+        <a href="/ultraschallgeraete" class="footer__link footer__link--highlight" style="margin-top:0.4rem">→ Alle Geräte</a>
+      </div>
+
+      <!-- LEISTUNGEN + FACHGEBIETE -->
+      <div class="footer__col">
+        <div class="footer__col-label">Leistungen</div>
+        <a href="/leistungen/beratung" class="footer__link">Beratung</a>
+        <a href="/leistungen/finanzierung" class="footer__link">Finanzierung & Leasing</a>
+        <a href="/leistungen/lieferung" class="footer__link">Lieferung & Installation</a>
+        <a href="/leistungen/wartung-reparatur" class="footer__link">Wartung & Reparatur</a>
+        <a href="/leistungen/netzwerkanbindung" class="footer__link">Netzwerkanbindung</a>
+        <a href="/leistungen/schulung-einweisung" class="footer__link">Schulung & Einweisung</a>
+        <a href="/leistungen/garantie-versicherung" class="footer__link">Garantie & Versicherung</a>
+        <a href="/leistungen/inzahlungnahme" class="footer__link">Inzahlungnahme</a>
+        <div class="footer__col-label" style="margin-top:1.4rem">Für Fachgebiete</div>
+        <a href="/fuer/allgemeinmedizin" class="footer__link">Allgemeinmedizin</a>
+        <a href="/fuer/kardiologie" class="footer__link">Kardiologie</a>
+        <a href="/fuer/gynaekologie" class="footer__link">Gynäkologie</a>
+        <a href="/fuer/orthopaedie" class="footer__link">Orthopädie & MSK</a>
+      </div>
+
+      <!-- UNTERNEHMEN -->
+      <div class="footer__col">
+        <div class="footer__col-label">Unternehmen</div>
+        <a href="/ueber/dormed" class="footer__link">Über Dormed</a>
+        <a href="/ueber/sonoring" class="footer__link">Sonoring</a>
+        <a href="/hersteller/mindray" class="footer__link">Mindray</a>
+        <a href="/hersteller/esaote" class="footer__link">Esaote</a>
+        <a href="/hersteller/chison" class="footer__link">Chison</a>
+        <a href="/karriere" class="footer__link">Karriere</a>
+        <a href="/veranstaltungen" class="footer__link">Veranstaltungen</a>
+        <a href="/blog" class="footer__link">Blog</a>
+        <div class="footer__col-label" style="margin-top:1.4rem">Standorte</div>
+        <a href="/standorte/dortmund" class="footer__location">
+          <span class="footer__location-city">Dortmund</span>
+          <span class="footer__location-addr">Wilhelm-Röntgen-Str. 4<br>59439 Holzwickede</span>
+        </a>
+        <a href="/standorte/duesseldorf" class="footer__location">
+          <span class="footer__location-city">Düsseldorf</span>
+          <span class="footer__location-addr">Borsigstraße 5<br>40880 Ratingen</span>
+        </a>
+        <a href="/standorte/hamburg" class="footer__location">
+          <span class="footer__location-city">Hamburg</span>
+          <span class="footer__location-addr">Bremer Straße 6<br>21244 Buchholz</span>
+        </a>
+        <a href="/standorte/kiel" class="footer__location">
+          <span class="footer__location-city">Kiel</span>
+          <span class="footer__location-addr">Maria-Merian-Str. 9<br>24145 Kiel</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── BOTTOM BAR ── -->
+  <div class="footer__bottom">
+    <div class="footer__bottom-inner">
+      <span class="footer__copy">© 2026 DORMED medizinische Systeme GmbH · Alle Rechte vorbehalten</span>
+      <div class="footer__legal">
+        <a href="/impressum" class="footer__legal-link">Impressum</a>
+        <a href="/datenschutz" class="footer__legal-link">Datenschutz</a>
+        <a href="/agb" class="footer__legal-link">AGB</a>
+      </div>
+
+    </div>
+  </div>
+
+</footer></div></div></div></div></div></div></div>
+</footer>
+    
+    
+<script>
+(function() {
+  function easeInOutCubic(t) {
+    return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  }
+
+  function smoothScrollTo(targetSelector) {
+    const targetElement = document.querySelector(targetSelector);
+    if (!targetElement) return;
+
+    const header = document.getElementById('yuuble-header');
+    const offset = header ? header.offsetHeight : 0;
+
+    const startPosition = window.pageYOffset;
+    const targetPosition = targetElement.getBoundingClientRect().top + startPosition - offset;
+    const distance = targetPosition - startPosition;
+    
+    const duration = Math.min(Math.max(Math.abs(distance) * 0.6, 800), 1400);
+    let startTime = null;
+
+    function animation(currentTime) {
+      if (startTime === null) startTime = currentTime;
+      const timeElapsed = currentTime - startTime;
+      const progress = Math.min(timeElapsed / duration, 1);
+      
+      const ease = easeInOutCubic(progress);
+      window.scrollTo(0, startPosition + distance * ease);
+
+      if (timeElapsed < duration) {
+        requestAnimationFrame(animation);
+      }
+    }
+    requestAnimationFrame(animation);
+  }
+
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a[href^="#"]');
+    if (!link) return;
+
+    const href = link.getAttribute('href');
+    if (href === '#' || href.length < 2) return;
+
+    const targetEl = document.querySelector(href);
+    if (!targetEl) return; 
+
+    e.preventDefault();
+    smoothScrollTo(href);
+    
+    if (history.pushState) {
+      history.pushState(null, null, href);
+    }
+  });
+  
+  console.log("🚀 Smooth Scrolling via Factory Injection aktiv.");
+})();
+</script>
+
+    
+  </body>
+</html>
