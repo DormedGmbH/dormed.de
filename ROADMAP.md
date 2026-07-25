@@ -16,7 +16,11 @@ wenn nichts anderes vom Auftraggeber (Lukas) kommuniziert wurde, gilt der Defaul
    1:1 die aktuelle Datei) — damit sie später ohne URL-Änderung dynamisch generiert werden
    kann.
 3. Styling wird 1:1 optisch übernommen. Keine Redesigns, keine "Verbesserungen" nebenbei.
-4. Keine Datenbank. Persistenz, falls nötig, über Cookies/Cache/Dateisystem.
+4. Keine Business-/Content-Datenbank (keine Produktdaten, keine Formular-Einträge o. ä.
+   dauerhaft in einer DB). **Ausnahme (Phase 2 präzisiert):** SQLite als reiner,
+   serverloser Zwischenspeicher für Framework-internen Zustand (Cache, Sessions) ist
+   erlaubt — kein DB-Server-Prozess, keine Zugangsdaten, keine Backup-Pflicht, die Datei
+   ist ephemer und wird bei Bedarf per `migrate:fresh` neu aufgebaut.
 5. Kein dauerhaft laufender Node/Server-Prozess. Klassisches PHP-FPM-Hosting.
 6. **Das an den Browser ausgelieferte HTML darf sich in keinem Punkt inhaltlich vom
    aktuellen Stand unterscheiden** — mit genau diesen Ausnahmen: zentraler
@@ -165,32 +169,67 @@ Produktkatalog, bereinigtem Markup und aufgeräumter Bilderstruktur je Produkt.
 
 ## Phase 2 – Laravel-Setup
 
-1. Aktuellen Stand (= Ergebnis von Phase 1) nach `.old/` verschieben, ab hier unangetastet
-   als Referenz für den gesamten weiteren Weg.
-2. Laravel frisch initialisieren. ⚠️ Neueste stabile Version, sofern kein Hosting-Limit bei
-   der PHP-Version dagegenspricht (bitte bestätigen).
-3. `laravel/boost` als Dev-Dependency installieren (`composer require laravel/boost --dev`)
-   und initialisieren (`php artisan boost:install`).
-4. Aufräumen: SQLite-Datei und `users`/`cache`/`jobs`-Migrationen löschen (nicht gebraucht),
-   `.env`: `SESSION_DRIVER=file`, `CACHE_STORE=file`, `QUEUE_CONNECTION=sync`,
-   `DB_CONNECTION` entfernen. Default-Scaffolding (`welcome.blade.php`, Default-Routen)
-   löschen.
-   - Standard-Laravel-Vite-Pipeline wird verwendet (`npm run build` für gebündelte Assets
-     beim Deploy, wie in frischen Laravel-Projekten üblich) — kein Runtime-Prozess, nur
-     ein Build-Schritt.
-5. Ordnerstruktur unter `resources/views/` 1:1 zur aktuellen Struktur nachbauen (z. B.
+**Wichtig, gilt ab dieser Phase:** alles, was hier nicht explizit als Schritt ausformuliert
+ist, wird vor der Umsetzung mit dem Auftraggeber (Lukas) abgestimmt — keine impliziten
+Architektur-/Setup-Entscheidungen mehr treffen. Bereits abgestimmte Zusatzentscheidungen
+stehen direkt bei den jeweiligen Schritten.
+
+1. ✅ Aktuellen Stand (= Ergebnis von Phase 1) nach `.old/` verschoben, ab hier unangetastet
+   als Referenz für den gesamten weiteren Weg. Laravel-Projekt lebt im Repo-Root (nicht in
+   einem Unterordner).
+2. ✅ Laravel frisch initialisiert: PHP 8.4, Laravel 13, **kein Starter-Kit** (reines
+   Blade, kein React/Vue/Livewire-Scaffolding), **Pest** statt PHPUnit als Test-Framework
+   (Composer-Skeleton bringt standardmäßig PHPUnit mit, wurde manuell auf Pest + Pest
+   Laravel-Plugin umgestellt).
+3. ✅ `laravel/boost` als Dev-Dependency installiert und initialisiert
+   (`php artisan boost:install`) — legt u. a. `CLAUDE.md`/`.claude/` mit
+   Laravel/Pest/Pint-Konventionen an, ergänzt `AGENTS.md` (Projektkontext), ersetzt es
+   nicht.
+4. ✅ Aufgeräumt, mit folgenden abgestimmten Zusatzentscheidungen:
+   - `users`/`jobs`-Migration und `App\Models\User` inkl. Factory **dauerhaft entfernt**
+     (kein Auth-System geplant). `DatabaseSeeder` entsprechend geleert.
+   - **Korrektur zu Core Rule 4:** "Keine Datenbank" bezieht sich auf **Business-/
+     Content-Daten** (Produkte, Formular-Einträge etc.) — nicht auf SQLite als reinen,
+     serverlosen Zwischenspeicher für Framework-internen Zustand. Cache und Sessions
+     laufen über SQLite (`DB_CONNECTION=sqlite`, `SESSION_DRIVER=database`,
+     `CACHE_STORE=database`, `cache`- und `sessions`-Migration vorhanden). Begründung:
+     auf klassischem PHP-FPM-Hosting (Core Rule 5) sammeln sich bei dateibasierten
+     Sessions/Cache sehr viele Einzeldateien an; SQLite bündelt das in einer Datei, ohne
+     einen eigenen DB-Server-Prozess zu brauchen. Die SQLite-Datei selbst ist **ephemer**
+     (gitignored, wird bei jedem Deploy per `migrate:fresh` neu angelegt, keine
+     Produktivdaten drin).
+   - `QUEUE_CONNECTION=sync` bleibt wie ursprünglich geplant (DB-Queue erst, wenn
+     tatsächlich asynchrone Jobs gebraucht werden).
+   - `welcome.blade.php` + Default-Route gelöscht, Default-Feature-Test (testete die
+     gelöschte Welcome-Seite) mit entfernt, Default-Unit-Test auf Pest-Syntax umgestellt.
+   - Laravels eigenes `README.md` behalten (überschreibt unser bisheriges minimales).
+   - Default-CI-Workflow (`.github/workflows/`) entfernt.
+   - Laravel Pint (Code-Formatter) mit Standard-Konfiguration behalten.
+   - **Vite:** Standard-Pipeline wird verwendet (`npm run build` beim Deploy, kein
+     Runtime-Prozess). Tailwind CSS und die default Bunny-Fonts-Integration (beide seit
+     Laravel 13 auch im "kein Starter-Kit"-Skeleton dabei) **entfernt** — nicht gebraucht,
+     wir migrieren bestehendes CSS 1:1, keine Utility-Klassen geplant, keine neuen
+     Web-Fonts. Default-Entry-Points `resources/css/app.css`/`resources/js/app.js`
+     entfernt; stattdessen `style.css` und `widgets.css` unverändert nach
+     `resources/css/` verschoben und als Vite-Entry-Points registriert (`vite.config.js`).
+     Einbindung vorerst per `@vite()` einzeln pro Seite (noch keine Layout-Komponente,
+     kommt erst Phase 3).
+5. ⬜ Ordnerstruktur unter `resources/views/` 1:1 zur aktuellen Struktur nachbauen (z. B.
    `resources/views/ultraschallgeraete/standgeraete/index.blade.php`), pro Ordner eine
    `index.blade.php`. Für diese Phase: reines 1:1-Copy-Paste des bereinigten Phase-1-HTML
    in die Blade-Dateien — noch keine Componentisierung, noch keine Blade-Direktiven, noch
-   keine Layouts.
-6. `routes/web.php`: pro Seite eine explizite Route (Laravel hat kein natives
+   keine Layouts. **Noch nicht begonnen — Rücksprache vor Start, da größter Einzelschritt.**
+6. ⬜ `routes/web.php`: pro Seite eine explizite Route (Laravel hat kein natives
    File-Based-Routing wie Next.js — muss enumeriert werden), URL-Pfade exakt identisch zu
    jetzt. Die bisherigen "schönen URLs ohne .html" ergeben sich mit Laravel-Routing
-   automatisch — die aktuell nötige nginx-Rewrite-Regel entfällt.
-7. `public/`: `robots.txt`, `assets/img/`, `assets/pdf/`, `assets/widgets.css` unverändert
-   nach `public/...` (identische URL-Pfade). **`sitemap.xml` und
-   `sitemap-system-pages.xml` NICHT nach `public/`**, sondern als Route in `web.php`
-   registrieren, die den aktuellen (statischen) Inhalt zurückgibt — siehe Core Rule 2.
+   automatisch — die aktuell nötige nginx-Rewrite-Regel entfällt. `sitemap.xml` und
+   `sitemap-system-pages.xml` werden hier als Route registriert (Inhalt vorerst 1:1 aus
+   `.old/`), **nicht** als statische Datei in `public/` — siehe Core Rule 2.
+7. ✅ `public/assets/img/` und `public/assets/pdf/` unverändert aus `.old/assets/`
+   übernommen (identische URL-Pfade), `public/robots.txt` aus `.old/robots.txt` ersetzt
+   Laravels Default-`robots.txt`. `assets/widgets.css` geht **nicht** mehr nach `public/`
+   (siehe Punkt 4, Vite) — Korrektur gegenüber der ursprünglichen Formulierung dieses
+   Schritts.
 8. **Infra außerhalb des Repos:** nginx muss von "statisches Fileserving + Rewrite" auf
    einen Laravel-Standard-Serverblock (PHP-FPM, `public/index.php` als Front Controller)
    umgestellt werden. Referenz-Config liegt im Repo-Root als `nginx.conf.example`.
