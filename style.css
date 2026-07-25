@@ -31,12 +31,12 @@ a {
 }
 
 
-header, .yu-header { flex: 0 0 auto; }
-main,   .yu-main   { flex: 1 0 auto; min-height: 0; } 
-footer, .yu-footer { flex: 0 0 auto; }
+header, .header { flex: 0 0 auto; }
+main,   .main   { flex: 1 0 auto; min-height: 0; } 
+footer, .footer { flex: 0 0 auto; }
 
 /* Sections im Main: im Fluss bleiben */
-.yu-section {
+.section {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ footer, .yu-footer { flex: 0 0 auto; }
 }
 
 /* Container: zentrierter Content-Rahmen, keine Default-Höhe erzwingen */
-.yu-container {
+.container {
   display: flex;
   flex-direction: row;
   width: min(100%, 1440px);
@@ -58,7 +58,7 @@ footer, .yu-footer { flex: 0 0 auto; }
 }
 
 /* Gridbox: flexibel, aber ebenfalls ohne 100%-Zwang */
-.yu-gridbox {
+.gridbox {
   display: flex;
   width: 100%;
   min-width: 0;
@@ -68,27 +68,27 @@ footer, .yu-footer { flex: 0 0 auto; }
 [data-scroll-effects] [data-scroll-target] { transform: translateZ(0); }
 
 /* MEDIA-WIDGET special*/
-.yu-gridbox > .yu-widget[data-widget-key="yb_media"] {
+.gridbox > .widget[data-widget-key="media"] {
   flex: 1 1 auto;
   min-width: 0;
 }
-.yu-gridbox > .yu-widget[data-widget-key="yb_media"] > * {
+.gridbox > .widget[data-widget-key="media"] > * {
   width: 100%;
 }
 
 /* ===== HARD OVERRIDE: Mobile erzwingen, wenn .is-mobile gesetzt ist ===== */
-.yu-widget[data-widget-key="yb_menu"] nav.yb_menu.is-mobile .yb_menu__burger{
+.widget[data-widget-key="menu"] nav.menu.is-mobile .menu__burger{
   display:inline-grid !important;
 }
-.yu-widget[data-widget-key="yb_menu"] nav.yb_menu.is-mobile .yb_menu__panelHeader{
+.widget[data-widget-key="menu"] nav.menu.is-mobile .menu__panelHeader{
   display:flex !important;
 }
-.yu-widget[data-widget-key="yb_menu"] nav.yb_menu.is-mobile .yb_menu__backdrop{
+.widget[data-widget-key="menu"] nav.menu.is-mobile .menu__backdrop{
   display:block !important;
 }
 
 /* Desktop-Layout ausknipsen */
-.yu-widget[data-widget-key="yb_menu"] nav.yb_menu.is-mobile .yb_menu__panel{
+.widget[data-widget-key="menu"] nav.menu.is-mobile .menu__panel{
   position:fixed !important;
   top:0; bottom:0; left:0; right:auto;
   width:min(86vw, 360px) !important;
@@ -100,32 +100,32 @@ footer, .yu-footer { flex: 0 0 auto; }
   overflow-y:auto; -webkit-overflow-scrolling:touch; padding:12px;
   display:block !important; /* überschreibt evtl. display:flex aus Desktop */
 }
-.yu-widget[data-widget-key="yb_menu"] nav.yb_menu.flyout-right.is-mobile .yb_menu__panel{
+.widget[data-widget-key="menu"] nav.menu.flyout-right.is-mobile .menu__panel{
   left:auto; right:0; border-right:none; border-left:1px solid rgba(0,0,0,.08);
   transform:translateX(100%) !important;
 }
 
 /* Panel sichtbar, wenn geöffnet */
-.yu-widget[data-widget-key="yb_menu"] nav.yb_menu.is-mobile.is-open .yb_menu__panel{
+.widget[data-widget-key="menu"] nav.menu.is-mobile.is-open .menu__panel{
   transform:translateX(0) !important;
 }
 
-.yu-widget[data-widget-key="yb_menu"] {
+.widget[data-widget-key="menu"] {
   z-index: 100;
 }
 /* Liste vertikal statt horizontal */
-.yu-widget[data-widget-key="yb_menu"] nav.yb_menu.is-mobile .yb_menu__list--level-0{
+.widget[data-widget-key="menu"] nav.menu.is-mobile .menu__list--level-0{
   display:grid !important;
   gap:6px !important;
 }
 
 /* Hover-Dropdowns deaktivieren im Mobile */
-.yu-widget[data-widget-key="yb_menu"] nav.yb_menu.is-mobile .yb_menu__submenu{
+.widget[data-widget-key="menu"] nav.menu.is-mobile .menu__submenu{
   display:none !important;
 }
 
 /* Einheitliches Styling für Slider-Navigation */
-.yb_slider_arrows button,
+.slider_arrows button,
 .slider-arrows button {
   width: 44px;
   height: 44px;
@@ -143,7 +143,7 @@ footer, .yu-footer { flex: 0 0 auto; }
 }
 
 /* Container für zentrierte oder horizontale Ausrichtung */
-.yb_slider_arrows,
+.slider_arrows,
 .slider-arrows {
   display: flex;
   gap: 12px;
@@ -152,13 +152,13 @@ footer, .yu-footer { flex: 0 0 auto; }
 }
 
 /* Hover- und Active-Zustände */
-.yb_slider_arrows button:hover,
+.slider_arrows button:hover,
 .slider-arrows button:hover {
   background: #f3f3f3;
   transform: translateY(-1px);
 }
 
-.yb_slider_arrows button:active,
+.slider_arrows button:active,
 .slider-arrows button:active {
   transform: scale(0.95);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
