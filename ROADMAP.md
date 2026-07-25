@@ -214,17 +214,20 @@ stehen direkt bei den jeweiligen Schritten.
      `resources/css/` verschoben und als Vite-Entry-Points registriert (`vite.config.js`).
      Einbindung vorerst per `@vite()` einzeln pro Seite (noch keine Layout-Komponente,
      kommt erst Phase 3).
-5. ⬜ Ordnerstruktur unter `resources/views/` 1:1 zur aktuellen Struktur nachbauen (z. B.
-   `resources/views/ultraschallgeraete/standgeraete/index.blade.php`), pro Ordner eine
-   `index.blade.php`. Für diese Phase: reines 1:1-Copy-Paste des bereinigten Phase-1-HTML
-   in die Blade-Dateien — noch keine Componentisierung, noch keine Blade-Direktiven, noch
-   keine Layouts. **Noch nicht begonnen — Rücksprache vor Start, da größter Einzelschritt.**
-6. ⬜ `routes/web.php`: pro Seite eine explizite Route (Laravel hat kein natives
-   File-Based-Routing wie Next.js — muss enumeriert werden), URL-Pfade exakt identisch zu
-   jetzt. Die bisherigen "schönen URLs ohne .html" ergeben sich mit Laravel-Routing
-   automatisch — die aktuell nötige nginx-Rewrite-Regel entfällt. `sitemap.xml` und
-   `sitemap-system-pages.xml` werden hier als Route registriert (Inhalt vorerst 1:1 aus
-   `.old/`), **nicht** als statische Datei in `public/` — siehe Core Rule 2.
+5. ✅ Ordnerstruktur unter `resources/views/` 1:1 zur aktuellen Struktur nachgebaut (77
+   Seiten), reines 1:1-Copy-Paste des bereinigten Phase-1-HTML in die Blade-Dateien — noch
+   keine Componentisierung, noch keine Blade-Direktiven, noch keine Layouts. Zwei
+   mechanische Anpassungen waren dabei nötig (direkte Konsequenz bereits getroffener
+   Entscheidungen, keine neuen): die beiden `<link rel="stylesheet">`-Tags wurden durch
+   `@vite([...])` ersetzt (Punkt 4), und jedes literale `"@context"` im JSON-LD (67 von 77
+   Seiten) musste zu `"@@context"` escaped werden — Laravel 13 hat mittlerweile eine echte
+   `@context`/`@endcontext`-Blade-Direktive, die sonst mit dem JSON-LD-Key kollidiert und
+   die Seite zum Compile-Fehler bringt. Alle anderen Blade-Direktivnamen wurden vorab
+   gegen den gesamten Content-Bestand geprüft, keine weiteren Kollisionen gefunden.
+6. ✅ `routes/web.php`: eine `Route::view()` pro Seite (77 Stück, alle benannt), URL-Pfade
+   exakt identisch zu jetzt. `sitemap.xml`/`sitemap-system-pages.xml` als eigene Routen
+   registriert, lesen aus `resources/sitemap/` (Inhalt 1:1 aus `.old/`), **nicht** aus
+   `public/` — siehe Core Rule 2.
 7. ✅ `public/assets/img/` und `public/assets/pdf/` unverändert aus `.old/assets/`
    übernommen (identische URL-Pfade), `public/robots.txt` aus `.old/robots.txt` ersetzt
    Laravels Default-`robots.txt`. `assets/widgets.css` geht **nicht** mehr nach `public/`
@@ -238,11 +241,26 @@ stehen direkt bei den jeweiligen Schritten.
    Übertragung auf ein klassisches nginx/PHP-FPM/www-user-Setup auf dem Live-Server wird
    sie tatsächlich verwendet und muss dann mit echten Pfaden/Domain/Socket bestückt werden.
 
-### Phase-2-Abschlusskriterium
+### Phase-2-Abschlusskriterium — ✅ erreicht (Repo-Anteil; Punkt 8 bleibt Infra-Aufgabe)
 
 Identisches Ergebnis zu Phase 1 (URLs, Optik, Verhalten), jetzt aber ausgeliefert durch
 Laravel/PHP-FPM statt statischem Fileserver. Kein sichtbarer Unterschied für Besucher oder
 Google.
+
+Verifiziert: alle 79 Routen (77 Seiten + 2 Sitemaps) liefern HTTP 200, 0 fehlgeschlagene
+Requests/JS-Fehler (Playwright-Sweep). Byte-Vergleich aller 77 Seiten gegen die alte
+statische Ausgabe — nach Herausrechnen der beiden erlaubten Unterschiede (Stylesheet-Import
+statt Inline-Link, s. o.) — zu 100 % identisch. `sitemap.xml`, `sitemap-system-pages.xml`
+und `robots.txt` ebenfalls byte-identisch. Nav-Mega-Menü und Mobile-Burger-Menü funktional
+geprüft.
+
+Hinweis für künftige Vorher/Nachher-Vergleiche: `laravel/boost` (Dev-Dependency) injiziert
+in `local`/`debug`-Umgebungen ein Browser-Log-Capture-Script in jede Response
+(`InjectBoost`-Middleware) — das erzeugt in Screenshot-Diffs sichtbares Pixel-Rauschen
+(Text-Antialiasing), obwohl der eigentliche Seiteninhalt unverändert ist. Bei
+`composer install --no-dev` bzw. außerhalb von `local`/`debug` taucht das Script gar nicht
+erst auf. Für zuverlässige Vergleiche den Byte-Diff-Ansatz (Script rausfiltern) nutzen,
+nicht blind auf Pixel-Diff verlassen.
 
 ---
 
