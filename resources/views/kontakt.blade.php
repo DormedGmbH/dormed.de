@@ -1008,14 +1008,28 @@
           <div class="kon-form__redirect-text">Weiterleitung …</div>
         </div>
 
-        <!-- Hinweis: Formular ohne Backend — Versand-Integration erforderlich. -->
-            <form id="kon-form" novalidate>
+        @if (session('contactFormSubmitted'))
+          <div style="padding:1.4rem 1.6rem;background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.3);border-radius:4px;margin-bottom:1.2rem;">
+            <p style="margin:0;font-weight:600;color:rgb(12,22,42);">Vielen Dank für Ihre Anfrage!</p>
+            <p style="margin:0.4rem 0 0;color:rgb(72,87,112);">Wir haben sie erhalten und melden uns schnellstmöglich bei Ihnen.</p>
+          </div>
+        @else
+        <form id="kon-form" method="POST" action="{{ route('kontakt.store') }}" novalidate>
+          @csrf
+
+          @if ($errors->any())
+            <div class="kon-form__error-msg" style="display:block;">
+              @foreach ($errors->all() as $message)
+                <div>&bull; {{ $message }}</div>
+              @endforeach
+            </div>
+          @endif
 
           <!-- ═══ 1. NAME (Vor + Nachname) ═══ -->
           <div class="kon-form__row kon-form__row--full">
             <div class="kon-form__field">
               <label class="kon-form__label kon-form__label--req" for="kon-name">Name</label>
-              <input class="kon-form__input" id="kon-name" name="name" type="text" placeholder="Dr. Max Mustermann" required autocomplete="name"/>
+              <input class="kon-form__input" id="kon-name" name="name" type="text" placeholder="Dr. Max Mustermann" value="{{ old('name') }}" required autocomplete="name"/>
             </div>
           </div>
 
@@ -1023,13 +1037,13 @@
           <div class="kon-form__row">
             <div class="kon-form__field">
               <label class="kon-form__label kon-form__label--req" for="kon-email">E-Mail</label>
-              <input class="kon-form__input" id="kon-email" name="email" type="email" placeholder="praxis@example.de" required autocomplete="email"/>
+              <input class="kon-form__input" id="kon-email" name="email" type="email" placeholder="praxis@example.de" value="{{ old('email') }}" required autocomplete="email"/>
             </div>
             <div class="kon-form__field">
               <label class="kon-form__label" for="kon-telefon" id="kon-telefon-label">
                 Telefon <span class="kon-form__label-hint" id="kon-telefon-hint">(empfohlen)</span>
               </label>
-              <input class="kon-form__input" id="kon-telefon" name="telefon" type="tel" placeholder="0231 / 188-600" autocomplete="tel"/>
+              <input class="kon-form__input" id="kon-telefon" name="telefon" type="tel" placeholder="0231 / 188-600" value="{{ old('telefon') }}" autocomplete="tel"/>
             </div>
           </div>
 
@@ -1037,7 +1051,7 @@
           <div class="kon-form__row kon-form__row--plz">
             <div class="kon-form__field">
               <label class="kon-form__label kon-form__label--req" for="kon-plz">PLZ</label>
-              <input class="kon-form__input" id="kon-plz" name="plz" type="text" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="44269" required autocomplete="postal-code"/>
+              <input class="kon-form__input" id="kon-plz" name="plz" type="text" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="44269" value="{{ old('plz') }}" required autocomplete="postal-code"/>
             </div>
             <div class="kon-form__field" style="justify-content:flex-end;">
               <div class="kon-form__hint" style="margin-top:0;padding-bottom:0.7rem;">
@@ -1051,7 +1065,7 @@
           <div class="kon-form__row kon-form__row--full">
             <div class="kon-form__field">
               <label class="kon-form__label" for="kon-nachricht">Ihre Nachricht</label>
-              <textarea class="kon-form__textarea" id="kon-nachricht" name="nachricht" placeholder="Welches Gerät interessiert Sie? Haben Sie spezielle Fragen? (optional)"></textarea>
+              <textarea class="kon-form__textarea" id="kon-nachricht" name="nachricht" placeholder="Welches Gerät interessiert Sie? Haben Sie spezielle Fragen? (optional)">{{ old('nachricht') }}</textarea>
             </div>
           </div>
 
@@ -1070,7 +1084,7 @@
               <div class="kon-form__row kon-form__row--full">
                 <div class="kon-form__field">
                   <label class="kon-form__label" for="kon-praxis">Praxisname / Firma</label>
-                  <input class="kon-form__input" id="kon-praxis" name="praxis" type="text" placeholder="Praxis Dr. Mustermann" autocomplete="organization"/>
+                  <input class="kon-form__input" id="kon-praxis" name="praxis" type="text" placeholder="Praxis Dr. Mustermann" value="{{ old('praxis') }}" autocomplete="organization"/>
                 </div>
               </div>
 
@@ -1080,21 +1094,16 @@
                   <label class="kon-form__label" for="kon-fachgebiet">Fachgebiet</label>
                   <select class="kon-form__select kon-form__select--placeholder" id="kon-fachgebiet" name="fachgebiet">
                     <option value="">Bitte wählen</option>
-                    <option>Allgemeinmedizin / Hausarzt</option>
-                    <option>Innere Medizin</option>
-                    <option>Gynäkologie</option>
-                    <option>Orthopädie / Sportmedizin</option>
-                    <option>Kardiologie</option>
-                    <option>Chirurgie</option>
-                    <option>Urologie</option>
-                    <option>Sonstiges</option>
+                    @foreach (['Allgemeinmedizin / Hausarzt', 'Innere Medizin', 'Gynäkologie', 'Orthopädie / Sportmedizin', 'Kardiologie', 'Chirurgie', 'Urologie', 'Sonstiges'] as $option)
+                      <option @selected(old('fachgebiet') === $option)>{{ $option }}</option>
+                    @endforeach
                   </select>
                 </div>
               </div>
 
               <!-- Rückruf-Checkbox mit Zeitfenster -->
               <label class="kon-form__check" style="margin-top:0.6rem;">
-                <input type="checkbox" name="rueckruf" value="ja" id="kon-rueckruf"/>
+                <input type="checkbox" name="rueckruf" value="ja" id="kon-rueckruf" @checked(old('rueckruf') === 'ja')/>
                 <span class="kon-form__check-label">Ich möchte einen Rückruf erhalten.</span>
               </label>
 
@@ -1102,7 +1111,7 @@
                 <div class="kon-form__callback-hint">An welchem Tag dürfen wir Sie zurückrufen? (Mo–Fr)</div>
                 <div class="kon-form__field">
                   <label class="kon-form__label" for="kon-rueckruf-datum">Wunschdatum</label>
-                  <input class="kon-form__input" id="kon-rueckruf-datum" name="rueckruf_datum" type="date" autocomplete="off"/>
+                  <input class="kon-form__input" id="kon-rueckruf-datum" name="rueckruf_datum" type="date" value="{{ old('rueckruf_datum') }}" autocomplete="off"/>
                 </div>
               </div>
 
@@ -1112,7 +1121,7 @@
           <!-- ═══ CHECKBOXEN ═══ -->
           <div class="kon-form__checks">
             <label class="kon-form__check">
-              <input type="checkbox" name="datenschutz" value="ja" required id="kon-dsgvo"/>
+              <input type="checkbox" name="datenschutz" value="ja" required id="kon-dsgvo" @checked(old('datenschutz') === 'ja')/>
               <span class="kon-form__check-label">Ich habe die <a href="/datenschutz" target="_blank">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu. <span style="color:rgb(220,38,38)">*</span></span>
             </label>
           </div>
@@ -1127,6 +1136,7 @@
           <p class="kon-form__note">* Pflichtfelder · Keine Weitergabe an Dritte · DSGVO-konform</p>
 
         </form>
+        @endif
       </div>
 
     </div>
@@ -1464,9 +1474,12 @@
         return;
       }
 
-      // TODO: Kein Form-Backend angebunden — eigenen Versand hier integrieren.
-      e.preventDefault();
-      e.stopImmediatePropagation();
+      // Validierung bestanden: echtes POST/Redirect/GET zum Server, kein
+      // preventDefault mehr - der Browser übernimmt den Submit.
+      isSubmitting = true;
+      if (submitBtn) submitBtn.disabled = true;
+      var spinner = document.getElementById('kon-spinner');
+      if (spinner) spinner.style.display = '';
     }, true);  // Capture-Phase
   }
 

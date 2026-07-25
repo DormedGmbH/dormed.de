@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+    'cas_genesis_world' => [
+        'host' => env('CAS_GENESIS_WORLD_HOST'),
+        'username' => env('CAS_GENESIS_WORLD_USERNAME'),
+        'password' => env('CAS_GENESIS_WORLD_PASSWORD'),
+        'product_key' => env('CAS_GENESIS_WORLD_PRODUCT_KEY'),
+    ],
+
 ];

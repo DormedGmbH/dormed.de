@@ -1,5 +1,6 @@
 <?php
 
+use App\Logging\PlainLineFormatter;
 use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Handler\SyslogUdpHandler;
@@ -121,6 +122,20 @@ return [
         'null' => [
             'driver' => 'monolog',
             'handler' => NullHandler::class,
+        ],
+
+        'contact-form' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/contact-form.log'),
+            'level' => 'info',
+            'tap' => [PlainLineFormatter::class],
+        ],
+
+        'api' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/api.log'),
+            'level' => 'debug',
+            'replace_placeholders' => true,
         ],
 
         'emergency' => [

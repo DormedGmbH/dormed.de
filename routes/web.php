@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactFormController;
 use Illuminate\Support\Facades\Route;
 
 // Core Rule 2: sitemap.xml/sitemap-system-pages.xml werden über eine Route ausgeliefert,
@@ -37,6 +38,7 @@ Route::view('/hersteller/mindray', 'hersteller.mindray')->name('hersteller.mindr
 Route::view('/', 'index')->name('index');
 Route::view('/karriere', 'karriere')->name('karriere');
 Route::view('/kontakt', 'kontakt')->name('kontakt');
+Route::post('/kontakt', [ContactFormController::class, 'store'])->name('kontakt.store');
 Route::view('/leistungen/beratung', 'leistungen.beratung')->name('leistungen.beratung');
 Route::view('/leistungen/finanzierung', 'leistungen.finanzierung')->name('leistungen.finanzierung');
 Route::view('/leistungen/garantie-versicherung', 'leistungen.garantie-versicherung')->name('leistungen.garantie-versicherung');
