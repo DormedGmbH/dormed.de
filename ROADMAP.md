@@ -128,9 +128,9 @@ globalen Styles) weiterhin self-contained wie jetzt.
    `.env`: `SESSION_DRIVER=file`, `CACHE_STORE=file`, `QUEUE_CONNECTION=sync`,
    `DB_CONNECTION` entfernen. Default-Scaffolding (`welcome.blade.php`, Default-Routen)
    löschen.
-   - ⚠️ **Offene Frage Vite:** Standard-Laravel-Vite-Pipeline behalten (Build-Step beim
-     Deploy, aber kein Runtime-Prozess) oder komplett bundlerfrei (`style.css` bleibt 1:1
-     `public/`-Asset, kein `npm`/Node überhaupt nötig)? **Default: bundlerfrei.**
+   - Standard-Laravel-Vite-Pipeline wird verwendet (`npm run build` für gebündelte Assets
+     beim Deploy, wie in frischen Laravel-Projekten üblich) — kein Runtime-Prozess, nur
+     ein Build-Schritt.
 5. Ordnerstruktur unter `resources/views/` 1:1 zur aktuellen Struktur nachbauen (z. B.
    `resources/views/ultraschallgeraete/standgeraete/index.blade.php`), pro Ordner eine
    `index.blade.php`. Für diese Phase: reines 1:1-Copy-Paste des bereinigten Phase-1-HTML
@@ -144,11 +144,13 @@ globalen Styles) weiterhin self-contained wie jetzt.
    nach `public/...` (identische URL-Pfade). **`sitemap.xml` und
    `sitemap-system-pages.xml` NICHT nach `public/`**, sondern als Route in `web.php`
    registrieren, die den aktuellen (statischen) Inhalt zurückgibt — siehe Core Rule 2.
-8. ⚠️ **Infra außerhalb des Repos:** nginx muss von "statisches Fileserving + Rewrite" auf
+8. **Infra außerhalb des Repos:** nginx muss von "statisches Fileserving + Rewrite" auf
    einen Laravel-Standard-Serverblock (PHP-FPM, `public/index.php` als Front Controller)
-   umgestellt werden. Liegt eure nginx-Config im Repo/Infra-as-Code, oder wird sie separat
-   verwaltet? Falls gewünscht, kann eine Referenz-Config mit ins Repo (z. B.
-   `deploy/nginx.conf.example`).
+   umgestellt werden. Referenz-Config liegt im Repo-Root als `nginx.conf.example`.
+   Hinweis: Die Seite geht zunächst temporär über Coolify live (eigener Reverse Proxy,
+   i. d. R. Traefik — diese Datei kommt dort nicht zum Einsatz), erst bei der späteren
+   Übertragung auf ein klassisches nginx/PHP-FPM/www-user-Setup auf dem Live-Server wird
+   sie tatsächlich verwendet und muss dann mit echten Pfaden/Domain/Socket bestückt werden.
 
 ### Phase-2-Abschlusskriterium
 
@@ -190,9 +192,12 @@ werden.
 
 1. Serverseitiger Versand via klassischem Laravel-SMTP-Mailer (`MAIL_MAILER=smtp`,
    Zugangsdaten folgen). POST-Route für `/kontakt`, Validierung über eine Form-Request-Klasse.
-   ⚠️ **Erfolgszustand:** Default-Annahme ist Post/Redirect/Get zurück auf `/kontakt` mit
-   geflashter Erfolgsmeldung (keine neue Route, Core Rule bleibt unangetastet) — bitte
-   bestätigen, falls stattdessen eine eigene Danke-Seite gewünscht ist. Mail-Body:
+   **Erfolgszustand:** Von der vorherigen Agentur wurde keine fertige Erfolgs-/Danke-Seite
+   geliefert oder im Quellcode hinterlassen (Auftraggeber versucht ggf. noch, den
+   Original-Quellcode dafür vom vorherigen Dienstleister zu bekommen). Bis dahin: eigene
+   Platzhalter-Erfolgsmeldung nach dem Post/Redirect/Get-Muster zurück auf `/kontakt`
+   (keine neue Route, Core Rule bleibt unangetastet), im 1:1-Stil der restlichen Seite
+   gestaltet und leicht austauschbar, falls Original-Content nachgeliefert wird. Mail-Body:
    ruhiges, modernes Template, das nur die eingegebenen Daten strukturiert darstellt.
 2. Zusätzliche zweite Mail als Eingangsbestätigung an den Kunden.
 3. Versand zunächst synchron (`QUEUE_CONNECTION=sync`). Erst nach Validierung im
