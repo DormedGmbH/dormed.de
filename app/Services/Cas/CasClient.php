@@ -28,7 +28,7 @@ class CasClient
 
     private function client(): PendingRequest
     {
-        return Http::baseUrl(rtrim((string) config('services.cas_genesis_world.host'), '/'))
+        return Http::baseUrl($this->baseUrl())
             ->withBasicAuth(
                 (string) config('services.cas_genesis_world.username'),
                 (string) config('services.cas_genesis_world.password'),
@@ -38,6 +38,20 @@ class CasClient
             ])
             ->acceptJson()
             ->asJson();
+    }
+
+    /**
+     * CAS_GENESIS_WORLD_HOST is meant to be entered with a scheme, but a
+     * bare host/path (as configured once in production) silently breaks
+     * every request with a Guzzle "URI must include a scheme and host"
+     * error - defaulting to https here turns a config typo into a working
+     * request instead of a hard failure.
+     */
+    private function baseUrl(): string
+    {
+        $host = rtrim((string) config('services.cas_genesis_world.host'), '/');
+
+        return preg_match('#^https?://#i', $host) === 1 ? $host : "https://{$host}";
     }
 
     /**

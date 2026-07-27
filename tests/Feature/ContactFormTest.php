@@ -109,6 +109,20 @@ test('CreateInquiryInCas creates the CAS record and dispatches the mail job with
     });
 });
 
+test('CreateInquiryInCas still reaches CAS when the configured host has no scheme', function () {
+    config(['services.cas_genesis_world.host' => 'cas.example.test/genesisrest.svc']);
+
+    Bus::fake([SendInquiryMailsAndUpdateCasStatus::class]);
+
+    Http::fake([
+        'https://cas.example.test/genesisrest.svc/v7.0/type/Inquiries*' => Http::response(['GGUID' => 'guid-123'], 200),
+    ]);
+
+    inquiryJob()->handle(app(CasClient::class));
+
+    Http::assertSent(fn ($request) => $request->url() === 'https://cas.example.test/genesisrest.svc/v7.0/type/Inquiries?tag-as-recently-used=false');
+});
+
 test('CreateInquiryInCas fails permanently when no GUID can be extracted from a successful response', function () {
     Bus::fake([SendInquiryMailsAndUpdateCasStatus::class]);
 
