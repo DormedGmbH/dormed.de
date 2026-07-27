@@ -67,12 +67,17 @@ class CasClient
      */
     public function createDataObject(string $dataObjectType, array $fields): ?string
     {
+        // The API only accepts "fields" (plus permission-related keys we
+        // don't use) at the top level of the body - the actual field values
+        // must be nested under it, not passed flat.
+        $payload = ['fields' => $fields];
+
         // tag-as-recently-used is a required query param on this endpoint;
         // irrelevant for a background integration, so always false.
         $response = $this->client()
-            ->post("/v7.0/type/{$dataObjectType}?tag-as-recently-used=false", $fields);
+            ->post("/v7.0/type/{$dataObjectType}?tag-as-recently-used=false", $payload);
 
-        $this->logExchange('POST', "/v7.0/type/{$dataObjectType}", $fields, $response);
+        $this->logExchange('POST', "/v7.0/type/{$dataObjectType}", $payload, $response);
 
         if ($response->failed()) {
             throw new CasRequestFailedException(
@@ -92,9 +97,12 @@ class CasClient
      */
     public function updateDataObject(string $dataObjectType, string $guid, array $fields): void
     {
-        $response = $this->client()->put("/v7.0/type/{$dataObjectType}/{$guid}", $fields);
+        // Same "fields" envelope as createDataObject() - see there.
+        $payload = ['fields' => $fields];
 
-        $this->logExchange('PUT', "/v7.0/type/{$dataObjectType}/{$guid}", $fields, $response);
+        $response = $this->client()->put("/v7.0/type/{$dataObjectType}/{$guid}", $payload);
+
+        $this->logExchange('PUT', "/v7.0/type/{$dataObjectType}/{$guid}", $payload, $response);
 
         if ($response->failed()) {
             throw new CasRequestFailedException(

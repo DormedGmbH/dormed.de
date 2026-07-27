@@ -101,7 +101,7 @@ test('CreateInquiryInCas creates the CAS record and dispatches the mail job with
 
     Http::assertSent(function ($request) {
         return str_contains($request->url(), '/v7.0/type/Inquiries')
-            && $request['Name'] === 'Dr. Max Mustermann';
+            && $request['fields']['Name'] === 'Dr. Max Mustermann';
     });
 
     Bus::assertDispatched(SendInquiryMailsAndUpdateCasStatus::class, function ($job) {
@@ -175,7 +175,7 @@ test('SendInquiryMailsAndUpdateCasStatus sends both mails, logs the submission a
     Http::assertSent(function ($request) {
         return str_contains($request->url(), '/v7.0/type/Inquiries/guid-123')
             && $request->method() === 'PUT'
-            && $request['MAIL_STATUS'] === 1;
+            && $request['fields']['MAIL_STATUS'] === 1;
     });
 
     $logContent = file_get_contents(storage_path('logs/contact-form.log'));
@@ -210,6 +210,6 @@ test('SendInquiryMailsAndUpdateCasStatus failed() hook logs a failure line and m
     Http::assertSent(function ($request) {
         return str_contains($request->url(), '/v7.0/type/Inquiries/guid-123')
             && $request->method() === 'PUT'
-            && $request['MAIL_STATUS'] === 0;
+            && $request['fields']['MAIL_STATUS'] === 0;
     });
 });

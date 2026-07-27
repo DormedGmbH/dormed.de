@@ -332,6 +332,10 @@ werden.
      für eine einzelne Integration — bei mehreren CRM-Anbindungen später ggf. Wechsel auf
      [Saloon](https://docs.saloon.dev/) (typisierte Connector/Request-Klassen) erwägen, dann
      aber nur mit Rücksprache (neue Dependency).
+   - **Payload-Format** (per CAS-eigener API-Doku verifiziert, nicht per Swagger — die Felder
+     dürfen **nicht** flach im Body stehen, sonst `400 ILLEGAL_ARGUMENT_VALUE`): Create/Update
+     erwarten `{"fields": {"Name": ..., "MAIL": ..., ...}}`, mit `fields` als einzig erlaubtem
+     Top-Level-Key neben den (hier ungenutzten) Permission-Keys.
    - **Ziel-Tabelle `Inquiries`** (im CRM angelegt; Feldnamen/Typen/Längen wie tatsächlich
      angelegt, nicht wie ursprünglich vorgeschlagen — `Name`/`CALLBACK_REQUEST`/`MAIL_STATUS`
      weichen vom ersten Entwurf ab):
