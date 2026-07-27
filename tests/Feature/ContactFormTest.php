@@ -17,7 +17,7 @@ uses(RefreshDatabase::class);
 beforeEach(function () {
     config([
         'services.cas_genesis_world.host' => 'https://cas.example.test',
-        'services.cas_genesis_world.username' => 'testdb/testuser',
+        'services.cas_genesis_world.username' => 'testuser',
         'services.cas_genesis_world.password' => 'secret',
         'services.cas_genesis_world.product_key' => 'test-product-key',
     ]);

@@ -322,8 +322,9 @@ werden.
    `CheckForContactDuplicatesRequestData`; Response-Schemas für Create/Query sind teils explizit
    als "currently undocumented" markiert). Jede Formular-Einreichung wird zusätzlich zum
    Mailversand als Datensatz im CRM angelegt.
-   - **Auth:** Basic Auth (`<database>/<username>`, gegen die CAS-Benutzer-DB geprüft) **plus**
-     `X-CAS-PRODUCT-KEY`-Header, zentral über vier Env-Vars: `CAS_GENESIS_WORLD_HOST`,
+   - **Auth:** Basic Auth (`<username>:<password>`, kein Datenbank-Präfix nötig — anfängliche
+     Annahme eines `<database>/<username>`-Formats war falsch) **plus** `X-CAS-PRODUCT-KEY`-Header,
+     zentral über vier Env-Vars: `CAS_GENESIS_WORLD_HOST`,
      `CAS_GENESIS_WORLD_USERNAME`, `CAS_GENESIS_WORLD_PASSWORD`,
      `CAS_GENESIS_WORLD_PRODUCT_KEY`.
    - **Client:** schlanker eigener Service (`app/Services/Cas/CasClient.php` o. ä.) um Laravels

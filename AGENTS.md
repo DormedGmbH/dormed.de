@@ -178,8 +178,8 @@ offene Frage.
 **CRM-Anbindung (CAS genesisWorld):** jede Einreichung wird zusätzlich als CRM-Datensatz
 angelegt, nicht nur gemailt.
 
-- Auth: Basic Auth (`<database>/<username>`) **plus** `X-CAS-PRODUCT-KEY`-Header, über
-  `CAS_GENESIS_WORLD_HOST`/`_USERNAME`/`_PASSWORD`/`_PRODUCT_KEY`.
+- Auth: Basic Auth (`<username>:<password>`, kein Datenbank-Präfix) **plus**
+  `X-CAS-PRODUCT-KEY`-Header, über `CAS_GENESIS_WORLD_HOST`/`_USERNAME`/`_PASSWORD`/`_PRODUCT_KEY`.
 - Schlanker eigener Service um Laravels `Http`-Facade (`app/Services/Cas/...`), keine neue
   Dependency. Bei mehreren CRM-Integrationen später ggf. Saloon erwägen — nur mit
   Rücksprache.
