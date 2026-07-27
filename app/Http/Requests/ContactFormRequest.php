@@ -23,13 +23,13 @@ class ContactFormRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'email', 'max:255'],
-            'telefon' => ['nullable', 'string', 'max:50'],
+            'name' => ['required', 'string', 'max:128'],
+            'email' => ['required', 'email', 'max:64'],
+            'telefon' => ['nullable', 'string', 'max:32'],
             'plz' => ['required', 'digits:5'],
             'nachricht' => ['nullable', 'string', 'max:5000'],
-            'praxis' => ['nullable', 'string', 'max:255'],
-            'fachgebiet' => ['nullable', 'string', 'max:255'],
+            'praxis' => ['nullable', 'string', 'max:64'],
+            'fachgebiet' => ['nullable', 'string', 'max:64'],
             'rueckruf' => ['nullable', 'in:ja'],
             'rueckruf_datum' => ['nullable', 'date'],
             'datenschutz' => ['required', 'in:ja'],

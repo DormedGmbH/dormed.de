@@ -73,7 +73,7 @@ class SendInquiryMailsAndUpdateCasStatus implements ShouldQueue
         $this->logSubmission(mailSucceeded: true);
 
         $client->updateDataObject('Inquiries', $this->guid, [
-            'MAIL_STATUS' => true,
+            'MAIL_STATUS' => 1,
         ]);
     }
 
@@ -89,7 +89,7 @@ class SendInquiryMailsAndUpdateCasStatus implements ShouldQueue
 
         try {
             app(CasClient::class)->updateDataObject('Inquiries', $this->guid, [
-                'MAIL_STATUS' => false,
+                'MAIL_STATUS' => 0,
             ]);
         } catch (Throwable) {
             // Best effort - we're already in the terminal failure path, and

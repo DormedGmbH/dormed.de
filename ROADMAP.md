@@ -331,25 +331,30 @@ werden.
      für eine einzelne Integration — bei mehreren CRM-Anbindungen später ggf. Wechsel auf
      [Saloon](https://docs.saloon.dev/) (typisierte Connector/Request-Klassen) erwägen, dann
      aber nur mit Rücksprache (neue Dependency).
-   - **Ziel-Tabelle `Inquiries`** (existiert im CRM noch nicht, wird vom Auftraggeber dort neu
-     angelegt, exakt mit diesen Feldnamen):
+   - **Ziel-Tabelle `Inquiries`** (im CRM angelegt; Feldnamen/Typen/Längen wie tatsächlich
+     angelegt, nicht wie ursprünglich vorgeschlagen — `Name`/`CALLBACK_REQUEST`/`MAIL_STATUS`
+     weichen vom ersten Entwurf ab):
 
-     | CAS-Feld | Typ | Formularfeld | Pflicht |
-     |---|---|---|---|
-     | `NAME` | Text | `name` | ja |
-     | `MAIL` | Text | `email` | ja |
-     | `PHONE` | Text | `telefon` | nein |
-     | `ZIP` | Text | `plz` | ja |
-     | `MESSAGE` | Memo/Text | `nachricht` | nein |
-     | `COMPANY` | Text | `praxis` | nein |
-     | `SPECIALTY` | Text | `fachgebiet` | nein |
-     | `CALLBACK_REQUESTED` | Boolean | `rueckruf` | — |
-     | `CALLBACK_DATE` | Datum | `rueckruf_datum` | nein |
-     | `MAIL_STATUS` | Boolean | wird per PUT nachgetragen (s. u.) | — |
+     | CAS-Feld | Typ | Länge | Formularfeld | Pflicht |
+     |---|---|---|---|---|
+     | `Name` | varchar | 128 | `name` | ja |
+     | `MAIL` | varchar | 64 | `email` | ja |
+     | `PHONE` | varchar | 32 | `telefon` | nein |
+     | `ZIP` | varchar | 8 | `plz` | ja |
+     | `MESSAGE` | varchar(max) | max | `nachricht` | nein |
+     | `COMPANY` | varchar | 64 | `praxis` | nein |
+     | `SPECIALTY` | varchar | 64 | `fachgebiet` | nein |
+     | `CALLBACK_REQUEST` | bit | fix | `rueckruf` | — |
+     | `CALLBACK_DATE` | date | fix | `rueckruf_datum` | nein |
+     | `MAIL_STATUS` | bigint | fix | wird per PUT nachgetragen (s. u.), als `1`/`0` | — |
 
      `datenschutz` (DSGVO-Checkbox) wird **nicht** übernommen — reine
      Absende-Voraussetzung, keine CRM-relevante Information. `CREATED_AT`/vergleichbares wird
-     vom CRM selbst automatisch geführt, kein eigenes Datumsfeld dafür nötig.
+     vom CRM selbst automatisch geführt, kein eigenes Datumsfeld dafür nötig. Die
+     Formular-Validierung (`ContactFormRequest`) hält sich an die CAS-Feldlängen (`name` max.
+     128, `email`/`praxis`/`fachgebiet` max. 64, `telefon` max. 32), damit CAS nichts
+     abschneidet oder ablehnt. `MAIL_STATUS` ist trotz Boolean-Bedeutung als `bigint` angelegt
+     (nicht `bit` wie `CALLBACK_REQUEST`) — der Client schickt daher `1`/`0` statt `true`/`false`.
    - **GUID-Zuordnung für den späteren PUT:** die POST-Response wird auf einen plausiblen
      GUID-Feldnamen geprüft (`GGUID` bevorzugt, passend zur durchgängigen
      `dataObjectGGUID`-Namenskonvention der API; Fallback-Kandidaten `guid`/`id`), roh in

@@ -50,14 +50,14 @@ class CreateInquiryInCas implements ShouldQueue
     public function handle(CasClient $client): void
     {
         $guid = $client->createDataObject('Inquiries', [
-            'NAME' => $this->name,
+            'Name' => $this->name,
             'MAIL' => $this->email,
             'PHONE' => $this->telefon,
             'ZIP' => $this->plz,
             'MESSAGE' => $this->nachricht,
             'COMPANY' => $this->praxis,
             'SPECIALTY' => $this->fachgebiet,
-            'CALLBACK_REQUESTED' => $this->wantsCallback,
+            'CALLBACK_REQUEST' => $this->wantsCallback,
             'CALLBACK_DATE' => $this->rueckrufDatum,
         ]);
 

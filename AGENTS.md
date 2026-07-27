@@ -183,9 +183,11 @@ angelegt, nicht nur gemailt.
 - Schlanker eigener Service um Laravels `Http`-Facade (`app/Services/Cas/...`), keine neue
   Dependency. Bei mehreren CRM-Integrationen später ggf. Saloon erwägen — nur mit
   Rücksprache.
-- Ziel: neue CRM-Tabelle `Inquiries` (Felder `NAME`/`MAIL`/`PHONE`/`ZIP`/`MESSAGE`/
-  `COMPANY`/`SPECIALTY`/`CALLBACK_REQUESTED`/`CALLBACK_DATE`/`MAIL_STATUS` — Details siehe
-  `ROADMAP.md` Phase 4). Die Swagger-Doku der API ist ~95 % korrekt, einzelne
+- Ziel: CRM-Tabelle `Inquiries` (Felder `Name`/`MAIL`/`PHONE`/`ZIP`/`MESSAGE`/
+  `COMPANY`/`SPECIALTY`/`CALLBACK_REQUEST`/`CALLBACK_DATE`/`MAIL_STATUS` — exakte Feldnamen
+  wie im CRM angelegt, weichen z. T. vom ursprünglichen Entwurf ab; `MAIL_STATUS` ist als
+  `bigint` angelegt, der Client schickt daher `1`/`0` statt `true`/`false`. Details/Typen/
+  Längen siehe `ROADMAP.md` Phase 4). Die Swagger-Doku der API ist ~95 % korrekt, einzelne
   Payload-/Response-Schemas sind falsch verlinkt oder explizit "undocumented" — GUID aus der
   Create-Response wird defensiv extrahiert (kein PUT bei Unsicherheit, stattdessen Fehler in
   `api.log`).
