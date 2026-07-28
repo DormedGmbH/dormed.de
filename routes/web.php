@@ -17,6 +17,7 @@ Route::get('/sitemap-system-pages.xml', function () {
 })->name('sitemap.system-pages');
 
 Route::view('/blog', 'blog.index')->name('blog.index');
+Route::view('/danke', 'danke')->name('danke');
 Route::view('/fuer/allgemeinmedizin', 'fuer.allgemeinmedizin.index')->name('fuer.allgemeinmedizin.index');
 Route::view('/fuer/allgemeinmedizin/leber-elastographie', 'fuer.allgemeinmedizin.leber-elastographie')->name('fuer.allgemeinmedizin.leber-elastographie');
 Route::view('/fuer/allgemeinmedizin/schilddruesen-sonographie', 'fuer.allgemeinmedizin.schilddruesen-sonographie')->name('fuer.allgemeinmedizin.schilddruesen-sonographie');

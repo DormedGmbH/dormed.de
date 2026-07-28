@@ -92,13 +92,12 @@ test('contact form requires name, email, plz and datenschutz consent', function 
     Bus::assertNothingDispatched();
 });
 
-test('valid submission dispatches CreateInquiryInCas and SendInquiryMails independently and redirects with a success flash', function () {
+test('valid submission dispatches CreateInquiryInCas and SendInquiryMails independently and redirects to the danke page', function () {
     Bus::fake();
 
     $response = $this->post(route('kontakt.store'), validContactFormData());
 
-    $response->assertRedirect(route('kontakt'));
-    $response->assertSessionHas('contactFormSubmitted', true);
+    $response->assertRedirect(route('danke'));
 
     Bus::assertDispatched(CreateInquiryInCas::class, function (CreateInquiryInCas $job) {
         return $job->name === 'Dr. Max Mustermann'

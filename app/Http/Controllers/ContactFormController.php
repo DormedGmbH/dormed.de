@@ -35,8 +35,6 @@ class ContactFormController extends Controller
             rueckrufDatum: $request->validated('rueckruf_datum'),
         );
 
-        return redirect()
-            ->route('kontakt')
-            ->with('contactFormSubmitted', true);
+        return redirect()->route('danke');
     }
 }

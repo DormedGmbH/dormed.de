@@ -296,13 +296,17 @@ werden.
 
 1. Serverseitiger Versand via klassischem Laravel-SMTP-Mailer (`MAIL_MAILER=smtp`,
    Zugangsdaten folgen). POST-Route für `/kontakt`, Validierung über eine Form-Request-Klasse.
-   **Erfolgszustand:** Von der vorherigen Agentur wurde keine fertige Erfolgs-/Danke-Seite
-   geliefert oder im Quellcode hinterlassen (Auftraggeber versucht ggf. noch, den
-   Original-Quellcode dafür vom vorherigen Dienstleister zu bekommen). Bis dahin: eigene
-   Platzhalter-Erfolgsmeldung nach dem Post/Redirect/Get-Muster zurück auf `/kontakt`
-   (keine neue Route, Core Rule bleibt unangetastet), im 1:1-Stil der restlichen Seite
-   gestaltet und leicht austauschbar, falls Original-Content nachgeliefert wird. Mail-Body:
-   ruhiges, modernes Template, das nur die eingegebenen Daten strukturiert darstellt.
+   **Erfolgszustand:** Von der vorherigen Agentur wurde zunächst keine fertige Erfolgs-/
+   Danke-Seite geliefert oder im Quellcode hinterlassen — Übergangslösung war eine eigene
+   Platzhalter-Erfolgsmeldung per Post/Redirect/Get zurück auf `/kontakt`, ohne neue Route.
+   Der Auftraggeber hat die echte `/danke`-Seite (existierte auf der Live-Seite,
+   `https://dormed.de/danke`) inzwischen selbst nachträglich gescrapped und nachgeliefert —
+   jetzt als reguläre Route/View umgesetzt (`resources/views/danke.blade.php`,
+   `route('danke')`), 1:1 wie jede andere migrierte Seite (Yuuble-Wrapper/`yb-`-Präfixe
+   entfernt, Rest unverändert, `noindex, follow`). Der Kontaktformular-POST redirectet bei
+   Erfolg jetzt dorthin statt auf `/kontakt`; die alte Platzhalter-Erfolgsmeldung in
+   `kontakt.blade.php` wurde entfernt. Mail-Body: ruhiges, modernes Template, das nur die
+   eingegebenen Daten strukturiert darstellt.
 2. **Firmen-Empfänger-Adresse wird nicht separat konfiguriert**, sondern aus der
    SMTP-Absenderadresse (`MAIL_FROM_ADDRESS`) abgeleitet — in diesem Setup sind Sender- und
    Empfänger-Postfach der Firmen-Mail identisch (dieselbe Firmen-Mailbox verschickt die Mail
@@ -418,13 +422,16 @@ werden.
    CAS-Calls gemockt (`Http::fake()`), inkl. Log-Einträge in beiden Logs für Erfolgs- und
    Fehlerfälle.
 
-### Phase-4-Abschlusskriterium
+### Phase-4-Abschlusskriterium — ✅ erreicht
 
 Kontaktformular versendet echte E-Mails (Firma + Kunde) mit Reply-To auf die Kunden-Adresse
 bei der Firmen-Mail, TODO-Marker ist entfernt, jede Einreichung landet zusätzlich als
 `Inquiries`-Datensatz im CAS-CRM (unabhängig vom Mailversand), jede Einreichung erzeugt eine
 Zeile in `mail.log` und die zugehörigen CAS-Calls in `api.log`, Cron-basierte
-Queue-Abarbeitung läuft, Tests grün.
+Queue-Abarbeitung läuft, Tests grün. Erfolgreicher End-to-End-Test auf
+`dormed.everding.it` am 28.07.2026 bestätigt (Mail kam in beiden Postfächern an). Echte
+`/danke`-Seite (statt Platzhalter) ergänzt, nachdem der Auftraggeber den Original-Content
+nachgeliefert hat.
 
 ---
 

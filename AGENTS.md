@@ -153,10 +153,12 @@ das eine gute Portion CAS-spezifisches Verhalten ist, das man sich sonst erneut 
 müsste.
 
 - Serverseitiger Versand via Laravel-SMTP-Mailer, POST-Route für `/kontakt`
-  (Form-Request-Validierung). Kein neuer Erfolgs-Route — Post/Redirect/Get zurück auf
-  `/kontakt` (Core Rule 1 bleibt unangetastet), eigene Platzhalter-Erfolgsmeldung im
-  1:1-Stil der restlichen Seite, bis ggf. Original-Content von der Vorgänger-Agentur
-  nachgeliefert wird.
+  (Form-Request-Validierung), Post/Redirect/Get auf **`/danke`** bei Erfolg. Diese Route
+  existierte auf der Live-Seite bereits (`https://dormed.de/danke`), war aber bei der
+  Quellcode-Übergabe nicht dabei — ursprünglich nur ein Platzhalter zurück auf `/kontakt`
+  geplant, bis der Auftraggeber die Original-Seite nachträglich selbst gescrapped und
+  nachgeliefert hat. `resources/views/danke.blade.php`, 1:1 migriert wie jede andere Seite
+  (Yuuble-Wrapper/`yb-`-Präfixe entfernt, Rest unverändert), `noindex, follow`.
 - Firmen-Empfänger-Adresse wird aus `MAIL_FROM_ADDRESS` abgeleitet, **kein** eigener
   `CONTACT_COMPANY_EMAIL`-Env-Var — Sender- und Empfänger-Postfach der Firmen-Mail sind in
   diesem Setup identisch.

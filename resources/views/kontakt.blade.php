@@ -1008,12 +1008,6 @@
           <div class="kon-form__redirect-text">Weiterleitung …</div>
         </div>
 
-        @if (session('contactFormSubmitted'))
-          <div style="padding:1.4rem 1.6rem;background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.3);border-radius:4px;margin-bottom:1.2rem;">
-            <p style="margin:0;font-weight:600;color:rgb(12,22,42);">Vielen Dank für Ihre Anfrage!</p>
-            <p style="margin:0.4rem 0 0;color:rgb(72,87,112);">Wir haben sie erhalten und melden uns schnellstmöglich bei Ihnen.</p>
-          </div>
-        @else
         <form id="kon-form" method="POST" action="{{ route('kontakt.store') }}" novalidate>
           @csrf
 
@@ -1136,7 +1130,6 @@
           <p class="kon-form__note">* Pflichtfelder · Keine Weitergabe an Dritte · DSGVO-konform</p>
 
         </form>
-        @endif
       </div>
 
     </div>
