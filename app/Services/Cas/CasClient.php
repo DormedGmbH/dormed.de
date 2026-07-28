@@ -55,11 +55,12 @@ class CasClient
     }
 
     /**
-     * Create a data object of the given type. Returns the new record's GUID,
-     * or null if the call succeeded but no recognizable GUID field was found
-     * in the response - a permanent schema mismatch, not something a retry
-     * would fix. A failed HTTP call (network error, non-2xx) throws instead,
-     * since that *is* worth retrying.
+     * Create a data object of the given type. Returns the new record's GUID
+     * for logging purposes, or null if the call succeeded but no recognizable
+     * GUID field or Location header was found in the response (see
+     * extractGuid() - already logged a warning to api.log in that case).
+     * A failed HTTP call (network error, non-2xx) throws instead, since
+     * that *is* worth retrying.
      *
      * @param  array<string, mixed>  $fields
      *

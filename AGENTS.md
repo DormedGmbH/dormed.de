@@ -146,13 +146,11 @@ vollständigen Einstiegspunkt bilden:
   Laravel-13-Skeleton entfernt) — bestehendes CSS wird 1:1 migriert, keine
   Utility-Klassen, keine neuen Web-Fonts geplant.
 
-## Geplante, aber noch nicht umgesetzte Spezifikationen
+## Kontaktformular & CRM-Anbindung (CAS genesisWorld) — implementiert
 
-Bereits mit dem Auftraggeber abgestimmte Entscheidungen für Phasen, die noch nicht gebaut
-sind — bei Umsetzung gilt das hier Beschriebene als vereinbarter Startpunkt, nicht als
-offene Frage.
-
-### Kontaktformular
+Umgesetzt in Phase 4. Steht hier vollständig (nicht nur als Verweis auf `ROADMAP.md`), da
+das eine gute Portion CAS-spezifisches Verhalten ist, das man sich sonst erneut erarbeiten
+müsste.
 
 - Serverseitiger Versand via Laravel-SMTP-Mailer, POST-Route für `/kontakt`
   (Form-Request-Validierung). Kein neuer Erfolgs-Route — Post/Redirect/Get zurück auf
@@ -200,12 +198,18 @@ angelegt, nicht nur gemailt.
   (Mail erst nach CAS-Erfolg, GUID-Weitergabe, PUT auf `MAIL_STATUS` als Rückmeldung) — der PUT
   wurde bewusst ersatzlos gestrichen, damit entfällt auch die Abhängigkeit zwischen den Jobs.
 - `QUEUE_CONNECTION=database` (ersetzt `sync`) — `jobs`/`failed_jobs`-Migration (in Phase 2
-  mangels Bedarf gelöscht) muss wiederhergestellt werden. Abarbeitung per Cron
+  mangels Bedarf gelöscht) wurde dafür wiederhergestellt. Abarbeitung per Cron
   (`queue:work --stop-when-empty`, alle 1–2 Minuten), bewusst **kein** dauerhafter
   Supervisor-Worker (passt zu Core Rule 5) — später ohne Codeänderung umstellbar.
 - Akzeptiertes Restrisiko (nur noch `CreateInquiryInCas` betreffend): geht eine CAS-Antwort
   exakt im Reboot-Moment verloren, kann ein Retry einen doppelten Datensatz erzeugen (kein
   Idempotency-Key-Support in der API). Bewusst nicht weiter abgesichert.
+
+## Geplante, aber noch nicht umgesetzte Spezifikationen
+
+Bereits mit dem Auftraggeber abgestimmte Entscheidungen für Phasen, die noch nicht gebaut
+sind — bei Umsetzung gilt das hier Beschriebene als vereinbarter Startpunkt, nicht als
+offene Frage.
 
 ### Consent-Management (Cookies)
 
