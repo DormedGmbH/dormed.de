@@ -449,6 +449,9 @@ nachgeliefert hat.
 4. Optional, SSR-Vorteil gegenüber reinem Client-Ansatz: Helper/Blade-Directive, um
    eingebettete Drittanbieter-Inhalte (z. B. Maps-Embed) serverseitig erst nach
    vorhandenem Consent-Cookie zu rendern, statt sie client-seitig nachträglich zu blocken.
+   **Zurückgestellt** — aktuell existiert kein aktives Embed, das davon profitieren würde
+   (Core Rule 4 lässt keine Drittanbieter-Dienste aktiv); wird nachgezogen, sobald eins
+   tatsächlich eingebunden wird.
 5. Die Consent-Entscheidung wird **ausschließlich in einem eigenen, langlebigen
    Browser-Cookie** gespeichert (nicht in der Laravel-DB-Session aus Core Rule 4). Grund:
    Laravel-Sessions sind kurzlebig und leben in der `sessions`-Tabelle der SQLite-DB, die bei
@@ -456,11 +459,26 @@ nachgeliefert hat.
    wird — Consent müsste sonst bei jedem Deploy erneut eingeholt werden. Ein eigener Cookie
    ist davon unabhängig und bleibt über Deploys hinweg gültig.
 
-### Phase-5-Abschlusskriterium
+### Phase-5-Abschlusskriterium — ✅ erreicht
 
 Banner sichtbar, dezent, funktional (Zustimmung/Ablehnung wird persistiert, Re-Prompt-Logik
 vorbereitet), inhaltlich aber noch "leer", da aktuell laut Übergabe-Dokument keine
 Drittanbieter-Dienste aktiv sind.
+
+**Umsetzung:** `vanilla-cookieconsent` (npm, Full-Build importiert statt des separaten
+"core"-Builds — letzterer wirft beim Init einen Fehler, siehe Kommentar in
+`resources/js/consent.js`; mit `autoShow:false` und `lazyHtmlGeneration` (Default `true`)
+erzeugt der Full-Build aber ohnehin kein eigenes Modal-DOM, solange `show()`/
+`showPreferences()` nie aufgerufen werden — genau das war der Punkt). Eigenes Banner-Markup
+in `resources/views/components/layout/consent-banner.blade.php`, eingebunden über
+`layout.blade.php`, Styling 1:1 aus den bestehenden Design-Tokens abgeleitet (Farben/
+Schriften aus `.nav__wrap`/`.footer__wrap` in `style.css`). Kategorien `necessary`
+(readOnly)/`analytics`/`marketing`, Consent landet automatisch im Standard-Cookie der
+Library (`cc_cookie`, 182 Tage, nicht in der Laravel-Session). `revision: 0` als Basis für
+späteres Re-Prompting bei Policy-Änderung. Verifiziert per Playwright (Erstbesuch zeigt
+Banner, Speichern persistiert korrekt über Reload und Seitenwechsel, keine JS-/Netzwerk-
+Fehler) — `hideFromBots` bewusst auf Default (`true`) belassen, das Playwright-Testsetup
+spooft dafür `navigator.webdriver`, um reales Nutzerverhalten zu simulieren.
 
 ---
 
