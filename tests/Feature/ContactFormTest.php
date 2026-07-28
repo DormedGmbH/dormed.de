@@ -1,7 +1,7 @@
 <?php
 
 use App\Jobs\CreateInquiryInCas;
-use App\Jobs\SendInquiryMailsAndUpdateCasStatus;
+use App\Jobs\SendInquiryMails;
 use App\Mail\ContactFormCompanyMail;
 use App\Mail\ContactFormCustomerMail;
 use App\Services\Cas\CasClient;
@@ -23,12 +23,12 @@ beforeEach(function () {
     ]);
 
     File::ensureDirectoryExists(storage_path('logs'));
-    File::put(storage_path('logs/contact-form.log'), '');
+    File::put(storage_path('logs/mail.log'), '');
     File::put(storage_path('logs/api.log'), '');
 });
 
 afterEach(function () {
-    File::delete(storage_path('logs/contact-form.log'));
+    File::delete(storage_path('logs/mail.log'));
     File::delete(storage_path('logs/api.log'));
 });
 
@@ -65,6 +65,23 @@ function inquiryJob(array $overrides = []): CreateInquiryInCas
     return new CreateInquiryInCas(...$data);
 }
 
+function mailJob(array $overrides = []): SendInquiryMails
+{
+    $data = array_merge([
+        'name' => 'Dr. Max Mustermann',
+        'email' => 'max@example.com',
+        'telefon' => null,
+        'plz' => '44269',
+        'nachricht' => null,
+        'praxis' => null,
+        'fachgebiet' => null,
+        'wantsCallback' => false,
+        'rueckrufDatum' => null,
+    ], $overrides);
+
+    return new SendInquiryMails(...$data);
+}
+
 test('contact form requires name, email, plz and datenschutz consent', function () {
     Bus::fake();
 
@@ -75,7 +92,7 @@ test('contact form requires name, email, plz and datenschutz consent', function 
     Bus::assertNothingDispatched();
 });
 
-test('valid submission dispatches CreateInquiryInCas and redirects with a success flash', function () {
+test('valid submission dispatches CreateInquiryInCas and SendInquiryMails independently and redirects with a success flash', function () {
     Bus::fake();
 
     $response = $this->post(route('kontakt.store'), validContactFormData());
@@ -88,11 +105,15 @@ test('valid submission dispatches CreateInquiryInCas and redirects with a succes
             && $job->email === 'max@example.com'
             && $job->wantsCallback === true;
     });
+
+    Bus::assertDispatched(SendInquiryMails::class, function (SendInquiryMails $job) {
+        return $job->name === 'Dr. Max Mustermann'
+            && $job->email === 'max@example.com'
+            && $job->wantsCallback === true;
+    });
 });
 
-test('CreateInquiryInCas creates the CAS record and dispatches the mail job with the returned GUID', function () {
-    Bus::fake([SendInquiryMailsAndUpdateCasStatus::class]);
-
+test('CreateInquiryInCas creates the CAS record', function () {
     Http::fake([
         '*/v7.0/type/Inquiries*' => Http::response(['GGUID' => 'guid-123'], 200),
     ]);
@@ -103,32 +124,21 @@ test('CreateInquiryInCas creates the CAS record and dispatches the mail job with
         return str_contains($request->url(), '/v7.0/type/Inquiries')
             && $request['fields']['Name'] === 'Dr. Max Mustermann';
     });
-
-    Bus::assertDispatched(SendInquiryMailsAndUpdateCasStatus::class, function ($job) {
-        return $job->guid === 'guid-123';
-    });
 });
 
-test('CreateInquiryInCas extracts the GUID from the Location header when the body is empty', function () {
-    Bus::fake([SendInquiryMailsAndUpdateCasStatus::class]);
-
+test('CreateInquiryInCas does not fail when no GUID can be extracted from a successful response', function () {
     Http::fake([
-        '*/v7.0/type/Inquiries*' => Http::response('', 201, [
-            'Location' => 'https://cas.example.test/genesisrest.svc/v7.0/type/Inquiries/guid-from-header',
-        ]),
+        '*/v7.0/type/Inquiries*' => Http::response(['unexpected' => 'shape'], 200),
     ]);
 
-    inquiryJob()->handle(app(CasClient::class));
-
-    Bus::assertDispatched(SendInquiryMailsAndUpdateCasStatus::class, function ($job) {
-        return $job->guid === 'guid-from-header';
-    });
+    // The request itself succeeded - an unparsable GUID is only a logging
+    // concern now that nothing downstream needs it, so handle() must not
+    // throw or otherwise mark the job as failed.
+    expect(fn () => inquiryJob()->handle(app(CasClient::class)))->not->toThrow(Throwable::class);
 });
 
 test('CreateInquiryInCas still reaches CAS when the configured host has no scheme', function () {
     config(['services.cas_genesis_world.host' => 'cas.example.test/genesisrest.svc']);
-
-    Bus::fake([SendInquiryMailsAndUpdateCasStatus::class]);
 
     Http::fake([
         'https://cas.example.test/genesisrest.svc/v7.0/type/Inquiries*' => Http::response(['GGUID' => 'guid-123'], 200),
@@ -137,18 +147,6 @@ test('CreateInquiryInCas still reaches CAS when the configured host has no schem
     inquiryJob()->handle(app(CasClient::class));
 
     Http::assertSent(fn ($request) => $request->url() === 'https://cas.example.test/genesisrest.svc/v7.0/type/Inquiries?tag-as-recently-used=false');
-});
-
-test('CreateInquiryInCas fails permanently when no GUID can be extracted from a successful response', function () {
-    Bus::fake([SendInquiryMailsAndUpdateCasStatus::class]);
-
-    Http::fake([
-        '*/v7.0/type/Inquiries*' => Http::response(['unexpected' => 'shape'], 200),
-    ]);
-
-    inquiryJob()->handle(app(CasClient::class));
-
-    Bus::assertNotDispatched(SendInquiryMailsAndUpdateCasStatus::class);
 });
 
 test('CreateInquiryInCas throws on a failed CAS request so the queue retries it', function () {
@@ -160,26 +158,17 @@ test('CreateInquiryInCas throws on a failed CAS request so the queue retries it'
         ->toThrow(CasRequestFailedException::class);
 });
 
-test('SendInquiryMailsAndUpdateCasStatus sends both mails, logs the submission and updates CAS', function () {
+test('SendInquiryMails sends both mails and logs the submission', function () {
     Mail::fake();
-    Http::fake([
-        '*/v7.0/type/Inquiries/guid-123*' => Http::response(['ok' => true], 200),
-    ]);
 
-    $job = new SendInquiryMailsAndUpdateCasStatus(
-        guid: 'guid-123',
-        name: 'Dr. Max Mustermann',
-        email: 'max@example.com',
-        telefon: '0231123456',
-        plz: '44269',
-        nachricht: 'Testnachricht',
-        praxis: 'Praxis Mustermann',
-        fachgebiet: 'Allgemeinmedizin / Hausarzt',
-        wantsCallback: true,
-        rueckrufDatum: '2026-08-01',
-    );
-
-    $job->handle(app(CasClient::class));
+    mailJob([
+        'telefon' => '0231123456',
+        'nachricht' => 'Testnachricht',
+        'praxis' => 'Praxis Mustermann',
+        'fachgebiet' => 'Allgemeinmedizin / Hausarzt',
+        'wantsCallback' => true,
+        'rueckrufDatum' => '2026-08-01',
+    ])->handle();
 
     Mail::assertSent(ContactFormCompanyMail::class, function ($mail) {
         return $mail->hasReplyTo('max@example.com');
@@ -188,44 +177,15 @@ test('SendInquiryMailsAndUpdateCasStatus sends both mails, logs the submission a
         return $mail->name === 'Dr. Max Mustermann';
     });
 
-    Http::assertSent(function ($request) {
-        return str_contains($request->url(), '/v7.0/type/Inquiries/guid-123')
-            && $request->method() === 'PUT'
-            && $request['fields']['MAIL_STATUS'] === 1;
-    });
-
-    $logContent = file_get_contents(storage_path('logs/contact-form.log'));
+    $logContent = file_get_contents(storage_path('logs/mail.log'));
     expect($logContent)
         ->toContain('Anfrage von Dr. Max Mustermann')
         ->toContain('Mailversand an max@example.com ✓');
 });
 
-test('SendInquiryMailsAndUpdateCasStatus failed() hook logs a failure line and marks CAS mail status false', function () {
-    Http::fake([
-        '*/v7.0/type/Inquiries/guid-123*' => Http::response(['ok' => true], 200),
-    ]);
+test('SendInquiryMails failed() hook logs a failure line', function () {
+    mailJob()->failed(new RuntimeException('SMTP down'));
 
-    $job = new SendInquiryMailsAndUpdateCasStatus(
-        guid: 'guid-123',
-        name: 'Dr. Max Mustermann',
-        email: 'max@example.com',
-        telefon: null,
-        plz: '44269',
-        nachricht: null,
-        praxis: null,
-        fachgebiet: null,
-        wantsCallback: false,
-        rueckrufDatum: null,
-    );
-
-    $job->failed(new RuntimeException('SMTP down'));
-
-    $logContent = file_get_contents(storage_path('logs/contact-form.log'));
+    $logContent = file_get_contents(storage_path('logs/mail.log'));
     expect($logContent)->toContain('Mailversand an max@example.com ✗');
-
-    Http::assertSent(function ($request) {
-        return str_contains($request->url(), '/v7.0/type/Inquiries/guid-123')
-            && $request->method() === 'PUT'
-            && $request['fields']['MAIL_STATUS'] === 0;
-    });
 });

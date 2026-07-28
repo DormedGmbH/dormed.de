@@ -124,9 +124,9 @@ return [
             'handler' => NullHandler::class,
         ],
 
-        'contact-form' => [
+        'mail' => [
             'driver' => 'single',
-            'path' => storage_path('logs/contact-form.log'),
+            'path' => storage_path('logs/mail.log'),
             'level' => 'info',
             'tap' => [PlainLineFormatter::class],
         ],

@@ -15,8 +15,9 @@ use Throwable;
  * server has a nightly reboot window of roughly an hour and a submission
  * made right before it must still go through afterwards.
  *
- * No mail is sent until this succeeds - see SendInquiryMailsAndUpdateCasStatus,
- * which this job dispatches once it has a GUID.
+ * Dispatched independently of SendInquiryMails - the two no longer share
+ * any state (no GUID hand-off, no CAS status PUT), so nothing here blocks
+ * or is blocked by the mail job.
  */
 class CreateInquiryInCas implements ShouldQueue
 {
@@ -49,7 +50,11 @@ class CreateInquiryInCas implements ShouldQueue
 
     public function handle(CasClient $client): void
     {
-        $guid = $client->createDataObject('Inquiries', [
+        // The GUID is only used for logging (see CasClient::extractGuid) -
+        // nothing downstream needs it anymore, so a response we can't parse
+        // a GUID from still counts as success as long as the request itself
+        // succeeded.
+        $client->createDataObject('Inquiries', [
             'Name' => $this->name,
             'MAIL' => $this->email,
             'PHONE' => $this->telefon,
@@ -60,29 +65,6 @@ class CreateInquiryInCas implements ShouldQueue
             'CALLBACK_REQUEST' => $this->wantsCallback,
             'CALLBACK_DATE' => $this->rueckrufDatum,
         ]);
-
-        if ($guid === null) {
-            // The request itself succeeded but the response shape didn't
-            // match what we expected - retrying won't fix that, and would
-            // just create duplicate records. CasClient already logged the
-            // raw response to api.log for follow-up.
-            $this->fail('CAS create succeeded but no GUID could be extracted from the response - see api.log.');
-
-            return;
-        }
-
-        SendInquiryMailsAndUpdateCasStatus::dispatch(
-            guid: $guid,
-            name: $this->name,
-            email: $this->email,
-            telefon: $this->telefon,
-            plz: $this->plz,
-            nachricht: $this->nachricht,
-            praxis: $this->praxis,
-            fachgebiet: $this->fachgebiet,
-            wantsCallback: $this->wantsCallback,
-            rueckrufDatum: $this->rueckrufDatum,
-        );
     }
 
     public function failed(Throwable $exception): void

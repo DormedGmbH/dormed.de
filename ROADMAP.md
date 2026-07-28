@@ -351,33 +351,41 @@ werden.
      | `SPECIALTY` | varchar | 64 | `fachgebiet` | nein |
      | `CALLBACK_REQUEST` | bit | fix | `rueckruf` | — |
      | `CALLBACK_DATE` | date | fix | `rueckruf_datum` | nein |
-     | `MAIL_STATUS` | bigint | fix | wird per PUT nachgetragen (s. u.), als `1`/`0` | — |
+     | `MAIL_STATUS` | bigint | fix | **ungenutzt** (s. u.) | — |
 
      `datenschutz` (DSGVO-Checkbox) wird **nicht** übernommen — reine
      Absende-Voraussetzung, keine CRM-relevante Information. `CREATED_AT`/vergleichbares wird
      vom CRM selbst automatisch geführt, kein eigenes Datumsfeld dafür nötig. Die
      Formular-Validierung (`ContactFormRequest`) hält sich an die CAS-Feldlängen (`name` max.
      128, `email`/`praxis`/`fachgebiet` max. 64, `telefon` max. 32), damit CAS nichts
-     abschneidet oder ablehnt. `MAIL_STATUS` ist trotz Boolean-Bedeutung als `bigint` angelegt
-     (nicht `bit` wie `CALLBACK_REQUEST`) — der Client schickt daher `1`/`0` statt `true`/`false`.
-   - **GUID-Zuordnung für den späteren PUT:** die POST-Response wird auf einen plausiblen
+     abschneidet oder ablehnt. `MAIL_STATUS` existiert als Feld im CRM, wird aber von uns nicht
+     (mehr) beschrieben — ursprünglich als Rückmeldung des Mailversands per PUT geplant, dieser
+     PUT wurde später bewusst wieder entfernt (s. Punkt 6).
+   - **GUID-Extraktion ist rein informativ:** die POST-Response wird auf einen plausiblen
      GUID-Feldnamen geprüft (`GGUID` bevorzugt, passend zur durchgängigen
-     `dataObjectGGUID`-Namenskonvention der API; Fallback-Kandidaten `guid`/`id`), roh in
-     `api.log` mitgeloggt. Schlägt die Extraktion fehl, wird **kein** PUT versucht und der
-     Fehler explizit geloggt statt einen falschen Datensatz zu raten/treffen.
-6. **Verarbeitung als Job-Kette** (`Bus::chain()`), nicht als ein einzelner Job — verhindert,
-   dass ein Retry nach erfolgreichem CAS-Anlegen einen zweiten (doppelten) CRM-Datensatz
-   erzeugt:
-   - **Job 1** legt den `Inquiries`-Datensatz per CAS-POST an. Nutzt `retryUntil()` (zeitbasiert,
-     nicht feste Versuchsanzahl) — Hintergrund: der CAS-Server rebootet nachts ca. eine Stunde,
-     eine Einreichung um Mitternacht muss diese Downtime überstehen und darf nicht als
-     endgültig fehlgeschlagen gelten, nur weil eine feste Versuchsanzahl aufgebraucht ist.
-   - **Job 2** (erhält die GUID aus Job 1) verschickt Firmen- und Kunden-Mail und macht danach
-     den CAS-PUT mit `MAIL_STATUS`. Läuft **erst nach** erfolgreichem Job 1 — vor einem
-     erfolgreichen CAS-Anlegen wird **keine** Mail verschickt. Eigenes `retryUntil()`, unabhängig
-     von Job 1 (z. B. wenn nur der Mailversand kurz klemmt).
-   - **Akzeptiertes Restrisiko:** verarbeitet CAS den POST serverseitig, geht die Antwort aber
-     genau im Reboot-Moment verloren, wertet Job 1 das als Fehlschlag und legt beim Retry einen
+     `dataObjectGGUID`-Namenskonvention der API; Fallback-Kandidaten `guid`/`id`, sowie der
+     `Location`-Response-Header bei leerem Body — CAS antwortet auf ein erfolgreiches Create mit
+     `201 Created` und leerem Body, die GUID steht dann im letzten Pfad-Segment von `Location`).
+     Da niemand mehr die GUID braucht (kein PUT mehr, s. Punkt 6), zählt ein erfolgreicher
+     CAS-Request auch dann als Erfolg, wenn keine GUID extrahiert werden konnte — nur eine
+     Warnung in `api.log`, kein Job-Fehlschlag.
+6. **Zwei unabhängige Jobs statt einer Job-Kette** — ursprünglich als Kette geplant (Mail erst
+   nach erfolgreichem CAS-Anlegen, Job 2 bekommt die GUID von Job 1 und meldet den
+   Mail-Erfolg per PUT zurück), nach Rücksprache bewusst vereinfacht: der PUT auf
+   `MAIL_STATUS` wurde ersatzlos gestrichen, damit entfällt auch die GUID-Weitergabe
+   zwischen den Jobs, und beide werden direkt und unabhängig voneinander aus dem Controller
+   dispatcht:
+   - **`CreateInquiryInCas`** legt den `Inquiries`-Datensatz per CAS-POST an, kennt
+     `SendInquiryMails` nicht. Nutzt `retryUntil()` (zeitbasiert, nicht feste Versuchsanzahl) —
+     Hintergrund: der CAS-Server rebootet nachts ca. eine Stunde, eine Einreichung um
+     Mitternacht muss diese Downtime überstehen und darf nicht als endgültig fehlgeschlagen
+     gelten, nur weil eine feste Versuchsanzahl aufgebraucht ist.
+   - **`SendInquiryMails`** verschickt Firmen- und Kunden-Mail, kennt CAS nicht (kein
+     `CasClient` als Dependency). Eigenes `retryUntil()`, unabhängig von `CreateInquiryInCas`
+     (z. B. wenn nur der Mailversand kurz klemmt) — läuft parallel, nicht nacheinander.
+   - **Akzeptiertes Restrisiko** (nur noch für `CreateInquiryInCas` relevant, da kein PUT mehr
+     existiert): verarbeitet CAS den POST serverseitig, geht die Antwort aber genau im
+     Reboot-Moment verloren, wertet der Job das als Fehlschlag und legt beim Retry einen
      zweiten Datensatz an. Ohne Idempotency-Key-Unterstützung auf CAS-Seite (in der Swagger
      nicht vorhanden) nicht zu 100 % vermeidbar — bewusst akzeptiert statt überentwickelt.
    - **Queue-Infrastruktur:** `QUEUE_CONNECTION=database` (ersetzt die bisherige
@@ -392,27 +400,31 @@ werden.
    `resources/views/mail/...`, nicht `resources/mail/...` — entsprechend korrigiert).
 8. **Zwei getrennte Logs**, bewusst nicht in einem File vermischt, da unterschiedliche
    Betrachtungsebenen:
-   - **`storage/logs/contact-form.log`** — Formular-/Mail-Funnel, **jede** Einreichung, eine
-     Zeile:
+   - **`storage/logs/mail.log`** — Mail-Funnel, geschrieben von `SendInquiryMails`, **jede**
+     Einreichung eine Zeile:
      ```
      [TT.MM.JJJJ HH:MM:SS] Anfrage von {NAME} | Mailversand an {Kunden-E-Mail} {✓|✗}
      ```
      Zeitstempel deutsch/menschenlesbar (nicht ISO), Status bezieht sich nur auf den
-     Mailversand an den Kunden (Job 2).
+     Mailversand an den Kunden. (Hieß in einer früheren Version `contact-form.log`.)
    - **`storage/logs/api.log`** — CRM-Anbindung generell (nicht nur Kontaktformular-spezifisch,
-     wird bei künftigen weiteren CAS-Anbindungen mitgenutzt): jeder CAS-Request/-Response
-     (inkl. roher GUID-Extraktion, s. o.), jeder Fehlschlag/Retry.
-9. Feature-Tests für die komplette Logik: Validierungsfehler, Erfolgsfall, Job-Kette wird
-   korrekt dispatcht (`Bus::fake()`/`Queue::fake()` + Assertions), beide Mails werden verschickt
-   (`Mail::fake()`), CAS-Calls gemockt (`Http::fake()`), inkl. Log-Einträge in beiden Logs für
-   Erfolgs- und Fehlerfälle.
+     wird bei künftigen weiteren CAS-Anbindungen mitgenutzt), geschrieben von `CreateInquiryInCas`
+     über `CasClient`: jeder CAS-Request/-Response (inkl. roher GUID-Extraktion, s. o.), jeder
+     Fehlschlag/Retry.
+   - Alles Rahmenwerk-Interne (unerwartete Exceptions, Framework-Fehler) läuft unverändert über
+     den Standard-Kanal in `storage/logs/laravel.log`.
+9. Feature-Tests für die komplette Logik: Validierungsfehler, Erfolgsfall dispatcht beide Jobs
+   unabhängig (`Bus::fake()` + Assertions), beide Mails werden verschickt (`Mail::fake()`),
+   CAS-Calls gemockt (`Http::fake()`), inkl. Log-Einträge in beiden Logs für Erfolgs- und
+   Fehlerfälle.
 
 ### Phase-4-Abschlusskriterium
 
 Kontaktformular versendet echte E-Mails (Firma + Kunde) mit Reply-To auf die Kunden-Adresse
 bei der Firmen-Mail, TODO-Marker ist entfernt, jede Einreichung landet zusätzlich als
-`Inquiries`-Datensatz im CAS-CRM, jede Einreichung erzeugt eine Zeile in `contact-form.log`
-und die zugehörigen CAS-Calls in `api.log`, Cron-basierte Queue-Abarbeitung läuft, Tests grün.
+`Inquiries`-Datensatz im CAS-CRM (unabhängig vom Mailversand), jede Einreichung erzeugt eine
+Zeile in `mail.log` und die zugehörigen CAS-Calls in `api.log`, Cron-basierte
+Queue-Abarbeitung läuft, Tests grün.
 
 ---
 

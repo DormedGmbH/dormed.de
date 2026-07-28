@@ -4,7 +4,6 @@ namespace App\Jobs;
 
 use App\Mail\ContactFormCompanyMail;
 use App\Mail\ContactFormCustomerMail;
-use App\Services\Cas\CasClient;
 use DateTime;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Queue\Queueable;
@@ -13,10 +12,9 @@ use Illuminate\Support\Facades\Mail;
 use Throwable;
 
 /**
- * Sends both contact-form mails and records the outcome, both in
- * contact-form.log and back on the CRM record. Only dispatched by
- * CreateInquiryInCas after the CRM record already exists - never runs
- * (and so never sends mail) before that.
+ * Sends both contact-form mails and records the outcome in mail.log.
+ * Dispatched independently of CreateInquiryInCas - has no knowledge of CAS
+ * at all, so nothing here waits on (or reports back to) the CRM record.
  *
  * Any mail failure lets the job retry as a whole (see retryUntil()) rather
  * than treating a single failed send as final - the accepted trade-off is
@@ -24,12 +22,11 @@ use Throwable;
  * went out but the customer mail then failed; a duplicate internal
  * notification is a much smaller problem than a lost inquiry.
  */
-class SendInquiryMailsAndUpdateCasStatus implements ShouldQueue
+class SendInquiryMails implements ShouldQueue
 {
     use Queueable;
 
     public function __construct(
-        public string $guid,
         public string $name,
         public string $email,
         public ?string $telefon,
@@ -54,7 +51,7 @@ class SendInquiryMailsAndUpdateCasStatus implements ShouldQueue
         return [60, 120, 300, 600];
     }
 
-    public function handle(CasClient $client): void
+    public function handle(): void
     {
         Mail::send(new ContactFormCompanyMail(
             name: $this->name,
@@ -71,30 +68,17 @@ class SendInquiryMailsAndUpdateCasStatus implements ShouldQueue
         Mail::send(new ContactFormCustomerMail(name: $this->name));
 
         $this->logSubmission(mailSucceeded: true);
-
-        $client->updateDataObject('Inquiries', $this->guid, [
-            'MAIL_STATUS' => 1,
-        ]);
     }
 
     public function failed(Throwable $exception): void
     {
         $this->logSubmission(mailSucceeded: false);
 
-        Log::channel('api')->error('SendInquiryMailsAndUpdateCasStatus permanently failed.', [
-            'guid' => $this->guid,
+        Log::error('SendInquiryMails permanently failed.', [
             'name' => $this->name,
+            'email' => $this->email,
             'exception' => $exception->getMessage(),
         ]);
-
-        try {
-            app(CasClient::class)->updateDataObject('Inquiries', $this->guid, [
-                'MAIL_STATUS' => 0,
-            ]);
-        } catch (Throwable) {
-            // Best effort - we're already in the terminal failure path, and
-            // the attempt itself is logged to api.log by the client.
-        }
     }
 
     private function logSubmission(bool $mailSucceeded): void
@@ -102,7 +86,7 @@ class SendInquiryMailsAndUpdateCasStatus implements ShouldQueue
         $timestamp = now()->format('d.m.Y H:i:s');
         $status = $mailSucceeded ? '✓' : '✗';
 
-        Log::channel('contact-form')->info(
+        Log::channel('mail')->info(
             "[{$timestamp}] Anfrage von {$this->name} | Mailversand an {$this->email} {$status}"
         );
     }

@@ -169,11 +169,13 @@ offene Frage.
 - Zusätzliche zweite Mail als Eingangsbestätigung an den Kunden.
 - Mail-Views unter `resources/views/mail/contact-form/customer.blade.php` und
   `.../company.blade.php`.
-- **Zwei getrennte Logs:** `storage/logs/contact-form.log` (Formular-/Mail-Funnel, **jede**
-  Einreichung eine Zeile: `[TT.MM.JJJJ HH:MM:SS] Anfrage von {NAME} | Mailversand an
-  {Kunden-E-Mail} {✓|✗}`, deutsches Zeitformat, Status bezieht sich nur auf den
-  Kunden-Mailversand) und `storage/logs/api.log` (CRM-Anbindung allgemein, s. u. — nicht nur
-  Kontaktformular-spezifisch, wird bei künftigen weiteren CAS-Anbindungen mitgenutzt).
+- **Zwei getrennte Logs:** `storage/logs/mail.log` (Mail-Funnel, geschrieben von
+  `SendInquiryMails`, **jede** Einreichung eine Zeile: `[TT.MM.JJJJ HH:MM:SS] Anfrage von
+  {NAME} | Mailversand an {Kunden-E-Mail} {✓|✗}`, deutsches Zeitformat, Status bezieht sich
+  nur auf den Kunden-Mailversand) und `storage/logs/api.log` (CRM-Anbindung allgemein,
+  geschrieben von `CreateInquiryInCas`/`CasClient`, s. u. — nicht nur Kontaktformular-spezifisch,
+  wird bei künftigen weiteren CAS-Anbindungen mitgenutzt). Alles Rahmenwerk-Interne läuft
+  unverändert über `storage/logs/laravel.log`.
 
 **CRM-Anbindung (CAS genesisWorld):** jede Einreichung wird zusätzlich als CRM-Datensatz
 angelegt, nicht nur gemailt.
@@ -185,25 +187,25 @@ angelegt, nicht nur gemailt.
   Rücksprache.
 - Ziel: CRM-Tabelle `Inquiries` (Felder `Name`/`MAIL`/`PHONE`/`ZIP`/`MESSAGE`/
   `COMPANY`/`SPECIALTY`/`CALLBACK_REQUEST`/`CALLBACK_DATE`/`MAIL_STATUS` — exakte Feldnamen
-  wie im CRM angelegt, weichen z. T. vom ursprünglichen Entwurf ab; `MAIL_STATUS` ist als
-  `bigint` angelegt, der Client schickt daher `1`/`0` statt `true`/`false`. Details/Typen/
-  Längen siehe `ROADMAP.md` Phase 4). Die Swagger-Doku der API ist ~95 % korrekt, einzelne
-  Payload-/Response-Schemas sind falsch verlinkt oder explizit "undocumented" — GUID aus der
-  Create-Response wird defensiv extrahiert (kein PUT bei Unsicherheit, stattdessen Fehler in
-  `api.log`).
-- **Verarbeitung als Job-Kette** (`Bus::chain()`), nicht ein einzelner Job: Job 1 legt den
-  CRM-Datensatz an (`retryUntil()`, da der CAS-Server nachts ca. eine Stunde rebootet — Ziel:
-  Downtime überstehen statt nach fester Versuchsanzahl aufzugeben), Job 2 (erst nach
-  erfolgreichem Job 1) verschickt beide Mails und trägt danach `MAIL_STATUS` per CRM-PUT
-  nach. Verhindert doppelte CRM-Einträge durch Retry nach Teilerfolg — vor erfolgreichem
-  CRM-Anlegen wird keine Mail verschickt.
+  wie im CRM angelegt, weichen z. T. vom ursprünglichen Entwurf ab. `MAIL_STATUS` existiert im
+  CRM, wird aber nicht mehr beschrieben (s. u.). Details/Typen/Längen siehe `ROADMAP.md`
+  Phase 4). Die Swagger-Doku der API ist ~95 % korrekt, einzelne Payload-/Response-Schemas
+  sind falsch verlinkt oder explizit "undocumented". CAS antwortet auf ein erfolgreiches
+  Create mit `201`+leerem Body; die GUID kommt dann aus dem `Location`-Header. GUID-Extraktion
+  ist rein informativ (Logging in `api.log`) — nichts hängt mehr funktional davon ab.
+- **Zwei unabhängige Jobs, keine Job-Kette:** `CreateInquiryInCas` (legt den CRM-Datensatz an,
+  `retryUntil()`, da der CAS-Server nachts ca. eine Stunde rebootet) und `SendInquiryMails`
+  (verschickt beide Mails, kennt CAS nicht, eigenes `retryUntil()`) werden beide direkt und
+  unabhängig aus `ContactFormController::store()` dispatcht. Ursprünglich als Kette geplant
+  (Mail erst nach CAS-Erfolg, GUID-Weitergabe, PUT auf `MAIL_STATUS` als Rückmeldung) — der PUT
+  wurde bewusst ersatzlos gestrichen, damit entfällt auch die Abhängigkeit zwischen den Jobs.
 - `QUEUE_CONNECTION=database` (ersetzt `sync`) — `jobs`/`failed_jobs`-Migration (in Phase 2
   mangels Bedarf gelöscht) muss wiederhergestellt werden. Abarbeitung per Cron
   (`queue:work --stop-when-empty`, alle 1–2 Minuten), bewusst **kein** dauerhafter
   Supervisor-Worker (passt zu Core Rule 5) — später ohne Codeänderung umstellbar.
-- Akzeptiertes Restrisiko: geht eine CAS-Antwort exakt im Reboot-Moment verloren, kann ein
-  Retry einen doppelten Datensatz erzeugen (kein Idempotency-Key-Support in der API). Bewusst
-  nicht weiter abgesichert.
+- Akzeptiertes Restrisiko (nur noch `CreateInquiryInCas` betreffend): geht eine CAS-Antwort
+  exakt im Reboot-Moment verloren, kann ein Retry einen doppelten Datensatz erzeugen (kein
+  Idempotency-Key-Support in der API). Bewusst nicht weiter abgesichert.
 
 ### Consent-Management (Cookies)
 

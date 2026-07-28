@@ -88,29 +88,6 @@ class CasClient
         return $this->extractGuid($response);
     }
 
-    /**
-     * Update an existing data object by GUID.
-     *
-     * @param  array<string, mixed>  $fields
-     *
-     * @throws CasRequestFailedException
-     */
-    public function updateDataObject(string $dataObjectType, string $guid, array $fields): void
-    {
-        // Same "fields" envelope as createDataObject() - see there.
-        $payload = ['fields' => $fields];
-
-        $response = $this->client()->put("/v7.0/type/{$dataObjectType}/{$guid}", $payload);
-
-        $this->logExchange('PUT', "/v7.0/type/{$dataObjectType}/{$guid}", $payload, $response);
-
-        if ($response->failed()) {
-            throw new CasRequestFailedException(
-                "CAS update request for [{$dataObjectType}/{$guid}] failed with status {$response->status()}."
-            );
-        }
-    }
-
     private function extractGuid(Response $response): ?string
     {
         $body = $response->json();
