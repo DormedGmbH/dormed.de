@@ -115,23 +115,32 @@ class CasClient
     {
         $body = $response->json();
 
-        if (! is_array($body)) {
-            Log::channel('api')->warning('CAS create response was not a JSON object, cannot extract GUID.', [
-                'body' => $response->body(),
-            ]);
-
-            return null;
-        }
-
-        foreach (self::GUID_CANDIDATE_KEYS as $key) {
-            if (is_string($body[$key] ?? null) && $body[$key] !== '') {
-                return $body[$key];
+        if (is_array($body)) {
+            foreach (self::GUID_CANDIDATE_KEYS as $key) {
+                if (is_string($body[$key] ?? null) && $body[$key] !== '') {
+                    return $body[$key];
+                }
             }
         }
 
-        Log::channel('api')->warning('CAS create response did not contain a recognizable GUID field.', [
+        // CAS answers a successful create with 201 Created and an empty
+        // body - the GUID comes back as the last path segment of the
+        // Location header instead (standard REST convention for 201s).
+        $location = $response->header('Location');
+
+        if ($location !== '' && $location !== null) {
+            $guid = trim((string) parse_url($location, PHP_URL_PATH), '/');
+            $guid = str($guid)->afterLast('/')->toString();
+
+            if ($guid !== '') {
+                return $guid;
+            }
+        }
+
+        Log::channel('api')->warning('CAS create response did not contain a recognizable GUID field or Location header.', [
             'triedKeys' => self::GUID_CANDIDATE_KEYS,
-            'body' => $body,
+            'body' => $body ?? $response->body(),
+            'location' => $location,
         ]);
 
         return null;
@@ -146,6 +155,7 @@ class CasClient
             'request' => $payload,
             'status' => $response->status(),
             'response' => $response->json() ?? $response->body(),
+            'location' => $response->header('Location'),
         ]);
     }
 }

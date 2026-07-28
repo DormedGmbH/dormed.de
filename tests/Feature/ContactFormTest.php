@@ -109,6 +109,22 @@ test('CreateInquiryInCas creates the CAS record and dispatches the mail job with
     });
 });
 
+test('CreateInquiryInCas extracts the GUID from the Location header when the body is empty', function () {
+    Bus::fake([SendInquiryMailsAndUpdateCasStatus::class]);
+
+    Http::fake([
+        '*/v7.0/type/Inquiries*' => Http::response('', 201, [
+            'Location' => 'https://cas.example.test/genesisrest.svc/v7.0/type/Inquiries/guid-from-header',
+        ]),
+    ]);
+
+    inquiryJob()->handle(app(CasClient::class));
+
+    Bus::assertDispatched(SendInquiryMailsAndUpdateCasStatus::class, function ($job) {
+        return $job->guid === 'guid-from-header';
+    });
+});
+
 test('CreateInquiryInCas still reaches CAS when the configured host has no scheme', function () {
     config(['services.cas_genesis_world.host' => 'cas.example.test/genesisrest.svc']);
 
