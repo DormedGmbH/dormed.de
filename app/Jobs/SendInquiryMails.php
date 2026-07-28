@@ -65,7 +65,7 @@ class SendInquiryMails implements ShouldQueue
             rueckrufDatum: $this->rueckrufDatum,
         ));
 
-        Mail::send(new ContactFormCustomerMail(name: $this->name));
+        Mail::send(new ContactFormCustomerMail(name: $this->name, email: $this->email));
 
         $this->logSubmission(mailSucceeded: true);
     }

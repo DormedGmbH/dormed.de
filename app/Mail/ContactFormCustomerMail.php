@@ -12,11 +12,15 @@ class ContactFormCustomerMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public function __construct(public string $name) {}
+    public function __construct(
+        public string $name,
+        public string $email,
+    ) {}
 
     public function envelope(): Envelope
     {
         return new Envelope(
+            to: [$this->email],
             subject: 'Ihre Anfrage bei SONORING DORMED',
         );
     }

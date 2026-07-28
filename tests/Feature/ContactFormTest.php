@@ -171,10 +171,12 @@ test('SendInquiryMails sends both mails and logs the submission', function () {
     ])->handle();
 
     Mail::assertSent(ContactFormCompanyMail::class, function ($mail) {
-        return $mail->hasReplyTo('max@example.com');
+        return $mail->hasTo((string) config('mail.from.address'))
+            && $mail->hasReplyTo('max@example.com');
     });
     Mail::assertSent(ContactFormCustomerMail::class, function ($mail) {
-        return $mail->name === 'Dr. Max Mustermann';
+        return $mail->hasTo('max@example.com')
+            && $mail->name === 'Dr. Max Mustermann';
     });
 
     $logContent = file_get_contents(storage_path('logs/mail.log'));
