@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactFormController;
 use Illuminate\Support\Facades\Route;
 
 // Core Rule 2: sitemap.xml/sitemap-system-pages.xml werden über eine Route ausgeliefert,
@@ -16,6 +17,7 @@ Route::get('/sitemap-system-pages.xml', function () {
 })->name('sitemap.system-pages');
 
 Route::view('/blog', 'blog.index')->name('blog.index');
+Route::view('/danke', 'danke')->name('danke');
 Route::view('/fuer/allgemeinmedizin', 'fuer.allgemeinmedizin.index')->name('fuer.allgemeinmedizin.index');
 Route::view('/fuer/allgemeinmedizin/leber-elastographie', 'fuer.allgemeinmedizin.leber-elastographie')->name('fuer.allgemeinmedizin.leber-elastographie');
 Route::view('/fuer/allgemeinmedizin/schilddruesen-sonographie', 'fuer.allgemeinmedizin.schilddruesen-sonographie')->name('fuer.allgemeinmedizin.schilddruesen-sonographie');
@@ -37,6 +39,7 @@ Route::view('/hersteller/mindray', 'hersteller.mindray')->name('hersteller.mindr
 Route::view('/', 'index')->name('index');
 Route::view('/karriere', 'karriere')->name('karriere');
 Route::view('/kontakt', 'kontakt')->name('kontakt');
+Route::post('/kontakt', [ContactFormController::class, 'store'])->name('kontakt.store');
 Route::view('/leistungen/beratung', 'leistungen.beratung')->name('leistungen.beratung');
 Route::view('/leistungen/finanzierung', 'leistungen.finanzierung')->name('leistungen.finanzierung');
 Route::view('/leistungen/garantie-versicherung', 'leistungen.garantie-versicherung')->name('leistungen.garantie-versicherung');

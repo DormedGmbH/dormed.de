@@ -296,13 +296,17 @@ werden.
 
 1. Serverseitiger Versand via klassischem Laravel-SMTP-Mailer (`MAIL_MAILER=smtp`,
    Zugangsdaten folgen). POST-Route für `/kontakt`, Validierung über eine Form-Request-Klasse.
-   **Erfolgszustand:** Von der vorherigen Agentur wurde keine fertige Erfolgs-/Danke-Seite
-   geliefert oder im Quellcode hinterlassen (Auftraggeber versucht ggf. noch, den
-   Original-Quellcode dafür vom vorherigen Dienstleister zu bekommen). Bis dahin: eigene
-   Platzhalter-Erfolgsmeldung nach dem Post/Redirect/Get-Muster zurück auf `/kontakt`
-   (keine neue Route, Core Rule bleibt unangetastet), im 1:1-Stil der restlichen Seite
-   gestaltet und leicht austauschbar, falls Original-Content nachgeliefert wird. Mail-Body:
-   ruhiges, modernes Template, das nur die eingegebenen Daten strukturiert darstellt.
+   **Erfolgszustand:** Von der vorherigen Agentur wurde zunächst keine fertige Erfolgs-/
+   Danke-Seite geliefert oder im Quellcode hinterlassen — Übergangslösung war eine eigene
+   Platzhalter-Erfolgsmeldung per Post/Redirect/Get zurück auf `/kontakt`, ohne neue Route.
+   Der Auftraggeber hat die echte `/danke`-Seite (existierte auf der Live-Seite,
+   `https://dormed.de/danke`) inzwischen selbst nachträglich gescrapped und nachgeliefert —
+   jetzt als reguläre Route/View umgesetzt (`resources/views/danke.blade.php`,
+   `route('danke')`), 1:1 wie jede andere migrierte Seite (Yuuble-Wrapper/`yb-`-Präfixe
+   entfernt, Rest unverändert, `noindex, follow`). Der Kontaktformular-POST redirectet bei
+   Erfolg jetzt dorthin statt auf `/kontakt`; die alte Platzhalter-Erfolgsmeldung in
+   `kontakt.blade.php` wurde entfernt. Mail-Body: ruhiges, modernes Template, das nur die
+   eingegebenen Daten strukturiert darstellt.
 2. **Firmen-Empfänger-Adresse wird nicht separat konfiguriert**, sondern aus der
    SMTP-Absenderadresse (`MAIL_FROM_ADDRESS`) abgeleitet — in diesem Setup sind Sender- und
    Empfänger-Postfach der Firmen-Mail identisch (dieselbe Firmen-Mailbox verschickt die Mail
@@ -316,34 +320,118 @@ werden.
    ursprüngliche Mail ggf. mit in der Historie) — das Template muss entsprechend
    präsentabel/professionell aussehen, nicht wie ein reiner Debug-/Rohdaten-Dump.
 4. Zusätzliche zweite Mail als Eingangsbestätigung an den Kunden.
-5. Versand zunächst synchron (`QUEUE_CONNECTION=sync`). Erst nach Validierung im
-   Produktivbetrieb Umstellung auf Queue diskutieren. Aktuell würde ein Versandfehler (egal
-   welche der beiden Mails) dem Kunden synchron als Fehlerseite angezeigt — das wird hier
-   noch nicht gelöst, siehe Logging-Punkt unten als Zwischenschritt/Beobachtungsinstrument.
-6. Mail-Views unter `resources/views/mail/contact-form/customer.blade.php` und
+5. **CRM-Anbindung an CAS genesisWorld** (bestehendes CRM-System des Auftraggebers, REST-API
+   via OpenAPI/Swagger dokumentiert — ~95 % korrekt, einzelne Endpoints referenzieren
+   fehlerhafte Payload-Schemas, z. B. `CreateDataObject`/`GetDataObject` zeigen fälschlich auf
+   `CheckForContactDuplicatesRequestData`; Response-Schemas für Create/Query sind teils explizit
+   als "currently undocumented" markiert). Jede Formular-Einreichung wird zusätzlich zum
+   Mailversand als Datensatz im CRM angelegt.
+   - **Auth:** Basic Auth (`<username>:<password>`, kein Datenbank-Präfix nötig — anfängliche
+     Annahme eines `<database>/<username>`-Formats war falsch) **plus** `X-CAS-PRODUCT-KEY`-Header,
+     zentral über vier Env-Vars: `CAS_GENESIS_WORLD_HOST`,
+     `CAS_GENESIS_WORLD_USERNAME`, `CAS_GENESIS_WORLD_PASSWORD`,
+     `CAS_GENESIS_WORLD_PRODUCT_KEY`.
+   - **Client:** schlanker eigener Service (`app/Services/Cas/CasClient.php` o. ä.) um Laravels
+     `Http`-Facade, kein zusätzliches Composer-Paket. Vermerkt als bewusste Anfangsentscheidung
+     für eine einzelne Integration — bei mehreren CRM-Anbindungen später ggf. Wechsel auf
+     [Saloon](https://docs.saloon.dev/) (typisierte Connector/Request-Klassen) erwägen, dann
+     aber nur mit Rücksprache (neue Dependency).
+   - **Payload-Format** (per CAS-eigener API-Doku verifiziert, nicht per Swagger — die Felder
+     dürfen **nicht** flach im Body stehen, sonst `400 ILLEGAL_ARGUMENT_VALUE`): Create/Update
+     erwarten `{"fields": {"Name": ..., "MAIL": ..., ...}}`, mit `fields` als einzig erlaubtem
+     Top-Level-Key neben den (hier ungenutzten) Permission-Keys.
+   - **Ziel-Tabelle `Inquiries`** (im CRM angelegt; Feldnamen/Typen/Längen wie tatsächlich
+     angelegt, nicht wie ursprünglich vorgeschlagen — `Name`/`CALLBACK_REQUEST`/`MAIL_STATUS`
+     weichen vom ersten Entwurf ab):
+
+     | CAS-Feld | Typ | Länge | Formularfeld | Pflicht |
+     |---|---|---|---|---|
+     | `Name` | varchar | 128 | `name` | ja |
+     | `MAIL` | varchar | 64 | `email` | ja |
+     | `PHONE` | varchar | 32 | `telefon` | nein |
+     | `ZIP` | varchar | 8 | `plz` | ja |
+     | `MESSAGE` | varchar(max) | max | `nachricht` | nein |
+     | `COMPANY` | varchar | 64 | `praxis` | nein |
+     | `SPECIALTY` | varchar | 64 | `fachgebiet` | nein |
+     | `CALLBACK_REQUEST` | bit | fix | `rueckruf` | — |
+     | `CALLBACK_DATE` | date | fix | `rueckruf_datum` | nein |
+     | `MAIL_STATUS` | bigint | fix | **ungenutzt** (s. u.) | — |
+
+     `datenschutz` (DSGVO-Checkbox) wird **nicht** übernommen — reine
+     Absende-Voraussetzung, keine CRM-relevante Information. `CREATED_AT`/vergleichbares wird
+     vom CRM selbst automatisch geführt, kein eigenes Datumsfeld dafür nötig. Die
+     Formular-Validierung (`ContactFormRequest`) hält sich an die CAS-Feldlängen (`name` max.
+     128, `email`/`praxis`/`fachgebiet` max. 64, `telefon` max. 32), damit CAS nichts
+     abschneidet oder ablehnt. `MAIL_STATUS` existiert als Feld im CRM, wird aber von uns nicht
+     (mehr) beschrieben — ursprünglich als Rückmeldung des Mailversands per PUT geplant, dieser
+     PUT wurde später bewusst wieder entfernt (s. Punkt 6).
+   - **GUID-Extraktion ist rein informativ:** die POST-Response wird auf einen plausiblen
+     GUID-Feldnamen geprüft (`GGUID` bevorzugt, passend zur durchgängigen
+     `dataObjectGGUID`-Namenskonvention der API; Fallback-Kandidaten `guid`/`id`, sowie der
+     `Location`-Response-Header bei leerem Body — CAS antwortet auf ein erfolgreiches Create mit
+     `201 Created` und leerem Body, die GUID steht dann im letzten Pfad-Segment von `Location`).
+     Da niemand mehr die GUID braucht (kein PUT mehr, s. Punkt 6), zählt ein erfolgreicher
+     CAS-Request auch dann als Erfolg, wenn keine GUID extrahiert werden konnte — nur eine
+     Warnung in `api.log`, kein Job-Fehlschlag.
+6. **Zwei unabhängige Jobs statt einer Job-Kette** — ursprünglich als Kette geplant (Mail erst
+   nach erfolgreichem CAS-Anlegen, Job 2 bekommt die GUID von Job 1 und meldet den
+   Mail-Erfolg per PUT zurück), nach Rücksprache bewusst vereinfacht: der PUT auf
+   `MAIL_STATUS` wurde ersatzlos gestrichen, damit entfällt auch die GUID-Weitergabe
+   zwischen den Jobs, und beide werden direkt und unabhängig voneinander aus dem Controller
+   dispatcht:
+   - **`CreateInquiryInCas`** legt den `Inquiries`-Datensatz per CAS-POST an, kennt
+     `SendInquiryMails` nicht. Nutzt `retryUntil()` (zeitbasiert, nicht feste Versuchsanzahl) —
+     Hintergrund: der CAS-Server rebootet nachts ca. eine Stunde, eine Einreichung um
+     Mitternacht muss diese Downtime überstehen und darf nicht als endgültig fehlgeschlagen
+     gelten, nur weil eine feste Versuchsanzahl aufgebraucht ist.
+   - **`SendInquiryMails`** verschickt Firmen- und Kunden-Mail, kennt CAS nicht (kein
+     `CasClient` als Dependency). Eigenes `retryUntil()`, unabhängig von `CreateInquiryInCas`
+     (z. B. wenn nur der Mailversand kurz klemmt) — läuft parallel, nicht nacheinander.
+   - **Akzeptiertes Restrisiko** (nur noch für `CreateInquiryInCas` relevant, da kein PUT mehr
+     existiert): verarbeitet CAS den POST serverseitig, geht die Antwort aber genau im
+     Reboot-Moment verloren, wertet der Job das als Fehlschlag und legt beim Retry einen
+     zweiten Datensatz an. Ohne Idempotency-Key-Unterstützung auf CAS-Seite (in der Swagger
+     nicht vorhanden) nicht zu 100 % vermeidbar — bewusst akzeptiert statt überentwickelt.
+   - **Queue-Infrastruktur:** `QUEUE_CONNECTION=database` (ersetzt die bisherige
+     `sync`-Annahme aus Phase 2) — die `jobs`/`failed_jobs`-Migration, die in Phase 2 mangels
+     Bedarf gelöscht wurde, muss dafür wiederhergestellt werden. **Abarbeitung per Cron**
+     (`php artisan queue:work --stop-when-empty`, alle 1–2 Minuten) statt dauerhaft laufendem
+     Supervisor-Prozess — passt zu "kein Dauerprozess" (Core Rule 5) und lässt sich später ohne
+     Codeänderung auf einen echten Worker umstellen, falls gewünscht (dieselbe Queue, nur eine
+     andere Art sie abzuarbeiten).
+7. Mail-Views unter `resources/views/mail/contact-form/customer.blade.php` und
    `resources/views/mail/contact-form/company.blade.php` (Laravel-Konvention ist
    `resources/views/mail/...`, nicht `resources/mail/...` — entsprechend korrigiert).
-7. **Eigenes Log `storage/logs/contact-form.log`**, das **jede** Formular-Einreichung
-   protokolliert (nicht nur Fehler) — ein eigener Log-Channel, getrennt vom normalen
-   Laravel-Log. Eine Zeile pro Einreichung, Format:
-   ```
-   [TT.MM.JJJJ HH:MM:SS] Anfrage von {NAME} | Mailversand an {Kunden-E-Mail} {✓|✗}
-   ```
-   Zeitstempel deutsch/menschenlesbar (nicht ISO), Status-Zeichen (✓/✗, UTF-8) bezieht sich
-   **nur auf den Mailversand an den Kunden** (Eingangsbestätigung aus Punkt 4) — für den
-   Versand an die Firma wird erstmal angenommen, dass er funktioniert bzw. sich über das
-   Firmen-Postfach selbst abgleichen lässt, daher kein separater Status dafür nötig. Zweck
-   ist langfristige Beobachtung/Abgleich, nicht das synchrone Fehlerproblem aus Punkt 5 zu
-   lösen — das bleibt ein offener Punkt für später (z. B. wenn auf Queue umgestellt wird).
-8. Feature-Tests für die komplette Formular-Logik: Validierungsfehler, Erfolgsfall,
-   beide Mails werden verschickt (`Mail::fake()` + Assertions), inkl. Log-Eintrag pro
-   Einreichung (Erfolgs- und Fehlerfall für den Kunden-Mailversand).
+8. **Zwei getrennte Logs**, bewusst nicht in einem File vermischt, da unterschiedliche
+   Betrachtungsebenen:
+   - **`storage/logs/mail.log`** — Mail-Funnel, geschrieben von `SendInquiryMails`, **jede**
+     Einreichung eine Zeile:
+     ```
+     [TT.MM.JJJJ HH:MM:SS] Anfrage von {NAME} | Mailversand an {Kunden-E-Mail} {✓|✗}
+     ```
+     Zeitstempel deutsch/menschenlesbar (nicht ISO), Status bezieht sich nur auf den
+     Mailversand an den Kunden. (Hieß in einer früheren Version `contact-form.log`.)
+   - **`storage/logs/api.log`** — CRM-Anbindung generell (nicht nur Kontaktformular-spezifisch,
+     wird bei künftigen weiteren CAS-Anbindungen mitgenutzt), geschrieben von `CreateInquiryInCas`
+     über `CasClient`: jeder CAS-Request/-Response (inkl. roher GUID-Extraktion, s. o.), jeder
+     Fehlschlag/Retry.
+   - Alles Rahmenwerk-Interne (unerwartete Exceptions, Framework-Fehler) läuft unverändert über
+     den Standard-Kanal in `storage/logs/laravel.log`.
+9. Feature-Tests für die komplette Logik: Validierungsfehler, Erfolgsfall dispatcht beide Jobs
+   unabhängig (`Bus::fake()` + Assertions), beide Mails werden verschickt (`Mail::fake()`),
+   CAS-Calls gemockt (`Http::fake()`), inkl. Log-Einträge in beiden Logs für Erfolgs- und
+   Fehlerfälle.
 
-### Phase-4-Abschlusskriterium
+### Phase-4-Abschlusskriterium — ✅ erreicht
 
 Kontaktformular versendet echte E-Mails (Firma + Kunde) mit Reply-To auf die Kunden-Adresse
-bei der Firmen-Mail, TODO-Marker ist entfernt, jede Einreichung landet als eine Zeile in
-`contact-form.log` im vereinbarten Format, Tests grün.
+bei der Firmen-Mail, TODO-Marker ist entfernt, jede Einreichung landet zusätzlich als
+`Inquiries`-Datensatz im CAS-CRM (unabhängig vom Mailversand), jede Einreichung erzeugt eine
+Zeile in `mail.log` und die zugehörigen CAS-Calls in `api.log`, Cron-basierte
+Queue-Abarbeitung läuft, Tests grün. Erfolgreicher End-to-End-Test auf
+`dormed.everding.it` am 28.07.2026 bestätigt (Mail kam in beiden Postfächern an). Echte
+`/danke`-Seite (statt Platzhalter) ergänzt, nachdem der Auftraggeber den Original-Content
+nachgeliefert hat.
 
 ---
 
