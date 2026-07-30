@@ -52,7 +52,7 @@ Route::view('/hersteller/mindray', 'hersteller.mindray')->name('hersteller.mindr
 Route::view('/', 'index')->name('index');
 Route::view('/karriere', 'karriere')->name('karriere');
 Route::view('/kontakt', 'kontakt')->name('kontakt');
-Route::post('/kontakt', [ContactFormController::class, 'store'])->name('kontakt.store');
+Route::post('/kontakt', [ContactFormController::class, 'store'])->middleware('throttle:3,1')->name('kontakt.store');
 Route::view('/leistungen/beratung', 'leistungen.beratung')->name('leistungen.beratung');
 Route::view('/leistungen/finanzierung', 'leistungen.finanzierung')->name('leistungen.finanzierung');
 Route::view('/leistungen/garantie-versicherung', 'leistungen.garantie-versicherung')->name('leistungen.garantie-versicherung');
