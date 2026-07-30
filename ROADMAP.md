@@ -491,6 +491,23 @@ spooft dafür `navigator.webdriver`, um reales Nutzerverhalten zu simulieren.
      zuerst, der Deploy-Job hängt per `needs:` (Job-Dependency) davon ab und läuft nur bei
      grünem Lint/Test-Durchlauf. Der Auftraggeber liefert dafür ein nahezu fertiges
      Workflow-Template mit 1–2 noch offenen Anpassungen.
+     - **Teilumsetzung:** `.github/workflows/deploy.yml` existiert (abgeleitet vom
+       Auftraggeber-Template eines anderen Projekts, dort mit Inertia/Svelte/SSR/
+       Wayfinder — hier komplett rausgenommen, da bei uns nicht vorhanden). Zielserver ist
+       aktuell **`test.dormed.de`**, kein Docker/Nixpacks, klassischer VPS mit SSH-Deploy
+       (`git pull --ff-only`, `composer install --no-dev`, `npm run build`,
+       `migrate --force`, Schreibrechte-Fix für `storage`/`bootstrap/cache`/`database`
+       analog zum SQLite-Permission-Problem aus Phase 4). Kein Cron-Neustart nötig (anders
+       als bei einem SSR-Node-Prozess) — `schedule:run` per Cron zieht sich bei jedem Tick
+       automatisch neuen Code, da es kein Dauerprozess ist.
+       **Noch offen:** Lint/Test-Gate (`needs: [tests, lint]`) ist bewusst noch nicht
+       eingebaut, da `.github/workflows/tests.yml`/`lint.yml` noch nicht existieren — folgt
+       separat. Server-seitige Voraussetzungen für den ersten Deploy: `.env` muss vor dem
+       ersten Lauf manuell mit Produktionswerten angelegt sein (Deploy erzeugt sie nicht),
+       der `deploy`-User braucht einen eigenen SSH-Key mit Leserechten auf dieses
+       GitHub-Repo (für den Erst-Klon in das noch leere Zielverzeichnis), und der Cronjob
+       `* * * * * php artisan schedule:run` fehlt auf dem Server noch (wird separat
+       eingerichtet, sobald der Rest validiert ist).
    - **`claude`** → weiterhin die **Dev-Umgebung** (Coolify), aber der Trigger läuft jetzt
      ebenfalls über GitHub Actions statt über Coolifys eigene Branch-Watch-Funktion: bei
      Push auf `claude` ruft der Workflow lediglich Coolifys Deploy-Webhook per HTTP auf
