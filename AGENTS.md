@@ -299,7 +299,6 @@ offene Frage.
   anfassen ohne explizite Aufforderung.
 - Längerfristig relevant, aber noch nicht spezifiziert genug für eine eigene Phase:
   externe System-Integration für Veranstaltungen (Push-Webhook oder Pull/Polling?, nur
-  Veranstaltungen oder mittelfristig auch der Produktkatalog?), ob/wann ein
-  Admin-Backend für nicht-technische Content-Pflege gebraucht wird (z. B. Laravel +
-  Filament), SonoFinder-Tool (aktuell toter Formular-Stub, Entscheidung Alpine.js vs.
-  Livewire hängt von der noch unklaren fachlichen Anforderung ab).
+  Veranstaltungen oder mittelfristig auch der Produktkatalog?), SonoFinder-Tool (aktuell
+  toter Formular-Stub, Entscheidung Alpine.js vs. Livewire hängt von der noch unklaren
+  fachlichen Anforderung ab).

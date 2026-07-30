@@ -92,6 +92,16 @@ test('contact form requires name, email, plz and datenschutz consent', function 
     Bus::assertNothingDispatched();
 });
 
+test('the contact form is rate limited to 3 submissions per minute', function () {
+    Bus::fake();
+
+    for ($i = 0; $i < 3; $i++) {
+        $this->post(route('kontakt.store'), validContactFormData())->assertRedirect(route('danke'));
+    }
+
+    $this->post(route('kontakt.store'), validContactFormData())->assertStatus(429);
+});
+
 test('valid submission dispatches CreateInquiryInCas and SendInquiryMails independently and redirects to the danke page', function () {
     Bus::fake();
 

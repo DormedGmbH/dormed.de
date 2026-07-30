@@ -542,9 +542,6 @@ Phase — wird nachgezogen, sobald die offenen Fragen geklärt sind:
 - **Externe System-Integration für Veranstaltungen** (HTML-Caching-Layer): Läuft die
   Anbindung als Push (Webhook ans System) oder Pull (wir pollen die API des externen
   Systems)? Betrifft das nur Veranstaltungen, oder mittelfristig auch den Produktkatalog?
-- **Langfristige Content-Pflege:** Bleibt das bei euch/Entwicklern über Git, oder braucht
-  es ein Interface für nicht-technisches Personal (z. B. Laravel + Filament)? Entscheidet,
-  ob und wann ein Admin-Backend gebraucht wird.
 - **Allgemeine Automatisierungs-Vorhaben** — noch nicht konkretisiert, laut Auftraggeber
   "kommt vielleicht, vielleicht auch nicht".
 - **SonoFinder:** aktuell ebenfalls nur ein toter Formular-Stub (TODO-Marker). Sobald klar
