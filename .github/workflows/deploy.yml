@@ -1,0 +1,149 @@
+name: deploy
+
+# Deploy nach test.dormed.de - kein Docker/Nixpacks, klassischer VPS mit
+# nginx/PHP-FPM/systemd, kein Inertia/SSR/Wayfinder (anders als beim
+# Referenz-Workflow, von dem das hier abgeleitet ist).
+#
+# TODO: Test-/Lint-Gate folgt spaeter (siehe AGENTS.md/ROADMAP.md Phase 6) -
+# bis dahin deployt dieser Workflow direkt ohne vorgeschaltete Pruefung.
+on:
+  push:
+    branches: [main]
+  # Manuell nachtriggerbar, ohne neuen Commit (Actions -> deploy -> Run workflow).
+  workflow_dispatch:
+
+# Nie zwei Deploys gleichzeitig auf denselben Server; laufende Deploys werden
+# NICHT abgebrochen (ein halber Deploy waere schlimmer als ein Warten).
+concurrency:
+  group: deploy-test-dormed
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: SSH-Key und Host-Verifikation einrichten
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          # Host-Key aus den Variables: verhindert MITM. OHNE das muesste man
+          # StrictHostKeyChecking abschalten - das waere unsicher.
+          printf '%s\n' "${{ vars.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Deploy per SSH (User "deploy", niemals root/www-data)
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER }}
+          DEPLOY_PATH: ${{ vars.DEPLOY_PATH }}
+          REPO: ${{ github.repository }}
+        run: |
+          ssh -i ~/.ssh/deploy_key \
+              -o StrictHostKeyChecking=yes \
+              "${DEPLOY_USER}@${DEPLOY_HOST}" \
+              "DEPLOY_PATH='${DEPLOY_PATH}' REPO='${REPO}' bash -s" <<'REMOTE'
+          set -euo pipefail
+
+          echo "::group::Umgebung"
+          # Non-interaktive SSH-Sessions laden ~/.bashrc oft nicht -> nvm/node
+          # fehlen dann im PATH. Deshalb hier hart pruefen statt kryptisch zu
+          # scheitern.
+          for cmd in git composer npm node php; do
+            command -v "$cmd" >/dev/null 2>&1 || { echo "FEHLT im PATH des deploy-Users: $cmd"; exit 1; }
+          done
+          echo "node:     $(node --version)"
+          echo "php:      $(php --version | head -1)"
+          echo "composer: $(composer --version)"
+          echo "::endgroup::"
+
+          echo "::group::Code aktualisieren"
+          mkdir -p "${DEPLOY_PATH}"
+          cd "${DEPLOY_PATH}"
+          if [ -d .git ]; then
+            # --ff-only: bricht ab statt zu mergen, falls der Server lokale
+            # Commits/Divergenzen hat. Lieber ein roter Deploy als Merge-Chaos.
+            git pull --ff-only
+          else
+            # Leeres Zielverzeichnis (erster Deploy) - klonen statt pullen.
+            # Setzt voraus, dass der deploy-User per eigenem SSH-Key
+            # Lesezugriff auf dieses GitHub-Repo hat (Deploy Key o. ae.) -
+            # das ist ein anderer Key als DEPLOY_SSH_KEY oben, der nur fuer
+            # den Zugriff GitHub-Runner -> Server gilt.
+            echo "Leeres Zielverzeichnis - klone Repository frisch."
+            git clone --branch main "git@github.com:${REPO}.git" .
+          fi
+          echo "::endgroup::"
+
+          echo "::group::.env pruefen"
+          # Wird bewusst NICHT vom Deploy erzeugt (enthaelt Produktions-Secrets:
+          # APP_KEY, DB, CAS_GENESIS_WORLD_*, SMTP) - muss vor dem allerersten
+          # Deploy einmalig manuell auf dem Server angelegt sein.
+          test -f .env || { echo "FEHLT: .env existiert nicht in ${DEPLOY_PATH} - vor dem ersten Deploy manuell anlegen."; exit 1; }
+          echo "::endgroup::"
+
+          echo "::group::Dependencies"
+          composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
+          npm ci
+          echo "::endgroup::"
+
+          echo "::group::Alte Caches leeren (MUSS vor jedem artisan-Aufruf passieren)"
+          # Die gecachten config/routes/views stammen noch vom VORIGEN Release.
+          # Nach dem git pull zeigen sie ggf. auf geloeschte Klassen oder
+          # entfernte Routen -> jeder artisan-Aufruf bootet sonst gegen einen
+          # kaputten Cache.
+          php artisan optimize:clear
+          echo "::endgroup::"
+
+          echo "::group::SQLite-Datenbankdatei sicherstellen"
+          # database/database.sqlite ist gitignored, existiert nach einem
+          # frischen Klon also nicht. Laravel fragt bei "migrate" interaktiv
+          # nach, ob es die Datei anlegen soll - in einer nicht-interaktiven
+          # SSH-Session ist das Verhalten unklar. Deshalb hier explizit und
+          # idempotent selbst anlegen, statt uns darauf zu verlassen.
+          mkdir -p database
+          touch database/database.sqlite
+          echo "::endgroup::"
+
+          echo "::group::Frontend bauen"
+          npm run build
+          echo "::endgroup::"
+
+          echo "::group::Migrationen + Caches neu aufbauen"
+          # WICHTIG: "migrate --force" spielt nur NEUE Migrationen ein und
+          # loescht NIEMALS Daten. Ein "migrate:fresh" (Reset) passiert bewusst
+          # NUR manuell auf dem Server, nie im Deploy.
+          php artisan migrate --force
+          # Erst hier neu cachen - mit dem frischen Code UND der aktuellen .env.
+          php artisan optimize
+          echo "::endgroup::"
+
+          echo "::group::Schreibrechte fuer den Webserver-User sicherstellen"
+          # artisan/npm legen Dateien mit umask 022 an -> 644/755, der
+          # Webserver-User (PHP-FPM-Pool) haette dann nur Lesezugriff.
+          # Betroffen:
+          #  - storage/logs      (Laravel will bei jedem Fehler schreiben)
+          #  - bootstrap/cache
+          #  - database/         SQLite! Datei UND Verzeichnis muessen
+          #    schreibbar sein (SQLite legt -wal/-shm/Journal-Dateien daneben
+          #    an), und wegen SESSION_DRIVER=database + CACHE_STORE=database
+          #    schreibt JEDER Request in die DB - fehlt das, HTTP 500 auf
+          #    jeder Seite (das haben wir in Phase 4 live durchlitten).
+          # Setzt voraus, dass deploy-User und Webserver-User dieselbe Gruppe
+          # teilen (einmalig server-seitig einzurichten) - sonst reicht
+          # chmod g+w nicht und es braucht zusaetzlich chown/chgrp.
+          chmod -R g+w storage bootstrap/cache database 2>/dev/null || true
+          echo "::endgroup::"
+
+          echo "✅ Deploy abgeschlossen: $(git rev-parse --short HEAD)"
+          REMOTE
+
+      - name: SSH-Key entfernen
+        if: always()
+        run: rm -f ~/.ssh/deploy_key

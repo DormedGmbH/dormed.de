@@ -207,27 +207,51 @@ angelegt, nicht nur gemailt.
   exakt im Reboot-Moment verloren, kann ein Retry einen doppelten Datensatz erzeugen (kein
   Idempotency-Key-Support in der API). Bewusst nicht weiter abgesichert.
 
+## Consent-Management (Cookies) — implementiert
+
+Umgesetzt in Phase 5.
+
+- `vanilla-cookieconsent` (Orestbida, MIT) als reiner Logik-Layer (Kategorien,
+  Consent-State, Re-Prompt bei Policy-Änderung, `onFirstConsent`/`onConsent`/`onChange`-
+  Hooks) — kein vorgefertigtes UI/Popup. Alternative Klaro!, falls später viele granular
+  togglebare Drittanbieter-Dienste dazukommen.
+  - **Wichtig:** der separate, GUI-lose "core"-Build
+    (`vanilla-cookieconsent/dist/core/...`) wirft beim `run()` einen Fehler (upstream-Bug,
+    ein internes Feld wird dort nie gesetzt). Stattdessen wird der reguläre Full-Build
+    importiert (`import * as CookieConsent from 'vanilla-cookieconsent'`) — mit
+    `autoShow: false` und `lazyHtmlGeneration` (Default `true`) erzeugt der auch ohne
+    `core`-Build kein eigenes Modal-DOM, solange `show()`/`showPreferences()` nie
+    aufgerufen werden. Siehe Kommentar in `resources/js/consent.js`.
+  - `hideFromBots` bleibt auf Default (`true`) — wichtig für SEO/Crawler, aber Vorsicht bei
+    Browser-Tests: Playwright setzt `navigator.webdriver = true`, was denselben Kurzschluss
+    auslöst wie ein echter Bot (Consent wird dann nie als gültig gewertet). Für Tests mit
+    `page.addInitScript(() => Object.defineProperty(navigator, 'webdriver', { get: () =>
+    false }))` gegensteuern, statt `hideFromBots` selbst zu verändern.
+- Eigenes, **dezentes** Banner-Markup (`resources/views/components/layout/
+  consent-banner.blade.php`), kein vollflächiges Modal, eingebunden über die
+  Layout-Komponente. Styling 1:1 aus den bestehenden Design-Tokens abgeleitet (Farben/
+  Schriftarten aus `.nav__wrap`/`.footer__wrap` in `resources/css/style.css` — kein neues
+  globales `:root`, sondern lokal auf `.consent-banner` gescopte Custom Properties, wie es
+  auch die übrigen Komponenten handhaben).
+- **Consent-Entscheidung wird ausschließlich in einem eigenen, langlebigen Browser-Cookie
+  gespeichert** (`cc_cookie`, Library-Default, 182 Tage), nicht in der Laravel-DB-Session
+  (Core Rule 4) — das ist bereits das Standardverhalten der Library, dafür war keine
+  zusätzliche eigene Logik nötig. Grund fürs Cookie statt Session: Sessions leben in der
+  `sessions`-Tabelle der SQLite-DB, die bei `migrate:fresh` (z. B. automatisiert bei
+  Redeploys) komplett geleert wird — ein eigener Cookie bleibt davon unabhängig über
+  Deploys hinweg gültig.
+- Kategorien-Grundgerüst (`necessary` readOnly/`analytics`/`marketing`) ohne konkrete
+  Dienste, bis tatsächlich wieder getrackt wird. `revision: 0` als Basis für künftiges
+  Re-Prompting bei Policy-Änderung (hochzählen, sobald sich Kategorien/Zweck ändern).
+- SSR-Helper zum serverseitigen Gaten von Drittanbieter-Embeds (z. B. Maps) anhand des
+  Consent-Cookies: **zurückgestellt**, da aktuell kein aktives Embed existiert, das davon
+  profitieren würde. Nachziehen, sobald eins eingebunden wird.
+
 ## Geplante, aber noch nicht umgesetzte Spezifikationen
 
 Bereits mit dem Auftraggeber abgestimmte Entscheidungen für Phasen, die noch nicht gebaut
 sind — bei Umsetzung gilt das hier Beschriebene als vereinbarter Startpunkt, nicht als
 offene Frage.
-
-### Consent-Management (Cookies)
-
-- `vanilla-cookieconsent` (Orestbida, MIT) als reiner Logik-Layer (Kategorien,
-  Consent-State, Re-Prompt bei Policy-Änderung, `onAccept`/`onChange`-Hooks) — kein
-  vorgefertigtes UI/Popup. Alternative Klaro!, falls später viele granular togglebare
-  Drittanbieter-Dienste dazukommen.
-- Eigenes, **dezentes** Banner-Markup, kein vollflächiges Modal, gestylt mit den zentralen
-  globalen Styles, eingebunden über die Layout-Komponente.
-- **Consent-Entscheidung wird ausschließlich in einem eigenen, langlebigen Browser-Cookie
-  gespeichert**, nicht in der Laravel-DB-Session (Core Rule 4). Grund: Sessions leben in
-  der `sessions`-Tabelle der SQLite-DB, die bei `migrate:fresh` (z. B. automatisiert bei
-  Redeploys) komplett geleert wird — ein eigener Cookie bleibt davon unabhängig über
-  Deploys hinweg gültig.
-- Kategorien-Grundgerüst (necessary/analytics/marketing) ohne konkrete Dienste, bis
-  tatsächlich wieder getrackt wird.
 
 ### CI/CD & Launch
 
