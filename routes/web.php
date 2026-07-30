@@ -16,6 +16,19 @@ Route::get('/sitemap-system-pages.xml', function () {
         ->header('Content-Type', 'application/xml');
 })->name('sitemap.system-pages');
 
+// KI-Crawler-Alternative je Produktseite: /ultraschallgeraete/{...}.md liefert die
+// Markdown-Datei aus, die direkt neben der zugehoerigen Blade-View liegt
+// (resources/views/ultraschallgeraete/{...}.md) - existiert nur fuer Produkte, die
+// bereits ein Markdown-Kurzprofil haben, sonst 404.
+Route::get('/ultraschallgeraete/{path}.md', function (string $path) {
+    $file = resource_path("views/ultraschallgeraete/{$path}.md");
+
+    abort_unless(is_file($file), 404);
+
+    return response(file_get_contents($file))
+        ->header('Content-Type', 'text/markdown; charset=UTF-8');
+})->where('path', '[a-z0-9\-\/]+')->name('ultraschallgeraete.markdown');
+
 Route::view('/blog', 'blog.index')->name('blog.index');
 Route::view('/danke', 'danke')->name('danke');
 Route::view('/fuer/allgemeinmedizin', 'fuer.allgemeinmedizin.index')->name('fuer.allgemeinmedizin.index');
